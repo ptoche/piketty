@@ -1,0 +1,33 @@
+<header>
+  <!-- <h1>{{{ page.title }}}</h1>
+  <p>{{{ page.subtitle }}}</p>
+  -->
+   <img width='150px' src='{{page.url.assets}}/img/{{site.biglogo}}'></img>
+  {{# page.github }}
+  <p class="view">
+    <!-- <a href="http://github.com/{{user}}/{{repo}}">
+     View the Project on GitHub <small>{{user}}/{{repo}}</small>
+    </a>
+    <img width='150px' src='{{page.url.assets}}/img/{{site.biglogo}}'></img>
+    -->
+  </p>
+  <ul class='buttons'>
+    <li><a href="https://github.com/{{user}}/{{repo}}/zipball/{{branch}}">
+      Download <strong>ZIP File</strong>
+    </a></li>
+    <li><a href="https://github.com/{{user}}/{{repo}}/tarball/{{branch}}">
+      Download <strong>TAR Ball</strong>
+    </a></li>
+    <li><a href="http://github.com/{{user}}/{{repo}}">
+      Fork On <strong>GitHub</strong></a>
+    </li>
+  </ul>
+  {{/ page.github }}
+    <ol>
+    {{# page.menu }}
+      <p>{{{ . }}}</p>
+    {{/ page.menu }}
+    </ol>
+</header>
+
+

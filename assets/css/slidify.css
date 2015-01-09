@@ -1,0 +1,20 @@
+.title {
+  font-size: 9pt; 
+  background-color: #EDE0CF; /* #CA9F9D; #EF5150;*/
+  color: #535E43;
+}
+
+.title-slide {
+  font-size: 9pt; 
+  background-color: #CBE7A5; /* #EDE0CF; #CA9F9D; #EF5150;*/
+}
+
+.title-slide hgroup > h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 9pt;
+  color: #535E43 ;
+}
+.title-slide hgroup > h2{
+  font-family: 'Oswald', 'Calibri', sans-serif; 
+  font-size: 9pt;
+}

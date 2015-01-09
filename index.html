@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Piketty's Capital</title>
+    <link rel="stylesheet" href="libraries/frameworks/minimal/stylesheets/styles.css">
+    <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/solarized_light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+        <link rel=stylesheet href="libraries/widgets/nvd3/css/nv.d3.css"></link>
+<link rel=stylesheet href="libraries/widgets/nvd3/css/rNVD3.css"></link>
+<link rel=stylesheet href="libraries/widgets/morris/css/morris.css"></link>
+<link rel=stylesheet href="./assets/css/gh-buttons.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+<link rel=stylesheet href="./assets/css/shared.css"></link>
+<link rel=stylesheet href="./assets/css/slidify.css"></link>
+
+    <script src="libraries/widgets/nvd3/js/jquery-1.8.2.min.js"></script>
+<script src="libraries/widgets/nvd3/js/d3.v3.min.js"></script>
+<script src="libraries/widgets/nvd3/js/nv.d3.min-new.js"></script>
+<script src="libraries/widgets/nvd3/js/fisheye.js"></script>
+<script src="libraries/widgets/morris/js/raphael-2.1.0.min.js"></script>
+<script src="libraries/widgets/morris/js/morris.min.js"></script>
+<script src="libraries/widgets/highcharts/js/jquery-1.9.1.min.js"></script>
+<script src="libraries/widgets/highcharts/js/highcharts.js"></script>
+<script src="libraries/widgets/highcharts/js/highcharts-more.js"></script>
+<script src="libraries/widgets/highcharts/js/exporting.js"></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+<header>
+  <!-- <h1>Piketty's Capital</h1>
+  <p>(Selected figures and tables)</p>
+  -->
+   <img width='150px' src='assets/img/'></img>
+  <p class="view">
+    <!-- <a href="http://github.com/patricktoche/piketty">
+     View the Project on GitHub <small>patricktoche/piketty</small>
+    </a>
+    <img width='150px' src='assets/img/'></img>
+    -->
+  </p>
+  <ul class='buttons'>
+    <li><a href="https://github.com/patricktoche/piketty/zipball/gh-pages">
+      Download <strong>ZIP File</strong>
+    </a></li>
+    <li><a href="https://github.com/patricktoche/piketty/tarball/gh-pages">
+      Download <strong>TAR Ball</strong>
+    </a></li>
+    <li><a href="http://github.com/patricktoche/piketty">
+      Fork On <strong>GitHub</strong></a>
+    </li>
+  </ul>
+    <ol>
+    </ol>
+</header>
+
+      <section>
+        
+
+<h4>Notes to accompany Thomas Piketty, Capital in the Twenty-First Century (Harvard University Press, 2014)</h4>
+<ul>
+<li>This is a website to display material related to Thomas Piketty, Capital in the 21st Century (Harvard University Press, 2014), in particular data, tables and figures. </li>
+<li>This project was started in January 2015 and is expected to be updated on a weekly basis until May 2015.</li>
+</ul>
+
+<h2>Content</h2>
+<ol>
+<li><a href="lectures/Chapter%2001/index.html">Chapter 01 : Income and Output</a></li>
+<li><a href="lectures/Chapter%2002/index.html">Chapter 02 : Growth: Illusions and Realities</a></li>
+<li><a href="lectures/Chapter%2003/index.html">Chapter 03 : The Metamorphoses of Capital</a></li>
+<li><a href="lectures/Chapter%2004/index.html">Chapter 04 : From Old Europe to the New World</a></li>
+<li><a href="lectures/Chapter%2005/index.html">Chapter 05 : The Capital/Income Ratio Over the Long Run</a></li>
+<li><a href="lectures/Chapter%2006/index.html">Chapter 06 : The Capital-Labor Split in the Twenty-First Century</a></li>
+<li><a href="lectures/Piketty2014FiguresTables/index.html">Piketty2014FiguresTables : Income and Output</a></li>
+</ol>
+
+<h3>Reproduce</h3>
+<p>This website is based on the slidify framework. The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the <code>.Rmd</code> source, configure the <code>site.yml</code> and run <code>blogify(&quot;.&quot;)</code> from the root of the folder hierarchy. Slidify will automatically detect all the <code>Rmd</code> files, slidify them, and create all lecture slides along with the index page. </p>
+
+<p>You will need the <code>slidify</code>, <code>slidifyLibraries</code>, `<code>rCharts</code>, and <code>poirot</code> packages.</p>
+
+<pre><code>install.packages(&quot;devtools&quot;)  
+devtools::install_github(c(&quot;slidify&quot;, &quot;slidifyLibraries&quot;, &quot;rCharts&quot;, &quot;poirot&quot;), 
+    &quot;ramnathv&quot;, ref = &quot;dev&quot;)  
+</code></pre>
+
+<p>In addition, I often use the following packages: <code>ggplot2</code>, <code>scales</code>, <code>reshape2</code>, <code>plyr</code>, so you may need to run this for each package:</p>
+
+<pre><code>install.packages(&quot;ggplot2&quot;)
+</code></pre>
+
+<p>Write a short slide deck and publish it to <a href="http://www.github.com">Github</a> with a few clicks using <a href="http://www.rstudio.com">RStudio</a>, with a single line of code.</p>
+
+<p><a class="btn" href="start.html">Learn More &raquo;</a></p>
+
+<h3>Layout</h3>
+
+<p>The <code>lectures</code> folder holds the lecture slides, one subfolder per lecture. The site&#39;s architecture looks like this:</p>
+
+<pre><code>assets      -&gt; put custom img/js/css/layout assets
+lectures    -&gt; folder containing lectures
+  Chapter 01
+  Chapter 02
+  Chapter 03
+libraries   -&gt; frameworks, highlighters and widgets
+index.Rmd   -&gt; Rmd source for home page
+site.yml    -&gt; Site related configuration
+</code></pre>
+
+      </section>
+      <footer>
+        <p>Maintained by <a href="http://github.com/patricktoche">
+          Patrick Toche
+        </a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by 
+          <a href="https://github.com/orderedlist">orderedlist</a></small>
+        </p>
+      </footer>    </div>
+    <script src="libraries/frameworks/minimal/javascripts/scale.fix.js"></script>
+  </body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

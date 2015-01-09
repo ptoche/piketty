@@ -1,0 +1,23 @@
+<slide class="{{ slide.class }}" id="{{ slide.id }}" style="background:{{{ slide.bg }}};">
+  {{# slide.header }}
+  <hgroup>
+    {{{ slide.header}}}
+  </hgroup>
+  {{/ slide.header }}
+  <article data-timings="{{ slide.dt }}">
+    {{{ slide.content }}}
+  </article>
+  <!-- Presenter Notes -->
+  {{# slide.pnotes }}
+  <aside class="note" id="{{ id }}">
+    <section>
+      {{{ html }}}
+    </section>
+  </aside>
+  {{/ slide.pnotes }}
+  <div class='edit-button button-group'>
+    <a href="http://prose.io/#{{site.github.user}}/{{site.github.repo}}/edit/gh-pages/lectures/{{page.lecnum}}/index.Rmd" class="button icon edit">Edit</a>
+    <a href='http://{{site.github.user}}.github.io/{{site.github.repo}}' class="button icon home" target="_self">Home</a>  
+  </div>
+</slide>
+
