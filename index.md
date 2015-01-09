@@ -1,22 +1,20 @@
 ---
 title       : Piketty's Capital
-subtitle    : (Selected figures and tables)
+subtitle    : Selected figures and tables
 author      : Patrick Toche
-framework   : minimal  # {minimal, io2012, html5slides, shower, dzslides, ...}
-hitheme     : solarized_light  # {tomorrow, ...}
+framework   : bootstrap  # {minimal, bootstrap, io2012, html5slides, shower, dzslides, ...}
+hitheme     : solarized_light  # {tomorrow, solarized_light...}
 mode        : selfcontained  # {selfcontained, standalone, draft}
 widgets     : []   # {mathjax, quiz, bootstrap}
 ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]}
-github      : {user: patricktoche, repo: piketty, branch: gh-pages} #css: slidify.css
 ---
+[https://github.com/ptoche/piketty](http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/index.html)
+
+### Notes on Thomas Piketty's Capital
 
 
 
 
-
----
-
-#### Notes to accompany Thomas Piketty, Capital in the Twenty-First Century (Harvard University Press, 2014)
 
 - This is a website to display material related to Thomas Piketty, Capital in the 21st Century (Harvard University Press, 2014), in particular data, tables and figures. 
 - This project was started in January 2015 and is expected to be updated on a weekly basis until May 2015.
@@ -31,17 +29,16 @@ github      : {user: patricktoche, repo: piketty, branch: gh-pages} #css: slidif
 4. [Chapter 04 : From Old Europe to the New World](lectures/Chapter 04/index.html)
 5. [Chapter 05 : The Capital/Income Ratio Over the Long Run](lectures/Chapter 05/index.html)
 6. [Chapter 06 : The Capital-Labor Split in the Twenty-First Century](lectures/Chapter 06/index.html)
-7. [Piketty2014FiguresTables : Income and Output](lectures/Piketty2014FiguresTables/index.html)
 
 ---
 
 ### Reproduce
 This website is based on the slidify framework. The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the `.Rmd` source, configure the `site.yml` and run `blogify(".")` from the root of the folder hierarchy. Slidify will automatically detect all the `Rmd` files, slidify them, and create all lecture slides along with the index page. 
 
-You will need the `slidify`, `slidifyLibraries`, ``rCharts`, and `poirot` packages.
+You will need the `slidify`, `slidifyLibraries` and ``rCharts`, packages.
 
     install.packages("devtools")  
-    devtools::install_github(c("slidify", "slidifyLibraries", "rCharts", "poirot"), 
+    devtools::install_github(c("slidify", "slidifyLibraries", "rCharts"), 
         "ramnathv", ref = "dev")  
 
 In addition, I often use the following packages: ``ggplot2``, ``scales``, ``reshape2``, ``plyr``, so you may need to run this for each package:
@@ -67,3 +64,4 @@ libraries   -> frameworks, highlighters and widgets
 index.Rmd   -> Rmd source for home page
 site.yml    -> Site related configuration
 ```
+

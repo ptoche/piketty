@@ -1,24 +1,41 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Piketty's Capital</title>
-    <link rel="stylesheet" href="libraries/frameworks/minimal/stylesheets/styles.css">
-    <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/solarized_light.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-        <link rel=stylesheet href="libraries/widgets/nvd3/css/nv.d3.css"></link>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Piketty's Capital</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <style>
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  </style>
+  
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap.no-responsive.no-icons.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+<link  rel="stylesheet" 
+    href="http://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css">
+  <link rel="stylesheet" href="libraries/frameworks/bootstrap/css/bootstrap-responsive.min.css">
+  
+  <link rel="stylesheet" href="libraries/frameworks/bootstrap/css/main.css">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/solarized_light.css" />
+  <script src="libraries/frameworks/bootstrap/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/frameworks/bootstrap/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+    <link rel=stylesheet href="libraries/widgets/nvd3/css/nv.d3.css"></link>
 <link rel=stylesheet href="libraries/widgets/nvd3/css/rNVD3.css"></link>
 <link rel=stylesheet href="libraries/widgets/morris/css/morris.css"></link>
+<link rel=stylesheet href="./assets/css/custom.css"></link>
 <link rel=stylesheet href="./assets/css/gh-buttons.css"></link>
 <link rel=stylesheet href="./assets/css/ribbons.css"></link>
-<link rel=stylesheet href="./assets/css/shared.css"></link>
-<link rel=stylesheet href="./assets/css/slidify.css"></link>
 
-    <script src="libraries/widgets/nvd3/js/jquery-1.8.2.min.js"></script>
+  <script src="libraries/widgets/nvd3/js/jquery-1.8.2.min.js"></script>
 <script src="libraries/widgets/nvd3/js/d3.v3.min.js"></script>
 <script src="libraries/widgets/nvd3/js/nv.d3.min-new.js"></script>
 <script src="libraries/widgets/nvd3/js/fisheye.js"></script>
@@ -29,40 +46,24 @@
 <script src="libraries/widgets/highcharts/js/highcharts-more.js"></script>
 <script src="libraries/widgets/highcharts/js/exporting.js"></script>
 
-  </head>
-  <body>
-    <div class="wrapper">
-<header>
-  <!-- <h1>Piketty's Capital</h1>
-  <p>(Selected figures and tables)</p>
-  -->
-   <img width='150px' src='assets/img/'></img>
-  <p class="view">
-    <!-- <a href="http://github.com/patricktoche/piketty">
-     View the Project on GitHub <small>patricktoche/piketty</small>
-    </a>
-    <img width='150px' src='assets/img/'></img>
-    -->
-  </p>
-  <ul class='buttons'>
-    <li><a href="https://github.com/patricktoche/piketty/zipball/gh-pages">
-      Download <strong>ZIP File</strong>
-    </a></li>
-    <li><a href="https://github.com/patricktoche/piketty/tarball/gh-pages">
-      Download <strong>TAR Ball</strong>
-    </a></li>
-    <li><a href="http://github.com/patricktoche/piketty">
-      Fork On <strong>GitHub</strong></a>
-    </li>
-  </ul>
-    <ol>
-    </ol>
-</header>
+</head>
+<body>
+   <!--[if lt IE 7]>
+     <p class="chromeframe">You are using an outdated browser. 
+       <a href="http://browsehappy.com/">Upgrade your browser today</a> or 
+       <a href="http://www.google.com/chromeframe/?redirect=true"> 
+         install Google Chrome Frame
+       </a> to better experience this site.
+    </p>
+   <![endif]-->
+   <!-- Ref: http://twitter.github.com/bootstrap/examples/hero.html -->
+   
+    <div class="container">
+      
+<p><a href="http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/index.html">https://github.com/ptoche/piketty</a></p>
 
-      <section>
-        
+<h3>Notes on Thomas Piketty&#39;s Capital</h3>
 
-<h4>Notes to accompany Thomas Piketty, Capital in the Twenty-First Century (Harvard University Press, 2014)</h4>
 <ul>
 <li>This is a website to display material related to Thomas Piketty, Capital in the 21st Century (Harvard University Press, 2014), in particular data, tables and figures. </li>
 <li>This project was started in January 2015 and is expected to be updated on a weekly basis until May 2015.</li>
@@ -76,16 +77,15 @@
 <li><a href="lectures/Chapter%2004/index.html">Chapter 04 : From Old Europe to the New World</a></li>
 <li><a href="lectures/Chapter%2005/index.html">Chapter 05 : The Capital/Income Ratio Over the Long Run</a></li>
 <li><a href="lectures/Chapter%2006/index.html">Chapter 06 : The Capital-Labor Split in the Twenty-First Century</a></li>
-<li><a href="lectures/Piketty2014FiguresTables/index.html">Piketty2014FiguresTables : Income and Output</a></li>
 </ol>
 
 <h3>Reproduce</h3>
 <p>This website is based on the slidify framework. The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the <code>.Rmd</code> source, configure the <code>site.yml</code> and run <code>blogify(&quot;.&quot;)</code> from the root of the folder hierarchy. Slidify will automatically detect all the <code>Rmd</code> files, slidify them, and create all lecture slides along with the index page. </p>
 
-<p>You will need the <code>slidify</code>, <code>slidifyLibraries</code>, `<code>rCharts</code>, and <code>poirot</code> packages.</p>
+<p>You will need the <code>slidify</code>, <code>slidifyLibraries</code> and `<code>rCharts</code>, packages.</p>
 
 <pre><code>install.packages(&quot;devtools&quot;)  
-devtools::install_github(c(&quot;slidify&quot;, &quot;slidifyLibraries&quot;, &quot;rCharts&quot;, &quot;poirot&quot;), 
+devtools::install_github(c(&quot;slidify&quot;, &quot;slidifyLibraries&quot;, &quot;rCharts&quot;), 
     &quot;ramnathv&quot;, ref = &quot;dev&quot;)  
 </code></pre>
 
@@ -112,17 +112,12 @@ index.Rmd   -&gt; Rmd source for home page
 site.yml    -&gt; Site related configuration
 </code></pre>
 
-      </section>
-      <footer>
-        <p>Maintained by <a href="http://github.com/patricktoche">
-          Patrick Toche
-        </a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by 
-          <a href="https://github.com/orderedlist">orderedlist</a></small>
-        </p>
-      </footer>    </div>
-    <script src="libraries/frameworks/minimal/javascripts/scale.fix.js"></script>
-  </body>
+    </div>
+        
+</body>
+  <script src="libraries/frameworks/bootstrap/js/vendor/bootstrap.min.js"></script>
+  <script src="libraries/frameworks/bootstrap/js/plugins.js"></script>
+  <script src="libraries/frameworks/bootstrap/js/main.js"></script>
   <!-- Load Javascripts for Widgets -->
   
   <!-- LOAD HIGHLIGHTER JS FILES -->

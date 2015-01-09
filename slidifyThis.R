@@ -1,18 +1,10 @@
-# Debug section
-setwd("~/slidify/piketty/lectures/Chapter 06")# temp for convenience
-require("ggplot2")
-require("scales")
-require("rCharts")
-
-# Load Package:
+# Install packages:
 library("devtools")
-install_github(c("slidify", "slidifyLibraries"), "ramnathv", ref = "dev")
-install_github('poirot', 'ramnathv')
-library("poirot")
+# install_github(c("slidify", "slidifyLibraries"), "ramnathv", ref = "dev")
 
+# Load packages:
 library("slidify")
 library("slidifyLibraries")
-library("poirot")
 
 # Set directory
 if(.Platform$OS.type == "windows"){
@@ -21,10 +13,15 @@ if(.Platform$OS.type == "windows"){
   setwd("~/slidify/piketty") 
 }
 
-# Make course webpage with blogify()
-blogify(".")
+# Make main course page with slidify()
+library(slidify)
+slidify('index.Rmd')
 
-# Make individual slides with slidify()
+# Make supplementary pages with slidify()
+library(slidify)
+slidify('start.Rmd')
+
+# Make individual chapter slides with slidify()
 # Set directory
 if(.Platform$OS.type == "windows"){
   setwd("c:/slidify/piketty/lectures/Chapter 06")
@@ -34,4 +31,19 @@ if(.Platform$OS.type == "windows"){
 library(slidify)
 slidify('index.Rmd')
 
+# View the html
+# prepend: http://htmlpreview.github.com/?
+http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/index.html
 
+http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/lectures/Chapter%2006/index.html
+
+[https://github.com/ptoche/piketty](http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/index.html)
+
+
+
+
+# Make blog with blogify()
+# not currently in use
+# install_github('poirot', 'ramnathv')
+# library(poirot)
+# blogify(".")

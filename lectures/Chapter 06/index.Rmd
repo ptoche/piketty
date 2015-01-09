@@ -3,39 +3,58 @@ title       : Chapter 6, The Capital-Labor Split in the Twenty-First Century
 subtitle    : (Dynamics of the Capital/Income Ratio)
 author      : Patrick Toche
 framework   : html5slides  # {minimal, io2012, html5slides, shower, dzslides, ...}
-hitheme     : solarized_light  # {tomorrow, ...}
+hitheme     : solarized_light  # {tomorrow, solarized_light, zenburn...}
 mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : []   # {mathjax, quiz, bootstrap}
+widgets     : mathjax   # {mathjax, quiz, bootstrap}
 ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]}
 github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
+css         : "../../assets/css/custom.css" # tested
 lecnum      : "06"
+
 ---
 
 ```{r 'preamble', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, comment = NA, cache = FALSE}
 require(knitr)
+library(png)   # to display external png and control dimensions
+library(grid)  # to display external png and control dimensions
 opts_chunk$set(echo = FALSE, cache = FALSE)
-source('../../preamble/shared.R')
+source('../../shared/shared.R')
 ```
+
+### Introduction  
+
+- Chapter 5 analyzes the capital/income ratio.  
+
+- Chapter 6 analyzes the division of national income between labor and capital.  
+
+- The first fundamental law of capitalism:  
+$$
+\alpha = r \times \beta
+$$
+gives a correspondence between the capital/income ratio and the division of income between labor and capital.  
+
+---
+
+### Introduction
+
+- For example, if the capital stock is equal to six years of national income ($\beta$ = 6), and if the average return on capital is 5 percent a year (r = 5%), then the share of income from capital $\alpha$ (as a percentage of national income) is 30 percent, and the share of income from labor is therefore 70 percent.  
+
+- The central question is: How is the rate of return on capital determined?  
 
 
 ---
 
-### Figure 6.5 with ggplot2
+### Figure 6.5 with ggplot2  
 
-```{r 'Figure_6_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
-require("ggplot2")
-require("scales")
-load("data/df_6_5.Rda") 
-ggplot(data = df_6_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Capital income (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(.1, .37), labels = percent, breaks = seq(0, .4, by = .05)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.8, .15), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 2)) 
-p <- last_plot()
+```{r fig.height = 2.5, fig.width = 4}
+ grid.raster(readPNG("../../figures/Figure_6_5.png"))
 ```
-
 
 ---
 
 ### Figure 6.5 with rcharts
-```{r 'Figure_6_5_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
+```{r 'Figure_6_5_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
 load("data/df_6_5.Rda") 
 # round data for rChart tooltip display
@@ -46,15 +65,17 @@ n$chart(margin = list(left = 100)) # margin makes room for label
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline=TRUE)
+n$addParams(height = 500, width = 750)  # width/height needed for slidify
 # link js/css assets from an online cdn
 # n$save('Figure_6_5.html', cdn = TRUE)
 # create standalone chart with all assets included in the html file:
 n$save('figures/Figure_6_5.html', standalone = TRUE)
 #n$show('inline', include_assets = TRUE, cdn = TRUE)   # use <iframe> below
 ```
-<iframe src ='figures/Figure_6_5.html', width = "860px", height = "450px"></iframe>
-abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi abcdefghi 
+<iframe src = 'figures/Figure_6_5.html', width = "800px", height = "400px"></iframe>  # width/height needed for rmarkdown
 
 ---
+
+
 
 
