@@ -76,6 +76,26 @@ n$save('figures/Figure_6_5.html', standalone = TRUE)
 
 ---
 
+### Figure 6.5 with rcharts
+```{r 'Figure_6_5_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("data/df_6_5.Rda") 
+# round data for rChart tooltip display
+df_6_5$value <- round(df_6_5$value, 2)
+n <- nPlot(value ~ Year, group = 'variable', data = df_6_5, type = 'lineChart') 
+n$yAxis(axisLabel = 'Capital income (% national income)')
+n$chart(margin = list(left = 100)) # margin makes room for label
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline=TRUE)
+n$addParams(height = 500, width = 750)  # width/height needed for slidify
+# link js/css assets from an online cdn
+# n$save('Figure_6_5.html', cdn = TRUE)
+# create standalone chart with all assets included in the html file:
+n$save('figures/Figure_6_5.html', standalone = TRUE)
+#n$show('inline', include_assets = TRUE, cdn = TRUE)   # use <iframe> below
+```
+<iframe src = 'figures/Figure_6_5.html', width = "800px", height = "400px"></iframe>  # width/height needed for rmarkdown
 
 
 
