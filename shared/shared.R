@@ -1,14 +1,15 @@
 require(knitr)
 
-# Set rCharts size and resolution
-# failed attempt:
-# in r chunk after n <- nPlot(...), try to paste n to $set(...)
-# to obtain n$set(width = 1000, height = 600)
-# expression(paste0(n, rChartsSize))
-# rChartsSize <- "$set(width = 1000, height = 600)"
-
 # Set figure size and resolution
-opts_chunk$set(fig.align = 'center', fig.height = 5, fig.width = 8, fig.retina = NULL, out.width = "800px", dpi = 300, pdf.options(encoding = "ISOLatin9.enc")) 
+# figures in Piketty's Capital are approx 5 x 8.5
+# ggplot2 figures are made to the same proportions
+# knitr chunk: fig.height = 5, fig.width = 8.5
+# image source: <img src="", width="680px", height="400px")
+# rCharts have greater height
+# r chunk: n$addParams(height = 500, width = 800)
+# iframe css: width: 825px; height: 550px; 
+# as above: h3 + iframe css, .rCharts, .nvd3
+opts_chunk$set(fig.align = 'center', fig.height = 5, fig.width = 8.5, fig.retina = NULL, out.width = "800px", dpi = 300, pdf.options(encoding = "ISOLatin9.enc")) 
 # list of encodings: list.files(system.file("enc", package = "grDevices")) 
 # option __ out.width = "800px" __ causes error 
 # 'You must not set both chunk options out.width and fig.retina'

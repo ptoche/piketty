@@ -62,7 +62,7 @@ writeLines(links)
 ---
 
 ### Reproduce
-This website is based on the slidify framework. The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the `.Rmd` source, configure the `site.yml` and run `blogify(".")` from the root of the folder hierarchy. Slidify will automatically detect all the `Rmd` files, slidify them, and create all lecture slides along with the index page. 
+This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the `.Rmd` source, configure the `site.yml` and run `blogify(".")` from the root of the folder hierarchy. Slidify will automatically detect all the `Rmd` files, slidify them, and create all lecture slides along with the index page. 
 
 You will need the `slidify`, `slidifyLibraries` and ``rCharts`, packages.
 
@@ -70,7 +70,7 @@ You will need the `slidify`, `slidifyLibraries` and ``rCharts`, packages.
     devtools::install_github(c("slidify", "slidifyLibraries", "rCharts"), 
         "ramnathv", ref = "dev")  
 
-In addition, I often use the following packages: ``ggplot2``, ``scales``, ``reshape2``, ``plyr``, so you may need to run this for each package:
+In addition, I often use the following packages: ``ggplot2``, ``scales``, ``reshape2``, ``plyr`` (author: Hadley Wickham). I am also using packages ``grid`` and ``png`` to insert images and control their size. Make sure these packages are installed in your ``R`` system, e.g. run this for each package:
 
     install.packages("ggplot2")
 

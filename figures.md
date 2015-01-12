@@ -201,7 +201,7 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 
 ```{r 'Figure_5_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  ## out.height='0.75\\textheight'
 load("data/df_5_5.Rda")  # load data from /data subdirectory
-title <- "Figure 5.5. Private and public capital in rich countries, 1970-2010"
+title <- "Figure 5.5. Private and public capital in rich countries, 1970-2010."
 caption <- "In Italy, private capital rose from 240% to 680% in national income between 1970 and 2010, while public capital dropped from 20% to -70%."
 ggplot(data = df_5_5, aes(x = Year, y = value, group = interaction(variable,Category), colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Value of capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(-1, 8.3), labels = percent, breaks = seq(-1, 9, by = 1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.22, .85), legend.title = element_blank(), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 2)) 
 ```

@@ -21,7 +21,7 @@ source('shared/shared.R')
 
 ```{r 'Figure_0_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_0_1.Rda")  # load data from /data subdirectory
-title <- "Figure I.1. Income inequality in the United States, 1910-2012"
+title <- "Figure I.1. Income inequality in the United States, 1910-2012."
 caption <- "The top decile share in U.S. national income dropped from 45-50% in the 1910s-1920s to less than 35% in the 1950s (this is the 1950-1960 fall documented by Kuznets); it then rose from less than 35% in the 1970s to 45-50% in the 2000s-2010s."
 ggplot(data = df_0_1, aes(x = Year, y = value)) + geom_line(colour = colorPalette[1]) + geom_point(colour = colorPalette[1], shape = shapePalette[1], size = 3) + ylab("Share of top decile in national income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(.3, .5, by = .05), limits = c(.3, .5))
 ```
@@ -30,7 +30,7 @@ ggplot(data = df_0_1, aes(x = Year, y = value)) + geom_line(colour = colorPalett
 
 ```{r 'Figure_0_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_0_2.Rda")  # load data from /data subdirectory
-title <- "Figure I.2. The capital-income ratio in Europe, 1870-2012"
+title <- "Figure I.2. The capital-income ratio in Europe, 1870-2012."
 caption <- "Aggregate private wealth was worth about 6-7 years of national income in Europe in 1910, between 2 and 3 years in 1950, and between 4 and 6 years in 2010."
 ggplot(data = df_0_2, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Market value of private capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = pretty_breaks(n = 8)) + scale_y_continuous(labels = percent, breaks = seq(1, 8, by = 1)) + scale_shape_manual(name = "Country", values = shapePalette) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.75, .75), legend.title = element_blank()) 
 ```
@@ -39,7 +39,7 @@ ggplot(data = df_0_2, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_1_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_1_1.Rda")  # load data from /data subdirectory
-title <- "Figure 1.1. The distribution of world output, 1700-2012"
+title <- "Figure 1.1. The distribution of world output, 1700-2012."
 caption <- "Europe's GDP made 47 percent of world GDP in 1913, down to 25 percent in 2012."
 ggplot(data = df_1_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = FALSE) + ylab("Share in world output (% of total)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2040), breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_fill_brewer(palette = fillPalette) + geom_text(data = subset(df_1_1, Year == tail(df_1_1$Year, 1)), aes(x = 3+Year, y = cumsum(value), label = variable), vjust = 1, hjust = 0, size = 4)
 ```
@@ -48,7 +48,7 @@ ggplot(data = df_1_1, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_1_1b', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_1_1.Rda")  # load data from /data subdirectory
-title <- "Figure 1.1. The distribution of world output, 1700-2012"
+title <- "Figure 1.1. The distribution of world output, 1700-2012."
 caption <- "Europe's GDP made 47 percent of world GDP in 1913, down to 25 percent in 2012."
 ggplot(data = df_1_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = TRUE) + ylab("Share in world output (% of total)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2012), breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.25, 0.75), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
 ```
@@ -57,7 +57,7 @@ ggplot(data = df_1_1, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_1_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_1_2.Rda")  # load data from /data subdirectory
-title <- "Figure 1.2. The distribution of world population, 1700-2012"
+title <- "Figure 1.2. The distribution of world population, 1700-2012."
 caption <- "Europe's population made 26 percent of world population in 1913, down to 10 percent in 2012."
 ggplot(data = df_1_2, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = FALSE) + ylab("Share in world population (% of total)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2040), breaks = seq(1700, 2000, by = 50)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_fill_brewer(palette = fillPalette) + geom_text(data = subset(df_1_2, Year == tail(df_1_2$Year, 1)), aes(x = 3+Year, y = cumsum(value), label = variable), vjust = 1, hjust = 0, size = 4)
 ```
@@ -66,7 +66,7 @@ ggplot(data = df_1_2, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_1_2b', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_1_2.Rda")  # load data from /data subdirectory
-title <- "Figure 1.2. The distribution of world population, 1700-2012"
+title <- "Figure 1.2. The distribution of world population, 1700-2012."
 caption <- "Europe's population made 26 percent of world population in 1913, down to 10 percent in 2012."
 ggplot(data = df_1_2, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = TRUE) + ylab("Share in world population (% of total)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2012), breaks = seq(1700, 2010, by = 50)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.25, 0.75), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
 ```
@@ -75,7 +75,7 @@ ggplot(data = df_1_2, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_1_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_1_3.Rda")  # load data from /data subdirectory
-title <- "Figure 1.3. Global Inequality, 1700-2012"
+title <- "Figure 1.3. Global Inequality, 1700-2012."
 caption <- "Per capita GDP in Asia-Africa went from 37 percent of world average in 1950 to 61 percent in 2012. Divergence then convergence?"
 ggplot(data = df_1_3, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Per capital GDP (% of world average)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2012), breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(limits = c(0.25, 2.5), labels = percent, breaks = seq(0.25, 2.5, by = .25)) + scale_shape_manual(name = "Per capita GDP (%)", values = shapePalette) + scale_colour_manual(name = "Per capita GDP (%)", values = colorPalette) + theme(legend.position = c(.25, .85)) 
 ```
@@ -84,7 +84,7 @@ ggplot(data = df_1_3, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_1_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_1_4.Rda")  # load data from /data subdirectory
-title <- "Figure 1.4. Global Inequality, 1700-2012"
+title <- "Figure 1.4. Global Inequality, 1700-2012."
 caption <- "In 2012, 1 euro was worth $1.30 according to current exchange rate, but $1.20 in purchasing power parity."
 ggplot(data = df_1_4, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Exchange rate Euro/Dollar (in dollars)") + xlab(NULL) + scale_x_continuous(breaks = seq(1990, 2012, by = 2)) + scale_y_continuous(limits = c(0.85, 1.5), labels = dollar, breaks = seq(0.8, 1.5, by = .1)) + scale_shape_manual(name = "Market rate versus PPP", values = shapePalettePaired) + scale_colour_manual(name = "Market rate versus PPP", values = colorPalette) + theme(legend.position = c(.4, .9)) 
 ```
@@ -93,7 +93,7 @@ ggplot(data = df_1_4, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_1_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_1_5.Rda")  # load data from /data subdirectory
-title <- "Figure 1.5. Exchange rate and purchasing power parity: euro//yuan"
+title <- "Figure 1.5. Exchange rate and purchasing power parity: euro//yuan."
 yuan <- dollar  # temporary, until I upgrade my yuan function
 caption <- "In 2012, 1 euro was worth 8 yuan according to current exchange rate, but 5 yuan in purchasing power parity."
 ggplot(data = df_1_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Exchange rate Euro/Yuan (in yuans)") + xlab(NULL) + scale_x_continuous(breaks = seq(1990, 2012, by = 2)) + scale_y_continuous(limits = c(1, 12), labels = yuan, breaks = seq(0, 12, by = 2)) + scale_shape_manual(name = "Market rate versus PPP", values = shapePalettePaired) + scale_colour_manual(name = "Market rate versus PPP", values = colorPalette) + theme(legend.position = c(.75, .1)) 
@@ -103,7 +103,7 @@ ggplot(data = df_1_5, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_2_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_2_1.Rda")  # load data from /data subdirectory
-title <- "Figure 2.1. The growth of world population, 1700-2012"
+title <- "Figure 2.1. The growth of world population, 1700-2012."
 caption <- "World population rose from 600 million inhabitants in 1700 to 7 billion in 2012."
 ggplot(data = df_2_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = FALSE) + ylab("World population (millions inhabitants)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2040), breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(labels = comma, breaks = seq(0, 7000, by = 1000)) + scale_fill_brewer(palette = fillPalette) + geom_text(data = subset(df_2_1, Year == tail(df_2_1$Year, 1)), aes(x = 3+Year, y = cumsum(value), label = variable), vjust = 1, hjust = 0, size = 4)
 ```
@@ -112,7 +112,7 @@ ggplot(data = df_2_1, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_2_1b', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_2_1.Rda")  # load data from /data subdirectory
-title <- "Figure 2.1. The growth of world population, 1700-2012"
+title <- "Figure 2.1. The growth of world population, 1700-2012."
 caption <- "World population rose from 600 million inhabitants in 1700 to 7 billion in 2012."
 ggplot(data = df_2_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = TRUE) + ylab("World population (millions inhabitants)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2012), breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(labels = comma, breaks = seq(0, 7000, by = 1000)) + scale_fill_brewer(name = "Population", palette = fillPalette) + theme(legend.position = c(0.25, 0.75)) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
 ```
@@ -121,7 +121,7 @@ ggplot(data = df_2_1, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_2_2S', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_2_2S.Rda")  # load data from /data subdirectory
-title <- "Figure 2.2S. The growth rate of population from Antiquity to 2100"
+title <- "Figure 2.2S. The growth rate of population from Antiquity to 2100."
 caption <- "The growth rate of world population was above 1 percent per year from 1950 to 2012 and should return toward 0 percent by the end of the twenty-first century."
 ggplot(data = df_2_2S, aes(x = Period, y = value, group = variable, colour = variable, shape = variable)) + geom_rect(aes(xmin = "2012-2030", xmax = Inf, ymin = -Inf, ymax = Inf), fill = shadePalette[1], alpha = .003, color = "NA") + geom_line() + geom_point(size = 3) + ylab("Population growth rate") + xlab("") + scale_x_discrete(labels = function(x)sub("-","-\n", x, fixed = TRUE)) + scale_y_continuous(limits = c(-.005, 0.04), labels = percent, breaks = seq(-0.1, .05, by = .005)) + scale_shape_manual(name = "Population growth", values = shapePalette) + scale_colour_manual(name = "Population growth", values = colorPalette) + theme(legend.position = c(.2, .75)) + annotate("text", label = "Observed growth rates \n before 2012", x = "1970-1990", y = 0.035) + annotate("text", label = "UN projections \n after 2012 \n(central scenario)", x = "2050-2070", y = 0.035, vjust = .7)
 ```
@@ -130,7 +130,7 @@ ggplot(data = df_2_2S, aes(x = Period, y = value, group = variable, colour = var
 
 ```{r 'Figure_2_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_2_2.Rda")  # load data from /data subdirectory
-title <- "Figure 2.2. The growth rate of world population from Antiquity to 2100"
+title <- "Figure 2.2. The growth rate of world population from Antiquity to 2100."
 caption <- "The growth rate of world population was above 1 percent per year from 1950 to 2012 and should return toward 0 percent by the end of the twenty-first century."
 ggplot(data = df_2_2, aes(x = Period, y = value)) + geom_line(aes(group = variable, colour = Category)) + geom_point(aes(group = Category, colour = Category, shape = Category), size = 3) + ylab("World population growth rate") + xlab(NULL) + scale_x_discrete(labels = function(x)sub("-","-\n", x, fixed = TRUE)) + scale_y_continuous(limits = c(0, 0.02), labels = percent, breaks = seq(0, .02, by = .002)) + scale_shape_manual(name = "World population growth", values = shapePalettePaired) + scale_colour_manual(name = "World population growth", values = colorPalette) + theme(legend.position = c(.22, .8))
 ```
@@ -139,7 +139,7 @@ ggplot(data = df_2_2, aes(x = Period, y = value)) + geom_line(aes(group = variab
 
 ```{r 'Figure_2_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_2_3.Rda")  # load data from /data subdirectory
-title <- "Figure 2.3. The growth rate of per capita output since the Industrial Revolution"
+title <- "Figure 2.3. The growth rate of per capita output since the Industrial Revolution."
 caption <- "The growth rate of per capita output surpassed 4 percent per year in Europe between 1950 and 1970, before returning to American levels."
 ggplot(data = df_2_3, aes(x = Period, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Growth rate of per capita GDP") + xlab(NULL) + scale_y_continuous(limits = c(0, .045), labels = percent, breaks = seq(0, .05, by = .005)) + scale_shape_manual(name = "Per capita GDP growth", values = shapePalette) + scale_colour_manual(name = "Per capita GDP growth", values = colorPalette) + theme(legend.position = c(.22, .85)) 
 ```
@@ -148,7 +148,7 @@ ggplot(data = df_2_3, aes(x = Period, y = value, group = variable, colour = vari
 
 ```{r 'Figure_2_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_2_4.Rda")  # load data from /data subdirectory
-title <- "Figure 2.4. The growth rate of world per capita output from Antiquity to 2100"
+title <- "Figure 2.4. The growth rate of world per capita output from Antiquity to 2100."
 caption <- "The growth rate of per capita output surpassed 2 percent from 1950 to 2012. If the convergence process goes on, it will surpass 2.5 percent from 2012 to 2050, and then will drop below 1.5 percent."
 ggplot(data = df_2_4, aes(x = Period, y = value)) + geom_line(aes(group = variable, colour = Category)) + geom_point(aes(group = Category, colour = Category, shape = Category), size = 3) + ylab("Growth rate of per capita GDP") + xlab(NULL) + scale_x_discrete(labels = function(x)sub("-","-\n", x, fixed = TRUE)) + scale_y_continuous(limits = c(-0.001, 0.027), labels = percent, breaks = seq(0, .025, by = .005)) + scale_shape_manual(name = "World per capita GDP growth", values = shapePalettePaired) + scale_colour_manual(name = "World per capita GDP growth", values = colorPalette) + theme(legend.position = c(.22, .8)) 
 ```
@@ -157,7 +157,7 @@ ggplot(data = df_2_4, aes(x = Period, y = value)) + geom_line(aes(group = variab
 
 ```{r 'Figure_2_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_2_5.Rda")  # load data from /data subdirectory
-title <- "Figure 2.5. The growth rate of world output from Antiquity to 2100"
+title <- "Figure 2.5. The growth rate of world output from Antiquity to 2100."
 caption <- "The growth rate of world output surpassed 4 percent from 1950 to 1990. If the convergence process goes on, it will drop below 2 percent by 2050."
 ggplot(data = df_2_5, aes(x = Period, y = value)) + geom_line(aes(group = variable, colour = Category)) + geom_point(aes(group = Category, colour = Category, shape = Category), size = 3) + ylab("Growth rate of world GDP") + xlab(NULL) + scale_x_discrete(labels = function(x)sub("-","-\n", x, fixed = TRUE)) + scale_y_continuous(limits = c(0, 0.042), labels = percent, breaks = seq(0, .04, by = .005)) + scale_shape_manual(name = "World GDP Growth", values = shapePalettePaired) + scale_colour_manual(name = "World GDP Growth", values = colorPalette) + theme(legend.position = c(.2, .75))
 ```
@@ -166,7 +166,7 @@ ggplot(data = df_2_5, aes(x = Period, y = value)) + geom_line(aes(group = variab
 
 ```{r 'Figure_2_6', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_2_6.Rda")  # load data from /data subdirectory
-title <- "Figure 2.6. Inflation since the Industrial Revolution"
+title <- "Figure 2.6. Inflation since the Industrial Revolution."
 caption <- "Inflation in the rich countries was zero in the eighteenth and nineteenth centuries, high in the twentieth century, and roughly 2 percent a year since 1990."
 ggplot(data = df_2_6, aes(x = Period, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Inflation rate (consumer price index)") + xlab(NULL) + scale_y_continuous(limits = c(-.02, .18), labels = percent, breaks = seq(-.02, .18, by = .02)) + scale_shape_manual(name = "Inflation rate", values = shapePalette) + scale_colour_manual(name = "Inflation rate", values = colorPalette) + theme(legend.position = c(.2, .75)) 
 ```
@@ -175,7 +175,7 @@ ggplot(data = df_2_6, aes(x = Period, y = value, group = variable, colour = vari
 
 ```{r 'Figure_3_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_3_1.Rda")  # load data from /data subdirectory
-title <- "Figure 3.1. Capital in Britain, 1700-2010"
+title <- "Figure 3.1. Capital in Britain, 1700-2010."
 caption <- "National capital is worth about seven years of national income in Britain in 1700 (including four in agricultural land)."
 ggplot(data = df_3_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(labels = percent, breaks = seq(0, 8, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.25, 0.25), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1))
 ```
@@ -185,7 +185,7 @@ ggplot(data = df_3_1, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_3_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_3_2.Rda")  # load data from /data subdirectory
-title <- "Figure 3.2. Capital in France, 1700-2010"
+title <- "Figure 3.2. Capital in France, 1700-2010."
 caption <- "National capital is worth almost seven years of national income in France in 1910 (including one invested abroad)."
 ggplot(data = df_3_2, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(labels = percent, breaks = seq(0, 8, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.25, 0.25), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -195,7 +195,7 @@ ggplot(data = df_3_2, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_3_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_3_3.Rda")  # load data from /data subdirectory
-title <- "Figure 3.3. Public wealth in Britain, 1700-2010"
+title <- "Figure 3.3. Public wealth in Britain, 1700-2010."
 caption <- "Public debt surpassed two years of national income in 1950 (versus one year for public assets)."
 ggplot(data = df_3_3, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Public assets and debt (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1700, 2020, by = 25)) + scale_y_continuous(labels = percent, breaks = seq(0, 2.5, by = 0.2)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.2, .85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -205,7 +205,7 @@ ggplot(data = df_3_3, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_3_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_3_4.Rda")  # load data from /data subdirectory
-title <- "Figure 3.4. Public wealth in France, 1700-2010"
+title <- "Figure 3.4. Public wealth in France, 1700-2010."
 caption <- "Public debt is about one year of national income in France in 1780 as well as in 1880 and in 2000-2010."
 ggplot(data = df_3_4, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Public assets and debt (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1700, 2020, by = 25)) + scale_y_continuous(labels = percent, breaks = seq(0, 1.6, by = 0.2)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.2, .85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1))
 ```
@@ -215,7 +215,7 @@ ggplot(data = df_3_4, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_3_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_3_5.Rda")  # load data from /data subdirectory
-title <- "Figure 3.5. Private and public capital in Britain, 1700-2010"
+title <- "Figure 3.5. Private and public capital in Britain, 1700-2010."
 caption <- "In 1810, private capital is worth eight years of national income in Britain (versus seven years for national capital)."
 ggplot(data = df_3_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("National, private and public capital \n(% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1700, 2020, by = 25)) + scale_y_continuous(labels = percent, breaks = seq(-2, 9, by = 1)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.25, .5), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1))
 ```
@@ -225,7 +225,7 @@ ggplot(data = df_3_5, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_3_6', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_3_6.Rda")  # load data from /data subdirectory
-title <- "Figure 3.6. Private and public capital in France, 1700-2010"
+title <- "Figure 3.6. Private and public capital in France, 1700-2010."
 caption <- "In 1950, public capital is worth almost one year of national income versus two years for private capital."
 ggplot(data = df_3_6, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("National, private and public capital \n(% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1700, 2020, by = 25)) + scale_y_continuous(labels = percent, breaks = seq(-2, 9, by = 1)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.25, .5), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1))
 ```
@@ -235,7 +235,7 @@ ggplot(data = df_3_6, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_4_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_4_1.Rda")  # load data from /data subdirectory
-title <- "Figure 4.1. Capital in Germany, 1870-2010"
+title <- "Figure 4.1. Capital in Germany, 1870-2010."
 caption <- "National capital is worth 6.5 years of national income in Germany in 1910 (including about 0.5 year invested abroad)."
 ggplot(data = df_4_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2010, by = 20)) + scale_y_continuous(labels = percent, breaks = seq(0, 8, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.75, 0.75), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
 ```
@@ -245,7 +245,7 @@ ggplot(data = df_4_1, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_4_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_4_2.Rda")  # load data from /data subdirectory
-title <- "Figure 4.2. Public wealth in Germany, 1870-2010"
+title <- "Figure 4.2. Public wealth in Germany, 1870-2010."
 caption <- "Public debt is worth almost one year of national income in Germany in 2010 (as much as assets)."
 ggplot(data = df_4_2, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Public assets and debt (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2020, by = 20)) + scale_y_continuous(limits = c(0, 1.1), labels = percent, breaks = seq(0, 2.5, by = 0.25)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.15, .9), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -255,7 +255,7 @@ ggplot(data = df_4_2, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_4_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_4_3.Rda")  # load data from /data subdirectory
-title <- "Figure 4.3. Private and public capital in Germany, 1870-2010"
+title <- "Figure 4.3. Private and public capital in Germany, 1870-2010."
 caption <- "In 1970, public capital is worth almost one year of national income, versus slightly more than two for private capital."
 ggplot(data = df_4_3, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("National, private and public capital \n(% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2020, by = 20)) + scale_y_continuous(limits = c(-.3, 7), labels = percent, breaks = seq(-1, 7, by = 1)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.7, .85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -264,7 +264,7 @@ ggplot(data = df_4_3, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_4_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_4_4.Rda")  # load data from /data subdirectory
-title <- "Figure 4.4. Private and public capital in Europe, 1870-2010"
+title <- "Figure 4.4. Private and public capital in Europe, 1870-2010."
 caption <- "The fluctuations of national capital in Europe in the long run are mostly due to the fluctuations of private capital."
 ggplot(data = df_4_4, aes(x = Year, y = value, group = interaction(variable,Category), colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Public and private capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2010, by = 20)) + scale_y_continuous(limits = c(-2, 8), labels = percent, breaks = seq(-2, 8, by = 1)) + scale_shape_manual(name = "Country", values = shapePalette) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.6, .85), legend.title = element_blank()) 
 ```
@@ -273,7 +273,7 @@ ggplot(data = df_4_4, aes(x = Year, y = value, group = interaction(variable,Cate
 
 ```{r 'Figure_4_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_4_5.Rda")  # load data from /data subdirectory
-title <- "Figure 4.5. National capital in Europe, 1870-2010"
+title <- "Figure 4.5. National capital in Europe, 1870-2010."
 caption <- "National capital (sum of public and private capital) is worth between two and three years of national income in Europe in 1950."
 ggplot(data = df_4_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("National capital \n(% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2020, by = 20)) + scale_y_continuous(limits = c(1, 8), labels = percent, breaks = seq(1, 8, by = 1)) + scale_shape_manual(name = "Country", values = shapePalette) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.6, .85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -282,7 +282,7 @@ ggplot(data = df_4_5, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_4_6', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_4_6.Rda")  # load data from /data subdirectory
-title <- "Figure 4.6. Capital in the United States, 1770-2010"
+title <- "Figure 4.6. Capital in the United States, 1770-2010."
 caption <- "National capital is worth three years of national income in the United States in 1770 (including 1.5 years in agricultural land)."
 ggplot(data = df_4_6, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1770, 2010, by = 20)) + scale_y_continuous(labels = percent, breaks = seq(0, 6, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.15, 0.85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
 ```
@@ -291,7 +291,7 @@ ggplot(data = df_4_6, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_4_7', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_4_7.Rda")  # load data from /data subdirectory
-title <- "Figure 4.7. Public wealth in the United States, 1770-2010"
+title <- "Figure 4.7. Public wealth in the United States, 1770-2010."
 caption <- "Public debt is worth one year of national income in the United States in 1950 (almost as much as assets)."
 ggplot(data = df_4_7, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Public assets and public debt (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1770, 2010, by = 20)) + scale_y_continuous(limits = c(0, 1.3), labels = percent, breaks = seq(0, 2, by = 0.25)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.25, .85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -300,7 +300,7 @@ ggplot(data = df_4_7, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_4_8', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_4_8.Rda")  # load data from /data subdirectory
-title <- "Figure 4.8. Private and public capital in the United States, 1770-2010"
+title <- "Figure 4.8. Private and public capital in the United States, 1770-2010."
 caption <- "In 2010, public capital is worth 20 percent of national income, versus over 400 percent for private capital."
 ggplot(data = df_4_8, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("National, private, and public capital \n(% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1770, 2010, by = 20)) + scale_y_continuous(limits = c(-1, 6), labels = percent, breaks = seq(-1, 6, by = 1)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.23, .85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -309,7 +309,7 @@ ggplot(data = df_4_8, aes(x = Year, y = value, group = variable, colour = variab
 
 
 ```{r 'Figure_4_9', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
-title <- "Figure 4.9. Capital in Canada, 1860-2010"
+title <- "Figure 4.9. Capital in Canada, 1860-2010."
 caption <- "In Canada, a substantial part of domestic capital has always been held by the rest of the world, so that national capital has always been less than domestic capital."
 load("data/df_4_9.Rda")  # load data from /data subdirectory
 ggplot(data = df_4_9, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1860, 2010, by = 20)) + scale_y_continuous(labels = percent, breaks = seq(0, 6, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.75, 0.85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
@@ -320,7 +320,7 @@ ggplot(data = df_4_9, aes(x = Year, y = value, group = variable, fill = variable
 
 ```{r 'Figure_4_10', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_4_10.Rda")  # load data from /data subdirectory
-title <- "Figure 4.10. Capital and slavery in the United States"
+title <- "Figure 4.10. Capital and slavery in the United States."
 caption <- "The market value of slaves was about 1.5 years of US national income around 1770 (as much as land)."
 ggplot(data = df_4_10, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1770, 2010, by = 20)) + scale_y_continuous(limits = c(-.3, 7), labels = percent, breaks = seq(0, 8, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(.2, .83), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
 ```
@@ -330,7 +330,7 @@ ggplot(data = df_4_10, aes(x = Year, y = value, group = variable, fill = variabl
 
 ```{r 'Figure_4_11', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_4_11.Rda")  # load data from /data subdirectory
-title <- "Figure 4.11. Capital around 1770-1810: Old and New World"
+title <- "Figure 4.11. Capital around 1770-1810: Old and New World."
 caption <- "The combined value of agricultural land and slaves in the Southern United States surpassed four years of national income around 1770-1810."
 ggplot(data = df_4_11, aes(x = Country, y = value, group = variable, fill = variable)) + geom_bar(stat = "identity", width = .8) + scale_fill_brewer(palette = fillPalette)  + ylab("Value of capital (% national income)") + xlab(NULL) + scale_y_continuous(labels = percent, breaks = seq(0, 7, by = 1)) + theme(legend.position = c(.86,.8), legend.title = element_blank()) + guides(fill = guide_legend(ncol = 1, reverse = TRUE))
 ```
@@ -340,7 +340,7 @@ ggplot(data = df_4_11, aes(x = Country, y = value, group = variable, fill = vari
 
 ```{r 'Figure_5_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_1.Rda")  # load data from /data subdirectory
-title <- "Figure 5.1. Private & public capital in Europe & United States, 1870-2010"
+title <- "Figure 5.1. Private & public capital in Europe & United States, 1870-2010."
 caption <- "The fluctuations of national capital in the long run correspond mostly to the fluctuations of private capital (both in Europe and in the United States)."
 ggplot(data = df_5_1, aes(x = Year, y = value, group = interaction(variable,Category), colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Value of capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2010, by = 20)) + scale_y_continuous(limits = c(-1, 7.5), labels = percent, breaks = seq(-1, 8, by = 1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.7, .85), legend.title = element_blank()) + geom_text(data = within(subset(df_5_1, Year == 1920), value <- value+.5), aes(x = Year, y = value, label = Category), hjust = 0, vjust = 0)
 ```
@@ -349,7 +349,7 @@ ggplot(data = df_5_1, aes(x = Year, y = value, group = interaction(variable,Cate
 
 ```{r 'Figure_5_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_2.Rda")  # load data from /data subdirectory
-title <- "Figure 5.2. National capital in Europe & United States, 1870-2010"
+title <- "Figure 5.2. National capital in Europe & United States, 1870-2010."
 caption <- "National capital (public and private) is worth 6.5 years of national income in Europe in 1910, versus 4.5 years in the United States."
 ggplot(data = df_5_2, aes(x = Year, y = value, group = interaction(variable,Category), colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Value of capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2010, by = 20)) + scale_y_continuous(limits = c(-1, 7.5), labels = percent, breaks = seq(-1, 8, by = 1)) + scale_shape_manual(name = "Country", values = shapePalette) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.7, .85), legend.title = element_blank()) + geom_text(data = within(subset(df_5_2, Year == 1900), value <- value+.3), aes(x = Year, y = value, label = Category), hjust = 1, vjust = -1)
 ```
@@ -359,7 +359,7 @@ ggplot(data = df_5_2, aes(x = Year, y = value, group = interaction(variable,Cate
 
 ```{r 'Figure_5_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_3.Rda")  # load data from /data subdirectory
-title <- "Figure 5.3. Private capital in rich countries, 1970-2010"
+title <- "Figure 5.3. Private capital in rich countries, 1970-2010."
 caption <- "Private capital is worth between 2 and 3.5 years of national income in rich countries in 1970, and between 4 and 7 years of national income in 2010."
 ggplot(data = df_5_3, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Value of private capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(2, 8), labels = percent, breaks = seq(2, 9, by = 1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.15, .73), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -370,7 +370,7 @@ ggplot(data = df_5_3, aes(x = Year, y = value, group = variable, colour = variab
 ```{r 'Figure_5_3S', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_3S.Rda")  # load data from /data subdirectory
 # df_5_3S.Rda includes Spain
-title <- "Figure 5.3S. Private capital in rich countries, 1970-2010"
+title <- "Figure 5.3S. Private capital in rich countries, 1970-2010."
 caption <- "Private capital is worth between 2 and 3.5 years of national income in rich countries in 1970, and between 4 and 7 years of national income in 2010."
 ggplot(data = df_5_3S, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Value of private capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(2, 8), labels = percent, breaks = seq(2, 9, by = 1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.15, .70), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -380,7 +380,7 @@ ggplot(data = df_5_3S, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_5_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_4.Rda")  # load data from /data subdirectory
-title <- "Figure 5.4. Private capital measured in years of disposable income, 1970-2010"
+title <- "Figure 5.4. Private capital measured in years of disposable income, 1970-2010."
 caption <- "Expressed in years of household disposable income (about 70-80% of national income), the capital/income ratio appears to be larger than when it is expressed in years of national income."
 ggplot(data = df_5_4, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Private capital (% disposable household income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(labels = percent, breaks = seq(3, 10, by = 1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.15, .73), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -390,7 +390,7 @@ ggplot(data = df_5_4, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_5_4S', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_4S.Rda")  # load data from /data subdirectory
-title <- "Figure 5.4S. Private capital measured in years of disposable income, 1970-2010"
+title <- "Figure 5.4S. Private capital measured in years of disposable income, 1970-2010."
 caption <- "Expressed in years of household disposable income (about 70-80% of national income), the capital/income ratio appears to be larger than when it is expressed in years of national income."
 # df_5_4S.Rda includes Spain
 ggplot(data = df_5_4S, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Private capital (% disposable household income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(labels = percent, breaks = seq(3, 10, by = 1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.15, .70), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
@@ -401,7 +401,7 @@ ggplot(data = df_5_4S, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_5_5X', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_5X.Rda")  # load data from /data subdirectory
-title <- "Figure 5.5X. Public capital in rich countries, 1970-2010"
+title <- "Figure 5.5X. Public capital in rich countries, 1970-2010."
 caption <- "In France, Britain, Germany, and the United States, government deficits exceeded public investment by 2-3% of national income on average over the period 1970-2010, compared with more than 6% in Italy."
 ggplot(data = df_5_5X, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Value of public capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(-.7, 1.55), labels = percent, breaks = seq(-.8, 1.6, by = .2)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.65, .88), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 4)) 
 ```
@@ -412,7 +412,7 @@ ggplot(data = df_5_5X, aes(x = Year, y = value, group = variable, colour = varia
 ```{r 'Figure_5_5XS', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_5XS.Rda")  # load data from /data subdirectory
 # df_5_5XS.Rda includes Spain
-title <- "Figure 5.5XS. Public capital in rich countries, 1970-2010"
+title <- "Figure 5.5XS. Public capital in rich countries, 1970-2010."
 caption <- "In France, Britain, Germany, and the United States, government deficits exceeded public investment by 2-3% of national income on average over the period 1970-2010, compared with more than 6% in Italy."
 ggplot(data = df_5_5XS, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Value of public capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(-.7, 1.55), labels = percent, breaks = seq(-.8, 1.6, by = .2)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.65, .88), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 4)) 
 ```
@@ -422,7 +422,7 @@ ggplot(data = df_5_5XS, aes(x = Year, y = value, group = variable, colour = vari
 
 ```{r 'Figure_5_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  ## out.height='0.75\\textheight'
 load("data/df_5_5.Rda")  # load data from /data subdirectory
-title <- "Figure 5.5. Private and public capital in rich countries, 1970-2010"
+title <- "Figure 5.5. Private and public capital in rich countries, 1970-2010."
 caption <- "In Italy, private capital rose from 240% to 680% in national income between 1970 and 2010, while public capital dropped from 20% to -70%."
 ggplot(data = df_5_5, aes(x = Year, y = value, group = interaction(variable,Category), colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Value of capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(-1, 8.3), labels = percent, breaks = seq(-1, 9, by = 1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.22, .85), legend.title = element_blank(), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 2)) 
 ```
@@ -432,7 +432,7 @@ ggplot(data = df_5_5, aes(x = Year, y = value, group = interaction(variable,Cate
 
 ```{r 'Figure_5_6', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_6.Rda")  # load data from /data subdirectory
-title <- "Figure 5.6. Market value and book value of corporations, 1970-2010"
+title <- "Figure 5.6. Market value and book value of corporations, 1970-2010."
 caption <- "Tobin's Q (i.e. the ratio between market value and book value of corporations) has risen in rich countries since the 1970s-1980s."
 ggplot(data = df_5_6, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("ratio between market value and book value of corporations") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(labels = percent, breaks = seq(0, 1.6, by = .2)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.25, .75), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -442,7 +442,7 @@ ggplot(data = df_5_6, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_5_7', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_7.Rda")  # load data from /data subdirectory
-title <- "Figure 5.7. National capital in rich countries, 1970-2010"
+title <- "Figure 5.7. National capital in rich countries, 1970-2010."
 caption <- "Net foreign assets held by Japan and Germany are worth between 6 months and one year of national income in 2010."
 ggplot(data = df_5_7, aes(x = Year, y = value, group = interaction(variable,Category), colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Value of capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(-1, 9), labels = percent, breaks = seq(-1, 10, by = 1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.22, .85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 2)) 
 ```
@@ -451,7 +451,7 @@ ggplot(data = df_5_7, aes(x = Year, y = value, group = interaction(variable,Cate
 
 ```{r 'Figure_5_7S', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}
 load("data/df_5_7S.Rda")  # load data from /data subdirectory
-title <- "Figure 5.7S. National capital in rich countries, 1970-2010"
+title <- "Figure 5.7S. National capital in rich countries, 1970-2010."
 caption <- "Net foreign assets held by Japan and Germany are worth between 6 months and one year of national income in 2010."
 ggplot(data = df_5_7S, aes(x = Year, y = value, group = interaction(variable,Category), colour = variable, shape = variable)) + geom_line() + geom_point(aes(colour = variable, shape = variable), size = 3) + ylab("Value of capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(-1, 9), labels = percent, breaks = seq(-1, 10, by = 1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.22, .83), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 2)) 
 ```
@@ -461,7 +461,7 @@ ggplot(data = df_5_7S, aes(x = Year, y = value, group = interaction(variable,Cat
 
 ```{r 'Figure_5_8', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_5_8.Rda")  # load data from /data subdirectory
-title <- "Figure 5.8. The world capital/income ratio, 1870-2100"
+title <- "Figure 5.8. The world capital/income ratio, 1870-2100."
 caption <- "According to simulations (central scenario), the world capital/income ratio could be close to 700 percent by the end of the twenty-first century."
 ggplot(data = df_5_8, aes(x = Year, y = value)) + geom_line(aes(group = variable, colour = Category)) + geom_point(aes(group = Category, colour = Category, shape = Category), size = 3) + ylab("Value of capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2100, by = 20)) + scale_y_continuous(limits = c(2, 7), labels = percent, breaks = seq(2, 7, by = 1)) + scale_linetype_manual(name = "World capital/income ratio", values = linePalette) + scale_shape_manual(name = "World capital/income ratio", values = shapePalettePaired) + scale_colour_manual(name = "World capital/income ratio", values = colorPalette) + theme(legend.position = c(.5, .85)) 
 ```
@@ -471,7 +471,7 @@ ggplot(data = df_5_8, aes(x = Year, y = value)) + geom_line(aes(group = variable
 
 ```{r 'Figure_6_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_6_1.Rda")  # load data from /data subdirectory
-title <- "Figure 6.1. The capital-labor split in Britain, 1770-2010"
+title <- "Figure 6.1. The capital-labor split in Britain, 1770-2010."
 caption <- "During the nineteenth century, capital income (rent, profits, dividends, interest...) absorbed about 40 percent of national income versus 60 percent for labor income (including both wage and non-wage income)."
 ggplot(data = df_6_1, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Labor and capital income (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1770, 2020, by = 20)) + scale_y_continuous(limits = c(0, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "Britain", values = shapePalette) + scale_colour_manual(name = "Britain", values = colorPalette) + theme(legend.position = c(.25, .85)) 
 ```
@@ -481,7 +481,7 @@ ggplot(data = df_6_1, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_6_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_6_2.Rda")  # load data from /data subdirectory
-title <- "Figure 6.2. The capital-labor split in France, 1820-2010"
+title <- "Figure 6.2. The capital-labor split in France, 1820-2010."
 caption <- "In the twenty-first century, capital income (rent, profits, dividends, interest...) absorbs about 30 percent of national income versus 70 percent for labor income (including both wage and non-wage income)."
 ggplot(data = df_6_2, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Labor and capital income (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1820, 2020, by = 20)) + scale_y_continuous(limits = c(0, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.25, .85)) 
 ```
@@ -491,7 +491,7 @@ ggplot(data = df_6_2, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_6_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_6_3.Rda")  # load data from /data subdirectory
-title <- "Figure 6.3. The pure rate of return on capital in Britain, 1770-2010"
+title <- "Figure 6.3. The pure rate of return on capital in Britain, 1770-2010."
 caption <- "The pure rate of return to capital is roughly stable around 4-5 percent in the long run."
 ggplot(data = df_6_3, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Annual rate of return") + xlab(NULL) + scale_x_continuous(breaks = seq(1770, 2020, by = 20)) + scale_y_continuous(limits = c(.02, .12), labels = percent, breaks = seq(0, .2, by = .02)) + scale_shape_manual(name = "Britain", values = shapePalette) + scale_colour_manual(name = "Britain", values = colorPalette) + theme(legend.position = c(.25, .85)) 
 ```
@@ -501,7 +501,7 @@ ggplot(data = df_6_3, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_6_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_6_4.Rda")  # load data from /data subdirectory
-title <- "Figure 6.4. The pure rate of return on capital in France, 1820-2010"
+title <- "Figure 6.4. The pure rate of return on capital in France, 1820-2010."
 caption <- "The observed average rate of return displays larger fluctuations than the pure rate of return during the twentieth century."
 ggplot(data = df_6_4, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Annual rate of return") + xlab(NULL) + scale_x_continuous(breaks = seq(1820, 2020, by = 20)) + scale_y_continuous(limits = c(.02, .12), labels = percent, breaks = seq(0, .15, by = .02)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.25, .85)) 
 ```
@@ -511,7 +511,7 @@ ggplot(data = df_6_4, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_6_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_6_5.Rda")  # load data from /data subdirectory
-title <- "Figure 6.5. The capital share in rich countries, 1975-2010"
+title <- "Figure 6.5. The capital share in rich countries, 1975-2010."
 caption <- "Capital income absorbs between 15 percent and 25 percent of national income in rich countries in 1970, and between 25 percent and 30 percent in 2000-2010."
 ggplot(data = df_6_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Capital income (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(.1, .37), labels = percent, breaks = seq(0, .4, by = .05)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.8, .15), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 2)) 
 ```
@@ -521,7 +521,7 @@ ggplot(data = df_6_5, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_6_6', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_6_6.Rda")  # load data from /data subdirectory
-title <- "Figure 6.6. The profit share in the value added of corporations in France, 1900-2010"
+title <- "Figure 6.6. The profit share in the value added of corporations in France, 1900-2010."
 caption <- "The share of gross profits in gross value added of corporations rose from 25 percent in 1982 to 33 percent in 2010; the share of net profits in net value added rose from 12 percent to 20 percent."
 ggplot(data = df_6_6, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Profit share in value added") + xlab(NULL) + scale_x_continuous(breaks = seq(1900, 2010, by = 10)) + scale_y_continuous(limits = c(0, .5), labels = percent, breaks = seq(0, .6, by = .1)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.65, .89)) 
 ```
@@ -531,7 +531,7 @@ ggplot(data = df_6_6, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_6_7', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_6_7.Rda")  # load data from /data subdirectory
-title <- "Figure 6.7. The share of housing rent in national income in France, 1900-2010"
+title <- "Figure 6.7. The share of housing rent in national income in France, 1900-2010."
 caption <- "The share of housing rent (rental value of dwellings) rose from 2 percent of national income in 1948 to 10 percent in 2010."
 ggplot(data = df_6_7, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of housing rent in national income") + xlab(NULL) + scale_x_continuous(breaks = seq(1900, 2010, by = 10)) + scale_y_continuous(limits = c(0, .105), labels = percent, breaks = seq(0, .11, by = .02)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.5, .85)) 
 ```
@@ -541,7 +541,7 @@ ggplot(data = df_6_7, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_6_8', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_6_8.Rda")  # load data from /data subdirectory
-title <- "Figure 6.8. The capital share in national income in France, 1900-2010"
+title <- "Figure 6.8. The capital share in national income in France, 1900-2010."
 caption <- "The share of capital income (net profits and rents) rose from 15 percent of national income in 1982 to 27 percent in 2010."
 ggplot(data = df_6_8, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Capital share in national income") + xlab(NULL) + scale_x_continuous(breaks = seq(1900, 2010, by = 10)) + scale_y_continuous(limits = c(0, .45), labels = percent, breaks = seq(0, .5, by = .1)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.65, .85)) 
 ```
@@ -551,7 +551,7 @@ ggplot(data = df_6_8, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_6_8S', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_6_8S.Rda")  # load data from /data subdirectory
-title <- "Figure 6.8S. The capital share in national income in France, 1900-2010"
+title <- "Figure 6.8S. The capital share in national income in France, 1900-2010."
 caption <- "The share of capital income (net profits and rents) rose from 15 percent of national income in 1982 to 27 percent in 2010."
 ggplot(data = df_6_8S, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Capital share in national income") + xlab(NULL) + scale_x_continuous(breaks = seq(1900, 2010, by = 10)) + scale_y_continuous(limits = c(0, .5), labels = percent, breaks = seq(0, .5, by = .1)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.65, .88)) 
 ```
@@ -563,7 +563,7 @@ ggplot(data = df_6_8S, aes(x = Year, y = value, group = variable, colour = varia
 load("data/df_7_1X.Rda")  # load data from /data subdirectory
 # Figure from sheet FS7.1 but not in book
 # To do: make from scratch with stat_function()!
-title <- "Figure 7.1X. Examples of Gini-Lorenz curves"
+title <- "Figure 7.1X. Examples of Gini-Lorenz curves."
 caption <- "The share of capital income (net profits and rents) rose from 15 percent of national income in 1982 to 27 percent in 2010."
 ggplot(data = df_7_1X, aes(x = x, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 2) + ylab("Total income owned by the poorest x%") + geom_line(aes(x = x, y = x), colour = "black") + xlab(NULL) + scale_x_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "Examples of distribution", values = shapePalette) + scale_colour_manual(name = "Examples of distribution", values = colorPalette) + theme(legend.position = c(.35, .85)) 
 ```
@@ -572,7 +572,7 @@ ggplot(data = df_7_1X, aes(x = x, y = value, group = variable, colour = variable
 
 ```{r 'Figure_8_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_8_1.Rda")  # load data from /data subdirectory
-title <- "Figure 8.1. Income inequality in France, 1910-2010"
+title <- "Figure 8.1. Income inequality in France, 1910-2010."
 caption <- "Inequality of total income (labor and capital) has dropped in France during the twentieth century, while wage inequality has remained the same."
 ggplot(data = df_8_1, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile in total (incomes or wages)") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(.2, .5, by = .05), limits = c(.2, .5)) + scale_shape_manual(name = "France: share of top decile", values = shapePalettePaired) + scale_colour_manual(name = "France: share of top decile", values = colorPalette) + theme(legend.position = c(.65, .85)) 
 ```
@@ -582,7 +582,7 @@ ggplot(data = df_8_1, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_8_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_8_2.Rda")  # load data from /data subdirectory
-title <- "Figure 8.2. The fall of rentiers in France, 1910-2010"
+title <- "Figure 8.2. The fall of rentiers in France, 1910-2010."
 caption <- "The fall in the top percentile share (the top 1 percent highest incomes) in France between 1914 and 1945 is due to the fall of top capital incomes."
 ggplot(data = df_8_2, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile in total (incomes or wages)") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(0, .22, by = .02)) + scale_shape_manual(name = "France: share of top percentile", values = shapePalettePaired) + scale_colour_manual(name = "France: share of top percentile", values = colorPalette) + theme(legend.position = c(.65, .85)) 
 ```
@@ -592,7 +592,7 @@ ggplot(data = df_8_2, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_8_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_8_3.Rda")  # load data from /data subdirectory
-title <- "Figure 8.3. The composition of top incomes in France in 1932"
+title <- "Figure 8.3. The composition of top incomes in France in 1932."
 caption <- "Labor income becomes less and less important as one goes up within the top decile of total income. Notes: (i)~``P90-95'' includes individuals between percentiles 90 to 95, ``P95-99'' includes the next 4 percent, ``P99-99.5'' the next 0.5 percent, etc.; (ii)~Labor income: wages, bonuses, pensions. Capital income: dividends, interest, rent. Mixed income: self-employment income."
 ggplot(data = df_8_3, aes(x = Quantile, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share in total income of various fractiles") + xlab(NULL) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "France", values = shapePalettePaired) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.6, .85)) 
 ```
@@ -602,7 +602,7 @@ ggplot(data = df_8_3, aes(x = Quantile, y = value, group = variable, colour = va
 
 ```{r 'Figure_8_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_8_4.Rda")  # load data from /data subdirectory
-title <- "Figure 8.4. The composition of top incomes in France in 2005"
+title <- "Figure 8.4. The composition of top incomes in France in 2005."
 caption <- "Capital income becomes dominant at the level of the top 0.1 percent in France in 2005, as opposed to the top 0.5 percent in 1932."
 ggplot(data = df_8_4, aes(x = Quantile, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share in total income of various fractiles") + xlab(NULL) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "France", values = shapePalettePaired) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.6, .85)) 
 ```
@@ -612,7 +612,7 @@ ggplot(data = df_8_4, aes(x = Quantile, y = value, group = variable, colour = va
 
 ```{r 'Figure_8_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_8_5.Rda")  # load data from /data subdirectory
-title <- "Figure 8.5. Income inequality in the United States, 1910-2010"
+title <- "Figure 8.5. Income inequality in the United States, 1910-2010."
 caption <- "The top decile share in U.S. national income dropped from 45-50% in the 1910s-1920s to less than 35% in the 1950s (this is the
 1950 1960 fall documented by Kuznets); it then rose from less than 35% in the 1970s to 45-50% in the 2000s-2010s."
 ggplot(data = df_8_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile \nin national income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(.3, .5, by = .05), limits = c(.3, .5)) + scale_shape_manual(name = "United States: share of top decile", values = shapePalettePaired) + scale_colour_manual(name = "United States: share of top decile", values = colorPalette) + theme(legend.position = c(.6, .85)) 
@@ -622,7 +622,7 @@ ggplot(data = df_8_5, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_8_6', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_8_6.Rda")  # load data from /data subdirectory
-title <- "Figure 8.6. Decomposition of the top decile, United States, 1910-2010"
+title <- "Figure 8.6. Decomposition of the top decile, United States, 1910-2010."
 caption <- "The rise of the top decile income share since the 1970s is mostly due to the top percentile."
 ggplot(data = df_8_6, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of the different groups in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(0.08, .25, by = .02), limits = c(.08, .25)) + scale_shape_manual(name = "United States: annual incomes in 2010", values = shapePalettePaired) + scale_colour_manual(name = "United States: annual incomes in 2010", values = colorPalette) + theme(legend.position = c(.6, .85)) 
 ```
@@ -631,7 +631,7 @@ ggplot(data = df_8_6, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_8_7', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_8_7.Rda")  # load data from /data subdirectory
-title <- "Figure 8.7. High incomes and high wages in the United States, 1910-2010"
+title <- "Figure 8.7. High incomes and high wages in the United States, 1910-2010."
 caption <- "The rise of income inequality since the 1970s is largely due to the rise of wage inequality."
 ggplot(data = df_8_7, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile in total (incomes or wages)") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(.2, .5, by = .05)) + scale_shape_manual(name = "United States: share of top decile", values = shapePalettePaired) + scale_colour_manual(name = "United States: share of top decile", values = colorPalette) + theme(legend.position = c(.6, .85)) 
 ```
@@ -640,7 +640,7 @@ ggplot(data = df_8_7, aes(x = Year, y = value, group = variable, colour = variab
  
 ```{r 'Figure_8_8', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_8_8.Rda")  # load data from /data subdirectory
-title <- "Figure 8.8. The transformation of the top 1 percent in the United States, 1910-2010"
+title <- "Figure 8.8. The transformation of the top 1 percent in the United States, 1910-2010."
 caption <- "The rise in the top 1 percent highest incomes since the 1970s is largely due to the rise in the top 1 percent highest wages."
 ggplot(data = df_8_8, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile in total (incomes or wages)") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(0, .3, by = .02)) + scale_shape_manual(name = "United States: share of top percentile", values = shapePalettePaired) + scale_colour_manual(name = "United States: share of top percentile", values = colorPalette) + theme(legend.position = c(.6, .85)) 
 ```
@@ -649,7 +649,7 @@ ggplot(data = df_8_8, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_8_9', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_8_9.Rda")  # load data from /data subdirectory
-title <- "Figure 8.9. The composition of top incomes in the United States in 1929"
+title <- "Figure 8.9. The composition of top incomes in the United States in 1929."
 caption <- "Labor income becomes less and less important as one moves up within the top income decile."
 ggplot(data = df_8_9, aes(x = Quantile, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share in total income of various fractiles") + xlab(NULL) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "United States", values = shapePalettePaired) + scale_colour_manual(name = "United States", values = colorPalette) + theme(legend.position = c(.45, .85)) 
 ```
@@ -659,7 +659,7 @@ ggplot(data = df_8_9, aes(x = Quantile, y = value, group = variable, colour = va
 
 ```{r 'Figure_8_10', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_8_10.Rda")  # load data from /data subdirectory
-title <- "Figure 8.10. The composition of top incomes in the United States in 2007"
+title <- "Figure 8.10. The composition of top incomes in the United States in 2007."
 caption <- "Capital income becomes dominant at the level of top 0.1 percent in 2007, as opposed to the top 1 percent in 1929."
 ggplot(data = df_8_10, aes(x = Quantile, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share in total income of various fractiles") + xlab(NULL) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "United States", values = shapePalettePaired) + scale_colour_manual(name = "United States", values = colorPalette) + theme(legend.position = c(.55, .85)) 
 ```
@@ -677,7 +677,7 @@ rhs <- ggplot(data = subset(df_9_1, variable %in% c("Year", "United States (2013
 <!--
 ```{r 'Figure_9_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 # This figure makes use of custom function ggplot_dual_axis()
-title <- "Figure 9.1. Minimum wage in France and the United States, 1950-2013"
+title <- "Figure 9.1. Minimum wage in France and the United States, 1950-2013."
 caption <- "Expressed in 2013 purchasing power, the hourly minimum wage rose from $3.80 to $7.30 between 1950 and 2013 in the United States, and from € 2.10 to € 9.40 in France."
 #p <- ggplot_dual_axis(lhs = lhs, rhs = rhs); p
 # new ggplot_dual_axis function in the making, please check back later
@@ -687,7 +687,7 @@ caption <- "Expressed in 2013 purchasing power, the hourly minimum wage rose fro
 
 ```{r 'Figure_9_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_9_2.Rda")  # load data from /data subdirectory
-title <- "Figure 9.2. Income inequality in Anglo-Saxon countries, 1910-2010"
+title <- "Figure 9.2. Income inequality in Anglo-Saxon countries, 1910-2010."
 caption <- "The share of top percentile in total income rose since the 1970s in all Anglo-Saxon countries, but with different magnitudes."
 ggplot(data = df_9_2, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top percentile in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(limits = c(.04, .25), labels = percent, breaks = seq(0, .25, by = .02)) + scale_shape_manual(name = "Share of top 1% in total income", values = shapePalette) + scale_colour_manual(name = "Share of top 1% in total income", values = colorPalette) + theme(legend.position = c(.6, .8)) 
 ```
@@ -697,7 +697,7 @@ ggplot(data = df_9_2, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_9_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_9_3.Rda")  # load data from /data subdirectory
-title <- "Figure 9.3. Income inequality in Continental Europe and Japan, 1910-2010"
+title <- "Figure 9.3. Income inequality in Continental Europe and Japan, 1910-2010."
 caption <- "As compared to Anglo-Saxon countries, the share of top percentile barely increased since the 1970s in Continental Europe and Japan."
 ggplot(data = df_9_3, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top percentile in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(limits = c(.03, .25), labels = percent, breaks = seq(0, .25, by = .02)) + scale_shape_manual(name = "Share of top 1% in total income", values = shapePalette) + scale_colour_manual(name = "Share of top 1% in total income", values = colorPalette) + theme(legend.position = c(.6, .8))
 ```
@@ -707,7 +707,7 @@ ggplot(data = df_9_3, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_9_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_9_4.Rda")  # load data from /data subdirectory
-title <- "Figure 9.4. Income inequality in Northern and Southern Europe, 1910-2010"
+title <- "Figure 9.4. Income inequality in Northern and Southern Europe, 1910-2010."
 caption <- "As compared to Anglo-Saxon countries, the top percentile income share barely increased in Northern and Southern Europe since the 1970s."
 ggplot(data = df_9_4, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top percentile in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(limits = c(.04, .24), labels = percent, breaks = seq(0, .25, by = .02)) + scale_shape_manual(name = "Share of top 1% in total income", values = shapePalette) + scale_colour_manual(name = "Share of top 1% in total income", values = colorPalette) + theme(legend.position = c(.6, .8)) 
 ```
@@ -718,7 +718,7 @@ ggplot(data = df_9_4, aes(x = Year, y = value, group = variable, colour = variab
 ```{r 'Figure_9_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 # Figure title incorrect in book, "Top decile" should read "Top thousandile"!
 load("data/df_9_5.Rda")  # load data from /data subdirectory
-title <- "Figure 9.5. The top 0.1% income share in Anglo-Saxon countries, 1910-2010"
+title <- "Figure 9.5. The top 0.1% income share in Anglo-Saxon countries, 1910-2010."
 caption <- "The share of the top 0.1 percent highest incomes in total income rose sharply since the 1970s in all Anglo-Saxon countries, but with varying magnitudes."
 ggplot(data = df_9_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top 0.1% in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(limits = c(0, .12), labels = percent, breaks = seq(0, .12, by = .01)) + scale_shape_manual(name = "Share of top 0.1% in total income", values = shapePalette) + scale_colour_manual(name = "Share of top 0.1% in total income", values = colorPalette) + theme(legend.position = c(.6, .8)) 
 ```
@@ -728,7 +728,7 @@ ggplot(data = df_9_5, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_9_5X', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_9_5X.Rda")  # load data from /data subdirectory
-title <- "Figure 9.5X. The top decile income share in Anglo-Saxon countries, 1910-2010"
+title <- "Figure 9.5X. The top decile income share in Anglo-Saxon countries, 1910-2010."
 caption <- "The share of the top decile of highest incomes rose sharply in the 1980s and 1990s in all Anglo-Saxon countries, and in particular in the United States and United Kingdom."
 ggplot(data = df_9_5X, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(limits = c(.25, .5), labels = percent, breaks = seq(0, .6, by = .05)) + scale_shape_manual(name = "Share of top 10% in total income", values = shapePalette) + scale_colour_manual(name = "Share of top 10% in total income", values = colorPalette) + theme(legend.position = c(.6, .8))
 ```
@@ -738,7 +738,7 @@ ggplot(data = df_9_5X, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_9_6', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 # Figure title incorrect in book, "Top decile" should read "Top thousandile"!
-title <- "Figure 9.6. The top 0.1% income share in Continental Europe and Japan, 1910-2010"
+title <- "Figure 9.6. The top 0.1% income share in Continental Europe and Japan, 1910-2010."
 caption <- "As compared to Anglo-Saxon countries, the top 0.1 percent income share barely increased in Continental Europe and Japan."
 load("data/df_9_6.Rda")  # load data from /data subdirectory
 ggplot(data = df_9_6, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top 0.1% in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(limits = c(0, .12), labels = percent, breaks = seq(0, .12, by = .01)) + scale_shape_manual(name = "Share of top 0.1% in total income", values = shapePalette) + scale_colour_manual(name = "Share of top 0.1% in total income", values = colorPalette) + theme(legend.position = c(.6, .8)) 
@@ -749,7 +749,7 @@ ggplot(data = df_9_6, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_9_6X', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_9_6X.Rda")  # load data from /data subdirectory
-title <- "Figure 9.6X. The top decile income share in Continental Europe and Japan, 1910-2010"
+title <- "Figure 9.6X. The top decile income share in Continental Europe and Japan, 1910-2010."
 caption <- "As compared to Anglo-Saxon countries, the top 10 percent income share has barely increased in Continental Europe."
 ggplot(data = df_9_6X, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(limits = c(.2, .5), labels = percent, breaks = seq(0, .6, by = .05)) + scale_shape_manual(name = "Share of top 10% in total income", values = shapePalette) + scale_colour_manual(name = "Share of top 10% in total income", values = colorPalette) + theme(legend.position = c(.6, .8)) 
 ```
@@ -759,7 +759,7 @@ ggplot(data = df_9_6X, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_9_7', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_9_7.Rda")  # load data from /data subdirectory
-title <- "Figure 9.7. The top decile income share in Europe and the United States, 1900-2010"
+title <- "Figure 9.7. The top decile income share in Europe and the United States, 1900-2010."
 caption <- "In the 1950s-1970s, the top decile income share was about 30-35 percent of total income in Europe as in the United States."
 ggplot(data = df_9_7, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1900, 2010, by = 10)) + scale_y_continuous(limits = c(.2, .58), labels = percent, breaks = seq(0, .6, by = .05)) + scale_shape_manual(name = "Share of top 10% in total income", values = shapePalette) + scale_colour_manual(name = "Share of top 10% in total income", values = colorPalette) + theme(legend.position = c(.6, .8))
 ```
@@ -769,7 +769,7 @@ ggplot(data = df_9_7, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_9_7X', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_9_7X.Rda")  # load data from /data subdirectory
-title <- "Figure 9.7X. The top 0.1% income share in Europe and the United States, 1900-2010"
+title <- "Figure 9.7X. The top 0.1% income share in Europe and the United States, 1900-2010."
 caption <- "In the 1950s the top 0.1% income share was about 2-4% percent of total income in Europe and in the United States."
 ggplot(data = df_9_7X, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top 0.1% in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1900, 2010, by = 10)) + scale_y_continuous(limits = c(0, .13), labels = percent, breaks = seq(0, .15, by = .02)) + scale_shape_manual(name = "Share of top 0.1% in total income", values = shapePalette) + scale_colour_manual(name = "Share of top 0.1% in total income", values = colorPalette) + theme(legend.position = c(.6, .8)) 
 ```
@@ -780,7 +780,7 @@ ggplot(data = df_9_7X, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_9_8', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_9_8.Rda")  # load data from /data subdirectory
-title <- "Figure 9.8: Income inequality: Europe vs. United States, 1900-2010"
+title <- "Figure 9.8: Income inequality: Europe vs. United States, 1900-2010."
 caption <- "The top decile income share was higher in Europe than in the U.S. in 1900-2010. It is much higher in the U.S. in 2000-2010."
 ggplot(data = df_9_8, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile in total income") + xlab(NULL) + scale_x_continuous(breaks = seq(1900, 2010, by = 10)) + scale_y_continuous(limits = c(.25, .55), labels = percent, breaks = seq(.25, .6, by = .05)) + scale_shape_manual(name = "Share of top 10% in total income", values = shapePalettePaired[1:2]) + scale_colour_manual(name = "Share of top 10% in total income", values = colorPalette[1:2]) + theme(legend.position = c(.6, .85)) 
 ```
@@ -791,7 +791,7 @@ ggplot(data = df_9_8, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_9_9', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_9_9.Rda")  # load data from /data subdirectory
-title <- "Figure 9.9. Income inequality in emerging countries, 1910-2010"
+title <- "Figure 9.9. Income inequality in emerging countries, 1910-2010."
 caption <- "Measured by the top percentile income share, income inequality rose in emerging countries since the 1980s, but ranks below the US level in 2000-2010."
 ggplot(data = df_9_9, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top percentile in total income") + xlab(NULL) + scale_x_continuous(limits = c(1910, 2010), breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(limits = c(.035, .26), labels = percent, breaks = seq(0, .28, by = .02)) + scale_shape_manual(name = "Category", values = shapePalette) + scale_colour_manual(name = "Category", values = colorPalette) + theme(legend.position = c(.22, .15), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 2))
 ```
@@ -802,7 +802,7 @@ ggplot(data = df_9_9, aes(x = Year, y = value, group = variable, colour = variab
 
 ```{r 'Figure_10_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_1.Rda")  # load data from /data subdirectory
-title <- "Figure 10.1. Wealth inequality in France, 1810-2010"
+title <- "Figure 10.1. Wealth inequality in France, 1810-2010."
 caption <- "The top decile (the top 10 percent highest wealth holders) owns 80-90 percent of total wealth in 1810-1910, and 60-65 percent today."
 ggplot(data = df_10_1, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile or percentile in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(0, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.25, .2)) 
 ```
@@ -813,7 +813,7 @@ ggplot(data = df_10_1, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_10_1S', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_1S.Rda")  # load data from /data subdirectory
-title <- "Figure 10.1S. Wealth inequality in France, 1810-2010"
+title <- "Figure 10.1S. Wealth inequality in France, 1810-2010."
 caption <- "The top decile (the top 10 percent highest wealth holders) owns 80-90 percent of total wealth in 1810-1910, and 60-65 percent today."
 ggplot(data = df_10_1S, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top quantiles in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(0, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.85, .87)) 
 ```
@@ -824,7 +824,7 @@ ggplot(data = df_10_1S, aes(x = Year, y = value, group = variable, colour = vari
 
 ```{r 'Figure_10_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_2.Rda")  # load data from /data subdirectory
-title <- "Figure 10.2. Wealth inequality in Paris versus France, 1810-2010"
+title <- "Figure 10.2. Wealth inequality in Paris versus France, 1810-2010."
 caption <- "The top percentile (the top 1 percent wealth holders) owns 70 percent of aggregate wealth in Paris on the eve of World War I."
 ggplot(data = df_10_2, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top percentile in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(0, .71), labels = percent, breaks = seq(0, .8, by = .1)) + scale_shape_manual(name = "Paris vs France", values = shapePalette) + scale_colour_manual(name = "Paris vs France", values = colorPalette) + theme(legend.position = c(.25, .25)) 
 ```
@@ -835,7 +835,7 @@ ggplot(data = df_10_2, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_10_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_3.Rda")  # load data from /data subdirectory
-title <- "Figure 10.3. Wealth inequality in Britain, 1810-2010"
+title <- "Figure 10.3. Wealth inequality in Britain, 1810-2010."
 caption <- "The top decile owns 80-90 percent of total wealth in 1810-1910, and 70 percent today."
 ggplot(data = df_10_3, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile or of top percentile in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(0, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "United Kingdom", values = shapePalette) + scale_colour_manual(name = "United Kingdom", values = colorPalette) + theme(legend.position = c(.25, .25)) 
 ```
@@ -846,7 +846,7 @@ ggplot(data = df_10_3, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_10_3S', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_3S.Rda")  # load data from /data subdirectory
-title <- "Figure 10.3S. Wealth inequality in the United Kingdom, 1810-2010"
+title <- "Figure 10.3S. Wealth inequality in the United Kingdom, 1810-2010."
 caption <- "The top decile owns 80-90 percent of total wealth in 1810-1910, and 70 percent today."
 ggplot(data = df_10_3S, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile or of top percentile in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(0, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "United Kingdom", values = shapePalette) + scale_colour_manual(name = "United Kingdom", values = colorPalette) + theme(legend.position = c(.25, .25)) 
 ```
@@ -858,7 +858,7 @@ ggplot(data = df_10_3S, aes(x = Year, y = value, group = variable, colour = vari
 
 ```{r 'Figure_10_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_4.Rda")  # load data from /data subdirectory
-title <- "Figure 10.4. Wealth inequality in Sweden, 1810-2010"
+title <- "Figure 10.4. Wealth inequality in Sweden, 1810-2010."
 caption <- "The top 10 percent holds 80-90 percent of total wealth in 1810-1910 and 55-60 percent today."
 ggplot(data = df_10_4, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile or of top percentile in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(0, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "Sweden", values = shapePalette) + scale_colour_manual(name = "Sweden", values = colorPalette) + theme(legend.position = c(.25, .25)) 
 ```
@@ -869,7 +869,7 @@ ggplot(data = df_10_4, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_10_4S', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_4S.Rda")  # load data from /data subdirectory
-title <- "Figure 10.4S. Wealth inequality in Sweden, 1810-2010"
+title <- "Figure 10.4S. Wealth inequality in Sweden, 1810-2010."
 caption <- "The top 10 percent holds 80-90 percent of total wealth in 1810-1910 and 55-60 percent today."
 ggplot(data = df_10_4S, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile or of top percentile in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(0, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "Sweden", values = shapePalette) + scale_colour_manual(name = "Sweden", values = colorPalette) + theme(legend.position = c(.2, .15)) 
 ```
@@ -880,7 +880,7 @@ ggplot(data = df_10_4S, aes(x = Year, y = value, group = variable, colour = vari
 
 ```{r 'Figure_10_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_5.Rda")  # load data from /data subdirectory
-title <- "Figure 10.5. Wealth inequality in the United States, 1810-2010"
+title <- "Figure 10.5. Wealth inequality in the United States, 1810-2010."
 caption <- "The top 10 percent wealth holders own about 80 percent of total wealth in 1910 and 75 percent today."
 ggplot(data = df_10_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile or of top percentile in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(0, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "United States", values = shapePalette) + scale_colour_manual(name = "United States", values = colorPalette) + theme(legend.position = c(.75, .85)) 
 ```
@@ -891,7 +891,7 @@ ggplot(data = df_10_5, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_10_5S', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_5S.Rda")  # load data from /data subdirectory
-title <- "Figure 10.5S. Wealth inequality in the United States, 1810-2010"
+title <- "Figure 10.5S. Wealth inequality in the United States, 1810-2010."
 caption <- "The top 10 percent wealth holders own about 80 percent of total wealth in 1910 and 75 percent today."
 ggplot(data = df_10_5S, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile or of top percentile in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(0, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "United States", values = shapePalette) + scale_colour_manual(name = "United States", values = colorPalette) + theme(legend.position = c(.8, .85)) 
 ```
@@ -902,7 +902,7 @@ ggplot(data = df_10_5S, aes(x = Year, y = value, group = variable, colour = vari
 
 ```{r 'Figure_10_6', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_6.Rda")  # load data from /data subdirectory
-title <- "Figure 10.6. Wealth inequality in Europe versus the United States, 1810-2010"
+title <- "Figure 10.6. Wealth inequality in Europe versus the United States, 1810-2010."
 caption <- "Until the mid-twentieth century, wealth inequality was higher in Europe than in the United States."
 ggplot(data = df_10_6, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile or of top percentile in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(-.1, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "Europe versus United States", values = shapePalettePaired) + scale_colour_manual(name = "Europe versus United States", values = colorPalette) + theme(legend.position = c(.5, .1)) + guides(shape = guide_legend(ncol = 2))
 ```
@@ -913,7 +913,7 @@ ggplot(data = df_10_6, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_10_6S', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_6S.Rda")  # load data from /data subdirectory
-title <- "Figure 10.6S. Wealth inequality in Europe versus the United States, 1810-2010"
+title <- "Figure 10.6S. Wealth inequality in Europe versus the United States, 1810-2010."
 caption <- "Until the mid-twentieth century, wealth inequality was higher in Europe than in the United States."
 ggplot(data = df_10_6S, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile or of top percentile in total wealth") + xlab(NULL) + scale_x_continuous(breaks = seq(1810, 2010, by = 20)) + scale_y_continuous(limits = c(-.3, 1), labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "Europe versus United States", values = shapePalette) + scale_colour_manual(name = "Europe versus United States", values = colorPalette) + theme(legend.position = c(.5, .15)) + guides(shape = guide_legend(ncol = 2))
 ```
@@ -924,7 +924,7 @@ ggplot(data = df_10_6S, aes(x = Year, y = value, group = variable, colour = vari
 
 ```{r 'Figure_10_7', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_7.Rda")  # load data from /data subdirectory
-title <- "Figure 10.7. Return to capital and growth: France, 1820-1913"
+title <- "Figure 10.7. Return to capital and growth: France, 1820-1913."
 caption <- "The rate of return on capital is a lot higher than the growth rate in France between 1820 and 1913."
 ggplot(data = df_10_7, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Annual rate of return or rate of growth") + xlab(NULL) + scale_x_continuous(breaks = seq(1820, 1913, by = 10)) + scale_y_continuous(limits = c(0, .07), labels = percent, breaks = seq(0, .1, by = .01)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.25, .45)) 
 ```
@@ -935,7 +935,7 @@ ggplot(data = df_10_7, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_10_8', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_8.Rda")  # load data from /data subdirectory
-title <- "Figure 10.8. Capital share and saving rate: France, 1820-1913"
+title <- "Figure 10.8. Capital share and saving rate: France, 1820-1913."
 caption <- "The share of capital income in national income is much larger than the saving rate in France between 1820 and 1913."
 # manually fix legend labels to display symbols
 labels_fixed <- as.list(expression(paste("National saving rate (s)"), paste("Capital income share (", alpha, ")"))) 
@@ -948,7 +948,7 @@ ggplot(data = df_10_8, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_10_9', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_9.Rda")  # load data from /data subdirectory
-title <- "Figure 10.9. Rate of return versus growth rate at the world level, from Antiquity until 2100"
+title <- "Figure 10.9. Rate of return versus growth rate at the world level, from Antiquity until 2100."
 caption <- "The rate of return to capital (pretax) has always been higher than the world growth rate, but the gap was reduced during the twentieth century, and might widen again in the twenty-first century."
 ggplot(data = df_10_9, aes(x = Period, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Annual rate of return or rate of growth") + xlab(NULL) + scale_y_continuous(limits = c(0, .06), labels = percent, breaks = seq(0, .1, by = .01)) + scale_shape_manual(name = "World", values = shapePalette) + scale_colour_manual(name = "World", values = colorPalette) + theme(legend.position = c(.25, .45)) 
 ```
@@ -959,7 +959,7 @@ ggplot(data = df_10_9, aes(x = Period, y = value, group = variable, colour = var
 
 ```{r 'Figure_10_10', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_10.Rda")  # load data from /data subdirectory
-title <- "Figure 10.10. After tax rate of return versus growth rate at the world level, from Antiquity until 2100"
+title <- "Figure 10.10. After tax rate of return versus growth rate at the world level, from Antiquity until 2100."
 caption <- "The rate of return to capital (after tax and capital losses) fell below the growth rate during the twentieth century, and may again surpass it in the twenty-first century."
 ggplot(data = df_10_10, aes(x = Period, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Annual rate of return or rate of growth") + xlab(NULL) + scale_y_continuous(limits = c(0, .06), labels = percent, breaks = seq(0, .1, by = .01)) + scale_shape_manual(name = "World", values = shapePalette) + scale_colour_manual(name = "World", values = colorPalette) + theme(legend.position = c(.25, .45)) 
 ```
@@ -970,7 +970,7 @@ ggplot(data = df_10_10, aes(x = Period, y = value, group = variable, colour = va
 
 ```{r 'Figure_10_11', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_10_11.Rda")  # load data from /data subdirectory
-title <- "Figure 10.11. After tax rate of return versus growth rate at the world level, from Antiquity until 2200"
+title <- "Figure 10.11. After tax rate of return versus growth rate at the world level, from Antiquity until 2200."
 caption <- "The rate of return to capital (after tax and capital losses) fell below the growth rate during the twentieth century, and might again surpass it in the twenty-first century."
 ggplot(data = df_10_11, aes(x = Period, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Annual rate of return or rate of growth") + xlab(NULL) + scale_y_continuous(limits = c(0, .06), labels = percent, breaks = seq(0, .1, by = .01)) + scale_shape_manual(name = "World", values = shapePalette) + scale_colour_manual(name = "World", values = colorPalette) + theme(legend.position = c(.25, .45)) 
 ```
@@ -979,7 +979,7 @@ ggplot(data = df_10_11, aes(x = Period, y = value, group = variable, colour = va
 
 ```{r 'Figure_11_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_1.Rda")  # load data from /data subdirectory
-title <- "Figure 11.1. The annual inheritance flow as a fraction of national income, France, 1820-2010"
+title <- "Figure 11.1. The annual inheritance flow as a fraction of national income, France, 1820-2010."
 caption <- "The annual inheritance flow was about 20–25 percent of national income during the nineteenth century and until 1914; it then fell to less than 5 percent in the 1950s, and returned to about 15 percent in 2010."
 ggplot(data = df_11_1, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Annual value of inheritance and gifts \n(% national income)") + xlab(NULL) + scale_x_continuous(limits = c(1820, 2010), breaks = seq(1820, 2020, by = 20)) + scale_y_continuous(limits = c(-.02, .26), labels = percent, breaks = seq(0, .4, by = .04)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.25, .2)) 
 ```
@@ -988,7 +988,7 @@ ggplot(data = df_11_1, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_11_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_2.Rda")  # load data from /data subdirectory
-title <- "Figure 11.2. The mortality rate in France, 1820-2100"
+title <- "Figure 11.2. The mortality rate in France, 1820-2100."
 caption <- "The mortality rate fell in France during the twentieth century (rise of life expectancy), and should increase somewhat during the twenty-first century (baby-boom effect)."
 ggplot(data = df_11_2, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Adult mortality rate (%)") + xlab(NULL) + scale_x_continuous(limits = c(1820, 2010), breaks = seq(1820, 2020, by = 20)) + scale_y_continuous(limits = c(.01, .025), labels = percent, breaks = seq(0, .05, by = .0025)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.75, .85)) 
 ```
@@ -997,7 +997,7 @@ ggplot(data = df_11_2, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_11_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_3.Rda")  # load data from /data subdirectory
-title <- "Figure 11.3. Average age of decedents and inheritors: France, 1820-2100"
+title <- "Figure 11.3. Average age of decedents and inheritors: France, 1820-2100."
 caption <- "The average of (adult) decedents rose from less than 60 years to almost 80 years during the twentieth century, and the average age at the time of inheritance rose from 30 years to 50 years."
 ggplot(data = df_11_3, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Average age in years") + xlab(NULL) + scale_x_continuous(limits = c(1820, 2100), breaks = seq(1820, 2100, by = 20)) + scale_y_continuous(limits = c(20, 100), breaks = seq(0, 100, by = 10)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.3, .85)) 
 ```
@@ -1006,7 +1006,7 @@ ggplot(data = df_11_3, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_11_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_4.Rda")  # load data from /data subdirectory
-title <- "Figure 11.4. Inheritance flow versus mortality rate: France, 1820-2010"
+title <- "Figure 11.4. Inheritance flow versus mortality rate: France, 1820-2010."
 caption <- "The annual flow of inheritance (bequests and gifts) is equal to about 2.5 percent of aggregate wealth in 2000-2010 versus 1.2 percent for the mortality rate."
 ggplot(data = df_11_4, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3)  + ylab("Annual rate of transmission or mortality (%)") + xlab(NULL) + scale_x_continuous(limits = c(1820, 2010), breaks = seq(1820, 2010, by = 20)) + scale_y_continuous(limits = c(0, .04), labels = percent, breaks = seq(0, .05, by = .005)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.2, .2)) 
 ```
@@ -1015,7 +1015,7 @@ ggplot(data = df_11_4, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_11_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_5.Rda")  # load data from /data subdirectory
-title <- "Figure 11.5. The ratio between average wealth at death and average wealth of the living: France, 1820-2010"
+title <- "Figure 11.5. The ratio between average wealth at death and average wealth of the living: France, 1820-2010."
 caption <- "In 2000-2010, the average wealth at death is 20 percent higher than that of the living if one omits the gifts that were made before death, but more than twice as large if one re-integrates gifts."
 ggplot(data = df_11_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Ratio between the average wealth of \n decedents and the living") + xlab(NULL) + scale_x_continuous(limits = c(1820, 2010), breaks = seq(1820, 2010, by = 20)) + scale_y_continuous(limits = c(.8, 2.3), labels = percent, breaks = seq(0, 3, by = .2)) + scale_shape_manual(name = "France", values = shapePalette) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.28, .8)) 
 ```
@@ -1024,7 +1024,7 @@ ggplot(data = df_11_5, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_11_6', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_6.Rda")  # load data from /data subdirectory
-title <- "Figure 11.6. Observed and simulated inheritance flow: France, 1820-2100"
+title <- "Figure 11.6. Observed and simulated inheritance flow: France, 1820-2100."
 caption <- "Simulations based upon the theoretical model indicate that the level of the inheritance flow in the twenty-first century will depend upon the growth rate and the net rate of return to capital."
 # manually fix legend labels to display symbols
 labels_fixed <- as.list(expression(
@@ -1038,7 +1038,7 @@ ggplot(data = df_11_6, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_11_7', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_7.Rda")  # load data from /data subdirectory
-title <- "Figure 11.7. The share of inherited wealth in total wealth: France, 1850-2100"
+title <- "Figure 11.7. The share of inherited wealth in total wealth: France, 1850-2100."
 caption <- "Inherited wealth represents 80-90 percent of total wealth in France in the nineteenth century; this share fell to 40-50 percent during the twentieth century, and might re- turn to 80-90 percent during the twenty-first century."
 # manually fix legend labels to display symbols
 labels_fixed <- as.list(expression(
@@ -1051,7 +1051,7 @@ ggplot(data = df_11_7, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_11_8', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_8.Rda")  # load data from /data subdirectory
-title <- "Figure 11.8. The annual inheritance flow as a fraction of household disposable income: France, 1820-2010"
+title <- "Figure 11.8. The annual inheritance flow as a fraction of household disposable income: France, 1820-2010."
 caption <- "Expressed as a fraction of household disposable income (rather than national income), the annual inheritance flow is about 20 percent in 2010, in other words, close to its nineteenth-century level."
 ggplot(data = df_11_8, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Annual value of inheritance and gifts \n(% household disposable income)") + xlab(NULL) + scale_x_continuous(limits = c(1800, 2010), breaks = seq(1800, 2010, by = 20)) + scale_y_continuous(limits = c(-.008, .27), labels = percent, breaks = seq(0, .4, by = .02)) + scale_shape_manual(name = "France", values = shapePalettePaired) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.27, .23)) + guides(shape = guide_legend(ncol = 1))
 ```
@@ -1060,7 +1060,7 @@ ggplot(data = df_11_8, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_11_9', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_9.Rda")  # load data from /data subdirectory
-title <- "Figure 11.9. The share of inheritance in the total resources (inheritance and work) of cohorts born in 1790-2030"
+title <- "Figure 11.9. The share of inheritance in the total resources (inheritance and work) of cohorts born in 1790-2030."
 caption <- "Inheritance made about 25 percent of the resources of nineteenth-century cohorts, down to less than 10 percent for cohorts born in 1910-1920 (who should have inherited in 1950-1960)."
 # manually fix legend labels to display symbols
 # hackish and ugly
@@ -1076,7 +1076,7 @@ ggplot(data = df_11_9, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_11_10', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_10.Rda")  # load data from /data subdirectory
-title <- "Figure 11.10. The dilemma of Rastignac for cohorts born in 1790-2030"
+title <- "Figure 11.10. The dilemma of Rastignac for cohorts born in 1790-2030."
 caption <- "In the nineteenth century, the living standards that could be attained by the top 1 percent inheritors were a lot higher than those that could be attained by the top 1 percent labor earners."
 ggplot(data = df_11_10, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Multiples of average income attained by  \n bottom 50% of wage earners") + xlab(NULL) + scale_x_continuous(limits = c(1790, 2030), breaks = seq(1790, 2030, by = 20)) + scale_y_continuous(limits = c(0, 30), breaks = seq(0, 30, by = 5)) + scale_shape_manual(name = "France", values = shapePalettePaired) + scale_colour_manual(name = "France", values = colorPalette) + theme(legend.position = c(.68, .85))
 ```
@@ -1094,7 +1094,7 @@ ggplot(data = df_11_11, aes(x = Year, y = value, group = variable, colour = vari
 
 ```{r 'Figure_11_12', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_11_12.Rda")  # load data from /data subdirectory
-title <- "Figure 11.12. The inheritance flow in Europe, 1900-2010"
+title <- "Figure 11.12. The inheritance flow in Europe, 1900-2010."
 caption <- "The inheritance flow follows a U-shape in curve in France as well as in the United Kingdom and Germany. It is possible that gifts are underestimated in the United Kingdom at the end of the period."
 ggplot(data = df_11_12, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Annual value of bequests and gifts \n(% national income)") + xlab(NULL) + scale_x_continuous(limits = c(1900, 2010), breaks = seq(1900, 2010, by = 10)) + scale_y_continuous(limits = c(0, .25), labels = percent, breaks = seq(0, .3, by = .02)) + scale_shape_manual(name = "Bequests & Gifts", values = shapePalettePaired) + scale_colour_manual(name = "Bequests & Gifts", values = colorPalette) + theme(legend.position = c(.75, .75), legend.title = element_blank()) 
 ```
@@ -1111,7 +1111,7 @@ rhs <- ggplot(data = df_12_1, aes(x = Year, y = value, group = variable, colour 
 ```
 ```{r 'Figure_12_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 # This figure makes use of custom function ggplot_dual_axis()
-title <- "Figure 12.1. The world's billionaires according to Forbes, 1987-2013"
+title <- "Figure 12.1. The world's billionaires according to Forbes, 1987-2013."
 caption <- "Between 1987 and 2013, according to Forbes, the number of $ billionaires rose from 140 to 1,400, and their total wealth rose from 300 to 5,400 billion dollars."
 #p <- ggplot_dual_axis(lhs, rhs); p
 # new ggplot_dual_axis function in the making, please check back later
@@ -1128,7 +1128,7 @@ rhs <- ggplot(data = df_12_2, aes(x = Year, y = value, group = variable, colour 
 ```
 ```{r 'Figure_12_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 # This figure makes use of custom function ggplot_dual_axis()
-title <- "Figure 12.2. Billionaires as a fraction of global population and wealth, 1987-2013"
+title <- "Figure 12.2. Billionaires as a fraction of global population and wealth, 1987-2013."
 caption <- "Between 1987 and 2013, the number of billionaires per 100 million adults rose from five to thirty, and their share in aggregate private wealth rose from 0.4 percent to 1.5 percent."
 #p <- ggplot_dual_axis(lhs = lhs, rhs = rhs); p
 # new ggplot_dual_axis function in the making, please check back later
@@ -1138,7 +1138,7 @@ caption <- "Between 1987 and 2013, the number of billionaires per 100 million ad
 
 ```{r 'Figure_12_3', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_12_3.Rda")  # load data from /data subdirectory
-title <- "Figure 12.3. The share of top wealth fractiles in world wealth, 1987-2013"
+title <- "Figure 12.3. The share of top wealth fractiles in world wealth, 1987-2013."
 caption <- "Between 1987 and 2013, the share of the top 1/20 million fractile rose from 0.3 percent to 0.9 percent of world wealth, and the share of the top 1/100 million fractile rose from 0.1 percent to 0.4 percent."
 ggplot(data = df_12_3, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Annual value of bequests and gifts \n(% national income)") + xlab(NULL) + scale_x_continuous(limits = c(1987, 2012), breaks = seq(1987, 2012, by = 3)) + scale_y_continuous(limits = c(0, .012), labels = percent, breaks = seq(0, .02, by = .001)) + scale_shape_manual(name = "World wealth shares", values = shapePalettePaired) + scale_colour_manual(name = "World wealth shares", values = colorPalette) + theme(legend.position = c(.35, .85), legend.title = element_blank())
 ```
@@ -1147,7 +1147,7 @@ ggplot(data = df_12_3, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_12_4', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_12_4.Rda")  # load data from /data subdirectory
-title <- "Figure 12.4. The world capital/income ratio, 1870-2100"
+title <- "Figure 12.4. The world capital/income ratio, 1870-2100."
 caption <- "According to the simulations (central scenario), the world capital/income ratio might be near to 700 percent by the end of the twenty-first century."
 ggplot(data = df_12_4, aes(x = Year, y = value)) + geom_line(aes(group = variable, colour = Category)) + geom_point(aes(group = Category, colour = Category, shape = Category), size = 3) + ylab("Value of private capital (% world income)") + xlab(NULL) + scale_x_continuous(limits = c(1870, 2100), breaks = seq(1870, 2100, by = 20)) + scale_y_continuous(limits = c(2, 7), labels = percent, breaks = seq(1, 10, by = 1)) + scale_shape_manual(name = "World capital/income ratio", values = shapePalettePaired) + scale_colour_manual(name = "World capital/income ratio", values = colorPalette) + theme(legend.position = c(.35, .85))
 ```
@@ -1156,7 +1156,7 @@ ggplot(data = df_12_4, aes(x = Year, y = value)) + geom_line(aes(group = variabl
 
 ```{r 'Figure_12_5', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_12_5.Rda")  # load data from /data subdirectory
-title <- "Figure 12.5. The distribution of world capital, 1870-2100"
+title <- "Figure 12.5. The distribution of world capital, 1870-2100."
 caption <- "According to the central scenario, Asian countries should own about half of world capital by the end of the twenty-first century." #typo in book
 ggplot(data = df_12_5, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', colour = gray, alpha = .4, show_guide = FALSE) + ylab("value of private capital (% world income)") + xlab(NULL) + scale_x_continuous(limits = c(1870, 2120), breaks = seq(1850, 2100, by = 30)) + scale_y_continuous(labels = percent, breaks = seq(0, 70, by = 5)) + scale_fill_brewer(palette = fillPalette) + geom_text(data = subset(df_12_5, Year == tail(df_12_5$Year, 1)), aes(x = 3+Year, y = -3+cumsum(value), label = variable), vjust = 1, hjust = 0, size = 4)
 ```
@@ -1165,7 +1165,7 @@ ggplot(data = df_12_5, aes(x = Year, y = value, group = variable, fill = variabl
 
 ```{r 'Figure_12_6', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_12_6.Rda")  # load data from /data subdirectory
-title <- "Figure 12.6. The net foreign asset position of rich countries"
+title <- "Figure 12.6. The net foreign asset position of rich countries."
 caption <- "Unregistered financial assets held in tax havens are higher than the official net foreign debt of rich countries."
 ggplot(data = df_12_6, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Net foreign assets (% world output)") + xlab(NULL) + scale_x_continuous(limits = c(1985, 2010), breaks = seq(1985, 2010, by = 5)) + scale_y_continuous(limits = c(-.08, .12), labels = percent, breaks = seq(-.1, .12, by = .02)) + scale_shape_manual(name = "Net foreign asset position", values = shapePalettePaired) + scale_colour_manual(name = "Net foreign asset position", values = colorPalette) + theme(legend.position = c(.25, .8))
 ```
@@ -1174,7 +1174,7 @@ ggplot(data = df_12_6, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_13_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_13_1.Rda")  # load data from /data subdirectory
-title <- "Figure 13.1. Tax revenues in rich countries, 1870-2010"
+title <- "Figure 13.1. Tax revenues in rich countries, 1870-2010."
 caption <- "Total tax revenues were less than 10 percent of national income in rich countries until 1900-1910; they represent between 30 percent and 55 percent of national income in 2000-2010."
 ggplot(data = df_13_1, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Tax revenue (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2010, by = 20)) + scale_y_continuous(limits = c(0, .55), labels = percent, breaks = seq(0, .6, by = .05)) + scale_shape_manual(name = "Country", values = shapePalette) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.25, .8), legend.title = element_blank())
 ```
@@ -1183,7 +1183,7 @@ ggplot(data = df_13_1, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_14_1', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_14_1.Rda")  # load data from /data subdirectory
-title <- "Figure 14.1. Top income tax rates, 1900-2013"
+title <- "Figure 14.1. Top income tax rates, 1900-2013."
 caption <- "The top marginal tax rate of the income tax (applying to the highest incomes) in the U.S. dropped from 70% in 1980 to 28% in 1988."
 ggplot(data = df_14_1, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Marginal tax rate applying to the highest incomes") + xlab(NULL) + scale_x_continuous(breaks = seq(1900, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.5, .2), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1)) 
 ```
@@ -1193,7 +1193,7 @@ ggplot(data = df_14_1, aes(x = Year, y = value, group = variable, colour = varia
 
 ```{r 'Figure_14_2', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE} 
 load("data/df_14_2.Rda")  # load data from /data subdirectory
-title <- "Figure 14.2. Top inheritance tax rates, 1900-2013"
+title <- "Figure 14.2. Top inheritance tax rates, 1900-2013."
 caption <- "The top marginal tax rate of the inheritance tax (applying to the highest inheritances) in the U.S. dropped from 70% in 1980 to 35% in 2013."
 ggplot(data = df_14_2, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Marginal tax rate applying to the highest inheritances") + xlab(NULL) + scale_x_continuous(breaks = seq(1900, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_shape_manual(name = "Country", values = shapePalettePaired) + scale_colour_manual(name = "Country", values = colorPalette) + theme(legend.position = c(.16, .85), legend.title = element_blank())  + guides(shape = guide_legend(ncol = 1)) 
 ```

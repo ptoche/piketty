@@ -80,7 +80,7 @@
 </ol>
 
 <h3>Reproduce</h3>
-<p>This website is based on the slidify framework. The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the <code>.Rmd</code> source, configure the <code>site.yml</code> and run <code>blogify(&quot;.&quot;)</code> from the root of the folder hierarchy. Slidify will automatically detect all the <code>Rmd</code> files, slidify them, and create all lecture slides along with the index page. </p>
+<p>This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the <code>.Rmd</code> source, configure the <code>site.yml</code> and run <code>blogify(&quot;.&quot;)</code> from the root of the folder hierarchy. Slidify will automatically detect all the <code>Rmd</code> files, slidify them, and create all lecture slides along with the index page. </p>
 
 <p>You will need the <code>slidify</code>, <code>slidifyLibraries</code> and `<code>rCharts</code>, packages.</p>
 
@@ -89,7 +89,7 @@ devtools::install_github(c(&quot;slidify&quot;, &quot;slidifyLibraries&quot;, &q
     &quot;ramnathv&quot;, ref = &quot;dev&quot;)  
 </code></pre>
 
-<p>In addition, I often use the following packages: <code>ggplot2</code>, <code>scales</code>, <code>reshape2</code>, <code>plyr</code>, so you may need to run this for each package:</p>
+<p>In addition, I often use the following packages: <code>ggplot2</code>, <code>scales</code>, <code>reshape2</code>, <code>plyr</code><code>(author: Hadley Wickham). I am also using packages</code><code>grid</code><code>and</code>png<code>to insert images and control their size. Make sure these packages are installed in your ``R</code>system, e.g. run this for each package:</p>
 
 <pre><code>install.packages(&quot;ggplot2&quot;)
 </code></pre>
