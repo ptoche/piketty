@@ -68,13 +68,24 @@ h3 + iframe {
 /* fix h3 padding to allow longer titles */
 h3 {
     padding: 0px 0px 0px 0px;
-    line-height: 25px;
+    line-height: 20px;
+    letter-spacing: 0px;
 }
 
 /* Control elements of sourced images */
 img {
     width: 796px; 
     height: 468px;
+    vertical-align: top;  /* useless? */
+}
+
+/* Reduce Space between Title and Body */
+figure {
+    width: 796px; 
+    height: 468px;
+    line-height: 0px;  /* useless? */
+    font-size: 10px;  /* reduce space below slide title */
+    vertical-align: top;  /* useless? */
 }
 
 /* Create a footer/footnote element */

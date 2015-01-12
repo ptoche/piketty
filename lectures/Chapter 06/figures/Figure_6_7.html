@@ -23,21 +23,23 @@
   </head>
   <body >
     
-    <div id = 'chart29d15312cd6' class = 'rChart nvd3'></div>    
+    <div id = 'chart5c7788392eb' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchart29d15312cd6()
+      drawchart5c7788392eb()
     });
-    function drawchart29d15312cd6(){  
+    function drawchart5c7788392eb(){  
       var opts = {
- "dom": "chart29d15312cd6",
+ "dom": "chart5c7788392eb",
 "width":    800,
 "height":    500,
 "x": "Year",
 "y": "value",
 "group": "variable",
+"color": "variable",
+"shape": "variable",
 "type": "lineChart",
-"id": "chart29d15312cd6" 
+"id": "chart5c7788392eb" 
 },
         data = [
  {
@@ -646,6 +648,7 @@
           
          
         chart
+  .forceY([      0,   0.12 ])
   .margin({
  "left":    100 
 })
