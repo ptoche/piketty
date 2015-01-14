@@ -615,7 +615,7 @@ load("data/df_8_5.Rda")  # load data from /data subdirectory
 title <- "Figure 8.5. Income inequality in the United States, 1910-2010."
 caption <- "The top decile share in U.S. national income dropped from 45-50% in the 1910s-1920s to less than 35% in the 1950s (this is the
 1950 1960 fall documented by Kuznets); it then rose from less than 35% in the 1970s to 45-50% in the 2000s-2010s."
-ggplot(data = df_8_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile \nin national income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(.3, .5, by = .05), limits = c(.3, .5)) + scale_shape_manual(name = "United States: share of top decile", values = shapePalettePaired) + scale_colour_manual(name = "United States: share of top decile", values = colorPalette) + theme(legend.position = c(.6, .85)) 
+ggplot(data = df_8_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Share of top decile in national income") + xlab(NULL) + scale_x_continuous(breaks = seq(1910, 2010, by = 10)) + scale_y_continuous(labels = percent, breaks = seq(.3, .5, by = .05), limits = c(.3, .5)) + scale_shape_manual(name = "United States: share of top decile", values = shapePalettePaired) + scale_colour_manual(name = "United States: share of top decile", values = colorPalette) + theme(legend.position = c(.6, .85)) 
 ```
 
 ---

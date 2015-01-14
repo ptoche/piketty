@@ -1,0 +1,540 @@
+---
+title       : Chapter 10, Inequality of Capital Ownership
+subtitle    : (The Structure of Inequality)
+author      : Patrick Toche
+framework   : html5slides  # {minimal, io2012, html5slides, shower, dzslides, ...}
+hitheme     : solarized_light  # {tomorrow, solarized_light, zenburn...}
+mode        : selfcontained  # {selfcontained, standalone, draft}
+widgets     : mathjax   # {mathjax, quiz, bootstrap}
+ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]}
+github      : {user: patricktoche, repo: piketty}
+url         : {lib: "../../libraries", assets: "../../assets"}
+css         : "../../assets/css/custom.css" # tested
+lecnum      : "08"
+
+---
+
+```{r 'preamble', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, comment = NA, cache = FALSE}
+require(knitr)
+library(png)   # to display external png and control dimensions
+library(grid)  # to display external png and control dimensions
+opts_chunk$set(echo = FALSE, cache = FALSE)
+source('../../shared/shared.R')
+```
+
+### Introduction  
+
+- Chapter 8 reviews the historical evolution of inequality around the world.  
+
+- Chapter 9 analyzes inequality and distribution at the individual level.
+
+---
+
+### Wealth inequality in France
+<figure>  
+<img src = "../../figures/Figure_10_1.png" alt = "Figure 10.1. Wealth inequality in France, 1810-2010.">  
+<figcaption class = 'figcaption'>Figure 10.1. The top decile (the top 10 percent highest wealth holders) owns 80-90 percent of total wealth in 1810-1910, and 60-65 percent today.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Wealth inequality in France
+
+```{r 'Figure_10_1_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_1.Rda") 
+# round data for rChart tooltip display
+df_10_1$value <- round(df_10_1$value, 3)
+n <- nPlot(data = df_10_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(.2, .9))
+n$yAxis(axisLabel = 'Share of top decile or percentile in total wealth')
+n$chart(margin = list(left = 100)) # margin makes room for label
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_1.html', standalone = TRUE)
+```
+<iframe src = "figures/Figure_10_1.html" alt = "Figure 10.1. Wealth inequality in France, 1810-2010.">
+</iframe><icaption class = 'icaption'>Figure 10.1. The top decile (the top 10 percent highest wealth holders) owns 80-90 percent of total wealth in 1810-1910, and 60-65 percent today.</icaption>
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---  
+
+### Wealth inequality in Paris versus France
+
+<figure>  
+<img src = "../../figures/Figure_10_2.png" alt = "Figure 10.2. Wealth inequality in Paris versus France, 1810-2010.">  
+<figcaption class = 'figcaption'>Figure 10.2. The top percentile (the top 1 percent wealth holders) owns 70 percent of aggregate wealth in Paris on the eve of World War I.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Wealth inequality in Paris versus France
+
+```{r 'Figure_10_2_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_2.Rda") 
+# round data for rChart tooltip display
+df_10_2$value <- round(df_10_2$value, 3)
+n <- nPlot(data = df_10_2, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(.2, .75))
+n$yAxis(axisLabel = 'Share of top decile or of top percentile in total wealth')
+n$chart(margin = list(left = 100)) # margin makes room for label
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_2.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_10_2.html' alt = "Wealth inequality in Paris versus France, 1810-2010.">
+</iframe><icaption class = 'icaption'>Figure 10.2. The top percentile (the top 1 percent wealth holders) owns 70 percent of aggregate wealth in Paris on the eve of World War I.</icaption>
+<footer class = 'footnote'>  
+Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### Wealth inequality in Sweden
+
+<figure>  
+<img src = "../../figures/Figure_10_3.png" alt = "Figure 10.3. Wealth inequality in Sweden, 1810-2010.">  
+<figcaption class = 'figcaption'>Figure 10.3. The top 10 percent holds 80-90 percent of total wealth in 1810-1910 and 55-60 percent today.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Wealth inequality in Sweden
+
+```{r 'Figure_10_3_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_3.Rda") 
+# round data for rChart tooltip display
+df_10_3$value <- round(df_10_3$value, 3)
+n <- nPlot(data = df_10_3, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(.2, .75))
+n$yAxis(axisLabel = 'Share of top decile or of top percentile in total wealth')
+n$chart(margin = list(left = 100)) # margin makes room for label
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_3.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_10_3.html' alt = "Figure 10.3. Wealth inequality in Sweden, 1810-2010.">
+</iframe><icaption class = 'icaption'>Figure 10.3. The top 10 percent holds 80-90 percent of total wealth in 1810-1910 and 55-60 percent today.</icaption>
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### The composition of top incomes in France in 2005
+
+<figure>  
+<img src = "../../figures/Figure_10_4.png" alt = "Figure 10.4. The composition of top incomes in France in 2005.">  
+<figcaption class = 'figcaption'>Figure 10.4. Capital income becomes dominant at the level of the top 0.1 percent in France in 2005, as opposed to the top 0.5 percent in 1932.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### The composition of top incomes in France in 2005
+
+```{r 'Figure_10_4_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_4.Rda") 
+# round data for rChart tooltip display
+df_10_4$value <- round(df_10_4$value, 3)
+n <- nPlot(data = df_10_4, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(.1, .9))
+n$yAxis(axisLabel = 'Share of top decile or of top percentile in total wealth')
+n$chart(margin = list(left = 100)) # make room in margins
+n$yAxis(tickFormat = "#! function(y) {return Math.round(y*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_4.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_10_4.html' alt = "Figure 10.4. The composition of top incomes in France in 2005.">
+</iframe><icaption class = 'icaption'>Figure 10.4. Capital income becomes dominant at the level of the top 0.1 percent in France in 2005, as opposed to the top 0.5 percent in 1932.</icaption>
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### Wealth inequality in the United States
+
+<figure>  
+<img src = "../../figures/Figure_10_5.png" alt = "Figure 10.5. Wealth inequality in the United States, 1810-2010.">  
+<figcaption class = 'figcaption'>Figure 10.5. The top 10 percent wealth holders own about 80 percent of total wealth in 1910 and 75 percent today.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Wealth inequality in the United States
+
+```{r 'Figure_10_5_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_5.Rda") 
+# round data for rChart tooltip display
+df_10_5$value <- round(df_10_5$value, 3)
+n <- nPlot(data = df_10_5, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(.2, .95))
+n$yAxis(axisLabel = 'Share of top decile or of top percentile in total wealth')
+n$chart(margin = list(left = 100)) # margin makes room for label
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_5.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_10_5.html' alt = "Figure 10.5. Wealth inequality in the United States, 1810-2010.">
+</iframe><icaption class = 'icaption'>Figure 10.5. The top 10 percent wealth holders own about 80 percent of total wealth in 1910 and 75 percent today.</icaption>
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### Wealth inequality in Europe versus the United States
+
+<figure>  
+<img src = "../../figures/Figure_10_6.png" alt = "Figure 10.6. Wealth inequality in Europe versus the United States, 1810-2010.">  
+<figcaption class = 'figcaption'>Figure 10.6. Until the mid-twentieth century, wealth inequality was higher in Europe than in the United States.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Wealth inequality in Europe versus the United States
+
+```{r 'Figure_10_6_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_6.Rda") 
+# round data for rChart tooltip display
+df_10_6$value <- round(df_10_6$value, 3)
+n <- nPlot(data = df_10_6, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(.2, .9))
+n$yAxis(axisLabel = 'Share of top decile or of top percentile in total wealth')
+n$chart(margin = list(left = 100)) # margin makes room for label
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_6.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_10_6.html' alt = "Figure 10.6. Wealth inequality in Europe versus the United States, 1810-2010.">
+</iframe><icaption class = 'icaption'>Figure 10.6. Until the mid-twentieth century, wealth inequality was higher in Europe than in the United States.</icaption>
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### Return to capital and growth: France
+
+<figure>  
+<img src = "../../figures/Figure_10_7.png" alt = "Figure 10.7. Return to capital and growth: France, 1820-1913.">  
+<figcaption class = 'figcaption'>Figure 10.7. The rate of return on capital is a lot higher than the growth rate in France between 1820 and 1913.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Return to capital and growth: France
+
+```{r 'Figure_10_7_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_7.Rda") 
+# round data for rChart tooltip display
+df_10_7$value <- round(df_10_7$value, 3)
+n <- nPlot(data = df_10_7, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(0, .07))
+n$yAxis(axisLabel = 'Annual rate of return or rate of growth')
+n$chart(margin = list(left = 100)) # margin makes room for label
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_7.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_10_7.html' alt = "Figure 10.7. Return to capital and growth: France, 1820-1913.">
+</iframe><icaption class = 'icaption'>Figure 10.7. The rate of return on capital is a lot higher than the growth rate in France between 1820 and 1913.</icaption>
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### Capital share and saving rate: France
+
+<figure>  
+<img src = "../../figures/Figure_10_8.png" alt = "Figure 10.8. Capital share and saving rate: France, 1820-1913.">  
+<figcaption class = 'figcaption'>Figure 10.8. The share of capital income in national income is much larger than the saving rate in France between 1820 and 1913.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Capital share and saving rate: France
+
+```{r 'Figure_10_8_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_8.Rda") 
+# round data for rChart tooltip display
+df_10_8$value <- round(df_10_8$value, 3)
+n <- nPlot(data = df_10_8, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(.05, .45))
+n$yAxis(axisLabel = 'Capital share or saving rate (% national income)')
+n$chart(margin = list(left = 100)) # margin makes room for label
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_8.html', standalone = TRUE)
+``` 
+<iframe src = 'figures/Figure_10_8.html' alt = "Figure 10.8. Capital share and saving rate: France, 1820-1913.">
+</iframe><icaption class = 'icaption'>Figure 10.8. The share of capital income in national income is much larger than the saving rate in France between 1820 and 1913.</icaption> 
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### Rate of return versus growth rate at the world level
+
+<figure>  
+<img src = "../../figures/Figure_10_9.png" alt = "Figure 10.9. Rate of return versus growth rate at the world level, from Antiquity until 2100.">  
+<figcaption class = 'figcaption'>Figure 10.9. The rate of return to capital (pretax) has always been higher than the world growth rate, but the gap was reduced during the twentieth century, and might widen again in the twenty-first century.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Rate of return versus growth rate at the world level
+
+```{r 'Figure_10_9_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_9.Rda") 
+# round data for rChart tooltip display
+df_10_9$value <- round(df_10_9$value, 3)
+df_10_9$Levels <- as.numeric(df_10_9$Period)
+n <- nPlot(data = df_10_9, value ~ Levels, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(0, .06))
+n$yAxis(axisLabel = 'Annual rate of return or rate of growth')
+n$chart(margin = list(left = 100, right = 40)) # make room in margins
+n$xAxis(tickFormat = "#! function (x) { 
+        ticks = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-2012', '2012-2050', '2050-2100']
+        return ticks[x-1] ;
+} !#")
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_9.html', standalone = TRUE)
+``` 
+<iframe src = 'figures/Figure_10_9.html' alt = "Figure 10.9. Rate of return versus growth rate at the world level, from Antiquity until 2100.">
+</iframe><icaption class = 'icaption'>Figure 10.9. The rate of return to capital (pretax) has always been higher than the world growth rate, but the gap was reduced during the twentieth century, and might widen again in the twenty-first century.</icaption> 
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### After tax rate of return versus growth rate at the world level
+
+<figure>  
+<img src = "../../figures/Figure_10_10.png" alt = "Figure 10.10. After tax rate of return versus growth rate at the world level, from Antiquity until 2100.">  
+<figcaption class = 'figcaption'>Figure 10.10. The rate of return to capital (after tax and capital losses) fell below the growth rate during the twentieth century, and may again surpass it in the twenty-first century.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### After tax rate of return versus growth rate at the world level
+
+```{r 'Figure_10_10_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_10.Rda") 
+# round data for rChart tooltip display
+df_10_10$value <- round(df_10_10$value, 3)
+df_10_10$Levels <- as.numeric(df_10_10$Period)
+n <- nPlot(data = df_10_10, value ~ Levels, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(0, .055))
+n$yAxis(axisLabel = 'Annual rate of return or rate of growth')
+n$chart(margin = list(left = 100, right = 40)) # make room in margins
+n$xAxis(tickFormat = "#! function (x) { 
+        ticks = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-2012', '2012-2050', '2050-2100']
+        return ticks[x-1] ;
+} !#")
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_10.html', standalone = TRUE)
+``` 
+<iframe src = 'figures/Figure_10_10.html' alt = "Figure 10.10. After tax rate of return versus growth rate at the world level, from Antiquity until 2100.">
+</iframe><icaption class = 'icaption'>Figure 10.10. The rate of return to capital (after tax and capital losses) fell below the growth rate during the twentieth century, and may again surpass it in the twenty-first century.</icaption> 
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### After tax rate of return versus growth rate at the world level
+
+<figure>  
+<img src = "../../figures/Figure_10_11.png" alt = "Figure 10.11. After tax rate of return versus growth rate at the world level, from Antiquity until 2200.">  
+<figcaption class = 'figcaption'>Figure 10.11. The rate of return to capital (after tax and capital losses) fell below the growth rate during the twentieth century, and might again surpass it in the twenty-first century.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### After tax rate of return versus growth rate at the world level
+
+```{r 'Figure_10_11_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_10_11.Rda") 
+# round data for rChart tooltip display
+df_10_11$value <- round(df_10_11$value, 3)
+df_10_11$Levels <- as.numeric(df_10_11$Period)
+n <- nPlot(data = df_10_11, value ~ Levels, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(0, .055))
+n$yAxis(axisLabel = 'Annual rate of return or rate of growth')
+n$chart(margin = list(left = 100, right = 40)) # make room in margins
+n$xAxis(tickFormat = "#! function (x) { 
+        ticks = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-2012', '2012-2050', '2050-2100']
+        return ticks[x-1] ;
+} !#")
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_10_11.html', standalone = TRUE)
+``` 
+<iframe src = 'figures/Figure_10_11.html' alt = "Figure 10.11. After tax rate of return versus growth rate at the world level, from Antiquity until 2200.">
+</iframe><icaption class = 'icaption'>Figure 10.11. The rate of return to capital (after tax and capital losses) fell below the growth rate during the twentieth century, and might again surpass it in the twenty-first century.</icaption> 
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+

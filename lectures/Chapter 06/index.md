@@ -183,7 +183,6 @@ $$
 <img src = "../../figures/Figure_6_1.png", alt = "Figure 6.1. The capital-labor split in Britain, 1770-2010">  
 <figcaption class = 'figcaption'>Figure 6.1. During the nineteenth century, capital income (rent, profits, dividends, interest...) absorbed about 40 percent of national income versus 60 percent for labor income (including both wage and non-wage income).</figcaption>  
 </figure>  
-
 <footer class = 'footnote'>
 Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -194,9 +193,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 
 <iframe src = "figures/Figure_6_1.html" alt = "Figure 6.1. The capital-labor split in Britain, 1770-2010">
-<figcaption class = 'figcaption'>Figure 6.1. During the nineteenth century, capital income (rent, profits, dividends, interest...) absorbed about 40 percent of national income versus 60 percent for labor income (including both wage and non-wage income).</figcaption>
-</iframe>
-
+</iframe><icaption class = 'icaption'>Figure 6.1. During the nineteenth century, capital income (rent, profits, dividends, interest...) absorbed about 40 percent of national income versus 60 percent for labor income (including both wage and non-wage income).</icaption>
 <footer class = 'footnote'>  
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
@@ -209,7 +206,6 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 <img src = "../../figures/Figure_6_2.png", alt = "Figure 6.2. The capital-labor split in France, 1820-2010">  
 <figcaption class = 'figcaption'>Figure 6.2. In the twenty-first century, capital income (rent, profits, dividends, interest...) absorbs about 30 percent of national income versus 70 percent for labor income (including both wage and non-wage income).</figcaption>  
 </figure>  
-
 <footer class = 'footnote'>
 Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -220,9 +216,8 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 
 <iframe src = 'figures/Figure_6_2.html', alt = "Figure 6.2. The capital-labor split in France, 1820-2010">
-<figcaption class = 'figcaption'>Figure 6.2. In the twenty-first century, capital income (rent, profits, dividends, interest...) absorbs about 30 percent of national income versus 70 percent for labor income (including both wage and non-wage income).</figcaption>
-</iframe>  
-
+</iframe> 
+<icaption class = 'icaption'>Figure 6.2. In the twenty-first century, capital income (rent, profits, dividends, interest...) absorbs about 30 percent of national income versus 70 percent for labor income (including both wage and non-wage income).</icaption> 
 <footer class = 'footnote'>  
 Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
@@ -235,7 +230,6 @@ Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)
 <img src = "../../figures/Figure_6_3.png", alt = "Figure 6.3. The pure rate of return on capital in Britain, 1770-2010">  
 <figcaption class = 'figcaption'>Figure 6.3. The pure rate of return to capital is roughly stable around 4-5 percent in the long run.</figcaption>  
 </figure>  
-
 <footer class = 'footnote'>
 Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -246,9 +240,7 @@ Chart created with ``ggplot2`` (author: Hadley Wickham)
 
 
 <iframe src = 'figures/Figure_6_3.html', alt = "Figure 6.3. The pure rate of return on capital in Britain, 1770-2010">
-<figcaption class = 'figcaption'>Figure 6.3. The pure rate of return to capital is roughly stable around 4-5 percent in the long run.</figcaption>
-</iframe>  
-
+</iframe><icaption class = 'icaption'>Figure 6.3. The pure rate of return to capital is roughly stable around 4-5 percent in the long run.</icaption>
 <footer class = 'footnote'>  
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
@@ -260,8 +252,7 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 <figure>  
 <img src = "../../figures/Figure_6_4.png", alt = "Figure 6.4. The pure rate of return on capital in France, 1820-2010.">  
 <figcaption class = 'figcaption'>Figure 6.4. The observed average rate of return displays larger fluctuations than the pure rate of return during the twentieth century.</figcaption>  
-</figure>  
-
+</figure> 
 <footer class = 'footnote'>
 Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -272,9 +263,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 
 <iframe src = 'figures/Figure_6_4.html', alt = "The pure rate of return on capital in France, 1820-2010.">
-<figcaption class = 'figcaption'>Figure 6.4. The observed average rate of return displays larger fluctuations than the pure rate of return during the twentieth century.</figcaption>
-</iframe>  
-
+</iframe><icaption class = 'icaption'>Figure 6.4. The observed average rate of return displays larger fluctuations than the pure rate of return during the twentieth century.</icaption>
 <footer class = 'footnote'>  
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
@@ -286,8 +275,7 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 <figure>  
 <img src = "../../figures/Figure_6_5.png", alt = "Figure 6.5. The capital share in rich countries, 1975-2010">  
 <figcaption class = 'figcaption'>Figure 6.5. Capital income absorbs between 15 percent and 25 percent of national income in rich countries in 1970, and between 25 percent and 30 percent in 2000-2010.</figcaption>  
-</figure>  
-
+</figure> 
 <footer class = 'footnote'>
 Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -298,9 +286,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 
 <iframe src = 'figures/Figure_6_5.html', alt = "Figure 6.5. The capital share in rich countries, 1975-2010">
-<figcaption class = 'figcaption'>Figure 6.5. Capital income absorbs between 15 percent and 25 percent of national income in rich countries in 1970, and between 25 percent and 30 percent in 2000-2010.</figcaption>
-</iframe>  
-
+</iframe><icaption class = 'icaption'>Figure 6.5. Capital income absorbs between 15 percent and 25 percent of national income in rich countries in 1970, and between 25 percent and 30 percent in 2000-2010.</icaption>
 <footer class = 'footnote'>  
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
@@ -313,7 +299,6 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 <img src = "../../figures/Figure_6_6.png", alt = "Figure 6.6. The profit share in the value added of corporations in France, 1900–2010">  
 <figcaption class = 'figcaption'>Figure 6.6. The share of gross profits in gross value added of corporations rose from 25 percent in 1982 to 33 percent in 2010; the share of net profits in net value added rose from 12 percent to 20 percent.</figcaption>  
 </figure>  
-
 <footer class = 'footnote'>
 Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -324,9 +309,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 
 <iframe src = 'figures/Figure_6_6.html', alt = "Figure 6.6. The profit share in the value added of corporations in France, 1900–2010">
-<figcaption class = 'figcaption'>Figure 6.6. The share of gross profits in gross value added of corporations rose from 25 percent in 1982 to 33 percent in 2010; the share of net profits in net value added rose from 12 percent to 20 percent.</figcaption>
-</iframe>  
-
+</iframe><icaption class = 'icaption'>Figure 6.6. The share of gross profits in gross value added of corporations rose from 25 percent in 1982 to 33 percent in 2010; the share of net profits in net value added rose from 12 percent to 20 percent.</icaption>
 <footer class = 'footnote'>  
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
@@ -339,7 +322,6 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 <img src = "../../figures/Figure_6_7.png", alt = "Figure 6.7. The share of housing rent in national income in France, 1900-2010.">  
 <figcaption class = 'figcaption'>Figure 6.7. The share of housing rent (rental value of dwellings) rose from 2 percent of national income in 1948 to 10 percent in 2010.</figcaption>  
 </figure>  
-
 <footer class = 'footnote'>
 Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -350,9 +332,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 
 <iframe src = 'figures/Figure_6_7.html', alt = "Figure 6.7. The share of housing rent in national income in France, 1900-2010.">
-<figcaption class = 'figcaption'>Figure 6.7. The share of housing rent (rental value of dwellings) rose from 2 percent of national income in 1948 to 10 percent in 2010.</figcaption>
-</iframe>  
-
+</iframe><icaption class = 'icaption'>Figure 6.7. The share of housing rent (rental value of dwellings) rose from 2 percent of national income in 1948 to 10 percent in 2010.</icaption>
 <footer class = 'footnote'>  
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
@@ -365,7 +345,6 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 <img src = "../../figures/Figure_6_8.png", alt = "Figure 6.8. The capital share in national income in France, 1900-2010.">  
 <figcaption class = 'figcaption'>Figure 6.8. The share of capital income (net profits and rents) rose from 15 percent of national income in 1982 to 27 percent in 2010.</figcaption>  
 </figure>  
-
 <footer class = 'footnote'>
 Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -376,9 +355,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 
 <iframe src = 'figures/Figure_6_8.html', alt = "The capital share in national income in France, 1900-2010.">
-<figcaption class = 'figcaption'>Figure 6.8. The share of capital income (net profits and rents) rose from 15 percent of national income in 1982 to 27 percent in 2010.</figcaption>
-</iframe>  
-
+</iframe><icaption class = 'icaption'>Figure 6.8. The share of capital income (net profits and rents) rose from 15 percent of national income in 1982 to 27 percent in 2010.</icaption>
 <footer class = 'footnote'>  
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
