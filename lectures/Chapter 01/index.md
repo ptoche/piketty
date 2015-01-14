@@ -164,7 +164,7 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 
 ---
 
-### Exchange rate and purchasing power parity: euro//yuan.
+### Exchange rate and purchasing power parity: euro/yuan.
 
 <figure>  
 <img src = "../../figures/Figure_1_5.png" alt = "Figure 1.5. Exchange rate and purchasing power parity: euro v. yuan.">  
@@ -176,7 +176,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 ---
 
-### Exchange rate and purchasing power parity: euro//yuan.
+### Exchange rate and purchasing power parity: euro/yuan.
 
 
 <iframe src = 'figures/Figure_1_5.html' alt = "Figure 1.5. Exchange rate and purchasing power parity: euro v. yuan.">

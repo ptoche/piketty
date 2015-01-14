@@ -23,14 +23,14 @@
   </head>
   <body >
     
-    <div id = 'chartc56485e10b6' class = 'rChart nvd3'></div>    
+    <div id = 'chart39d2626cb77' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchartc56485e10b6()
+      drawchart39d2626cb77()
     });
-    function drawchartc56485e10b6(){  
+    function drawchart39d2626cb77(){  
       var opts = {
- "dom": "chartc56485e10b6",
+ "dom": "chart39d2626cb77",
 "width":    800,
 "height":    500,
 "x": "Year",
@@ -38,8 +38,8 @@
 "group": "variable",
 "color": "variable",
 "shape": "variable",
-"type": "lineChart",
-"id": "chartc56485e10b6" 
+"type": "stackedAreaChart",
+"id": "chart39d2626cb77" 
 },
         data = [
  {
@@ -293,12 +293,14 @@
           
          
         chart
-  .forceY([      0,   0.75 ])
+  .xDomain([   1700,   2012 ])
+  .clipEdge(true)
+  .yDomain([      0,      1 ])
   .margin({
  "left":    100 
 })
   .useInteractiveGuideline(true)
-  .color([ "#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999" ])
+  .color([ "#EFF3FF", "#BDD7E7", "#6BAED6", "#2171B5" ])
           
         chart.xAxis
   .axisLabel("Year")
@@ -306,7 +308,7 @@
         
         
         chart.yAxis
-  .axisLabel("Share in world population (% of total)")
+  .axisLabel("Share in world output (% of total)")
   .tickFormat( function(d) {return Math.round(d*100*100)/100 + '%'} )
       
        d3.select("#" + opts.id)
@@ -321,12 +323,6 @@
     };
 </script>
     
-    <style>
-      .nv-point {
-        stroke-opacity: 1!important;
-        stroke-width: 5px!important;
-        fill-opacity: 1!important;
-      } 
-    </style>    
+    <script></script>    
   </body>
 </html>

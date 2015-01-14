@@ -91,6 +91,10 @@ figure {
     vertical-align: top;
 }
 
+/* Increase font size for rCharts */
+svg text {
+  font-size: 30px; /* Not working! */
+}
 
 /* Control figcaption element */
 .figcaption {

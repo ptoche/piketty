@@ -23,14 +23,14 @@
   </head>
   <body >
     
-    <div id = 'chartc5676164152' class = 'rChart nvd3'></div>    
+    <div id = 'chart39d76898033' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchartc5676164152()
+      drawchart39d76898033()
     });
-    function drawchartc5676164152(){  
+    function drawchart39d76898033(){  
       var opts = {
- "dom": "chartc5676164152",
+ "dom": "chart39d76898033",
 "width":    800,
 "height":    500,
 "x": "Year",
@@ -39,7 +39,7 @@
 "color": "variable",
 "shape": "variable",
 "type": "lineChart",
-"id": "chartc5676164152" 
+"id": "chart39d76898033" 
 },
         data = [
  {
@@ -317,6 +317,7 @@
         
         chart.yAxis
   .axisLabel("Exchange rate Euro/Dollar (in dollars)")
+  .tickFormat( function(y) {return '$' + y;} )
       
        d3.select("#" + opts.id)
         .append('svg')

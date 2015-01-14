@@ -74,9 +74,9 @@ shapePalettePaired <- c(17, 2, 16, 21, 15, 0, 18, 23, 24)
   ## sp <- shapePalettePaired
   ## ggplot(data.frame(x = 1:length(sp) , y = 1:length(sp), z = sp), aes(x = x, y = y)) + geom_point(aes(shape = z), size = 10) + scale_shape_identity()
 # 3. color scheme (with RBrewerColor package)
-colorPalette <- colorRampPalette(brewer.pal(9, "Set1"))(9)# extract palette colors
+colorPalette <- colorRampPalette(brewer.pal(9, "Set1"))(9)  # extract palette colors
 # fill scheme (with RBrewerColor package)
-fillPalette <- "Blues"  # shades of blue for filling areas of stack plots
+fillPalette <- colorRampPalette(brewer.pal(9, "Blues"))(9)  # shades of blue for filling areas of stack plots
 shadePalette <- c("blue", "red", "green")  # light colors for shading areas
 ### Set a Black & White Scheme
 # to set bw scheme, uncomment 4 lines below

@@ -293,7 +293,7 @@ load("../../data/df_2_6.Rda")
 df_2_6$value <- round(df_2_6$value, 3)
 n <- nPlot(data = df_2_6, value ~ Seq, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(-.02, .18))
-n$yAxis(axisLabel = 'Growth rate of per capita GDP')
+n$yAxis(axisLabel = 'Inflation rate (consumer price index)')
 n$chart(margin = list(left = 100, right = 40)) # make room in margins
 n$xAxis(tickFormat = "#! function (x) { 
         ticks = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-1970', '1970-1990', '1990-2012', '2012-2030', '2030-2050', '2050-2070', '2070-2100']

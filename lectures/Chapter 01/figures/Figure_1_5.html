@@ -23,14 +23,14 @@
   </head>
   <body >
     
-    <div id = 'chartc567fd47df1' class = 'rChart nvd3'></div>    
+    <div id = 'chart39d28b6d281' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchartc567fd47df1()
+      drawchart39d28b6d281()
     });
-    function drawchartc567fd47df1(){  
+    function drawchart39d28b6d281(){  
       var opts = {
- "dom": "chartc567fd47df1",
+ "dom": "chart39d28b6d281",
 "width":    800,
 "height":    500,
 "x": "Year",
@@ -39,7 +39,7 @@
 "color": "variable",
 "shape": "variable",
 "type": "lineChart",
-"id": "chartc567fd47df1" 
+"id": "chart39d28b6d281" 
 },
         data = [
  {
@@ -303,7 +303,7 @@
           
          
         chart
-  .forceY([      2,     12 ])
+  .forceY([      1,     12 ])
   .margin({
  "left":    100 
 })
@@ -317,6 +317,7 @@
         
         chart.yAxis
   .axisLabel("Exchange rate Euro/Yuan (in yuans)")
+  .tickFormat( function(y) {return '¥' + y;} )
       
        d3.select("#" + opts.id)
         .append('svg')
@@ -330,12 +331,9 @@
     };
 </script>
     
-    <style>
-      .nv-point {
-        stroke-opacity: 1!important;
-        stroke-width: 5px!important;
-        fill-opacity: 1!important;
-      } 
-    </style>    
+    <style> 
+      svg text {
+        font-size: 15px;
+      } </style>    
   </body>
 </html>
