@@ -31,6 +31,8 @@ if(.Platform$OS.type == "windows"){
 library(slidify)
 slidify('index.Rmd')
 
+
+
 # View the html
 # prepend: http://htmlpreview.github.com/?
 http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/index.html

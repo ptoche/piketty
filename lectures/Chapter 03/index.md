@@ -1,6 +1,6 @@
 ---
 title       : Chapter 3, The Metamorphoses of Capital 
-subtitle    : (The Dynamics of the Capital//Income Ratio)
+subtitle    : (Dynamics of the Capital/Income Ratio)
 author      : Patrick Toche
 framework   : html5slides  # {minimal, io2012, html5slides, shower, dzslides, ...}
 hitheme     : solarized_light  # {tomorrow, solarized_light, zenburn...}
@@ -18,7 +18,7 @@ lecnum      : "03"
 
 ### Introduction  
 
-- Chapter 2 reviews the main stages of income and output growth since the Industrial Revolution.
+- Chapter 2 reviewed the main stages of income and output growth since the Industrial Revolution.
 
 - Chapter 3 reviews the metamorphoses of capital in Britain and France since the eighteenth century.  
 

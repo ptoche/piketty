@@ -18,10 +18,10 @@ lecnum      : "02"
 
 ### Introduction  
 
+- Chapter 1 introduced the basic forces behind the evolution of income and wealth over the long term.
+
 - Chapter 2 reviews the main stages of income and output growth since the Industrial Revolution.
-
-- Chapter 3 reviews the metamorphoses of capital in Britain and France since the eighteenth century.  
-
+  
 ---
 
 ### The growth of world population

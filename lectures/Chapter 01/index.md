@@ -18,9 +18,30 @@ lecnum      : "01"
 
 ### Introduction  
 
-- Chapter 2 reviews the main stages of income and output growth since the Industrial Revolution.
+- What do we know about the distribution of income? 
+- What do we know about the distribution of wealth? 
+- What prediction can we make about the evolution of income and wealth over the long term?
+- Do the forces of private capital accumulation inevitably lead to the concentration of wealth in ever fewer hands?
+- Can the balancing forces of growth, competition, and technological progress be strong enough to reduce inequality and reduce class conflicts?
+- Chapter 1 lays out some basic facts about population and income, reviews the basic concepts of national income accounting, and introduces the basic forces behind the evolution of income and wealth over the long term.
 
-- Chapter 3 reviews the metamorphoses of capital in Britain and France since the eighteenth century.  
+---
+
+### Malthus and the Problem of Overpopulation
+
+- Social science research on the distribution of wealth was for a long time based on a relatively limited set of firmly established facts together with a wide variety of purely theoretical speculations. 
+- In 1798, Thomas Malthus published his *Essay on the Principle of Population*. His main fear was overpopulation.
+- Population in the French kingdom had increased from 20 million in 1700 to 30 million by 1780. This unprecedentedly rapid population growth contributed to a stagnation of agricultural wages and an increase in land rents in the decades prior to the Revolution of 1789.
+- Malthus argued that all welfare assistance to the poor must be halted and that reproduction by the poor must be reduced to avoid overpopulation, chaos and misery.
+
+---
+
+### Ricardo and the Principle of Scarcity
+
+- In 1817, Ricardo published his *Principles of Political Economy and Taxation*. His main concern was the long-term evolution of land prices and land rents. 
+- etc.
+
+
 
 ---
 

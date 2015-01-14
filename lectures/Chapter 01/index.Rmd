@@ -24,9 +24,30 @@ source('../../shared/shared.R')
 
 ### Introduction  
 
-- Chapter 2 reviews the main stages of income and output growth since the Industrial Revolution.
+- What do we know about the distribution of income? 
+- What do we know about the distribution of wealth? 
+- What prediction can we make about the evolution of income and wealth over the long term?
+- Do the forces of private capital accumulation inevitably lead to the concentration of wealth in ever fewer hands?
+- Can the balancing forces of growth, competition, and technological progress be strong enough to reduce inequality and reduce class conflicts?
+- Chapter 1 lays out some basic facts about population and income, reviews the basic concepts of national income accounting, and introduces the basic forces behind the evolution of income and wealth over the long term.
 
-- Chapter 3 reviews the metamorphoses of capital in Britain and France since the eighteenth century.  
+---
+
+### Malthus and the Problem of Overpopulation
+
+- Social science research on the distribution of wealth was for a long time based on a relatively limited set of firmly established facts together with a wide variety of purely theoretical speculations. 
+- In 1798, Thomas Malthus published his *Essay on the Principle of Population*. His main fear was overpopulation.
+- Population in the French kingdom had increased from 20 million in 1700 to 30 million by 1780. This unprecedentedly rapid population growth contributed to a stagnation of agricultural wages and an increase in land rents in the decades prior to the Revolution of 1789.
+- Malthus argued that all welfare assistance to the poor must be halted and that reproduction by the poor must be reduced to avoid overpopulation, chaos and misery.
+
+---
+
+### Ricardo and the Principle of Scarcity
+
+- In 1817, Ricardo published his *Principles of Political Economy and Taxation*. His main concern was the long-term evolution of land prices and land rents. 
+- etc.
+
+
 
 ---
 
@@ -149,6 +170,8 @@ n$yAxis(axisLabel = 'Share in world output (% of total)')
 n$chart(margin = list(left = 100)) # margin makes room for label
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
+n$chart(style = 'stack')
+n$chart(showControls = FALSE)
 n$chart(useInteractiveGuideline = TRUE)
 n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automate color selection
 n$addParams(height = 500, width = 800)
@@ -188,6 +211,8 @@ n$yAxis(axisLabel = 'Share in world output (% of total)')
 n$chart(margin = list(left = 100)) # margin makes room for label
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
+n$chart(style = 'stack')
+n$chart(showControls = FALSE)
 n$chart(useInteractiveGuideline = TRUE)
 n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automate color selection
 n$addParams(height = 500, width = 800)
@@ -219,7 +244,7 @@ Chart created with ``ggplot2`` (author: Hadley Wickham)
 require(rCharts)
 load("../../data/df_1_3.Rda") 
 # round data for rChart tooltip display
-df_1_3$value <- round(df_1_3$value, 3)
+df_1_3$value <- round(df_1_3$value, 2)
 n <- nPlot(data = df_1_3, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(xDomain = c(1700, 2012), clipEdge = TRUE)
 n$chart(forceY = c(.2, 2.6))
@@ -265,7 +290,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 require(rCharts)
 load("../../data/df_1_4.Rda") 
 # round data for rChart tooltip display
-df_1_4$value <- round(df_1_4$value, 3)
+df_1_4$value <- round(df_1_4$value, 2)
 n <- nPlot(data = df_1_4, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(.8, 1.5))
 n$yAxis(axisLabel = 'Exchange rate Euro/Dollar (in dollars)')
@@ -310,7 +335,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 require(rCharts)
 load("../../data/df_1_5.Rda") 
 # round data for rChart tooltip display
-df_1_5$value <- round(df_1_5$value, 3)
+df_1_5$value <- round(df_1_5$value, 2)
 n <- nPlot(data = df_1_5, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(1, 12))
 n$yAxis(axisLabel = 'Exchange rate Euro/Yuan (in yuans)')
@@ -325,11 +350,6 @@ n$setTemplate(afterScript = '<style>
     stroke-opacity: 1!important;
     stroke-width: 5px!important;
     fill-opacity: 1!important;
-  } </style>')
-# To do: figure out global font control for svg
-n$setTemplate(afterScript = '<style> 
-  svg text {
-    font-size: 15px;
   } </style>')
 n$save('figures/Figure_1_5.html', standalone = TRUE)
 ```

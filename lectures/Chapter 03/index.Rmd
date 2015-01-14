@@ -24,7 +24,7 @@ source('../../shared/shared.R')
 
 ### Introduction  
 
-- Chapter 2 reviews the main stages of income and output growth since the Industrial Revolution.
+- Chapter 2 reviewed the main stages of income and output growth since the Industrial Revolution.
 
 - Chapter 3 reviews the metamorphoses of capital in Britain and France since the eighteenth century.  
 
@@ -47,24 +47,21 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 ```{r 'Figure_3_1_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
 load("../../data/df_3_1.Rda") 
+# To do: dynamic range selection
 # round data for rChart tooltip display
 df_3_1$value <- round(df_3_1$value, 3)
-n <- nPlot(data = df_3_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(-.5, 4.5))
+n <- nPlot(data = df_3_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'stackedAreaChart') 
+n$chart(xDomain = c(1700, 2012), clipEdge = TRUE)
+n$chart(yDomain = c(0, 7.5))  # for 'stackedAreaChart' use yDomain instead of forceY
 n$yAxis(axisLabel = 'Value of national capital (% national income)')
-n$chart(margin = list(left = 100)) # make room in margins
+n$chart(margin = list(left = 100)) # margin makes room for label
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
+n$chart(style = 'stack')
+n$chart(showControls = FALSE)
 n$chart(useInteractiveGuideline = TRUE)
-n$chart(color = colorPalette)
+n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automate color selection
 n$addParams(height = 500, width = 800)
-n$setTemplate(afterScript = '<style>
-  .nv-point {
-    stroke-opacity: 1!important;
-    stroke-width: 5px!important;
-    fill-opacity: 1!important;
-  } 
-</style>')
 n$save('figures/Figure_3_1.html', standalone = TRUE)
 ``` 
 <iframe src = 'figures/Figure_3_1.html' alt = "Figure 3.1. Capital in Britain, 1700-2010.">
@@ -92,24 +89,21 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 ```{r 'Figure_3_2_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
 load("../../data/df_3_2.Rda") 
+# To do: dynamic range selection
 # round data for rChart tooltip display
 df_3_2$value <- round(df_3_2$value, 3)
-n <- nPlot(data = df_3_2, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.2, .75))
+n <- nPlot(data = df_3_2, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'stackedAreaChart') 
+n$chart(xDomain = c(1700, 2012), clipEdge = TRUE)
+n$chart(yDomain = c(0, 7.5))  # for 'stackedAreaChart' use yDomain instead of forceY
 n$yAxis(axisLabel = 'Value of national capital (% national income)')
 n$chart(margin = list(left = 100)) # margin makes room for label
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
+n$chart(style = 'stack')
+n$chart(showControls = FALSE)
 n$chart(useInteractiveGuideline = TRUE)
-n$chart(color = colorPalette)
+n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automate color selection
 n$addParams(height = 500, width = 800)
-n$setTemplate(afterScript = '<style>
-  .nv-point {
-    stroke-opacity: 1!important;
-    stroke-width: 5px!important;
-    fill-opacity: 1!important;
-  } 
-</style>')
 n$save('figures/Figure_3_2.html', standalone = TRUE)
 ```
 <iframe src = 'figures/Figure_3_2.html' alt = "Figure 3.2. Capital in France, 1700-2010.">
