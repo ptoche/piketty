@@ -23,15 +23,15 @@
   </head>
   <body >
     
-    <div id = 'chart29f60e7a3c2' class = 'rChart nvd3'></div>    
+    <div id = 'chartc56547e5cef' class = 'rChart nvd3'></div>    
     <script>
       $(document).ready(function(){
-        drawchart29f60e7a3c2()
+        drawchartc56547e5cef()
       });
 
-      function drawchart29f60e7a3c2(){  
+      function drawchartc56547e5cef(){  
         var opts = {
- "dom": "chart29f60e7a3c2",
+ "dom": "chartc56547e5cef",
 "width":    800,
 "height":    500,
 "x": "Year",
@@ -48,7 +48,7 @@
 "yAxis":      1 
 } 
 },
-"id": "chart29f60e7a3c2" 
+"id": "chartc56547e5cef" 
 },
         data = [
  {
@@ -1121,8 +1121,10 @@
           chart.yDomain2([0, 10]);
 
           // format ticks so 10000 appears as 10,000
-          chart.yAxis1.tickFormat(d3.format('0,0.0f '));
-          chart.yAxis2.tickFormat(d3.format('0,0.0f '));
+          // prepend a currency symbol next to the formatted value
+          var format = d3.format('0,0.0f');
+          chart.yAxis1.tickFormat(function(y) {return '$' + format(y);});
+          chart.yAxis2.tickFormat(function(y) {return '€' + format(y);});
           
           // make space for axis labels
           chart.margin({top: 20, right: 100, bottom: 20, left: 100});

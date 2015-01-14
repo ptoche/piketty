@@ -10,7 +10,7 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 css         : "../../assets/css/custom.css" # tested
-lecnum      : "08"
+lecnum      : "09"
 
 ---
 
@@ -99,8 +99,10 @@ dualAxisChartScript <-
           chart.yDomain2([0, 10]);
 
           // format ticks so 10000 appears as 10,000
-          chart.yAxis1.tickFormat(d3.format('0,0.0f '));
-          chart.yAxis2.tickFormat(d3.format('0,0.0f '));
+          // prepend a currency symbol next to the formatted value
+          var format = d3.format('0,0.0f');
+          chart.yAxis1.tickFormat(function(y) {return '$' + format(y);});
+          chart.yAxis2.tickFormat(function(y) {return '€' + format(y);});
           
           // make space for axis labels
           chart.margin({top: 20, right: 100, bottom: 20, left: 100});
