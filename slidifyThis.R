@@ -21,6 +21,10 @@ slidify('index.Rmd')
 library(slidify)
 slidify('start.Rmd')
 
+# Make all figures with slidify()
+library(slidify)
+slidify('figures.Rmd')
+
 # Make individual chapter slides with slidify()
 # Set directory
 if(.Platform$OS.type == "windows"){

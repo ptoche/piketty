@@ -10,7 +10,7 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 css         : "../../assets/css/custom.css" # tested
-lecnum      : "08"
+lecnum      : "09"
 
 ---
 

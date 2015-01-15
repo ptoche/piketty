@@ -47,24 +47,21 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 ```{r 'Figure_4_1_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
 load("../../data/df_4_1.Rda") 
+# To do: dynamic range selection
 # round data for rChart tooltip display
 df_4_1$value <- round(df_4_1$value, 3)
-n <- nPlot(data = df_4_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(-.5, 3.5))
+n <- nPlot(data = df_4_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'stackedAreaChart') 
+n$chart(xDomain = c(1870, 2010), clipEdge = TRUE)
+n$chart(yDomain = c(0, 8))  # use yDomain instead of forceY
 n$yAxis(axisLabel = 'Value of national capital (% national income)')
-n$chart(margin = list(left = 100)) # make room in margins
-n$yAxis(tickFormat = "#! function(y) {return Math.round(y*100*100)/100 + '%'} !#")
+n$chart(margin = list(left = 80)) 
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
+n$chart(style = 'stack')
+n$chart(showControls = FALSE)
 n$chart(useInteractiveGuideline = TRUE)
-n$chart(color = colorPalette)
+n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automate color selection
 n$addParams(height = 500, width = 800)
-n$setTemplate(afterScript = '<style>
-  .nv-point {
-    stroke-opacity: 1!important;
-    stroke-width: 5px!important;
-    fill-opacity: 1!important;
-  } 
-</style>')
 n$save('figures/Figure_4_1.html', standalone = TRUE)
 ``` 
 <iframe src = 'figures/Figure_4_1.html' alt = "Figure 4.1. Capital in Germany, 1870-2010.">
@@ -97,7 +94,7 @@ df_4_2$value <- round(df_4_2$value, 3)
 n <- nPlot(data = df_4_2, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(.1, 1.1))
 n$yAxis(axisLabel = 'Public assets and debt (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -142,7 +139,7 @@ df_4_3$value <- round(df_4_3$value, 3)
 n <- nPlot(data = df_4_3, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, 7))
 n$yAxis(axisLabel = 'National, private and public capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -187,7 +184,7 @@ df_4_4$value <- round(df_4_4$value, 3)
 n <- nPlot(data = df_4_4, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(-2, 8))
 n$yAxis(axisLabel = 'Public and private capital (% national income)')
-n$chart(margin = list(left = 100)) # make room in margins
+n$chart(margin = list(left = 80))
 n$yAxis(tickFormat = "#! function(y) {return Math.round(y*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -232,7 +229,7 @@ df_4_5$value <- round(df_4_5$value, 3)
 n <- nPlot(data = df_4_5, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(1, 8))
 n$yAxis(axisLabel = 'National capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -272,24 +269,21 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 ```{r 'Figure_4_6_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
 load("../../data/df_4_6.Rda") 
+# To do: dynamic range selection
 # round data for rChart tooltip display
 df_4_6$value <- round(df_4_6$value, 3)
-n <- nPlot(data = df_4_6, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(-.5, 3.5))
+n <- nPlot(data = df_4_6, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'stackedAreaChart') 
+n$chart(xDomain = c(1770, 2012), clipEdge = TRUE)
+n$chart(yDomain = c(0, 8))  # use yDomain instead of forceY
 n$yAxis(axisLabel = 'Value of national capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
+n$chart(style = 'stack')
+n$chart(showControls = FALSE)
 n$chart(useInteractiveGuideline = TRUE)
-n$chart(color = colorPalette)
+n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automate color selection
 n$addParams(height = 500, width = 800)
-n$setTemplate(afterScript = '<style>
-  .nv-point {
-    stroke-opacity: 1!important;
-    stroke-width: 5px!important;
-    fill-opacity: 1!important;
-  } 
-</style>')
 n$save('figures/Figure_4_6.html', standalone = TRUE)
 ```
 <iframe src = 'figures/Figure_4_6.html' alt = "Figure 4.6. Capital in the United States, 1770-2010.">
@@ -322,7 +316,7 @@ df_4_7$value <- round(df_4_7$value, 3)
 n <- nPlot(data = df_4_7, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, 1.3))
 n$yAxis(axisLabel = 'Public assets and public debt (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -367,7 +361,7 @@ df_4_8$value <- round(df_4_8$value, 3)
 n <- nPlot(data = df_4_8, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, 5.5))
 n$yAxis(axisLabel = 'National, private, and public capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -407,24 +401,21 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 ```{r 'Figure_4_9_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
 load("../../data/df_4_9.Rda") 
+# To do: dynamic range selection
 # round data for rChart tooltip display
 df_4_9$value <- round(df_4_9$value, 3)
-n <- nPlot(data = df_4_9, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(-2, 4))
+n <- nPlot(data = df_4_9, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'stackedAreaChart') 
+n$chart(xDomain = c(1860, 2010), clipEdge = TRUE)
+n$chart(yDomain = c(0, 8))  # use yDomain instead of forceY
 n$yAxis(axisLabel = 'Value of national capital (% national income)')
-n$chart(margin = list(left = 100)) # make room in margins
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
+n$chart(style = 'stack')
+n$chart(showControls = FALSE)
 n$chart(useInteractiveGuideline = TRUE)
-n$chart(color = colorPalette)
+n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automate color selection
 n$addParams(height = 500, width = 800)
-n$setTemplate(afterScript = '<style>
-  .nv-point {
-    stroke-opacity: 1!important;
-    stroke-width: 5px!important;
-    fill-opacity: 1!important;
-  } 
-</style>')
 n$save('figures/Figure_4_9.html', standalone = TRUE)
 ``` 
 <iframe src = 'figures/Figure_4_9.html' alt = "Figure 4.9. Capital in Canada, 1860-2010.">
@@ -452,24 +443,21 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 ```{r 'Figure_4_10_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
 load("../../data/df_4_10.Rda") 
+# To do: dynamic range selection
 # round data for rChart tooltip display
 df_4_10$value <- round(df_4_10$value, 3)
-n <- nPlot(data = df_4_10, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(-.5, 3.5))
+n <- nPlot(data = df_4_10, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'stackedAreaChart') 
+n$chart(xDomain = c(1770, 2010), clipEdge = TRUE)
+n$chart(yDomain = c(0, 8))  # use yDomain instead of forceY
 n$yAxis(axisLabel = 'Value of national capital (% national income)')
-n$chart(margin = list(left = 100)) # make room in margins
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
+n$chart(style = 'stack')
+n$chart(showControls = FALSE)
 n$chart(useInteractiveGuideline = TRUE)
-n$chart(color = colorPalette)
+n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automate color selection
 n$addParams(height = 500, width = 800)
-n$setTemplate(afterScript = '<style>
-  .nv-point {
-    stroke-opacity: 1!important;
-    stroke-width: 5px!important;
-    fill-opacity: 1!important;
-  } 
-</style>')
 n$save('figures/Figure_4_10.html', standalone = TRUE)
 ``` 
 <iframe src = 'figures/Figure_4_10.html' alt = "Figure 4.10. Capital and slavery in the United States.">
@@ -501,7 +489,7 @@ load("../../data/df_4_11.Rda")
 df_4_11$value <- round(df_4_11$value, 3)
 n <- nPlot(data = df_4_11, value ~ Country, group = 'variable', type = 'multiBarChart') 
 n$yAxis(axisLabel = 'Value of capital (% national income)')
-n$chart(margin = list(left = 100)) # make room in margins
+n$chart(margin = list(left = 80))
 n$chart(color = colorPalette)
 n$addParams(height = 500, width = 800)
 n$save('figures/Figure_4_11.html', standalone = TRUE)

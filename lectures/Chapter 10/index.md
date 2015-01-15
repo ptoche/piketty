@@ -10,7 +10,7 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 css         : "../../assets/css/custom.css" # tested
-lecnum      : "08"
+lecnum      : "10"
 
 ---
 
@@ -18,9 +18,9 @@ lecnum      : "08"
 
 ### Introduction  
 
-- Chapter 8 reviews the historical evolution of inequality around the world.  
+- Chapter 9 analyzed inequality and distribution at the individual level.
 
-- Chapter 9 analyzes inequality and distribution at the individual level.
+- Chapter 10 reviews the historical evolution of wealth inequality and the factors behind the historic compression of inequality.
 
 ---
 
@@ -61,7 +61,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 ### Wealth inequality in Paris versus France
 
 
-<iframe src = 'figures/Figure_10_2.html' alt = "Wealth inequality in Paris versus France, 1810-2010.">
+<iframe src = 'figures/Figure_10_2.html' alt = "Figure 10.2. Wealth inequality in Paris versus France, 1810-2010.">
 </iframe><icaption class = 'icaption'>Figure 10.2. The top percentile (the top 1 percent wealth holders) owns 70 percent of aggregate wealth in Paris on the eve of World War I.</icaption>
 <footer class = 'footnote'>  
 Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  

@@ -23,14 +23,14 @@
   </head>
   <body >
     
-    <div id = 'chartaa43a0491e9' class = 'rChart nvd3'></div>    
+    <div id = 'chart39d3950b9f7' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchartaa43a0491e9()
+      drawchart39d3950b9f7()
     });
-    function drawchartaa43a0491e9(){  
+    function drawchart39d3950b9f7(){  
       var opts = {
- "dom": "chartaa43a0491e9",
+ "dom": "chart39d3950b9f7",
 "width":    800,
 "height":    500,
 "x": "Year",
@@ -38,8 +38,8 @@
 "group": "variable",
 "color": "variable",
 "shape": "variable",
-"type": "lineChart",
-"id": "chartaa43a0491e9" 
+"type": "stackedAreaChart",
+"id": "chart39d3950b9f7" 
 },
         data = [
  {
@@ -348,12 +348,16 @@
           
          
         chart
-  .forceY([   -0.5,    3.5 ])
+  .xDomain([   1770,   2010 ])
+  .clipEdge(true)
+  .yDomain([      0,      8 ])
   .margin({
- "left":    100 
+ "left":     80 
 })
+  .style("stack")
+  .showControls(false)
   .useInteractiveGuideline(true)
-  .color([ "#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999" ])
+  .color([ "#EFF3FF", "#BDD7E7", "#6BAED6", "#2171B5" ])
           
         chart.xAxis
   .axisLabel("Year")
@@ -376,12 +380,6 @@
     };
 </script>
     
-    <style>
-      .nv-point {
-        stroke-opacity: 1!important;
-        stroke-width: 5px!important;
-        fill-opacity: 1!important;
-      } 
-    </style>    
+    <script></script>    
   </body>
 </html>

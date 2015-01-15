@@ -24,9 +24,9 @@ source('../../shared/shared.R')
 
 ### Introduction  
 
-- Chapter 8 reviews the historical evolution of inequality around the world.  
+- Chapter 9 analyzed inequality and distribution at the individual level.
 
-- Chapter 9 analyzes inequality and distribution at the individual level.
+- Chapter 10 reviews the historical evolution of wealth inequality and the factors behind the historic compression of inequality.
 
 ---
 
@@ -49,9 +49,9 @@ load("../../data/df_10_1.Rda")
 # round data for rChart tooltip display
 df_10_1$value <- round(df_10_1$value, 3)
 n <- nPlot(data = df_10_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.2, .9))
+n$chart(forceY = c(0, 1))
 n$yAxis(axisLabel = 'Share of top decile or percentile in total wealth')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -94,9 +94,9 @@ load("../../data/df_10_2.Rda")
 # round data for rChart tooltip display
 df_10_2$value <- round(df_10_2$value, 3)
 n <- nPlot(data = df_10_2, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.2, .75))
+n$chart(forceY = c(0, 1))
 n$yAxis(axisLabel = 'Share of top decile or of top percentile in total wealth')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -139,9 +139,9 @@ load("../../data/df_10_3.Rda")
 # round data for rChart tooltip display
 df_10_3$value <- round(df_10_3$value, 3)
 n <- nPlot(data = df_10_3, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.2, .75))
+n$chart(forceY = c(0, 1))
 n$yAxis(axisLabel = 'Share of top decile or of top percentile in total wealth')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -184,9 +184,9 @@ load("../../data/df_10_4.Rda")
 # round data for rChart tooltip display
 df_10_4$value <- round(df_10_4$value, 3)
 n <- nPlot(data = df_10_4, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.1, .9))
+n$chart(forceY = c(0, 1))
 n$yAxis(axisLabel = 'Share of top decile or of top percentile in total wealth')
-n$chart(margin = list(left = 100)) # make room in margins
+n$chart(margin = list(left = 80))
 n$yAxis(tickFormat = "#! function(y) {return Math.round(y*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -229,9 +229,9 @@ load("../../data/df_10_5.Rda")
 # round data for rChart tooltip display
 df_10_5$value <- round(df_10_5$value, 3)
 n <- nPlot(data = df_10_5, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.2, .95))
+n$chart(forceY = c(0, 1))
 n$yAxis(axisLabel = 'Share of top decile or of top percentile in total wealth')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -274,9 +274,9 @@ load("../../data/df_10_6.Rda")
 # round data for rChart tooltip display
 df_10_6$value <- round(df_10_6$value, 3)
 n <- nPlot(data = df_10_6, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.2, .9))
+n$chart(forceY = c(0, 1))
 n$yAxis(axisLabel = 'Share of top decile or of top percentile in total wealth')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -321,7 +321,7 @@ df_10_7$value <- round(df_10_7$value, 3)
 n <- nPlot(data = df_10_7, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, .07))
 n$yAxis(axisLabel = 'Annual rate of return or rate of growth')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -364,9 +364,9 @@ load("../../data/df_10_8.Rda")
 # round data for rChart tooltip display
 df_10_8$value <- round(df_10_8$value, 3)
 n <- nPlot(data = df_10_8, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.05, .45))
+n$chart(forceY = c(0, .5))
 n$yAxis(axisLabel = 'Capital share or saving rate (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -410,9 +410,9 @@ load("../../data/df_10_9.Rda")
 df_10_9$value <- round(df_10_9$value, 3)
 df_10_9$Levels <- as.numeric(df_10_9$Period)
 n <- nPlot(data = df_10_9, value ~ Levels, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(0, .06))
+n$chart(forceY = c(0, .055))
 n$yAxis(axisLabel = 'Annual rate of return or rate of growth')
-n$chart(margin = list(left = 100, right = 40)) # make room in margins
+n$chart(margin = list(left = 100, right = 40))
 n$xAxis(tickFormat = "#! function (x) { 
         ticks = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-2012', '2012-2050', '2050-2100']
         return ticks[x-1] ;
@@ -462,7 +462,7 @@ df_10_10$Levels <- as.numeric(df_10_10$Period)
 n <- nPlot(data = df_10_10, value ~ Levels, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, .055))
 n$yAxis(axisLabel = 'Annual rate of return or rate of growth')
-n$chart(margin = list(left = 100, right = 40)) # make room in margins
+n$chart(margin = list(left = 100, right = 40))
 n$xAxis(tickFormat = "#! function (x) { 
         ticks = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-2012', '2012-2050', '2050-2100']
         return ticks[x-1] ;
@@ -512,7 +512,7 @@ df_10_11$Levels <- as.numeric(df_10_11$Period)
 n <- nPlot(data = df_10_11, value ~ Levels, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, .055))
 n$yAxis(axisLabel = 'Annual rate of return or rate of growth')
-n$chart(margin = list(left = 100, right = 40)) # make room in margins
+n$chart(margin = list(left = 100, right = 40))
 n$xAxis(tickFormat = "#! function (x) { 
         ticks = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-2012', '2012-2050', '2050-2100']
         return ticks[x-1] ;

@@ -23,14 +23,14 @@
   </head>
   <body >
     
-    <div id = 'chartaa416ba7b2e' class = 'rChart nvd3'></div>    
+    <div id = 'chart39d1e158abf' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchartaa416ba7b2e()
+      drawchart39d1e158abf()
     });
-    function drawchartaa416ba7b2e(){  
+    function drawchart39d1e158abf(){  
       var opts = {
- "dom": "chartaa416ba7b2e",
+ "dom": "chart39d1e158abf",
 "width":    800,
 "height":    500,
 "x": "Seq",
@@ -39,7 +39,7 @@
 "color": "variable",
 "shape": "variable",
 "type": "lineChart",
-"id": "chartaa416ba7b2e" 
+"id": "chart39d1e158abf" 
 },
         data = [
  {
@@ -173,9 +173,10 @@
   .color([ "#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999" ])
           
         chart.xAxis
+  .ticks(    13)
   .tickFormat( function (x) { 
-        ticks = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-1970', '1970-1990', '1990-2012', '2012-2030', '2030-2050', '2050-2070', '2070-2100']
-        return ticks[x-1] ;
+        ticklabels = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-1970', '1970-1990', '1990-2012', '2012-2030', '2030-2050', '2050-2070', '2070-2100']
+        return ticklabels[x-1];
 } )
   .axisLabel("Year")
 

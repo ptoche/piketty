@@ -51,7 +51,7 @@ df_8_1$value <- round(df_8_1$value, 3)
 n <- nPlot(data = df_8_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(.2, .5))
 n$yAxis(axisLabel = 'Share of top decile in total (incomes or wages)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -96,7 +96,7 @@ df_8_2$value <- round(df_8_2$value, 3)
 n <- nPlot(data = df_8_2, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(.04, .22))
 n$yAxis(axisLabel = 'Share in total income of various fractiles')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -143,7 +143,7 @@ df_8_3$Levels <- as.numeric(df_8_3$Quantile)
 n <- nPlot(data = df_8_3, value ~ Levels, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, 1))
 n$yAxis(axisLabel = 'Share in total income of various fractiles')
-n$chart(margin = list(left = 100, right = 40)) # make room in margins
+n$chart(margin = list(left = 100, right = 40))
 n$xAxis(tickFormat = "#! function (x) { 
         ticks = ['P90-95', 'P95-99', 'P99-99.5', 'P99.5-99.9', 'P99.9-99.99', 'P99.99-100']
         return ticks[x-1] ;
@@ -195,7 +195,7 @@ df_8_4$Levels <- as.numeric(df_8_4$Quantile)
 n <- nPlot(data = df_8_4, value ~ Levels, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, 1))
 n$yAxis(axisLabel = 'Share in total income of various fractiles')
-n$chart(margin = list(left = 100, right = 40)) # make room in margins
+n$chart(margin = list(left = 100, right = 40))
 n$xAxis(tickFormat = "#! function (x) { 
         ticks = ['P90-95', 'P95-99', 'P99-99.5', 'P99.5-99.9', 'P99.9-99.99', 'P99.99-100']
         return ticks[x-1] ;
@@ -245,7 +245,7 @@ df_8_5$value <- round(df_8_5$value, 3)
 n <- nPlot(data = df_8_5, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(.3, .5))
 n$yAxis(axisLabel = 'Share of top decile in national income')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -291,7 +291,7 @@ df_8_6$value <- round(df_8_6$value, 3)
 n <- nPlot(data = df_8_6, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(.08, .26))
 n$yAxis(axisLabel = 'Share of the different groups in total income')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -336,7 +336,7 @@ df_8_7$value <- round(df_8_7$value, 3)
 n <- nPlot(data = df_8_7, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(.2, .5))
 n$yAxis(axisLabel = 'Share of top decile in total (incomes or wages)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -381,7 +381,7 @@ df_8_8$value <- round(df_8_8$value, 3)
 n <- nPlot(data = df_8_8, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(.04, .26))
 n$yAxis(axisLabel = 'Share of top decile in total (incomes or wages)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -427,7 +427,7 @@ df_8_9$Levels <- as.numeric(df_8_9$Quantile)
 n <- nPlot(data = df_8_9, value ~ Levels, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, 1))
 n$yAxis(axisLabel = 'Share in total income of various fractiles')
-n$chart(margin = list(left = 100, right = 40)) # make room in margins
+n$chart(margin = list(left = 100, right = 40))
 n$xAxis(tickFormat = "#! function (x) { 
         ticks = ['P90-95', 'P95-99', 'P99-99.5', 'P99.5-99.9', 'P99.9-99.99', 'P99.99-100']
         return ticks[x-1] ;
@@ -477,7 +477,7 @@ df_8_10$Levels <- as.numeric(df_8_10$Quantile)
 n <- nPlot(data = df_8_10, value ~ Levels, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, 1))
 n$yAxis(axisLabel = 'Share in total income of various fractiles')
-n$chart(margin = list(left = 100, right = 40)) # make room in margins
+n$chart(margin = list(left = 100, right = 40))
 n$xAxis(tickFormat = "#! function (x) { 
         ticks = ['P90-95', 'P95-99', 'P99-99.5', 'P99.5-99.9', 'P99.9-99.99', 'P99.99-100']
         return ticks[x-1] ;

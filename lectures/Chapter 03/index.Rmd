@@ -52,9 +52,9 @@ load("../../data/df_3_1.Rda")
 df_3_1$value <- round(df_3_1$value, 3)
 n <- nPlot(data = df_3_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'stackedAreaChart') 
 n$chart(xDomain = c(1700, 2012), clipEdge = TRUE)
-n$chart(yDomain = c(0, 7.5))  # for 'stackedAreaChart' use yDomain instead of forceY
+n$chart(yDomain = c(0, 8))  # use yDomain instead of forceY
 n$yAxis(axisLabel = 'Value of national capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(style = 'stack')
@@ -94,9 +94,9 @@ load("../../data/df_3_2.Rda")
 df_3_2$value <- round(df_3_2$value, 3)
 n <- nPlot(data = df_3_2, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'stackedAreaChart') 
 n$chart(xDomain = c(1700, 2012), clipEdge = TRUE)
-n$chart(yDomain = c(0, 7.5))  # for 'stackedAreaChart' use yDomain instead of forceY
+n$chart(yDomain = c(0, 8))  # use yDomain instead of forceY
 n$yAxis(axisLabel = 'Value of national capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(style = 'stack')
@@ -134,9 +134,9 @@ load("../../data/df_3_3.Rda")
 # round data for rChart tooltip display
 df_3_3$value <- round(df_3_3$value, 3)
 n <- nPlot(data = df_3_3, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.2, .75))
+n$chart(forceY = c(0, 2.4))
 n$yAxis(axisLabel = 'Public assets and debt (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -179,9 +179,9 @@ load("../../data/df_3_4.Rda")
 # round data for rChart tooltip display
 df_3_4$value <- round(df_3_4$value, 3)
 n <- nPlot(data = df_3_4, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.1, .9))
+n$chart(forceY = c(0, 2.4))
 n$yAxis(axisLabel = 'Public assets and debt (% national income)')
-n$chart(margin = list(left = 100)) # make room in margins
+n$chart(margin = list(left = 80))
 n$yAxis(tickFormat = "#! function(y) {return Math.round(y*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -224,9 +224,9 @@ load("../../data/df_3_5.Rda")
 # round data for rChart tooltip display
 df_3_5$value <- round(df_3_5$value, 3)
 n <- nPlot(data = df_3_5, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.2, .95))
+n$chart(forceY = c(-2, 9))
 n$yAxis(axisLabel = 'National, private and public capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -269,9 +269,9 @@ load("../../data/df_3_6.Rda")
 # round data for rChart tooltip display
 df_3_6$value <- round(df_3_6$value, 3)
 n <- nPlot(data = df_3_6, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
-n$chart(forceY = c(.2, .9))
+n$chart(forceY = c(-2, 9))
 n$yAxis(axisLabel = 'National, private and public capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)

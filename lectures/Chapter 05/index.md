@@ -98,10 +98,10 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 
 ---
 
-### Private capital measured in years of disposable income
+### Private capital (% disposable income)
 
 <figure>  
-<img src = "../../figures/Figure_5_4.png" alt = "Figure 5.4. Private capital measured in years of disposable income, 1970-2010.">  
+<img src = "../../figures/Figure_5_4.png" alt = "Figure 5.4. Private capital as a fraction of disposable income, 1970-2010.">  
 <figcaption class = 'figcaption'>Figure 5.4. Expressed in years of household disposable income (about 70-80% of national income), the capital/income ratio appears to be larger than when it is expressed in years of national income.</figcaption>  
 </figure> 
 <footer class = 'footnote'>
@@ -110,10 +110,10 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 ---
 
-### Private capital measured in years of disposable income
+### Private capital (% disposable income)
 
 
-<iframe src = 'figures/Figure_5_4.html' alt = "Figure 5.4. Private capital measured in years of disposable income, 1970-2010.">
+<iframe src = 'figures/Figure_5_4.html' alt = "Figure 5.4. Private capital as a fraction of disposable income, 1970-2010.">
 </iframe><icaption class = 'icaption'>Figure 5.4. Expressed in years of household disposable income (about 70-80% of national income), the capital/income ratio appears to be larger than when it is expressed in years of national income.</icaption>
 <footer class = 'footnote'>  
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  

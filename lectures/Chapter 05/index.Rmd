@@ -57,7 +57,7 @@ df_5_1$value <- round(df_5_1$value, 2)
 n <- nPlot(data = df_5_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(-1, 7))
 n$yAxis(axisLabel = 'Value of capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -102,7 +102,7 @@ df_5_2$value <- round(df_5_2$value, 2)
 n <- nPlot(data = df_5_2, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(-1, 8))
 n$yAxis(axisLabel = 'Value of capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -147,7 +147,7 @@ df_5_3$value <- round(df_5_3$value, 3)
 n <- nPlot(data = df_5_3, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(2, 7))
 n$yAxis(axisLabel = 'Value of private capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -170,10 +170,10 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 
 ---
 
-### Private capital measured in years of disposable income
+### Private capital (% disposable income)
 
 <figure>  
-<img src = "../../figures/Figure_5_4.png" alt = "Figure 5.4. Private capital measured in years of disposable income, 1970-2010.">  
+<img src = "../../figures/Figure_5_4.png" alt = "Figure 5.4. Private capital as a fraction of disposable income, 1970-2010.">  
 <figcaption class = 'figcaption'>Figure 5.4. Expressed in years of household disposable income (about 70-80% of national income), the capital/income ratio appears to be larger than when it is expressed in years of national income.</figcaption>  
 </figure> 
 <footer class = 'footnote'>
@@ -182,7 +182,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 ---
 
-### Private capital measured in years of disposable income
+### Private capital (% disposable income)
 
 ```{r 'Figure_5_4_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
@@ -191,9 +191,9 @@ load("../../data/df_5_4.Rda")
 df_5_4$value <- round(df_5_4$value, 3)
 n <- nPlot(data = df_5_4, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(2, 10))
-n$yAxis(axisLabel = 'Private capital (% disposable household income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
-n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$yAxis(axisLabel = 'Private capital in years disposable household income')
+n$chart(margin = list(left = 80)) 
+#n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
 n$chart(color = colorPalette)
@@ -207,7 +207,7 @@ n$setTemplate(afterScript = '<style>
 </style>')
 n$save('figures/Figure_5_4.html', standalone = TRUE)
 ```
-<iframe src = 'figures/Figure_5_4.html' alt = "Figure 5.4. Private capital measured in years of disposable income, 1970-2010.">
+<iframe src = 'figures/Figure_5_4.html' alt = "Figure 5.4. Private capital as a fraction of disposable income, 1970-2010.">
 </iframe><icaption class = 'icaption'>Figure 5.4. Expressed in years of household disposable income (about 70-80% of national income), the capital/income ratio appears to be larger than when it is expressed in years of national income.</icaption>
 <footer class = 'footnote'>  
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
@@ -237,7 +237,7 @@ df_5_5XS$value <- round(df_5_5XS$value, 3)
 n <- nPlot(data = df_5_5XS, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(-.8, 1.2))
 n$yAxis(axisLabel = 'Value of public capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -282,7 +282,7 @@ df_5_5$value <- round(df_5_5$value, 2)
 n <- nPlot(data = df_5_5, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(-1, 8))
 n$yAxis(axisLabel = 'Value of capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -327,7 +327,7 @@ df_5_6$value <- round(df_5_6$value, 2)
 n <- nPlot(data = df_5_6, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(.2, 1.6))
 n$yAxis(axisLabel = 'ratio between market value and book value of corporations')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -372,7 +372,7 @@ df_5_7S$value <- round(df_5_7S$value, 3)
 n <- nPlot(data = df_5_7S, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(-2, 9))
 n$yAxis(axisLabel = 'Value of capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)
@@ -417,7 +417,7 @@ df_5_8$value <- round(df_5_8$value, 3)
 n <- nPlot(data = df_5_8, value ~ Year, group = 'Category', color = 'Category', shape = 'Category', type = 'lineChart') 
 n$chart(forceY = c(2, 7))
 n$yAxis(axisLabel = 'Value of capital (% national income)')
-n$chart(margin = list(left = 100)) # margin makes room for label
+n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = 'Year')
 n$chart(useInteractiveGuideline = TRUE)

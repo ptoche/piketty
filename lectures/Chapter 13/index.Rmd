@@ -1,0 +1,167 @@
+---
+title       : Chapter 13, A Social State for the Twenty-First Century; Chapter 14, Rethinking the Progressive Income Tax
+subtitle    : (Regulating Capital in the Twenty-First Century)
+author      : Patrick Toche
+framework   : html5slides  # {minimal, io2012, html5slides, shower, dzslides, ...}
+hitheme     : solarized_light  # {tomorrow, solarized_light, zenburn...}
+mode        : selfcontained  # {selfcontained, standalone, draft}
+widgets     : mathjax   # {mathjax, quiz, bootstrap}
+ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]}
+github      : {user: patricktoche, repo: piketty}
+url         : {lib: "../../libraries", assets: "../../assets"}
+css         : "../../assets/css/custom.css" # tested
+lecnum      : "11"
+
+---
+
+```{r 'preamble', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, comment = NA, cache = FALSE}
+require(knitr)
+library(png)   # to display external png and control dimensions
+library(grid)  # to display external png and control dimensions
+opts_chunk$set(echo = FALSE, cache = FALSE)
+source('../../shared/shared.R')
+```
+
+### Introduction  
+
+- Chapter 12 studied the dynamics of wealth inequality at the global level.
+
+- Chapter 13 considers political institutions that might regulate today's global patrimonial capitalism fairly and efficiently.
+
+- Chapter 14 examines more closely the structure of taxes and other government revenues.
+
+---
+
+### Tax revenues in rich countries
+
+<figure>  
+<img src = "../../figures/Figure_13_1.png" alt = "Figure 13.1. Tax revenues in rich countries, 1870-2010.">  
+<figcaption class = 'figcaption'>Figure 13.1. Total tax revenues were less than 10 percent of national income in rich countries until 1900-1910; they represent between 30 percent and 55 percent of national income in 2000-2010.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Tax revenues in rich countries
+
+```{r 'Figure_13_1_rcharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_13_1.Rda") 
+# round data for rChart tooltip display
+df_13_1$value <- round(df_13_1$value, 4)
+n <- nPlot(data = df_13_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(0, .55))
+n$chart(margin = list(left = 80))
+n$yAxis(axisLabel = 'Tax revenue (% national income)')
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_13_1.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_13_1.html' alt = "Figure 13.1. Tax revenues in rich countries, 1870-2010.">
+</iframe><icaption class = 'icaption'>Figure 13.1. Total tax revenues were less than 10 percent of national income in rich countries until 1900-1910; they represent between 30 percent and 55 percent of national income in 2000-2010.</icaption>
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### Top income tax rates
+
+<figure>  
+<img src = "../../figures/Figure_14_1.png" alt = "Figure 14.1. Top income tax rates, 1900-2013.">  
+<figcaption class = 'figcaption'>Figure 14.1. The top marginal tax rate of the income tax (applying to the highest incomes) in the U.S. dropped from 70% in 1980 to 28% in 1988.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Top income tax rates
+
+```{r 'Figure_14_1_rcharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_14_1.Rda") 
+# round data for rChart tooltip display
+df_14_1$value <- round(df_14_1$value, 2)
+n <- nPlot(data = df_14_1, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(0, 1))
+n$chart(margin = list(left = 80))
+n$yAxis(axisLabel = 'Marginal tax rate applying to the highest incomes')
+n$yAxis(tickFormat = "#! function(y) {return Math.round(y*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_14_1.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_14_1.html' alt = "Figure 14.1. Top income tax rates, 1900-2013.">
+</iframe><icaption class = 'icaption'>Figure 14.1. The top marginal tax rate of the income tax (applying to the highest incomes) in the U.S. dropped from 70% in 1980 to 28% in 1988.</icaption>
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+---
+
+### Top inheritance tax rates
+
+<figure>  
+<img src = "../../figures/Figure_14_2.png" alt = "Figure 14.2. Top inheritance tax rates, 1900-2013.">  
+<figcaption class = 'figcaption'>Figure 14.2. The top marginal tax rate of the inheritance tax (applying to the highest inheritances) in the U.S. dropped from 70% in 1980 to 35% in 2013.</figcaption>  
+</figure> 
+<footer class = 'footnote'>
+Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+---
+
+### Top inheritance tax rates
+
+```{r 'Figure_14_2_rcharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_14_2.Rda")
+# round data for rChart tooltip display
+df_14_2$value <- round(df_14_2$value, 2)
+n <- nPlot(data = df_14_2, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(0, 1))
+n$chart(margin = list(left = 80))
+n$yAxis(axisLabel = 'Marginal tax rate applying to the highest inheritances')
+n$yAxis(tickFormat = "#! function(y) {return Math.round(y*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = 'Year')
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 500, width = 800)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_14_2.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_14_2.html' alt = "Figure 14.2. Top inheritance tax rates, 1900-2013.">
+</iframe><icaption class = 'icaption'>Figure 14.2. The top marginal tax rate of the inheritance tax (applying to the highest inheritances) in the U.S. dropped from 70% in 1980 to 35% in 2013.</icaption>
+<footer class = 'footnote'>  
+Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+

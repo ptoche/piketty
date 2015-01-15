@@ -20,8 +20,8 @@ lecnum      : "02"
 
 - Chapter 1 introduced the basic forces behind the evolution of income and wealth over the long term.
 
-- Chapter 2 reviews the main stages of income and output growth since the Industrial Revolution.
-  
+- Chapter 2 reviews the main stages of income and output growth since the Industrial Revolution.  
+
 ---
 
 ### The growth of world population
@@ -71,7 +71,7 @@ Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)
 
 ---
 
-### The growth rate of per capita output since the Industrial Revolution
+### The growth rate of per capita output
 
 <figure>  
 <img src = "../../figures/Figure_2_3.png" alt = "Figure 2.3. The growth rate of per capita output since the Industrial Revolution.">  
@@ -83,7 +83,7 @@ Chart created with ``ggplot2`` (author: Hadley Wickham)
 
 ---
 
-### The growth rate of per capita output since the Industrial Revolution
+### The growth rate of per capita output
 
 
 <iframe src = 'figures/Figure_2_3.html' alt = "Figure 2.3. Public wealth in Britain, 1700-2010.">
@@ -94,7 +94,7 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 
 ---
 
-### The growth rate of world per capita output from Antiquity to 2100
+### The growth rate of world per capita output
 
 <figure>  
 <img src = "../../figures/Figure_2_4.png" alt = "Figure 2.4. The growth rate of world per capita output from Antiquity to 2100.">  
@@ -106,7 +106,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 ---
 
-### The growth rate of world per capita output from Antiquity to 2100
+### The growth rate of world per capita output
 
 
 <iframe src = 'figures/Figure_2_4.html' alt = "Figure 2.4. The growth rate of world per capita output from Antiquity to 2100.">
@@ -117,7 +117,7 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 
 ---
 
-### The growth rate of world output from Antiquity to 2100
+### The growth rate of world output
 
 <figure>  
 <img src = "../../figures/Figure_2_5.png" alt = "Figure 2.5. The growth rate of world output from Antiquity to 2100.">  
@@ -129,7 +129,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 
 ---
 
-### The growth rate of world output from Antiquity to 2100
+### The growth rate of world output
 
 
 <iframe src = 'figures/Figure_2_5.html' alt = "Figure 2.5. The growth rate of world output from Antiquity to 2100.">

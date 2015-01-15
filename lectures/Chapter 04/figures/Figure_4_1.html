@@ -23,14 +23,14 @@
   </head>
   <body >
     
-    <div id = 'chartaa435fc1c11' class = 'rChart nvd3'></div>    
+    <div id = 'chart39d23475aae' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchartaa435fc1c11()
+      drawchart39d23475aae()
     });
-    function drawchartaa435fc1c11(){  
+    function drawchart39d23475aae(){  
       var opts = {
- "dom": "chartaa435fc1c11",
+ "dom": "chart39d23475aae",
 "width":    800,
 "height":    500,
 "x": "Year",
@@ -38,8 +38,8 @@
 "group": "variable",
 "color": "variable",
 "shape": "variable",
-"type": "lineChart",
-"id": "chartaa435fc1c11" 
+"type": "stackedAreaChart",
+"id": "chart39d23475aae" 
 },
         data = [
  {
@@ -253,12 +253,16 @@
           
          
         chart
-  .forceY([   -0.5,    3.5 ])
+  .xDomain([   1870,   2010 ])
+  .clipEdge(true)
+  .yDomain([      0,      8 ])
   .margin({
- "left":    100 
+ "left":     80 
 })
+  .style("stack")
+  .showControls(false)
   .useInteractiveGuideline(true)
-  .color([ "#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999" ])
+  .color([ "#EFF3FF", "#BDD7E7", "#6BAED6", "#2171B5" ])
           
         chart.xAxis
   .axisLabel("Year")
@@ -267,7 +271,7 @@
         
         chart.yAxis
   .axisLabel("Value of national capital (% national income)")
-  .tickFormat( function(y) {return Math.round(y*100*100)/100 + '%'} )
+  .tickFormat( function(d) {return Math.round(d*100*100)/100 + '%'} )
       
        d3.select("#" + opts.id)
         .append('svg')
@@ -281,12 +285,6 @@
     };
 </script>
     
-    <style>
-      .nv-point {
-        stroke-opacity: 1!important;
-        stroke-width: 5px!important;
-        fill-opacity: 1!important;
-      } 
-    </style>    
+    <script></script>    
   </body>
 </html>
