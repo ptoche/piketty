@@ -52,7 +52,7 @@ titles <- c(
   "Rethinking the Progressive Income Tax", 
   "A Global Tax on Capital",
   "The Question of the Public Debt")
-titles <- titles[1:6]
+titles <- titles[1:13]
 links <- paste0(seq_along(lectures), ". ", 
   "[", basename(lectures), " : ", titles, "]", "(", lectures, "/index.html)"
 )
@@ -62,7 +62,7 @@ writeLines(links)
 ---
 
 ### Reproduce
-This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the `.Rmd` source, configure the `site.yml` and run `blogify(".")` from the root of the folder hierarchy. Slidify will automatically detect all the `Rmd` files, slidify them, and create all lecture slides along with the index page. 
+This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the `.Rmd` source, configure the `site.yml` and run `slidify('index.Rmd')`. 
 
 You will need the `slidify`, `slidifyLibraries` and ``rCharts`, packages.
 
@@ -84,12 +84,15 @@ Write a short slide deck and publish it to [Github](http://www.github.com) with 
 The `lectures` folder holds the lecture slides, one subfolder per lecture. The site's architecture looks like this:
 
 ```
-assets      -> put custom img/js/css/layout assets
+assets      -> custom img/js/css/layout assets
+data        -> Piketty's data used for the tables and figures
+figures     -> png figures built with ``ggplot2`` library
 lectures    -> folder containing lectures
   Chapter 01
   Chapter 02
   Chapter 03
 libraries   -> frameworks, highlighters and widgets
+shared      -> custom setup across all lectures, e.g. ``knitr`` chunks
 index.Rmd   -> Rmd source for home page
 site.yml    -> Site related configuration
 ```

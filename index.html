@@ -77,10 +77,17 @@
 <li><a href="lectures/Chapter%2004/index.html">Chapter 04 : From Old Europe to the New World</a></li>
 <li><a href="lectures/Chapter%2005/index.html">Chapter 05 : The Capital/Income Ratio Over the Long Run</a></li>
 <li><a href="lectures/Chapter%2006/index.html">Chapter 06 : The Capital-Labor Split in the Twenty-First Century</a></li>
+<li><a href="lectures/Chapter%2007/index.html">Chapter 07 : Inequality and Concentration: Preliminary Bearings</a></li>
+<li><a href="lectures/Chapter%2008/index.html">Chapter 08 : Two Worlds</a></li>
+<li><a href="lectures/Chapter%2009/index.html">Chapter 09 : Inequality of Labor Income</a></li>
+<li><a href="lectures/Chapter%2010/index.html">Chapter 10 : Inequality of Capital Ownership</a></li>
+<li><a href="lectures/Chapter%2011/index.html">Chapter 11 : Merit and Inheritance in the Long Run</a></li>
+<li><a href="lectures/Chapter%2012/index.html">Chapter 12 : Global Inequality of Wealth in the Twenty-First Century</a></li>
+<li><a href="lectures/Chapter%2013/index.html">Chapter 13 : A Social State for the Twenty-First Century</a></li>
 </ol>
 
 <h3>Reproduce</h3>
-<p>This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the <code>.Rmd</code> source, configure the <code>site.yml</code> and run <code>blogify(&quot;.&quot;)</code> from the root of the folder hierarchy. Slidify will automatically detect all the <code>Rmd</code> files, slidify them, and create all lecture slides along with the index page. </p>
+<p>This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the <code>.Rmd</code> source, configure the <code>site.yml</code> and run <code>slidify(&#39;index.Rmd&#39;)</code>. </p>
 
 <p>You will need the <code>slidify</code>, <code>slidifyLibraries</code> and `<code>rCharts</code>, packages.</p>
 
@@ -102,12 +109,15 @@ devtools::install_github(c(&quot;slidify&quot;, &quot;slidifyLibraries&quot;, &q
 
 <p>The <code>lectures</code> folder holds the lecture slides, one subfolder per lecture. The site&#39;s architecture looks like this:</p>
 
-<pre><code>assets      -&gt; put custom img/js/css/layout assets
+<pre><code>assets      -&gt; custom img/js/css/layout assets
+data        -&gt; Piketty&#39;s data used for the tables and figures
+figures     -&gt; png figures built with ``ggplot2```library
 lectures    -&gt; folder containing lectures
   Chapter 01
   Chapter 02
   Chapter 03
 libraries   -&gt; frameworks, highlighters and widgets
+shared      -&gt; custom setup across all lectures, e.g. ``knitr```chunks
 index.Rmd   -&gt; Rmd source for home page
 site.yml    -&gt; Site related configuration
 </code></pre>
