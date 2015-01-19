@@ -159,15 +159,15 @@ svg text {
 }
 
 /* Insert image into the title slide */
-.title-slide {
-    background-image: url(../../images/capital21c_bg.jpg);
-    background-size: 950px;
+.cover-slide {
+    background-image: url(../../images/capital21c_bg.png);
+    background-size: 465px;
 }
 
 .centeredImage
     {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0px;
     padding: 0px;
 }

@@ -1,5 +1,5 @@
 ---
-title       : Introduction
+title       : Introduction to Piketty's Capital
 author      : Patrick Toche
 framework   : html5slides  # {minimal, io2012, html5slides, shower, dzslides, ...}
 hitheme     : solarized_light  # {tomorrow, solarized_light, zenburn...}
@@ -11,7 +11,7 @@ url         : {lib: "../../libraries", assets: "../../assets"}
 css         : "../../assets/css/custom.css" # tested
 lecnum      : "01"
 
---- {class: title-slide}
+--- {class: cover-slide}
 
 ```{r 'preamble', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, comment = NA, cache = FALSE}
 require(knitr)
@@ -64,7 +64,7 @@ source('../../shared/shared.R')
 
 ### Malthus and the Problem of Overpopulation
 
-- Social science research on the distribution of wealth was for a long time based on a relatively limited set of firmly established facts together with a wide variety of purely theoretical speculations. 
+- Social science research on the distribution of wealth was for a long time based on a relatively limited set of firmly established facts together and a wide variety of purely theoretical speculations. 
 - In 1798, Thomas Malthus published his *Essay on the Principle of Population*. His main fear was overpopulation.
 - Population in the French kingdom had increased from 20 million in 1700 to 30 million by 1780. This unprecedentedly rapid population growth contributed to a stagnation of agricultural wages and an increase in land rents in the decades prior to the Revolution of 1789.
 - Malthus argued that all welfare assistance to the poor must be halted and that reproduction by the poor must be reduced to avoid overpopulation, chaos and misery.
@@ -138,6 +138,71 @@ source('../../shared/shared.R')
 - In 1913, the top 10 percent of US earners received 45–50 percent of annual national income. In 1948, 30–35 percent.
 - The 'Kuznets curve': inequality increases in the early stages of industrialization, decreases later. 
 - However, the compression of high incomes was largely accidental, caused by the Great Depression and World War II.
+
+---
+
+### Piketty's Capital
+
+- While Marx's vision was a nightmare, Kuznets's was a fairy tale.
+- Piketty seeks to ground his theories on facts.
+- Piketty's book is a careful survey of economic data spanning several centuries and continents.
+- Piketty's theory places the data within a simple, universal accounting framework and focuses on the very long run.
+- Piketty's vision of the future draws from history and does not speculate about future technologies or future societies.
+- This 'lack of imagination' leads Piketty to search for fiscal solutions to the economic and political problem of inequality.
+- Piketty advocates high taxes on high incomes and wealth transmission.
+
+---
+
+### Forces of Convergence & Divergence
+
+- The principal force of convergence is the diffusion of knowledge.
+- It depends in large part on education policies, access to skills and training, and on institutions.
+- What are the forces of divergence? 
+    1. Top earners earn hundreds of times average earnings. 
+    2. The dynamics of wealth accumulation lead to wealth concentration when economic growth is much weaker than the return on wealth.
+- We have become accustomed to 1, thanks to the work of Piketty, Saez, and many others.
+- We are now discovering 2 thanks to Piketty's book and the dire warnings of Larry Summers, Paul Krugman, and others.
+
+---
+
+### Forces of Convergence & Divergence
+
+- Figures I.1 and I.2 show two basic patterns of divergence. 
+    - Figure I.1 depicts income inequality in the United States.
+    - Figure I.2 depict the capital/income ratio in several European countries. 
+- Both graphs depict "U-shaped curves": a period of decreasing inequality followed by one of increasing inequality. 
+- But the phenomena depicted in the figures involve distinct economic, social, and political processes. 
+
+---
+
+### Forces of Convergence & Divergence
+
+- Figure I.1 shows the share of the upper decile of the income hierarchy in US national income from 1910 to 2010. 
+- The top decile claimed as much as 45–50% of national income in the 1910s–1920s, fell to 30–35% by the end of the 1940s, rose again in the 1980s, and by 2000 reached about 45–50%.
+- Figure I.2 shows the total value of private wealth (in real estate, financial assets, and professional capital, net of debt) in Britain, France and Germany, expressed in years of national income, for the period 1870–2010. 
+- The total amount of private wealth was about 6 or 7 years of national income in the 19th c., fell sharply to 2 or 3 years, in response to the shocks of the period 1914–1945 (the great depression sandwiched by two world wars), started to rise steadily after 1950, and is up to about 5 years in 2010.
+
+---
+
+### Income Inequality in the United States
+
+- The spectacular increase in inequality largely reflects an unprecedented explosion of very elevated incomes from labor, caused by a separation of the top managers of large firms from the rest of the population.
+- Did the skills and productivity of these top managers rise suddenly in relation to those of other workers?
+- Top managers suddenly acquired the power to set their own remuneration!
+- The tendency is less marked in other wealthy countries, but the trend is in the same direction.
+
+---
+
+### The capital-income ratio
+
+- The rise of capital/income ratios over the past few decades is in large part a return to a regime of slow growth. 
+- If the rate of return on capital remains significantly above the growth rate for an extended period of time, then the possibility of divergence in the distribution of wealth is likely.
+- In slowly growing economies, past wealth matters more.
+- The logic is captured by an inequality:
+$$ 
+r > g
+$$
+where r stands for the average annual rate of return on capital, including profits, dividends, interest, rents, and other income from capital, and g stands for the rate of growth of the economy, that is, the annual increase in income or output.
 
 ---
 
