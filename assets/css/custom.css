@@ -157,3 +157,17 @@ svg text {
     letter-spacing: 0px;
     text-align: right;
 }
+
+/* Insert image into the title slide */
+.title-slide {
+    background-image: url(../../images/capital21c_bg.jpg);
+    background-size: 950px;
+}
+
+.centeredImage
+    {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}

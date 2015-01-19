@@ -23,19 +23,20 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 
 ## Content
 
-1. [Chapter 01 : Income and Output](lectures/Chapter 01/index.html)
-2. [Chapter 02 : Growth: Illusions and Realities](lectures/Chapter 02/index.html)
-3. [Chapter 03 : The Metamorphoses of Capital](lectures/Chapter 03/index.html)
-4. [Chapter 04 : From Old Europe to the New World](lectures/Chapter 04/index.html)
-5. [Chapter 05 : The Capital/Income Ratio Over the Long Run](lectures/Chapter 05/index.html)
-6. [Chapter 06 : The Capital-Labor Split in the Twenty-First Century](lectures/Chapter 06/index.html)
-7. [Chapter 07 : Inequality and Concentration: Preliminary Bearings](lectures/Chapter 07/index.html)
-8. [Chapter 08 : Two Worlds](lectures/Chapter 08/index.html)
-9. [Chapter 09 : Inequality of Labor Income](lectures/Chapter 09/index.html)
-10. [Chapter 10 : Inequality of Capital Ownership](lectures/Chapter 10/index.html)
-11. [Chapter 11 : Merit and Inheritance in the Long Run](lectures/Chapter 11/index.html)
-12. [Chapter 12 : Global Inequality of Wealth in the Twenty-First Century](lectures/Chapter 12/index.html)
-13. [Chapter 13 : A Social State for the Twenty-First Century](lectures/Chapter 13/index.html)
+1. [Chapter 00 : Introduction](lectures/Chapter 00/index.html)
+2. [Chapter 01 : Income and Output](lectures/Chapter 01/index.html)
+3. [Chapter 02 : Growth: Illusions and Realities](lectures/Chapter 02/index.html)
+4. [Chapter 03 : The Metamorphoses of Capital](lectures/Chapter 03/index.html)
+5. [Chapter 04 : From Old Europe to the New World](lectures/Chapter 04/index.html)
+6. [Chapter 05 : The Capital/Income Ratio Over the Long Run](lectures/Chapter 05/index.html)
+7. [Chapter 06 : The Capital-Labor Split in the Twenty-First Century](lectures/Chapter 06/index.html)
+8. [Chapter 07 : Inequality and Concentration: Preliminary Bearings](lectures/Chapter 07/index.html)
+9. [Chapter 08 : Two Worlds](lectures/Chapter 08/index.html)
+10. [Chapter 09 : Inequality of Labor Income](lectures/Chapter 09/index.html)
+11. [Chapter 10 : Inequality of Capital Ownership](lectures/Chapter 10/index.html)
+12. [Chapter 11 : Merit and Inheritance in the Long Run](lectures/Chapter 11/index.html)
+13. [Chapter 12 : Global Inequality of Wealth in the Twenty-First Century](lectures/Chapter 12/index.html)
+14. [Chapter 13 : A Social State for the Twenty-First Century](lectures/Chapter 13/index.html)
 
 ---
 

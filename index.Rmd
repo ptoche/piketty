@@ -36,6 +36,7 @@ source('shared/shared.R')
 ```{r echo = FALSE, results = 'asis', cache = TRUE}
 lectures <- dir('lectures', full = TRUE)
 titles <- c(
+  "Introduction",
   "Income and Output", 
   "Growth: Illusions and Realities", 
   "The Metamorphoses of Capital", 
@@ -52,7 +53,7 @@ titles <- c(
   "Rethinking the Progressive Income Tax", 
   "A Global Tax on Capital",
   "The Question of the Public Debt")
-titles <- titles[1:13]
+titles <- titles[1:14]
 links <- paste0(seq_along(lectures), ". ", 
   "[", basename(lectures), " : ", titles, "]", "(", lectures, "/index.html)"
 )

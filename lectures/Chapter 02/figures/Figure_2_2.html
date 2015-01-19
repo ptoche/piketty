@@ -23,14 +23,14 @@
   </head>
   <body >
     
-    <div id = 'chart39d1e158abf' class = 'rChart nvd3'></div>    
+    <div id = 'chart306728f8ed4' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchart39d1e158abf()
+      drawchart306728f8ed4()
     });
-    function drawchart39d1e158abf(){  
+    function drawchart306728f8ed4(){  
       var opts = {
- "dom": "chart39d1e158abf",
+ "dom": "chart306728f8ed4",
 "width":    800,
 "height":    500,
 "x": "Seq",
@@ -39,7 +39,7 @@
 "color": "variable",
 "shape": "variable",
 "type": "lineChart",
-"id": "chart39d1e158abf" 
+"id": "chart306728f8ed4" 
 },
         data = [
  {
@@ -164,25 +164,30 @@
           
          
         chart
-  .forceY([      0,   0.02 ])
   .margin({
- "left":    100,
+ "left":     80,
 "right":     40 
 })
-  .useInteractiveGuideline(true)
+  .forceY([      0,   0.02 ])
   .color([ "#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999" ])
+  .useInteractiveGuideline(true)
           
         chart.xAxis
-  .ticks(    13)
-  .tickFormat( function (x) { 
-        ticklabels = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-1970', '1970-1990', '1990-2012', '2012-2030', '2030-2050', '2050-2070', '2070-2100']
-        return ticklabels[x-1];
+  .showMaxMin(false)
+  .tickValues( function (x) {    
+    tickvalues = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+    return tickvalues;
 } )
-  .axisLabel("Year")
+  .tickFormat( function (x) {
+    tickformat = ['0-1000', '1000-1500', '1500-1700', '1700-1820', '1820-1913', '1913-1950', '1950-1970', '1970-1990', '1990-2012', '2012-2030', '2030-2050', '2050-2070', '2070-2100'];
+    return tickformat[x-1];
+} )
+  .rotateLabels(   -20)
 
         
         
         chart.yAxis
+  .showMaxMin(false)
   .axisLabel("World population growth rate")
   .tickFormat( function(d) {return Math.round(d*100*100)/100 + '%'} )
       
