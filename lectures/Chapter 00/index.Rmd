@@ -1,15 +1,16 @@
 ---
 title       : Introduction to Piketty's Capital
+subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
 framework   : html5slides  # {minimal, io2012, html5slides, shower, dzslides, ...}
-hitheme     : solarized_light  # {tomorrow, solarized_light, zenburn...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow  # {tomorrow, solarized_light, zenburn...}
 mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
-ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]}
-github      : {user: patricktoche, repo: piketty}
+widgets     : mathjax  # {mathjax, quiz, bootstrap}
+ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
 url         : {lib: "../../libraries", assets: "../../assets"}
-css         : "../../assets/css/custom.css" # tested
-lecnum      : "01"
+css         : "../../assets/css/html5slides.css" # does nothing!
+lecnum      : "00"
 
 --- {class: cover-slide}
 
@@ -48,9 +49,30 @@ source('../../shared/shared.R')
 - What prediction can we make about the evolution of income and wealth over the long term?
 - Do the forces of private capital accumulation inevitably lead to the concentration of wealth in ever fewer hands?
 - Can the balancing forces of growth, competition, and technological progress be strong enough to reduce inequality and reduce class conflicts?
-- Chapter 1 lays out some basic facts about population and income, reviews the basic concepts of national income accounting, and introduces the basic forces behind the evolution of income and wealth over the long term.
+- This introduction presents an ultra brief history of inequality and sketches the book's main themes.
 
 --- 
+
+### Adam Smith
+<br />
+<figure class = "centeredImage">  
+<img src = "../../images/Adam_Smith.jpg" alt = "Adam Smith (1723-1790)." style="width: auto; height: auto; max-height: 500px;">
+<figcaption class = 'figcaption'>Adam Smith (1723-1790).
+</figcaption>  
+</figure> 
+
+--- 
+### Adam Smith and Poverty
+
+- In 1776, Adam Smith published his study on the *Wealth of Nations*.
+- Adam Smith is thought of as 'the first economist.'
+- Adam Smith lived in a world where poverty, hunger, and early death were commonplace. 
+- In this chaos he viewed the economy as nothing short of a miracle, the work of an 'invisible hand.'
+- To Smith opulent societies are unequal and while backward societies are less unequal they are poor. 
+- Smith believed that capital accumulation would reduce the marginal productivity of capital and raise the marginal productivity of labor, helping to reduce equality.
+- Smith expected that as the societies developed further, both equality and opulence would be achieved.
+
+---
 
 ### Thomas Robert Malthus
 <br />
@@ -63,11 +85,11 @@ source('../../shared/shared.R')
 ---
 
 ### Malthus and the Problem of Overpopulation
-
-- Social science research on the distribution of wealth was for a long time based on a relatively limited set of firmly established facts together and a wide variety of purely theoretical speculations. 
+ 
 - In 1798, Thomas Malthus published his *Essay on the Principle of Population*. His main fear was overpopulation.
-- Population in the French kingdom had increased from 20 million in 1700 to 30 million by 1780. This unprecedentedly rapid population growth contributed to a stagnation of agricultural wages and an increase in land rents in the decades prior to the Revolution of 1789.
-- Malthus argued that all welfare assistance to the poor must be halted and that reproduction by the poor must be reduced to avoid overpopulation, chaos and misery.
+- Population in the French kingdom had increased from 20 million in 1700 to 30 million by 1780. This very rapid population growth contributed to a stagnation of agricultural wages and an increase in land rents in the decades prior to the Revolution of 1789.
+- As the country was getting richer, the poor were getting poorer, because there were more of them and the typical poor family's resources had fallen. This unfortunate paradox worried Malthus.
+- Malthus argued that reproduction by the poor must be reduced to avoid overpopulation, chaos and misery, and that welfare assistance must be cut to achieve that.
 
 ---
 
@@ -117,15 +139,16 @@ source('../../shared/shared.R')
 - The question was no longer whether farmers could feed a growing population or whether land prices would go on rising.
 - During the first half of the 19th c. wages stagnated at very low levels, in some cases even lower than previous centuries. 
 - The capital income share increased considerably in Britain and France in the first half of the 19th c.
-- With the industrial revolution and the vast rural exodus workers crowded into urban slums. 
-- Poverty was now visible in urban areas side by side with extreme opulence. 
+- With the industrial revolution and the vast rural exodus workers crowded into urban slums. Poverty was now visible in urban areas side by side with extreme opulence. 
 
 ---
 
 ### Marx and the Falling Rate of Profit
 
-- Marx predicted a tendency for capitalists to accumulate wealth and become concentrated in ever fewer hands, with no natural limit to the process. 
-- Marx predicted an excessive accumulation of capital would lead to a falling rate of profit and the collapse of industrial capitalism. 
+- Marx predicted a tendency for capitalists to accumulate wealth and for wealth to become concentrated in ever fewer hands, with no natural limit to the process. 
+- Marx predicted the excessive accumulation of capital would lead to a falling rate of profit and the collapse of industrial capitalism. 
+- Marx saw the tendency of the profit rate to fall as 'the most important law of political economy.'
+- As the rate of profit fell, capitalists would seek to extract more surplus and workers' wages would stagnate.
 - Marx's prediction did not come true. In the last third of the nineteenth century, wages finally began to increase.
 - The communist revolution came in the most backward country in Europe, Russia, and not in the advanced industrial countries.
 
@@ -134,18 +157,18 @@ source('../../shared/shared.R')
 ### Simon Kuznets and the Kuznets Curve
 
 - In 1953, Kuznets published *Shares of Upper Income Groups in Income and Savings*, a study of the United States over 1913–1948. 
-- Kuznets analyzed the evolution of the share of each decile and upper centiles of income. He noted a sharp reduction in income inequality in the U.S. between 1913 and 1948. 
-- In 1913, the top 10 percent of US earners received 45–50 percent of annual national income. In 1948, 30–35 percent.
-- The 'Kuznets curve': inequality increases in the early stages of industrialization, decreases later. 
-- However, the compression of high incomes was largely accidental, caused by the Great Depression and World War II.
+- Kuznets noted a sharp reduction in the upper deciles and centiles of income between 1913 and 1948. 
+- In 1913, the top 10 percent of US earners received 45–50 percent of annual national income. In 1948, they earned 30–35 percent.
+- The 'Kuznets curve' suggests inequality increases in the early stages of industrialization, decreases later. 
+- The mechanism is due to another Nobel prize, W. Arthur Lewis (1915-1991): in early stages of development, the 'unlimited' supply of labour from rural areas allows the urban areas to expand for a time without upward pressure on wages.
+- In truth, however, the compression of high incomes was largely accidental, caused by the Great Depression and World War II.
 
 ---
 
 ### Piketty's Capital
 
 - While Marx's vision was a nightmare, Kuznets's was a fairy tale.
-- Piketty seeks to ground his theories on facts.
-- Piketty's book is a careful survey of economic data spanning several centuries and continents.
+- Piketty seeks to ground his theories on facts. He surveys economic data spanning several centuries and continents.
 - Piketty's theory places the data within a simple, universal accounting framework and focuses on the very long run.
 - Piketty's vision of the future draws from history and does not speculate about future technologies or future societies.
 - This 'lack of imagination' leads Piketty to search for fiscal solutions to the economic and political problem of inequality.
@@ -155,13 +178,14 @@ source('../../shared/shared.R')
 
 ### Forces of Convergence & Divergence
 
-- The principal force of convergence is the diffusion of knowledge.
-- It depends in large part on education policies, access to skills and training, and on institutions.
-- What are the forces of divergence? 
-    1. Top earners earn hundreds of times average earnings. 
-    2. The dynamics of wealth accumulation lead to wealth concentration when economic growth is much weaker than the return on wealth.
-- We have become accustomed to 1, thanks to the work of Piketty, Saez, and many others.
-- We are now discovering 2 thanks to Piketty's book and the dire warnings of Larry Summers, Paul Krugman, and others.
+- **Convergence**
+    - The main force is the diffusion of knowledge.
+    - It depends in large part on education policies, access to skills and training, and on institutions.
+- **Divergence**
+    - `1.` Top earners earn hundreds of times average earnings. 
+    - `2.` Wealth concentration tends to occur when economic growth is smaller than the rate of return on wealth.
+    - We have become accustomed to 1, thanks to the work of Thomas Piketty and Emmanuel Saez, and many others.
+    - We are now discovering 2 thanks to Piketty's book and the dire warnings of Larry Summers, Paul Krugman, and others.
 
 ---
 
@@ -204,7 +228,7 @@ r > g
 $$
 where r stands for the average annual rate of return on capital, including profits, dividends, interest, rents, and other income from capital, and g stands for the rate of growth of the economy, that is, the annual increase in income or output.
 
----
+<!--- Comment out this slide
 
 ### Income inequality in the United States
 
@@ -216,6 +240,8 @@ where r stands for the average annual rate of return on capital, including profi
 <footer class = 'footnote'>
 Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -250,7 +276,7 @@ n$save('figures/Figure_0_1.html', standalone = TRUE)
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!--- Comment out this slide
 
 ### The capital-income ratio in Europe
 
@@ -261,6 +287,8 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 <footer class = 'footnote'>
 Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 

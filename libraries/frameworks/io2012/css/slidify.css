@@ -1,12 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Source+Code+Pro:500|Open+Sans|Oswald);
 
-div.edit-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 10;
-}
-
 /* Styles for Table of Contents */
 #io2012-toc {
   position: absolute;
@@ -359,7 +352,7 @@ pre code {
 }
 
 .title-slide {
-  background-color: #CBE7A5; /* #EDE0CF; ; #CA9F9D*/
+  background-color: #CBE7A5; /* #EDE0CF; #CA9F9D*/
   /* background-image:url(http://goo.gl/EpXln); */
 }
 

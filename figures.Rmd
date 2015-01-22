@@ -50,7 +50,7 @@ ggplot(data = df_1_1, aes(x = Year, y = value, group = variable, fill = variable
 load("data/df_1_1.Rda")  # load data from /data subdirectory
 title <- "Figure 1.1. The distribution of world output, 1700-2012."
 caption <- "Europe's GDP made 47 percent of world GDP in 1913, down to 25 percent in 2012."
-ggplot(data = df_1_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Share in world output (% of total)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2012), breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.25, 0.75), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
+ggplot(data = df_1_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Share in world output (% of total)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2012), breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.25, 0.75), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), shape = guide_legend(reverse = TRUE))
 ```
 
 ---
@@ -68,7 +68,7 @@ ggplot(data = df_1_2, aes(x = Year, y = value, group = variable, fill = variable
 load("data/df_1_2.Rda")  # load data from /data subdirectory
 title <- "Figure 1.2. The distribution of world population, 1700-2012."
 caption <- "Europe's population made 26 percent of world population in 1913, down to 10 percent in 2012."
-ggplot(data = df_1_2, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Share in world population (% of total)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2012), breaks = seq(1700, 2010, by = 50)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.25, 0.75), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
+ggplot(data = df_1_2, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Share in world population (% of total)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2012), breaks = seq(1700, 2010, by = 50)) + scale_y_continuous(labels = percent, breaks = seq(0, 1, by = .1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.25, 0.75), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), shape = guide_legend(reverse = TRUE))
 ```
 
 ---
@@ -114,7 +114,7 @@ ggplot(data = df_2_1, aes(x = Year, y = value, group = variable, fill = variable
 load("data/df_2_1.Rda")  # load data from /data subdirectory
 title <- "Figure 2.1. The growth of world population, 1700-2012."
 caption <- "World population rose from 600 million inhabitants in 1700 to 7 billion in 2012."
-ggplot(data = df_2_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("World population (millions inhabitants)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2012), breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(labels = comma, breaks = seq(0, 7000, by = 1000)) + scale_fill_brewer(name = "Population", palette = fillPalette) + theme(legend.position = c(0.25, 0.75)) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
+ggplot(data = df_2_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("World population (millions inhabitants)") + xlab(NULL) + scale_x_continuous(limits = c(1700, 2012), breaks = seq(1700, 2020, by = 50)) + scale_y_continuous(labels = comma, breaks = seq(0, 7000, by = 1000)) + scale_fill_brewer(name = "Population", palette = fillPalette) + theme(legend.position = c(0.25, 0.75)) + guides(shape = guide_legend(ncol = 1), shape = guide_legend(reverse = TRUE))
 ```
 
 ---
@@ -237,7 +237,7 @@ ggplot(data = df_3_6, aes(x = Year, y = value, group = variable, colour = variab
 load("data/df_4_1.Rda")  # load data from /data subdirectory
 title <- "Figure 4.1. Capital in Germany, 1870-2010."
 caption <- "National capital is worth 6.5 years of national income in Germany in 1910 (including about 0.5 year invested abroad)."
-ggplot(data = df_4_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2010, by = 20)) + scale_y_continuous(labels = percent, breaks = seq(0, 8, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.75, 0.75), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
+ggplot(data = df_4_1, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1870, 2010, by = 20)) + scale_y_continuous(labels = percent, breaks = seq(0, 8, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.75, 0.75), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), shape = guide_legend(reverse = TRUE))
 ```
 
 ---
@@ -284,7 +284,7 @@ ggplot(data = df_4_5, aes(x = Year, y = value, group = variable, colour = variab
 load("data/df_4_6.Rda")  # load data from /data subdirectory
 title <- "Figure 4.6. Capital in the United States, 1770-2010."
 caption <- "National capital is worth three years of national income in the United States in 1770 (including 1.5 years in agricultural land)."
-ggplot(data = df_4_6, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1770, 2010, by = 20)) + scale_y_continuous(labels = percent, breaks = seq(0, 6, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.15, 0.85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
+ggplot(data = df_4_6, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1770, 2010, by = 20)) + scale_y_continuous(labels = percent, breaks = seq(0, 6, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.15, 0.85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), shape = guide_legend(reverse = TRUE))
 ```
 
 ---
@@ -312,7 +312,7 @@ ggplot(data = df_4_8, aes(x = Year, y = value, group = variable, colour = variab
 title <- "Figure 4.9. Capital in Canada, 1860-2010."
 caption <- "In Canada, a substantial part of domestic capital has always been held by the rest of the world, so that national capital has always been less than domestic capital."
 load("data/df_4_9.Rda")  # load data from /data subdirectory
-ggplot(data = df_4_9, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1860, 2010, by = 20)) + scale_y_continuous(labels = percent, breaks = seq(0, 6, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.75, 0.85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
+ggplot(data = df_4_9, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1860, 2010, by = 20)) + scale_y_continuous(labels = percent, breaks = seq(0, 6, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(0.75, 0.85), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), shape = guide_legend(reverse = TRUE))
 ```
 
 ---
@@ -322,7 +322,7 @@ ggplot(data = df_4_9, aes(x = Year, y = value, group = variable, fill = variable
 load("data/df_4_10.Rda")  # load data from /data subdirectory
 title <- "Figure 4.10. Capital and slavery in the United States."
 caption <- "The market value of slaves was about 1.5 years of US national income around 1770 (as much as land)."
-ggplot(data = df_4_10, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1770, 2010, by = 20)) + scale_y_continuous(limits = c(-.3, 7), labels = percent, breaks = seq(0, 8, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(.2, .83), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
+ggplot(data = df_4_10, aes(x = Year, y = value, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75, show_guide = TRUE) + ylab("Value of national capital (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1770, 2010, by = 20)) + scale_y_continuous(limits = c(-.3, 7), labels = percent, breaks = seq(0, 8, by = 1)) + scale_fill_brewer(palette = fillPalette) + theme(legend.position = c(.2, .83), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1), shape = guide_legend(reverse = TRUE))
 ```
 
 ---
@@ -332,7 +332,7 @@ ggplot(data = df_4_10, aes(x = Year, y = value, group = variable, fill = variabl
 load("data/df_4_11.Rda")  # load data from /data subdirectory
 title <- "Figure 4.11. Capital around 1770-1810: Old and New World."
 caption <- "The combined value of agricultural land and slaves in the Southern United States surpassed four years of national income around 1770-1810."
-ggplot(data = df_4_11, aes(x = Country, y = value, group = variable, fill = variable)) + geom_bar(stat = "identity", width = .8) + scale_fill_brewer(palette = fillPalette)  + ylab("Value of capital (% national income)") + xlab(NULL) + scale_y_continuous(labels = percent, breaks = seq(0, 7, by = 1)) + theme(legend.position = c(.86,.8), legend.title = element_blank()) + guides(fill = guide_legend(ncol = 1, reverse = TRUE))
+ggplot(data = df_4_11, aes(x = Country, y = value, group = variable, fill = variable)) + geom_bar(stat = "identity", width = .8) + scale_fill_brewer(palette = fillPalette)  + ylab("Value of capital (% national income)") + xlab(NULL) + scale_y_continuous(labels = percent, breaks = seq(0, 7, by = 1)) + theme(legend.position = c(.86,.8), legend.title = element_blank()) + guides(shape = guide_legend(ncol = 1, reverse = TRUE))
 ```
 
 ---

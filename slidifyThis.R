@@ -46,10 +46,5 @@ http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/lect
 [https://github.com/ptoche/piketty](http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/index.html)
 
 
-
-
-# Make blog with blogify()
-# not currently in use
-# install_github('poirot', 'ramnathv')
-# library(poirot)
-# blogify(".")
+# mode selfcontained
+# Default is standalone in which case all images are embedded in the html, and js/css assets are served from an online repository. Setting it to selfcontained links everything from your slide folder, so you should be able to copy your slide folder to another computer and present even when offline.
