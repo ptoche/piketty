@@ -1,53 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset='utf-8'>
-	<title>Introduction to Piketty's Capital</title>
-	<meta name="description" content="Introduction to Piketty's Capital">
-	<meta name="author" content="Patrick Toche">
-	<meta name="generator" content="slidify" />
-	
-	<!-- LOAD STYLE SHEETS -->
-	<link rel="stylesheet" href="../../libraries/frameworks/html5slides/default/styles.css">
-	<link rel="stylesheet" href="../../libraries/highlighters/highlight.js/css/tomorrow.css" />  <link rel="stylesheet" href = "../../assets/css/app.css">
-<link rel="stylesheet" href = "../../assets/css/gh-buttons.css">
-<link rel="stylesheet" href = "../../assets/css/gh-icons.png">
-<link rel="stylesheet" href = "../../assets/css/html5slides.css">
-<link rel="stylesheet" href = "../../assets/css/ribbons.css">
-  
-</head>
-<body style='display: none'>
-	<section class='slides layout-regular template-regular'>
-     <article class="cover-slide" id="slide-1" style="background:;">
-  <h3></h3>
-  
-</article>
+  <title>Introduction to Piketty's Capital</title>
+  <meta charset="utf-8"/>
+  <meta name="description" content="Introduction to Piketty's Capital"/>
+  <meta name="author" content="Patrick Toche"/>
+  <meta name="generator" content="slidify"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/default.css" media="all" />
+  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)"/>
+  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/slidify.css"/>
+  <link rel="stylesheet" href="../../libraries/frameworks/io2012/css/custom.css"/>
+  <link rel="stylesheet" href="../../libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="../../libraries/widgets/nvd3/css/nv.d3.css"></link>
+<link rel=stylesheet href="../../libraries/widgets/nvd3/css/rNVD3.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
 
-<article class="" id="slide-2" style="background:;">
-  <h3>Introduction</h3>
-  <ul>
-<li>This set of lecture notes surveys selected topics from <em>Capital in the Twenty-First Century</em>, a book written by economist Thomas Piketty, published in English in 2014 to great acclaim.</li>
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="../../libraries/frameworks/io2012/js/slides" 
+    src="../../libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  <script src="../../libraries/widgets/nvd3/js/jquery-1.8.2.min.js"></script>
+<script src="../../libraries/widgets/nvd3/js/d3.v3.min.js"></script>
+<script src="../../libraries/widgets/nvd3/js/nv.d3.min-new.js"></script>
+<script src="../../libraries/widgets/nvd3/js/fisheye.js"></script>
+
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Introduction to Piketty's Capital</h1>
+    <h2>Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)</h2>
+    <p>Patrick Toche<br/></p>
+  </hgroup>
+    <a href="https://github.com/patricktoche/piketty/zipball/gh-pages" class="example">
+     Download
+    </a>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="cover-slide" id="slide-1" style="background:;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h3>Introduction</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>This set of slides surveys selected topics from <em>Capital in the Twenty-First Century</em>, a book written by economist Thomas Piketty, published in English in 2014 to great acclaim.</li>
+<li>All source files for this course are available for download by anyone without restrictions at <a href="https://github.com/ptoche/piketty">https://github.com/ptoche/piketty</a></li>
+<li>The full course is expected to be completed by April 2015.</li>
 <li>The intended audience for these notes is any curious person with or without training in economics.</li>
 <li>The book deals with technical matters but its streamlined presentation of technical issues makes it highly readable.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-3" style="background:;">
-  <h3>Thomas Piketty</h3>
-  <p><br /></p>
-
-<figure class = "centeredImage">  
-<img src = "../../images/Piketty_BloombergBusinessWeek_2014.jpg" alt = "Thomas Thomas Piketty (born 1971)." style="width: auto; height: auto; max-height: 500px; ">
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h3>Thomas Piketty</h3>
+  </hgroup>
+  <article data-timings="">
+    <figure class = "centered">  
+<img src = "../../images/Piketty_BloombergBusinessWeek_2014.jpg" alt = "Thomas Thomas Piketty (born 1971).">
 <figcaption class = 'figcaption'>Piketty's Capital took America by storm. 
 </figcaption>  
 </figure> 
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-4" style="background:;">
-  <h3>Capital in the 21st Century</h3>
-  <ul>
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h3>Capital in the 21st Century</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li>What do we know about the distribution of income? </li>
 <li>What do we know about the distribution of wealth? </li>
 <li>What prediction can we make about the evolution of income and wealth over the long term?</li>
@@ -56,145 +104,192 @@
 <li>This introduction presents an ultra brief history of inequality and sketches the book&#39;s main themes.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-5" style="background:;">
-  <h3>Adam Smith</h3>
-  <p><br /></p>
-
-<figure class = "centeredImage">  
-<img src = "../../images/Adam_Smith.jpg" alt = "Adam Smith (1723-1790)." style="width: auto; height: auto; max-height: 500px;">
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h3>Adam Smith</h3>
+  </hgroup>
+  <article data-timings="">
+    <figure class = "centered">  
+<img src = "../../images/Adam_Smith.jpg" alt = "Adam Smith (1723-1790).">
 <figcaption class = 'figcaption'>Adam Smith (1723-1790).
 </figcaption>  
 </figure> 
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-6" style="background:;">
-  <h3>Adam Smith and Poverty</h3>
-  <ul>
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h3>Adam Smith and Poverty</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li>In 1776, Adam Smith published his study on the <em>Wealth of Nations</em>.</li>
-<li>Adam Smith is thought of as &#39;the first economist.&#39;</li>
-<li>Adam Smith lived in a world where poverty, hunger, and early death were commonplace. </li>
-<li>In this chaos he viewed the economy as nothing short of a miracle, the work of an &#39;invisible hand.&#39;</li>
+<li>Adam Smith is thought of as &#39;the first economist.&#39; He lived in a world where poverty, hunger, and early death were commonplace. In this chaos he viewed the economy as nothing short of a miracle, the work of an &#39;invisible hand.&#39;</li>
 <li>To Smith opulent societies are unequal and while backward societies are less unequal they are poor. </li>
 <li>Smith believed that capital accumulation would reduce the marginal productivity of capital and raise the marginal productivity of labor, helping to reduce equality.</li>
 <li>Smith expected that as the societies developed further, both equality and opulence would be achieved.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-7" style="background:;">
-  <h3>Thomas Robert Malthus</h3>
-  <p><br /></p>
-
-<figure class = "centeredImage">  
-<img src = "../../images/Thomas_Robert_Malthus.jpg" alt = "Thomas Robert Malthus (1766-1834)." style="width: auto; height: auto; max-height: 500px;">
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h3>Thomas Robert Malthus</h3>
+  </hgroup>
+  <article data-timings="">
+    <figure class = "centered">  
+<img src = "../../images/Thomas_Robert_Malthus.jpg" alt = "Thomas Robert Malthus (1766-1834).">
 <figcaption class = 'figcaption'>Reverend Thomas Malthus (1766-1834).
 </figcaption>  
 </figure> 
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-8" style="background:;">
-  <h3>Malthus and the Problem of Overpopulation</h3>
-  <ul>
+<slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h3>Malthus and the Problem of Overpopulation</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li>In 1798, Thomas Malthus published his <em>Essay on the Principle of Population</em>. His main fear was overpopulation.</li>
 <li>Population in the French kingdom had increased from 20 million in 1700 to 30 million by 1780. This very rapid population growth contributed to a stagnation of agricultural wages and an increase in land rents in the decades prior to the Revolution of 1789.</li>
 <li>As the country was getting richer, the poor were getting poorer, because there were more of them and the typical poor family&#39;s resources had fallen. This unfortunate paradox worried Malthus.</li>
 <li>Malthus argued that reproduction by the poor must be reduced to avoid overpopulation, chaos and misery, and that welfare assistance must be cut to achieve that.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-9" style="background:;">
-  <h3>David Ricardo</h3>
-  <p><br /></p>
-
-<figure class = "centeredImage">  
-<img src = "../../images/David_Ricardo_by_Thomas_Phillips.jpg" alt = "David Ricardo (1772-1823)." style="width: auto; height: auto; max-height: 500px;">
+<slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h3>David Ricardo</h3>
+  </hgroup>
+  <article data-timings="">
+    <figure class = "centered">  
+<img src = "../../images/David_Ricardo_by_Thomas_Phillips.jpg" alt = "David Ricardo (1772-1823).">
 <figcaption class = 'figcaption'>David Ricardo (1772-1823), Portrait by Thomas Phillips.
 </figcaption>  
 </figure> 
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-10" style="background:;">
-  <h3>Ricardo and the Principle of Scarcity</h3>
-  <ul>
+<slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h3>Ricardo and the Principle of Scarcity</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li>In 1817, Ricardo published his <em>Principles of Political Economy and Taxation</em>. His main concern was the long-term evolution of land prices and land rents. </li>
 <li>Ricardo thought capitalism suffered from an internal contradiction. </li>
 <li>As both population and output grow steadily, land tends to become increasingly scarce relative to other goods. The law of supply and demand then implies that the price of land will rise continuously, as will the rents paid to landlords. The landlords will therefore claim a growing share of national income, at the expense of the rest of the population.</li>
 <li>For Ricardo, a politically acceptable solution was to impose a steadily increasing tax on land rents.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-11" style="background:;">
-  <h3>Ricardo and the Principle of Scarcity</h3>
-  <ul>
-<li>Ricardo&#39;s prediction proved wrong: in the course of economic development, as the share of agriculture in national income decreased, the value of farm land declined relative to other forms of wealth.</li>
+<slide class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h3>Ricardo and the Principle of Scarcity</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Ricardo&#39;s prediction proved wrong: the share of agriculture in national income decreased and the relative value of farm land declined.</li>
 <li>Ricardo had not anticipated the importance of technological progress and its role in offsetting the principle of scarcity.</li>
 <li>The principle of scarcity remains important: replace the price of farmland with the price of urban real estate and consider what would happen to wealth inequality if the price trend of 1970–2010 were extrapolated to 2010–2050!</li>
 <li>The mechanism of supply and demand eventually counterbalances extreme trends: If the supply of some good is short and its price too high, then demand for that good would decrease and eventually its price would decrease.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-12" style="background:;">
-  <h3>Karl Marx</h3>
-  <p><br /></p>
-
-<figure class = "centeredImage">  
-<img src = "../../images/Karl_Marx_1875.jpg" alt = "Karl Marx (1818-1883)." style="width: auto; height: auto; max-height: 500px;">
+<slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h3>Karl Marx</h3>
+  </hgroup>
+  <article data-timings="">
+    <figure class = "centered">  
+<img src = "../../images/Karl_Marx_1875.jpg" alt = "Karl Marx (1818-1883).">
 <figcaption class = 'figcaption'>Karl Marx (1818-1883), Portrait dated 1875.
 </figcaption>  
 </figure> 
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-13" style="background:;">
-  <h3>Marx and the Kapital</h3>
-  <ul>
+<slide class="" id="slide-13" style="background:;">
+  <hgroup>
+    <h3>Marx and the Kapital</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li>In 1867, Marx published the first volume of <em>Capital</em>. The other two volumes would be published posthumously by Friedrich Engels, the co-author of the <em>Communist Manifesto</em> (1848).</li>
 <li>The question was no longer whether farmers could feed a growing population or whether land prices would go on rising.</li>
-<li>During the first half of the 19th c. wages stagnated at very low levels, in some cases even lower than previous centuries. </li>
-<li>The capital income share increased considerably in Britain and France in the first half of the 19th c.</li>
+<li>During the first half of the 19th century wages stagnated at very low levels, in some cases even lower than previous centuries. </li>
+<li>The capital income share increased considerably in Britain and France in the first half of the 19th century.</li>
 <li>With the industrial revolution and the vast rural exodus workers crowded into urban slums. Poverty was now visible in urban areas side by side with extreme opulence. </li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-14" style="background:;">
-  <h3>Marx and the Falling Rate of Profit</h3>
-  <ul>
-<li>Marx predicted a tendency for capitalists to accumulate wealth and for wealth to become concentrated in ever fewer hands, with no natural limit to the process. </li>
+<slide class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h3>Marx and the Falling Rate of Profit</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Marx predicted a tendency for capitalists to accumulate wealth without limit and for wealth to become concentrated into ever fewer hands. </li>
 <li>Marx predicted the excessive accumulation of capital would lead to a falling rate of profit and the collapse of industrial capitalism. </li>
-<li>Marx saw the tendency of the profit rate to fall as &#39;the most important law of political economy.&#39;</li>
-<li>As the rate of profit fell, capitalists would seek to extract more surplus and workers&#39; wages would stagnate.</li>
-<li>Marx&#39;s prediction did not come true. In the last third of the nineteenth century, wages finally began to increase.</li>
-<li>The communist revolution came in the most backward country in Europe, Russia, and not in the advanced industrial countries.</li>
+<li>Marx saw the tendency of the profit rate to fall as &#39;the most important law of political economy.&#39; As the rate of profit fell, capitalists would seek to extract more surplus and workers&#39; wages would stagnate or fall.</li>
+<li>Marx&#39;s prediction proved wrong. In the last third of the nineteenth century, wages finally began to increase.</li>
+<li>The communist revolution took place in the most backward country in Europe, Russia, and not in the advanced industrial countries.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-15" style="background:;">
-  <h3>Simon Kuznets and the Kuznets Curve</h3>
-  <ul>
+<slide class="" id="slide-15" style="background:;">
+  <hgroup>
+    <h3>Simon Kuznets and the Kuznets Curve</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li>In 1953, Kuznets published <em>Shares of Upper Income Groups in Income and Savings</em>, a study of the United States over 1913–1948. </li>
-<li>Kuznets noted a sharp reduction in the upper deciles and centiles of income between 1913 and 1948. </li>
-<li>In 1913, the top 10 percent of US earners received 45–50 percent of annual national income. In 1948, they earned 30–35 percent.</li>
-<li>The &#39;Kuznets curve&#39; suggests inequality increases in the early stages of industrialization, decreases later. </li>
-<li>The mechanism is due to another Nobel prize, W. Arthur Lewis (1915-1991): in early stages of development, the &#39;unlimited&#39; supply of labour from rural areas allows the urban areas to expand for a time without upward pressure on wages.</li>
+<li>Kuznets noted a sharp reduction in the upper deciles of income between 1913 and 1948. In 1913, the top 10% of US earners received 45–50% of annual national income. In 1948, they earned 30–35%.</li>
+<li>The &#39;Kuznets curve&#39; interpretation is that inequality rises in the early stages of industrialization &mdash; falls later. An explanation is due to W. Arthur Lewis (1915-1991). In early stages, &#39;unlimited&#39; supply of labour from rural areas allows urban areas to expand without upward pressure on wages. Wages rise once rural-urban migration stops.</li>
 <li>In truth, however, the compression of high incomes was largely accidental, caused by the Great Depression and World War II.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-16" style="background:;">
-  <h3>Piketty&#39;s Capital</h3>
-  <ul>
-<li>While Marx&#39;s vision was a nightmare, Kuznets&#39;s was a fairy tale.</li>
+<slide class="" id="slide-16" style="background:;">
+  <hgroup>
+    <h3>Piketty&#39;s Capital</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>While Marx&#39;s vision was a nightmare, the Kuznets curve is a fairy tale.</li>
 <li>Piketty seeks to ground his theories on facts. He surveys economic data spanning several centuries and continents.</li>
 <li>Piketty&#39;s theory places the data within a simple, universal accounting framework and focuses on the very long run.</li>
 <li>Piketty&#39;s vision of the future draws from history and does not speculate about future technologies or future societies.</li>
@@ -202,16 +297,21 @@
 <li>Piketty advocates high taxes on high incomes and wealth transmission.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-17" style="background:;">
-  <h3>Forces of Convergence &amp; Divergence</h3>
-  <ul>
+<slide class="" id="slide-17" style="background:;">
+  <hgroup>
+    <h3>Forces of Convergence &amp; Divergence</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li><strong>Convergence</strong>
 
 <ul>
 <li>The main force is the diffusion of knowledge.</li>
-<li>It depends in large part on education policies, access to skills and training, and on institutions.</li>
+<li>depends on education policies, access to skills, institutions.</li>
 </ul></li>
 <li><strong>Divergence</strong>
 
@@ -223,130 +323,307 @@
 </ul></li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-18" style="background:;">
-  <h3>Forces of Convergence &amp; Divergence</h3>
-  <ul>
+<slide class="" id="slide-18" style="background:;">
+  <hgroup>
+    <h3>Forces of Convergence &amp; Divergence</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li>Figures I.1 and I.2 show two basic patterns of divergence. 
 
 <ul>
 <li>Figure I.1 depicts income inequality in the United States.</li>
-<li>Figure I.2 depict the capital/income ratio in several European countries. </li>
+<li>Figure I.2 depict the capital/income ratio in 3 European countries. </li>
 </ul></li>
-<li>Both graphs depict &quot;U-shaped curves&quot;: a period of decreasing inequality followed by one of increasing inequality. </li>
+<li>Both graphs depict &quot;U-shaped curves&quot;: A period of decreasing inequality followed by one of increasing inequality. </li>
 <li>But the phenomena depicted in the figures involve distinct economic, social, and political processes. </li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-19" style="background:;">
-  <h3>Forces of Convergence &amp; Divergence</h3>
-  <ul>
+<slide class="" id="slide-19" style="background:;">
+  <hgroup>
+    <h3>Forces of Convergence &amp; Divergence</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li>Figure I.1 shows the share of the upper decile of the income hierarchy in US national income from 1910 to 2010. </li>
 <li>The top decile claimed as much as 45–50% of national income in the 1910s–1920s, fell to 30–35% by the end of the 1940s, rose again in the 1980s, and by 2000 reached about 45–50%.</li>
-<li>Figure I.2 shows the total value of private wealth (in real estate, financial assets, and professional capital, net of debt) in Britain, France and Germany, expressed in years of national income, for the period 1870–2010. </li>
-<li>The total amount of private wealth was about 6 or 7 years of national income in the 19th c., fell sharply to 2 or 3 years, in response to the shocks of the period 1914–1945 (the great depression sandwiched by two world wars), started to rise steadily after 1950, and is up to about 5 years in 2010.</li>
+<li>Figure I.2 shows the total value of private wealth (in real estate, financial assets, and professional capital, net of debt) in Britain, France and Germany, expressed in years of national income, for 1870–2010. </li>
+<li>The total amount of private wealth was about 6 or 7 years of national income in the 19th c., fell sharply to 2 or 3 years, in response to the shocks of the period 1914–1945, started to rise steadily after 1950, and is up to about 5 years in 2010.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-20" style="background:;">
-  <h3>Income Inequality in the United States</h3>
-  <ul>
+<slide class="" id="slide-20" style="background:;">
+  <hgroup>
+    <h3>Income Inequality in the United States</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li>The spectacular increase in inequality largely reflects an unprecedented explosion of very elevated incomes from labor, caused by a separation of the top managers of large firms from the rest of the population.</li>
-<li>Did the skills and productivity of these top managers rise suddenly in relation to those of other workers?</li>
-<li>Top managers suddenly acquired the power to set their own remuneration!</li>
+<li>Did the skills and productivity of these top managers rise suddenly in relation to those of other workers? </li>
+<li>Do we live in a &#39;winner takes all&#39; society?</li>
+<li>Top managers suddenly acquired the power to set their own remuneration. The &#39;winner grabs all&#39; society!</li>
 <li>The tendency is less marked in other wealthy countries, but the trend is in the same direction.</li>
 </ul>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-21" style="background:;">
-  <h3>The capital-income ratio</h3>
-  <ul>
+<slide class="" id="slide-21" style="background:;">
+  <hgroup>
+    <h3>The capital-income ratio</h3>
+  </hgroup>
+  <article data-timings="">
+    <ul>
 <li>The rise of capital/income ratios over the past few decades is in large part a return to a regime of slow growth. </li>
-<li>If the rate of return on capital remains significantly above the growth rate for an extended period of time, then the possibility of divergence in the distribution of wealth is likely.</li>
+<li>If the rate of return on capital remains above the growth rate for an extended period of time, then wealth becomes more concentrated.</li>
 <li>In slowly growing economies, past wealth matters more.</li>
 <li>The logic is captured by an inequality:
 \[ 
 r > g
 \]
-where r stands for the average annual rate of return on capital, including profits, dividends, interest, rents, and other income from capital, and g stands for the rate of growth of the economy, that is, the annual increase in income or output.</li>
+where r stands for the average annual rate of return on capital, including profits, dividends, interest, rents, and other income from capital, and g stands for the rate of growth of the economy, that is, the annual proportional change in total income.</li>
 </ul>
 
-<!--- Comment out this slide
+<!---
 
 ### Income inequality in the United States
 
-<figure class = "centeredImage">  
-<img src = "../../figures/Figure_0_1.png" alt = "Figure I.1. Income inequality in the United States, 1910-2012.">  
+<figure class = "captioned">  
+<img class = "captioned" src = "../../figures/Figure_0_1.png" alt = "Figure I.1. Income inequality in the United States, 1910-2012.">  
 <figcaption class = 'figcaption'>Figure I.1. The top decile share in U.S. national income dropped from 45-50% in the 1910s-1920s to less than 35% in the 1950s (this is the 1950-1960 fall documented by Kuznets); it then rose from less than 35% in the 1970s to 45-50% in the 2000s-2010s.
 </figcaption>  
 </figure> 
-<footer class = 'footnote'>
-Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
 -->
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-22" style="background:;">
-  <h3>Income inequality in the United States</h3>
-  <p><iframe src = 'figures/Figure_0_1.html' alt = "Figure I.1. Income inequality in the United States, 1910-2012.">
+<slide class="" id="slide-22" style="background:;">
+  <hgroup>
+    <h3>Income inequality in the United States</h3>
+  </hgroup>
+  <article data-timings="">
+    <p><iframe src = 'figures/Figure_0_1.html' alt = "Figure I.1. Income inequality in the United States, 1910-2012.">
 </iframe><icaption class = 'icaption'>Figure I.1. The top decile share in U.S. national income dropped from 45-50% in the 1910s-1920s to less than 35% in the 1950s (this is the 1950-1960 fall documented by Kuznets); it then rose from less than 35% in the 1970s to 45-50% in the 2000s-2010s.</icaption> 
-<footer class = 'footnote'><br>
-Concept and data: Thomas Piketty. Chart created with <code>rCharts</code> (author: Ramnath Vaidyanathan)<br>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with <code>rCharts</code> (author: Ramnath Vaidyanathan)<br>
 </footer>  </p>
 
 <!--- Comment out this slide
 
 ### The capital-income ratio in Europe
 
-<figure class = "centeredImage">  
-<img src = "../../figures/Figure_0_2.png" alt = "Figure I.2. The growth of world population, 1700-2012.">  
+<figure class = "captioned">  
+<img class = "captioned" src = "../../figures/Figure_0_2.png" alt = "Figure I.2. The growth of world population, 1700-2012.">  
 <figcaption class = 'figcaption'>Figure I.2. Aggregate private wealth was worth about 6-7 years of national income in Europe in 1910, between 2 and 3 years in 1950, and between 4 and 6 years in 2010.</figcaption>  
 </figure> 
-<footer class = 'footnote'>
-Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
 -->
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<article class="" id="slide-23" style="background:;">
-  <h3>The capital-income ratio in Europe</h3>
-  <p><iframe src = 'figures/Figure_0_2.html' alt = "Figure I.2. The capital-income ratio in Europe, 1870-2012.">
+<slide class="" id="slide-23" style="background:;">
+  <hgroup>
+    <h3>The capital-income ratio in Europe</h3>
+  </hgroup>
+  <article data-timings="">
+    <p><iframe src = 'figures/Figure_0_2.html' alt = "Figure I.2. The capital-income ratio in Europe, 1870-2012.">
 </iframe><icaption class = 'icaption'>Figure I.2. Aggregate private wealth was worth about 6-7 years of national income in Europe in 1910, between 2 and 3 years in 1950, and between 4 and 6 years in 2010.</icaption> 
-<footer class = 'footnote'><br>
-Concept and data: Thomas Piketty. Chart created with <code>rCharts</code> (author: Ramnath Vaidyanathan)<br>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with <code>rCharts</code> (author: Ramnath Vaidyanathan)<br>
 </footer>  </p>
 
-</article>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-  </section>
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title=''>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Introduction'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Thomas Piketty'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Capital in the 21st Century'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Adam Smith'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Adam Smith and Poverty'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Thomas Robert Malthus'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Malthus and the Problem of Overpopulation'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='David Ricardo'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Ricardo and the Principle of Scarcity'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Ricardo and the Principle of Scarcity'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Karl Marx'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Marx and the Kapital'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Marx and the Falling Rate of Profit'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Simon Kuznets and the Kuznets Curve'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='Piketty&#39;s Capital'>
+         16
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='Forces of Convergence &amp; Divergence'>
+         17
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='Forces of Convergence &amp; Divergence'>
+         18
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='Forces of Convergence &amp; Divergence'>
+         19
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Income Inequality in the United States'>
+         20
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='The capital-income ratio'>
+         21
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='Income inequality in the United States'>
+         22
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='The capital-income ratio in Europe'>
+         23
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
 </body>
-  <!-- LOAD JAVASCRIPTS  -->
-	<script src='../../libraries/frameworks/html5slides/default/slides.js'></script>
-	<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
-	<script type="text/x-mathjax-config">
-	  MathJax.Hub.Config({
-	    tex2jax: {
-	      inlineMath: [['$','$'], ['\\(','\\)']],
-	      processEscapes: true
-	    }
-	  });
-	</script>
-	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-	<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-	</script> -->
-	<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="../../libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="../../libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
 </script>
 <!-- LOAD HIGHLIGHTER JS FILES -->
-	<script src="../../libraries/highlighters/highlight.js/highlight.pack.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
-	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
-	 
-	</html>
+  <script src="../../libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
