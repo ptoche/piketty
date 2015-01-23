@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Piketty's Capital</title>
+  <title>Notes on Thomas Piketty's Capital</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
   <link rel="icon" type="image/png" href="favicon.ico">
@@ -31,8 +31,9 @@
     <link rel=stylesheet href="libraries/widgets/nvd3/css/nv.d3.css"></link>
 <link rel=stylesheet href="libraries/widgets/nvd3/css/rNVD3.css"></link>
 <link rel=stylesheet href="libraries/widgets/morris/css/morris.css"></link>
-<link rel=stylesheet href="./assets/css/custom.css"></link>
+<link rel=stylesheet href="./assets/css/app.css"></link>
 <link rel=stylesheet href="./assets/css/gh-buttons.css"></link>
+<link rel=stylesheet href="./assets/css/html5slides.css"></link>
 <link rel=stylesheet href="./assets/css/ribbons.css"></link>
 
   <script src="libraries/widgets/nvd3/js/jquery-1.8.2.min.js"></script>
@@ -59,10 +60,8 @@
    <!-- Ref: http://twitter.github.com/bootstrap/examples/hero.html -->
    
     <div class="container">
-      
-<p><a href="http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/index.html">https://github.com/ptoche/piketty</a></p>
-
-<h3>Notes on Thomas Piketty&#39;s Capital</h3>
+      <h3>GitHub Repo: <a href="https://github.com/ptoche/piketty">https://github.com/ptoche/piketty</a></h3>
+<h3>GitHub Pages: <a href="http://ptoche.github.io/">http://ptoche.github.io/</a></h3>
 
 <ul>
 <li>This is a website to display material related to Thomas Piketty, Capital in the 21st Century (Harvard University Press, 2014), in particular data, tables and figures. </li>
@@ -85,19 +84,20 @@
 <li><a href="lectures/Chapter%2011/index.html">Chapter 11 : Merit and Inheritance in the Long Run</a></li>
 <li><a href="lectures/Chapter%2012/index.html">Chapter 12 : Global Inequality of Wealth in the Twenty-First Century</a></li>
 <li><a href="lectures/Chapter%2013/index.html">Chapter 13 : A Social State for the Twenty-First Century</a></li>
+<li><a href="lectures/Extra/index.html">Extra : Introduction</a></li>
 </ol>
 
 <h3>Reproduce</h3>
-<p>This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the <code>.Rmd</code> source, configure the <code>site.yml</code> and run <code>slidify(&#39;index.Rmd&#39;)</code>. </p>
+<p>This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from source, configure the <code>site.yml</code> and run <code>slidify(&#39;index.Rmd&#39;)</code>. </p>
 
-<p>You will need the <code>slidify</code>, <code>slidifyLibraries</code> and `<code>rCharts</code>, packages.</p>
+<p>You will need the <code>slidify</code>, <code>slidifyLibraries</code> and <code>rCharts</code>, packages.</p>
 
 <pre><code>install.packages(&quot;devtools&quot;)  
 devtools::install_github(c(&quot;slidify&quot;, &quot;slidifyLibraries&quot;, &quot;rCharts&quot;), 
     &quot;ramnathv&quot;, ref = &quot;dev&quot;)  
 </code></pre>
 
-<p>In addition, I often use the following packages: <code>ggplot2</code>, <code>scales</code>, <code>reshape2</code>, <code>plyr</code><code>(author: Hadley Wickham). I am also using packages</code><code>grid</code><code>and</code>png<code>to insert images and control their size. Make sure these packages are installed in your ``R</code>system, e.g. run this for each package:</p>
+<p>In addition, I often use the following packages: <code>ggplot2</code>, <code>scales</code>, <code>reshape2</code>, <code>plyr</code> (author: Hadley Wickham). I am also using packages <code>grid</code> and <code>png</code> to insert images and control their size. Make sure these packages are installed in your <code>R</code> system, e.g. run this for each package:</p>
 
 <pre><code>install.packages(&quot;ggplot2&quot;)
 </code></pre>
@@ -112,15 +112,17 @@ devtools::install_github(c(&quot;slidify&quot;, &quot;slidifyLibraries&quot;, &q
 
 <pre><code>assets      -&gt; custom img/js/css/layout assets
 data        -&gt; Piketty&#39;s data used for the tables and figures
-figures     -&gt; png figures built with ``ggplot2```library
+figures     -&gt; png figures built with ggplot2 library
+images      -&gt; other images used to illustrate the slides
 lectures    -&gt; folder containing lectures
   Chapter 01
   Chapter 02
   Chapter 03
 libraries   -&gt; frameworks, highlighters and widgets
-shared      -&gt; custom setup across all lectures, e.g. ``knitr```chunks
+shared      -&gt; custom setup across all lectures, e.g. knitr chunks
 index.Rmd   -&gt; Rmd source for home page
 site.yml    -&gt; Site related configuration
+slidify.R   -&gt; Several useful commands to compile the files
 </code></pre>
 
     </div>

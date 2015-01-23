@@ -26,72 +26,86 @@ source('../../shared/shared.R')
 - This set of slides surveys selected topics from *Capital in the Twenty-First Century*, a book written by economist Thomas Piketty, published in English in 2014 to great acclaim.
 - All source files for this course are available for download by anyone without restrictions at https://github.com/ptoche/piketty
 - The full course is expected to be completed by April 2015.
-- Chapter 1 lays out some basic facts about population and income, reviews the basic concepts of national income accounting, and introduces the basic forces behind the evolution of income and wealth over the long term.
+- Chapter 1 lays out some basic facts about population and income, reviews the basic concepts of national income accounting, and sketches the basic forces behind the evolution of income and wealth over the long term.
 
 ---
 
 ### Capital and Labor in the Long Run
 
-- The nature of capital has transformed over time, from land and other real estate in the 18th c. to industrial and financial capital in the 21st.
+- The nature of capital has transformed over time, from land and real estate in the 18th century to industrial and financial capital in the 21st.
 - The rise of 'human capital' suggests that labor should claim a growing share of national income. But the data does not bear this out.
 - The rise of private capital in recent years is primarily due to a slowdown of population growth and productivity growth, together with political stability, property rights and tax policies that favor private capital.
 - One measure of the evolution of the capital-labor split (the relative income shares) is the capital/income ratio (the ratio of the total stock of capital to the annual flow of income).
+- Let's clarify the meaning of income, capital, and wealth.
 
 ---
 
 ### The Concept of National Income
 
-- National income is closely related to the concepts of *Gross Domestic Product* (GDP).
+- *National income* is closely related to *Gross Domestic Product* (GDP).
 - GDP measures the market value of all goods and services produced in a given year within the borders of a given country. 
+- This excludes last year's goods, non-market goods, wealth, natural resources, truth and beauty. The treatment of housing services is special.
 - There are two important differences between GDP and national income. 
-    1. Deduct the depreciation of the capital stock. 
-    2. Add income received from abroad and subtract income paid to foreigners. 
+
+    `1`. Deduct the depreciation of the capital stock. 
+    
+    `2`. Add income received from abroad and subtract income paid to non-residents. 
 
 ---
 
 ### The Concept of National Income
 
-$1$. Deduct the depreciation of the capital stock
+`1`. Deduct the depreciation of the capital stock
 
 - To compute national income we deduct wear and tear on buildings, infrastructure, machinery, vehicles, computers, and other items.
-- This depreciation is on the order of 10 percent of GDP in most countries. 
-- If worn-out capital is not replaced or repaired, wealth is lost, resulting in negative income for the owners. 
+- Different capital goods depreciate at different rates. The average depreciation is about 10 percent of GDP in most countries. 
+- Just as investment adds to the capital stock, depreciation subtracts &mdash; investment is priced by the market, depreciation by accountants. 
+- To see why deducting depreciation makes sense, think of it as a 'disinvestment' caused by the act of production. 
+
+- Investment includes 'fixed capital formation', residential construction and inventories. Depreciation is known as 'fixed capital consumption.'
 
 ---
 
 ### The Concept of National Income
 
-$2$. Add income received from abroad and subtract income paid to foreigners. 
+`2`. Add income received from abroad and subtract income paid to foreigners. 
 
 - In the United States, France, Germany, Italy, Great Britain, China, Brazil, Japan, national income is within 1 or 2 percent of domestic product. 
 - In all these countries, the inflow of profits, interest, dividends, rent, and so on is approximately balanced by a comparable outflow. 
 - In wealthy countries, net income from abroad is generally slightly positive.
+- Popular perception is very different &mdash; Europeans often incorrectly believe their capital is largely 'owned' by the Japanese, Chinese, Saudis...
 
 ---
 
 ### Related Income Concepts
 
-- Other related concepts are *Gross National Product* (GNP), *Gross National Income* (GNI), and the 'Net' concepts of *Net Domestic Product* (NDP), *Net National Product* (NNP) and *Net National Income* (NNI).
+- Related concepts are *Gross National Product* (GNP), *Gross National Income* (GNI), *Net Domestic Product* (NDP), *Net National Product* (NNP), and *Net National Income* (NNI). To see how they are related, contrast 'national' with 'domestic'; 'product' with 'income'; and 'gross' with 'net'.
+- **From GDP to GNP:**
 - While GDP measures output within the borders of a country, GNP measures output produced by citizens of the country, whether it is produced within or outside of the country. 
-- To obtain GNP from GDP, add income received from abroad and subtract income paid to non-residents. 
-- In a country where firms are owned by foreigners, GDP may be greater than GNP. If many citizens work abroad, the opposite.
-- GNI is the total domestic and foreign output claimed by residents of a country. FIX THIS DEFINITION
-- FIX
-- FIX
-- FIX
-- To obtain GNI from GDP, add factor incomes earned by foreign residents, minus income earned in the domestic economy by nonresidents
-- Net GDP (or NDP) is GDP minus capital depreciation. 
-- Net GDP is typically 90 percent of GDP.
+- To obtain GNP from GDP, add income earned abroad by residents and subtract income earned at home by non-residents. 
+- In a country where firms are owned by foreigners, GDP may be greater than GNP. In a country where many citizens work abroad, the opposite.
 
 ---
 
 ### Related Income Concepts
 
-- When economists refer to a country's 'output', 'income', or 'product', they usually refer to GDP. 
-- When they refer to 'average income' they usually refer to GDP per capita ( = per person = per head).
-- When Piketty refers to 'national income', he refers to Net National Income. 
+- In common parlance, 'income', 'product', 'output', 'revenue', 'expenditure' are often used interchangeably. In national accounting, not so.
+- **From GDP to NDP:**
+- To obtain NDP from GDP, subtract capital depreciation. 
+- National Income (NI) is short for Net National Product (NNP).
+- **From GDP to NNP:**
+- To obtain NI (=NNP) from GDP, apply both adjustments: add net income from abroad and subtract depreciation.
+
+---
+
+### Related Income Concepts
+
+- When economists refer to a country's 'output', 'income', or 'production', they usually refer to real GDP (GDP adjusted for inflation). 
+- When they refer to 'average income' they usually refer to GDP per capita (= per head = per person).
+- When they compare countries, economists either convert at current market exchange rates or at Purchasing Power Parity rates (PPP).
+- When Piketty refers to 'national income', he refers to *Real Net National Product* and compares countries on a *PPP* basis.
+- When he refers to economic growth, he refers to the growth rate of real net national product. Because depreciation and inflation are deducted, this growth rate is smaller than that usually reported in the media.
 - This has confused some early, hasty readers of the book.
-- When he refers to 'domestic output' or 'domestic production' he refers to the net concept. Not the usual practice!
 
 --- 
 
@@ -113,7 +127,7 @@ $2$. Add income received from abroad and subtract income paid to foreigners.
 
 ### Capital and Wealth
 
--  Capital is defined as the sum total of non-human assets that can be owned and exchanged on some market, including:
+-  Capital is defined as the sum of all non-human assets that can be owned and exchanged on some market, including:
     - all forms of real property (residential real estate);
     - financial assets (bank accounts, mutual funds, bonds, stocks, insurance policies, pension funds, net of debt);
     - business fixed investments (non-residential real estate, plants, infrastructure, machinery, patents) used by firms and government agencies.
@@ -129,17 +143,17 @@ $2$. Add income received from abroad and subtract income paid to foreigners.
 - By definition: 
 
     **National Wealth = Private Wealth + Public Wealth**
+    
 - Public wealth in most developed countries is negligible or even negative.
 
 ---
 
 ### Capital and Wealth
 
-- Piketty uses the words 'capital' and 'wealth' interchangeably, as if they were perfectly synonymous.
-- Economists usually call capital the forms of wealth accumulated by human beings (buildings, machinery, infrastructure) and exclude land and natural resources. 
-- Land is usually a component of wealth but not of capital.
-- The problem is that it is difficult to distinguish the value of buildings from the value of the land on which they are built.
-- Economists usually exclude residential real estate from capital because they consider it to be 'unproductive' ('productive capital' includes industrial plants, office buildings, machinery). Piketty considers housing services to be productive.
+- Economists usually call capital the forms of wealth accumulated by human beings (buildings, machinery, infrastructure) and exclude land and natural resources. Land is usually a component of wealth but not of capital.
+- But it is difficult to distinguish the value of buildings from the value of the land on which they are built.
+- Economists usually exclude residential real estate from capital because they consider it to be 'unproductive' ('productive capital' includes industrial plants, office buildings, machinery).
+- Piketty includes both land and housing services, and uses the words 'capital' and 'wealth' interchangeably, as if they were perfectly synonymous. Get used to it.
 
 ---
 
@@ -147,11 +161,10 @@ $2$. Add income received from abroad and subtract income paid to foreigners.
 
 - Net Foreign Capital is the difference between assets owned by the country's citizens in the rest of the world and assets in the country owned by citizens of other countries. 
 
-**National Capital = Domestic Capital + Net Foreign Capital**
+    **National Capital = Domestic Capital + Net Foreign Capital**
 
-- Economists usually used the term Net Foreign Assets (NFA) instead of Net Foreign Capital.
-- By 1900 Britain and France both enjoyed significant net positive asset positions with the rest of the world. 
-- By 2010 many countries have approximately balanced net asset positions.
+- Economists usually use the term Net Foreign Assets (NFA).
+- In 1900 Britain and France both enjoyed significant net positive asset positions with the rest of the world. In 2010 many countries have approximately balanced net asset positions.
 - At the global level, all net positions must add up to zero.
 
 ---
@@ -164,7 +177,7 @@ $2$. Add income received from abroad and subtract income paid to foreigners.
 $$
 \beta = K/Y
 $$
-- In the developed countries today, the capital/income ratio generally varies between 5 and 6.
+- In the developed countries today, the capital/income ratio generally varies between 5 and 6. That's 5 and 6 years. Or 500% and 600%.
 - The capital stock consists of two roughly equal shares: residential capital and professional capital used by firms and government. 
 
 ---
@@ -172,7 +185,7 @@ $$
 ### The Capital/Income Ratio
 
 - In France and Britain, Germany and Italy, the United States and Japan, national income was roughly 30,000–35,000 euros per capita in 2010, while total private wealth (net of debt) was typically on the order of 150,000–200,000 euros per capita, or 5 to 6 times annual national income.
-- Each citizen of one of the wealthy countries owned approximately 90,000 euros in the form of a dwelling and another 90,000 in stocks, bonds, savings, or other investments.
+- Each citizen of one of the wealthy countries owned approximately 90,000 euros in the form of housing and another 90,000 in stocks, bonds, savings, and other financial assets.
 - These average figures hide enormous disparities. 
 - Income disparities are partly the result of unequal pay for work and partly of much larger inequalities in income from capital.
 - Much of the population has very little accumulated wealth.
@@ -181,14 +194,14 @@ $$
 
 ### The First Fundamental Law of Capitalism 
 
-- Piketty's 'first fundamental law of capitalism' links the three most important concepts for analyzing the capitalist system; the capital/income ratio, the share of capital in income, and the rate of return on capital:
+- Piketty's 'first fundamental law of capitalism' links the three most important concepts for understanding the capitalist system; the capital/income ratio, the share of capital in income, and the rate of return on capital:
 $$
 \alpha = r \times \beta
 $$
 where $\alpha$ is the share of income from capital in national income and $r$ the rate of return on capital. 
 - For example, if $\beta = 600%$ and $r = 5%$, then $\alpha = r \times \beta = 30%$.
 - If national wealth represents the equivalent of 6 years of
-national income and if the rate of return on capital is 5% per year, then the capital income share is 30%.
+national income and if the rate of return on capital is 5% per year, then the capital income share *must be* 30%.
 - The formula is a pure accounting identity.
 
 ---
@@ -205,24 +218,21 @@ national income and if the rate of return on capital is 5% per year, then the ca
 
 - The rate of return on capital measures the yield on capital over the course of a year regardless of its legal form (profits, rents, dividends, interest, royalties, capital gains), expressed as a percentage of the value of capital invested. It is therefore a broader notion than the 'rate of profit', and broader still than the 'rate of interest'.
 - The rate of return can vary widely with the type of investment.
-- The average long-run rate of return on stocks is 7–8%. 
-- On land in rural societies about 4–5%.
-- On real estate and bonds about 3–4%
-- On public debt sometimes lower still.  
+- The average long-run rate of return on stocks is 7–8%; ot land in rural societies, about 4–5%; on real estate and bonds, about 3–4%; on public debt, it varies from country to country, with governments of wealthy countries usually paying low rates.  
 
 ---
 
 ### The Global Distribution of Production
 
 - From 1900 to 1980, 70–80% of the global production of goods and services was concentrated in Europe and America. By 2010, the European–American share had declined to roughly 50%, approximately the same level as in 1860. 
-- It will probably continue to fall, perhaps to 20–30%, a level consistent with the population share.
+- It will probably continue to fall, perhaps to 20–30% in a few decades, a level consistent with the current population share.
 - The lead that Europe and America achieved during the Industrial Revolution allowed them to claim a share of global output 2 to 3 times greater than the world population share.
 - Many countries are now closing the gap.
 
 ---
 
 <figure class = "centered">  
-<img src = "../../tables/Table_1_1.png" alt = "The Distribution of World GDP in 2012" style="width: 100px; margin: 0em; padding: 0em;">
+<img src = "../../tables/Table_1_1.png" alt = "The Distribution of World GDP in 2012" style="width: 900px; height: auto; margin: 0em; padding: 0em;">
 </figure> 
 
 ---
@@ -231,7 +241,7 @@ national income and if the rate of return on capital is 5% per year, then the ca
 
 - Global inequality is best analyzed in terms of regional blocs. 
 - Table 1.1 shows the distribution of global output in 2012.
-- The population of the planet is close to 7 billion. 
+- The population of the planet is about 7 billion. 
 - Global output is greater than 70 trillion euros
 - Global output per capita is thus almost exactly 10,000 euros. 
 - Average per capita monthly income is 760 euros (subtract 10% for capital depreciation and divide by 12).
@@ -239,9 +249,9 @@ national income and if the rate of return on capital is 5% per year, then the ca
 
 ---
 
-### Inequality in the World Regions
+### Inequality in the World: Europe
 
-- The population of Europe is about 740 million. 
+- The population of Europe is about 740 million. Germany is the most populated country with 80M.
 - About 540 million live in the European Union where per capita output is over 27,000 euros per year. 
 - The remaining 200 million people live in Russia and Ukraine, where per capita output is about 15,000 euros per year.
 - Three-quarters of citizens of the EU live in the five most populous countries, Germany, France, Great Britain, Italy, and Spain, with an average per capita GDP of 31,000 euros per year.
@@ -249,29 +259,50 @@ national income and if the rate of return on capital is 5% per year, then the ca
 
 ---
 
-### Inequality in the World Regions
+### Inequality in the World: Asia
 
+- The total Asian population is about 4 billion.
+- China has a population of 1.4 billion, India 1.3B, Indonesia 255 million, Pakistan 190M, Bangladesh 160M, Russia 150M, Japan 130M, Philippines 100M, Vietnam 90M, Thailand 65M, Burma 50M, South Korea 50M. 
 - Japan's annual per capita output is equal to that of the wealthiest European countries, but its population is so small by Asian standards that it has little influence on the continental average, which is a little below the world average.
-- The Americas can be divided into distinct regions that are even more unequal than the European center and periphery. 
-- The US-Canada bloc has 350 million people with a per capita output of 40,000 euros.
-- Latin America has 600 million people with a per capita output of 10,000 euros (the world average).
+- China is not far below the world average with a per capita output of 8,000 euros per year. 
+- The Indian sub-continent is poorer still, but India is growing fast.
 
 ---
 
-### Inequality in the World Regions
+### Inequality in the World: America
 
+- The Americas can be divided into distinct regions that are even more unequal than the European center and periphery. 
+- The total population of the Americas is about 1 billion, with about 40% in the north, 40% in the south and the rest in central America. In the north, the United States has a population of 320 million, Mexico 120M, Canada 35M.  In the south, Brazil has 205M, Colombia 50M, Argentina 45M, Peru 30M, Venezuela 30M.
+- The US-Canada bloc has 350 million people with a per capita output of 40,000 euros.
+- Latin America (including Mexico and central America) has 600 million people with a per capita output of 10,000 euros (the world average).
+
+---
+
+### Inequality in the World: Africa
+
+- The total population of Africa is about 1.1 billion.
+- Total annual output is 1.8 trillion euros, less than the French GDP!
 - Sub-Saharan Africa has a population of 900 million with a per capita output of only 2,000 euros per year. 
-- Total annual output is 1.8 trillion euros, less than the French GDP of 2 trillion!
-- India is slightly higher.
-- North Africa higher still.
-- China is not far below the world average with a per capita output of 8,000 euros per year. 
+- Population in North Africa is 210 million.
+- Nigeria has 185 million, Ethiopia 90M, Egypt nearly 90M, the Congo 70M, South Africa 55M, Tanzania 50M, Kenya 45M, Algeria 40M.
+
+---
+
+### Inequality in the World: Middle East
+
+- The total population of the Middle East is about 410 million and total output about 1.4 billion euros.
+- Iran's population is 80 million, Turkey 80M, Irak 35M, Saudi Arabia 30M.
+- The per capita output of oil-rich countries ranges from 3,000 euros in Iraq to 90,000 in Quatar. Israel has 27,000 euros per capita per year, Saudi Arabia 18,000, Iran 10,000. 
+- The largest economy is Turkey at 1 trillion euros, then Iran 800 billion, Saudi Arabia 500B, Egypt 400B, Israel 200B.
 
 ---
 
 ### Summary
 
-- Per capita income is about 150–250 euros per month in sub-Saharan Africa, in India...
-- about 2,500–3,000 euros per month in Western Europe, North America, and Japan... 20 times higher! 
+- The biggest economies in the world are the United States, China, Japan, Germany, France, United Kingdom, Brazil, Italy, Russia, India, Canada, Australia, Spain...
+- Of these, China and India have per capita output below the world average. Russia about the same as Portugal. Brazil about the same as Mexico or Iran. Germany, Australia, Canada, Japan, France, United Kingdom, Italy, Spain are in the same ball park.
+- Per capita income is 150–250 euros per month in sub-Saharan Africa, India, Pakistan, Vietnam, Phillipines, Nigeria.
+- ... about 2,500–3,000 euros per month in Western Europe, North America, and Japan, that is 20 times higher! 
 - The global average is around 600–800 euros per month.
 
 ---
@@ -280,38 +311,45 @@ national income and if the rate of return on capital is 5% per year, then the ca
 
 - The margin of error in these figures is considerable.
 - Global inequality would be markedly higher if we used current exchange rates rather than purchasing power parities as above.
-- Consider the euro/dollar exchange rate. In 2012, a euro was worth about $1.30 on the foreign exchange market. A European with an income of 1,000 euros per month could exchange that amount for $1,300. If that person took that money to the United States the purchasing power would be $1,300. 
-- But European prices are about 10 percent higher than American prices, so that if the same money was spent in Europe, the purchasing power would be about $1,170 instead of $1,300. 
-- Thus $1.20 has 'purchasing power parity' with 1 euro.
+- Consider the euro/dollar exchange rate. In 2012, a euro was worth about \\$1.30 on the foreign exchange market. A European with an income of 1,000 euros per month could exchange that amount for \\$1,300. If that person took that money to the United States the purchasing power would be \\$1,300. 
+- But European prices are about 10 percent higher than American prices, so that if the same money was spent in Europe, the purchasing power would be about \\$1,170 instead of \\$1,300. 
+- Thus \\$1.20 has 'purchasing power parity' with 1 euro.
 
 ---
 
 ### PPP Versus Current Exchange Rates
 
 - An advantage of using purchasing power parities is that they are more stable than market exchange rates. 
-- Exchange rates are extremely volatile.
-- Exchange rates reflect not only the supply and demand for the goods and services of different countries, but also changes in the investment strategies of international investors, volatile estimates of the political and financial stability of the relevant countries, changes in monetary policy, trade policies, and so on. 
-- The dollar/euro rate went from $1.30 per euro in the 1990s to less than $0.90 in 2001 before rising to around $1.50 in 2008 and then falling back to $1.30 in 2012. 
-- During that time, the PPP of the euro rose gently from about $1 per euro in the early 1990s to $1.20 in 2010.
+- Exchange rates are extremely volatile. Exchange rates reflect not only the supply and demand for the goods and services of different countries, but also changes in the investment strategies of international investors, volatile estimates of the political and financial stability of the relevant countries, changes in monetary policy, trade policies, and so on. 
+- The dollar/euro rate went from \\$1.30 per euro in the 1990s to less than \\$0.90 in 2001 before rising to around \\$1.50 in 2008 and then falling back to \\$1.30 in 2012, and to \\$1.10 in 2015.
+- During that time, the PPP of the euro rose gently from about \\$1 per euro in the early 1990s to \\$1.20 in 2010.
 
 ---
 
-In the poorer countries, the corrections introduced by purchasing power parity are even larger: in Africa and Asia, prices are roughly half what they are in the rich countries, so that GDP roughly doubles when purchasing power parity is used for comparisons rather than the market exchange rate. This is chiefly a result of the fact that the prices of goods and services that cannot be traded internationally are lower, because these are usually relatively labor in- tensive and involve relatively unskilled labor (a relatively abundant factor of production in less developed countries), as opposed to skilled labor and capi- tal (which are relatively scarce in less developed countries).28 Broadly speak- ing, the poorer a country is, the greater the correction: in 2012, the correction coefficient was 1.6 in China and 2.5 in India.
+### PPP Versus Current Exchange Rates
+
+- In poorer countries, the corrections introduced by purchasing power parity are even larger: in Africa and Asia, prices are roughly half what they are in the rich countries, so that GDP roughly doubles when purchasing power parity is used instead of market exchange rates. 
+- The main reason is that the prices of goods and services that cannot be traded internationally are lower, because they are usually relatively labor intensive and involve relatively unskilled labor (a relatively abundant factor of production in less developed countries).
+- In 2012, the correction coefficient was 1.6 in China and 2.5 in India.
 
 ---
 
-### The Global Distribution of Income Is More Unequal Than the Distribution of Output
-
-The only continent not in equilibrium is Africa, where a substantial share of capital is owned by foreigners. According to the balance of payments data compiled since 1970 by the United Nations and other international organiza- tions such as the World Bank and International Monetary Fund, the income of Africans is roughly 5 percent less than the continent’s output (and as high as 10 percent lower in some individual countries).33 With capital’s share of income at about 30 percent, this means that nearly 20 percent of African capital is owned by foreigners:
-
----
 ### What Forces Favor Convergence?
-In theory, the fact that the rich countries own part of the capital of poor countries can have virtuous effects by promoting convergence. If the rich countries are so flush with savings and capital that there is little reason to build new housing or add new machinery (in which case economists say that the “marginal productivity of capital,” that is, the additional output due to adding one new unit of capital “at the margin,” is very low), it can be collec- tively efficient to invest some part of domestic savings in poorer countries abroad. Thus the wealthy countries—or at any rate the residents of wealthy countries with capital to spare—will obtain a better return on their invest- ment by investing abroad, and the poor countries will increase their produc- tivity and thus close the gap between them and the rich countries. According to classical economic theory, this mechanism, based on the free flow of capital and equalization of the marginal productivity of capital at the global level, should lead to convergence of rich and poor countries and an eventual reduc- tion of inequalities through market forces and competition.
-This optimistic theory has two major defects, however. First, from a strictly logical point of view, the equalization mechanism does not guarantee global convergence of per capita income. At best it can give rise to convergence
 
-of per capita output, provided we assume perfect capital mobility and, even more important, total equality of skill levels and human capital across countries—no small assumption. In any case, the possible convergence of output per head does not imply convergence of income per head. After the wealthy countries have invested in their poorer neighbors, they may continue to own them indefinitely, and indeed their share of ownership may grow to massive proportions, so that the per capita national income of the wealthy countries remains permanently greater than that of the poorer countries, which must continue to pay to foreigners a substantial share of what their citi- zens produce (as African countries have done for decades). In order to deter- mine how likely such a situation is to arise, we must compare the rate of re- turn on capital that the poor countries must pay to the rich to the growth rates of rich and poor economies. Before proceeding down this road, we must first gain a better understanding of the dynamics of the capital/income ratio within a given country.
-Furthermore, if we look at the historical record, it does not appear that capital mobility has been the primary factor promoting convergence of rich and poor nations. None of the Asian countries that have moved closer to the developed countries of the West in recent years has benefited from large for- eign investments, whether it be Japan, South Korea, or Taiwan and more re- cently China. In essence, all of these countries themselves financed the neces- sary investments in physical capital and, even more, in human capital, which the latest research holds to be the key to long-term growth.35 Conversely, countries owned by other countries, whether in the colonial period or in Af- rica today, have been less successful, most notably because they have tended to specialize in areas without much prospect of future development and because they have been subject to chronic political instability.
-Part of the reason for that instability may be the following. When a coun- try is largely owned by foreigners, there is a recurrent and almost irrepressible social demand for expropriation. Other political actors respond that invest- ment and development are possible only if existing property rights are uncon- ditionally protected. The country is thus caught in an endless alternation be- tween revolutionary governments (whose success in improving actual living conditions for their citizens is often limited) and governments dedicated to the protection of existing property owners, thereby laying the groundwork for the next revolution or coup. Inequality of capital ownership is already dif-
+- In theory, foreign ownership of capital can help convergence. 
+- If rich countries have excess savings and capital and the 'marginal productivity of capital' is very low, it can be efficient to invest in poorer countries abroad. 
+- This way the wealthy investors obtain a higher return, while the influx of capital into poor countries raise their productivity, helping to close the gap between rich and poor. 
+- In Africa, a substantial share of capital is owned by foreigners. The income of Africans is on average 5% less than the continent’s output. With a capital income share of 30%, this means that nearly 20% of African capital is owned by foreigners.
+
+---
+
+### What Forces Favor Convergence?
+
+- The theory has two major problems: 
+    `1`. 'Factor Price Equalization' is not sufficient for global convergence of per capita incomes.
+    `2`. A hypothetical convergence of output per capita does not imply convergence of income per capita. 
+- Wealthy countries may continue to own large shares of the poor countries' capital stocks indefinitely, so that the per capita national income of the wealthy countries remain permanently above poorer countries
+- The historical record suggests capital mobility has not been central to convergence. None of the Asian 'tigers' has benefited from large foreign investments. These countries self-financed investments in physical capital and human capital. 
 
 ---
 

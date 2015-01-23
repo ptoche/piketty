@@ -1,6 +1,5 @@
 ---
-title       : Piketty's Capital
-subtitle    : Selected figures and tables
+title       : Notes on Thomas Piketty's Capital
 author      : Patrick Toche
 framework   : bootstrap  # {minimal, bootstrap, io2012, html5slides, shower, dzslides, ...}
 hitheme     : solarized_light  # {tomorrow, solarized_light...}
@@ -8,9 +7,9 @@ mode        : selfcontained  # {selfcontained, standalone, draft}
 widgets     : []   # {mathjax, quiz, bootstrap}
 ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]}
 ---
-[https://github.com/ptoche/piketty](http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/index.html)
+### GitHub Repo: [https://github.com/ptoche/piketty](https://github.com/ptoche/piketty)
 
-### Notes on Thomas Piketty's Capital
+### GitHub Pages: [http://ptoche.github.io/](http://ptoche.github.io/)
 
 
 
@@ -37,19 +36,21 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 12. [Chapter 11 : Merit and Inheritance in the Long Run](lectures/Chapter 11/index.html)
 13. [Chapter 12 : Global Inequality of Wealth in the Twenty-First Century](lectures/Chapter 12/index.html)
 14. [Chapter 13 : A Social State for the Twenty-First Century](lectures/Chapter 13/index.html)
+15. [Extra : Introduction](lectures/Extra/index.html)
 
 ---
 
 ### Reproduce
-This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from the `.Rmd` source, configure the `site.yml` and run `slidify('index.Rmd')`. 
 
-You will need the `slidify`, `slidifyLibraries` and ``rCharts`, packages.
+This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from source, configure the `site.yml` and run `slidify('index.Rmd')`. 
+
+You will need the `slidify`, `slidifyLibraries` and `rCharts`, packages.
 
     install.packages("devtools")  
     devtools::install_github(c("slidify", "slidifyLibraries", "rCharts"), 
         "ramnathv", ref = "dev")  
 
-In addition, I often use the following packages: ``ggplot2``, ``scales``, ``reshape2``, ``plyr```(author: Hadley Wickham). I am also using packages ``grid```and ``png```to insert images and control their size. Make sure these packages are installed in your ``R```system, e.g. run this for each package:
+In addition, I often use the following packages: `ggplot2`, `scales`, `reshape2`, `plyr` (author: Hadley Wickham). I am also using packages `grid` and `png` to insert images and control their size. Make sure these packages are installed in your `R` system, e.g. run this for each package:
 
     install.packages("ggplot2")
 
@@ -65,14 +66,16 @@ The `lectures` folder holds the lecture slides, one subfolder per lecture. The s
 ```
 assets      -> custom img/js/css/layout assets
 data        -> Piketty's data used for the tables and figures
-figures     -> png figures built with ``ggplot2```library
+figures     -> png figures built with ggplot2 library
+images      -> other images used to illustrate the slides
 lectures    -> folder containing lectures
   Chapter 01
   Chapter 02
   Chapter 03
 libraries   -> frameworks, highlighters and widgets
-shared      -> custom setup across all lectures, e.g. ``knitr```chunks
+shared      -> custom setup across all lectures, e.g. knitr chunks
 index.Rmd   -> Rmd source for home page
 site.yml    -> Site related configuration
+slidify.R   -> Several useful commands to compile the files
 ```
 
