@@ -28,12 +28,12 @@ slidify('figures.Rmd')
 # Make individual chapter slides with slidify()
 # Set directory
 if(.Platform$OS.type == "windows"){
-  setwd("c:/slidify/piketty/lectures/Chapter 01")
+  setwd("c:/slidify/piketty/lectures/Chapter 02")
 } else { 
-  setwd("~/slidify/piketty/lectures/Chapter 01") 
+  setwd("~/slidify/piketty/lectures/Chapter 02") 
 }
 library(slidify)
-slidify('index.Rmd')
+slidify('index2.Rmd')
 
 
 

@@ -232,7 +232,7 @@ national income and if the rate of return on capital is 5% per year, then the ca
 ---
 
 <figure class = "centered">  
-<img src = "../../tables/Table_1_1.png" alt = "The Distribution of World GDP in 2012" style="width: 900px; height: auto; margin: 0em; padding: 0em;">
+<img src = "../../tables/Table_1_1.png" alt = "The Distribution of World GDP in 2012" style="max-width: 900px; height: auto; margin: 0em; padding: 0em;">
 </figure> 
 
 ---

@@ -36,15 +36,42 @@ strong {
   font-weight: bold;
 }
 
+/* Control font used for general slide title */
+.title-slide hgroup > h1 {
+    font-size: 1.8em;
+    line-height: 1.6;
+    letter-spacing: -3px;
+    font-weight: 600;
+    color: #535E43;
+}
 
-/* Control font used for slide titles */
+/* Control font used for general slide subtitle */
+.title-slide hgroup > h2 {
+    font-size: 1.2em;
+    line-height: 1;
+    letter-spacing: -2px;
+    font-weight: 700;
+    color: #535E43;
+}
+
+/* Control font used for general slide author */
+.title-slide hgroup p {
+    font-size: 1em;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: #797979;
+}
+
+/* Control font used for frame titles */
 h3 {
     font-size: 1.3em;
     font-weight: 600;
+    line-height: 1.8;
     color: #333;
 }
 
-/* Raise slide title */
+/* Raise frame title */
 hgroup {
     margin-top: -.8em;
 }

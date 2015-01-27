@@ -62,6 +62,7 @@ source('../../shared/shared.R')
 </figure> 
 
 --- 
+
 ### Adam Smith and Poverty
 
 - In 1776, Adam Smith published his study on the *Wealth of Nations*.
