@@ -177,7 +177,7 @@ source('../../shared/shared.R')
 $$
 \beta = K/Y
 $$
-- In the developed countries today, the capital/income ratio generally varies between 5 and 6. That's 5 and 6 years. Or 500% and 600%.
+- In the developed countries today, the capital/income ratio generally varies between 5 and 6. That's 5 and 6 years &mdash; or 500% and 600%.
 - The capital stock consists of two roughly equal shares: residential capital and professional capital used by firms and government. 
 
 ---
@@ -200,8 +200,7 @@ $$
 $$
 where $\alpha$ is the share of income from capital in national income and $r$ the rate of return on capital. 
 - For example, if $\beta = 600%$ and $r = 5%$, then $\alpha = r \times \beta = 30%$.
-- If national wealth represents the equivalent of 6 years of
-national income and if the rate of return on capital is 5% per year, then the capital income share *must be* 30%.
+- If national wealth represents the equivalent of 6 years of national income and if the rate of return on capital is 5% per year, then the capital income share *must be* 30%.
 - The formula is a pure accounting identity.
 
 ---

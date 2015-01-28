@@ -169,6 +169,13 @@ iframe {
     vertical-align: top;
 }
 
+/* Set inserted iframe axis text size */
+/* Still searching, not working */
+/* Tried svg text, g.nv-y.nv-axis, g.nv-axislabel, g.nvd3, .rChart .nvd3 , etc. */
+.nvd3 .nv-axis .nv-axisMaxMin text {
+  font-size: 50px !important;
+}
+
 /* Create a footer/footnote element */
 .footnote {
     position: absolute;
