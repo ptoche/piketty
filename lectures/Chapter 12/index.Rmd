@@ -36,6 +36,18 @@ source('../../shared/shared.R')
 
 ---
 
+<figure class = "centered">  
+<img src = "../../tables/Table_12_1.png" alt = "The growth rate of top global wealth, 1987-2013" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
+---
+
+<figure class = "centered">  
+<img src = "../../tables/Table_12_2.png" alt = "The return on the capital endowments of US universities, 1980-2010" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
+---
+
 ### The world's billionaires according to Forbes
 <figure class = "captioned">  
 <img src = "../../figures/Figure_12_1.png" alt = "Figure 12.1. The world's billionaires according to Forbes, 1987-2013.">  

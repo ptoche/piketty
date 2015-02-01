@@ -36,6 +36,13 @@ source('../../shared/shared.R')
 
 ---
 
+<figure class = "centered">  
+<img src = "../../tables/Table_11_1.png" alt = "The age-wealth profile in France, 1872-2010: Average wealth of each group (% of average wealth of 50 to 59 year-olds)" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
+
+---
+
 ### The annual inheritance flow as a fraction of national income
 <figure class = "captioned">  
 <img src = "../../figures/Figure_11_1.png" alt = "Figure 11.1. The annual inheritance flow as a fraction of national income, France, 1820-2010.">  

@@ -188,7 +188,7 @@ $$
 
 ### The First Fundamental Law of Capitalism 
 
-- Piketty's 'first fundamental law of capitalism' links the three most important concepts for understanding the capitalist system; the capital/income ratio, the share of capital in income, and the rate of return on capital:
+- Piketty's 'first fundamental law of capitalism' links the three most important concepts for understanding the capitalist system; the capital/income ratio, the rate of return on capital, and the share of capital in income:
 $$
 \alpha = r \times \beta
 $$
@@ -225,7 +225,7 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 ---
 
 <figure class = "centered">  
-<img src = "../../tables/Table_1_1.png" alt = "The Distribution of World GDP in 2012" style="max-width: 900px; height: auto; margin: 0em; padding: 0em;">
+<img src = "../../tables/Table_1_1.png" alt = "The Distribution of World GDP in 2012" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
 </figure> 
 
 ---

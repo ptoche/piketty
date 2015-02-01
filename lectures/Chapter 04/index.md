@@ -9,26 +9,272 @@ ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcha
 github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "04"
----
+--- {class: cover-slide}
 
 
-
-### UNDER CONSTRUCTION
-
-- These slides are under construction.
-- Some of the figures are completed.
-- Some of the figures require further work to fix bugs.
-- Please check back later.
 
 ---
 
 ### Introduction  
 
+- This set of slides surveys selected topics from *Capital in the Twenty-First Century*, a book written by economist Thomas Piketty, published in English in 2014 to great acclaim.
+- All source files for this course are available for download by anyone without restrictions at https://github.com/ptoche/piketty
+- The full course is expected to be completed by April 2015.
 - Chapter 3 reviews the metamorphoses of capital in Britain and France since the eighteenth century.  
-
 - Chapter 4 extends this review to Germany, the United States and Canada, and addresses the question of slavery.
 
 ---
+
+### Germany
+
+<figure class = "centered">  
+<img src = "../../images/Germany.jpg" alt = "Political Map of Germany in 2010">
+<figcaption class = 'figcaption'>Political Map of Germany Today.
+</figcaption>  
+</figure> 
+
+---
+
+### National Capital in Germany
+
+- Figure 4.1 shows national capital by components. Historical data for Germany only goes back to 1870. 
+- The overall evolution is similar to the United Kingdom and France: `1`. residential and commercial real estate, industrial and financial capital have replaced farmland; `2`. the capital/income ratio has recovered from the shocks of 1914–1945.
+- In 1914, net foreign assets were 50% of national income in Germany, 100% in France, nearly 200% in the UK. Germany had no colonial empire. 
+- In 2010, net foreign asset position are 50% of national income, most of which accumulated since 2000. The UK and France are close to zero. 
+
+---
+
+### Public Debt in Germany
+
+- Figure 4.2 shows public debt and public assets in Germany.
+- Public debt reached 100% of GDP in 1918–1920 and 150% in 1943–1944.
+- Inflation averaged 17 percent between 1930 and 1950 (prices were multiplied by 300), greatly reducing the real value of the public debt. 
+- The hyperinflation of the 1920s damaged the economy and destabilized society. Germany today is the most inflation-averse country.
+
+---
+
+### German Hyperinflation
+
+<figure class = "centered">  
+<img src = "../../images/Hyperinflation_Germany_Worthless_Money.jpg" alt = "German Hyperinflation - Pyramid.">
+<figcaption class = 'figcaption'>German Hyperinflation of 1921-1923.
+</figcaption>  
+</figure> 
+
+---
+
+### Public Assets in Germany
+
+- During 1950–1980, the state took large positions in the banking and industrial sectors. The state owned about 30% of national capital. 
+- During 1980-2000, the trend was reversed. Today substantial holdings remain. 
+- The state of Lower Saxony owns more than 15% of Volkswagen.
+- Net public wealth is zero in 2010. Similar case as France.
+
+---
+
+### Private Capital in Germany
+
+- Figure 4.3 shows private and public capital.
+- Private capital was exceptionally low in 1950 but exceeds 400% of national income today. This is noticeably lower than the UK, France, and even Italy and Spain.
+- German saving being high, there is an apparent paradox, explained by:
+- `1`. low real estate prices compared to other European countries; `2`. low stock market valuation of German firms. 
+- Lower prices can be explained by `1`. German unification in 1990; `2`. greater reliance on bank finance instead of the stock market; `3`. stagnation after 2000 while the UK, France and the periphery euro-zone countries (Spain, Ireland, Greece) were booming.
+
+---
+
+### Private Capital in Germany
+
+- `2`. Stock market valuation of German firms:
+- If the book value rather than the stock market value is used to estimate private wealth, German private wealth accounts for 600% of national income, the same as the UK and France.
+- The book value is obtained by subtracting a firm's debt from the cumulative value of its investments. 
+- The German 'stakeholder' model implies a lower market valuation but not a lower social valuation. 
+
+---
+
+### Shocks to Capital in the 20th Century
+
+- Figures 4.4 and 4.5 show private, public, and national capital for 3 countries. The changes observed in the United Kingdom, France, and Germany (2/3 of national income of Western Europe and half of Europe) are typical. 
+- The capital/income ratio in Italy, Spain, Belgium, the Netherlands, and Austria has inreased since 1970 more sharply than the UK and France. 
+- The fall in the capital/income ratio during 1914-1945 is explained partly by the physical destruction of capital (buildings, factories, infrastructure) during the 2 world wars. Capital worth about 150% of national income was destroyed in Germany, 100% in France, 10% in the UK.
+
+---
+
+### Shocks to Capital in the 20th Century
+
+- During 1913-1950, capital fell by 400% of national income. 
+- The collapse of foreign portfolios and the very low savings rate explain 3/4 of the decline. The UK losses on international portfolio were greater than French or German losses.
+- The decline of foreign capital was caused by expropriations due to revolution and decolonization (default on Russian debt in 1917, the nationalization of the Suez Canal in 1956), bankruptcies during the great depression, and very low savings rate.  
+- The economic shocks were more destructive to capital than the physical destruction of the wars. 
+
+---
+
+### Shocks to Capital in the 20th Century
+
+- Large public deficits absorbed private saving. 
+- Price effects (low real estate and stock prices) account for 1/4 to 1/3 of the fall between 1913 and 1950, while Volume effects (low national savings rate, loss of foreign assets, destructions) account for 2/3 to 3/4.
+- Real estate prices were low, owing to rent control policies dating to decades of high inflation.
+- Price effects (high real estate and stock prices) explain a large part of the rise since the 1970s. 
+
+---
+
+<figure class = "centered">  
+<img src = "../../images/Alexis_de_Tocqueville_by_Théodore Chassériau_1850.jpg" alt = "Alexis de Tocqueville (1805-1859) in 1850.">
+<figcaption class = 'figcaption'>Alexis de Tocqueville (1805-1859), author of "Democracy in America", portrait by Théodore Chassériau, 1850. In 1840, Tocqueville noted of the United States, "the number of large fortunes is quite small, and capital is still scarce."
+</figcaption>  
+</figure> 
+
+---
+
+### Capital in America
+
+- Figure 4.6 shows US national capital and its components.
+- America was the New World. On independence day, national capital was 300% of national income, including about 150% for farmland.
+- The capital/income ratio was much lower than in the UK or France, where it was about 700%, including about 400% of farmland.
+- There was so much land that its market value was very low. Accumulated wealth had less importance in the New World.
+- The gap with old Europe shrunk by half in one century.
+- The capital/income ratio remained stable at 400% to 500% of national income during 1910-2010, while it dropped in Europe. 
+
+---
+
+### Public Wealth in the United States
+
+- Figure 4.7 and 4.8 show public wealth, public debt, private wealth.
+- After World War II, real estate and stock prices stood at historic lows. 
+- Inflation and growth reduced public debt to a modest level in the 1950s and 1960s.
+- Private wealth fell from 500% of national income in 1930 to 300% in 1970.
+- The capital/income ratio has been more stable than in Europe.
+
+---
+
+### Foreign Capital in the United States
+
+- Foreign capital has always been limited &mdash; less than -10% between 1770 and 1920. The US never became a colonial power.
+- In 1914, capital was 500% of national income, including net foreign assets of only 10%. Thus, 98% domestically-owned and 2% foreign-owned.
+- Europeans held less than 5% of their foreign asset portfolios in the US.
+- After 1914, the US financed the European wars and became a creditor, with net foreign assets at 10% of national income. US investments in Europe remained small compared to the investments of the European colonial powers around the globe a few decades earlier. 
+- After the 1980s, persistent trade deficits resulted in negative net foreign assets. As US foreign investments earned a greater yield than foreign-held debt, the deficits were contained. Domestic capital is 450%, net foreign assets 20%, net national wealth 430%, less than 5% owned by foreigners.
+
+---
+
+### Canada
+
+<figure class = "centered">  
+<img src = "../../images/Canada.png" alt = "Political Map of Canada in 2010">
+<figcaption class = 'figcaption'>Political Map of Canada Today.
+</figcaption>  
+</figure> 
+
+---
+
+### Foreign Capital in Canada
+
+- Figure 4.9 shows capital and its components.
+- In 1910, domestic capital was 530% of national income, including net foreign assets of 120%, so net national wealth was 410%. a large share of domestic capital was owned by foreign investors, mainly British, especially in the natural resources sector (copper, zinc, and aluminum mines as well as hydrocarbons).
+- Today domestic capital is 410% of national income, including net foreign assets of 10%, making 98% of capital owned by Canadians and less than 2% by foreign investors. As Europeans sold their foreign assets, foreign ownership fell. 
+- Political factors explain the different history of the United States and Canada. Canada became independent in a series of peaceful steps in 1867, 1919, 1931, 1948 (de facto independence after that date), and 1982. 
+
+---
+
+### Cotton Fields
+
+<figure class = "centered">  
+<img src = "../../images/American_Slaves.jpg" alt = "American slaves in a cotton field.">
+<figcaption class = 'figcaption'>American slaves in a cotton field.
+</figcaption>  
+</figure> 
+
+---
+
+### Slavery
+
+- 1542: Spain attempts to abolish slavery in its colonies, more success in 1811. 1590: Japan abolishes slavery. 1723: Russia, but it retains serfdom. 1761: Portugal. 1794: France, but Napoleon restores it in the colonies in 1802. 1807: British Empire. 1818: various Treaties abolish slavery across Europe. 1819: Canada. 1820: Mexico. 1827: New York State. 1830: Texas (Mexico). 1865: US. 
+- George Washington, first president of the United States (1789-1797) did not legislate against slavery, but freed his slaves in his final will (1799). 
+- Thomas Jefferson, third president, banned importation of new slaves after 1808. He owned hundreds of them until his death.
+- Abraham Lincoln, 16th president, led the country into a civil war  over abolition against a Southern coalition of secessionist states (1861-1865).
+
+---
+
+### The American Civil War
+
+<figure class = "centered">  
+<img src = "../../images/Battle_of_Spottsylvania_by_Thure_de_Thulstrup.jpg" alt = "Battle of Spottsylvania by Thure de Thulstrup.">
+<figcaption class = 'figcaption'>Battle of Spottsylvania, 1864, by Thure de Thulstrup. More than 600,000 men lost their lives in the American civil war, more than the two world wars combined. 
+</figcaption>  
+</figure> 
+
+---
+
+### The American Civil War
+
+<figure class = "centered">  
+<img src = "../../images/United_States_Civil_War_Map.jpg" alt = "Map of the American Civil War, 1861-1865.">
+<figcaption class = 'figcaption'>Map of the American Civil War, 1861-1865, with confederate states in green and the union and territories in pale colors. 
+</figcaption>  
+</figure> 
+
+---
+
+### Slavery in the US
+
+- The slave economy was growing rapidly when the Civil War broke out in 1861, leading to the abolition of slavery in 1865.
+- The number of slaves rose from 400,000 in 1770 to 1 million in 1800, to 4 million in 1860. In 1800, the US had 1 million slaves, with total population 5 million. In the South, slaves were 40% of a population of 2.5 million.
+- By 1860, the proportion of slaves in the overall population was 15% (about 4 million slaves, for a population of 30 million), owing to rapid population growth in the North and West. In the South, the proportion was still 40%, for a population of 10 million.
+- The North was a relatively egalitarian society. In the South, one half of the population owned the other half. Southern blacks were deprived of civil rights until the 1960s. 
+
+---
+
+### Civil Rights 
+
+<figure class = "centered">  
+<img src = "../../images/Ida_Wells_by_Mary_Garrity_1893.jpg" alt = "Ida Wells (1862-1931) in 1893.">
+<figcaption class = 'figcaption'>Ida Bell Wells (1862-1931) in 1893. Born a slave, she was a journalist, newspaper editor, suffragist, sociologist, a leader of the civil rights movement.
+</figcaption>  
+</figure> 
+
+---
+
+### Civil Rights 
+
+<figure class = "centered">  
+<img src = "../../images/Rosa_Parks_Booking_1955.jpg" alt = "Rosa Parks (1913-2005) Booking photograph 1955.">
+<figcaption class = 'figcaption'>In 1955, Rosa Parks (1913-2005) refused to give her bus seat in the 'colored' section to a white passenger. Her act symbolized the civil rights movement.
+</figcaption>  
+</figure> 
+
+---
+
+### Slavery in the US
+
+- Figures 4.10 and 4.11 shows capital and its components, including slaves.
+- In 1800, the total market value of slaves was 150% of US national income, about the same value as farmland. Total US wealth, including slaves, remained stable at 450%. 
+- In the South, slaves were nearly 300% of national income, with farmland over 100%. Southern slave owners had more wealth than the European landlords, with much of it from owning the laborers.
+- The total value of southern capital exceeded 600% of southern income, similar to the British and French empires. 
+- In the North, slaves were few, total wealth was 300% of northern income, half as much as in the South.
+
+--- 
+
+### Slave Capital and Human Capital
+
+- In economies where slaves represent a large share of the population, their market value can be very high. Imagine a society where all workers are slaves. Suppose labor income is 60% of national income, capital income 40%, and the return on non-human capital is 5% a year.
+- From the first fundamental law of capitalism, the value of national capital (excluding slaves) is 800% of national income:
+$$
+\beta = \alpha / r = 0.4 / 0.05 = 8
+$$
+- We can apply an analogous law to slave capital: 
+$$
+(1-\alpha) / r = 0.6 / 0.05 = 12
+$$
+The market value of slaves is equal to 1,200% of national income.
+- Adding the value of slaves to the value of capital yields 2,000%.
+
+--- 
+
+### Slave Capital and Human Capital
+
+- In the US during 1770–1810, slave capital was 150% of national income (not 1,200%) &mdash; the proportion of slaves in the population was 20% (not 100%); the average productivity of slaves was below free labor; and the rate of return on slave capital was generally closer to 7 or 8 percent, or even higher, than it was to 5 percent, leading to a lower capitalization.
+- In 1860, the average price of a male slave of prime working age was roughly \\$2,000, while the average wage of a free farm laborer was \\$200 &mdash; a slave accounting for 10 to 12 years of a free worker's wages. 
+
+<!---
 
 ### Capital in Germany
 
@@ -40,6 +286,8 @@ lecnum      : "04"
 Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
+-->
+
 ---
 
 ### Capital in Germany
@@ -50,7 +298,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Public wealth in Germany
 
@@ -60,6 +308,8 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -71,7 +321,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Private and public capital in Germany
 
@@ -81,6 +331,8 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -103,17 +355,18 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
----
+<!---
 
 ### Private and public capital in Europe
-
 
 <iframe src = 'figures/Figure_4_4.html' alt = "Figure 4.4. Private and public capital in Europe, 1870-2010.">
 </iframe><icaption class = 'icaption'>Figure 4.4. The fluctuations of national capital in Europe in the long run are mostly due to the fluctuations of private capital.</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+-->
+
+<!---
 
 ### National capital in Europe
 
@@ -123,6 +376,8 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -134,7 +389,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Capital in the United States
 
@@ -144,6 +399,8 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -155,7 +412,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Public wealth in the United States
 
@@ -165,6 +422,8 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -176,7 +435,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Private and public capital in the United States
 
@@ -186,6 +445,8 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -197,7 +458,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Capital in Canada
 
@@ -207,6 +468,8 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -218,7 +481,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Capital and slavery in the United States
 
@@ -228,6 +491,8 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -239,7 +504,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Capital around 1770-1810: Old and New World.
 
@@ -250,6 +515,8 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
+-->
+
 ---
 
 ### Capital around 1770-1810: Old and New World.
@@ -259,3 +526,5 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 </iframe><icaption class = 'icaption'>Figure 4.11. The combined value of agricultural land and slaves in the Southern United States surpassed four years of national income around 1770-1810.</icaption> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
+
+

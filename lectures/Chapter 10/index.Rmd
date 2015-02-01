@@ -36,6 +36,12 @@ source('../../shared/shared.R')
 
 ---
 
+<figure class = "centered">  
+<img src = "../../tables/Table_10_1.png" alt = "The composition of Parisian portfolios, 1872-1912" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
+---
+
 ### Wealth inequality in France
 <figure class = "captioned">  
 <img src = "../../figures/Figure_10_1.png" alt = "Figure 10.1. Wealth inequality in France, 1810-2010.">  

@@ -1,5 +1,5 @@
 ---
-title       : Chapter 6, The Capital-Labor Split in the Twenty-First Century
+title       : Chapter 6, The Capital-Labor Split in the 21st Century
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
 framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}

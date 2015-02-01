@@ -37,7 +37,7 @@ lecnum      : "02"
 ---
 
 <figure class = "centered">  
-<img src = "../../tables/Table_2_1.png" alt = "World Growth Since the Industrial Revolution (average annual growth rate)" style="max-width: 900px; height: auto; margin: 0em; padding: 0em;">
+<img src = "../../tables/Table_2_1.png" alt = "World Growth Since the Industrial Revolution (average annual growth rate)" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
 </figure> 
 
 ---
@@ -54,7 +54,7 @@ lecnum      : "02"
 ---
 
 <figure class = "centered">  
-<img src = "../../tables/Table_2_2.png" alt = "The Law of Cumulated Growth" style="max-width: 900px; height: auto; margin: 0em; padding: 0em;">
+<img src = "../../tables/Table_2_2.png" alt = "The Law of Cumulated Growth" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
 </figure> 
 
 ---
@@ -70,7 +70,7 @@ lecnum      : "02"
 ---
 
 <figure class = "centered">  
-<img src = "../../tables/Table_2_3.png" alt = "Demographic Growth Since the Industrial Revolution (average annual growth rate)" style="max-width: 900px; height: auto; margin: 0em; padding: 0em;">
+<img src = "../../tables/Table_2_3.png" alt = "Demographic Growth Since the Industrial Revolution (average annual growth rate)" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
 </figure> 
 
 ---
@@ -162,6 +162,12 @@ lecnum      : "02"
 
 ---
 
+<figure class = "centered">  
+<img src = "../../tables/Table_2_4.png" alt = "Employment by sector in France and the United States, 1800-2012 (% of total employment)" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
+---
+
 ### Purchasing Power
     
 - There is a great deal of diversity within each sector. 
@@ -203,7 +209,7 @@ lecnum      : "02"
 ---
 
 <figure class = "centered">  
-<img src = "../../tables/Table_2_5.png" alt = "Per Capita Output Growth Since the Industrial Revolution (average annual growth rate)" style="max-width: 900px; height: auto; margin: 0em; padding: 0em;">
+<img src = "../../tables/Table_2_5.png" alt = "Per Capita Output Growth Since the Industrial Revolution (average annual growth rate)" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
 </figure> 
 
 ---

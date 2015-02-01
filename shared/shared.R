@@ -86,3 +86,23 @@ shadePalette <- c("blue", "red", "green")  # light colors for shading areas
     # opts_chunk$set(fig.path = 'figures/bw/') # save in sub-directory
 
 
+# Define common styles for nPlot charts
+# .nv-point controls linechart data point aspects
+# .nv-axislabel controls the label font
+# .nv-x .nv-y control each axis separately
+# svg text controls the general chart font
+afterScript1 <- '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+  .nv-axislabel {
+    font-size: 1em;
+  }
+  svg text {
+    font-size: 1em;
+  }
+</style>'
+
+

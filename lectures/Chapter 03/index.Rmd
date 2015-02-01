@@ -185,6 +185,12 @@ There are 2 main causes behind this structural transformation:
 - This reflects the expansion of the state, in particular in the areas of health, education, transportation, and communication.
 - Periods of privatization and nationalization have alternated. Reagan and Thatcher initiated a wave of privatization in the 1980s. In the UK: British Petroleum, British Aerospace, British Gas, British Steel, British Telecom, Sealink ferries, Rolls-Royce, British Rail. France, Japan, and of course the former Soviet Union also privatized on a grand scale.
 
+---
+
+<figure class = "centered">  
+<img src = "../../tables/Table_3_1.png" alt = "Public wealth and private wealth in France in 2012" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
 
 <!--- 
 
@@ -297,9 +303,14 @@ df_3_3$value <- round(df_3_3$value, 3)
 n <- nPlot(data = df_3_3, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
 n$chart(forceY = c(0, 2.4))
 n$yAxis(axisLabel = 'Public assets and debt (% national income)')
-n$chart(margin = list(left = 80)) 
+n$chart(margin = list(left = 80, right = 30)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = NULL)
+n$xAxis(showMaxMin = FALSE)  # MaxMin interefere with spacing
+n$xAxis(tickValues = "#! function (x) {    
+    tickvalues = [1700, 1720, 1740, 1760, 1780, 1800, 1820, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000];
+    return tickvalues;
+} !#")
 n$chart(useInteractiveGuideline = TRUE)
 n$chart(color = colorPalette)
 n$addParams(height = 450, width = 900)
@@ -345,6 +356,11 @@ n$yAxis(axisLabel = 'Public assets and debt (% national income)')
 n$chart(margin = list(left = 80))
 n$yAxis(tickFormat = "#! function(y) {return Math.round(y*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = NULL)
+n$xAxis(showMaxMin = FALSE)  # MaxMin interefere with spacing
+n$xAxis(tickValues = "#! function (x) {    
+    tickvalues = [1700, 1720, 1740, 1760, 1780, 1800, 1820, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000];
+    return tickvalues;
+} !#")
 n$chart(useInteractiveGuideline = TRUE)
 n$chart(color = colorPalette)
 n$addParams(height = 450, width = 900)
@@ -390,6 +406,11 @@ n$yAxis(axisLabel = 'National, private and public capital (% national income)')
 n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = NULL)
+n$xAxis(showMaxMin = FALSE)  # MaxMin interefere with spacing
+n$xAxis(tickValues = "#! function (x) {    
+    tickvalues = [1700, 1720, 1740, 1760, 1780, 1800, 1820, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000];
+    return tickvalues;
+} !#")
 n$chart(useInteractiveGuideline = TRUE)
 n$chart(color = colorPalette)
 n$addParams(height = 450, width = 900)
@@ -435,6 +456,11 @@ n$yAxis(axisLabel = 'National, private and public capital (% national income)')
 n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = NULL)
+n$xAxis(showMaxMin = FALSE)  # MaxMin interefere with spacing
+n$xAxis(tickValues = "#! function (x) {    
+    tickvalues = [1700, 1720, 1740, 1760, 1780, 1800, 1820, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000];
+    return tickvalues;
+} !#")
 n$chart(useInteractiveGuideline = TRUE)
 n$chart(color = colorPalette)
 n$addParams(height = 450, width = 900)

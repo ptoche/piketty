@@ -179,6 +179,12 @@ There are 2 main causes behind this structural transformation:
 - This reflects the expansion of the state, in particular in the areas of health, education, transportation, and communication.
 - Periods of privatization and nationalization have alternated. Reagan and Thatcher initiated a wave of privatization in the 1980s. In the UK: British Petroleum, British Aerospace, British Gas, British Steel, British Telecom, Sealink ferries, Rolls-Royce, British Rail. France, Japan, and of course the former Soviet Union also privatized on a grand scale.
 
+---
+
+<figure class = "centered">  
+<img src = "../../tables/Table_3_1.png" alt = "Public wealth and private wealth in France in 2012" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
 
 <!--- 
 
