@@ -423,7 +423,7 @@ n$save('figures/Figure_4_3.html', standalone = TRUE)
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Private and public capital in Europe
 
@@ -434,16 +434,19 @@ n$save('figures/Figure_4_3.html', standalone = TRUE)
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
-<!---
+-->
+
+---
 
 ### Private and public capital in Europe
+
 ```{r 'Figure_4_4_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
 load("../../data/df_4_4.Rda") 
 # round data for rChart tooltip display
 df_4_4$value <- round(df_4_4$value, 3)
-group <- interaction(df_4_4$variable,df_4_4$Category)
-n <- nPlot(data = df_4_4, value ~ Year, group = 'variable', type = 'lineChart') 
+df_4_4$interaction <- interaction(df_4_4$variable, df_4_4$Category, sep = " ")
+n <- nPlot(data = df_4_4, value ~ Year, group = 'interaction', type = 'lineChart') 
 n$chart(forceY = c(-2, 8))
 n$yAxis(axisLabel = 'Public and private capital (% national income)')
 n$chart(margin = list(left = 80))
@@ -457,15 +460,19 @@ n$xAxis(tickValues = "#! function (x) {
 n$chart(useInteractiveGuideline = TRUE)
 n$chart(color = colorPalette)
 n$addParams(height = 450, width = 900)
-n$setTemplate(afterScript = afterScript1)  # common chart styles
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
 n$save('figures/Figure_4_4.html', standalone = TRUE)
 ```
 <iframe src = 'figures/Figure_4_4.html' alt = "Figure 4.4. Private and public capital in Europe, 1870-2010.">
 </iframe><icaption class = 'icaption'>Figure 4.4. The fluctuations of national capital in Europe in the long run are mostly due to the fluctuations of private capital.</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
-
--->
 
 <!---
 

@@ -9,46 +9,37 @@ ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcha
 github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "06"
---- 
+--- {class: cover-slide}
 
 
-
-### UNDER CONSTRUCTION
-
-- These slides are under construction.
-- Some of the figures are completed.
-- Some of the figures require further work to fix bugs.
-- Please check back later.
 
 ---
 
 ### Introduction  
 
+- This set of slides surveys selected topics from *Capital in the Twenty-First Century*, a book written by economist Thomas Piketty, published in English in 2014 to great acclaim.
+- All source files for this course are available for download by anyone without restrictions at https://github.com/ptoche/piketty
+- The full course is expected to be completed by April 2015.
 - Chapter 5 analyzes the capital/income ratio.  
-
-- Chapter 6 analyzes the division of national income between labor and capital.  
-
-- The first fundamental law of capitalism:  
-$$
-\alpha = r \times \beta
-$$
-gives a correspondence between the capital/income ratio and the division of income between labor and capital.  
+- Chapter 6 analyzes the division of national income between labor income and capital income. 
 
 ---
 
 ### The First Fundamental Law of Capitalism
 
-- The first fundamental law of capitalism relates the capital/ income ratio and the division of income between labor and capital.  
+- The first fundamental law of capitalism:  
+$$
+\alpha = r \times \beta
+$$
+gives a correspondence between the capital/income ratio and the division of income between labor and capital.
 - For example, if the capital stock is equal to six years of national income ($\beta$ = 6), and if the average return on capital is 5 percent a year (r = 5%), then the share of income from capital $\alpha$ (as a percentage of national income) is 30 percent, and the share of income from labor is therefore 70 percent.  
-
-- The central question is: How is the rate of return on capital determined?  
-
+- **How is the rate of return on capital determined?**
 
 --- 
 
 ### Evolution of the Capital Income Share
 
-- The capital income share $\alpha$ has followed a U-shaped curve similar to that of the capital/income ratio $\beta$, although the depth of the U is less pronounced.  
+- The capital income share $\alpha$ has a U-shape similar to that of the capital/income ratio $\beta$, although the depth is less pronounced.  
 - Changes in the rate of return on capital $r$ have mitigated the evolution of the quantity of capital $\beta$:  
     - $r$ is higher in periods when $\beta$ is lower.  
     - $r$ is lower in periods when $\beta$ is higher.  
@@ -67,7 +58,7 @@ gives a correspondence between the capital/income ratio and the division of inco
 ### Average Rates of Return on Capital
 
 - The yield on the riskiest assets (including industrial capital in the form of partnerships in family firms and shares of stock in listed corporations) is often greater than 7–8 percent.  
-- The yield on less risky assets is about 4–5 percent for farmland in the 18th and 19th centuries and 3–4 percent for real estate in the early 21st century. 
+- The yield on less risky assets is about 4–5 percent for farmland in the 18th and 19th centuries and 3–4 percent for real estate today. 
 - These are pre-tax returns. 
 - In the 18th and 19th century, taxes were low. Today the average tax rate on income from capital is around 30 percent in rich countries. The pure rate of return is therefore higher than the actual rate.
 - These are real returns (net of inflation). 
@@ -76,13 +67,13 @@ gives a correspondence between the capital/income ratio and the division of inco
 
 ### Non-Wage Income
 
-- The income of nonwage workers may include capital income as it is sometimes difficult to distinguish the source.
-- In partnerships and sole proprietorships, the accounts of the business are sometimes mingled with the personal accounts of the firm head, who is often both the owner and operator. 
-- In rich countries today, around 10 percent of domestic production is due to nonwage workers in individually owned businesses, about the same proportion of nonwage workers in the active population.
+- The income of non-wage workers may include capital income as it is sometimes difficult to distinguish the source.
+- In partnerships and sole proprietorships, the head is often both owner and operator, which makes it difficult to distinguish personal and business accounts. 
+- In rich countries today, around 10% of domestic production is due to non-wage workers in individually owned businesses, about the same proportion of non-wage workers in the active population.
 - Because today the share of mixed income in national income is small, the uncertainty about capital's share of mixed income affects no more than 1–2 percent of national income.
 
 <!--
-- Nonwage workers are mostly found in small businesses (merchants, craftsmen, restaurant workers) and in the professions (doctors, lawyers).
+- non-wage workers are mostly found in small businesses (merchants, craftsmen, restaurant workers) and in the professions (doctors, lawyers).
 -->
 
 ---
@@ -91,64 +82,65 @@ gives a correspondence between the capital/income ratio and the division of inco
   
 
 - There has been no pronounced long-term trend either upward or downward.  
-- The pure return rose significantly above 6 percent following the massive destruction of property and numerous shocks to capital in the two world wars, but subsequently returned fairly rapidly to the lower levels observed in the past.   
+- The pure rate of return rose significantly above 6% following the massive destruction of property of 1914-1945, but has returned to the lower levels observed in the past.   
 
 ---
 
 ### The Marginal Productivity of Capital
 
 - The marginal productivity of capital is defined by the value of the additional production due to one additional unit of capital.
-- In a complex economy, the marginal productivity of capital may be difficult to determine for every possible use. 
-- The principle of 'no-arbitrage' suggests we can learn about all possible uses from some of the uses.
+- In a complex economy, the marginal productivity of capital may be difficult to determine for every possible use. The principle of 'no-arbitrage' suggests:
     - In a perfect capital market, each unit of capital is invested in the most productive way possible and earns the maximal marginal product feasible. 
     - A perfectly diversified investment portfolio earns the average return risk-free rate.
-- The marginal productivity of capital decreases as the stock of capital increases.
+- The marginal productivity of capital decreases as the stock of capital increases, the 'law of diminishing marginal products.'
 
 ---
 
 ### Too Much Capital Kills the Return on Capital
 
 - In an office where 10 workers share 10 computers, if a computer breaks down a worker stands idle. 
-- An office where 10 workers share 11 computers is more productive (at the margin), but also more costly to run (on the average). 
+- An office where 10 workers share 11 computers is more productive (at the margin), but also more costly to run (per unit of production). 
 - An office where 10 workers share 12 computers:  more productive but more costly. 
 - An office where 10 workers share 100 computers: maybe a little more productive (arguable), but certainly much more costly.
 - Saturation is reached at some point.
-- Well before that point is reached, accumulating more capital has become unprofitable.
+- Well before that point, the optimal level of capital is reached.
 
 ---
 
-### How Fast Does Capital Kill the Return on Capital?
+### How Fast Does Capital Reduce the Return on Capital?
 
-- It is obvious that the marginal productivity of capital decreases when the stock of capital increases.
-- The interesting question is: **how fast does marginal productivity decrease?**
-- How much the return on capital $r$ decreases when the capital/income ratio $\beta$ increases? 
+- The marginal productivity of capital falls when the stock of capital rises.
+- **How fast does marginal productivity fall?**
+- How does the return on capital $r$ fall as the capital/income ratio $\beta$ rises? 
 - Two cases are possible. 
-    1. $r$ falls **more** than proportionately as $\beta$ increases.
-    2. $r$ falls **less** than proportionately as $\beta$ increases.
+
+    `1`. $r$ falls **more** than proportionately as $\beta$ increases.
+    
+    `2`. $r$ falls **less** than proportionately as $\beta$ increases.
 
 ---
 
-### How Fast the Return on Capital Rise and Fall?
+### How Fast Does Capital Reduce the Return on Capital?
 
 $$
 \alpha = r \times \beta
 $$
 
-- If the return on capital $r$ falls more than proportionately when the capital/income ratio $\beta$ increases, then the share of capital income in national income $\alpha$  decreases as $\beta$ increases. 
-    - The decrease in $r$ more than compensates for the increase in $\beta$. 
-- if $r$ falls less than proportionately when $\beta$ increases, then $\alpha$ increases as $\beta$ increases.
-    - The decrease in $r$ moderates the increase in $\beta$. 
+- If the return on capital $r$ falls more than proportionately when the capital/income ratio $\beta$ rises, then the share of capital income in national income $\alpha$  falls as $\beta$ rises. 
+    - The fall in $r$ more than compensates for the rise in $\beta$. 
+- if $r$ falls less than proportionately when $\beta$ rises, then $\alpha$ rises as $\beta$ falls.
+    - The fall in $r$ moderates the rise in $\beta$. 
 - Based on historical evolutions observed in Britain and France, the second case seems more relevant over the long run.
 
 ---
 
 ### The Aggregate Production Function
 
-- In the aggregate, the elasticity of substitution between capital and labor measures how easy it is to substitute capital for labor, or labor for capital, to produce goods and services.
-- If the coefficients of the production function are completely fixed, then the elasticity of substitution is zero ($\sigma = 0$), e.g. one-for-one worker-machine pairing.
-- If the elasticity of substitution is infinite ($\sigma = \infty$), the marginal productivity of capital is totally independent of the available quantity of capital and labor (and likewise for the marginal productivity of labor).
-- If the elasticity is **less** than one ($\sigma < 1$), case 1 applies.
-- If the elasticity is **more** than one ($\sigma > 1$), case 2 applies.
+- In the aggregate, the elasticity of substitution between capital and labor measures how easy/difficult it is to substitute capital for labor, or labor for capital, to produce goods and services.
+- If the coefficients of the production function are fixed, then the elasticity of substitution is zero ($\sigma = 0$), e.g. one-for-one worker-machine pairing.
+- If the elasticity of substitution is infinite ($\sigma = \infty$), the marginal productivity of capital is independent of the available quantity of capital and labor &mdash; and likewise for the marginal productivity of labor.
+- If the elasticity is **less** than one ($\sigma < 1$), case `1` applies.
+- If the elasticity is **more** than one ($\sigma > 1$), case `2` applies.
 
 ---
 
@@ -156,33 +148,33 @@ $$
 
 - If the elasticity is **exactly** one ($\sigma = 1$), the capital income share and labor income share are always constant!
 - If $\alpha = 30\%$, capital income accounts for 30% of national income and labor income 70%, *for any capital/income ratio $\beta$*. 
-- If the savings rate $s$ and growth rate $g$ yield a long-term capital/income ratio $\beta = s /g$ corresponding to 6 years of national income, then the rate of return on capital $r$ will be 5%, and the capital income share will be 30%. 
-- If the long-term capital stock is 3 years of national income, then the return on capital $r$ is 10%. 
-- If the long-term capital stock is 10 years of national income, then the return on capital $r$ is 3%. 
+- If the savings rate $s$ and growth rate $g$ yield a long-term capital/income ratio $\beta = s /g$ corresponding to 600% of national income, then the rate of return on capital $r$ will be 5%, and the capital income share will be 30%. 
+- If the long-term capital stock is 300% of national income, then the return on capital $r$ is 10%. 
+- If the long-term capital stock is 1,000% of national income, then the return on capital $r$ is 3%. 
 
 ---
 
 ### The Capital-Labor Elasticity of Substitution
 
 - Recent data suggests an elasticity between 1.3 and 1.6 in modern economies.
-- Historical data suggests an elasticity less than one in traditional agricultural societies.
+- Historical data suggests an elasticity less than 1 in traditional agricultural societies.
 - Estimates are uncertain and imprecise. 
-- There is no reason why the technologies of the future should exhibit the same elasticity as those of the past.
+- There is no reason why technologies of the future should exhibit the same elasticity as that of the past.
 
 ---
 
 ### The Contradictions of Capitalism
 
 $$
-\alpha = r \times \beta, \, \, \, \beta = s / g
+\alpha = r \times \beta, \, \, \, \, \, \, \beta = s / g
 $$
 
-- If the savings rate $s$ is positive, only permanent growth of productivity and population $g$ can compensate for the permanent addition of new units of capital and prevent the capital/income ratio $\beta$ from increasing indefinetely.
-- If $\beta$ is very large, then the return on capital $r$ must get smaller and smaller, otherwise the capital income share $\alpha$ will ultimately devour all of national income.
-- Modern growth, based on the growth of productivity and the diffusion of knowledge, has made it possible to balance the process of capital accumulation. 
+- If the savings rate $s$ is positive, only permanent growth of productivity and population $g$ can compensate for the permanent addition of new units of capital and prevent the capital/income ratio $\beta$ from rising indefinetely.
+- If $\beta$ is very large, then the return on capital $r$ must get smaller and smaller, otherwise the capital income share $\alpha$ ultimately captures all of national income.
+- Modern growth, based on productivity and the diffusion of knowledge, has made it possible to balance the process of capital accumulation. 
 - And avoid the apocalypse predicted by Marx!
 
----
+<!---
 
 ### The capital-labor split in Britain
 <figure class = "captioned">  
@@ -191,6 +183,8 @@ $$
 </figure>  
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -202,7 +196,7 @@ $$
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----  
+<!---  
 
 ### The capital-labor split in France
 
@@ -212,6 +206,8 @@ $$
 </figure>  
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -224,7 +220,7 @@ $$
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The pure rate of return on capital in Britain
 
@@ -234,6 +230,8 @@ $$
 </figure>  
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -245,7 +243,7 @@ $$
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The pure rate of return on capital in France
 
@@ -255,6 +253,8 @@ $$
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -266,7 +266,7 @@ $$
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The capital share in rich countries
 
@@ -276,6 +276,8 @@ $$
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -287,7 +289,7 @@ $$
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The profit share in the value added of corporations in France
 
@@ -297,6 +299,8 @@ $$
 </figure>  
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -308,7 +312,7 @@ $$
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The share of housing rent in national income in France
 
@@ -318,6 +322,8 @@ $$
 </figure>  
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -329,7 +335,7 @@ $$
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The capital share in national income in France
 
@@ -339,6 +345,8 @@ $$
 </figure>  
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 

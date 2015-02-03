@@ -126,7 +126,7 @@ lecnum      : "01"
     - financial assets (bank accounts, mutual funds, bonds, stocks, insurance policies, pension funds, net of debt);
     - business fixed investments (non-residential real estate, plants, infrastructure, machinery, patents) used by firms and government agencies.
 - Human Capital (an individual's labor power, skills, training, and abilities) is ***not*** included. Slaves are included.
-- Immaterial Capital such as patents and other intellectual property are included.
+- Immaterial Capital (patents, other intellectual property) are included.
 
 ---
 
@@ -138,7 +138,7 @@ lecnum      : "01"
 
     **National Wealth = Private Wealth + Public Wealth**
     
-- Public wealth in most developed countries is negligible or even negative.
+- Public wealth in rich countries is negligible or negative.
 
 ---
 
@@ -188,21 +188,21 @@ $$
 
 ### The First Fundamental Law of Capitalism 
 
-- Piketty's 'first fundamental law of capitalism' links the three most important concepts for understanding the capitalist system; the capital/income ratio, the rate of return on capital, and the share of capital in income:
+- Piketty's 'first fundamental law of capitalism' links the three most important concepts for understanding the capitalist system &mdash; the capital/income ratio, the rate of return on capital, and the share of capital in income:
 $$
 \alpha = r \times \beta
 $$
 where $\alpha$ is the share of income from capital in national income and $r$ the rate of return on capital. 
-- For example, if $\beta = 600%$ and $r = 5%$, then $\alpha = r \times \beta = 30%$.
-- If national wealth represents the equivalent of 6 years of national income and if the rate of return on capital is 5% per year, then the capital income share *must be* 30%.
-- The formula is a pure accounting identity.
+- **The 'first law' is an accounting identity**.
+- For example, if $\beta = 600%$ and $r = 5%$, then $\alpha = r \times \beta = .05 \times 6 = 30%$.
+- If national wealth is 600% of national income and the rate of return on capital 5% per year, then the capital income share *must be* 30%.
 
 ---
 
 ### The First Fundamental Law of Capitalism 
 
 - In 2010 in wealthy countries capital income was about 30% of national income. With a capital/income ratio of about 600%, the rate of return on capital must have been around 5%.
-- A per capita national income of 30,000 euros per year breaks down as 21,000 euros per year income from labor (70%) and 9,000 euros income from capital (30%). 
+- Per capita national income is 30,000 euros per year, with 21,000 euros per year income from labor (70%) and 9,000 euros income from capital (30%). 
 - Each citizen owns an average of 180,000 euros of capital, and the 9,000 euros of income from capital thus corresponds to an average annual return on capital of 5%.
 
 ---

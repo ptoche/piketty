@@ -344,7 +344,7 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Private and public capital in Europe
 
@@ -355,16 +355,17 @@ Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
-<!---
+-->
+
+---
 
 ### Private and public capital in Europe
+
 
 <iframe src = 'figures/Figure_4_4.html' alt = "Figure 4.4. Private and public capital in Europe, 1870-2010.">
 </iframe><icaption class = 'icaption'>Figure 4.4. The fluctuations of national capital in Europe in the long run are mostly due to the fluctuations of private capital.</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
-
--->
 
 <!---
 
