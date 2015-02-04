@@ -31,7 +31,7 @@ source('../../shared/shared.R')
 
 ### Capital and Labor in the Long Run
 
-- The nature of capital has transformed over time, from land and real estate in the 18th century to industrial and financial capital in the 21st.
+- The nature of capital has changed over time, from land and real estate in the 18th century to industrial and financial capital in the 21st.
 - The rise of 'human capital' suggests that labor should claim a growing share of national income. But the data does not bear this out.
 - The rise of private capital in recent years is primarily due to a slowdown of population growth and productivity growth, together with political stability, property rights and tax policies that favor private capital.
 - One measure of the evolution of the capital-labor split (the relative income shares) is the capital/income ratio (the ratio of the total stock of capital to the annual flow of income).
@@ -44,11 +44,11 @@ source('../../shared/shared.R')
 - *National income* is closely related to *Gross Domestic Product* (GDP).
 - GDP measures the market value of all goods and services produced in a given year within the borders of a given country. 
 - This excludes last year's goods, non-market goods, wealth, natural resources, truth and beauty. The treatment of housing services is special.
-- There are two important differences between GDP and national income. 
+- Two differences between GDP and national income:
 
     `1`. Deduct the depreciation of the capital stock. 
     
-    `2`. Add income received from abroad and subtract income paid to non-residents. 
+    `2`. Add income earned abroad, subtract income paid to non-residents. 
 
 ---
 
@@ -69,7 +69,7 @@ source('../../shared/shared.R')
 
 `2`. Add income received from abroad and subtract income paid to foreigners. 
 
-- In the United States, France, Germany, Italy, Great Britain, China, Brazil, Japan, national income is within 1 or 2 percent of domestic product. 
+- In the US, UK, France, Germany, Italy, China, Brazil, Japan, national income is within 1 or 2 percent of domestic product. 
 - In all these countries, the inflow of profits, interest, dividends, rent, and so on is approximately balanced by a comparable outflow. 
 - In wealthy countries, net income from abroad is generally slightly positive.
 - Popular perception is very different &mdash; Europeans often incorrectly believe their capital is largely 'owned' by the Japanese, Chinese, Saudis...
@@ -110,7 +110,7 @@ source('../../shared/shared.R')
 
 ### Global Income Identities
 
-- A country's national income may be greater or smaller than its domestic product, depending on whether net income from abroad is positive or negative:
+- A country's national income may be greater or smaller than its domestic product, as net foreign income is positive or negative:
 
     **National Income = Domestic Output + Net Foreign Income**
 
@@ -129,7 +129,7 @@ source('../../shared/shared.R')
 -  Capital is defined as the sum of all non-human assets that can be owned and exchanged on some market, including:
     - all forms of real property (residential real estate);
     - financial assets (bank accounts, mutual funds, bonds, stocks, insurance policies, pension funds, net of debt);
-    - business fixed investments (non-residential real estate, plants, infrastructure, machinery, patents) used by firms and government agencies.
+    - business fixed investments (non-residential real estate, plants, infrastructure, machinery, patents) used by firms and government.
 - Human Capital (an individual's labor power, skills, training, and abilities) is ***not*** included. Slaves are included.
 - Immaterial Capital (patents, other intellectual property) are included.
 
@@ -144,15 +144,15 @@ source('../../shared/shared.R')
     **National Wealth = Private Wealth + Public Wealth**
     
 - Public wealth in rich countries is negligible or negative.
+- The boundary between public and private is not always clear.
 
 ---
 
 ### Capital and Wealth
 
-- Economists usually call capital the forms of wealth accumulated by human beings (buildings, machinery, infrastructure) and exclude land and natural resources. Land is usually a component of wealth but not of capital.
-- But it is difficult to distinguish the value of buildings from the value of the land on which they are built.
-- Economists usually exclude residential real estate from capital because they consider it to be 'unproductive' ('productive capital' includes industrial plants, office buildings, machinery).
-- Piketty includes both land and housing services, and uses the words 'capital' and 'wealth' interchangeably, as if they were perfectly synonymous. Get used to it.
+- Economists usually call capital the wealth accumulated by human beings (buildings, machinery, infrastructure) and exclude land and natural resources. But it is difficult to distinguish the value of buildings from the value of the land on which they are built. 
+- Economists usually exclude residential real estate from capital because they  focus on 'productive' capital' (industrial plants, office buildings, machinery). But only the value and rate of return matter to the capitalist. 
+- Piketty includes both land and housing services, and uses the words 'capital' and 'wealth' interchangeably. Get used to it.
 
 ---
 
@@ -163,7 +163,7 @@ source('../../shared/shared.R')
     **National Capital = Domestic Capital + Net Foreign Capital**
 
 - Economists usually use the term Net Foreign Assets (NFA).
-- In 1900 Britain and France both enjoyed significant net positive asset positions with the rest of the world. In 2010 many countries have approximately balanced net asset positions.
+- In 1900 the UK and France both enjoyed significant net positive asset positions with the rest of the world. In 2010 many countries have approximately balanced net asset positions.
 - At the global level, all net positions must add up to zero.
 
 ---
@@ -177,23 +177,23 @@ $$
 \beta = K/Y
 $$
 - In the developed countries today, the capital/income ratio generally varies between 5 and 6. That's 5 and 6 years &mdash; or 500% and 600%.
-- The capital stock consists of two roughly equal shares: residential capital and professional capital used by firms and government. 
+- The $\beta$ ratio is sensitive to short-run fluctuations in asset prices.
+- The $\beta$ ratio is independent of the units used by different currencies.
 
 ---
 
 ### The Capital/Income Ratio
 
-- In France and Britain, Germany and Italy, the United States and Japan, national income was roughly 30,000–35,000 euros per capita in 2010, while total private wealth (net of debt) was typically on the order of 150,000–200,000 euros per capita, or 5 to 6 times annual national income.
-- Each citizen of one of the wealthy countries owned approximately 90,000 euros in the form of housing and another 90,000 in stocks, bonds, savings, and other financial assets.
-- These average figures hide enormous disparities. 
-- Income disparities are partly the result of unequal pay for work and partly of much larger inequalities in income from capital.
-- Much of the population has very little accumulated wealth.
+- The capital stock consists of two roughly equal shares: residential capital and professional capital used by firms and government. 
+- In Germany, France, the UK, Italy, US, and Japan, national income was roughly 30,000–35,000 euros per capita in 2010, while total private wealth (net of debt) was typically on the order of 150,000–200,000 euros per capita, or 5 to 6 times annual national income.
+- Residents of wealthy countries owned approximately 90,000 euros in the form of housing and another 90,000 in stocks, bonds, savings, and other financial assets.
+- These average figures hide enormous disparities. Income disparities are caused by inequalities in the labor market and inequalities in wealth holdings. Much of the population has very little wealth.
 
 ---
 
 ### The First Fundamental Law of Capitalism 
 
-- Piketty's 'first fundamental law of capitalism' links the three most important concepts for understanding the capitalist system &mdash; the capital/income ratio, the rate of return on capital, and the share of capital in income:
+- Piketty's 'first fundamental law of capitalism' links 3 central concepts of the capitalist system &mdash; the capital/income ratio, the rate of return on capital, and the share of capital in income:
 $$
 \alpha = r \times \beta
 $$
@@ -209,6 +209,7 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 - In 2010 in wealthy countries capital income was about 30% of national income. With a capital/income ratio of about 600%, the rate of return on capital must have been around 5%.
 - Per capita national income is 30,000 euros per year, with 21,000 euros per year income from labor (70%) and 9,000 euros income from capital (30%). 
 - Each citizen owns an average of 180,000 euros of capital, and the 9,000 euros of income from capital thus corresponds to an average annual return on capital of 5%.
+- One way to think of the 'first law' is as a definition of the capital income share $\alpha$ for given values of $r$ and $\beta$.
 
 ---
 
@@ -252,7 +253,7 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 - The population of Europe is about 740 million. Germany is the most populated country with 80M.
 - About 540 million live in the European Union where per capita output is over 27,000 euros per year. 
 - The remaining 200 million people live in Russia and Ukraine, where per capita output is about 15,000 euros per year.
-- Three-quarters of citizens of the EU live in the five most populous countries, Germany, France, Great Britain, Italy, and Spain, with an average per capita GDP of 31,000 euros per year.
+- Three-quarters of citizens of the EU live in the five most populous countries, Germany, France, United Kingdom, Italy, and Spain, with an average per capita GDP of 31,000 euros per year.
 - The remaining 130 million live in what used to be Eastern Europe, with an average per capita output around 16,000 euros per year.
 
 ---
