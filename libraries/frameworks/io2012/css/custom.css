@@ -26,6 +26,14 @@ article p, article li, article li.build, section p, section li {
     color: #444;
 }
 
+/* Set style for list "bullet" */
+ul > li:before {
+    content: "."; /* something thicker than a dot would be nice */ 
+    margin-left: -1em;
+    position: absolute;
+    font-weight: 900;  /* 900 appears to be the max */
+}
+
 /* Set style for emphasis */
 em {
   font-style: italic

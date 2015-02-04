@@ -6,10 +6,8 @@ framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
 mode        : selfcontained  # {selfcontained, standalone, draft}
 widgets     : mathjax   # {mathjax, quiz, bootstrap}
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
-github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "00"
-
 --- {class: cover-slide}
 
 
@@ -56,6 +54,7 @@ lecnum      : "00"
 </figure> 
 
 --- 
+
 ### Adam Smith and Poverty
 
 - In 1776, Adam Smith published his study on the *Wealth of Nations*.

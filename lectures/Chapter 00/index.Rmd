@@ -6,10 +6,8 @@ framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
 mode        : selfcontained  # {selfcontained, standalone, draft}
 widgets     : mathjax   # {mathjax, quiz, bootstrap}
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
-github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "00"
-
 --- {class: cover-slide}
 
 ```{r 'preamble', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, comment = NA, cache = FALSE}

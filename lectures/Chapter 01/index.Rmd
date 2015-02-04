@@ -6,7 +6,6 @@ framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
 mode        : selfcontained  # {selfcontained, standalone, draft}
 widgets     : mathjax   # {mathjax, quiz, bootstrap}
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
-github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "01"
 --- {class: cover-slide}
@@ -200,7 +199,7 @@ $$
 $$
 where $\alpha$ is the share of income from capital in national income and $r$ the rate of return on capital. 
 - **The 'first law' is an accounting identity**.
-- For example, if $\beta = 600%$ and $r = 5%$, then $\alpha = r \times \beta = .05 \times 6 = 30%$.
+- For example, if $\beta = 600\%$ and $r = 5\%$, then $\alpha$ $=$ $r \times \beta$ $=$ $.05 \times 6$ $=$ $30\%$.
 - If national wealth is 600% of national income and the rate of return on capital 5% per year, then the capital income share *must be* 30%.
 
 ---
