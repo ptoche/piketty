@@ -1,10 +1,10 @@
 ---
-title       : Chapter 2, Growth; Illusions and Realities
+title       : Chapter 2 -- Growth, Illusions and Realities
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
-framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "02"
@@ -29,9 +29,18 @@ lecnum      : "02"
 - The 21st century may see a return to low rates of economic growth.  
 - Economic growth has always been relatively slow except in exceptional periods of catch-up or technological innovation. 
 - It is useful to decompose economic growth: 
-- **growth $=$ population growth $+$ per capita output growth**
+- **total growth $=$ population growth $+$ per capita output growth**
 - While population growth has declined dramatically, it is still an important engine of growth for the world as a whole. 
 - In 2013–2014, world economic growth is about 3.5%, thanks to catch-up growth in emerging countries and world population growth of about 1%. World output per capita grew at about 2%.
+
+---
+
+### Decomposing Growth
+
+- Decompose total growth as 'population growth plus a remainder.'
+- The 'remainder' includes knowledge acquired through education, training, learning-by-doing, social interactions, technological innovations, improved organization, both disembodied (blueprints, patents, incentives) and embodied (better machines, more machines). 
+- The decomposition could be used for exact predictions if population growth and 'the rest' were independent. In some cases 'birth' and 'death' decisions are independent of the rest: the one-child policy implemented in China in 1980 was a political decision that went against the private choices of many; perhaps so are the deaths caused by wars or epidemics.
+- But the 2 components often interact: knowledge brought about improvements in hygiene and medicine, which raised population growth; a reduction in the number of children raises resources available for nutrition and education. 
 
 ---
 
@@ -87,7 +96,7 @@ lecnum      : "02"
 ### The Demographic Transition
 
 - We are emerging from this period of demographic acceleration. 
-- Between 1970 and 1990, world population growth fell to 1.8%. Between 1990–2012, it fell further to 1.3%. 
+- Between 1970 and 1990, world population growth fell to 1.8%. Between 1990 and 2012, it fell further to 1.3%. 
 - The UN forecasts a fall in the world population growth rate to 0.4% by the 2030s; 0.1% by the 2070s. 
 - Population growth in the second half of the 21st century will be due entirely to Africa.
 - The world will return to the low-growth regime of the years before 1700. 
@@ -107,7 +116,7 @@ lecnum      : "02"
 ### The Demographic Transition
 
 - There are spectacular demographic turnarounds within each continent. 
-- France was the most populous country in Europe in the 18th century, but the demographic transition occurred early. The fall in the birth rate led to stagnation by the 19th century. More recently pro-natal policies caused a reversal: population in France may exceed Germany by 2050.
+- France was the most populous country in Europe in the 18th century, but the demographic transition occurred early. The fall in the birth rate led to population stagnation by the 19th century. Recent pro-natal policies caused a reversal: population in France may exceed Germany by 2050.
 - The one-child policy in China, implemented in the 1970s, caused a major shift. Chinese population was 50% above India in 1970; it is similar today. 
 
 ---
@@ -115,8 +124,8 @@ lecnum      : "02"
 ### Demography and Inequality
 
 - In a world in which each couple has 10 children, children cannot expect to inherit much wealth. Inherited wealth plays a small role in an individual's accumulation of wealth. 
-- Likewise in a society attracting immigration from other countries, as was the case in America.
-- Stagnant or decreasing population increases the importance of capital accumulated by previous generations. 
+- Likewise in a society attracting immigrants, as with America.
+- Stagnant or decreasing population increases the importance of wealth accumulated by previous generations. 
 - Low economic growth structures hierarchies around inherited wealth.
 - In a stagnant economy, jobs and social function are reproduced without much change from generation to generation. 
 - In a growing economy, new skills and jobs appear with every generation. 
@@ -129,7 +138,7 @@ lecnum      : "02"
 - In 1700, world per capita income was less than 70 euros per month, similar to income in the poorest countries of Sub-Saharan Africa today. In 2012, it was 760 euros per month.
 - The growth of per capita output over the period 1700–2012 was 0.8% per year, implying a multiplication of output by 10 over 300 years. 
 - Average growth of per capita output during 1700–2012 breaks down as follows: 0.1% in the 18th century, 0.9% in the 19th, and 1.6% in the 20th. 
-- Average purchasing power barely increased at all from 1700 to 1820, then more than doubled between 1820 and 1913, and increased 6-fold between 1913 and 2010. 
+- Purchasing power rose little from 1700 to 1820, then more than doubled between 1820 and 1913, and increased 6-fold between 1913 and 2010. 
 
 ---
 
@@ -137,7 +146,7 @@ lecnum      : "02"
 
 - What does it mean for purchasing power to be multiplied by 10? 
 - The concept of per capita output is more abstract than the concept of population. Economic growth involves changes in the organization of life and work, new types of goods and services, not just 'more stuff'. 
-- Improvements in purchasing power over the long run involve a transformation of consumption, from basic needs to a diversified basket of manufactured products and services. 
+- Long-run increases in purchasing power involve a transformation of consumption, from basic needs products to a diversified basket of goods and services of increasing range and complexity. 
 - For instance, between 1900 and 2012, average working time decreased dramatically. This suggests an increased consumption of 'leisure services'.
 - With the growth of services women became empowered. 
 - With technological progress and innovation child labor was banished.
@@ -309,7 +318,7 @@ lecnum      : "02"
 - Figure 2.4 shows a 'median' growth prediction. It assumes Western Europe, North America, and Japan will grow at 1.2% over 2015-2100, while poor and emerging countries will grow at 5% per year over 2015-2030 and 4% over 2030-2050. 
 - If the prediction is correct, per capita output in China, Eastern Europe, South America, North Africa, and the Middle East would match the wealthiest countries by 2050.
 - The distribution of world output would approximate the distribution of world population.
-- The median forecast is optimistic: it assumes productivity growth of 1% per year in the wealthy countries and continued convergence of emerging countries. 
+- The median forecast is optimistic: it assumes annual productivity growth of 1% in rich countries and continued convergence of emerging countries. 
 
 ---
 
@@ -339,7 +348,7 @@ lecnum      : "02"
 - Figure 2.6 shows inflation for 4 countries during 1700–2012. 
 - Governments issued debt to pay for WWI (1914-1918). In 1914, the convertibility of currency to gold was suspended by the belligerents. 
 - After the war, countries resorted to high inflation to reduce the real value of public debt, redistributing wealth on a grand scale.
-- A return to the gold standard in the 1920s did not survive the crisis of the 1930s: the United Kingdom left in 1931, the United States in 1933, France in 1936. 
+- A return to the gold standard in the 1920s did not last: the United Kingdom left in 1931, the United States in 1933, France in 1936. 
 - The post–World War II gold standard established in 1946 ended in 1971.
 
 ---

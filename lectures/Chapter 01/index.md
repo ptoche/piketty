@@ -1,10 +1,10 @@
 ---
-title       : Chapter 1, Income and Output
+title       : Chapter 1 -- Income and Output
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
-framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "01"
@@ -224,21 +224,35 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 ---
 
-<figure class = "centered">  
-<img src = "../../tables/Table_1_1.png" alt = "The Distribution of World GDP in 2012" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
-</figure> 
-
----
-
 ### Inequality in the World Regions
 
-- Global inequality is best analyzed in terms of regional blocs. 
 - Table 1.1 shows the distribution of global output in 2012.
+- Global inequality is best analyzed in terms of regional blocs. 
 - The population of the planet is about 7 billion. 
 - Global output is greater than 70 trillion euros
 - Global output per capita is thus almost exactly 10,000 euros. 
 - Average per capita monthly income is 760 euros (subtract 10% for capital depreciation and divide by 12).
 - If global income were equally divided, each person would receive about 760 euros per month.
+
+---
+
+### Inequality in Population
+
+<figure class = "centered">  
+<img src = "../../images/Worldmapper_Population_2050.png" alt = "World Map Distorted by Population.">
+<figcaption class = 'figcaption'>World Map Distorted by Population in 2050 (Estimates). Source: <a href="http://www.worldmapper.org">worldmapper.org</a>
+</figcaption>  
+</figure> 
+
+---
+
+### Inequality in Incomes
+
+<figure class = "centered">  
+<img src = "../../images/Worldmapper_Income_Men_2002.png" alt = "World Population Zoom on Asia.">
+<figcaption class = 'figcaption'>World Map Distorted by Men's Incomes in 2002.  Source: <a href="http://www.worldmapper.org">worldmapper.org</a>
+</figcaption>  
+</figure> 
 
 ---
 
@@ -256,8 +270,8 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 - The total Asian population is about 4 billion.
 - China has a population of 1.4 billion, India 1.3B, Indonesia 255 million, Pakistan 190M, Bangladesh 160M, Russia 150M, Japan 130M, Philippines 100M, Vietnam 90M, Thailand 65M, Burma 50M, South Korea 50M. 
-- Japan's annual per capita output is equal to that of the wealthiest European countries, but its population is so small by Asian standards that it has little influence on the continental average, which is a little below the world average.
-- China is not far below the world average with a per capita output of 8,000 euros per year. 
+- Japan's annual per capita output is equal to that of the wealthiest countries, but its population is too small to have much influence on the continental average, which is a little below the world average.
+- China's annual per capita GDP is 8,000 euros &mdash; below the world average. 
 - The Indian sub-continent is poorer still, but India is growing fast.
 
 ---
@@ -266,7 +280,7 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 - The Americas can be divided into distinct regions that are even more unequal than the European center and periphery. 
 - The total population of the Americas is about 1 billion, with about 40% in the north, 40% in the south and the rest in central America. In the north, the United States has a population of 320 million, Mexico 120M, Canada 35M.  In the south, Brazil has 205M, Colombia 50M, Argentina 45M, Peru 30M, Venezuela 30M.
-- The US-Canada bloc has 350 million people with a per capita output of 40,000 euros.
+- The US-Canada bloc has 350 million people with a per capita output of 40,000 euros (North America also includes Mexico).
 - Latin America (including Mexico and central America) has 600 million people with a per capita output of 10,000 euros (the world average).
 
 ---
@@ -295,7 +309,7 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 - The biggest economies in the world are the United States, China, Japan, Germany, France, United Kingdom, Brazil, Italy, Russia, India, Canada, Australia, Spain...
 - Of these, China and India have per capita output below the world average. Russia about the same as Portugal. Brazil about the same as Mexico or Iran. Germany, Australia, Canada, Japan, France, United Kingdom, Italy, Spain are in the same ball park.
 - Per capita income is 150–250 euros per month in sub-Saharan Africa, India, Pakistan, Vietnam, Phillipines, Nigeria.
-- ... about 2,500–3,000 euros per month in Western Europe, North America, and Japan, that is 20 times higher! 
+- Per capita income is about 2,500–3,000 euros per month in Western Europe, North America, and Japan, that is 20 times higher! 
 - The global average is around 600–800 euros per month.
 
 ---
@@ -304,9 +318,9 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 - The margin of error in these figures is considerable.
 - Global inequality would be markedly higher if we used current exchange rates rather than purchasing power parities as above.
-- Consider the euro/dollar exchange rate. In 2012, a euro was worth about \\$1.30 on the foreign exchange market. A European with an income of 1,000 euros per month could exchange that amount for \\$1,300. If that person took that money to the United States the purchasing power would be \\$1,300. 
-- But European prices are about 10 percent higher than American prices, so that if the same money was spent in Europe, the purchasing power would be about \\$1,170 instead of \\$1,300. 
-- Thus \\$1.20 has 'purchasing power parity' with 1 euro.
+- Consider the euro/dollar exchange rate. In 2012, €1.00 was worth about \\$1.30 on the foreign exchange market. A European with an income of 1,000 euros per month has therefore an income of 1,300 dollars. 
+- But European prices are about 10 percent higher than US prices, so the purchasing power is about \\$1,170 in Europe instead of \\$1,300 in the US. 
+- Thus \\$1.20 has 'purchasing power parity' with €1.00.
 
 ---
 
@@ -352,6 +366,45 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 - Knowledge diffusion depends on a country's ability to encourage large-scale investment in education and training of the population while guaranteeing stable property rights. 
 - It is therefore closely associated with the achievement of legitimate and efficient government. 
 - The diffusion of knowledge is often increased by international openness and trade. 
+
+---
+
+<figure class = "centered">  
+<img src = "../../tables/Table_1_1.png" alt = "The Distribution of World GDP in 2012" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
+---
+
+<figure class = "centered">  
+<img src = "../../images/World_1700.png" alt = "The World in 1700.">
+<figcaption class = 'figcaption'>The World in 1700.
+</figcaption>  
+</figure> 
+
+---
+
+<figure class = "centered">  
+<img src = "../../images/World_Population_Zoom.jpg" alt = "World Population Zoom on Asia.">
+<figcaption class = 'figcaption'>World Population in 2010: Zoom on Asia.
+</figcaption>  
+</figure> 
+
+---
+
+<figure class = "centered">  
+<img src = "../../images/Europe_Population_1700.jpg" alt = "Western Europe in 1700.">
+<figcaption class = 'figcaption'>Western Europe in 1700.
+</figcaption>  
+</figure> 
+
+---
+
+<figure class = "centered">  
+<img src = "../../images/Europe_Cold_War.png" alt = "Europe in the 'Cold War'.">
+<figcaption class = 'figcaption'>Europe in the 'Cold War.'
+</figcaption>  
+</figure> 
+
 
 
 <!--- Comment out this slide

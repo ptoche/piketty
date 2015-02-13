@@ -28,22 +28,19 @@ slidify('figures.Rmd')
 # Make individual chapter slides with slidify()
 # Set directory
 if(.Platform$OS.type == "windows"){
-  setwd("c:/slidify/piketty/lectures/Chapter 07")
+  setwd("c:/slidify/piketty/lectures/Chapter 08")
 } else { 
-  setwd("~/slidify/piketty/lectures/Chapter 07") 
+  setwd("~/slidify/piketty/lectures/Chapter 08") 
 }
 library(slidify)
 slidify('index2.Rmd')
 
 
 
-# View the html
-# prepend: http://htmlpreview.github.com/?
-http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/index.html
-
-http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/lectures/Chapter%2006/index.html
-
-[https://github.com/ptoche/piketty](http://htmlpreview.github.io/?https://github.com/ptoche/piketty/blob/master/index.html)
+# Make test slides with slidify()
+library(slidify)
+setwd("~/slidify/piketty/tests/02") 
+slidify('index.Rmd')
 
 
 # mode selfcontained

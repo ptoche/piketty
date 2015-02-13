@@ -2,9 +2,9 @@
 title       : Introduction to Piketty's Capital
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
-framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "00"
@@ -113,8 +113,8 @@ source('../../shared/shared.R')
 
 - Ricardo's prediction proved wrong: the share of agriculture in national income decreased and the relative value of farm land declined.
 - Ricardo had not anticipated the importance of technological progress and its role in offsetting the principle of scarcity.
-- The principle of scarcity remains important: replace the price of farmland with the price of urban real estate and consider what would happen to wealth inequality if the price trend of 1970–2010 were extrapolated to 2010–2050!
-- The mechanism of supply and demand eventually counterbalances extreme trends: If the supply of some good is short and its price too high, then demand for that good would decrease and eventually its price would decrease.
+- The principle of scarcity is still relevant: replace farmland with urban real estate and imagine what could happen to wealth inequality if the price trend of urban real estate 1970–2010 were extrapolated to 2010–2050!
+- The mechanism of supply and demand eventually counterbalances extreme trends: If the supply of some good is short and its price too high, then demand for that good falls and its price eventually falls.
 
 ---
 
@@ -133,8 +133,8 @@ source('../../shared/shared.R')
 - In 1867, Marx published the first volume of *Capital*. The other two volumes would be published posthumously by Friedrich Engels, the co-author of the *Communist Manifesto* (1848).
 - The question was no longer whether farmers could feed a growing population or whether land prices would go on rising.
 - During the first half of the 19th century wages stagnated at very low levels, in some cases even lower than previous centuries. 
-- The capital income share increased considerably in Britain and France in the first half of the 19th century.
-- With the industrial revolution and the vast rural exodus workers crowded into urban slums. Poverty was now visible in urban areas side by side with extreme opulence. 
+- The capital income share increased considerably in United Kingdom and France in the first half of the 19th century.
+- With the industrial revolution and the vast rural exodus, workers crowded into urban slums. Poverty was now visible next to extreme opulence. 
 
 ---
 
@@ -195,8 +195,8 @@ source('../../shared/shared.R')
 
 - Figure I.1 shows the share of the upper decile of the income hierarchy in US national income from 1910 to 2010. 
 - The top decile claimed as much as 45–50% of national income in the 1910s–1920s, fell to 30–35% by the end of the 1940s, rose again in the 1980s, and by 2000 reached about 45–50%.
-- Figure I.2 shows the total value of private wealth (in real estate, financial assets, and professional capital, net of debt) in Britain, France and Germany, expressed in years of national income, for 1870–2010. 
-- The total amount of private wealth was about 6 or 7 years of national income in the 19th c., fell sharply to 2 or 3 years, in response to the shocks of the period 1914–1945, started to rise steadily after 1950, and is up to about 5 years in 2010.
+- Figure I.2 shows the total value of private wealth (real estate, financial assets, professional capital, *net of debt*) in the UK, France and Germany, expressed in years of national income, for 1870–2010. 
+- Private wealth was 600% to 700% of national income in the 19th century, fell to 200% or 300% in response to the shocks of 1914–1945 (wars and economic crises), rose steadily after 1950, and is up to about 500% today.
 
 ---
 

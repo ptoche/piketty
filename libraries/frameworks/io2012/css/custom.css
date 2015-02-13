@@ -177,6 +177,44 @@ iframe {
     vertical-align: top;
 }
 
+/* Style table */
+table th, table td, table caption {
+    margin: 0;
+    padding: 0pt 6pt;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Style table colors odd rows */
+table tr:nth-child(2n+1) {
+    background: #E8F2FF;
+    border-color: #E8F2FF;
+}
+
+/* Style table colors even rows */
+table tr:nth-child(2n+0) {
+	background: #99CCFF;
+    border-color: #99CCFF;
+}
+
+/* Style table colors title row */
+table th {
+    background: #87A8F5;
+    color: #575400;
+    text-transform: uppercase;
+}
+
+/* Style table row border title */
+table thead {
+  border-top: 0;     /* remove border between rows */
+  border-bottom: 0;  /* remove border between rows */
+}
+
+/* Style table row border */
+table td {
+  border-bottom: 0;  /* remove border between rows */
+}
+
 /* Create a footer/footnote element */
 .footnote {
     position: absolute;
@@ -195,4 +233,31 @@ iframe {
 .cover-slide {
     background-image: url(../../../../images/capital21c_mosaic.png);
     background-size: 25em;
+}
+
+/* Shrink a slide font by prepending ---.shrink10 */
+/* The baseline font-size is 26px*/
+
+slide.shrink00 {
+    font-size: 26px;
+}
+
+slide.shrink10 {
+    font-size: 24px;
+}
+
+slide.shrink20 {
+    font-size: 21px;
+}
+
+slide.shrink30 {
+    font-size: 18px;
+}
+
+slide.shrink40 {
+    font-size: 15px;
+}
+
+slide.shrink50 {
+    font-size: 12px;
 }
