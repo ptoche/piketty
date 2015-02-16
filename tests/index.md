@@ -5,7 +5,7 @@ author      : Patrick Toche
 framework   : bootstrap  # minimal, io2012, html5slides, shower, dzslides
 hitheme     : solarized_light  # tomorrow, solarized_light
 mode        : selfcontained  # selfcontained, standalone, draft
-url         : {lib: "../../libraries", assets: "../../assets"}
+url         : {lib: "../libraries", assets: "../assets"}
 --- 
 
 

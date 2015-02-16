@@ -52,7 +52,7 @@ titles <- c(
   "Rethinking the Progressive Income Tax", 
   "A Global Tax on Capital",
   "The Question of the Public Debt")
-titles <- c(titles[1:14], "Material for Selected Topics", "Quizzes and Short Questions with Model Answers")
+titles <- titles[1:14]
 links <- paste0(seq_along(lectures), ". ", 
   "[", basename(lectures), " : ", titles, "]", "(", lectures, "/index.html)"
 )

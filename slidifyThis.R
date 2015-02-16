@@ -39,11 +39,11 @@ slidify('index2.Rmd')
 
 
 # Make Exercises slides index with slidify()
-setwd("~/slidify/piketty/lectures/Exercises") 
+setwd("~/slidify/piketty/exercises") 
 slidify('index.Rmd')
 
 # Make Tests slides index with slidify()
-setwd("~/slidify/piketty/lectures/Tests") 
+setwd("~/slidify/piketty/tests") 
 slidify('index.Rmd')
 
 # Make test slides with slidify()
