@@ -2,17 +2,15 @@ Capital in the 21st Century: Figures, Tables & Slides
 ========================================================
   
   
-### with LaTeX / Beamer / KnitR / R / ggplot2 / scales / reshape2  
-  
-  
-#### This fork maintained by Patrick Toche, December 2014.
-  
+#### with LaTeX / Beamer / KnitR / R / ggplot2 / scales / reshape2  
+
+
+##### This repo is maintained by Patrick Toche.
+
   
 ---------
   
-[click here to go to my fork at the github repository](https://github.com/ptoche/capitalIn21stCenturyinR/)  
-  
-[click here to go to the main branch of the github repository](https://github.com/jtleek/capitalIn21stCenturyinR)  
+[click here to go to my github repository](https://github.com/ptoche/piketty/)  
   
 ---------
 
@@ -127,7 +125,8 @@ III) **KNOWN ISSUES**:
         3) The ``linePalette``, ``colorPalette``, ``shapePalette`` and ``fillPalette`` defined in the preamble of ``'slidesFigures.Rnw'``.  
         4) The ``ggplot_dual_axis()`` function used to produce dual-axis graphs and defined in ``'beamerthemepiketty.sty'``.  
         
-    3) Figures 9.9, 12.1, and 12.2 are dual-axis graphs produced by function ``ggplot_dual_axis()``. This custom function extends ggplot functionalities to dual axis plots. This function is currently buggy and in need of a major overhaul. This function has one major problem: the rhs axis grid overwrites the data and legend. I do know how to fix it, just need an hour or two...   
+    3) Figures 9.9, 12.1, and 12.2 are dual-axis graphs produced by function ``ggplot_dual_axis()``. This custom function extends ggplot functionalities to dual axis plots. This function is in need of a major overhaul. This function has one major problem: the rhs axis grid overwrites the data and legend. I do know how to fix it, just need an hour or two...   
 
 ------
 Patrick Toche, 31 December 2014.
+Updated 17 February 2015.
