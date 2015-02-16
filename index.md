@@ -36,7 +36,8 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 12. [Chapter 11 : Merit and Inheritance in the Long Run](lectures/Chapter 11/index.html)
 13. [Chapter 12 : Global Inequality of Wealth in the Twenty-First Century](lectures/Chapter 12/index.html)
 14. [Chapter 13 : A Social State for the Twenty-First Century](lectures/Chapter 13/index.html)
-15. [Extra : Introduction](lectures/Extra/index.html)
+15. [Exercises : Material for Selected Topics](lectures/Exercises/index.html)
+16. [Tests : Quizzes and Short Questions with Model Answers](lectures/Tests/index.html)
 
 ---
 

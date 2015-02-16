@@ -106,6 +106,16 @@ source('../../shared/shared.R')
 - When he refers to economic growth, he refers to the growth rate of real net national product. Because depreciation and inflation are deducted, this growth rate is smaller than that usually reported in the media.
 - This has confused some early, hasty readers of the book.
 
+---
+
+### The NIPA 
+
+<figure class = "centered">  
+<img src = "../../images/NIPA.png" alt = "National Income and Product Accounts.">
+<figcaption class = 'figcaption'>National Income and Product Accounts (NIPA).  <br>Source: NIPA Handbook (2014), <a href="http://www.bea.gov">Bureau of Economic Analysis</a>.
+</figcaption>  
+</figure> 
+
 --- 
 
 ### Global Income Identities

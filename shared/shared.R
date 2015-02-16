@@ -91,6 +91,7 @@ shadePalette <- c("blue", "red", "green")  # light colors for shading areas
 # .nv-axislabel controls the label font
 # .nv-x .nv-y control each axis separately
 # svg text controls the general chart font
+# tested but not currently used
 afterScript1 <- '<style>
   .nv-point {
     stroke-opacity: 1!important;
