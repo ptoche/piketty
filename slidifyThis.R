@@ -37,10 +37,19 @@ slidify('index2.Rmd')
 
 
 
-# Make test slides with slidify()
-library(slidify)
-setwd("~/slidify/piketty/lectures/tests/02") 
+
+# Make Exercises slides index with slidify()
+setwd("~/slidify/piketty/lectures/Exercises") 
 slidify('index.Rmd')
+
+# Make Tests slides index with slidify()
+setwd("~/slidify/piketty/lectures/Tests") 
+slidify('index.Rmd')
+
+# Make test slides with slidify()
+setwd("~/slidify/piketty/lectures/Tests/02") 
+slidify('index.Rmd')
+
 
 
 # mode selfcontained

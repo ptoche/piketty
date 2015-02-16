@@ -1,10 +1,10 @@
 ---
 title       : Notes on Thomas Piketty's Capital
 author      : Patrick Toche
-framework   : bootstrap  # {minimal, bootstrap, io2012, html5slides, shower, dzslides, ...}
-hitheme     : solarized_light  # {tomorrow, solarized_light...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : []   # {mathjax, quiz, bootstrap}
+framework   : bootstrap  # minimal, io2012, html5slides, shower, dzslides
+hitheme     : solarized_light  # tomorrow, solarized_light
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : []   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]}
 ---
 ### GitHub Repo: [https://github.com/ptoche/piketty](https://github.com/ptoche/piketty)

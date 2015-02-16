@@ -7,7 +7,7 @@ mode        : selfcontained  # selfcontained, standalone, draft
 highlighter : highlight.js  # highlight.js, prettify, highlight
 hitheme     : tomorrow
 widgets     : [mathjax, quiz, bootstrap]   # [mathjax, quiz, bootstrap]
-url         : {lib: "../../libraries", assets: "../../assets"}
+url         : {lib: "../../../libraries", assets: "../../../assets"}
 editlink    : "tests/01"
 
 --- &radio
