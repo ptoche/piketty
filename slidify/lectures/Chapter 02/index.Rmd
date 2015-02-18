@@ -182,6 +182,14 @@ source('../../shared/shared.R')
 
 ---
 
+<figure class = "centered">  
+<img src = "../../images/Employment_Development_Changes.png" alt = "Sectoral Employment and Development">
+<figcaption class = 'figcaption'>Typical Pattern of Sectoral Employment in the Course of Economic Development.
+</figcaption>  
+</figure> 
+
+---
+
 ### Purchasing Power
     
 - There is a great deal of diversity within each sector. 
@@ -687,6 +695,88 @@ n$save('figures/Figure_2_6.html', standalone = TRUE)
 ```
 <iframe src = 'figures/Figure_2_6.html' alt = "Figure 2.6. Inflation since the Industrial Revolution.">
 </iframe><icaption class = 'icaption'>Figure 2.6. Inflation in the rich countries was zero in the eighteenth and nineteenth centuries, high in the twentieth century, and roughly 2 percent a year since 1990.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Employment By Sector: France
+
+<figure class = "captioned">
+<img src = "../../figures/Figure_Table_2_4_France_Harry.png" alt = "Figure / Table 2.4a. Employment by Sector in France, 1800-2010." style="height: 450px!important;">  
+<figcaption class = 'figcaption'>Figure / Table 2.4a. Employment by Sector, France 1800-2010. The share of agriculture has declined consistently since 1800, as the share of services rose, and is now negligible. The share of manufacturing has remained stable, typically between 20 and 30%.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Employment By Sector: France
+
+```{r 'Figure_2_T4a_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_2_T4.Rda") 
+# round data for rChart tooltip display
+df <- subset(df_2_T4, Country == "France")
+df$value <- round(df$value, 3)
+n <- nPlot(data = df, value ~ Year, group = 'variable', type = 'stackedAreaChart') 
+n$yAxis(axisLabel = 'Share in employment (% of total)')
+n$chart(margin = list(left = 80)) 
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = NULL)
+n$chart(style = 'stack')
+n$chart(showControls = FALSE)
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automate color selection
+n$addParams(height = 450, width = 900)
+n$save('figures/Figure_2_T4a.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_2_T4a.html' alt = "Figure / Table 2.4a. Employment by Sector, France 1800-2010.">
+</iframe><icaption class = 'icaption'>Figure / Table 2.4a. Employment by Sector, France 1800-2010. The share of agriculture has declined consistently since 1800, as the share of services rose, and is now negligible. The share of manufacturing has remained stable, typically between 20 and 30%.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+
+<!---
+
+### Employment By Sector: United States
+
+<figure class = "captioned">
+<img src = "../../figures/Figure_Table_2_4_UnitedStates_Harry.png" alt = "Figure / Table 2.4b. Employment by Sector, United States 1800-2010." style="height: 450px!important;">  
+<figcaption class = 'figcaption'>Figure / Table 2.4b. Employment by Sector, United States 1800-2010. The share of agriculture has declined consistently since 1800, as the share of services rose, and is now negligible. The share of manufacturing has remained stable, typically between 20 and 30%.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+
+### Employment By Sector: United States
+
+```{r 'Figure_2_T4b_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_2_T4.Rda") 
+# round data for rChart tooltip display
+df <- subset(df_2_T4, Country == "United States")
+df$value <- round(df$value, 3)
+n <- nPlot(data = df, value ~ Year, group = 'variable', type = 'stackedAreaChart') 
+n$yAxis(axisLabel = 'Share in employment (% of total)')
+n$chart(margin = list(left = 80)) 
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = NULL)
+n$chart(style = 'stack')
+n$chart(showControls = FALSE)
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automate color selection
+n$addParams(height = 450, width = 900)
+n$save('figures/Figure_2_T4b.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_2_T4b.html' alt = "Figure / Table 2.4a. Employment by Sector, United States 1800-2010.">
+</iframe><icaption class = 'icaption'>Figure / Table 2.4b. Employment by Sector, United States 1800-2010. The share of agriculture has declined consistently since 1800, as the share of services rose, and is now negligible. The share of manufacturing has remained stable, typically between 20 and 30%.</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 

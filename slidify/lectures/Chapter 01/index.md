@@ -148,7 +148,7 @@ lecnum      : "01"
     **National Wealth = Private Wealth + Public Wealth**
     
 - Public wealth in rich countries is negligible or negative.
-- The boundary between public and private is not always clear.
+- The boundary between public and private is not always clear: some sectors depend greatly on public subsidies (education, health), on public purchases (military–industrial complex). The public may share ownership and control with private entities (tolls, railways, dams).
 
 ---
 
@@ -234,6 +234,12 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 ---
 
+<figure class = "centered">  
+<img src = "../../tables/Table_1_1.png" alt = "The Distribution of World GDP in 2012" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
+---
+
 ### Inequality in the World Regions
 
 - Table 1.1 shows the distribution of global output in 2012.
@@ -250,7 +256,7 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 <figure class = "centered">  
 <img src = "../../images/Worldmapper_Population_2050.png" alt = "World Map Distorted by Population.">
-<figcaption class = 'figcaption'>World Map Distorted by Population in 2050 (Estimates). Source: <a href="http://www.worldmapper.org">worldmapper.org</a>
+<figcaption class = 'figcaption'>World Map Distorted by Population in 2050 (Estimates). <br>Source: <a href="http://www.worldmapper.org">worldmapper.org</a>
 </figcaption>  
 </figure> 
 
@@ -260,7 +266,7 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 <figure class = "centered">  
 <img src = "../../images/Worldmapper_Income_Men_2002.png" alt = "World Population Zoom on Asia.">
-<figcaption class = 'figcaption'>World Map Distorted by Men's Incomes in 2002.  Source: <a href="http://www.worldmapper.org">worldmapper.org</a>
+<figcaption class = 'figcaption'>World Map Distorted by Total Incomes of Men in 2002.  <br>Source: <a href="http://www.worldmapper.org">worldmapper.org</a>
 </figcaption>  
 </figure> 
 
@@ -268,21 +274,22 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 ### Inequality in the World: Europe
 
-- The population of Europe is about 740 million. Germany is the most populated country with 80M.
+- The population of Europe is 740 million. The most populated countries are Russia 150M and Germany 80M (1/4 of Russians live in Asia).
 - About 540 million live in the European Union where per capita output is over 27,000 euros per year. 
-- The remaining 200 million people live in Russia and Ukraine, where per capita output is about 15,000 euros per year.
-- Three-quarters of citizens of the EU live in the five most populous countries, Germany, France, United Kingdom, Italy, and Spain, with an average per capita GDP of 31,000 euros per year.
-- The remaining 130 million live in what used to be Eastern Europe, with an average per capita output around 16,000 euros per year.
+- The remaining 200 million people live in Russia and Ukraine, where per capita output is about €15,000 per year.
+- Three-quarters of citizens of the EU live in the five most populous countries, Germany 80M, France 66M, United Kingdom 64M, Italy 60M, and Spain 47M, with an average per capita output of €30,000 per year.
+- The remaining 130 million live in what used to be Eastern Europe, with an average per capita output around €16,000 per year.
 
 ---
 
 ### Inequality in the World: Asia
 
 - The total Asian population is about 4 billion.
-- China has a population of 1.4 billion, India 1.3B, Indonesia 255 million, Pakistan 190M, Bangladesh 160M, Russia 150M, Japan 130M, Philippines 100M, Vietnam 90M, Thailand 65M, Burma 50M, South Korea 50M. 
+- The largest are China 1.4B, India 1.3B, Indonesia 255M, Pakistan 190M, Bangladesh 160M, Russia 150M, Japan 130M, Philippines 100M, Vietnam 90M, Turkey 80M, Thailand 65M, Burma 50M, South Korea 50M. 
 - Japan's annual per capita output is equal to that of the wealthiest countries, but its population is too small to have much influence on the continental average, which is a little below the world average.
 - China's annual per capita GDP is 8,000 euros &mdash; below the world average. 
 - The Indian sub-continent is poorer still, but India is growing fast.
+- Parts of Russia are situated in Europe (3/4 of population, 1/4 of land). 
 
 ---
 
@@ -290,8 +297,8 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 - The Americas can be divided into distinct regions that are even more unequal than the European center and periphery. 
 - The total population of the Americas is about 1 billion, with about 40% in the north, 40% in the south and the rest in central America. In the north, the United States has a population of 320 million, Mexico 120M, Canada 35M.  In the south, Brazil has 205M, Colombia 50M, Argentina 45M, Peru 30M, Venezuela 30M.
-- The US-Canada bloc has 350 million people with a per capita output of 40,000 euros (North America also includes Mexico).
-- Latin America (including Mexico and central America) has 600 million people with a per capita output of 10,000 euros (the world average).
+- The US-Canada bloc has 350 million people with a per capita output of €40,000 (North America also includes Mexico).
+- Latin America (including Mexico and central America) has 600 million people with a per capita output of €10,000 (the world average).
 
 ---
 
@@ -307,20 +314,31 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 ### Inequality in the World: Middle East
 
-- The total population of the Middle East is about 410 million and total output about 1.4 billion euros.
-- Iran's population is 80 million, Turkey 80M, Irak 35M, Saudi Arabia 30M.
-- The per capita output of oil-rich countries ranges from 3,000 euros in Iraq to 90,000 in Quatar. Israel has 27,000 euros per capita per year, Saudi Arabia 18,000, Iran 10,000. 
-- The largest economy is Turkey at 1 trillion euros, then Iran 800 billion, Saudi Arabia 500B, Egypt 400B, Israel 200B.
+- The Middle East is a region of Asia. The total population of the Middle East is about 410 million and total output about 1.4 billion euros.
+- The population of Iran is 80M, Turkey 80M, Irak 35M, Saudi Arabia 30M.
+- The largest economy is Turkey at 1 trillion euros, then Iran €800B, Saudi Arabia €500B, Egypt €400B, Israel €200B. 
+- The per capita output of oil-rich countries ranges from €3,000 in Iraq to €90,000 in Quatar. Iran €10,000, Saudi Arabia €18,000, Israel €27,000.
+- Parts of Turkey, including the largest city Istanbul, are situated in Europe.
 
 ---
 
-### Summary
+### World Overview
 
 - The biggest economies in the world are the United States, China, Japan, Germany, France, United Kingdom, Brazil, Italy, Russia, India, Canada, Australia, Spain...
 - Of these, China and India have per capita output below the world average. Russia about the same as Portugal. Brazil about the same as Mexico or Iran. Germany, Australia, Canada, Japan, France, United Kingdom, Italy, Spain are in the same ball park.
 - Per capita income is 150–250 euros per month in sub-Saharan Africa, India, Pakistan, Vietnam, Phillipines, Nigeria.
 - Per capita income is about 2,500–3,000 euros per month in Western Europe, North America, and Japan, that is 20 times higher! 
 - The global average is around 600–800 euros per month.
+
+---
+
+### PPP Versus Current Exchange Rates
+
+<figure class = "centered">  
+<img src = "../../images/BigMac Index -  The Economist - 2010.jpg" alt = "The Economist's Big Mac Index in 2010.">
+<figcaption class = 'figcaption'>The Big Mac Index (<em>The Economist</em>, 2010).  <br>Source: <a href="http://www.economist.com/content/big-mac-index">www.economist.com</a>
+</figcaption>  
+</figure> 
 
 ---
 
@@ -337,7 +355,7 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 ### PPP Versus Current Exchange Rates
 
 - An advantage of using purchasing power parities is that they are more stable than market exchange rates. 
-- Exchange rates are extremely volatile. Exchange rates reflect not only the supply and demand for the goods and services of different countries, but also changes in the investment strategies of international investors, volatile estimates of the political and financial stability of the relevant countries, changes in monetary policy, trade policies, and so on. 
+- Exchange rates are extremely volatile. Exchange rates reflect not only the supply and demand for the goods and services of different countries, but also international investors' strategies and their volatile estimates of economic, monetary, and political outlook of the relevant countries. 
 - The dollar/euro rate went from \\$1.30 per euro in the 1990s to less than \\$0.90 in 2001 before rising to around \\$1.50 in 2008 and then falling back to \\$1.30 in 2012, and to \\$1.10 in 2015.
 - During that time, the PPP of the euro rose gently from about \\$1 per euro in the early 1990s to \\$1.20 in 2010.
 
@@ -354,8 +372,8 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 ### What Forces Favor Convergence?
 
 - In theory, foreign ownership of capital can help convergence. 
-- If rich countries have excess savings and capital and the 'marginal productivity of capital' is very low, it can be efficient to invest in poorer countries abroad. 
-- This way the wealthy investors obtain a higher return, while the influx of capital into poor countries raise their productivity, helping to close the gap between rich and poor. 
+- If rich countries have excess savings and capital and the 'marginal productivity of capital' is low, it could be attractive and efficient to invest in poorer countries abroad. 
+- Wealthy investors would obtain a higher return. The influx of capital would raise the productivity of poor countries, helping to close the gap between rich and poor. 
 - In Africa, a substantial share of capital is owned by foreigners. The income of Africans is on average 5% less than the continent’s output. With a capital income share of 30%, this means that nearly 20% of African capital is owned by foreigners.
 
 ---
@@ -364,54 +382,67 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 - The theory has two major problems: 
     `1`. 'Factor Price Equalization' is not sufficient for global convergence of per capita incomes.
-    `2`. A hypothetical convergence of output per capita does not imply convergence of income per capita. 
+    `2`. Convergence of output per capita does not imply convergence of income per capita. 
 - Wealthy countries may continue to own large shares of the poor countries' capital stocks indefinitely, so that the per capita national income of the wealthy countries remain permanently above poorer countries
-- The historical record suggests capital mobility has not been central to convergence. None of the Asian 'tigers' has benefited from large foreign investments. These countries self-financed investments in physical capital and human capital. 
+- Capital mobility has not been central to convergence. None of the Asian 'tigers' has benefited from large foreign investments. These countries self-financed investments in physical capital and human capital. 
 
 ---
 
-### Summary
+### Knowledge Diffusion
 
-- Historical experience suggests that the principal mechanism for convergence at the international as well as the domestic level is the diffusion of knowledge. 
+- The key mechanism for convergence at the international and at the domestic level is the diffusion of knowledge. 
 - Knowledge diffusion depends on a country's ability to encourage large-scale investment in education and training of the population while guaranteeing stable property rights. 
-- It is therefore closely associated with the achievement of legitimate and efficient government. 
-- The diffusion of knowledge is often increased by international openness and trade. 
+- Knowledge diffusion increases with legitimate and efficient government. 
+- Knowledge diffusion increases with international trade. 
 
 ---
 
-<figure class = "centered">  
-<img src = "../../tables/Table_1_1.png" alt = "The Distribution of World GDP in 2012" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
-</figure> 
-
----
+### The World in 1700
 
 <figure class = "centered">  
 <img src = "../../images/World_1700.png" alt = "The World in 1700.">
-<figcaption class = 'figcaption'>The World in 1700.
-</figcaption>  
+<figcaption class = 'figcaption'>Source: <a href="http://commons.wikimedia.org/">Wiki Media Commons</a>.
+</figcaption> 
 </figure> 
 
 ---
 
-<figure class = "centered">  
-<img src = "../../images/World_Population_Zoom.jpg" alt = "World Population Zoom on Asia.">
-<figcaption class = 'figcaption'>World Population in 2010: Zoom on Asia.
-</figcaption>  
-</figure> 
-
----
+### Western Europe in 1700
 
 <figure class = "centered">  
 <img src = "../../images/Europe_Population_1700.jpg" alt = "Western Europe in 1700.">
-<figcaption class = 'figcaption'>Western Europe in 1700.
+</figure> 
+
+---
+
+### Europe in the 'Cold War'
+
+<figure class = "centered">  
+<img src = "../../images/Europe_Cold_War.png" alt = "Europe in the 'Cold War'.">
+</figure> 
+<figcaption class = 'figcaption'>Source: <a href="http://commons.wikimedia.org/">Wiki Media Commons</a>.
+</figcaption> 
+
+---
+
+### World Distribution of Population
+
+<figure class = "centered">  
+<img src = "../../images/World_Population_Zoom.jpg" alt = "World Population Zoom on Asia.">
+<figcaption class = 'figcaption'>In 2015, 4 of 7 billion live in Asia. <br>Source: <a href="http://www.reddit.com/r/MapPorn/comments/1dqh7d/after_seeing_a_recent_post_about_the_population/">Valerie Pieris</a>.
 </figcaption>  
 </figure> 
 
 ---
 
-<figure class = "centered">  
-<img src = "../../images/Europe_Cold_War.png" alt = "Europe in the 'Cold War'.">
-<figcaption class = 'figcaption'>Europe in the 'Cold War.'
+### World Distribution of Output
+
+<figure class = "centered"> 
+<div style="height: 440px; overflow: hidden">
+<img src = "../../images/Earth at Night - NASA - 2000.jpg" alt = "World Population Zoom on Asia.">
+</div>
+<figcaption class = 'figcaption'>The Earth at Night in 2000.
+<br>Source: <a href="http://www.nasa.gov/">NASA, Picture of the Day</a>.
 </figcaption>  
 </figure> 
 

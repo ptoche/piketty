@@ -1,5 +1,7 @@
 # Relative Shares Of World Manufacturing Output 1750-1900
+# Source: Paul Kennedy, The Rise and Fall of the Great Powers, Table 3, page 149.
 
+# Data copied from source
 df <- data.frame(
     "Year" = c(1750, 1800, 1830, 1860, 1880, 1900),
     "Europe" = c(23.2, 28.1, 34.2, 53.2, 61.3, 62.0),
@@ -17,15 +19,29 @@ df <- data.frame(
 )
 names(df) <- c("Year", "Europe", "United Kingdom", "Habsburg Empire", "France", "German States / Germany", "Italian States / Italy", "Russia", "United States", "Japan", "Third World", "China", "India / Pakistan")
 
+# Reshape data
 library(reshape2)
 df <- melt(df, id.vars = "Year")
-library(ggplot2)
-library(RColorBrewer)
+
+# Save data
+setwd("~/piketty/knitr/slides/extra") 
+save(df, file = "data/df_2_K.Rda")
+
+# Load data
+setwd("~/piketty/knitr/slides/extra")
+load("data/df_2_K.Rda") 
+
+# Subset data
 selected <- c("United Kingdom", "Habsburg Empire", "France", "German States / Germany", "Italian States / Italy", "Russia", "United States", "Japan", "China", "India / Pakistan")
 dfs <- subset(df, variable %in% selected)
+
+# Set colours
 colourCount = length(selected)
+library(RColorBrewer)
 getPalette = colorRampPalette(brewer.pal(9, "Blues"))
 
+# Make Plot
+library(ggplot2)
 ggplot(data = dfs, aes(x = Year, y = value/100, group = variable, fill = variable)) + geom_area(position = 'stack', alpha = .75) +
   ylab("Relative Shares Of World Manufacturing Output") + xlab("") +
   scale_x_continuous(breaks = c(1750, 1800, 1830, 1860, 1880, 1900)) + 
@@ -34,7 +50,8 @@ ggplot(data = dfs, aes(x = Year, y = value/100, group = variable, fill = variabl
   theme(legend.position = "right") + 
   guides(shape = guide_legend(ncol = 1), fill = guide_legend(reverse = TRUE))
 
-ggsave(last_plot(), file = "figures/Kennedy_ManufacturingShare.pdf", width = 8, height = 5)
+ggsave(last_plot(), file = "figures/Figure_Kennedy_WorldManufacturingShares.pdf", width = 8, height = 5)
 
-ggsave(last_plot(), file = "figures/Kennedy_ManufacturingShare.png", width = 8, height = 5)
+ggsave(last_plot(), file = "figures/Figure_Kennedy_WorldManufacturingShares.png", width = 8, height = 5)
+
 

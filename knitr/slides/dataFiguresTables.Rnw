@@ -7,9 +7,9 @@
 
 ## Set Directory:
 #if(.Platform$OS.type == "windows"){
-#  setwd("c:/R/capital21c/Github/Slides/")
+#  setwd("c:/piketty/knitr/slides/")
 #} else { 
-#  setwd("~/R/capital21c/Github/Slides/") 
+#  setwd("~/piketty/knitr/slides/") 
 #}
 
 
@@ -712,6 +712,7 @@ save(df_8_1, file = "data/df_8_1.Rda")
 load("data/TS8.1.Rda")
 df_8_2 <- TS8.1[, c("Year", "france_top_1_is", "france_top_1_ws")]
 names(df_8_2) <- c("Year", "Incomes", "Wages")
+df_8_2 <- na.omit(df_8_2)  # remove NAs
 df_8_2 <- melt(df_8_2, id.vars = c("Year"))
 row.names(df_8_2) <- NULL
 save(df_8_2, file = "data/df_8_2.Rda")
@@ -743,6 +744,7 @@ save(df_8_5, file = "data/df_8_5.Rda")
 load("data/TS8.2.Rda")
 df_8_6 <- TS8.2[, c("Year", "usa_top_1_is", "usa_top_5_1_is", "usa_top_10_5_is")]
 names(df_8_6) <- c("Year", "Top 1% (above $352,000)", "Top 5%-1% (between $150,000 and $350,000)", "Top 10%-5% (between $108,000 and $150,000)")
+df_8_6 <- na.omit(df_8_6)  # remove NAs
 df_8_6 <- melt(df_8_6, id.vars = "Year")
 row.names(df_8_6) <- NULL
 save(df_8_6, file = "data/df_8_6.Rda")
@@ -760,6 +762,7 @@ save(df_8_7, file = "data/df_8_7.Rda")
 load("data/TS8.2.Rda")
 df_8_8 <- TS8.2[, c("Year", "usa_top_1_is", "usa_top_1_is_wok", "usa_top_1_ws")]
 names(df_8_8) <- c("Year", "Incomes", "Incomes (Excluding capital gains)", "Wages")
+df_8_8 <- na.omit(df_8_8)  # remove NAs
 df_8_8 <- melt(df_8_8, id.vars = c("Year"))
 row.names(df_8_8) <- NULL
 save(df_8_8, file = "data/df_8_8.Rda")

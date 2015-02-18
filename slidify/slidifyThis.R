@@ -41,7 +41,7 @@ library(slidify)
 slidify('index.Rmd')
 
 # Make test slides with slidify()
-setwd("~/piketty/slidify/tests/02") 
+setwd("~/piketty/slidify/tests/Chapter 02") 
 library(slidify)
 slidify('index.Rmd')
 

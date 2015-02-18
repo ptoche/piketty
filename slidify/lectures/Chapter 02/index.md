@@ -176,6 +176,14 @@ lecnum      : "02"
 
 ---
 
+<figure class = "centered">  
+<img src = "../../images/Employment_Development_Changes.png" alt = "Sectoral Employment and Development">
+<figcaption class = 'figcaption'>Typical Pattern of Sectoral Employment in the Course of Economic Development.
+</figcaption>  
+</figure> 
+
+---
+
 ### Purchasing Power
     
 - There is a great deal of diversity within each sector. 
@@ -498,6 +506,54 @@ lecnum      : "02"
 
 <iframe src = 'figures/Figure_2_6.html' alt = "Figure 2.6. Inflation since the Industrial Revolution.">
 </iframe><icaption class = 'icaption'>Figure 2.6. Inflation in the rich countries was zero in the eighteenth and nineteenth centuries, high in the twentieth century, and roughly 2 percent a year since 1990.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Employment By Sector: France
+
+<figure class = "captioned">
+<img src = "../../figures/Figure_Table_2_4_France_Harry.png" alt = "Figure / Table 2.4a. Employment by Sector in France, 1800-2010." style="height: 450px!important;">  
+<figcaption class = 'figcaption'>Figure / Table 2.4a. Employment by Sector, France 1800-2010. The share of agriculture has declined consistently since 1800, as the share of services rose, and is now negligible. The share of manufacturing has remained stable, typically between 20 and 30%.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Employment By Sector: France
+
+
+<iframe src = 'figures/Figure_2_T4a.html' alt = "Figure / Table 2.4a. Employment by Sector, France 1800-2010.">
+</iframe><icaption class = 'icaption'>Figure / Table 2.4a. Employment by Sector, France 1800-2010. The share of agriculture has declined consistently since 1800, as the share of services rose, and is now negligible. The share of manufacturing has remained stable, typically between 20 and 30%.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+
+<!---
+
+### Employment By Sector: United States
+
+<figure class = "captioned">
+<img src = "../../figures/Figure_Table_2_4_UnitedStates_Harry.png" alt = "Figure / Table 2.4b. Employment by Sector, United States 1800-2010." style="height: 450px!important;">  
+<figcaption class = 'figcaption'>Figure / Table 2.4b. Employment by Sector, United States 1800-2010. The share of agriculture has declined consistently since 1800, as the share of services rose, and is now negligible. The share of manufacturing has remained stable, typically between 20 and 30%.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+
+### Employment By Sector: United States
+
+
+<iframe src = 'figures/Figure_2_T4b.html' alt = "Figure / Table 2.4a. Employment by Sector, United States 1800-2010.">
+</iframe><icaption class = 'icaption'>Figure / Table 2.4b. Employment by Sector, United States 1800-2010. The share of agriculture has declined consistently since 1800, as the share of services rose, and is now negligible. The share of manufacturing has remained stable, typically between 20 and 30%.</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 

@@ -23,14 +23,14 @@
   </head>
   <body >
     
-    <div id = 'chart4b97679bd80' class = 'rChart nvd3'></div>    
+    <div id = 'chart6e04b380256' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchart4b97679bd80()
+      drawchart6e04b380256()
     });
-    function drawchart4b97679bd80(){  
+    function drawchart6e04b380256(){  
       var opts = {
- "dom": "chart4b97679bd80",
+ "dom": "chart6e04b380256",
 "width":    900,
 "height":    450,
 "x": "Year",
@@ -39,15 +39,10 @@
 "color": "variable",
 "shape": "variable",
 "type": "lineChart",
-"id": "chart4b97679bd80" 
+"id": "chart6e04b380256" 
 },
         data = [
  {
- "Year":           1900,
-"variable": "Incomes",
-"value":          0.405 
-},
-{
  "Year":           1910,
 "variable": "Incomes",
 "value":          0.406 
@@ -551,11 +546,6 @@
  "Year":           2010,
 "variable": "Incomes",
 "value":          0.479 
-},
-{
- "Year":           1900,
-"variable": "Incomes (Excluding capital gains)",
-"value":          0.403 
 },
 {
  "Year":           1910,
@@ -1605,7 +1595,12 @@
   .useInteractiveGuideline(true)
   .color([ "#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999" ])
           
-        
+        chart.xAxis
+  .showMaxMin(false)
+  .tickValues( function (x) {    
+    tickvalues = [1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010];
+    return tickvalues;
+} )
 
         
         

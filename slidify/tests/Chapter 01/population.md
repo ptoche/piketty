@@ -1,0 +1,249 @@
+---
+title       : Chapter 1 -- Quiz -- Population
+subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
+author      : Patrick Toche
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides, ...
+mode        : selfcontained  # selfcontained, standalone, draft
+highlighter : highlight.js  # highlight.js, prettify, highlight
+hitheme     : tomorrow
+widgets     : [mathjax, quiz, bootstrap]   # [mathjax, quiz, bootstrap]
+url         : {lib: "../../libraries", assets: "../../assets"}
+editlink    : "tests/01"
+
+--- &radio
+### Question 1
+
+World Population is about
+
+1. 
+7 Trillion
+2. 
+6 Trillion
+3. 
+_7 Billion_
+4. 
+6 Billion
+5. 
+7 Million 
+6. 
+6 Million 
+
+*** .hint
+Read the units carefully!
+
+*** .explanation
+See Table 1.1
+
+
+--- &radio
+### Question 2
+
+The Population of Africa is about
+
+1. 
+3 Billion
+2. 
+2 Billion
+3. 
+_1 Billion_
+4. 
+500 Million
+5. 
+200 Million 
+6. 
+100 Million 
+
+*** .hint
+Read the units carefully!
+
+*** .explanation
+See Table 1.1
+
+
+--- &radio
+### Question 3
+
+The Population of America (the continent) is about
+
+1. 
+2.5 Billion
+2. 
+2 Billion
+3. 
+1.5 Billion
+4. 
+_1 Billion_
+5. 
+500 Million
+6. 
+100 Million 
+
+*** .hint
+Read the units carefully!
+
+*** .explanation
+See Table 1.1
+
+
+--- &radio
+### Question 4
+
+The Population of Asia is about
+
+1. 
+6 Billion
+2. 
+5 Billion
+3. 
+_4 Billion_
+4. 
+3 Billion
+5. 
+2 Billion 
+6. 
+1 Billion
+
+*** .hint
+Read the units carefully!
+
+*** .explanation
+See Table 1.1
+
+
+--- &radio
+### Question 5
+
+The population of the following countries exceeds 100 million
+
+1. 
+China, Indonesia, Brazil, Russia, Mexico, Germany
+2. 
+India, Pakistan, Nigeria, Bangladesh, Russia, Thailand
+3. 
+China, India, United States, Indonesia, Brazil, Iran
+4. 
+Brazil, Pakistan, Nigeria, Bangladesh, Japan, Kenya
+5. 
+_Brazil, Pakistan, Nigeria, Bangladesh, Russia, Japan_
+6. 
+China, United States, Brazil, Russia, Japan, Argentina
+
+*** .hint
+The countries are also ranked by their population.
+
+*** .explanation
+The population of the following countries exceeds 100 million: China 1.4B, India 1.3B, United States 320M, Indonesia 260M,  Brazil 205M, Pakistan 190M, Nigeria 185M, Bangladesh 160M, Russia 150M, Japan 127M, Mexico 121M, Phillipines 101M. The next countries in the ranking are Vietnam 90M, Ethiopia 90M, Egypt 88M, Germany 80M, Iran 80M. The population of Thailand is about 65M, Kenya 47M, Argentina 45M.
+
+
+--- &radio
+### Question 6
+
+The most populated countries in Africa are
+
+1. 
+Nigeria, Ethiopia, Egypt, Burundi, South Africa, Eritrea
+2. 
+Nigeria, Ethiopia, Egypt, Togo, South Africa, Liberia
+3. 
+Nigeria, Ethiopia, Egypt, Sierra Leone, South Africa, Lesotho
+4. 
+_Nigeria, Ethiopia, Egypt, Congo (RDC), South Africa, Tanzania_
+5. 
+Nigeria, Ethiopia, Egypt, Mauritania, South Africa, Namibia
+6. 
+Nigeria, Ethiopia, Egypt, Botswana, South Africa, Gabon
+
+*** .hint
+The countries are also ranked by their population.
+Congo (RDC) stands for 'République Démocratique du Congo.'
+
+*** .explanation
+The most populated countries of Africa are: Nigeria 185M, Ethiopia 90M, Egypt 88M, Congo (RDC) 70M, South Africa 55M, Tanzania 47M, Kenya 47M. The population of Burundi is about 10M, Togo 7M, Eritrea 7M, Sierra Leone 6M, Liberia 5M, Mauritania 4M, Namibia 2M, Botswana 2M, Lesotho 2M. 
+
+
+--- &radio
+### Question 7
+
+The most populated countries in America are
+
+1. 
+United States, Brazil, Mexico, Costa Rica, Uruguay, Paraguay
+2. 
+_United States, Brazil, Mexico, Colombia, Argentina, Canada_
+3. 
+United States, Brazil, Bolivia, Mexico, Cuba, Chile
+4. 
+United States, Brazil, Uruguay, Mexico, Peru, Ecuador
+5. 
+United States, Brazil, Colombia, Guatemala, Honduras, Nicaragua
+6. 
+United States, Brazil, Mexico, Panama, Venezuela, Haiti
+
+*** .hint
+The countries are also ranked by their population.
+
+*** .explanation
+The most populated countries of America are United States 320M, Brazil 205M, Mexico 120M, Colombia 50M, Argentina 45M, Canada 35M, Peru 31M, Venezuela 31M, Chile 18M, Ecuador 16M, Guatemala 16M, Bolivia 11M, Cuba 11M, Haiti 11M, Dominican Republic 11M, Honduras 9M, Paraguay 7M, El Salvador 6M, Nicaragua 6M, Costa Rica 5M, Panama 4M, Uruguay 3M.
+
+
+--- &radio
+### Question 8
+
+The most populated countries of Asia (not including Russia) are
+
+1. 
+China, India, Indonesia, Malaysia, Pakistan, Japan
+2. 
+_China, India, Indonesia, Pakistan, Bangladesh, Japan_
+3. 
+China, India, Indonesia, Bangladesh, Japan, Vietnam
+4. 
+China, India, Pakistan, Uzbekistan, Afganistan, Indonesia
+5. 
+China, India, Pakistan, Bangladesh, Iran, Phillipines
+6. 
+China, India, Pakistan, Indonesia, Bangladesh, Iraq
+
+
+*** .hint
+The countries are also ranked by their population.
+
+*** .explanation
+The most populated countries of Asia are China 1.4B, India 1.3B, Indonesia 260M, Pakistan 190M, Bangladesh 160M, Russia 150M, Japan 127M, Phillipines 101M, Vietnam 90M, Iran 78M, Turkey 78M, Thailand 65M, Burma 52M, South Korea 51M, Iraq 36M, Saudi Arabia 32M, Malaysia 31M, Uzbekistan 30M, Nepal 28M, Afganistan 27M.
+
+
+--- &radio
+### Question 9
+
+The most populated countries in Europe (including Russia) are
+
+1. 
+Russia, Germany, France, Italy, Portugal, Spain
+2. 
+Russia, Germany, France, United Kingdom, Portugal, Spain
+3. 
+Russia, Germany, France, Sweden, United Kingdom, Denmark
+4. 
+Russia, Germany, France, United Kingdom, Romania, Netherlands
+5. 
+Russia, Germany, France, Austria, Sweden, Norway
+6. 
+_Russia, Germany, France, United Kingdom, Italy, Spain_
+
+*** .hint
+The countries are also ranked by their population.
+
+*** .explanation
+The most populated countries of Europe are Germany 80M, France 66M, United Kingdom 64M, Italy 60M, Spain 47M. Romania 20M, Netherlands 17M, Belgium 11M, Portugal 10M, Sweden 10M, Austria 9M, Norway 5M are not among the most populated countries in Europe, so that leaves the last suggestion as the correct answer. 
+
+
+
+--- &radio
+
+### Question 10
+Outline the United Nations population 'median forecast' for the next 100 years. Is population expected to rise or fall? Population growth? Briefly outline implications for the different continents.
+
+*** .hint
+<a href = "http://www.un.org/en/development/desa/population/publications/pdf/trends/WPP2012_Wallchart.pdf">"World Population 2012", United Nations, Department of Economic and Social Affairs, Population Division.</a>
+
+

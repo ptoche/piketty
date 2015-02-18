@@ -23,189 +23,94 @@
   </head>
   <body >
     
-    <div id = 'chart2b22d74ace5' class = 'rChart nvd3'></div>    
+    <div id = 'chart2ce4a0864c6' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchart2b22d74ace5()
+      drawchart2ce4a0864c6()
     });
-    function drawchart2b22d74ace5(){  
+    function drawchart2ce4a0864c6(){  
       var opts = {
- "dom": "chart2b22d74ace5",
+ "dom": "chart2ce4a0864c6",
 "width":    900,
 "height":    450,
 "x": "Year",
 "y": "value",
 "group": "variable",
-"color": "variable",
-"shape": "variable",
-"type": "lineChart",
-"id": "chart2b22d74ace5" 
+"type": "stackedAreaChart",
+"id": "chart2ce4a0864c6" 
 },
         data = [
  {
- "Year":              0,
-"variable": "World",
-"value":              1 
+ "Year":           1800,
+"Country": "United States",
+"variable": "Agriculture",
+"value":          0.684 
 },
 {
- "Year":           1000,
-"variable": "World",
-"value":              1 
-},
-{
- "Year":           1500,
-"variable": "World",
-"value":              1 
-},
-{
- "Year":           1700,
-"variable": "World",
-"value":              1 
-},
-{
- "Year":           1820,
-"variable": "World",
-"value":              1 
-},
-{
- "Year":           1870,
-"variable": "World",
-"value":              1 
-},
-{
- "Year":           1913,
-"variable": "World",
-"value":              1 
+ "Year":           1900,
+"Country": "United States",
+"variable": "Agriculture",
+"value":          0.405 
 },
 {
  "Year":           1950,
-"variable": "World",
-"value":              1 
-},
-{
- "Year":           1970,
-"variable": "World",
-"value":              1 
-},
-{
- "Year":           1990,
-"variable": "World",
-"value":              1 
+"Country": "United States",
+"variable": "Agriculture",
+"value":          0.135 
 },
 {
  "Year":           2012,
-"variable": "World",
-"value":              1 
+"Country": "United States",
+"variable": "Agriculture",
+"value":          0.016 
 },
 {
- "Year":              0,
-"variable": "Europe + America",
-"value":           1.13 
+ "Year":           1800,
+"Country": "United States",
+"variable": "Manufacturing",
+"value":          0.184 
 },
 {
- "Year":           1000,
-"variable": "Europe + America",
-"value":           0.94 
-},
-{
- "Year":           1500,
-"variable": "Europe + America",
-"value":           1.16 
-},
-{
- "Year":           1700,
-"variable": "Europe + America",
-"value":           1.41 
-},
-{
- "Year":           1820,
-"variable": "Europe + America",
-"value":           1.53 
-},
-{
- "Year":           1870,
-"variable": "Europe + America",
-"value":           1.82 
-},
-{
- "Year":           1913,
-"variable": "Europe + America",
-"value":           1.92 
+ "Year":           1900,
+"Country": "United States",
+"variable": "Manufacturing",
+"value":          0.282 
 },
 {
  "Year":           1950,
-"variable": "Europe + America",
-"value":           2.17 
-},
-{
- "Year":           1970,
-"variable": "Europe + America",
-"value":           2.27 
-},
-{
- "Year":           1990,
-"variable": "Europe + America",
-"value":           2.46 
+"Country": "United States",
+"variable": "Manufacturing",
+"value":          0.332 
 },
 {
  "Year":           2012,
-"variable": "Europe + America",
-"value":           2.24 
+"Country": "United States",
+"variable": "Manufacturing",
+"value":          0.183 
 },
 {
- "Year":              0,
-"variable": "Asia + Africa",
-"value":           0.97 
+ "Year":           1800,
+"Country": "United States",
+"variable": "Services",
+"value":          0.132 
 },
 {
- "Year":           1000,
-"variable": "Asia + Africa",
-"value":           1.01 
-},
-{
- "Year":           1500,
-"variable": "Asia + Africa",
-"value":           0.95 
-},
-{
- "Year":           1700,
-"variable": "Asia + Africa",
-"value":           0.88 
-},
-{
- "Year":           1820,
-"variable": "Asia + Africa",
-"value":           0.84 
-},
-{
- "Year":           1870,
-"variable": "Asia + Africa",
-"value":           0.63 
-},
-{
- "Year":           1913,
-"variable": "Asia + Africa",
-"value":           0.46 
+ "Year":           1900,
+"Country": "United States",
+"variable": "Services",
+"value":          0.313 
 },
 {
  "Year":           1950,
-"variable": "Asia + Africa",
-"value":           0.37 
-},
-{
- "Year":           1970,
-"variable": "Asia + Africa",
-"value":           0.41 
-},
-{
- "Year":           1990,
-"variable": "Asia + Africa",
-"value":           0.45 
+"Country": "United States",
+"variable": "Services",
+"value":          0.533 
 },
 {
  "Year":           2012,
-"variable": "Asia + Africa",
-"value":           0.61 
+"Country": "United States",
+"variable": "Services",
+"value":          0.801 
 } 
 ]
   
@@ -238,21 +143,20 @@
           
          
         chart
-  .xDomain([   1700,   2012 ])
-  .clipEdge(true)
-  .forceY([    0.2,    2.6 ])
   .margin({
  "left":     80 
 })
+  .style("stack")
+  .showControls(false)
   .useInteractiveGuideline(true)
-  .color([ "#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999" ])
+  .color([ "#EFF3FF", "#BDD7E7", "#6BAED6", "#2171B5" ])
           
         
 
         
         
         chart.yAxis
-  .axisLabel("Per capital GDP (% of world average)")
+  .axisLabel("Share in employment (% of total)")
   .tickFormat( function(d) {return Math.round(d*100*100)/100 + '%'} )
       
        d3.select("#" + opts.id)
@@ -267,12 +171,6 @@
     };
 </script>
     
-    <style>
-      .nv-point {
-        stroke-opacity: 1!important;
-        stroke-width: 5px!important;
-        fill-opacity: 1!important;
-      } 
-    </style>    
+    <script></script>    
   </body>
 </html>
