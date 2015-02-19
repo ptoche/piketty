@@ -7,9 +7,6 @@ mode        : selfcontained  # selfcontained, standalone, draft
 widgets     : []   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]}
 ---
-### GitHub Repo: [https://github.com/ptoche/piketty](https://github.com/ptoche/piketty)
-
-### GitHub Pages: [http://ptoche.github.io/](http://ptoche.github.io/)
 
 
 
@@ -17,10 +14,12 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 
 - This is a website to display material related to Thomas Piketty, Capital in the 21st Century (Harvard University Press, 2014), in particular data, tables and figures. 
 - This project was started in January 2015 and is expected to be updated on a weekly basis until May 2015.
+- GitHub Repo: [https://github.com/ptoche/piketty](https://github.com/ptoche/piketty)
+- GitHub Pages: [http://ptoche.github.io/](http://ptoche.github.io/)
 
 ---
 
-## Content
+### Chapters
 
 1. [Chapter 00 : Introduction](lectures/Chapter 00/index.html)
 2. [Chapter 01 : Income and Output](lectures/Chapter 01/index.html)
@@ -36,6 +35,14 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 12. [Chapter 11 : Merit and Inheritance in the Long Run](lectures/Chapter 11/index.html)
 13. [Chapter 12 : Global Inequality of Wealth in the Twenty-First Century](lectures/Chapter 12/index.html)
 14. [Chapter 13 : A Social State for the Twenty-First Century](lectures/Chapter 13/index.html)
+
+---
+
+### Problems
+
+- <a href="exercises/index.html">Exercises</a>
+
+- <a href="tests/index.html">Quizzes</a>
 
 ---
 

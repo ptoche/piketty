@@ -7,9 +7,6 @@ mode        : selfcontained  # selfcontained, standalone, draft
 widgets     : []   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]}
 ---
-### GitHub Repo: [https://github.com/ptoche/piketty](https://github.com/ptoche/piketty)
-
-### GitHub Pages: [http://ptoche.github.io/](http://ptoche.github.io/)
 
 ```{r 'gsub', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, comment = NA, cache = FALSE}
 require(rCharts)
@@ -27,10 +24,12 @@ source('shared/shared.R')
 
 - This is a website to display material related to Thomas Piketty, Capital in the 21st Century (Harvard University Press, 2014), in particular data, tables and figures. 
 - This project was started in January 2015 and is expected to be updated on a weekly basis until May 2015.
+- GitHub Repo: [https://github.com/ptoche/piketty](https://github.com/ptoche/piketty)
+- GitHub Pages: [http://ptoche.github.io/](http://ptoche.github.io/)
 
 ---
 
-## Content
+### Chapters
 
 ```{r echo = FALSE, results = 'asis', cache = TRUE}
 lectures <- dir('lectures', full = TRUE)
@@ -58,6 +57,14 @@ links <- paste0(seq_along(lectures), ". ",
 )
 writeLines(links)
 ```
+
+---
+
+### Problems
+
+- <a href="exercises/index.html">Exercises</a>
+
+- <a href="tests/index.html">Quizzes</a>
 
 ---
 

@@ -1,6 +1,4 @@
 ---
-title       : Exercises
-subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
 framework   : bootstrap  # minimal, io2012, html5slides, shower, dzslides
 hitheme     : solarized_light  # tomorrow, solarized_light
