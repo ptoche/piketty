@@ -1,6 +1,4 @@
 ---
-title       : Notes on Thomas Piketty's Capital
-author      : Patrick Toche
 framework   : bootstrap  # minimal, io2012, html5slides, shower, dzslides
 hitheme     : solarized_light  # tomorrow, solarized_light
 mode        : selfcontained  # selfcontained, standalone, draft
@@ -12,10 +10,17 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 
 
 
-- This is a website to display material related to Thomas Piketty, Capital in the 21st Century (Harvard University Press, 2014), in particular data, tables and figures. 
+#### [http://ptoche.github.io/](http://ptoche.github.io/)
+### Notes on Thomas Piketty's Capital
+#### by Patrick Toche
+
+- This page contains material related to Thomas Piketty, Capital in the 21st Century (Harvard University Press, 2014), in particular slides, data, tables and figures. 
 - This project was started in January 2015 and is expected to be updated on a weekly basis until May 2015.
-- GitHub Repo: [https://github.com/ptoche/piketty](https://github.com/ptoche/piketty)
-- GitHub Pages: [http://ptoche.github.io/](http://ptoche.github.io/)
+- The project is open source. 
+- The html slides may be viewed here: **[http://ptoche.github.io/](http://ptoche.github.io/)**
+- The whole project may be downloaded from: **[https://github.com/ptoche/piketty](https://github.com/ptoche/piketty)**
+- The project contains html5 slides with text and figures (directory named 'slidify') and basic pdf slides with figures only (directory named 'knitr'). Figures are available in pdf, png, and html format. 
+- A related project is available here [https://github.com/jtleek/capitalIn21stCenturyinR](https://github.com/jtleek/capitalIn21stCenturyinR).
 
 ---
 
@@ -36,13 +41,17 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 13. [Chapter 12 : Global Inequality of Wealth in the Twenty-First Century](lectures/Chapter 12/index.html)
 14. [Chapter 13 : A Social State for the Twenty-First Century](lectures/Chapter 13/index.html)
 
+<br>
+
 ---
 
 ### Problems
 
-- <a href="exercises/index.html">Exercises</a>
+1. <a href="exercises/index.html">Exercises</a>  
+2. <a href="tests/index.html">Quizzes</a>
 
-- <a href="tests/index.html">Quizzes</a>
+
+<br><br>
 
 ---
 
@@ -56,7 +65,7 @@ You will need the `slidify`, `slidifyLibraries` and `rCharts`, packages.
     devtools::install_github(c("slidify", "slidifyLibraries", "rCharts"), 
         "ramnathv", ref = "dev")  
 
-In addition, I often use the following packages: `ggplot2`, `scales`, `reshape2`, `plyr` (author: Hadley Wickham). I am also using packages `grid` and `png` to insert images and control their size. Make sure these packages are installed in your `R` system, e.g. run this for each package:
+In addition, I often use the following packages: `ggplot2`, `scales`, `reshape2`, `plyr` (author: Hadley Wickham). I am also using packages `grid` and `png` to insert images and control their size. See the source code for a full list of packages used. Make sure these packages are installed in your `R` system, e.g. run this for each package:
 
     install.packages("ggplot2")
 
@@ -64,6 +73,9 @@ Write a short slide deck and publish it to [Github](http://www.github.com) with 
 
 <p><a class="btn" href="start.html">Learn More &raquo;</a></p>
 
+<br>
+
+---
 
 ### Layout
 
