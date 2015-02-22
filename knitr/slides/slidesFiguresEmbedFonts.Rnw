@@ -1,7 +1,7 @@
 % Runs Ghostscript to process PDF files and embed all fonts in the file.
 <<'Embed', echo = FALSE, results = 'hide', comment = NA, warning = FALSE, message = FALSE>>=
 x <- list.files(
-    path = "~/R/capital21c/Github/Slides/figures",      # adapt to path           
+    path = "~/piketty/knitr/slides/figures",      # adapt to path
     pattern = '*.pdf', recursive = TRUE, full.names = TRUE)
 
 lapply(x, embedFonts)

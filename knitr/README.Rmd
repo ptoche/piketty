@@ -1,13 +1,8 @@
 Capital in the 21st Century: Figures, Tables & Slides 
 ========================================================
-  
-  
-#### with LaTeX / Beamer / KnitR / R / ggplot2 / scales / reshape2  
 
+##### This repo was created and is maintained by Patrick Toche.
 
-##### This repo is maintained by Patrick Toche.
-
-  
 ---------
   
 [click here to go to my github repository](https://github.com/ptoche/piketty/)  
@@ -22,7 +17,7 @@ Based on Professor Piketty's [technical appendices](http://piketty.pse.ens.fr/en
 
 ---------
 
-This repository, named **Slides**, contains the following:
+This repository, named **slides**, contains *KnitR/LaTeX/Beamer* source code to produce all book figures as standalone **.pdf** and **.png** files, and a set of basic beamer slides for all the figures. The source has extension **.Rnw**. Users of *LaTeX* may copy-paste code from the associated **.tex** files. Thomas Piketty's original data is available in the sub-directory **Piketty2014FiguresTables** in **.xlsx** format. The *KnitR/LaTeX* source files are in the sub-directory **slides**. 
 
 
 I) **FILES/SCRIPTS**:  
@@ -129,4 +124,4 @@ III) **KNOWN ISSUES**:
 
 ------
 Patrick Toche, 31 December 2014.
-Updated 17 February 2015.
+Updated 22 February 2015.

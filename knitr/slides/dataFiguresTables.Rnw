@@ -67,7 +67,7 @@ save(TS1.3, file = "data/TS1.3.Rda")
 # Spreadsheet TS1.7
 TS1.7 <- read.xlsx("../Piketty2014FiguresTables/Chapter1TablesFigures.xlsx",
   sheetName = "TS1.7", rowIndex = 8:30, colIndex = c(1:9, 17:22), header = FALSE)
-names(TS1.7) <- c("Year", "Euro/Dollar exchange rate", "Euro/Dollar purchasing power parity rate", "Euro/Yuan exchange rate", "Euro/Yuan purchasing power parity rate", "Euro/Rupee exchange rate", "Euro/Rupee purchasing power parity rate", "Euro/Yen exchange rate", "Euro/Yen purchasing power parity rate", "Dollar/Yuan exchange rate", "Dollar/Yuan purchasing power parity rate", "Dollar/Rupee exchange rate", "Dollar/Rupee purchasing power parity rate", "Dollar/Yen exchange rate", "Dollar/Yen  purchasing power parity rate")
+names(TS1.7) <- c("Year", "Euro/Dollar exchange rate", "Euro/Dollar purchasing power parity rate", "Euro/Yuan exchange rate", "Euro/Yuan purchasing power parity rate", "Euro/Rupee exchange rate", "Euro/Rupee purchasing power parity rate", "Euro/Yen exchange rate", "Euro/Yen purchasing power parity rate", "Dollar/Yuan exchange rate", "Dollar/Yuan purchasing power parity rate", "Dollar/Rupee exchange rate", "Dollar/Rupee purchasing power parity rate", "Dollar/Yen exchange rate", "Dollar/Yen purchasing power parity rate")
 TS1.7 <- melt(TS1.7, id.vars = "Year")
 save(TS1.7, file = "data/TS1.7.Rda")
 
@@ -100,6 +100,37 @@ load("data/TS1.7.Rda")
 df_1_5 <- subset(TS1.7, variable %in% c("Year", "Euro/Yuan exchange rate", "Euro/Yuan purchasing power parity rate"))
 row.names(df_1_5) <- NULL
 save(df_1_5, file = "data/df_1_5.Rda")
+
+# Figure S1.4a / TS1.7 / exchange rate euro/rupee
+load("data/TS1.7.Rda")
+df_S1_4a <- subset(TS1.7, variable %in% c("Year", "Euro/Rupee exchange rate", "Euro/Rupee purchasing power parity rate"))
+row.names(df_S1_4a) <- NULL
+save(df_S1_4a, file = "data/df_S1_4a.Rda")
+
+# Figure S1.4b / TS1.7 / exchange rate euro/yen
+load("data/TS1.7.Rda")
+df_S1_4b <- subset(TS1.7, variable %in% c("Year", "Euro/Yen exchange rate", "Euro/Yen purchasing power parity rate"))
+row.names(df_S1_4b) <- NULL
+save(df_S1_4b, file = "data/df_S1_4b.Rda")
+
+# Figure S1.5a / TS1.7 / exchange rate dollar/yuan
+load("data/TS1.7.Rda")
+df_S1_5a <- subset(TS1.7, variable %in% c("Year", "Dollar/Yuan exchange rate", "Dollar/Yuan purchasing power parity rate"))
+row.names(df_S1_5a) <- NULL
+save(df_S1_5a, file = "data/df_S1_5a.Rda")
+
+# Figure S1.5b / TS1.7 / exchange rate dollar/rupee
+load("data/TS1.7.Rda")
+df_S1_5b <- subset(TS1.7, variable %in% c("Year", "Dollar/Rupee exchange rate", "Dollar/Rupee purchasing power parity rate"))
+row.names(df_S1_5b) <- NULL
+save(df_S1_5b, file = "data/df_S1_5b.Rda")
+
+# Figure S1.5c / TS1.7 / exchange rate dollar/yen
+load("data/TS1.7.Rda")
+df_S1_5c <- subset(TS1.7, variable %in% c("Year", "Dollar/Yen exchange rate", "Dollar/Yen purchasing power parity rate"))
+row.names(df_S1_5c) <- NULL
+save(df_S1_5c, file = "data/df_S1_5c.Rda")
+
 
 
 ## Chapter 2 - Growth: Illusions and Reality
@@ -420,6 +451,36 @@ TS5.5 <- read.xlsx("../Piketty2014FiguresTables/Chapter5TablesFigures.xlsx",
 names(TS5.5) <- c("Year", "United States", "Japan", "Germany", "France", "United Kingdom", "Italy", "Canada", "Australia", "Spain")
 save(TS5.5, file = "data/TS5.5.Rda")
 
+# Spreadsheet TS5.6
+TS5.6 <- read.xlsx("../Piketty2014FiguresTables/Chapter5TablesFigures.xlsx",
+  sheetName = "TS5.6", rowIndex = 5:45, colIndex = 1:10, header = FALSE)
+names(TS5.6) <- c("Year", "United States", "Japan", "Germany", "France", "United Kingdom", "Italy", "Canada", "Australia", "Spain")
+save(TS5.6, file = "data/TS5.6.Rda")
+
+# Spreadsheet TS5.7
+TS5.7 <- read.xlsx("../Piketty2014FiguresTables/Chapter5TablesFigures.xlsx",
+  sheetName = "TS5.7", rowIndex = 5:45, colIndex = 1:10, header = FALSE)
+names(TS5.7) <- c("Year", "United States", "Japan", "Germany", "France", "United Kingdom", "Italy", "Canada", "Australia", "Spain")
+save(TS5.7, file = "data/TS5.7.Rda")
+
+# Spreadsheet TS5.8
+TS5.8 <- read.xlsx("../Piketty2014FiguresTables/Chapter5TablesFigures.xlsx",
+  sheetName = "TS5.8", rowIndex = 5:45, colIndex = 1:10, header = FALSE)
+names(TS5.8) <- c("Year", "United States", "Japan", "Germany", "France", "United Kingdom", "Italy", "Canada", "Australia", "Spain")
+save(TS5.8, file = "data/TS5.8.Rda")
+
+# Spreadsheet TS5.9
+TS5.9 <- read.xlsx("../Piketty2014FiguresTables/Chapter5TablesFigures.xlsx",
+  sheetName = "TS5.9", rowIndex = 5:45, colIndex = 1:10, header = FALSE)
+names(TS5.9) <- c("Year", "United States", "Japan", "Germany", "France", "United Kingdom", "Italy", "Canada", "Australia", "Spain")
+save(TS5.9, file = "data/TS5.9.Rda")
+
+# Spreadsheet TS5.10
+TS5.10 <- read.xlsx("../Piketty2014FiguresTables/Chapter5TablesFigures.xlsx",
+  sheetName = "TS5.10", rowIndex = 5:45, colIndex = 1:10, header = FALSE)
+names(TS5.10) <- c("Year", "United States", "Japan", "Germany", "France", "United Kingdom", "Italy", "Canada", "Australia", "Spain")
+save(TS5.10, file = "data/TS5.10.Rda")
+
 # Spreadsheet TS5.11
 TS5.11 <- read.xlsx("../Piketty2014FiguresTables/Chapter5TablesFigures.xlsx",
   sheetName = "TS5.11", rowIndex = 5:45, colIndex = 1:9, header = FALSE)
@@ -553,7 +614,7 @@ df_5_7 <- subset(df_5_7S, variable %in% c("United States", "Japan", "Germany", "
 row.names(df_5_7) <- NULL
 save(df_5_7, file = "data/df_5_7.Rda")
 
-# Figure 5.8 / CTS12.3 / world capital/income ratio
+# Figure 5.8 / CTS12.3 / world capital to income ratio
 # Create factors Observed / Projected
 load("data/cTS12.3.Rda")
 df_5_8 <- melt(cTS12.3, id.vars = "Year")
@@ -561,6 +622,85 @@ df_5_8$Category <- as.factor(ifelse(df_5_8$Year < 2011, "Observed", "Projected")
 row.names(df_5_8) <- NULL
 save(df_5_8, file = "data/df_5_8.Rda")
 
+
+############## IN PROGRESS #################
+
+### make data frames S5.7 to S5.11
+
+
+# Figure S5.6 / TS5.5 + TS5.6 + TS5.7 / USA / Net foreign capital to income ratio
+load("data/TS5.5.Rda")
+df_S5_6a <- TS5.5[, c("Year", "United States")]
+load("data/TS5.6.Rda")
+df_S5_6b <- TS5.6[, c("Year", "United States")]
+load("data/TS5.7.Rda")
+df_S5_6c <- TS5.7[, c("Year", "United States")]
+df_S5_6 <- Reduce(function(...)merge(..., by = "Year"), list(df_S5_6a, df_S5_6b, df_S5_6c))
+names(df_S5_6) <- c("Year", "Net position (NFA)", "Foreign assets", "Foreign liabilities")
+df_S5_6 <- melt(df_S5_6, id.vars = "Year")
+save(df_S5_6, file = "data/df_S5_6.Rda")
+
+
+# Figure S5.7 / TS5.5 / Japan / Net foreign capital to income ratio
+load("data/TS5.5.Rda")
+df_S5_7a <- TS5.5[, c("Year", "Japan")]
+load("data/TS5.6.Rda")
+df_S5_7b <- TS5.6[, c("Year", "Japan")]
+load("data/TS5.7.Rda")
+df_S5_7c <- TS5.7[, c("Year", "Japan")]
+df_S5_7 <- Reduce(function(...)merge(..., by = "Year"), list(df_S5_7a, df_S5_7b, df_S5_7c))
+names(df_S5_7) <- c("Year", "Net position (NFA)", "Foreign assets", "Foreign liabilities")
+df_S5_7 <- melt(df_S5_7, id.vars = "Year")
+save(df_S5_7, file = "data/df_S5_7.Rda")
+
+# Figure S5.8 / TS5.5 / Germany / Net foreign capital to income ratio
+load("data/TS5.5.Rda")
+df_S5_8a <- TS5.5[, c("Year", "Germany")]
+load("data/TS5.6.Rda")
+df_S5_8b <- TS5.6[, c("Year", "Germany")]
+load("data/TS5.7.Rda")
+df_S5_8c <- TS5.7[, c("Year", "Germany")]
+df_S5_8 <- Reduce(function(...)merge(..., by = "Year"), list(df_S5_8a, df_S5_8b, df_S5_8c))
+names(df_S5_8) <- c("Year", "Net position (NFA)", "Foreign assets", "Foreign liabilities")
+df_S5_8 <- melt(df_S5_8, id.vars = "Year")
+save(df_S5_8, file = "data/df_S5_8.Rda")
+
+# Figure S5.9 / TS5.5 / France / Net foreign capital to income ratio
+load("data/TS5.5.Rda")
+df_S5_9a <- TS5.5[, c("Year", "France")]
+load("data/TS5.6.Rda")
+df_S5_9b <- TS5.6[, c("Year", "France")]
+load("data/TS5.7.Rda")
+df_S5_9c <- TS5.7[, c("Year", "France")]
+df_S5_9 <- Reduce(function(...)merge(..., by = "Year"), list(df_S5_9a, df_S5_9b, df_S5_9c))
+names(df_S5_9) <- c("Year", "Net position (NFA)", "Foreign assets", "Foreign liabilities")
+df_S5_9 <- melt(df_S5_9, id.vars = "Year")
+save(df_S5_9, file = "data/df_S5_9.Rda")
+
+# Figure S5.10 / TS5.5 / United Kingdom / Net foreign capital to income ratio
+load("data/TS5.5.Rda")
+df_S5_10a <- TS5.5[, c("Year", "United Kingdom")]
+load("data/TS5.6.Rda")
+df_S5_10b <- TS5.6[, c("Year", "United Kingdom")]
+load("data/TS5.7.Rda")
+df_S5_10c <- TS5.7[, c("Year", "United Kingdom")]
+df_S5_10 <- Reduce(function(...)merge(..., by = "Year"), list(df_S5_10a, df_S5_10b, df_S5_10c))
+names(df_S5_10) <- c("Year", "Net position (NFA)", "Foreign assets", "Foreign liabilities")
+df_S5_10 <- melt(df_S5_10, id.vars = "Year")
+save(df_S5_10, file = "data/df_S5_10.Rda")
+
+# Figure S5.11 / TS5.5 / Spain / Net foreign capital to income ratio
+load("data/TS5.5.Rda")
+df_S5_11a <- TS5.5[, c("Year", "Spain")]
+load("data/TS5.6.Rda")
+df_S5_11b <- TS5.6[, c("Year", "Spain")]
+load("data/TS5.7.Rda")
+df_S5_11c <- TS5.7[, c("Year", "Spain")]
+df_S5_11 <- Reduce(function(...)merge(..., by = "Year"), list(df_S5_11a, df_S5_11b, df_S5_11c))
+names(df_S5_11) <- c("Year", "Net position (NFA)", "Foreign assets", "Foreign liabilities")
+df_S5_11 <- na.omit(df_S5_11)  # remove NAs
+df_S5_11 <- melt(df_S5_11, id.vars = "Year")
+save(df_S5_11, file = "data/df_S5_11.Rda")
 
 
 ## Chapter 6 - The Capital/Labor Split in the Twenty-First Century
@@ -1226,6 +1366,20 @@ rl$values[which(rl$lengths > 9 & !rl$values)] <- TRUE
 df_9_9 <- df_9_9[inverse.rle(rl), ] # connect some but not all NAs
 row.names(df_9_9) <- NULL
 save(df_9_9, file = "data/df_9_9.Rda")
+
+# Figure S9.1 / TS9.1 / minimum wage / France
+load("data/TS9.1.Rda")
+df_S9_1 <- subset(TS9.1, variable %in% c("Year", "France (current euros)", "France (2013 euros)"))
+df_S9_1[df_S9_1$variable == "France (current euros)", ]$variable <- "Minimum wage in current euros"
+df_S9_1[df_S9_1$variable == "France (2013 euros)", ]$variable <- "Minimum wage in 2013 euros"
+save(df_S9_1, file = "data/df_S9_1.Rda")
+
+# Figure S9.2 / TS9.1 / minimum wage / United States
+load("data/TS9.1.Rda")
+df_S9_2 <- subset(TS9.1, variable %in% c("Year", "United States (current dollars)", "United States (2013 dollars)"))
+df_S9_2[df_S9_2$variable == "United States (current dollars)", ]$variable <- "Minimum wage in current dollars"
+df_S9_2[df_S9_2$variable == "United States (2013 dollars)", ]$variable <- "Minimum wage in 2013 dollars"
+save(df_S9_2, file = "data/df_S9_2.Rda")
 
 
 ## Chapter 10 - Inequality of Capital Ownership

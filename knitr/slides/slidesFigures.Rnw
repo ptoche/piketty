@@ -149,7 +149,7 @@ local({# works for first element of dev=c('pdf','png')
 }) 
 
 ### Load R Packages to compile knitr chunks:
-# setwd("~/R/capital21c/Github/Slides")# temp for convenience
+# setwd("~/piketty/knitr/slides")# temp for convenience
 library("ggplot2")      # wide range of plotting capabilities
 library("scales")       # labels with %, $ and other units
 library("RColorBrewer") # convenient color palettes
@@ -212,6 +212,11 @@ yen <- function(x) {
 } 
 # Create yuan currency symbol
 yuan <- yen  # not straightforward to use "元" instead of "¥"
+# Create rupee currency symbol
+# Rupee symbol created in 2010: ₹, unicode \u20B9 Previously: Rs
+rupee <- function(x) {
+  paste0("Rs", format(x, big.mark = ",", decimal.mark = ".", trim = TRUE, scientific = FALSE))
+} 
 # French style formatting for dollar
 dollarFrench <- function(x) {
   paste0(format(x, big.mark = " ", decimal.mark = ",", trim = TRUE, scientific = FALSE), " $")
@@ -490,7 +495,7 @@ ggplot(data = df_1_3, aes(x = Year, y = value, group = variable, colour = variab
 
 %%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[label=Figure_1_4,fragile]
-\frametitle{Figure 1.4. Global Inequality, 1700--2012}
+\frametitle{Figure 1.4. Exchange rate and purchasing power parity: euro/dollar}
 \begin{figure}[t]
 \begin{minipage}[b]{\textwidth}
 \centering
@@ -516,6 +521,91 @@ load("data/df_1_5.Rda")  # load data from /data subdirectory
 ggplot(data = df_1_5, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Exchange rate Euro/Yuan (in yuans)") + xlab(NULL) + scale_x_continuous(breaks = seq(1990, 2012, by = 2)) + scale_y_continuous(limits = c(1, 12), labels = yuan, breaks = seq(0, 12, by = 2)) + scale_shape_manual(name = "Market rate versus PPP", values = shapePalettePaired) + scale_colour_manual(name = "Market rate versus PPP", values = colorPalette) + theme(legend.position = c(.75, .1)) 
 @
 \caption{In 2012, 1 euro was worth 8 yuan according to current exchange rate, but 5 yuan in purchasing power parity.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S1_4a,fragile]
+\frametitle{Figure S1.4a. Exchange rate and purchasing power parity : euro/rupee}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S1_4a', out.width='1\\linewidth'>>=
+load("data/df_S1_4a.Rda")  # load data from /data subdirectory
+ggplot(data = df_S1_4a, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Exchange rate Euro/Rupee (in rupee)") + xlab(NULL) + scale_x_continuous(breaks = seq(1990, 2012, by = 2)) + scale_y_continuous(limits = c(0, 70), labels = rupee, breaks = seq(0, 70, by = 10)) + scale_shape_manual(name = "Market rate versus PPP", values = shapePalettePaired) + scale_colour_manual(name = "Market rate versus PPP", values = colorPalette) + theme(legend.position = c(.25, .85)) 
+@
+\caption{In 2012, 1 euro was worth around 70 rupees according to current exchange rate, but 25 rupees in purchasing power parity.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S1_4b,fragile]
+\frametitle{Figure S1.4b. Exchange rate and purchasing power parity : euro/yen}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S1_4b', out.width='1\\linewidth'>>=
+load("data/df_S1_4b.Rda")  # load data from /data subdirectory
+ggplot(data = df_S1_4b, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Exchange rate Euro/Yen (in yen)") + xlab(NULL) + scale_x_continuous(breaks = seq(1990, 2012, by = 2)) + scale_y_continuous(limits = c(95, 200), labels = yen, breaks = seq(100, 200, by = 10)) + scale_shape_manual(name = "Market rate versus PPP", values = shapePalettePaired) + scale_colour_manual(name = "Market rate versus PPP", values = colorPalette) + theme(legend.position = c(.7, .85)) 
+@
+\caption{In 2012, 1 euro was worth around 100 yens according to current exchange rate, but 125 yens in purchasing power parity.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S1_5a,fragile]
+\frametitle{Figure S1.5a. Exchange rate and purchasing power parity : dollar/yuan}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S1_5a', out.width='1\\linewidth'>>=
+load("data/df_S1_5a.Rda")  # load data from /data subdirectory
+ggplot(data = df_S1_5a, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Exchange rate Dollar/Yuan (in yuan)") + xlab(NULL) + scale_x_continuous(breaks = seq(1990, 2012, by = 2)) + scale_y_continuous(limits = c(2, 9), labels = yuan, breaks = seq(1, 10, by = 1)) + scale_shape_manual(name = "Market rate versus PPP", values = shapePalettePaired) + scale_colour_manual(name = "Market rate versus PPP", values = colorPalette) + theme(legend.position = c(.5, .5)) 
+@
+\caption{In 2012, 1 dollar was worth around 6 yuans according to current exchange rate, but 4 yuans in purchasing power parity.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S1_5b,fragile]
+\frametitle{Figure S1.5b. Exchange rate and purchasing power parity : dollar/rupee}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S1_5b', out.width='1\\linewidth'>>=
+load("data/df_S1_5b.Rda")  # load data from /data subdirectory
+ggplot(data = df_S1_5b, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Exchange rate Dollar/Rupee (in rupee)") + xlab(NULL) + scale_x_continuous(breaks = seq(1990, 2012, by = 2)) + scale_y_continuous(limits = c(0, 60), labels = rupee, breaks = seq(0, 60, by = 10)) + scale_shape_manual(name = "Market rate versus PPP", values = shapePalettePaired) + scale_colour_manual(name = "Market rate versus PPP", values = colorPalette) + theme(legend.position = c(.55, .45)) 
+@
+\caption{In 2012, 1 dollar was worth around 50 rupees according to current exchange rate, but 20 rupees in purchasing power parity.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S1_5c,fragile]
+\frametitle{Figure S1.5c. Exchange rate and purchasing power parity : dollar/yen}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S1_5c', out.width='1\\linewidth'>>=
+load("data/df_S1_5c.Rda")  # load data from /data subdirectory
+ggplot(data = df_S1_5c, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Exchange rate Dollar/Yen (in yen)") + xlab(NULL) + scale_x_continuous(breaks = seq(1990, 2012, by = 2)) + scale_y_continuous(limits = c(60, 200), labels = yen, breaks = seq(60, 200, by = 20)) + scale_shape_manual(name = "Market rate versus PPP", values = shapePalettePaired) + scale_colour_manual(name = "Market rate versus PPP", values = colorPalette) + theme(legend.position = c(.75, .85)) 
+@
+\caption{In 2012, 1 dollar was worth around 80 yens according to current exchange rate, but 110 yens in purchasing power parity.}
 \end{minipage}
 \end{figure}
 \end{frame}
@@ -1172,6 +1262,108 @@ ggplot(data = df_5_8, aes(x = Year, y = value)) + geom_line(aes(group = variable
 
 
 %%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S5_6]
+\frametitle{Figure S5.6. Foreign assets and liabilities in the United States 1970--2010}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S5_6', results = 'hide', echo = FALSE, comment = NA, warning = FALSE, message = FALSE>>=
+load("data/df_S5_6.Rda")  # load data from /data subdirectory
+ggplot(data = df_S5_6, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Foreign assets and liabilities (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(-.4, 1.4), labels = percent, breaks = seq(-.4, 1.4, by = .2)) + scale_shape_manual(name = "variable", values = shapePalette) + scale_colour_manual(name = "variable", values = colorPalette) + theme(legend.position = c(0.25, 0.8), legend.title = element_blank())
+@
+\caption{Foreign liabilities (what the rest of the world owns in the US) have outweighted foreign assets (what the US own in the rest of the world) since 1985--1986.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S5_7]
+\frametitle{Figure S5.7. Foreign assets and liabilities in the Japan. 1970--2010}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S5_7', results = 'hide', echo = FALSE, comment = NA, warning = FALSE, message = FALSE>>=
+load("data/df_S5_7.Rda")  # load data from /data subdirectory
+ggplot(data = df_S5_7, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Foreign assets and liabilities (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(0, 1.6), labels = percent, breaks = seq(0, 1.6, by = .2)) + scale_shape_manual(name = "variable", values = shapePalette) + scale_colour_manual(name = "variable", values = colorPalette) + theme(legend.position = c(0.25, 0.8), legend.title = element_blank())
+@
+\caption{Foreign assets (what Japan owns in the rest of the world) are almost twice as large as foreign liabilities (what the rest of the world owns in Japan) in 2010.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S5_8]
+\frametitle{Figure S5.8. Foreign assets and liabilities in the Germany. 1970--2010}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S5_8', results = 'hide', echo = FALSE, comment = NA, warning = FALSE, message = FALSE>>=
+load("data/df_S5_8.Rda")  # load data from /data subdirectory
+ggplot(data = df_S5_8, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Foreign assets and liabilities (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(0, 2.7), labels = percent, breaks = seq(0, 2.8, by = .4)) + scale_shape_manual(name = "variable", values = shapePalette) + scale_colour_manual(name = "variable", values = colorPalette) + theme(legend.position = c(0.25, 0.8), legend.title = element_blank())
+@
+\caption{Foreign assets and liabilities in Germany have risen a lot since the 1980s--1990s.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S5_9]
+\frametitle{Figure S5.9. Foreign assets and liabilities in the France. 1970--2010}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S5_9', results = 'hide', echo = FALSE, comment = NA, warning = FALSE, message = FALSE>>=
+load("data/df_S5_9.Rda")  # load data from /data subdirectory
+ggplot(data = df_S5_9, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Foreign assets and liabilities (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(-.2, 3.3), labels = percent, breaks = seq(-.2, 3.5, by = .4)) + scale_shape_manual(name = "variable", values = shapePalette) + scale_colour_manual(name = "variable", values = colorPalette) + theme(legend.position = c(0.25, 0.8), legend.title = element_blank())
+@
+\caption{Like in Germany, foreign assets and liabilities have risen a lot since 1980s--1990s (but with a negative net position at the end of the period).}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S5_10]
+\frametitle{Figure S5.10. Foreign assets and liabilities in the United Kingdom. 1970--2010}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S5_10', results = 'hide', echo = FALSE, comment = NA, warning = FALSE, message = FALSE>>=
+load("data/df_S5_10.Rda")  # load data from /data subdirectory
+ggplot(data = df_S5_10, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Foreign assets and liabilities (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1970, 2010, by = 5)) + scale_y_continuous(limits = c(-1, 9), labels = percent, breaks = seq(-1, 9, by = 1)) + scale_shape_manual(name = "variable", values = shapePalette) + scale_colour_manual(name = "variable", values = colorPalette) + theme(legend.position = c(0.25, 0.8), legend.title = element_blank())
+@
+\caption{In the United Kingdom, foreign assets and liabilities reached 7--8 years of national income at the end of the period.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S5_11]
+\frametitle{Figure S5.11. Foreign assets and liabilities in the Spain. 1980--2010}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S5_11', results = 'hide', echo = FALSE, comment = NA, warning = FALSE, message = FALSE>>=
+load("data/df_S5_11.Rda")  # load data from /data subdirectory
+ggplot(data = df_S5_11, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Foreign assets and liabilities (% national income)") + xlab(NULL) + scale_x_continuous(breaks = seq(1980, 2010, by = 5)) + scale_y_continuous(limits = c(-1.5, 3), labels = percent, breaks = seq(-1.5, 3, by = .5)) + scale_shape_manual(name = "variable", values = shapePalette) + scale_colour_manual(name = "variable", values = colorPalette) + theme(legend.position = c(0.25, 0.8), legend.title = element_blank())
+@
+\caption{Net foreign debt of Spain exceeds a year of national income in 2010.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[label=Figure_6_1]
 \frametitle{Figure 6.1. The capital-labor split in Britain, 1770--2010}
 \begin{figure}[t]
@@ -1531,6 +1723,40 @@ rhs <- ggplot(data = subset(df_9_1, variable %in% c("Year", "United States (2013
 p <- ggplot_dual_axis(lhs = lhs, rhs = rhs); p
 @
 \caption{Expressed in 2013 purchasing power, the hourly minimum wage rose from \$3.80 to \$7.30 between 1950 and 2013 in the United States, and from \euro 2.10 to \euro 9.40 in France.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S9_1]
+\frametitle{Figure S9.1. Minimum wage in France, 1950--2013}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S9_1', results = 'hide', echo = FALSE, comment = NA, warning = FALSE, message = FALSE>>=
+load("data/df_S9_1.Rda")  # load data from /data subdirectory
+ggplot(data = df_S9_1, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Hourly minimum wage") + xlab(NULL) + scale_x_continuous(breaks = seq(1950, 2013, by = 10)) + scale_y_continuous(limits = c(0, 10), labels = euro, breaks = seq(0, 10, by = 1)) + scale_shape_manual(name = "variable", values = shapePalettePaired) + scale_colour_manual(name = "variable", values = colorPalette) + theme(legend.position = c(0.25, 0.85), legend.title = element_blank())
+@
+\caption{Expressed in 2013 purchasing power, the hourly minimum wage rose from \euro 2.10 to \euro 9.40 in France between 1950 and 2013.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_S9_2]
+\frametitle{Figure S9.2. Minimum wage in United States, 1950--2013}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+<<'Figure_S9_2', results = 'hide', echo = FALSE, comment = NA, warning = FALSE, message = FALSE>>=
+load("data/df_S9_2.Rda")  # load data from /data subdirectory
+ggplot(data = df_S9_2, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Hourly minimum wage") + xlab(NULL) + scale_x_continuous(breaks = seq(1950, 2013, by = 10)) + scale_y_continuous(limits = c(0, 11), labels = dollar, breaks = seq(0, 11, by = 1)) + scale_shape_manual(name = "variable", values = shapePalettePaired) + scale_colour_manual(name = "variable", values = colorPalette) + theme(legend.position = c(0.8, 0.85), legend.title = element_blank())
+@
+\caption{Expressed in 2013 purchasing power, the hourly minimum wage rose from \$3.80 to \$7.30 in the United States between 1950 and 2013.}
 \end{minipage}
 \end{figure}
 \end{frame}
