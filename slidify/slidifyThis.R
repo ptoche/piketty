@@ -28,7 +28,7 @@ slidify('figures.Rmd')
 # Make individual chapter slides with slidify()
 setwd("~/piketty/slidify/lectures/Chapter 09") 
 library(slidify)
-slidify('index2.Rmd')
+slidify('text.Rmd')
 
 # Make Exercises slides index with slidify()
 setwd("~/piketty/slidify/exercises") 

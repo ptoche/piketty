@@ -102,6 +102,27 @@ source('../../shared/shared.R')
 - The capital/income ratio in Italy, Spain, Belgium, the Netherlands, and Austria has inreased since 1970 more sharply than the UK and France. 
 - The fall in the capital/income ratio during 1914-1945 is explained partly by the physical destruction of capital (buildings, factories, infrastructure) during the 2 world wars. Capital worth about 150% of national income was destroyed in Germany, 100% in France, 10% in the UK.
 
+
+---
+
+### Dresden in 1910
+
+<figure class = "centered">  
+<img src = "../../images/Dresden_1910.jpg" alt = "The city of Dresden in 1910.">
+<figcaption class = 'figcaption'>Source: <a href="http://commons.wikimedia.org/">Wiki Media Commons</a>.
+</figcaption> 
+</figure>
+
+---
+
+### Dresden in 1945
+
+<figure class = "centered"> 
+<img src = "../../images/Dresden_1945.jpg" alt = "The city of Dresden in 1945.">
+<figcaption class = 'figcaption'>Source: <a href="http://commons.wikimedia.org/">Wiki Media Commons</a>.
+</figcaption> 
+</figure>
+
 ---
 
 ### Shocks to Capital in the 20th Century
@@ -110,6 +131,17 @@ source('../../shared/shared.R')
 - The collapse of foreign portfolios and the very low savings rate explain 3/4 of the decline. The UK losses on international portfolio were greater than French or German losses.
 - The decline of foreign capital was caused by expropriations due to revolution and decolonization (default on Russian debt in 1917, the nationalization of the Suez Canal in 1956), bankruptcies during the great depression, and very low savings rate.  
 - The economic shocks were more destructive to capital than the physical destruction of the wars. 
+
+
+---
+
+### The Economy in War and in Peace
+
+<figure class = "centered"> 
+<img src = "../../images/NewYorker - Manufacturing in War and Peace.jpg" alt = "NewYorker - Manufacturing in War and in Peace.">
+<figcaption class = 'figcaption'>Source: <a href="http://www.newyorker.com/">Alan Dunn, The New Yorker, 1946-08-17</a>.
+</figcaption> 
+</figure>
 
 ---
 
@@ -122,9 +154,30 @@ source('../../shared/shared.R')
 
 ---
 
+### Canada
+
 <figure class = "centered">  
-<img src = "../../images/Alexis_de_Tocqueville_by_Théodore Chassériau_1850.jpg" alt = "Alexis de Tocqueville (1805-1859) in 1850.">
-<figcaption class = 'figcaption'>Alexis de Tocqueville (1805-1859), author of "Democracy in America", portrait by Théodore Chassériau, 1850. In 1840, Tocqueville noted of the United States, "the number of large fortunes is quite small, and capital is still scarce."
+<img src = "../../images/Canada.png" alt = "Political Map of Canada in 2010">
+<figcaption class = 'figcaption'>Political Map of Canada Today.
+</figcaption>  
+</figure> 
+
+---
+
+### Foreign Capital in Canada
+
+- Figure 4.9 shows capital and its components.
+- In 1910, domestic capital was 530% of national income, including net foreign assets of 120%, so net national wealth was 410%. a large share of domestic capital was owned by foreign investors, mainly British, especially in the natural resources sector (copper, zinc, and aluminum mines as well as hydrocarbons).
+- Today domestic capital is 410% of national income, including net foreign assets of 10%, making 98% of capital owned by Canadians and less than 2% by foreign investors. As Europeans sold their foreign assets, foreign ownership fell. 
+- Political factors explain the different history of the United States and Canada. Canada became independent in a series of peaceful steps in 1867, 1919, 1931, 1948 (de facto independence after that date), and 1982. 
+
+---
+
+### The United States
+
+<figure class = "centered">  
+<img src = "../../images/United_States_Expansion.png" alt = "Historical Map of the United States.">
+<figcaption class = 'figcaption'>Historical Map of the United States.
 </figcaption>  
 </figure> 
 
@@ -138,6 +191,14 @@ source('../../shared/shared.R')
 - There was so much land that its market value was very low. Accumulated wealth had less importance in the New World.
 - The gap with old Europe shrunk by half in one century.
 - The capital/income ratio remained stable at 400% to 500% of national income during 1910-2010, while it dropped in Europe. 
+
+---
+
+<figure class = "centered">  
+<img src = "../../images/Alexis_de_Tocqueville_by_Théodore Chassériau_1850.jpg" alt = "Alexis de Tocqueville (1805-1859) in 1850.">
+<figcaption class = 'figcaption'>Alexis de Tocqueville (1805-1859), author of "Democracy in America", portrait by Théodore Chassériau, 1850. In 1840, Tocqueville noted of the United States, "the number of large fortunes is quite small, and capital is still scarce."
+</figcaption>  
+</figure> 
 
 ---
 
@@ -161,26 +222,7 @@ source('../../shared/shared.R')
 
 ---
 
-### Canada
-
-<figure class = "centered">  
-<img src = "../../images/Canada.png" alt = "Political Map of Canada in 2010">
-<figcaption class = 'figcaption'>Political Map of Canada Today.
-</figcaption>  
-</figure> 
-
----
-
-### Foreign Capital in Canada
-
-- Figure 4.9 shows capital and its components.
-- In 1910, domestic capital was 530% of national income, including net foreign assets of 120%, so net national wealth was 410%. a large share of domestic capital was owned by foreign investors, mainly British, especially in the natural resources sector (copper, zinc, and aluminum mines as well as hydrocarbons).
-- Today domestic capital is 410% of national income, including net foreign assets of 10%, making 98% of capital owned by Canadians and less than 2% by foreign investors. As Europeans sold their foreign assets, foreign ownership fell. 
-- Political factors explain the different history of the United States and Canada. Canada became independent in a series of peaceful steps in 1867, 1919, 1931, 1948 (de facto independence after that date), and 1982. 
-
----
-
-### Cotton Fields
+### Slave Capital
 
 <figure class = "centered">  
 <img src = "../../images/American_Slaves.jpg" alt = "American slaves in a cotton field.">
@@ -258,7 +300,7 @@ source('../../shared/shared.R')
 
 --- 
 
-### Slave Capital and Human Capital
+### Slave Capital
 
 - In economies where slaves represent a large share of the population, their market value can be very high. Imagine a society where all workers are slaves. Suppose labor income is 60% of national income, capital income 40%, and the return on non-human capital is 5% a year.
 - From the first fundamental law of capitalism, the value of national capital (excluding slaves) is 800% of national income:
@@ -274,10 +316,11 @@ The market value of slaves is equal to 1,200% of national income.
 
 --- 
 
-### Slave Capital and Human Capital
+### Slave Capital
 
 - In the US during 1770–1810, slave capital was 150% of national income (not 1,200%) &mdash; the proportion of slaves in the population was 20% (not 100%); the average productivity of slaves was below free labor; and the rate of return on slave capital was generally closer to 7 or 8 percent, or even higher, than it was to 5 percent, leading to a lower capitalization.
 - In 1860, the average price of a male slave of prime working age was roughly \\$2,000, while the average wage of a free farm laborer was \\$200 &mdash; a slave accounting for 10 to 12 years of a free worker's wages. 
+- Slaves were assets that gave their owners a return, that depreciated, that could be accumulated, that could be bought and sold, much like physical capital &mdash; quite unlike what some economists have called 'human capital.'
 
 <!---
 

@@ -17,12 +17,13 @@ Based on Professor Piketty's [technical appendices](http://piketty.pse.ens.fr/en
 
 ---------
 
-This repository contains 2 directories named `1`. **knitr** and `2`. **slidify**. The two directories are independent of each other (figures and data produced in directory **knitr** were copied into directory **slidify** to allow this). 
+This repository contains 3 directories named `1`. **knitr**, `2`. **slidify**, and `3`. **exercises**. The directories are independent of each other (figures and data produced in directory **knitr** were copied into directory **slidify** to allow this). 
 
   1. The **knitr** directory contains *KnitR/LaTeX/Beamer* source code to produce all book figures as standalone **.pdf** and **.png** files, and a set of basic beamer slides for all the figures. The source has extension **.Rnw**. Users of *LaTeX* may copy-paste code from the associated **.tex** files. Thomas Piketty's original data is available in the sub-directory **Piketty2014FiguresTables** in **.xlsx** format. The *KnitR/LaTeX* source files are in the sub-directory **slides**. 
     
   2. The  **slidify** directory contains *slidify/rCharts/NVD3/HTML* source code to produce all book figures in **.html** format, and a set of html slides for each chapter. The sources have extension **.Rmd** and are located inside the **lectures** sub-directory for each chapter. The figures are available as standalone html files inside each chapter's **figures** sub-directory. In addition, there is a general index at the root, and a few additional resources such as quizzes and exercises.
 
+  3. The **exercises** directory contains various sources to practice on certain technical aspects of the book, e.g. computing cumulated growth, charting Lorenz curves.
 
 ------
 Patrick Toche, 31 December 2014.

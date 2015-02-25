@@ -1,10 +1,10 @@
 ---
-title       : Chapter 5, The Capital/Income Ratio Over the Long Run
+title       : Chapter 5 -- The Capital/Income Ratio Over the Long Run
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
-framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "05"
@@ -535,4 +535,141 @@ $$
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
+<!---
+
+### Foreign assets and liabilities in the United States
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_6.png" alt = "Figure S5.6. Foreign assets and liabilities in the United States 1970-2010">  
+<figcaption class = 'figcaption'>Figure S5.6. Foreign liabilities (what the rest of the world owns in the US) have outweighted foreign assets (what the US own in the rest of the world) since 1985-1986.</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in the United States
+
+
+<iframe src = 'figures/Figure_S5_6.html' alt = "Figure S5.6. Foreign assets and liabilities in the United States 1970-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.6. Foreign liabilities (what the rest of the world owns in the US) have outweighted foreign assets (what the US own in the rest of the world) since 1985-1986.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Foreign assets and liabilities in Japan
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_7.png" alt = "Figure S5.7. Foreign assets and liabilities in Japan 1970-2010">  
+<figcaption class = 'figcaption'>Figure S5.7. Foreign assets (what Japan owns in the rest of the world) are almost twice as large as foreign liabilities (what the rest of the world owns in Japan) in 2010.</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in Japan
+
+
+<iframe src = 'figures/Figure_S5_7.html' alt = "Figure S5.7. Foreign assets and liabilities in Japan 1970-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.7. Foreign assets (what Japan owns in the rest of the world) are almost twice as large as foreign liabilities (what the rest of the world owns in Japan) in 2010.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Foreign assets and liabilities in Germany
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_8.png" alt = "Figure S5.8. Foreign assets and liabilities in Germany 1970-2010">  
+<figcaption class = 'figcaption'>Figure S5.8. Foreign assets and liabilities in Germany have risen a lot since the 1980s-1990s.</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in Germany
+
+
+<iframe src = 'figures/Figure_S5_8.html' alt = "Figure S5.8. Foreign assets and liabilities in Germany 1970-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.8. Foreign assets and liabilities in Germany have risen a lot since the 1980s-1990s.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Foreign assets and liabilities in France
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_9.png" alt = "Figure S5.9. Foreign assets and liabilities in France 1970-2010">  
+<figcaption class = 'figcaption'>Figure S5.9. Like in Germany, foreign assets and liabilities have risen a lot since 1980s-1990s (but with a negative net position at the end of the period).</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in France
+
+
+<iframe src = 'figures/Figure_S5_9.html' alt = "Figure S5.9. Foreign assets and liabilities in France 1970-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.9. Like in Germany, foreign assets and liabilities have risen a lot since 1980s-1990s (but with a negative net position at the end of the period).</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Foreign assets and liabilities in the United Kingdom
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_10.png" alt = "Figure S5.10. Foreign assets and liabilities in the United Kingdom 1970-2010">  
+<figcaption class = 'figcaption'>Figure S5.10. In the United Kingdom, foreign assets and liabilities reached 7-8 years of national income at the end of the period.</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in the United Kingdom
+
+
+<iframe src = 'figures/Figure_S5_10.html' alt = "Figure S5.10. Foreign assets and liabilities in the United Kingdom 1970-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.10. In the United Kingdom, foreign assets and liabilities reached 7-8 years of national income at the end of the period.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Foreign assets and liabilities in Spain
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_11.png" alt = "Figure S5.11. Foreign assets and liabilities in Spain 1980-2010.">  
+<figcaption class = 'figcaption'>Figure S5.11. Net foreign debt of Spain exceeds a year of national income in 2010.</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in Spain
+
+
+<iframe src = 'figures/Figure_S5_11.html' alt = "Figure S5.11. Foreign assets and liabilities in Spain 1980-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.11. Net foreign debt of Spain exceeds a year of national income in 2010.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
 

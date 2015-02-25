@@ -91,18 +91,20 @@ source('../../shared/shared.R')
 
 - It is important to distinguish the components of inequality: 
 
-    `1`. on 'moral' grounds, each component raises its own moral issue;
+    `1`. On 'moral' grounds  
     
-    `2`. on 'scientific' grounds, the economic, social, and political mechanisms behind each component are distinct. Labor income inequality depends on the supply and demand in skills (and therefore on technology and education), on the determination of wages (legal constraints and institutions). Capital income inequality depends on savings and investment, gifts and inheritance, regulation and taxes.
-
-- Synthetic indices (Gini coefficient, Theil index), do not distinguish different sources of inequality. 
+    - each component raises its own moral issue.
+    
+    `2`. On 'scientific' grounds  
+    
+    - the economic, social, and political mechanisms behind each component are distinct. Labor income inequality depends on the supply and demand in skills (and therefore on technology and education), on the determination of wages (legal constraints and institutions). Capital income inequality depends on savings and investment, gifts and inheritance, regulation and taxes.
 
 ---
 
 ### Capital: More Unequal Than Labor
 
 - Inequality of capital ownership and inequality of capital incomes are always greater than inequality of labor incomes, in all countries in all periods for which data are available, without exception.
-- The top 10% of the labor income distribution generally receive 25%–30% of the total.
+- The top 10% of the labor income distribution receive 25%–30% of total labor income.
 - The top 10% of the capital income distribution always own more than 50% of total wealth (in some countries 90%). 
 - The bottom 50% of the wage distribution receive 1/4 to 1/3.
 - The bottom 50% of the wealth distribution own less than 10% and generally less than 5% of total wealth. 
@@ -330,6 +332,37 @@ The bottom 50% still own only 5% in 2010, just as in 1910. But the middle 40% ow
 - The Gini of national income ranges from 0.3 to 0.5.
 - The Gini of labor incomes in Scandinavia 1970-1990 was 0.19.
 - The Gini of wealth in 1900 Europe was 0.85.
+
+---
+
+#### The Lorenz Curve and Gini Coefficient
+
+```{r LorenzCurve, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+tbl <- "
+| Name | Weekly Wage (Pound Sterling) |
+|-----------------------|:-------:|
+| Marc André ter Stegen | 55,000  | 
+| Adriano Correia       | 60,000  | 
+| Pedro Rodríguez       | 60,000  | 
+| Sergio Busquets       | 66,500  | 
+| Jordi Alba            | 75,000  | 
+| Ivan Rakitic          | 75,000  | 
+| Jérémy Mathieu        | 90,000  | 
+| Javier Mascherano     | 100,000 | 
+| Gerard Piqué          | 120,000 | 
+| Dani Alves            | 120,000 | 
+| Andrés Iniesta        | 130,000 | 
+| Xavi Hernández        | 130,000 | 
+| Neymar da Silva       | 150,000 | 
+| Luis Suárez           | 200,000 | 
+| Lionel Messi          | 256,000 | 
+"
+cat(tbl)  # output the table
+```
+- The table shows weekly wages for 15 players of Barcelona FC for 2014-2015. Chart the Lorenz curve and compute the Gini coefficient.
+
+<footer class = 'footnote'>Source: [France Football Magazine](http://www.francefootball.fr/).
+</footer> 
 
 ---
 

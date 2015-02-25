@@ -1,10 +1,10 @@
 ---
-title       : Chapter 6, The Capital-Labor Split in the 21st Century
+title       : Chapter 6 -- The Capital-Labor Split in the 21st Century
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
-framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "06"
@@ -165,7 +165,7 @@ $$
 ### The Contradictions of Capitalism
 
 $$
-\alpha = r \times \beta, \, \, \, \, \, \, \beta = s / g
+\alpha = r  \beta, \, \, \, \, \, \, \beta = s / g
 $$
 
 - If the savings rate $s$ is positive, only permanent growth of productivity and population $g$ can compensate for the permanent addition of new units of capital and prevent the capital/income ratio $\beta$ from rising indefinetely.

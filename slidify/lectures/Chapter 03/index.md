@@ -1,10 +1,10 @@
 ---
-title       : Chapter 3, The Metamorphoses of Capital 
+title       : Chapter 3 -- The Metamorphoses of Capital 
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
-framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "03"
@@ -141,11 +141,10 @@ There are 2 main causes behind this structural transformation:
 ### Who's Afraid of the Public Debt?
 
 - Europe, America, Japan are heavily in debt. A government bond is a claim of one segment of the population (those who receive interest) on another (those who pay taxes). Why should debt matter?
-- In the 19th century, Marx observed rising interest rates and saw public debt as a 'lever' of the accumulation of private capital.
+- In the 19th century, Marx observed rising interest rates and saw public debt as a 'lever' of the accumulation of private capital &mdash; a tool of the rich
 - Inflation in 1913–1950 averaged 13% a year (prices multiplied by 100) in France; 3% a year (prices multiplied by 3) in the UK. In 1950-1980 inflation averaged 6% (prices multiplied by 6) in the UK, 10% in the 1970s alone. Inflation shrunk the real value of debt and 'solved' the debt problem.
-- Friedman saw public debt as a lever of public spending and wealth redistribution. So did Ronald Reagan and Margaret Thatcher.
-- Marx saw a tool of the rich; Friedman saw a tool of the poor.
-- Reagan was not afraid of debt. Nor was G.W.Bush.
+- Friedman saw public debt as a 'lever' of public spending and wealth redistribution &mdash; a tool of the poor.
+- Ronald Reagan and G.W.Bush saw public debt as a 'lever' to force (on future administrations) cuts in public spending and 'kill the Leviathan'.
 
 ---
 
@@ -183,6 +182,26 @@ There are 2 main causes behind this structural transformation:
 <figure class = "centered">  
 <img src = "../../tables/Table_3_1.png" alt = "Public wealth and private wealth in France in 2012" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
 </figure> 
+
+---
+
+### Napoleonic Wars: Europe in 1812
+
+<figure class = "centered">  
+<img src = "../../images/Europe_1812.png" alt = "Napoleonic Wars: Europe in 1812.">
+<figcaption class = 'figcaption'>Source: <a href="http://commons.wikimedia.org/">Wiki Media Commons</a>.
+</figcaption> 
+</figure>
+
+---
+
+### The British and French Empires in 1920
+
+<figure class = "centered">  
+<img src = "../../images/British_and_French_empires_1920.png" alt = "The British and French Empires in 1920.">
+<figcaption class = 'figcaption'>Source: <a href="http://commons.wikimedia.org/">Wiki Media Commons</a>.
+</figcaption> 
+</figure>
 
 
 <!--- 

@@ -672,3 +672,223 @@ n$save('figures/Figure_1_5.html', standalone = TRUE)
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
+<!--- 
+
+### Exchange rate and purchasing power parity: euro/rupee.
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S1_4a.png" alt = "Figure S1.4a. Exchange rate and purchasing power parity : euro/rupee">  
+<figcaption class = 'figcaption'>Figure S1.4a. In 2012, 1 euro was worth around 70 rupees according to current exchange rate, but 25 rupees in purchasing power parity.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Exchange rate and purchasing power parity: euro/rupee.
+
+```{r 'Figure_S1_4a_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S1_4a.Rda") 
+# round data for rChart tooltip display
+df_S1_4a$value <- round(df_S1_4a$value, 2)
+n <- nPlot(data = df_S1_4a, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(0, 70))
+n$yAxis(axisLabel = 'Exchange rate Euro/Rupee (in rupees)')
+n$chart(margin = list(left = 80)) 
+n$xAxis(axisLabel = NULL)
+n$yAxis(tickFormat = "#! function(y) {return 'Rs' + y;} !#")
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } </style>')
+n$save('figures/Figure_S1_4a.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S1_4a.html' alt = "Figure S1.4a. Exchange rate and purchasing power parity : euro/rupee">
+</iframe><icaption class = 'icaption'>Figure S1.4a. In 2012, 1 euro was worth around 70 rupees according to current exchange rate, but 25 rupees in purchasing power parity.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!--- 
+
+### Exchange rate and purchasing power parity: euro/yen.
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S1_4b.png" alt = "Figure S1.4b. Exchange rate and purchasing power parity : euro/yen">  
+<figcaption class = 'figcaption'>Figure S1.4b. In 2012, 1 euro was worth around 100 yens according to current exchange rate, but 125 yens in purchasing power parity.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Exchange rate and purchasing power parity: euro/yen.
+
+```{r 'Figure_S1_4b_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S1_4b.Rda") 
+# round data for rChart tooltip display
+df_S1_4b$value <- round(df_S1_4b$value, 2)
+n <- nPlot(data = df_S1_4b, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(90, 200))
+n$yAxis(axisLabel = 'Exchange rate Euro/Yen (in yens)')
+n$chart(margin = list(left = 80)) 
+n$xAxis(axisLabel = NULL)
+n$yAxis(tickFormat = "#! function(y) {return '¥' + y;} !#")
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } </style>')
+n$save('figures/Figure_S1_4b.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S1_4b.html' alt = "Figure S1.4b. Exchange rate and purchasing power parity : euro/yen">
+</iframe><icaption class = 'icaption'>Figure S1.4b. In 2012, 1 euro was worth around 100 yens according to current exchange rate, but 125 yens in purchasing power parity.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!--- 
+
+### Exchange rate and purchasing power parity: dollar/yuan.
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S1_5a.png" alt = "Figure S1.5a. Exchange rate and purchasing power parity : dollar/yuan">  
+<figcaption class = 'figcaption'>Figure S1.5a. In 2012, 1 dollar was worth around 6 yuans according to current exchange rate, but 4 yuans in purchasing power parity.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Exchange rate and purchasing power parity: dollar/yuan.
+
+```{r 'Figure_S1_5a_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S1_5a.Rda") 
+# round data for rChart tooltip display
+df_S1_5a$value <- round(df_S1_5a$value, 2)
+n <- nPlot(data = df_S1_5a, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(2, 9))
+n$yAxis(axisLabel = 'Exchange rate Dollar/Yuan (in yuans)')
+n$chart(margin = list(left = 80)) 
+n$xAxis(axisLabel = NULL)
+n$yAxis(tickFormat = "#! function(y) {return '¥' + y;} !#")
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } </style>')
+n$save('figures/Figure_S1_5a.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S1_5a.html' alt = "Figure S1.5a. Exchange rate and purchasing power parity : dollar/yuan">
+</iframe><icaption class = 'icaption'>Figure S1.5a. In 2012, 1 dollar was worth around 6 yuans according to current exchange rate, but 4 yuans in purchasing power parity.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!--- 
+
+### Exchange rate and purchasing power parity: dollar/rupee.
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S1_5b.png" alt = "Figure S1.5b. Exchange rate and purchasing power parity : dollar/rupee">  
+<figcaption class = 'figcaption'>Figure S1.5b. In 2012, 1 dollar was worth around 50 rupees according to current exchange rate, but 20 rupees in purchasing power parity.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Exchange rate and purchasing power parity: dollar/rupee.
+
+```{r 'Figure_S1_5b_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S1_5b.Rda") 
+# round data for rChart tooltip display
+df_S1_5b$value <- round(df_S1_5b$value, 2)
+n <- nPlot(data = df_S1_5b, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(5, 55))
+n$yAxis(axisLabel = 'Exchange rate Dollar/Rupee (in rupees)')
+n$chart(margin = list(left = 80)) 
+n$xAxis(axisLabel = NULL)
+n$yAxis(tickFormat = "#! function(y) {return 'Rs' + y;} !#")
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } </style>')
+n$save('figures/Figure_S1_5b.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S1_5b.html' alt = "Figure S1.5b. Exchange rate and purchasing power parity : dollar/rupee">
+</iframe><icaption class = 'icaption'>Figure S1.5b. In 2012, 1 dollar was worth around 50 rupees according to current exchange rate, but 20 rupees in purchasing power parity.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!--- 
+
+### Exchange rate and purchasing power parity: dollar/yen.
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S1_5c.png" alt = "Figure S1.5c. Exchange rate and purchasing power parity : dollar/yen">  
+<figcaption class = 'figcaption'>Figure S1.5c. In 2012, 1 dollar was worth around 80 yens according to current exchange rate, but 110 yens in purchasing power parity.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Exchange rate and purchasing power parity: dollar/yen.
+
+```{r 'Figure_S1_5c_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S1_5c.Rda") 
+# round data for rChart tooltip display
+df_S1_5c$value <- round(df_S1_5c$value, 2)
+n <- nPlot(data = df_S1_5c, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(60, 200))
+n$yAxis(axisLabel = 'Exchange rate Dollar/Yen (in yens)')
+n$chart(margin = list(left = 80)) 
+n$xAxis(axisLabel = NULL)
+n$yAxis(tickFormat = "#! function(y) {return '¥' + y;} !#")
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } </style>')
+n$save('figures/Figure_S1_5c.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S1_5c.html' alt = "Figure S1.5c. Exchange rate and purchasing power parity : dollar/yen">
+</iframe><icaption class = 'icaption'>Figure S1.5c. In 2012, 1 dollar was worth around 80 yens according to current exchange rate, but 110 yens in purchasing power parity.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+

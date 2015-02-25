@@ -171,7 +171,7 @@ $$
 ### The Contradictions of Capitalism
 
 $$
-\alpha = r \times \beta, \, \, \, \, \, \, \beta = s / g
+\alpha = r  \beta, \, \, \, \, \, \, \beta = s / g
 $$
 
 - If the savings rate $s$ is positive, only permanent growth of productivity and population $g$ can compensate for the permanent addition of new units of capital and prevent the capital/income ratio $\beta$ from rising indefinetely.

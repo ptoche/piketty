@@ -1,34 +1,29 @@
 ---
-title       : Chapter 9, Inequality of Labor Income
+title       : Chapter 9 -- Inequality of Labor Income
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
-framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
-github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "09"
---- 
+--- {class: cover-slide}
 
 
-
-### UNDER CONSTRUCTION
-
-- These slides are under construction.
-- Some of the figures are completed.
-- Some of the figures require further work to fix bugs.
-- Please check back later.
 
 ---
 
 ### Introduction  
 
-- Chapter 8 reviews the historical evolution of inequality around the world.  
-
+- This set of slides surveys selected topics from *Capital in the Twenty-First Century*, a book written by economist Thomas Piketty, published in English in 2014 to great acclaim.
+- All source files for this course are available for download by anyone without restrictions at https://github.com/ptoche/piketty
+- The full course is expected to be completed by April 2015.
+- Chapter 8 analyzed the historical evolution of inequality in France and the United States.  
 - Chapter 9 analyzes the dynamics of labor income inequality, in particular the recent explosion of wage inequalities and the rise of the supermanager.
 
----
+
+<!---
 
 ### Minimum wage in France and the United States
 
@@ -38,6 +33,8 @@ lecnum      : "09"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -49,7 +46,51 @@ lecnum      : "09"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----  
+<!---
+
+### Minimum wage in France
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S9_1.png" alt = "Figure S9.1. Minimum wage in France, 1950-2013.">  
+<figcaption class = 'figcaption'>Figure S9.1.
+Expressed in 2013 purchasing power, the hourly minimum wage rose from €2.10 to €9.40 in France between 1950 and 2013.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer> 
+
+-->
+
+---
+
+
+<iframe src = 'figures/Figure_S9_1.html' alt = "Figure S9.1. Minimum wage in France, 1950-2013.">
+</iframe><icaption class = 'icaption'>Figure S9.1. Expressed in 2013 purchasing power, the hourly minimum wage rose from €2.10 to €9.40 in France between 1950 and 2013.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Minimum wage in the United States
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S9_2.png" alt = "Figure S9.2. Minimum wage in the United States, 1950-2013.">  
+<figcaption class = 'figcaption'>Figure S9.2. 
+Expressed in 2013 purchasing power, the hourly minimum wage rose from \$3.80 to \$7.30 in the United States between 1950 and 2013.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer> 
+
+-->
+
+---
+
+
+<iframe src = 'figures/Figure_S9_2.html' alt = "Figure S9.2. Minimum wage in the United States, 1950-2013.">
+</iframe><icaption class = 'icaption'>Figure S9.2. Expressed in 2013 purchasing power, the hourly minimum wage rose from \\$3.80 to \\$7.30 in the United States between 1950 and 2013.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---  
 
 ### Income inequality in Anglo-Saxon countries
 
@@ -59,6 +100,8 @@ lecnum      : "09"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -70,7 +113,7 @@ lecnum      : "09"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Income inequality in Continental Europe and Japan
 
@@ -82,6 +125,8 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
+-->
+
 ---
 
 ### Income inequality in Continental Europe and Japan
@@ -92,7 +137,7 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Income inequality in Northern and Southern Europe
 
@@ -102,6 +147,8 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -113,7 +160,7 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The top 0.1% income share in Anglo-Saxon countries
 
@@ -123,6 +170,8 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -134,7 +183,7 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The top 0.1% income share in Continental Europe and Japan
 
@@ -144,6 +193,8 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -155,7 +206,7 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The top decile income share in Europe and the United States
 
@@ -165,6 +216,8 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -176,7 +229,7 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Income inequality: Europe vs. United States
 
@@ -186,6 +239,8 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -197,7 +252,7 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Income inequality in emerging countries
 
@@ -208,6 +263,8 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
+-->
+
 ---
 
 ### Income inequality in emerging countries
@@ -217,3 +274,4 @@ Income inequality in Continental Europe and Japan, 1910-2010.">
 </iframe><icaption class = 'icaption'>Figure 9.9. Measured by the top percentile income share, income inequality rose in emerging countries since the 1980s, but ranks below the US level in 2000-2010.</icaption> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
+

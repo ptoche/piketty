@@ -564,3 +564,118 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
+<!--- 
+
+### Exchange rate and purchasing power parity: euro/rupee.
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S1_4a.png" alt = "Figure S1.4a. Exchange rate and purchasing power parity : euro/rupee">  
+<figcaption class = 'figcaption'>Figure S1.4a. In 2012, 1 euro was worth around 70 rupees according to current exchange rate, but 25 rupees in purchasing power parity.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Exchange rate and purchasing power parity: euro/rupee.
+
+
+<iframe src = 'figures/Figure_S1_4a.html' alt = "Figure S1.4a. Exchange rate and purchasing power parity : euro/rupee">
+</iframe><icaption class = 'icaption'>Figure S1.4a. In 2012, 1 euro was worth around 70 rupees according to current exchange rate, but 25 rupees in purchasing power parity.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!--- 
+
+### Exchange rate and purchasing power parity: euro/yen.
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S1_4b.png" alt = "Figure S1.4b. Exchange rate and purchasing power parity : euro/yen">  
+<figcaption class = 'figcaption'>Figure S1.4b. In 2012, 1 euro was worth around 100 yens according to current exchange rate, but 125 yens in purchasing power parity.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Exchange rate and purchasing power parity: euro/yen.
+
+
+<iframe src = 'figures/Figure_S1_4b.html' alt = "Figure S1.4b. Exchange rate and purchasing power parity : euro/yen">
+</iframe><icaption class = 'icaption'>Figure S1.4b. In 2012, 1 euro was worth around 100 yens according to current exchange rate, but 125 yens in purchasing power parity.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!--- 
+
+### Exchange rate and purchasing power parity: dollar/yuan.
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S1_5a.png" alt = "Figure S1.5a. Exchange rate and purchasing power parity : dollar/yuan">  
+<figcaption class = 'figcaption'>Figure S1.5a. In 2012, 1 dollar was worth around 6 yuans according to current exchange rate, but 4 yuans in purchasing power parity.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Exchange rate and purchasing power parity: dollar/yuan.
+
+
+<iframe src = 'figures/Figure_S1_5a.html' alt = "Figure S1.5a. Exchange rate and purchasing power parity : dollar/yuan">
+</iframe><icaption class = 'icaption'>Figure S1.5a. In 2012, 1 dollar was worth around 6 yuans according to current exchange rate, but 4 yuans in purchasing power parity.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!--- 
+
+### Exchange rate and purchasing power parity: dollar/rupee.
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S1_5b.png" alt = "Figure S1.5b. Exchange rate and purchasing power parity : dollar/rupee">  
+<figcaption class = 'figcaption'>Figure S1.5b. In 2012, 1 dollar was worth around 50 rupees according to current exchange rate, but 20 rupees in purchasing power parity.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Exchange rate and purchasing power parity: dollar/rupee.
+
+
+<iframe src = 'figures/Figure_S1_5b.html' alt = "Figure S1.5b. Exchange rate and purchasing power parity : dollar/rupee">
+</iframe><icaption class = 'icaption'>Figure S1.5b. In 2012, 1 dollar was worth around 50 rupees according to current exchange rate, but 20 rupees in purchasing power parity.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!--- 
+
+### Exchange rate and purchasing power parity: dollar/yen.
+
+<figure class = "captioned">  
+<img src = "../../figures/Figure_S1_5c.png" alt = "Figure S1.5c. Exchange rate and purchasing power parity : dollar/yen">  
+<figcaption class = 'figcaption'>Figure S1.5c. In 2012, 1 dollar was worth around 80 yens according to current exchange rate, but 110 yens in purchasing power parity.</figcaption>  
+</figure> 
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Exchange rate and purchasing power parity: dollar/yen.
+
+
+<iframe src = 'figures/Figure_S1_5c.html' alt = "Figure S1.5c. Exchange rate and purchasing power parity : dollar/yen">
+</iframe><icaption class = 'icaption'>Figure S1.5c. In 2012, 1 dollar was worth around 80 yens according to current exchange rate, but 110 yens in purchasing power parity.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+

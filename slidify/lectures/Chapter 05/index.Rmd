@@ -746,4 +746,273 @@ n$save('figures/Figure_5_8.html', standalone = TRUE)
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
+<!---
+
+### Foreign assets and liabilities in the United States
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_6.png" alt = "Figure S5.6. Foreign assets and liabilities in the United States 1970-2010">  
+<figcaption class = 'figcaption'>Figure S5.6. Foreign liabilities (what the rest of the world owns in the US) have outweighted foreign assets (what the US own in the rest of the world) since 1985-1986.</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in the United States
+
+```{r 'Figure_S5_6_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S5_6.Rda") 
+# round data for rChart tooltip display
+df_S5_6$value <- round(df_S5_6$value, 2)
+n <- nPlot(data = df_S5_6, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(-.4, 1.4))
+n$yAxis(axisLabel = 'Foreign assets and liabilities (% national income)')
+n$chart(margin = list(left = 80)) 
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = NULL)
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_S5_6.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S5_6.html' alt = "Figure S5.6. Foreign assets and liabilities in the United States 1970-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.6. Foreign liabilities (what the rest of the world owns in the US) have outweighted foreign assets (what the US own in the rest of the world) since 1985-1986.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Foreign assets and liabilities in Japan
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_7.png" alt = "Figure S5.7. Foreign assets and liabilities in Japan 1970-2010">  
+<figcaption class = 'figcaption'>Figure S5.7. Foreign assets (what Japan owns in the rest of the world) are almost twice as large as foreign liabilities (what the rest of the world owns in Japan) in 2010.</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in Japan
+
+```{r 'Figure_S5_7_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S5_7.Rda") 
+# round data for rChart tooltip display
+df_S5_7$value <- round(df_S5_7$value, 2)
+n <- nPlot(data = df_S5_7, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(0, 1.6))
+n$yAxis(axisLabel = 'Foreign assets and liabilities (% national income)')
+n$chart(margin = list(left = 80)) 
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = NULL)
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_S5_7.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S5_7.html' alt = "Figure S5.7. Foreign assets and liabilities in Japan 1970-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.7. Foreign assets (what Japan owns in the rest of the world) are almost twice as large as foreign liabilities (what the rest of the world owns in Japan) in 2010.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Foreign assets and liabilities in Germany
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_8.png" alt = "Figure S5.8. Foreign assets and liabilities in Germany 1970-2010">  
+<figcaption class = 'figcaption'>Figure S5.8. Foreign assets and liabilities in Germany have risen a lot since the 1980s-1990s.</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in Germany
+
+```{r 'Figure_S5_8_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S5_8.Rda") 
+# round data for rChart tooltip display
+df_S5_8$value <- round(df_S5_8$value, 2)
+n <- nPlot(data = df_S5_8, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(0, 3))
+n$yAxis(axisLabel = 'Foreign assets and liabilities (% national income)')
+n$chart(margin = list(left = 80)) 
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = NULL)
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_S5_8.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S5_8.html' alt = "Figure S5.8. Foreign assets and liabilities in Germany 1970-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.8. Foreign assets and liabilities in Germany have risen a lot since the 1980s-1990s.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Foreign assets and liabilities in France
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_9.png" alt = "Figure S5.9. Foreign assets and liabilities in France 1970-2010">  
+<figcaption class = 'figcaption'>Figure S5.9. Like in Germany, foreign assets and liabilities have risen a lot since 1980s-1990s (but with a negative net position at the end of the period).</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in France
+
+```{r 'Figure_S5_9_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S5_9.Rda") 
+# round data for rChart tooltip display
+df_S5_9$value <- round(df_S5_9$value, 2)
+n <- nPlot(data = df_S5_9, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(-.5, 3.5))
+n$yAxis(axisLabel = 'Foreign assets and liabilities (% national income)')
+n$chart(margin = list(left = 80)) 
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = NULL)
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_S5_9.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S5_9.html' alt = "Figure S5.9. Foreign assets and liabilities in France 1970-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.9. Like in Germany, foreign assets and liabilities have risen a lot since 1980s-1990s (but with a negative net position at the end of the period).</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Foreign assets and liabilities in the United Kingdom
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_10.png" alt = "Figure S5.10. Foreign assets and liabilities in the United Kingdom 1970-2010">  
+<figcaption class = 'figcaption'>Figure S5.10. In the United Kingdom, foreign assets and liabilities reached 7-8 years of national income at the end of the period.</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in the United Kingdom
+
+```{r 'Figure_S5_10_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S5_10.Rda") 
+# round data for rChart tooltip display
+df_S5_10$value <- round(df_S5_10$value, 2)
+n <- nPlot(data = df_S5_10, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(-1, 9))
+n$yAxis(axisLabel = 'Foreign assets and liabilities (% national income)')
+n$chart(margin = list(left = 80)) 
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = NULL)
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_S5_10.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S5_10.html' alt = "Figure S5.10. Foreign assets and liabilities in the United Kingdom 1970-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.10. In the United Kingdom, foreign assets and liabilities reached 7-8 years of national income at the end of the period.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
+
+<!---
+
+### Foreign assets and liabilities in Spain
+
+<figure class = "captioned">   
+<img src = "../../figures/Figure_S5_11.png" alt = "Figure S5.11. Foreign assets and liabilities in Spain 1980-2010.">  
+<figcaption class = 'figcaption'>Figure S5.11. Net foreign debt of Spain exceeds a year of national income in 2010.</figcaption>  
+</figure>  
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
+</footer>  
+
+-->
+
+---
+
+### Foreign assets and liabilities in Spain
+
+```{r 'Figure_S5_11_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
+require(rCharts)
+load("../../data/df_S5_11.Rda") 
+# round data for rChart tooltip display
+df_S5_11$value <- round(df_S5_11$value, 2)
+n <- nPlot(data = df_S5_11, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'lineChart') 
+n$chart(forceY = c(-1.5, 3))
+n$yAxis(axisLabel = 'Foreign assets and liabilities (% national income)')
+n$chart(margin = list(left = 80)) 
+n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
+n$xAxis(axisLabel = NULL)
+n$chart(useInteractiveGuideline = TRUE)
+n$chart(color = colorPalette)
+n$addParams(height = 450, width = 900)
+n$setTemplate(afterScript = '<style>
+  .nv-point {
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+    fill-opacity: 1!important;
+  } 
+</style>')
+n$save('figures/Figure_S5_11.html', standalone = TRUE)
+```
+<iframe src = 'figures/Figure_S5_11.html' alt = "Figure S5.11. Foreign assets and liabilities in Spain 1980-2010.">
+</iframe><icaption class = 'icaption'>Figure S5.11. Net foreign debt of Spain exceeds a year of national income in 2010.</icaption>
+<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
+</footer>  
 
