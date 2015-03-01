@@ -42,13 +42,11 @@ source('../../shared/shared.R')
 
 ### The Race between Education and Technology
 
-- What accounts for differences in wage inequality across countries and periods?
-- The consensus view is that it reflects a 'race' between education and technology.
-- The theory is based on 2 hypotheses: 
-- `1`. A worker's wage is 'equal' to marginal productivity.
-- `2`. Marginal productivity is determined by relative demand/supply in each labor market.
-- The marginal productivity of a worker's labor services is defined as that worker's contribution to output.
-- This theory also relies on the hypothesis that workers' marginal productivities are perfectly observable and that labor markets are competitive. This rules out social conventions ('fair' wages), trade unions ('insiders' versus 'outsiders'), monopsony (public sector jobs), and other distortions ('minimum wages'). 
+- What accounts for differences in wage inequality across countries and periods? The consensus view is that it reflects a race between education and technology. The theory is based on 2 hypotheses: 
+- `1`. A worker's wage is the worker's marginal productivity.
+- `2`. The worker's marginal productivity is determined by relative demand/supply in the relevant markets.
+- The marginal productivity of a worker's labor services is that worker's 'contribution' to output &mdash; whether observed or inferred.
+- This theory also assumes that labor markets are competitive. This rules out social conventions ('fair' wages), trade unions ('insiders' versus 'outsiders'), monopsony (public sector jobs), and other distortions ('minimum wages'). 
 
 ---
 
@@ -63,9 +61,9 @@ source('../../shared/shared.R')
 ### The Supply Of Skills / The Demand For Skills
 
 - The 'Education/Technology Race' theory emphasizes supply and demand in the market for skills.
-- `1`. The supply of skills depends on education, training, work experience, and so on.
-- `2`. The demand for skills depends on technology, which in turn depends on the structure of production (manufacturing versus services), on the nature of the *productive* capital (capital-poor versus capital-rich), on the state of knowledge. 
-- No matter what other forces may be involved, the market for skills plays a central role.  
+- `1`. The supply of skills depends on education, training, work experience...
+- `2`. The demand for skills depends on technology, on the structure of production (manufacturing versus services), on the nature of the *productive* capital (capital-poor versus capital-rich), on the state of knowledge... 
+- While other forces are at work, the market for skills plays a central role.  
 
 ---
 
@@ -91,7 +89,7 @@ source('../../shared/shared.R')
 
 ### Education: the case of the United States
 
-- Over 1890–2005, Claudia Goldin and Larry Katz compared:
+- Over the 20th century, Claudia Goldin and Larry Katz compared:
 - `1`. the wage gap between workers with a university degree and workers with a high school diploma;
 - `2`. the rate of growth of the number of university degrees. 
 - The two curves move in opposite directions. 
@@ -338,4 +336,78 @@ The most convincing proof of the failure of corporate governance and of the abse
 
 I return to this question and generalize this approach in Part Four (see Chapter 14). The propensity to “pay for luck” varies widely with country and period, and notably as a function of changes in tax laws, especially the top marginal income tax rate, which seems to serve either as a protective barrier (when it is high) or an incentive to mischief (when it is low)—at least up to a certain point. Of course changes in tax laws are themselves linked to changes in social norms pertaining to inequality, but once set in motion they proceed according to a logic of their own. Specifically, the very large decrease in the top marginal income tax rate in the English-speaking countries after 1980 (de- spite the fact that Britain and the United States had pioneered nearly confis- catory taxes on incomes deemed to be indecent in earlier decades) seems to have totally transformed the way top executive pay is set, since top executives now had much stronger incentives than in the past to seek large raises. I also analyze the way this amplifying mechanism can give rise to another force for divergence that is more political in nature: the decrease in the top marginal income tax rate led to an explosion of very high incomes, which then increased the political influence of the beneficiaries of the change in the tax laws, who had an interest in keeping top tax rates low or even decreasing them further and who could use their windfall to finance political parties, pressure groups, and think tanks.
 
+---
+
+### Goldin & Katz: Education in the United States
+
+<figure class = "centered">  
+<img src = "../../images/Goldin_Katz_2008_Figure_1_8.png" alt = "Distribution of Educational Attainment of the Workforce in the United States: 1915 to 2005.">
+<figcaption class = 'figcaption'>Distribution of Educational Attainment of the Workforce in the United States: 1915 to 2005. Figure 1.8, Goldin & Katz, (<em>The Race</em>, 2008).
+</figcaption>  
+</figure> 
+
+---
+
+### Goldin & Katz: Education in the United States
+
+<figure class = "centered">  
+<img src = "../../images/Goldin_Katz_2008_Table_1_2a.png" alt = "Educational Attainment of the Workforce in the United States: 1915 to 2005">
+<figcaption class = 'figcaption'>Educational Attainment of the Workforce in the United States: 1915 to 2005. Table 1.2 (left side), Goldin & Katz, (<em>The Race</em>, 2008).
+</figcaption>  
+</figure> 
+
+---
+
+### Goldin & Katz: Education in the United States
+
+<figure class = "centered">  
+<img src = "../../images/Goldin_Katz_2008_Figure_2_6.png" alt = "Wage Inequality and the College Wage Premium in the United States: 1939 to 2005">
+<figcaption class = 'figcaption'>Wage Inequality and the College Wage Premium in the United States: 1939 to 2005. Figure 2.6, Goldin & Katz, (<em>The Race</em>, 2008).
+</figcaption>  
+</figure> 
+
+---
+
+### Goldin & Katz: Education in the United States
+
+<figure class = "centered">  
+<img src = "../../images/Goldin_Katz_2008_Figure_8_1.png" alt = "College Graduate and High School Graduate Wage Premiums in the United States: 1915 to 2005.">
+<figcaption class = 'figcaption'>College Graduate and High School Graduate Wage Premiums in the United States: 1915 to 2005. Figure 8.1, Goldin & Katz, (<em>The Race</em>, 2008).
+</figcaption>  
+</figure> 
+
+---
+
+### Goldin & Katz: Supply Of and Demand For Skill
+
+<figure class = "centered">  
+<img src = "../../images/Goldin_Katz_2008_Figure_3_1.png" alt = "A Schematic Representation of the Relative Supply Of and Demand For Skill in the United States: 1980 and 2000.">
+<figcaption class = 'figcaption'>A Schematic Representation of the Relative Supply Of and Demand For Skill in the United States: 1980 and 2000. Figure 3.1, Goldin & Katz, (<em>The Race</em>, 2008).
+</figcaption>  
+</figure> 
+
+---
+
+### Goldin & Katz: Education and the Wage Premium
+
+<figure class = "centered">  
+<img src = "../../images/Goldin_Katz_2008_Table_3_1.png" alt = "Educational Composition of Employment and the College/High School Wage Premium in the United States: 1950 to 2005">
+<figcaption class = 'figcaption'>Educational Composition of Employment and the College/High School Wage Premium in the United States: 1950 to 2005. Table 3.1, Goldin & Katz, (<em>The Race</em>, 2008).
+</figcaption>  
+</figure> 
+
+---
+
+### Goldin & Katz: Education in the United States
+
+- Refer to Figure 3.1 in Claudia Goldin & Lawrence F. Katz, <em>The Race Between Education and Technology</em> (Harvard University Press, 2008).
+- Point A is approximately the values for ($w_s/w_u$) and ($L_s/L_u$) from Table 3.1 (using the 1980 Census data and exponentiating the college/high school wage premium) and point B is the same for 2000 (using the 2000 Census data), where $L_s/L_u$ is the ratio of college graduates to those with less than a college degree as per the selection criteria given in Table 3.1. Thus, point A is $e^{0.391} = 1.48$ for ($w_s/w_u$) and $0.26$ for ($L_s/L_u$).
+
+---
+
+### Goldin & Katz: Education in the United States
+
+- Refer to Table 3.1 in Claudia Goldin & Lawrence F. Katz, <em>The Race Between Education and Technology</em> (Harvard University Press, 2008).
+- The college/high school wage premium is expressed in logs.
+- Educational wage differentials in each year are estimated using standard cross-section log hourly earnings regressions for wage and salary workers in each sample with dummies for single year of schooling (or degree attainment) categories, a quartic in experience, three region dummies, a part-time dummy, a female dummy, a nonwhite dummy, and interaction terms between the female dummy and quartic in experience and the nonwhite dummy. 
 

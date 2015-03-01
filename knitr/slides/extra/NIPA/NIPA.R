@@ -54,7 +54,7 @@ ggplot(data = dfs, aes(x = Year, y = value, group = variable, colour = variable,
 
 
 
-# variant of plot above: In Progress / LEGEND BUGGY
+# variant of plot above: 
 setwd("~/piketty/knitr/slides/extra/NIPA/")
 load("df.Rda")
 dollarBillion <- function(x) {
@@ -65,15 +65,31 @@ dfs2 <- subset(df, variable %in% c("Balance on current account"))
 dfs1$value <- dfs1$value/1000000 # change units to billions
 dfs2$value <- dfs2$value/1000000 # change units to billions
 
-library(RColorBrewer)
-cols <- colorRampPalette(brewer.pal(9, "Set1"))(9)
-ggplot(data = dfs1, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + geom_bar(data = dfs2, aes(x = Year, y = value), stat = "identity", colour = "darkred", fill = "darkred", alpha = 0.8) + ylab("Current Account Transactions (Million $)") + xlab(NULL) +  theme_bw(14) + scale_x_discrete(breaks = seq(1999, 2013, by = 2)) + scale_y_continuous(labels = dollarBillion, limits = c(-1, 4), breaks = seq(-1, 4, by = .5)) + geom_hline(yintercept = 0) + theme(legend.key = element_blank(), legend.background = element_rect(colour = 'black', fill = 'white'), legend.position = "top", legend.title = element_blank()) + guides(col = guide_legend(ncol = 1), fill = NULL, colour = NULL)
+library(ggplot2)
+library(scales)
+ggplot(data = dfs1, aes(x = Year, y = value, group = variable)) + 
+    geom_line(aes(colour = variable)) + 
+    geom_point(aes(colour = variable, shape = variable), size = 5) + 
+    geom_bar(data = dfs2, aes(x = Year, y = value, fill = variable), stat = "identity", position = 'identity', alpha = 0.8) + 
+    ylab("Current Account Transactions (Billion $)") + xlab(NULL) + 
+    theme_bw(18) + scale_x_discrete(breaks = seq(1999, 2013, by = 2)) + 
+    scale_y_continuous(labels = dollarBillion, limits = c(-1, 4), breaks = seq(-1, 4, by = .5)) + 
+    geom_hline(yintercept = 0) + 
+    guides(col = guide_legend(ncol = 1)) + 
+    theme(
+        legend.position = "top", 
+        legend.box.just = "left",
+        legend.key = element_blank(), 
+        legend.title = element_blank()
+    )
 
+cols <- c("darkgreen", "darkblue", NA)
+last_plot() + scale_colour_manual(name = "legend", values = cols) + scale_shape_manual(name = "legend", values = c(15, 17, 32)) + scale_fill_manual(name = "legend", values = c("orange", NA, NA))
 
 
 # save as pdf + png
-ggsave(last_plot(), file = "Figure_Current_Account_Transactions.pdf", width = 8, height = 5, dpi = 300)
-ggsave(last_plot(), file = "Figure_Current_Account_Transactions.png", width = 8, height = 5)
+ggsave(last_plot(), file = "Figure_Current_Account_Transactions.pdf", width = 16, height = 10, dpi = 300)
+ggsave(last_plot(), file = "Figure_Current_Account_Transactions.png", width = 16, height = 10)
 
 
 # Plot 2: Current Account Components
@@ -90,16 +106,30 @@ ggsave(last_plot(), file = "Figure_Current_Account_Components.png", width = 8, h
 
 
 
-# Plot 3: Capital Account Components
+# Plot 3: Current Account V. Capital Account
 # subset data
 load("df.Rda")
-dfs <- subset(df, variable %in% c("Balance on primary income", "Balance on secondary income", "Balance on capital account"))
+dfs <- subset(df, variable %in% c("Balance on current account", "Balance on capital account"))
 dfs$value <- dfs$value/1000
 
-ggplot(data = dfs, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Current Account Components (Million $)") + xlab(NULL) +  theme_bw(14) + scale_x_discrete(breaks = seq(1999, 2013, by = 2)) + scale_y_continuous(labels = dollarMillion, limits = c(-200, 300), breaks = seq(-200, 500, by = 100)) + theme(legend.key = element_blank(), legend.background = element_rect(colour = 'black', fill = 'white'), legend.position = "top", legend.title = element_blank()) + guides(col = guide_legend(ncol = 2)) + geom_hline(yintercept = 0)
-
+ggplot(data = dfs, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Current Account + Capital Account (Million $)") + xlab(NULL) +  theme_bw(14) + scale_x_discrete(breaks = seq(1999, 2013, by = 2)) + scale_y_continuous(labels = dollarMillion, limits = c(-900, 50), breaks = seq(-800, 100, by = 200)) + theme(legend.key = element_blank(), legend.background = element_rect(colour = 'black', fill = 'white'), legend.position = "top", legend.title = element_blank()) + guides(col = guide_legend(ncol = 2)) + geom_hline(yintercept = 0) + guides(col = guide_legend(ncol = 1)) 
 
 # save as pdf + png
-ggsave(last_plot(), file = "Figure_Current_Account_Incomes.pdf", width = 8, height = 5, dpi = 300)
-ggsave(last_plot(), file = "Figure_Current_Account_InIncomes.png", width = 8, height = 5)
+ggsave(last_plot(), file = "Figure_Current_Account_Capital_Account.pdf", width = 8, height = 5, dpi = 300)
+ggsave(last_plot(), file = "Figure_Current_Account_Capital_Account.png", width = 8, height = 5)
+
+
+
+# Plot 4: Current Account Components: Incomes
+# subset data
+load("df.Rda")
+dfs <- subset(df, variable %in% c("Primary income receipts", "Primary income payments", "Secondary income (current transfer) receipts /2/", "Secondary income (current transfer) payments /2/"))
+dfs$value <- dfs$value/1000
+
+ggplot(data = dfs, aes(x = Year, y = value, group = variable, colour = variable, shape = variable)) + geom_line() + geom_point(size = 3) + ylab("Current Account Components: Incomes (Million $)") + xlab(NULL) +  theme_bw(14) + scale_x_discrete(breaks = seq(1999, 2013, by = 2)) + scale_y_continuous(labels = dollarMillion, limits = c(0, 900), breaks = seq(0, 900, by = 100)) + theme(legend.key = element_blank(), legend.background = element_rect(colour = 'black', fill = 'white'), legend.position = "top", legend.title = element_blank()) + guides(col = guide_legend(ncol = 2)) + guides(col = guide_legend(ncol = 1)) 
+
+# save as pdf + png
+ggsave(last_plot(), file = "Figure_Current_Account_Components_Incomes.pdf", width = 8, height = 5, dpi = 300)
+ggsave(last_plot(), file = "Figure_Current_Account_Components_Incomes.png", width = 8, height = 5)
+
 

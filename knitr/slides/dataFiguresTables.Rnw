@@ -805,19 +805,16 @@ save(df_7_1X, file = "data/df_7_1X.Rda")
 # Spreadsheet TS8.1
 TS8.1 <- read.xlsx("../Piketty2014FiguresTables/Chapter8TablesFigures.xlsx",
   sheetName = "TS8.1", rowIndex = 6:116, colIndex = 1:6, header = FALSE)
-names(TS8.1) <- c("Year", "france_top_10_is", "france_top_1_is", "france_top_01_is", "france_top_10_ws", "france_top_1_ws")
+names(TS8.1) <- c("Year", "france_top_10_is_wok", "france_top_1_is_wok", "france_top_01_is_wok", "france_top_10_ws", "france_top_1_ws")
 TS8.1$Country <- "France"
 save(TS8.1, file = "data/TS8.1.Rda")
 
 # Spreadsheet TS8.2
 TS8.2 <- read.xlsx("../Piketty2014FiguresTables/Chapter8TablesFigures.xlsx",
   sheetName = "TS8.2", rowIndex = 6:116, colIndex = 1:11, header = FALSE)
-names(TS8.2) <- c("Year",
-  "usa_top_10_is","usa_top_10_5_is", "usa_top_5_1_is","usa_top_1_is", "usa_top_01_is",
-  "usa_top_10_is_wok", "usa_top_1_is_wok", "usa_top_01_is_wok", 
-  "usa_top_10_ws", "usa_top_1_ws")
-  # is = income share
-  # wok = without kapital gains
+names(TS8.2) <- c("Year", "usa_top_10_is", "usa_top_10_5_is", "usa_top_5_1_is", "usa_top_1_is", "usa_top_01_is", "usa_top_10_is_wok", "usa_top_1_is_wok", "usa_top_01_is_wok", "usa_top_10_ws", "usa_top_1_ws")
+  # is = income share with capital gains included
+  # is_wok = without kapital gains
   # ws = wage share
 TS8.2$Country <- "United States"
 save(TS8.2, file = "data/TS8.2.Rda")
@@ -841,7 +838,7 @@ save(TS8.3, file = "data/TS8.3.Rda")
 
 # Figure 8.1 /  TS8.1 / incomes & wages deciles / France
 load("data/TS8.1.Rda")
-df_8_1 <- TS8.1[, c("Year", "france_top_10_is", "france_top_10_ws")]
+df_8_1 <- TS8.1[, c("Year", "france_top_10_is_wok", "france_top_10_ws")]
 names(df_8_1) <- c("Year", "Incomes", "Wages")
 df_8_1 <- melt(df_8_1, id.vars = c("Year"))
 df_8_1 <- df_8_1[!is.na(df_8_1$value), ]  # connect points despite NAs
@@ -850,7 +847,7 @@ save(df_8_1, file = "data/df_8_1.Rda")
 
 # Figure 8.2 /  TS8.1 / incomes & wages percentiles / France
 load("data/TS8.1.Rda")
-df_8_2 <- TS8.1[, c("Year", "france_top_1_is", "france_top_1_ws")]
+df_8_2 <- TS8.1[, c("Year", "france_top_1_is_wok", "france_top_1_ws")]
 names(df_8_2) <- c("Year", "Incomes", "Wages")
 df_8_2 <- na.omit(df_8_2)  # remove NAs
 df_8_2 <- melt(df_8_2, id.vars = c("Year"))
@@ -967,13 +964,13 @@ save(TS9.1, file = "data/TS9.1.Rda")
 # Spreadsheet TS9.2
 TS9.2 <- read.xlsx("../Piketty2014FiguresTables/Chapter9TablesFigures.xlsx",
   sheetName = "TS9.2", rowIndex = 6:116, colIndex = 1:12, header = FALSE)
-names(TS9.2) <- c("Year", "uk_top_10_is","uk_top_1_is", "uk_top_01_is", "germany_top_10_is", "germany_top_1_is", "germany_top_01_is", "swedenmark_top_10_is", "swedenmark_top_1_is", "swedenmark_top_01_is", "japan_top_1_is", "japan_top_01_is")
+names(TS9.2) <- c("Year", "uk_top_10_is_wok","uk_top_1_is_wok", "uk_top_01_is_wok", "germany_top_10_is_wok", "germany_top_1_is_wok", "germany_top_01_is_wok", "sweden_top_10_is_wok", "sweden_top_1_is_wok", "sweden_top_01_is_wok", "japan_top_1_is_wok", "japan_top_01_is_wok")
 save(TS9.2, file = "data/TS9.2.Rda")
 
 # Spreadsheet TS9.3
 TS9.3 <- read.xlsx("../Piketty2014FiguresTables/Chapter9TablesFigures.xlsx",
   sheetName = "TS9.3", rowIndex = 6:116, colIndex = 1:15, header = FALSE)
-names(TS9.3) <- c("Year", "canada_top_1_is", "canada_top_01_is", "australia__top_1_is","australia__top_01_is", "nzl_top_1_is", "nzl_top_01_is", "denmark_top_1_is","denmark_top_01_is","italy_top_1_is","italy_top_01_is", "holland_top_1_is","holland_top_01_is","spa_top_1_is","spa_top_01_is")
+names(TS9.3) <- c("Year", "canada_top_1_is_wok", "canada_top_01_is_wok", "australia_top_1_is_wok","australia_top_01_is_wok", "nzl_top_1_is_wok", "nzl_top_01_is_wok", "denmark_top_1_is_wok","denmark_top_01_is_wok","italy_top_1_is_wok","italy_top_01_is_wok", "holland_top_1_is_wok","holland_top_01_is_wok","spa_top_1_is_wok","spa_top_01_is_wok")
 save(TS9.3, file = "data/TS9.3.Rda")
 
 # Spreadsheet TS9.4
@@ -986,7 +983,7 @@ save(TS9.4, file = "data/TS9.4.Rda")
 # Spreadsheet TS9.5
 TS9.5 <- read.xlsx("../Piketty2014FiguresTables/Chapter9TablesFigures.xlsx",
   sheetName = "TS9.5", rowIndex = 6:116, colIndex = 1:13, header = FALSE)
-names(TS9.5) <- c("Year", "india_top_1_is", "india_top_01_is", "sa_top_1_is", "sa_top_01_is", "indonesia_top_1_is", "indonesia_top_01_is", "argentina_top_1_is", "argentina_top_01_is", "china_top_1_is", "china_top_01_is", "colombia_top_1_is", "colombia_top_01_is")
+names(TS9.5) <- c("Year", "india_top_1_is_wok", "india_top_01_is_wok", "sa_top_1_is_wok", "sa_top_01_is_wok", "indonesia_top_1_is_wok", "indonesia_top_01_is_wok", "argentina_top_1_is_wok", "argentina_top_01_is_wok", "china_top_1_is_wok", "china_top_01_is_wok", "colombia_top_1_is_wok", "colombia_top_01_is_wok")
 save(TS9.5, file = "data/TS9.5.Rda")
 
 # Figure 9.1 / TS9.1 / minimum wage / France USA
@@ -1033,7 +1030,7 @@ df_9_2c$Country <- "Canada"
 df_9_2c$Category <- "Top income percentile"
 df_9_2c <- melt(df_9_2c, id.vars = c("Year", "Country", "Category"))
 # Australia
-df_9_2d <- data.frame(cbind(TS9.3$Year, TS9.3$australia__top_1_is))
+df_9_2d <- data.frame(cbind(TS9.3$Year, TS9.3$australia_top_1_is))
 names(df_9_2d) <- c("Year", "Australia top income percentile")
 df_9_2d$Country <- "Australia"
 df_9_2d$Category <- "Top income percentile"
@@ -1066,7 +1063,7 @@ df_9_3b$Country <- "Germany"
 df_9_3b$Category <- "Top income percentile"
 df_9_3b <- melt(df_9_3b, id.vars = c("Year", "Country", "Category"))
 # Sweden
-df_9_3c <- data.frame(cbind(TS9.2$Year, TS9.2$swedenmark_top_1_is))
+df_9_3c <- data.frame(cbind(TS9.2$Year, TS9.2$sweden_top_1_is))
 names(df_9_3c) <- c("Year", "Sweden top income percentile")
 df_9_3c$Country <- "Sweden"
 df_9_3c$Category <- "Top income percentile"
@@ -1152,7 +1149,7 @@ df_9_5c$Country <- "Canada"
 df_9_5c$Category <- "Top income permille"
 df_9_5c <- melt(df_9_5c, id.vars = c("Year", "Country", "Category"))
 # Australia
-df_9_5d <- data.frame(cbind(TS9.3$Year, TS9.3$australia__top_01_is))
+df_9_5d <- data.frame(cbind(TS9.3$Year, TS9.3$australia_top_01_is))
 names(df_9_5d) <- c("Year", "Australia top income permille")
 df_9_5d$Country <- "Australia"
 df_9_5d$Category <- "Top income permille"
@@ -1216,7 +1213,7 @@ df_9_6b$Country <- "Germany"
 df_9_6b$Category <- "Top income permille"
 df_9_6b <- melt(df_9_6b, id.vars = c("Year", "Country", "Category"))
 # Sweden
-df_9_6c <- data.frame(cbind(TS9.2$Year, TS9.2$swedenmark_top_01_is))
+df_9_6c <- data.frame(cbind(TS9.2$Year, TS9.2$sweden_top_01_is))
 names(df_9_6c) <- c("Year", "Sweden top income permille")
 df_9_6c$Country <- "Sweden"
 df_9_6c$Category <- "Top income permille"
@@ -1256,7 +1253,7 @@ df_9_6b$Country <- "Germany"
 df_9_6b$Category <- "Top income decile"
 df_9_6b <- melt(df_9_6b, id.vars = c("Year", "Country", "Category"))
 # Sweden
-df_9_6c <- data.frame(cbind(TS9.2$Year, TS9.2$swedenmark_top_10_is))
+df_9_6c <- data.frame(cbind(TS9.2$Year, TS9.2$sweden_top_10_is))
 names(df_9_6c) <- c("Year", "Sweden top income decile")
 df_9_6c$Country <- "Sweden"
 df_9_6c$Category <- "Top income decile"
@@ -1341,22 +1338,22 @@ save(df_9_8, file = "data/df_9_8.Rda")
 # Figure 9.9 / TS9.5 / top income percentile / Emerging economies
 # India
 load("data/TS9.5.Rda")
-df_9_9a <- TS9.5[, c("Year", "india_top_1_is")]
+df_9_9a <- TS9.5[, c("Year", "india_top_1_is_wok")]
 names(df_9_9a) <- c("Year", "India")
 # South Africa
-df_9_9b <- TS9.5[, c("Year", "sa_top_1_is")]
+df_9_9b <- TS9.5[, c("Year", "sa_top_1_is_wok")]
 names(df_9_9b) <- c("Year", "South Africa")
 # Indonesia
-df_9_9c <- TS9.5[, c("Year", "indonesia_top_1_is")]
+df_9_9c <- TS9.5[, c("Year", "indonesia_top_1_is_wok")]
 names(df_9_9c) <- c("Year", "Indonesia")
 # Argentina
-df_9_9d <- TS9.5[, c("Year", "argentina_top_1_is")]
+df_9_9d <- TS9.5[, c("Year", "argentina_top_1_is_wok")]
 names(df_9_9d) <- c("Year", "Argentina")
 # China
-df_9_9e <- TS9.5[, c("Year", "china_top_1_is")]
+df_9_9e <- TS9.5[, c("Year", "china_top_1_is_wok")]
 names(df_9_9e) <- c("Year", "China")
 # Colombia
-df_9_9f <- TS9.5[, c("Year", "colombia_top_1_is")]
+df_9_9f <- TS9.5[, c("Year", "colombia_top_1_is_wok")]
 names(df_9_9f) <- c("Year", "Colombia")
 # 6 emerging economies
 df_9_9 <- Reduce(function(...)merge(..., by = "Year"), list(df_9_9a, df_9_9b, df_9_9c, df_9_9d, df_9_9e, df_9_9f))
