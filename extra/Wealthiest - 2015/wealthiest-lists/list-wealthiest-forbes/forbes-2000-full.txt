@@ -1,0 +1,325 @@
+# http://stats.areppim.com/listes/list_billionairesx00xwor.htm
+# The complete list of world's billionaires 2000
+
+1	Gates, William H. III	60	United States
+2	Ellison, Lawrence Joseph	47	United States
+3	Allen, Paul Gardner	28	United States
+4	Buffett, Warren Edward	25.6	United States
+5	Albrecht, Theo & Karl and family	20	Germany
+6	Alsaud, Prince Alwaleed Bin Talal	20	Saudi Arabia
+7	Walton, S. Robson	20	United States
+8	Son, Masayoshi	19.4	Japan
+9	Dell, Michael	19.1	United States
+10	Thomson, Kenneth	16.1	Canada
+11	Anschutz, Philip F.	15.5	United States
+12	Ballmer, Steven Anthony	15.5	United States
+13	Bettencourt, Liliane	15.2	France
+14	Berlusconi, Silvio	12.8	Italy
+15	Quandt, Johanna and family	12.8	Germany
+16	Arnault, Bernard	12.6	France
+17	Redstone, Sumner M.	12.1	United States
+18	Kluge, John Werner	11.9	United States
+19	Kirch, Leo	11.5	Germany
+20	Li Ka-shing	11.3	Hong Kong
+21	Ergen, Charles	11.2	United States
+22	Pritzker, Thomas J.	10.7	United States
+23	Murdoch, Keith Rupert	9.4	United States
+24	Takei, Yasuo	9.3	Japan
+25	Bertarelli, Ernesto	9.1	Switzerland
+26	Kwok brothers, Walter, Thomas, Raymond	9	Hong Kong
+27	Rausing, Gad and family	9	Sweden
+28	Lee Shau Kee	8.6	Hong Kong
+29	Haefner, Walter	8.3	Switzerland
+30	Turner, Robert E. (Ted)	8.3	United States
+31	Karamehmet, Mehmet and family	8	Turkey
+32	Olayan, Suliman	8	Saudi Arabia
+33	Slim Helu, Carlos	7.9	Mexico
+34	Pinault, Francois	7.8	France
+35	Persson, Stefan	7.7	Sweden
+36	Schwab, Charles R.	7.5	United States
+37	Johnson, Abigail	7.4	United States
+38	Rausing, Hans	7.4	Sweden
+39	Saji, Nobutada and family	7.1	Japan
+40	Mars, Forrest Edward Jr.	7	United States
+41	Mars, Jacqueline Badger	7	United States
+42	Mars, John Franklyn	7	United States
+43	Premji, Azim and family	6.9	India
+44	Tsai Wan-lin and family	6.7	Taiwan
+45	Ambani, Dhirubhai and family	6.6	India
+46	Filo, David	6.6	United States
+47	Huntsman, Jon Meade	6.6	United States
+48	Sidhu, Sanjiv	6.5	United States
+49	Marinho, Roberto and family	6.4	Brazil
+50	Yang, Jerry	6.4	United States
+51	Halley, Paul-Louis and family	6.3	France
+52	Landolt, Pierre and family	6.3	Switzerland
+53	Otto, Michael and family	6.3	Germany
+54	Ito, Masatoshi	6.2	Japan
+55	Bezos, Jeffrey P.	6.1	United States
+56	Mccaw, Craig O.	6.1	United States
+57	Kerkorian, Kirk	5.9	United States
+58	von Siemens family	5.9	Germany
+59	Yanai, Tadashi	5.8	Japan
+60	Al-Kharafi, Nasser and family	5.7	Kuwait
+61	Mohn, Reinhard and family	5.7	Germany
+62	Sabanci, Sakip and family	5.7	Turkey
+63	Del Vecchio, Leonardo	5.5	Italy
+64	Grosvenor, Gerald Cavendish and family	5.5	U.K.
+65	Pritzker, Robert Alan	5.5	United States
+66	Waitt, Theodore W.	5.5	United States
+67	Nicholas, Henry T.	5.4	United States
+68	Engelhorn, Curt	5.2	Germany
+69	von Finck, August and family	5.2	Germany
+70	Dassault, Serge and family	5.1	France
+71	Goodnight, James	5.1	United States
+72	Samueli, Henry	5.1	United States
+73	Agnelli, Giovanni and family	5	Italy
+74	Kinoshita, Kyosuke	5	Japan
+75	Omidyar, Pierre M.	5	United States
+76	von Holtzbrinck, Dieter and family	5	Germany
+77	Plattner, Hasso	4.9	Germany
+78	Benetton, Luciano and family	4.8	Italy
+79	Wurth, Reinhold	4.8	Germany
+80	Bass, Lee Marshall	4.7	United States
+81	Fukuda, Yoshitake	4.7	Japan
+82	Herz, G|nter and family	4.7	Germany
+83	Okada, Kazuo	4.7	Japan
+84	Kuok, Robert	4.6	Malaysia
+85	Newhouse, Donald Edward	4.5	United States
+86	Newhouse, Samuel Irving Jr.	4.5	United States
+87	Simplot, John R.	4.5	United States
+88	Wang, Patrick	4.5	Hong Kong
+89	Woeste, Albrecht and Henkel family	4.5	Germany
+90	Iwasaki, Fukuzo	4.4	Japan
+91	Johnson, Samuel Curtis	4.4	United States
+92	Koc, Rahmi and family	4.4	Turkey
+93	Doris, Ennio	4.3	Italy
+94	Gerling, Rolf	4.3	Germany
+95	Heineken, Alfred	4.3	Netherlands
+96	Latsis, Spiro	4.3	Greece
+97	Li, Richard	4.3	Hong Kong
+98	Schmidheiny, Stephan	4.3	Switzerland
+99	Soru, Renato	4.3	Italy
+100	Wang, Y.C.	4.3	Taiwan
+101	Bass, Sid Richardson	4.2	United States
+102	Broad, Eli	4.2	United States
+103	Haub, Erivan and family	4.2	Germany
+104	Reimann family	4.2	Germany
+105	Siebel, Thomas M	4.2	United States
+106	Beisheim, Otto	4.1	Germany
+107	Irving, James, Arthur and John	4.1	Canada
+108	Malone, John C.	4.1	United States
+109	Sainsbury, David and family	4.1	UK
+110	Schmidt-Ruthenbeck family	4.1	Germany
+111	Greenberg, Maurice Raymond	4	United States
+112	Haffa, Thomas	4	Germany
+113	Kamel, Saleh	4	Saudi Arabia
+114	Merck family	4	Germany
+115	Bronfman, Edgar M. Sr.	3.9	United States
+116	Deshpande, Gururaj, E.	3.9	United States
+117	Hostetter, Amos Barr Jr.	3.9	United States
+118	Lauder, Leonard Alan	3.9	United States
+119	Lauder, Ronald Steven	3.9	United States
+120	Mori, Akira	3.9	Japan
+121	Bombardier family	3.8	Canada
+122	Jacobs, Klaus	3.8	Switzerland
+123	Knight, Philip H.	3.8	United States
+124	Lerner, Alfred	3.8	United States
+125	Packer, Kerry	3.8	Australia
+126	Takizaki, Takemitsu	3.8	Japan
+127	Dumas, Jean-Louis and family	3.7	France
+128	Icahn, Carl Celian	3.7	United States
+129	Johnson, Edward Crosby III	3.7	United States
+130	Nadar, Shiv	3.7	India
+131	Schmidheiny, Thomas	3.7	Switzerland
+132	Wang, Nina	3.7	Hong Kong
+133	Al Rajhi, Saleh bin Abdul Aziz	3.6	Saudi Arabia
+134	Lim Goh Tong	3.6	Malaysia
+135	Otsuka, Akihiko and family	3.6	Japan
+136	Sahenk, Ayhan and family	3.6	Turkey
+137	Al-Hariri, Rafik and family	3.5	Lebanon
+138	Bass, Robert Muse	3.5	United States
+139	Cisneros, Gustavo and family	3.5	Venezuela
+140	Jameel, Mohammed and family	3.5	Saudi Arabia
+141	Schickedanz family	3.5	Germany
+142	Tsutsumi, Yoshiaki	3.5	Japan
+143	Ng Teng Fong and Robert	3.4	Singapore
+144	Tschira, Klaus	3.4	Germany
+145	Branson, Richard	3.3	UK
+146	Bronfman, Charles R.	3.3	Canada
+147	Moller, Maersk Mc-Kinney	3.3	Denmark
+148	Kipp, Karl-Heinz	3.2	Germany
+149	Koo, Jeffrey and family	3.2	Taiwan
+150	Oetker, Rudolf and family	3.2	Germany
+151	Widjaja, Eka Tjipta	3.2	Indonesia
+152	Foriel-Destezet, Philippe	3.1	France
+153	Jinnai, Ryoichi	3.1	Japan
+154	Kristiansen, Kjeld Kirk	3.1	Denmark
+155	Chandra, Subhash	3	India
+156	Kamprad, Ingvar	3	Sweden
+157	Safra, Joseph and Moise	3	Brazil
+158	Cheng Yu-tung	2.9	Hong Kong
+159	Hayek, Nicolas	2.9	Switzerland
+160	Schmid, Gerhard	2.9	Germany
+161	Skoll, Jeff	2.9	Canada
+162	van Vlissingen family	2.9	Netherlands
+163	Vik, Alexander	2.9	Norway
+164	Bouygues, Martin	2.8	France
+165	Faria, Aloysio de Andrade	2.8	Brazil
+166	Funai, Tetsuro	2.8	Japan
+167	Itoyama, Eitaro	2.8	Japan
+168	Kuo, Terry	2.8	Taiwan
+169	Lee Kun-hee and family	2.8	South Korea
+170	Oppenheimer, Nicky and family	2.8	South Africa
+171	Khoo Teck Puat	2.7	Singapore
+172	Kokkalis, Socrates	2.7	Greece
+173	Yoshida, Tadahiro	2.7	Japan
+174	Kadoorie, Michael and family	2.6	Hong Kong
+175	Louis-Dreyfus, Gerard and family	2.6	France
+176	Jahr, John and family	2.5	Germany
+177	Mantegazza, Sergio	2.5	Switzerland
+178	Wertheimer, Alain	2.5	France
+179	Yamauchi, Hiroshi	2.5	Japan
+180	Al-Ghurair, Abdul-Aziz	2.4	UAE
+181	Fukutake, Soichiro	2.4	Japan
+182	Mann, Hugo and family	2.4	Germany
+183	Weston, Galen	2.4	Canada
+184	Fung, Victor & William	2.3	Hong Kong
+185	Schroder, Bruno	2.3	UK
+186	David-Weill, Michel	2.2	France
+187	Ecclestone, Bernard	2.2	UK
+188	Hopp, Dietmar and family	2.2	Germany
+189	Mikitani, Hiroshi	2.2	Japan
+190	O'Reilly, Anthony	2.2	Ireland
+191	Arison Dorsman, Shari	2.1	Israel
+192	John T. Dorrance 3rd	2.1	Ireland
+193	Kampf, Serge	2.1	France
+194	Lede, David and Cliff	2.1	Canada
+195	Lowy, Frank	2.1	Australia
+196	Mendoza, Lorenzo and family	2.1	Venezuela
+197	Mittal, Lakshmi	2.1	India
+198	Ofer, Yuli and Sammy	2.1	Israel
+199	Perez Companc, Gregorio	2.1	Argentina
+200	Sawiris, Onsi and family	2.1	Egypt
+201	Tan, Lucio	2.1	Philippines
+202	Zambrano, Lorenzo	2.1	Mexico
+203	Al Jeraisy, Abdul Al Rahman	2	Saudia Arabia
+204	Ermirio de Moraes, Jose and Antonio	2	Brazil
+205	Garza Laguera, Eugenio and family	2	Mexico
+206	Goldschmeding, Frits	2	Netherlands
+207	Kwek Leng Beng	2	Singapore
+208	Miyamoto, Masafumi	2	Japan
+209	Morita, Masao	2	Japan
+210	Rai, Vinay and family	2	India
+211	Schoerghuber, Stefan	2	Germany
+212	Thurn und Taxis family	2	Germany
+213	Verspieren family	2	France
+214	Ebner, Martin	1.9	Switzerland
+215	Matthews, Terry	1.9	U.K.
+216	Oppenheim, Alfred von	1.9	Germany
+217	Pattison, Jim	1.9	Canada
+218	Sherman, Bernard (Barry)	1.9	Canada
+219	Bamford, Sir Anthony and family	1.8	UK
+220	Fok, Henry	1.8	Hong Kong
+221	Hargreaves, John and family	1.8	U.K.
+222	Ho, Stanley	1.8	Hong Kong
+223	Moores family	1.8	U.K.
+224	Quek Leng Chan	1.8	Malaysia
+225	Sekiya, Kenichi	1.8	Japan
+226	Birla, Kumar Mangalam	1.7	India
+227	Blocher, Christoph	1.7	Switzerland
+228	Busujima, Kunio	1.7	Japan
+229	Chang Yung-fa	1.7	Taiwan
+230	Lam, Barry	1.7	Taiwan
+231	Nambu, Yasuyuki	1.7	Japan
+232	Rogers, Edward S. (Ted)	1.7	Canada
+233	Rothschild family	1.7	France/UK
+234	Shigeta, Yasumitsu	1.7	Japan
+235	Brost family	1.6	Germany
+236	Champalimaud, Antonio and family	1.6	Portugal
+237	Chen Din Hwa	1.6	Hong Kong
+238	Fortabat, Amalia Lacroze de	1.6	Argentina
+239	Funke family	1.6	Germany
+240	Mabuchi, Kenichi family	1.6	Japan
+241	March, Juan and Carlos	1.6	Spain
+242	Pratt, Richard	1.6	Australia
+243	Robert, Jr. Bosch	1.6	Germany
+244	Uehara, Shoji	1.6	Japan
+245	Weston, Garry	1.6	UK
+246	Zobel de Ayala, Jaime Augusto	1.6	Philippines
+247	Arango, Jeronimo	1.5	Mexico
+248	Azcarraga Jean, Emilio	1.5	Mexico
+249	Camargo, Dirce Navarro and family	1.5	Brazil
+250	de Azevedo, Belmiro	1.5	Portugal
+251	Harmsworth, Jonathan	1.5	UK
+252	Kudelski, Andre	1.5	Switzerland
+253	Liebherr family	1.5	Switzerland
+254	Martin Bringas, Ricardo and family	1.5	Mexico
+255	Swire, Sir Adrian and family	1.5	United Kingdom
+256	Ty, George	1.5	Philippines
+257	Botin, Emilio and family	1.4	Spain
+258	Diniz, Abilio dos Santos and family	1.4	Brazil
+259	Fujita, Den	1.4	Japan
+260	Hilti, Michael	1.4	Liechtenstein
+261	Matte, Eliodoro	1.4	Chile
+262	Nakajima, Kenkichi	1.4	Japan
+263	Ogiwara, Ikuo	1.4	Japan
+264	Saba Raffoul, Isaac and family	1.4	Mexico
+265	Salinas Pliego, Ricardo and family	1.4	Mexico
+266	Tane, Hiroshi	1.4	Japan
+267	Tiong Hiew King	1.4	Malaysia
+268	Wada, Shigefumi	1.4	Japan
+269	Del Pino, Rafael and family	1.3	Spain
+270	Escarrer, Gabriel	1.3	Spain
+271	Hector, Hans Werner	1.3	Germany
+272	Ikemori, Kenji	1.3	Japan
+273	Mannix, Ron	1.3	Canada
+274	McCain, Wallace	1.3	Canada
+275	Raju, B.Ramalinga	1.3	India
+276	Schmidt, Karl Gerhard	1.3	Germany
+277	Sy, Henry	1.3	Philippines
+278	Andre, Henri and Eric	1.2	Switzerland
+279	Bailleres, Alberto and family	1.2	Mexico
+280	Bozano, Julio	1.2	Brazil
+281	Chearavanont, Dhanin	1.2	Thailand
+282	de Noble, Ernestina Herrera	1.2	Argentina
+283	Fukushima, Yasuhiro	1.2	Japan
+284	Haindl family	1.2	Germany
+285	Kozuki, Kagemasa	1.2	Japan
+286	Luksic And Family, Andronico	1.2	Chile
+287	Noda, Masahiro	1.2	Japan
+288	Romo Garza, Alfonso	1.2	Mexico
+289	Sato, Kenichiro	1.2	Japan
+290	Sirois, Charles	1.2	Canada
+291	Stroeher family	1.2	Germany
+292	Takenaka, Toichi	1.2	Japan
+293	Yeoh, Francis	1.2	Malaysia
+294	Angelini, Anacleto	1.1	Chile
+295	Asper, Israel	1.1	Canada
+296	Freudenberg family	1.1	Germany
+297	Kimura, Kenji	1.1	Japan
+298	Larrea Mota-Velasco, German	1.1	Mexico
+299	Lee family	1.1	Singapore
+300	Liselott Tham	1.1	Sweden
+301	McCain, Harrison	1.1	Canada
+302	Peralta, Carlos	1.1	Mexico
+303	Santo Domingo, Julio Mario	1.1	Colombia
+304	Wee Cho Yaw	1.1	Singapore
+305	Aramburuzabala, Maria Asuncion and family	1	Mexico
+306	Cutrale, Jose and family	1	Brazil
+307	Hinduja family	1	India
+308	Katayama, Takao	1	Japan
+309	Knauf, Baldwin and Nikolaus	1	Germany
+310	Koplowitz, Alicia	1	Spain
+311	Lewis, Joseph	1	UK
+312	Liem Sioe Liong	1	Indonesia
+313	Merckle, Adolf and family	1	Germany
+314	Miller, Robert	1	UK
+315	Oshima, Kenshin	1	Japan
+316	Rocca, Roberto and family	1	Argentina
+317	Simon family	1	Germany
+318	Tan Yu	1	Philippines
+319	Thyssen-Bornemisza, Georg ("Heini Jr.")	1	Switzerland
+320	Vidigal, Gaston	1	Brazil
+321	Yamaguchi, Hisakazu	1	Japan
+322	Yung, Larry	1	Hong Kong

@@ -239,25 +239,50 @@ table td {
 /* The baseline font-size is 26px*/
 
 slide.shrink00 {
-    font-size: 26px;
+    font-size: 26px !important;
 }
 
 slide.shrink10 {
-    font-size: 24px;
+    font-size: 24px !important;
 }
 
 slide.shrink20 {
-    font-size: 21px;
+    font-size: 21px !important;
 }
 
 slide.shrink30 {
-    font-size: 18px;
+    font-size: 18px !important;
 }
 
 slide.shrink40 {
-    font-size: 15px;
+    font-size: 15px !important;
 }
 
 slide.shrink50 {
-    font-size: 12px;
+    font-size: 12px !important;
+}
+
+slide.shrink60 {
+    font-size: 9px !important;
+}
+
+slide.shrink70 {
+    font-size: 6px !important;
+}
+
+slide.shrink80 {
+    font-size: 3px !important;
+}
+
+slide.shrink90 {
+    font-size: 1px !important;
+}
+
+slide.shrink100 {
+    font-size: 0px !important;
+}
+
+table.shrink50 {
+  font-size: 12px;
+  line-height: 26px;
 }

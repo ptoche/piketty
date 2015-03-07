@@ -29,12 +29,12 @@ sum(subset(df, Country == "United States" & Year == 1950)$value)
 ## [1] 1
 
 # Save data
-setwd("~/piketty/knitr/slides/extra")
+setwd("~/piketty/extra/Piketty - 2014 - Table_2_4 - Employment Shares")
 df_2_T4 <- df
-save(df, file = "data/df_2_T4.Rda")
+save(df_2_T4, file = "data/df_2_T4.Rda")
 
 # Load data
-setwd("~/piketty/knitr/slides/extra")
+setwd("~/piketty/extra/Piketty - 2014 - Table_2_4 - Employment Shares")
 load("data/df_2_T4.Rda") 
 df <- df_2_T4
 

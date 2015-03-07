@@ -1,0 +1,1014 @@
+# http://www.forbes.com/lists/2010/10/billionaires-2010_The-Worlds-Billionaires_Rank.html
+
+Rank	Name	Citizenship	Age	Net Worth ($bil)	Residence
+1 	Carlos Slim Helu & family	Mexico 	70 	53.5 	Mexico
+2 	William Gates III	United States 	54 	53.0 	United States
+3 	Warren Buffett	United States 	79 	47.0 	United States
+4 	Mukesh Ambani	India 	52 	29.0 	India
+5 	Lakshmi Mittal	India 	59 	28.7 	United Kingdom
+6 	Lawrence Ellison	United States 	65 	28.0 	United States
+7 	Bernard Arnault	France 	61 	27.5 	France
+8 	Eike Batista	Brazil 	53 	27.0 	Brazil
+9 	Amancio Ortega	Spain 	74 	25.0 	Spain
+10 	Karl Albrecht	Germany 	90 	23.5 	Germany
+11 	Ingvar Kamprad & family	Sweden 	83 	23.0 	Switzerland
+12 	Christy Walton & family	United States 	55 	22.5 	United States
+13 	Stefan Persson	Sweden 	62 	22.4 	Sweden
+14 	Li Ka-shing	Hong Kong 	81 	21.0 	Hong Kong
+15 	Jim Walton	United States 	62 	20.7 	United States
+16 	Alice Walton	United States 	60 	20.6 	United States
+17 	Liliane Bettencourt	France 	87 	20.0 	France
+18 	S. Robson Walton	United States 	66 	19.8 	United States
+19 	Prince Alwaleed Bin Talal Alsaud	Saudi Arabia 	55 	19.4 	Saudi Arabia
+20 	David Thomson & family	Canada 	52 	19.0 	Canada
+21 	Michael Otto & family	Germany 	66 	18.7 	Germany
+22 	Lee Shau Kee	Hong Kong 	82 	18.5 	Hong Kong
+23 	Michael Bloomberg	United States 	68 	18.0 	United States
+24 	Sergey Brin	United States 	36 	17.5 	United States
+24 	Charles Koch	United States 	74 	17.5 	United States
+24 	David Koch	United States 	69 	17.5 	United States
+24 	Larry Page	United States 	37 	17.5 	United States
+28 	Michele Ferrero & family	Italy 	83 	17.0 	Monaco
+28 	Kwok family	Hong Kong 	NA 	17.0 	Hong Kong
+28 	Azim Premji	India 	64 	17.0 	India
+31 	Theo Albrecht	Germany 	88 	16.7 	Germany
+32 	Vladimir Lisin	Russia 	53 	15.8 	Russia
+33 	Steven Ballmer	United States 	54 	14.5 	United States
+33 	Robert Kuok	Malaysia 	86 	14.5 	Hong Kong
+35 	George Soros	United States 	79 	14.0 	United States
+36 	Anil Ambani	India 	50 	13.7 	India
+37 	Paul Allen	United States 	57 	13.5 	United States
+37 	Michael Dell	United States 	45 	13.5 	United States
+39 	Mikhail Prokhorov	Russia 	44 	13.4 	Russia
+40 	Birgit Rausing & family	Sweden 	86 	13.0 	Switzerland
+40 	Shashi & Ravi Ruia	India 	66 	13.0 	India
+42 	Mikhail Fridman	Russia 	45 	12.7 	Russia
+43 	Jeffrey Bezos	United States 	46 	12.3 	United States
+44 	Savitri Jindal	India 	60 	12.2 	India
+45 	Donald Bren	United States 	77 	12.0 	United States
+45 	Gerald Cavendish Grosvenor & family	United Kingdom 	58 	12.0 	United Kingdom
+45 	John Paulson	United States 	54 	12.0 	United States
+48 	Abigail Johnson	United States 	48 	11.5 	United States
+48 	Jorge Paulo Lemann	Brazil 	70 	11.5 	Brazil
+50 	Roman Abramovich	Russia 	43 	11.2 	Russia 
+51 	Susanne Klatten	Germany 	47 	11.1 	Germany
+52 	Iris Fontbona & family	Chile 	NA 	11.0 	Chile
+52 	Forrest Mars Jr	United States 	78 	11.0 	United States
+52 	Jacqueline Mars	United States 	70 	11.0 	United States
+52 	John Mars	United States 	73 	11.0 	United States
+52 	Ronald Perelman	United States 	67 	11.0 	United States
+57 	Oleg Deripaska	Russia 	42 	10.7 	Russia
+58 	Vagit Alekperov	Russia 	59 	10.6 	Russia
+59 	Leonardo Del Vecchio	Italy 	74 	10.5 	Italy
+59 	Carl Icahn	United States 	74 	10.5 	United States
+61 	Vladimir Potanin	Russia 	49 	10.3 	Russia
+62 	Philip Knight	United States 	72 	10.2 	United States
+63 	Ricardo Salinas Pliego & family	Mexico 	54 	10.1 	Mexico
+64 	Mohammed Al Amoudi	Saudi Arabia 	65 	10.0 	Saudi Arabia
+64 	Ernesto Bertarelli & family	Switzerland 	44 	10.0 	Switzerland
+64 	Anne Cox Chambers	United States 	90 	10.0 	United States
+64 	George Kaiser	United States 	67 	10.0 	United States
+64 	Hans Rausing	Sweden 	84 	10.0 	United Kingdom
+64 	Joseph Safra	Brazil 	71 	10.0 	Brazil
+70 	Alexei Mordashov	Russia 	44 	9.9 	Russia
+71 	Viktor Rashnikov	Russia 	61 	9.8 	Russia
+72 	German Larrea Mota Velasco & family	Mexico 	56 	9.7 	Mexico
+73 	Sheldon Adelson	United States 	76 	9.3 	United States
+74 	Silvio Berlusconi & family	Italy 	73 	9.0 	Italy
+74 	Dan Duncan	United States 	77 	9.0 	United States 
+74 	Kushal Pal Singh	India 	78 	9.0 	India
+77 	Nasser Al-Kharafi & family	Kuwait 	66 	8.7 	Kuwait
+77 	Francois Pinault & family	France 	73 	8.7 	France
+79 	Dmitry Rybolovlev	Russia 	43 	8.6 	Russia
+80 	Iskander Makhmudov	Russia 	46 	8.5 	Russia
+80 	James Simons	United States 	71 	8.5 	United States
+82 	Alberto Bailleres & family	Mexico 	77 	8.3 	Mexico
+83 	German Khan	Russia 	48 	8.2 	Russia
+84 	Eliodoro, Bernardo & Patricia Matte	Chile 	NA 	8.1 	Chile
+85 	Edward Johnson III	United States 	79 	8.0 	United States
+86 	Kumar Birla	India 	42 	7.9 	India
+87 	Sunil Mittal	India 	52 	7.8 	India
+88 	John Fredriksen	Cyprus 	65 	7.7 	United Kingdom
+89 	Serge Dassault & family	France 	84 	7.6 	France
+89 	Petr Kellner	Czech Republic 	45 	7.6 	Czech Republic
+89 	Ananda Krishnan	Malaysia 	71 	7.6 	Malaysia
+89 	Tadashi Yanai & family	Japan 	61 	7.6 	Japan
+93 	Mohamed Bin Issa Al Jaber	Saudi Arabia 	51 	7.5 	Saudi Arabia
+93 	Len Blavatnik	United States 	52 	7.5 	United Kingdom
+93 	David & Simon Reuben	United Kingdom 	67 	7.5 	United Kingdom
+93 	Nobutada Saji & family	Japan 	64 	7.5 	Japan
+93 	Alain & Gerard Wertheimer	France 	NA 	7.5 	NA
+93 	Vladimir Yevtushenkov	Russia 	61 	7.5 	Russia
+99 	August von Finck	Germany 	80 	7.3 	Switzerland
+100 	Lee Kun-Hee	South Korea 	68 	7.2 	South Korea
+100 	Alisher Usmanov	Russia 	56 	7.2 	Russia
+100 	Galen Weston & family	Canada 	69 	7.2 	Canada
+103 	Charlene de Carvalho-Heineken	Netherlands 	55 	7.0 	United Kingdom
+103 	Zong Qinghou	China 	64 	7.0 	China
+105 	James Goodnight	United States 	67 	6.9 	United States
+106 	Cheng Yu-tung	Hong Kong 	84 	6.8 	Hong Kong
+107 	Philip & Cristina Green	United Kingdom 	58 	6.7 	United Kingdom
+108 	Klaus-Michael Kuhne	Germany 	72 	6.6 	Switzerland
+109 	Sulaiman Al Rajhi	Saudi Arabia 	90 	6.5 	Saudi Arabia
+109 	John Kluge	United States 	95 	6.5 	United States
+109 	Alexei Kuzmichev	Russia 	47 	6.5 	Russia
+109 	Sammy Ofer & family	Israel 	88 	6.5 	Monaco
+113 	Anil Agarwal	India 	56 	6.4 	United Kingdom
+113 	Steven Cohen	United States 	54 	6.4 	United States
+113 	Viktor Vekselberg	Russia 	52 	6.4 	Russia
+113 	Igor Zyuzin	Russia 	49 	6.4 	Russia
+117 	Curt Engelhorn	Germany 	83 	6.3 	Switzerland
+117 	Akira Mori & family	Japan 	73 	6.3 	Japan
+117 	Rupert Murdoch	United States 	79 	6.3 	United States
+117 	Eric Schmidt	United States 	54 	6.3 	United States
+121 	Alexander Abramov	Russia 	51 	6.1 	Russia
+121 	Hansjorg Wyss	Switzerland 	75 	6.1 	United States
+123 	Philip Anschutz	United States 	70 	6.0 	United States
+123 	Antonia Johnson	Sweden 	66 	6.0 	Sweden
+123 	Julio Mario Santo Domingo	Colombia 	86 	6.0 	Colombia 
+123 	Jack Taylor & family	United States 	87 	6.0 	United States
+127 	Nassef Sawiris	Egypt 	48 	5.9 	Egypt
+127 	Masayoshi Son	Japan 	52 	5.9 	Japan
+129 	Saleh Al Rajhi	Saudi Arabia 	98 	5.8 	Saudi Arabia
+129 	Joseph Lau	Hong Kong 	58 	5.8 	Hong Kong
+129 	Pallonji Mistry	Ireland 	80 	5.8 	India
+132 	Eli Broad	United States 	76 	5.7 	United States
+132 	Stefan Quandt	Germany 	43 	5.7 	Germany
+132 	Reinhold Wurth	Germany 	74 	5.7 	Germany
+135 	Luis Carlos Sarmiento	Colombia 	77 	5.6 	Colombia
+136 	Leonid Fedun	Russia 	53 	5.5 	Russia
+136 	Terry Gou	Taiwan 	59 	5.5 	Taiwan
+136 	Harold Hamm	United States 	64 	5.5 	United States
+136 	Steven Jobs	United States 	55 	5.5 	United States
+136 	Suleiman Kerimov	Russia 	44 	5.5 	Russia
+136 	John Menard Jr	United States 	70 	5.5 	United States
+136 	Dorothea Steinbruch & family	Brazil 	NA 	5.5 	Brazil
+143 	Kunio Busujima & family	Japan 	84 	5.4 	Japan
+144 	Giorgio Armani	Italy 	75 	5.3 	Italy
+144 	Graeme Hart	New Zealand 	54 	5.3 	New Zealand
+144 	Spiro Latsis & family	Greece 	63 	5.3 	Switzerland
+144 	Ira Rennert	United States 	75 	5.3 	United States
+148 	Rinat Akhmetov	Ukraine 	43 	5.2 	Ukraine
+148 	Charles Ergen	United States 	57 	5.2 	United States
+148 	Adi Godrej & family	India 	67 	5.2 	India
+148 	Pierre Omidyar	United States 	42 	5.2 	United States
+152 	Michael Kadoorie & family	Hong Kong 	69 	5.1 	Hong Kong
+152 	Marcel Herrmann Telles	Brazil 	60 	5.1 	Brazil
+154 	David Geffen	United States 	67 	5.0 	United States
+154 	Jim Kennedy	United States 	62 	5.0 	United States
+154 	Karl-Heinz Kipp	Germany 	86 	5.0 	Switzerland
+154 	Liu Yongxing	China 	62 	5.0 	China
+154 	Frederik G.H. Meijer & family	United States 	90 	5.0 	United States
+154 	Nicky Oppenheimer & family	South Africa 	64 	5.0 	South Africa
+154 	Blair Parry-Okeden	United States 	59 	5.0 	Australia
+154 	Horst Paulmann & family	Chile 	75 	5.0 	Chile
+154 	Hasso Plattner	Germany 	66 	5.0 	Germany
+154 	Sergei Popov	Russia 	38 	5.0 	Russia
+154 	Johanna Quandt	Germany 	83 	5.0 	Germany
+154 	Patrick Soon-Shiong	United States 	58 	5.0 	United States
+166 	Tsai Wan-Tsai & family	Taiwan 	80 	4.9 	Taiwan
+167 	Gautam Adani	India 	47 	4.8 	India
+167 	Isak Andic & family	Spain 	55 	4.8 	Spain
+167 	Boris Ivanishvili	Russia 	54 	4.8 	Georgia
+167 	Hiroshi Mikitani	Japan 	45 	4.8 	Japan
+171 	Charles Schwab	United States 	72 	4.7 	United States
+171 	Stephen Schwarzman	United States 	63 	4.7 	United States
+173 	Jean-Claude Decaux & family	France 	72 	4.6 	France
+173 	Ralph Lauren	United States 	70 	4.6 	United States
+173 	Dilip Shanghvi	India 	54 	4.6 	India 
+176 	Robert Bass	United States 	62 	4.5 	United States
+176 	Andrew Beal	United States 	57 	4.5 	United States
+176 	William Cook	United States 	78 	4.5 	United States
+176 	Richard DeVos	United States 	84 	4.5 	United States
+176 	Erivan Haub & family	Germany 	77 	4.5 	Germany
+176 	Pauline MacMillan Keinath	United States 	76 	4.5 	United States
+176 	Cargill MacMillan Jr	United States 	83 	4.5 	United States
+176 	Whitney MacMillan	United States 	81 	4.5 	United States
+176 	Samuel Newhouse Jr	United States 	82 	4.5 	United States
+176 	Marion MacMillan Pictet	United States 	77 	4.5 	Bermuda
+176 	Carlos Alberto Sicupira	Brazil 	62 	4.5 	Brazil
+176 	Harold Simmons	United States 	78 	4.5 	United States
+176 	Zhang Jindong	China 	47 	4.5 	China
+189 	Micky Arison	United States 	60 	4.4 	United States
+189 	Lee Shin Cheng	Malaysia 	70 	4.4 	Malaysia
+189 	Andrey Melnichenko	Russia 	38 	4.4 	Russia
+189 	Leonid Mikhelson	Russia 	54 	4.4 	Russia
+189 	Elizabeth Mohn & family	Germany 	69 	4.4 	Germany
+189 	Robert Rowling	United States 	56 	4.4 	United States
+189 	Wang Chuanfu	China 	44 	4.4 	China
+189 	Karl Wlaschek	Austria 	92 	4.4 	Austria
+197 	Heinz-Horst Deichmann	Germany 	83 	4.3 	Germany
+197 	Thomas Schmidheiny	Switzerland 	64 	4.3 	Switzerland
+197 	Tsai Eng-Meng	Taiwan 	53 	4.3 	China
+197 	Peter Woo & family	Hong Kong 	64 	4.3 	Hong Kong 
+201 	Gustavo Cisneros & family	Venezuela 	64 	4.2 	Venezuela
+201 	Aloysio de Andrade Faria	Brazil 	89 	4.2 	Brazil
+201 	Henry Kravis	United States 	66 	4.2 	United States
+201 	Shiv Nadar	India 	64 	4.2 	India
+201 	Henry Sy & family	Philippines 	85 	4.2 	Philippines
+201 	Dennis Washington	United States 	75 	4.2 	United States
+201 	Hiroshi Yamauchi	Japan 	82 	4.2 	Japan
+208 	Lester Crown & family	United States 	84 	4.1 	United States
+208 	Andrew Forrest	Australia 	48 	4.1 	Australia
+208 	Dietrich Mateschitz	Austria 	65 	4.1 	Austria
+208 	Chaleo Yoovidhya	Thailand 	78 	4.1 	Thailand
+212 	Americo Amorim	Portugal 	75 	4.0 	Portugal
+212 	Jeronimo Arango & family	Mexico 	84 	4.0 	Mexico
+212 	John Arnold	United States 	36 	4.0 	United States
+212 	Richard Branson	United Kingdom 	59 	4.0 	United Kingdom
+212 	Charles Butt & family	United States 	72 	4.0 	United States
+212 	Ray Dalio	United States 	60 	4.0 	United States
+212 	John Paul DeJoria	United States 	66 	4.0 	United States
+212 	Bernard Ecclestone & family	United Kingdom 	79 	4.0 	United Kingdom
+212 	Hui Ka Yan	China 	51 	4.0 	China
+212 	James, Arthur & John Irving	Canada 	NA 	4.0 	Canada
+212 	Charles Johnson	United States 	77 	4.0 	United States
+212 	Leonard Lauder	United States 	77 	4.0 	United States
+212 	Richard LeFrak & family	United States 	64 	4.0 	United States
+212 	Alain Merieux & family	France 	72 	4.0 	France
+212 	Donald Newhouse	United States 	80 	4.0 	United States
+212 	Jim Pattison	Canada 	81 	4.0 	Canada
+212 	Daniel Ziff	United States 	38 	4.0 	United States
+212 	Dirk Ziff	United States 	45 	4.0 	United States
+212 	Robert Ziff	United States 	43 	4.0 	United States
+212 	Mark Zuckerberg	United States 	25 	4.0 	United States
+232 	Paul Desmarais	Canada 	83 	3.9 	Canada
+232 	Nicolas Hayek	Switzerland 	81 	3.9 	Switzerland
+232 	Robert Holding	United States 	83 	3.9 	United States
+232 	Bradley Hughes	United States 	76 	3.9 	United States
+232 	Wu Yajun & family	China 	46 	3.9 	China
+237 	Michael Herz	Germany 	64 	3.8 	Germany
+237 	Wolfgang Herz	Germany 	59 	3.8 	Germany
+237 	Rupert Johnson Jr	United States 	68 	3.8 	United States
+237 	Paul Milstein & family	United States 	87 	3.8 	United States
+237 	Gordon Moore	United States 	81 	3.8 	United States
+237 	George Roberts	United States 	66 	3.8 	United States
+237 	Bernard (Barry) Sherman	Canada 	68 	3.8 	Canada
+237 	Andreas Strungmann	Germany 	60 	3.8 	Germany
+237 	Thomas Strungmann	Germany 	60 	3.8 	Germany
+237 	Samuel Zell	United States 	68 	3.8 	United States
+247 	Vladimir Kim	Kazakhstan 	49 	3.7 	Kazakhstan
+247 	Hermann Schnabel	Germany 	89 	3.7 	Germany
+249 	Pyotr Aven	Russia 	55 	3.6 	Russia
+249 	Otto Beisheim	Germany 	86 	3.6 	Switzerland
+249 	Chung Mong-Koo	South Korea 	72 	3.6 	South Korea
+249 	Richard Kinder	United States 	65 	3.6 	United States
+249 	Liang Wengen	China 	53 	3.6 	China
+249 	Frank Lowy & family	Australia 	79 	3.6 	Australia
+249 	Ma Huateng	China 	38 	3.6 	China
+249 	Arnon Milchan	Israel 	65 	3.6 	Israel
+249 	Leonard Stern	United States 	72 	3.6 	United States
+258 	Abdul Aziz Al Ghurair & family	United Arab Emirates 	55 	3.5 	United Arab Emirates
+258 	Ray Dolby	United States 	77 	3.5 	United States
+258 	William Fung	Hong Kong 	62 	3.5 	Hong Kong
+258 	Stein Erik Hagen & family	Norway 	53 	3.5 	Norway
+258 	Michael Hartono	Indonesia 	70 	3.5 	Indonesia
+258 	R. Budi Hartono	Indonesia 	69 	3.5 	Indonesia
+258 	Bruce Kovner	United States 	65 	3.5 	United States
+258 	Kjeld Kirk Kristiansen	Denmark 	62 	3.5 	Denmark
+258 	Kuok Khoon Hong	Singapore 	60 	3.5 	Singapore
+258 	Robin Li	China 	41 	3.5 	China
+258 	Lorenzo Mendoza & family	Venezuela 	44 	3.5 	Venezuela
+258 	Rosalia Mera	Spain 	66 	3.5 	Spain
+258 	Denis O'Brien	Ireland 	51 	3.5 	Ireland
+258 	James Packer	Australia 	42 	3.5 	Australia
+258 	Michael & Rainer Schmidt-Ruthenbeck	Germany 	NA 	3.5 	Germany
+258 	David Tepper	United States 	52 	3.5 	United States
+258 	Wee Cho Yaw & family	Singapore 	81 	3.5 	Singapore
+258 	Stef Wertheimer & family	Israel 	84 	3.5 	Israel 
+258 	Aloys Wobben	Germany 	58 	3.5 	Germany
+277 	Shari Arison	Israel 	52 	3.4 	Israel
+277 	Martin & Olivier Bouygues	France 	57 	3.4 	France
+277 	Bernard Broermann	Germany 	66 	3.4 	Germany
+277 	Chen Fashu	China 	49 	3.4 	China
+277 	Eitaro Itoyama	Japan 	67 	3.4 	Japan
+277 	Quek Leng Chan	Malaysia 	69 	3.4 	Malaysia
+277 	Stephen Ross	United States 	69 	3.4 	United States
+277 	John Sall	United States 	61 	3.4 	United States
+277 	Teh Hong Piow	Malaysia 	80 	3.4 	Malaysia
+277 	Yang Huiyan	China 	28 	3.4 	China
+287 	Patokh Chodiev	Belgium 	57 	3.3 	Kazakhstan
+287 	Victor Fung & family	United States 	64 	3.3 	Hong Kong
+287 	Walter Haefner	Switzerland 	99 	3.3 	Switzerland
+287 	He Xiangjian	China 	67 	3.3 	China
+287 	Hui Wing Mau	Hong Kong 	60 	3.3 	Hong Kong
+287 	Alijan Ibragimov	Kazakhstan 	56 	3.3 	Kazakhstan
+287 	Alexander Machkevich	Israel 	56 	3.3 	Kazakhstan
+287 	Daniel Och	United States 	49 	3.3 	United States
+287 	Henry Ross Perot Sr	United States 	79 	3.3 	United States
+287 	Haim Saban	United States 	65 	3.3 	United States
+297 	Ronald Burkle	United States 	57 	3.2 	United States
+297 	Chen Din Hwa	Hong Kong 	87 	3.2 	Hong Kong
+297 	Frits Goldschmeding	Netherlands 	76 	3.2 	Netherlands
+297 	Paul Tudor Jones II	United States 	55 	3.2 	United States 
+297 	Liu Zhongtian	China 	46 	3.2 	China
+297 	G. M. Rao	India 	59 	3.2 	India
+297 	Anton Schlecker	Germany 	65 	3.2 	Germany
+297 	Malvinder & Shivinder Singh	India 	37 	3.2 	India
+297 	Nikolai Tsvetkov	Russia 	49 	3.2 	Russia
+307 	Richard Chandler	New Zealand 	51 	3.1 	New Zealand
+307 	Heidi Horten	Austria 	69 	3.1 	Austria
+307 	Kirk Kerkorian	United States 	92 	3.1 	United States
+307 	Lu Xiangyang	China 	48 	3.1 	China
+307 	Patrick McGovern	United States 	72 	3.1 	United States
+307 	Victor Pinchuk	Ukraine 	49 	3.1 	Ukraine
+307 	Onsi Sawiris	Egypt 	80 	3.1 	Egypt
+307 	Takemitsu Takizaki	Japan 	64 	3.1 	Japan
+307 	Zhou Chengjian	China 	44 	3.1 	China
+316 	Riley Bechtel	United States 	58 	3.0 	United States
+316 	Stephen Bechtel Jr	United States 	84 	3.0 	United States
+316 	Abilio dos Santos Diniz	Brazil 	73 	3.0 	Brazil
+316 	Antonio Ermirio de Moraes & family	Brazil 	81 	3.0 	Brazil
+316 	Thomas Frist Jr & family	United States 	71 	3.0 	United States
+316 	David Green	United States 	68 	3.0 	United States
+316 	Bahaa Hariri	Switzerland 	43 	3.0 	Switzerland
+316 	Ray Lee Hunt	United States 	67 	3.0 	United States
+316 	James Jannard	United States 	60 	3.0 	United States
+316 	Barbara Piasecka Johnson	United States 	73 	3.0 	Monaco 
+316 	Peter Kellogg	United States 	67 	3.0 	United States
+316 	William Koch	United States 	69 	3.0 	United States
+316 	Herbert Kohler Jr & family	United States 	71 	3.0 	United States
+316 	Uday Kotak	India 	51 	3.0 	India
+316 	Edward Lampert	United States 	47 	3.0 	United States
+316 	Theodore Lerner	United States 	84 	3.0 	United States
+316 	Joseph Lewis	United Kingdom 	73 	3.0 	Bahamas
+316 	George Lucas	United States 	65 	3.0 	United States
+316 	Husnu Ozyegin	Turkey 	65 	3.0 	Turkey
+316 	Liselott Persson	Sweden 	60 	3.0 	Sweden
+316 	Donald Schneider	United States 	74 	3.0 	United States
+316 	Martua Sitorus	Indonesia 	50 	3.0 	Singapore
+316 	Steven Spielberg	United States 	63 	3.0 	United States
+316 	Warren Stephens	United States 	53 	3.0 	United States
+316 	Harry Triguboff	Australia 	77 	3.0 	Australia
+316 	Wang Jianlin	China 	56 	3.0 	China
+342 	Elena Baturina	Russia 	47 	2.9 	Russia
+342 	Charles Cadogan & family	United Kingdom 	73 	2.9 	United Kingdom
+342 	Sergei Galitsky	Russia 	42 	2.9 	Russia
+342 	Mehmet Emin Karamehmet	Turkey 	65 	2.9 	Turkey
+342 	E. Stanley Kroenke	United States 	62 	2.9 	United States
+342 	Barry Lam	Taiwan 	60 	2.9 	Taiwan
+342 	Kalanithi Maran	India 	44 	2.9 	India
+342 	Dmitry Pumpyansky	Russia 	46 	2.9 	Russia
+342 	Richard Schulze	United States 	69 	2.9 	United States 
+342 	Charoen Sirivadhanabhakdi	Thailand 	65 	2.9 	Thailand
+342 	John Sobrato & family	United States 	70 	2.9 	United States
+342 	Ty Warner	United States 	66 	2.9 	United States
+354 	Subhash Chandra	India 	59 	2.8 	India
+354 	Stanley Druckenmiller	United States 	56 	2.8 	United States
+354 	Alexander Frolov	Russia 	45 	2.8 	Russia
+354 	Otto Happel	Germany 	62 	2.8 	Switzerland
+354 	Micky Jagtiani	India 	58 	2.8 	United Arab Emirates
+354 	Indu Jain	India 	73 	2.8 	India
+354 	Sergio Mantegazza	Switzerland 	82 	2.8 	Switzerland
+354 	Stephan Schmidheiny	Switzerland 	62 	2.8 	Switzerland
+354 	Roger Wang	United States 	61 	2.8 	China
+363 	Nancy Walton Laurie	United States 	58 	2.7 	United States
+363 	Heinz Hermann Thiele & family	Germany 	68 	2.7 	Germany
+363 	Joan Tisch	United States 	84 	2.7 	United States
+363 	Steven Udvar-Hazy	United States 	64 	2.7 	United States
+367 	Charles Dolan & family	United States 	83 	2.6 	United States
+367 	Albert Frere	Belgium 	84 	2.6 	Belgium
+367 	Saleh Kamel	Saudi Arabia 	68 	2.6 	Saudi Arabia
+367 	Ronald Lauder	United States 	66 	2.6 	United States
+367 	Mitchell Rales	United States 	53 	2.6 	United States
+367 	Steven Rales	United States 	58 	2.6 	United States
+367 	Sarik Tara	Turkey 	79 	2.6 	Turkey
+374 	David Azrieli & family	Canada 	87 	2.5 	Canada
+374 	Leon Black	United States 	58 	2.5 	United States 
+374 	Edgar Bronfman Sr	United States 	80 	2.5 	United States
+374 	Hubert Burda	Germany 	70 	2.5 	Germany
+374 	William Conway Jr	United States 	60 	2.5 	United States
+374 	Daniel D'Aniello	United States 	63 	2.5 	United States
+374 	Doris Fisher	United States 	78 	2.5 	United States
+374 	Laurence Graff	United Kingdom 	71 	2.5 	Switzerland
+374 	William Hilton	United States 	82 	2.5 	United States
+374 	Guy Laliberte	Canada 	50 	2.5 	Canada
+374 	James Leprino	United States 	72 	2.5 	United States
+374 	Liu Yonghao	China 	58 	2.5 	China
+374 	Lu Zhiqiang	China 	58 	2.5 	China
+374 	Najib Mikati	Lebanon 	54 	2.5 	Lebanon
+374 	Taha Mikati	Lebanon 	61 	2.5 	Lebanon
+374 	Robert Miller	Canada 	64 	2.5 	Canada
+374 	David Murdock	United States 	86 	2.5 	United States
+374 	Richard Rainwater	United States 	65 	2.5 	United States
+374 	David Rubenstein	United States 	60 	2.5 	United States
+374 	Naguib Sawiris	Egypt 	55 	2.5 	Egypt
+374 	David Shaw	United States 	59 	2.5 	United States
+374 	Friede Springer	Germany 	67 	2.5 	Germany
+374 	David Sun	United States 	58 	2.5 	United States
+374 	John Tu	United States 	68 	2.5 	United States
+374 	Michael Ying	Hong Kong 	60 	2.5 	Hong Kong
+374 	Zhang Zhirong	Hong Kong 	41 	2.5 	Hong Kong
+400 	Mohammed Al Issa	Saudi Arabia 	85 	2.4 	Saudi Arabia 
+400 	Vladimir Bogdanov	Russia 	58 	2.4 	Russia
+400 	Clive Calder	United Kingdom 	63 	2.4 	Cayman Islands
+400 	Mark Cuban	United States 	51 	2.4 	United States
+400 	John Dorrance III	Ireland 	66 	2.4 	Ireland
+400 	Filaret Galchev	Russia 	46 	2.4 	Russia
+400 	John Gandel	Australia 	75 	2.4 	Australia
+400 	Malcolm Glazer & family	United States 	81 	2.4 	United States
+400 	Guo Guangchang	China 	43 	2.4 	China
+400 	Xiuli Hawken	United Kingdom 	47 	2.4 	United Kingdom
+400 	Manuel Jove	Spain 	68 	2.4 	Spain
+400 	Lu Guanqiu	China 	65 	2.4 	China
+400 	John Malone	United States 	69 	2.4 	United States
+400 	Mario Moretti Polegato	Italy 	57 	2.4 	Italy
+400 	Sumner Redstone	United States 	86 	2.4 	United States
+400 	Emanuele (Lino) Saputo	Canada 	73 	2.4 	Canada
+400 	Dieter Schnabel	Germany 	64 	2.4 	Germany
+400 	Jeffrey Skoll	Canada 	45 	2.4 	United States
+400 	Ronda Stryker	United States 	55 	2.4 	United States
+400 	Oprah Winfrey	United States 	56 	2.4 	United States
+400 	Zhu Yicai	China 	46 	2.4 	China
+421 	Saif Al Ghurair & family	United Arab Emirates 	NA 	2.3 	United Arab Emirates
+421 	Abdullah Al Rajhi	Saudi Arabia 	NA 	2.3 	Saudi Arabia
+421 	James Balsillie	Canada 	49 	2.3 	Canada
+421 	David & Frederick Barclay	United Kingdom 	76 	2.3 	United Kingdom
+421 	Archie Aldis Emmerson	United States 	80 	2.3 	United States 
+421 	Gunter Herz	Germany 	69 	2.3 	Germany
+421 	Amos Hostetter Jr	United States 	73 	2.3 	United States
+421 	Huang Rulun	China 	58 	2.3 	China
+421 	Lin Rong San	Taiwan 	NA 	2.3 	Taiwan
+421 	Wallace McCain	Canada 	80 	2.3 	Canada
+421 	Patrice Motsepe	South Africa 	48 	2.3 	South Africa
+421 	Sean Quinn & family	Ireland 	63 	2.3 	Ireland
+421 	Johann Rupert & family	South Africa 	59 	2.3 	South Africa
+421 	Moise Safra	Brazil 	75 	2.3 	Brazil
+421 	Leslie Wexner	United States 	72 	2.3 	United States
+421 	Yeoh Tiong Lay & family	Malaysia 	80 	2.3 	Malaysia
+437 	Pierre Bellon & family	France 	80 	2.2 	France
+437 	Nicolas Berggruen	United States 	48 	2.2 	United States
+437 	William Ding	China 	38 	2.2 	China
+437 	Richard Elman & family	United Kingdom 	NA 	2.2 	Hong Kong
+437 	Phillip Frost	United States 	73 	2.2 	United States
+437 	Tom Gores	United States 	45 	2.2 	United States
+437 	Mikhail Gutseriev	Russia 	52 	2.2 	United Kingdom
+437 	Daniela Herz	Germany 	56 	2.2 	Germany
+437 	Elie Horn	Brazil 	64 	2.2 	Brazil
+437 	Alicia Koplowitz	Spain 	55 	2.2 	Spain
+437 	Mike Lazaridis	Canada 	49 	2.2 	Canada
+437 	Mary Alice Dorrance Malone	United States 	60 	2.2 	United States
+437 	Masahiro Miki	Japan 	54 	2.2 	Japan
+437 	George Mitchell	United States 	90 	2.2 	United States 
+437 	Kerr Neilson	Australia 	60 	2.2 	Australia
+437 	Dinu Patriciu	Romania 	59 	2.2 	Romania
+437 	Sebastian Pinera	Chile 	60 	2.2 	Chile
+437 	Julian Robertson Jr	United States 	78 	2.2 	United States
+437 	David Rockefeller Sr	United States 	94 	2.2 	United States
+437 	Alexandra Schorghuber	Germany 	51 	2.2 	Germany
+437 	Bruno Schroder & family	United Kingdom 	77 	2.2 	United Kingdom
+437 	Antonio Luiz Seabra	Brazil 	67 	2.2 	United Kingdom
+437 	Peter Sondakh	Indonesia 	58 	2.2 	Indonesia
+437 	Glen Taylor	United States 	68 	2.2 	United States
+437 	Olav Thon	Norway 	86 	2.2 	Norway
+437 	Albert von Thurn und Taxis	Germany 	26 	2.2 	Germany
+463 	Majid Al Futtaim	United Arab Emirates 	NA 	2.1 	United Arab Emirates
+463 	Carlo Benetton	Italy 	66 	2.1 	Italy
+463 	Gilberto Benetton	Italy 	68 	2.1 	Italy
+463 	Giuliana Benetton	Italy 	72 	2.1 	Italy
+463 	Luciano Benetton	Italy 	74 	2.1 	Italy
+463 	Dhanin Chearavanont	Thailand 	70 	2.1 	Thailand
+463 	Chu Lam Yiu	Hong Kong 	41 	2.1 	Hong Kong
+463 	Aliko Dangote	Nigeria 	52 	2.1 	Nigeria
+463 	Henry Hillman	United States 	91 	2.1 	United States
+463 	H. Wayne Huizenga	United States 	72 	2.1 	United States
+463 	Mohammed Ibrahim	United Kingdom 	NA 	2.1 	United Kingdom
+463 	H. Fisk Johnson	United States 	51 	2.1 	United States
+463 	Imogene Powers Johnson	United States 	80 	2.1 	United States 
+463 	S. Curtis Johnson	United States 	54 	2.1 	United States
+463 	Helen Johnson-Leipold	United States 	53 	2.1 	United States
+463 	Winnie Johnson-Marquart	United States 	50 	2.1 	United States
+463 	Jan Kulczyk	Poland 	60 	2.1 	Poland
+463 	Guilherme Peirao Leal	Brazil 	59 	2.1 	Brazil
+463 	Sudhir & Samir Mehta	India 	55 	2.1 	India
+463 	Rubens Ometto Silveira Mello	Brazil 	60 	2.1 	Brazil
+463 	A. Jerrold Perenchio	United States 	79 	2.1 	United States
+463 	Ferit Sahenk	Turkey 	46 	2.1 	Turkey
+463 	Yitzhak Tshuva	Israel 	61 	2.1 	Israel
+463 	Murat Ulker	Turkey 	50 	2.1 	Turkey
+463 	William Wrigley Jr	United States 	46 	2.1 	United States
+488 	Ali Ibrahim Agaoglu	Turkey 	56 	2.0 	Turkey
+488 	Lee Bass	United States 	53 	2.0 	United States
+488 	Sid Bass	United States 	67 	2.0 	United States
+488 	Charles Bronfman	Canada 	78 	2.0 	Canada
+488 	Jack Dangermond	United States 	65 	2.0 	United States
+488 	John de Mol	Netherlands 	55 	2.0 	Netherlands
+488 	Bennett Dorrance	United States 	64 	2.0 	United States
+488 	Gustaf Douglas	Sweden 	72 	2.0 	Sweden
+488 	Philip Falcone	United States 	46 	2.0 	United States
+488 	Philippe Foriel-Destezet	France 	74 	2.0 	United Kingdom
+488 	Robert Friedland	United States 	59 	2.0 	Singapore
+488 	Gordon Getty	United States 	76 	2.0 	United States
+488 	Jeffrey Greene	United States 	55 	2.0 	United States 
+488 	Kenneth Griffin	United States 	41 	2.0 	United States
+488 	William Gross	United States 	65 	2.0 	United States
+488 	Bruce Halle	United States 	79 	2.0 	United States
+488 	Yusuf Hamied & family	India 	73 	2.0 	India
+488 	Timothy Headington	United States 	59 	2.0 	United States
+488 	Diane Hendricks	United States 	63 	2.0 	United States
+488 	Jeffrey Hildebrand	United States 	51 	2.0 	United States
+488 	Stanley Ho & family	Hong Kong 	88 	2.0 	Hong Kong
+488 	Erman Ilicak	Turkey 	43 	2.0 	Turkey
+488 	Martha Ingram & family	United States 	74 	2.0 	United States
+488 	Jeremy Jacobs Sr	United States 	70 	2.0 	United States
+488 	Ihor Kolomoyskyy	Ukraine 	47 	2.0 	Ukraine
+488 	Esther Koplowitz	Spain 	56 	2.0 	Spain
+488 	Alexander Lebedev	Russia 	50 	2.0 	Russia
+488 	Patrick Lee	Hong Kong 	NA 	2.0 	Hong Kong
+488 	Lin Yu-lin	Taiwan 	74 	2.0 	Taiwan
+488 	Michael Milken	United States 	63 	2.0 	United States
+488 	Shigenobu Nagamori	Japan 	65 	2.0 	Japan
+488 	Philip Niarchos	Greece 	56 	2.0 	NA
+488 	Gregorio Perez Companc & family	Argentina 	75 	2.0 	Argentina
+488 	Peter Peterson	United States 	83 	2.0 	United States
+488 	Cyrus Poonawalla	India 	68 	2.0 	India
+488 	Rajan Raheja & family	India 	55 	2.0 	India
+488 	Robert Rich Jr	United States 	69 	2.0 	United States
+488 	Gina Rinehart	Australia 	56 	2.0 	Australia 
+488 	Phillip Ruffin	United States 	75 	2.0 	United States
+488 	Filiz Sahenk	Turkey 	43 	2.0 	Turkey
+488 	Zygmunt Solorz-Zak	Poland 	53 	2.0 	Poland
+488 	Beny Steinmetz	Israel 	53 	2.0 	Israel
+488 	Keiichiro Takahara	Japan 	79 	2.0 	Japan
+488 	Tang Yiu & family	Hong Kong 	NA 	2.0 	Hong Kong
+488 	Donald Trump	United States 	63 	2.0 	United States
+488 	Andreas von Bechtolsheim	Germany 	54 	2.0 	United States
+488 	Cher Wang & Wenchi Chen	Taiwan 	52 	2.0 	Taiwan
+488 	Zhang Xin & family	China 	44 	2.0 	China
+536 	David Bonderman	United States 	67 	1.9 	United States
+536 	Thomas Bruch	Germany 	59 	1.9 	Germany
+536 	Alan Casden	United States 	64 	1.9 	United States
+536 	Chen Yihong	China 	52 	1.9 	China
+536 	Cho Tak Wong & family	Hong Kong 	63 	1.9 	China
+536 	Ennio Doris & family	Italy 	69 	1.9 	Italy
+536 	Jean-Claude Gandur	Switzerland 	61 	1.9 	United Kingdom
+536 	Andrei Guriev	Russia 	50 	1.9 	Russia
+536 	Saad Hariri	Lebanon 	39 	1.9 	Lebanon
+536 	Masatoshi Ito	Japan 	85 	1.9 	Japan
+536 	Jess Jackson	United States 	80 	1.9 	United States
+536 	Michael Jaharis	United States 	81 	1.9 	United States
+536 	Jay Y. Lee	South Korea 	41 	1.9 	South Korea
+536 	Vincent Lo	Hong Kong 	61 	1.9 	Hong Kong
+536 	Florentino Perez	Spain 	63 	1.9 	Spain 
+536 	Stewart Rahr	United States 	64 	1.9 	United States
+536 	Walter Scott Jr	United States 	78 	1.9 	United States
+536 	Sukanto Tanoto	Indonesia 	60 	1.9 	Singapore
+536 	Gennady Timchenko	Russia 	57 	1.9 	Switzerland
+536 	Albert Ueltschi	United States 	92 	1.9 	United States
+556 	John Anderson	United States 	92 	1.8 	United States
+556 	Jose Maria Aristrain	Spain 	47 	1.8 	Spain
+556 	Nadhmi Auchi	United Kingdom 	72 	1.8 	United Kingdom
+556 	Edward Bass	United States 	65 	1.8 	United States
+556 	Peter Buck	United States 	79 	1.8 	United States
+556 	John Caudwell	United Kingdom 	57 	1.8 	United Kingdom
+556 	Jim Davis & family	United States 	66 	1.8 	United States
+556 	Fred DeLuca	United States 	62 	1.8 	United States
+556 	Han Chang-Woo & family	Japan 	79 	1.8 	Japan
+556 	William Randolph Hearst III	United States 	60 	1.8 	United States
+556 	Alan Howard	United Kingdom 	46 	1.8 	United Kingdom
+556 	Jerral Jones	United States 	67 	1.8 	United States
+556 	Li Shufu	China 	47 	1.8 	China
+556 	Li Sze Lim	Hong Kong 	53 	1.8 	China
+556 	Andrei Molchanov	Russia 	38 	1.8 	Russia
+556 	Manuel Moroun	United States 	82 	1.8 	United States
+556 	Or Wai Sheun	Hong Kong 	58 	1.8 	Hong Kong
+556 	Kjell Inge Rokke	Norway 	51 	1.8 	Norway
+556 	Wilbur Ross Jr	United States 	72 	1.8 	United States
+556 	Monika Schoeller	Germany 	71 	1.8 	Germany 
+556 	Frederick Smith	United States 	65 	1.8 	United States
+556 	Sylvia Stroher	Germany 	55 	1.8 	Germany
+556 	Katsumi Tada	Japan 	64 	1.8 	Japan
+556 	Robert E Turner	United States 	71 	1.8 	United States
+556 	Stefan von Holtzbrinck	Germany 	46 	1.8 	Germany
+556 	Zhang Li	China 	57 	1.8 	China
+582 	Semahat Arsel	Turkey 	81 	1.7 	Turkey
+582 	Henadiy Boholyubov	Ukraine 	48 	1.7 	Ukraine
+582 	Emilio Botin	Spain 	75 	1.7 	Spain
+582 	Austen Cargill II	United States 	59 	1.7 	United States
+582 	James Cargill II	United States 	60 	1.7 	United States
+582 	Mary Janet Cargill	United States 	86 	1.7 	United States
+582 	Yan Cheung	China 	53 	1.7 	China
+582 	L. John Doerr	United States 	58 	1.7 	United States
+582 	Israel Englander	United States 	61 	1.7 	United States
+582 	Hans-Werner Hector	Germany 	70 	1.7 	Germany
+582 	Baba Kalyani	India 	61 	1.7 	India
+582 	Marianne Liebmann	United States 	56 	1.7 	United States
+582 	Carl Lindner Jr & family	United States 	90 	1.7 	United States
+582 	Liu Ming Chung	Brazil 	47 	1.7 	Hong Kong
+582 	Friedhelm Loh	Germany 	63 	1.7 	Germany
+582 	Clayton Mathile	United States 	69 	1.7 	United States
+582 	Charles Munger	United States 	86 	1.7 	United States
+582 	Axel Oberwelland	Germany 	43 	1.7 	Germany
+582 	Henry Samueli	United States 	55 	1.7 	United States 
+582 	Melker Schorling	Sweden 	62 	1.7 	Sweden
+582 	Thomas Siebel	United States 	57 	1.7 	United States
+582 	Sheldon Solow	United States 	81 	1.7 	United States
+582 	Clemmie Spangler Jr	United States 	77 	1.7 	United States
+582 	Jerry Speyer	United States 	69 	1.7 	United States
+582 	Jon Stryker	United States 	51 	1.7 	United States
+582 	Lucio Tan & family	Philippines 	75 	1.7 	Philippines
+582 	Tsai Hong-tu	Taiwan 	57 	1.7 	Taiwan
+582 	Cheng-da Tsai	Taiwan 	NA 	1.7 	Taiwan
+582 	T.Y. Tsai	Taiwan 	NA 	1.7 	Taiwan
+582 	Martin Viessmann	Germany 	56 	1.7 	Germany
+582 	Dean White	United States 	86 	1.7 	United States
+582 	Zhang Guiping	China 	58 	1.7 	China
+582 	Zhang Zhixiang	China 	43 	1.7 	China
+582 	Zhou Furen	China 	52 	1.7 	China
+616 	S. Daniel Abraham	United States 	85 	1.6 	United States
+616 	Joao Alves de Queiroz Filho	Brazil 	57 	1.6 	Brazil
+616 	Alexei Ananyev	Russia 	45 	1.6 	Russia
+616 	Dmitry Ananyev	Russia 	41 	1.6 	Russia
+616 	Vasily Anisimov	Russia 	58 	1.6 	Russia
+616 	Mikhail Balakin	Russia 	48 	1.6 	Russia
+616 	John Catsimatidis	United States 	61 	1.6 	United States
+616 	David Cheriton	Canada 	58 	1.6 	United States
+616 	Francis Choi	Hong Kong 	62 	1.6 	Hong Kong
+616 	Chung Mong-Joon	South Korea 	58 	1.6 	South Korea 
+616 	Dermot Desmond	Ireland 	59 	1.6 	Ireland
+616 	Richard Desmond	United Kingdom 	58 	1.6 	United Kingdom
+616 	Gleb Fetisov	Russia 	43 	1.6 	Russia
+616 	Barbara Carlson Gage & family	United States 	67 	1.6 	United States
+616 	Rolf Gerling	Germany 	55 	1.6 	Switzerland
+616 	Alec Gores	United States 	57 	1.6 	United States
+616 	Marguerite Harbert	United States 	86 	1.6 	United States
+616 	Min Kao	United States 	61 	1.6 	United States
+616 	Rahmi Koc	Turkey 	79 	1.6 	Turkey
+616 	Luo Jye & family	Taiwan 	84 	1.6 	Taiwan
+616 	Craig McCaw	United States 	60 	1.6 	United States
+616 	John Morgridge	United States 	76 	1.6 	United States
+616 	N.R. Narayana Murthy & family	India 	63 	1.6 	India
+616 	Marilyn Carlson Nelson & family	United States 	70 	1.6 	United States
+616 	Isaac Perlmutter	United States 	67 	1.6 	United States
+616 	Thomas Pritzker	United States 	59 	1.6 	United States
+616 	Trevor Rees-Jones	United States 	58 	1.6 	United States
+616 	Hans Riegel	Germany 	87 	1.6 	Germany
+616 	Leandro Rizzuto	United States 	71 	1.6 	United States
+616 	Shi Yuzhu	China 	47 	1.6 	China
+616 	Shin Chang-Jae	South Korea 	56 	1.6 	South Korea
+616 	Gautam Thapar	India 	49 	1.6 	India
+616 	Wilma Tisch	United States 	82 	1.6 	United States
+616 	Tsai Ming-kai	Taiwan 	NA 	1.6 	Taiwan
+616 	Georg von Opel	Germany 	43 	1.6 	Switzerland 
+616 	John Whittaker	United Kingdom 	68 	1.6 	United Kingdom
+616 	Stephen Wynn	United States 	68 	1.6 	United States
+616 	Zhong Sheng Jian	Singapore 	NA 	1.6 	Singapore
+616 	Mortimer Zuckerman	United States 	72 	1.6 	United States
+655 	Mohammed Al Rajhi	Saudi Arabia 	NA 	1.5 	Saudi Arabia
+655 	Syed Mokhtar AlBukhary	Malaysia 	58 	1.5 	Malaysia
+655 	George Argyros	United States 	73 	1.5 	United States
+655 	Michael Ashley	United Kingdom 	50 	1.5 	United Kingdom
+655 	Emilio Azcarraga Jean	Mexico 	42 	1.5 	Mexico
+655 	Louis Bacon	United States 	51 	1.5 	United Kingdom
+655 	Enrique Banuelos	Spain 	44 	1.5 	United Kingdom
+655 	Stephen Bisciotti	United States 	49 	1.5 	United States
+655 	Neil Bluhm	United States 	72 	1.5 	United States
+655 	Charles Brandes	United States 	67 	1.5 	United States
+655 	Francesco Gaetano Caltagirone	Italy 	67 	1.5 	Italy
+655 	S. Truett Cathy	United States 	89 	1.5 	United States
+655 	William Connor II	United States 	60 	1.5 	Hong Kong
+655 	Phoebe Hearst Cooke	United States 	83 	1.5 	United States
+655 	Leon G. Cooperman	United States 	66 	1.5 	United States
+655 	James Coulter	United States 	50 	1.5 	United States
+655 	Belmiro de Azevedo	Portugal 	72 	1.5 	Portugal
+655 	James Dinan	United States 	50 	1.5 	United States
+655 	Lindsay Fox	Australia 	72 	1.5 	Australia
+655 	David Gottesman	United States 	83 	1.5 	United States
+655 	Esther Grether & family	Switzerland 	74 	1.5 	Switzerland 
+655 	Desh Bandhu Gupta	India 	72 	1.5 	India
+655 	Joshua Harris	United States 	45 	1.5 	United States
+655 	Austin Hearst	United States 	57 	1.5 	United States
+655 	David Hearst Jr	United States 	64 	1.5 	United States
+655 	George Hearst Jr	United States 	82 	1.5 	United States
+655 	Michael Heisley Sr	United States 	73 	1.5 	United States
+655 	Stanley Stub Hubbard	United States 	76 	1.5 	United States
+655 	Michael Ilitch & family	United States 	80 	1.5 	United States
+655 	Joseph Jamail Jr	United States 	84 	1.5 	United States
+655 	Stephen Jarislowsky	Canada 	84 	1.5 	Canada
+655 	Brad Kelley	United States 	53 	1.5 	United States
+655 	Randal Kirk	United States 	56 	1.5 	United States
+655 	Robert Kraft	United States 	68 	1.5 	United States
+655 	Lev Leviev	Israel 	54 	1.5 	United Kingdom
+655 	Peter Lim	Singapore 	56 	1.5 	Singapore
+655 	George Lindemann & family	United States 	74 	1.5 	United States
+655 	Niels Peter Louis-Hansen	Denmark 	62 	1.5 	Denmark
+655 	Fredrik Lundberg	Sweden 	58 	1.5 	Sweden
+655 	Alexander Mamut	Russia 	49 	1.5 	Russia
+655 	Stephen Mandel Jr	United States 	54 	1.5 	United States
+655 	Bernard Marcus	United States 	80 	1.5 	United States
+655 	Drayton McLane Jr	United States 	73 	1.5 	United States
+655 	Michael Moritz	United States 	55 	1.5 	United States
+655 	Martin Naughton	Ireland 	70 	1.5 	Ireland
+655 	Henry Nicholas III	United States 	50 	1.5 	United States 
+655 	Igor Olenicoff	United States 	67 	1.5 	United States
+655 	Pankaj Patel	India 	57 	1.5 	India
+655 	Richard Peery	United States 	69 	1.5 	United States
+655 	Chandru Raheja	India 	69 	1.5 	India
+655 	Reyes J. Christopher	United States 	56 	1.5 	United States
+655 	Reyes M. Jude	United States 	54 	1.5 	United States
+655 	Edward Roski Jr	United States 	71 	1.5 	United States
+655 	Samih Sawiris	Egypt 	53 	1.5 	Egypt
+655 	Lynn Schusterman	United States 	71 	1.5 	United States
+655 	Shen Guojun	China 	47 	1.5 	China
+655 	Shin Dong-Bin	South Korea 	55 	1.5 	South Korea
+655 	Shin Dong-Joo	South Korea 	56 	1.5 	Japan
+655 	Kavitark Ram Shriram	United States 	53 	1.5 	United States
+655 	Pat Stryker	United States 	53 	1.5 	United States
+655 	A. Alfred Taubman	United States 	86 	1.5 	United States
+655 	Klaus Tschira	Germany 	69 	1.5 	Germany
+655 	Kelcy Warren	United States 	54 	1.5 	United States
+655 	Arne Wilhelmsen & family	Norway 	79 	1.5 	Norway
+655 	Zhang Zhidong	China 	38 	1.5 	China
+655 	Ahmet Nazif Zorlu	Turkey 	65 	1.5 	Turkey
+721 	John Arrillaga	United States 	72 	1.4 	United States
+721 	Ron Baron	United States 	66 	1.4 	United States
+721 	Heinz Bauer	Germany 	70 	1.4 	Germany
+721 	Ramesh Chandra	India 	70 	1.4 	India
+721 	Mark Coombs	United Kingdom 	49 	1.4 	United Kingdom 
+721 	Leszek Czarnecki	Poland 	48 	1.4 	Poland
+721 	Bharat Desai & family	United States 	57 	1.4 	United States
+721 	N. Murray Edwards	Canada 	50 	1.4 	Canada
+721 	Fang Wei	China 	36 	1.4 	China
+721 	Michael Federmann & family	Israel 	66 	1.4 	Israel
+721 	David Filo	United States 	43 	1.4 	United States
+721 	Kenneth Fisher	United States 	59 	1.4 	United States
+721 	Thomas Friedkin	United States 	74 	1.4 	United States
+721 	Soichiro Fukutake	Japan 	64 	1.4 	Japan
+721 	Jaiprakash Gaur	India 	79 	1.4 	India
+721 	B. Thomas Golisano	United States 	68 	1.4 	United States
+721 	Aymin Hariri	Saudi Arabia 	31 	1.4 	Saudi Arabia
+721 	Fahd Hariri	Lebanon 	29 	1.4 	France
+721 	James Irsay	United States 	50 	1.4 	United States
+721 	Daryl Katz	Canada 	48 	1.4 	Canada
+721 	James Kim & family	United States 	74 	1.4 	United States
+721 	Suna Kirac	Turkey 	68 	1.4 	Turkey
+721 	Marc Lasry	United States 	49 	1.4 	United States
+721 	Lee Myung-Hee	South Korea 	66 	1.4 	South Korea
+721 	Lui Che Woo	Hong Kong 	80 	1.4 	Hong Kong
+721 	Alfred Mann	United States 	84 	1.4 	United States
+721 	Robert McNair	United States 	73 	1.4 	United States
+721 	Minoru Mori	Japan 	75 	1.4 	Japan
+721 	Jonathan Nelson	United States 	53 	1.4 	United States
+721 	Alexander Nesis	Russia 	47 	1.4 	NA 
+721 	Nandan Nilekani & family	India 	54 	1.4 	India
+721 	Henry Ross Perot Jr	United States 	51 	1.4 	United States
+721 	Stefano Pessina	Italy 	68 	1.4 	Monaco
+721 	Thomas Peterffy	United States 	65 	1.4 	United States
+721 	Michael Price	United States 	57 	1.4 	United States
+721 	Anthony Pritzker	United States 	49 	1.4 	United States
+721 	Jay Robert (J.B.) Pritzker	United States 	45 	1.4 	United States
+721 	Penny Pritzker	United States 	50 	1.4 	United States
+721 	Megdet Rahimkulov & family	Russia 	64 	1.4 	Russia
+721 	Alexander Rovt	United States 	57 	1.4 	United States
+721 	Patrick Ryan	United States 	72 	1.4 	United States
+721 	Tamir Sapir	United States 	62 	1.4 	United States
+721 	Shen Wenrong	China 	64 	1.4 	China
+721 	Andrei Skoch	Russia 	44 	1.4 	Russia
+721 	Helmut Sohmen	Austria 	70 	1.4 	Hong Kong
+721 	Ralph Sonnenberg	Netherlands 	75 	1.4 	Switzerland
+721 	Thomas Straumann	Switzerland 	46 	1.4 	Switzerland
+721 	Yoshikazu Tanaka	Japan 	33 	1.4 	Japan
+721 	Roustam Tariko	Russia 	48 	1.4 	Russia
+721 	Romesh T. Wadhwani	United States 	62 	1.4 	United States
+721 	Kamil Yazici	Turkey 	80 	1.4 	Turkey
+721 	Zhu Gongshan	China 	53 	1.4 	China
+773 	Edmund Ansin	United States 	74 	1.3 	United States
+773 	Mehmet Rustu Basaran	Turkey 	NA 	1.3 	Turkey
+773 	Marc Benioff	United States 	45 	1.3 	United States
+773 	Carl Berg	United States 	72 	1.3 	United States
+773 	Arthur Blank	United States 	67 	1.3 	United States
+773 	Norman Braman	United States 	77 	1.3 	United States
+773 	Leon Charney	United States 	68 	1.3 	United States
+773 	Richard Chilton	United States 	51 	1.3 	United States
+773 	Chu Mang Yee	China 	50 	1.3 	China
+773 	Chung Eui-Sun	South Korea 	39 	1.3 	South Korea
+773 	Edward DeBartolo Jr	United States 	63 	1.3 	United States
+773 	Ralph Dommermuth	Germany 	46 	1.3 	Germany
+773 	Glenn Dubin	United States 	52 	1.3 	United States
+773 	Bulent Eczacibasi	Turkey 	60 	1.3 	Turkey
+773 	Gerald J. Ford	United States 	65 	1.3 	United States
+773 	Rama Prasad Goenka	India 	80 	1.3 	India
+773 	Christopher Goldsbury	United States 	67 	1.3 	United States
+773 	Senapathy Gopalakrishnan & family	India 	54 	1.3 	India
+773 	Gerald Harvey	Australia 	70 	1.3 	Australia
+773 	Richard Hayne	United States 	62 	1.3 	United States
+773 	Antti Herlin	Finland 	53 	1.3 	Finland
+773 	Huang Wei	China 	50 	1.3 	China
+773 	Ryoichi Jinnai	Japan 	83 	1.3 	Japan
+773 	Vyacheslav Kantor	Russia 	56 	1.3 	Switzerland
+773 	Pyotr Kondrashev	Russia 	60 	1.3 	Russia
+773 	Lev Kvetnoi	Russia 	44 	1.3 	Russia
+773 	Richard Li	Hong Kong 	43 	1.3 	Hong Kong
+773 	Lin Xiucheng & family	China 	54 	1.3 	China 
+773 	Anatoly Lomakin	Russia 	57 	1.3 	Russia
+773 	Joseph Mansueto	United States 	53 	1.3 	United States
+773 	John Marriott Jr	United States 	78 	1.3 	United States
+773 	Richard Marriott	United States 	71 	1.3 	United States
+773 	Billy Joe McCombs	United States 	82 	1.3 	United States
+773 	Gary Michelson	United States 	61 	1.3 	United States
+773 	Kenneth Morrison	United Kingdom 	78 	1.3 	United Kingdom
+773 	Tuncay Ozilhan	Turkey 	62 	1.3 	Turkey
+773 	Roger Penske	United States 	73 	1.3 	United States
+773 	Daniel Pritzker	United States 	51 	1.3 	United States
+773 	James Pritzker	United States 	58 	1.3 	United States
+773 	Jean (Gigi) Pritzker	United States 	48 	1.3 	United States
+773 	John Pritzker	United States 	57 	1.3 	United States
+773 	Karen Pritzker	United States 	52 	1.3 	United States
+773 	Linda Pritzker	United States 	56 	1.3 	United States
+773 	Qi Jinxing	China 	48 	1.3 	China
+773 	Clayton Riddell	Canada 	72 	1.3 	Canada
+773 	Eduard Shifrin	United Kingdom 	49 	1.3 	United Kingdom
+773 	Alexander Shnaider	Canada 	41 	1.3 	Canada
+773 	John Sperling	United States 	89 	1.3 	United States
+773 	Sun Guangxin	China 	47 	1.3 	China
+773 	Tong Jinquan	China 	55 	1.3 	China
+773 	Peter Unger	Germany 	65 	1.3 	Germany
+773 	Joop van den Ende	Netherlands 	68 	1.3 	Netherlands
+773 	Wang Jiufang	China 	46 	1.3 	China 
+773 	Margaret Whitman	United States 	53 	1.3 	United States
+773 	Jerry Yang	United States 	41 	1.3 	United States
+828 	Juan Abello	Spain 	68 	1.2 	Spain
+828 	Alberto Alcocer	Spain 	67 	1.2 	Spain
+828 	Zdenek Bakala	Czech Republic 	49 	1.2 	Switzerland
+828 	Chao Teng-Hsiung	Taiwan 	66 	1.2 	Taiwan
+828 	Chen Jinxia	China 	42 	1.2 	China
+828 	Chen Tianqiao	China 	37 	1.2 	China
+828 	Alfred James Clark	United States 	82 	1.2 	United States
+828 	Alberto Cortina	Spain 	64 	1.2 	Spain
+828 	Jean Coutu	Canada 	82 	1.2 	Canada
+828 	Ray Davis	United States 	67 	1.2 	United States
+828 	Barry Diller	United States 	68 	1.2 	United States
+828 	Lloyd Dorfman	United Kingdom 	57 	1.2 	United Kingdom
+828 	Du Shuanghua	China 	45 	1.2 	China
+828 	David Duffield	United States 	69 	1.2 	United States
+828 	Faruk Eczacibasi	Turkey 	56 	1.2 	Turkey
+828 	Tetsuro Funai	Japan 	83 	1.2 	Japan
+828 	Gao Dekang & family	China 	58 	1.2 	China
+828 	Jayme Garfinkel	Brazil 	63 	1.2 	Brazil
+828 	He Jinming	China 	57 	1.2 	China
+828 	Roberto Hernandez Ramirez	Mexico 	68 	1.2 	Mexico
+828 	Ingeburg Herz	Germany 	90 	1.2 	Germany
+828 	Huang Maoru & family	Belize 	45 	1.2 	China
+828 	Johnelle Hunt	United States 	78 	1.2 	United States 
+828 	Vladimir Iorikh	Germany 	51 	1.2 	Switzerland
+828 	Irwin Jacobs	United States 	76 	1.2 	United States
+828 	Anand Jain	India 	53 	1.2 	India
+828 	Igor Kesaev	Russia 	43 	1.2 	Russia
+828 	Danil Khachaturov	Russia 	38 	1.2 	Russia
+828 	Andrei Kozitsyn	Russia 	49 	1.2 	Russia
+828 	Thomas Lee	United States 	65 	1.2 	United States
+828 	Lin Li	China 	46 	1.2 	China
+828 	Low Tuck Kwong	Indonesia 	61 	1.2 	Indonesia
+828 	Jack Ma	China 	45 	1.2 	China
+828 	Malone Mitchell III	United States 	48 	1.2 	United States
+828 	Vikas Oberoi	India 	39 	1.2 	India
+828 	Ural Rakhimov	Russia 	48 	1.2 	Russia
+828 	Marc Rowan	United States 	48 	1.2 	United States
+828 	Lily Safra	Monaco 	72 	1.2 	United Kingdom
+828 	Bernard Saul II	United States 	77 	1.2 	United States
+828 	Richard Scaife	United States 	77 	1.2 	United States
+828 	Thomas Secunda	United States 	55 	1.2 	United States
+828 	Evgeny (Eugene) Shvidler	United States 	46 	1.2 	United Kingdom
+828 	Peter Sperling	United States 	50 	1.2 	United States
+828 	Vincent Tan	Malaysia 	NA 	1.2 	Malaysia
+828 	Mehmet Sinan Tara	Turkey 	51 	1.2 	Turkey
+828 	Peter Thiel	United States 	42 	1.2 	United States
+828 	Dieter von Holtzbrinck	Germany 	68 	1.2 	Germany
+828 	Todd Wagner	United States 	49 	1.2 	United States 
+828 	Charlotte Colket Weber	United States 	67 	1.2 	United States
+828 	Ye Chenghai	Hong Kong 	66 	1.2 	Hong Kong
+828 	Zhang Cheng Fei	China 	40 	1.2 	China
+828 	Kostyantin Zhevago	Ukraine 	36 	1.2 	Ukraine
+880 	Kenneth Adams Jr	United States 	87 	1.1 	United States
+880 	Aras Agalarov	Russia 	54 	1.1 	Russia
+880 	Abdulla Al Futtaim	United Arab Emirates 	NA 	1.1 	United Arab Emirates
+880 	Igor Altushkin	Russia 	39 	1.1 	Russia
+880 	Rahul Bajaj	India 	71 	1.1 	India
+880 	Thomas Barrack	United States 	62 	1.1 	United States
+880 	Vincent Bollore	France 	57 	1.1 	France
+880 	Julio Bozano	Brazil 	74 	1.1 	Brazil
+880 	John Brown	United States 	75 	1.1 	United States
+880 	Stephen Case	United States 	51 	1.1 	United States
+880 	Chan Laiwa & family	China 	69 	1.1 	China
+880 	Chang Yung Fa	Taiwan 	83 	1.1 	Taiwan
+880 	Chey Tae-Won	South Korea 	49 	1.1 	South Korea
+880 	Alexander Dzhaparidze	Russia 	54 	1.1 	Russia
+880 	John Fisher	United States 	48 	1.1 	United States
+880 	Robert Fisher	United States 	56 	1.1 	United States
+880 	Theodore Forstmann	United States 	70 	1.1 	United States
+880 	Alan Gerry	United States 	81 	1.1 	United States
+880 	Vinod Goenka	India 	51 	1.1 	India
+880 	Albert Gubay	United Kingdom 	81 	1.1 	United Kingdom
+880 	Mubariz Gurbanoglu	Turkey 	42 	1.1 	Turkey 
+880 	He Zhusheng & family	China 	62 	1.1 	China
+880 	Michael Hintze	Australia 	56 	1.1 	United Kingdom
+880 	Hamilton James	United States 	58 	1.1 	United States
+880 	Ke Xiping	China 	49 	1.1 	China
+880 	Vinod Khosla	United States 	55 	1.1 	United States
+880 	Alexander Knaster	United States 	51 	1.1 	United Kingdom
+880 	Koo Bon-Moo	South Korea 	65 	1.1 	South Korea
+880 	Timur Kulibaev	Kazakhstan 	43 	1.1 	Kazakhstan
+880 	Dinara Kulibaeva	Kazakhstan 	42 	1.1 	Kazakhstan
+880 	Marc Ladreit de Lacharriere	France 	69 	1.1 	France
+880 	Lei Jufang	China 	57 	1.1 	China
+880 	William Macaulay	United States 	64 	1.1 	United States
+880 	Gary Magness	United States 	56 	1.1 	United States
+880 	William Moncrief Jr	United States 	90 	1.1 	United States
+880 	Ioan Niculae	Romania 	55 	1.1 	NA
+880 	Ahsen Ozokur	Turkey 	NA 	1.1 	Turkey
+880 	Nelson Peltz	United States 	67 	1.1 	United States
+880 	T. Boone Pickens	United States 	81 	1.1 	United States
+880 	Alexander Ponomarenko	Russia 	45 	1.1 	Russia
+880 	David Sainsbury	United Kingdom 	69 	1.1 	United Kingdom
+880 	Thomas Sandell	Sweden 	49 	1.1 	United States
+880 	Anatoly Sedykh	Russia 	45 	1.1 	Russia
+880 	Walter Shorenstein & family	United States 	95 	1.1 	United States
+880 	Herbert Simon	United States 	75 	1.1 	United States
+880 	Alexander Skorobogatko	Russia 	42 	1.1 	Russia 
+880 	Daniel Snyder	United States 	45 	1.1 	United States
+880 	Alexander Spanos & family	United States 	86 	1.1 	United States
+880 	George Steinbrenner III	United States 	79 	1.1 	United States
+880 	Nurzhan Subkhanberdin	Kazakhstan 	44 	1.1 	Kazakhstan
+880 	Henry Swieca	United States 	52 	1.1 	United States
+880 	Kenny Troutt	United States 	62 	1.1 	United States
+880 	Hope Hill van Beuren	United States 	76 	1.1 	United States
+880 	Wang Wenjing	China 	45 	1.1 	China
+880 	Allan Wong & family	Hong Kong 	NA 	1.1 	Hong Kong
+880 	Yao Juhuo & family	China 	79 	1.1 	China
+880 	Zhang Hongwei	China 	55 	1.1 	China
+937 	An Kang	China 	61 	1.0 	China
+937 	Andrej Babis	Czech Republic 	55 	1.0 	Czech Republic
+937 	Thomas Bailey	United States 	73 	1.0 	United States
+937 	Shahid Balwa	India 	36 	1.0 	India
+937 	Benu Gopal Bangur	India 	78 	1.0 	India
+937 	Patrick Bowlen & family	United States 	66 	1.0 	United States
+937 	Gary Burrell	United States 	72 	1.0 	United States
+937 	Ahmet Calik	Turkey 	51 	1.0 	Turkey
+937 	Christopher Chandler	New Zealand 	50 	1.0 	New Zealand
+937 	Turgay Ciner	Turkey 	54 	1.0 	Turkey
+937 	Scott Cook	United States 	57 	1.0 	United States
+937 	Aydin Dogan	Turkey 	73 	1.0 	Turkey
+937 	Dwight Schar	United States 	68 	1.0 	United States
+937 	James Dyson	United Kingdom 	62 	1.0 	United Kingdom 
+937 	John Edson	United States 	77 	1.0 	United States
+937 	Douglas Fregin	Canada 	49 	1.0 	Canada
+937 	Fu Guangming	China 	56 	1.0 	China
+937 	Mario Gabelli	United States 	67 	1.0 	United States
+937 	Joaquin Guzman Loera	Mexico 	55 	1.0 	Mexico
+937 	Donald Hall & family	United States 	81 	1.0 	United States
+937 	Dorrance Hamilton	United States 	81 	1.0 	United States
+937 	Alfredo Harp Helu & family	Mexico 	66 	1.0 	Mexico
+937 	Huang Wenzai	China 	56 	1.0 	China
+937 	Jon Huntsman	United States 	72 	1.0 	United States
+937 	Rakesh Jhunjhunwala	India 	49 	1.0 	India
+937 	George Joseph	United States 	88 	1.0 	United States
+937 	Morris Kahn	Israel 	80 	1.0 	Israel
+937 	William Kellogg	United States 	66 	1.0 	United States
+937 	Nasser Khalili	United Kingdom 	64 	1.0 	United Kingdom
+937 	Sidney Kimmel	United States 	82 	1.0 	United States
+937 	Andrei Kosogov	Russia 	49 	1.0 	Russia
+937 	Michael Krasny	United States 	56 	1.0 	United States
+937 	Kenneth Langone	United States 	74 	1.0 	United States
+937 	Michael Lee-Chin	Canada 	59 	1.0 	Canada
+937 	Nancy Lerner	United States 	49 	1.0 	United States
+937 	Norma Lerner	United States 	74 	1.0 	United States
+937 	Randolph Lerner	United States 	48 	1.0 	United States
+937 	Solomon Lew	Australia 	65 	1.0 	Australia
+937 	Peter Lewis	United States 	76 	1.0 	United States 
+937 	Li Zhaohui	China 	29 	1.0 	China
+937 	Jeffrey Lurie	United States 	58 	1.0 	United States
+937 	Margaret Magerko	United States 	44 	1.0 	United States
+937 	Vijay Mallya	India 	54 	1.0 	India
+937 	Mian Muhammad Mansha	Pakistan 	62 	1.0 	Pakistan
+937 	Aubrey McClendon	United States 	50 	1.0 	United States
+937 	Virendra Mhaiskar	India 	38 	1.0 	India
+937 	Arturo Moreno	United States 	63 	1.0 	United States
+937 	Kazuo Okada & family	Japan 	67 	1.0 	Japan
+937 	Ajay Piramal	India 	54 	1.0 	India
+937 	Nicholas Pritzker II	United States 	66 	1.0 	United States
+937 	G.V. Krishna Reddy	India 	73 	1.0 	India
+937 	K. Anji Reddy	India 	68 	1.0 	India
+937 	Marc Rich	United States 	75 	1.0 	Switzerland
+937 	Joanne (J.K.) Rowling	United Kingdom 	44 	1.0 	Scotland
+937 	Suzan Sabanci Dincer	Turkey 	45 	1.0 	Turkey
+937 	Sevket Sabanci	Turkey 	74 	1.0 	Turkey
+937 	Deniz Sahenk	Turkey 	NA 	1.0 	Turkey
+937 	Silvio Scaglia	Italy 	51 	1.0 	Italy
+937 	Nobutoshi Shimamura	Japan 	84 	1.0 	Japan
+937 	Michal Solowow	Poland 	47 	1.0 	Poland
+937 	Steven Schonfeld	United States 	50 	1.0 	United States
+937 	Chairul Tanjung	Indonesia 	47 	1.0 	NA
+937 	Joyce Raley Teel	United States 	79 	1.0 	United States
+937 	Tiong Hiew King	Malaysia 	75 	1.0 	Malaysia
+937 	Ion Tiriac	Romania 	70 	1.0 	Romania
+937 	Mustafa Latif Topbas	Turkey 	66 	1.0 	Turkey
+937 	Murat Vargi	Turkey 	61 	1.0 	Turkey
+937 	Rakesh Wadhawan & family	India 	57 	1.0 	India
+937 	Wei Ing-Chou	Taiwan 	57 	1.0 	China
+937 	Wei Yin-Chun	Taiwan 	53 	1.0 	Taiwan
+937 	Wei Yin-Heng	Taiwan 	51 	1.0 	China
+937 	Wei Ying-chiao	Taiwan 	55 	1.0 	China
+937 	Samuel Wyly	United States 	74 	1.0 	United States
+937 	Xian Yang	China 	36 	1.0 	China
+937 	Zegar Charles	United States 	62 	1.0 	United States 
+

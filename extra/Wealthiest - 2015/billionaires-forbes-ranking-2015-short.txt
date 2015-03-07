@@ -1,0 +1,30 @@
+# http://www.forbes.com/billionaires/list/#version:static
+# Retrieved on 1 March 2015
+
+1	Bill Gates	$79.2 B	59	Microsoft	United States
+2	Carlos Slim Helu	$77.1 B	75	telecom	Mexico
+3	Warren Buffett	$72.7 B	84	Berkshire Hathaway	United States
+4	Amancio Ortega	$64.5 B	78	Zara	Spain
+5	Larry Ellison	$54.3 B	70	Oracle	United States
+6	Charles Koch	$42.9 B	79	diversified	United States
+6	David Koch	$42.9 B	74	diversified	United States
+8	Christy Walton	$41.7 B	60	Wal-Mart	United States
+9	Jim Walton	$40.6 B	67	Wal-Mart	United States
+10	Liliane Bettencourt	$40.1 B	92	L'Oreal	France
+
+11	Alice Walton	$39.4 B	65	Wal-Mart	United States
+12	S. Robson Walton	$39.1 B	71	Wal-Mart	United States
+13	Bernard Arnault	$37.2 B	65	LVMH	France
+14	Michael Bloomberg	$35.5 B	73	Bloomberg LP	United States
+15	Jeff Bezos	$34.8 B	51	Amazon.com	United States
+16	Mark Zuckerberg	$33.4 B	30	Facebook	United States
+17	Li Ka-shing	$33.3 B	86	diversified	Hong Kong
+18	Sheldon Adelson	$31.4 B	81	casinos	United States
+19	Larry Page	$29.7 B	41	Google	United States
+20	Sergey Brin	$29.2 B	41	Google	United States
+
+21	Georg Schaeffler	$26.9 B	50	ball bearings	Germany
+22	Forrest Mars, Jr.	$26.6 B	83	candy	United States
+22	Jacqueline Mars	$26.6 B	75	candy	United States
+22	John Mars	$26.6 B	78	candy	United States
+25	David Thomson	$25.5 B	57	media	Canada

@@ -1,0 +1,694 @@
+# http://stats.areppim.com/listes/list_billionairesx05xwor.htm
+# The complete list of world's billionaires 2005
+
+1	William Gates III	49	46.5	United States	United States , WA , Medina
+2	Warren Buffett	74	44	United States	United States , NE , Omaha
+3	Lakshmi Mittal	54	25	India	United Kingdom , London
+4	Carlos Slim Helu	65	23.8	Mexico	Mexico , Mexico City
+5	Prince Alwaleed Bin Talal Alsaud	48	23.7	Saudi Arabia	Saudi Arabia , Riyadh
+6	Ingvar Kamprad	78	23	Sweden	Switzerland , Lausanne
+7	Paul Allen	52	21	United States	United States , WA , Seattle
+8	Karl Albrecht	85	18.5	Germany	Germany , Mülheim an der Ruhr
+9	Lawrence Ellison	60	18.4	United States	United States , CA , Silicon Valley
+10	S Robson Walton	61	18.3	United States	United States , AR , Bentonville
+11	Jim Walton	57	18.2	United States	United States , AR , Bentonville
+11	John Walton	59	18.2	United States	United States , AR , Bentonville
+13	Alice Walton	56	18	United States	United States , TX , Fort Worth
+13	Helen Walton	85	18	United States	United States , AR , Bentonville
+15	Kenneth Thomson & family	81	17.9	Canada	Canada , Toronto
+16	Liliane Bettencourt	82	17.2	France	France , Paris
+17	Bernard Arnault	56	17	France	France , Paris
+18	Michael Dell	40	16	United States	United States , TX , Austin
+19	Sheldon Adelson	71	15.6	United States	United States , NV , Las Vegas
+20	Theo Albrecht	83	15.5	Germany	Germany , Foehr
+21	Roman Abramovich	38	13.3	Russia	United Kingdom , London
+22	Li Ka-shing	76	13	Hong Kong	Hong Kong , Hong Kong
+23	Amancio Ortega	69	12.6	Spain	Spain , La Coruna
+24	Steven Ballmer	49	12.1	United States	United States , WA , Redmond
+25	Silvio Berlusconi	68	12	Italy	Italy , North of Milan
+25	Abigail Johnson	43	12	United States	United States , MA , Boston
+27	Barbara Cox Anthony	81	11.7	United States	United States , HI , Honolulu
+27	Anne Cox Chambers	85	11.7	United States	United States , GA , Atlanta
+29	Stefan Persson	57	11.2	Sweden	Sweden , Stockholm
+30	John Kluge	90	11	United States	United States , FL , Palm Beach
+31	Raymond, Thomas & Walter Kwok	--	10.9	Hong Kong	Hong Kong , Hong Kong
+32	Forrest Mars Jr	73	10.4	United States	United States , VA , McLean
+32	Jacqueline Mars	65	10.4	United States	United States , NJ , Bedminster
+32	John Mars	68	10.4	United States	United States , VA , Arlington
+35	Luciano Benetton & family	69	9.9	Italy	Italy , Treviso
+35	Pierre Omidyar	37	9.9	United States	United States , NV , Henderson
+35	Galen Weston & family	64	9.9	Canada	Canada , Toronto
+38	Lee Shau Kee	77	9.3	Hong Kong	Hong Kong , Hong Kong
+38	Azim Premji	59	9.3	India	India , Bangalore
+40	Nasser Al-Kharafi & family	61	9	Kuwait	Kuwait , Kuwait City
+41	Kirk Kerkorian	87	8.9	United States	United States , CA , Los Angeles
+42	Sumner Redstone	81	8.8	United States	United States , CA , Beverly Hills
+43	Leonardo Del Vecchio	69	8.5	Italy	Italy , Milan
+43	Michele Ferrero & family	78	8.5	Italy	Belgium , Brussels
+45	Michael Otto & family	61	8.3	Germany	Germany , Hamburg
+46	Susanne Klatten	43	8.2	Germany	Germany , Bad Homburg
+46	Philip Knight	67	8.2	United States	United States , OR , Beaverton
+46	Hans Rausing	79	8.2	Sweden	United Kingdom , Wadhurst
+49	Serge Dassault & family	80	7.8	France	France , Paris
+49	Carl Icahn	69	7.8	United States	United States , NY , New York
+49	Keith Murdoch	74	7.8	United States	United States , NY , New York
+52	Rudolf August Oetker & family	88	7.7	Germany	Germany , Bielefeld
+53	Birgit Rausing & family	81	7.6	Sweden	Switzerland , Vaud
+54	Spiro Latsis & family	58	7.5	Greece	Switzerland , Geneva
+55	Sergey Brin	31	7.2	United States	United States , CA , San Francisco
+55	Charles Ergen	52	7.2	United States	United States , CO , Denver
+55	Larry Page	32	7.2	United States	United States , CA , San Francisco
+55	George Soros	74	7.2	United States	United States , NY , New York
+55	Reinhold Würth	69	7.2	Germany	Germany , Kuenzelsau
+60	Mukesh & Anil Ambani	--	7	India	India , Mumbai
+60	Mikhail Fridman	40	7	Russia	Russia , Moscow
+60	Vladimir Lisin	48	7	Russia	Russia , Moscow
+60	Donald Newhouse	75	7	United States	United States , NJ , Somerset County
+60	Samuel Newhouse Jr	77	7	United States	United States , NY , New York
+65	Adolf Merckle	70	6.9	Germany	Germany , Manheim
+66	Stefan Quandt	39	6.7	Germany	Germany , Bad Homburg
+67	Micky Arison	55	6.5	United States	United States , FL , Bal Harbour
+68	Philip & Cristina Green	--	6.3	United Kingdom	Monaco
+68	Maria-Elisabeth & Georg Schaeffler	--	6.3	Germany	Germany , Herzogenaurach
+68	August von Finck	74	6.3	Germany	Switzerland , Thurgau
+71	Eli Broad	71	6.1	United States	United States , CA , Los Angeles
+72	Curt Engelhorn	78	6	Germany	Switzerland , Gstaad
+72	Friedrich Flick Jr	78	6	Germany	Austria , Vienna
+72	Edward Johnson III	74	6	United States	United States , MA , Boston
+72	Nicky Oppenheimer & family	59	6	South Africa	South Africa , Johannesburg
+76	Francois Pinault	68	5.9	France	France , Paris
+77	Philip Anschutz	65	5.8	United States	United States , CO , Denver
+77	Ernesto Bertarelli	39	5.8	Switzerland	Switzerland , Geneva
+77	Nobutada Saji & family	59	5.8	Japan	Japan , Hyogo
+80	Sulaiman Bin Abdul Al Rajhi	85	5.6	Saudi Arabia	Saudi Arabia , Jeddah
+80	Yoshitaka Fukuda & family	57	5.6	Japan	Japan , Kyoto
+80	Gerald Cavendish Grosvenor & family	53	5.6	United Kingdom	United Kingdom , Chester
+80	Reinhard Mohn & family	83	5.6	Germany	Germany , Guetersloh
+84	Shari Arison	47	5.5	Israel	Israel , Tel Aviv
+84	Oleg Deripaska	36	5.5	Russia	Russia , Moscow
+84	Yasuo Takei & family	75	5.5	Japan	Japan , Tokyo
+87	Jean-Claude Decaux & family	67	5.4	France	France , Paris
+87	Antonia Johnson	61	5.4	Sweden	Sweden , Stockholm
+87	Johanna Quandt	77	5.4	Germany	Germany , Bad Homburg
+90	Maersk Mc-Kinney Moller	91	5.3	Denmark	Denmark , Copenhagen
+91	Joseph & Moise Safra	--	5.2	Brazil	Brazil , Sao Paulo
+91	Onsi Sawiris & family	75	5.2	Egypt	Egypt , Cairo
+93	Dan Duncan	72	5.1	United States	United States , TX , Houston
+94	Michael Bloomberg	62	5	United States	United States , NY , New York
+94	Gustavo Cisneros & family	59	5	Venezuela	Venezuela , Caracas
+94	Rafael del Pino	84	5	Spain	Spain , Madrid
+94	Robert Kuok	81	5	Malaysia	Hong Kong , Hong Kong
+94	Kerry Packer	67	5	Australia	Australia , Sydney
+94	Hasso Plattner	61	5	Germany	Germany , Heidelberg
+94	Jeffrey Skoll	40	5	Canada	United States , CA , Los Angeles
+94	Viktor Vekselberg	47	5	Russia	Russia , Moscow
+94	H Ty Warner	61	5	United States	United States , IL , Chicago
+103	Charlene de Carvalho-Heineken	50	4.9	Netherlands	United Kingdom , London
+103	Eitaro Itoyama	62	4.9	Japan	Japan , Tokyo
+103	Rahmi Koc & family	74	4.9	Turkey	Turkey , Istanbul
+103	Ronald Perelman	62	4.9	United States	United States , NY , New York
+107	Karl-Heinz Kipp	81	4.8	Germany	Switzerland , Arosa
+107	Alexei Mordashov	39	4.8	Russia	Russia , Moscow
+107	Jim Pattison	76	4.8	Canada	Canada , Vancouver
+107	Alain & Gerard Wertheimer	--	4.8	France	France , Paris
+111	Kunio Busujima & family	79	4.7	Japan	Japan , Kiryu
+111	Michael Kadoorie & family	64	4.7	Hong Kong	Hong Kong , Hong Kong
+111	Kyosuke Kinoshita & family	64	4.7	Japan	Japan , Tokyo
+111	Ferit Sahenk & family	41	4.7	Turkey	Turkey , Istanbul
+115	Robert Bosch Jr & family	77	4.6	Germany	Germany , Stuttgart
+116	Giorgio Armani	70	4.5	Italy	Italy , Milan
+117	David Geffen	62	4.4	United States	United States , CA , Malibu
+117	James, Arthur & John Irving	--	4.4	Canada	Canada , Saint John
+117	Fukuzo Iwasaki	80	4.4	Japan	Japan , Kagoshima
+117	Vladimir Potanin	44	4.4	Russia	Russia , Moscow
+117	Mikhail Prokhorov	39	4.4	Russia	Russia , Moscow
+122	Vagit Alekperov	54	4.3	Russia	Russia , Moscow
+122	Donald Bren	72	4.3	United States	United States , CA , Newport Beach
+122	Walter Haefner	94	4.3	Switzerland	Switzerland , Zurich
+122	Erivan Haub & family	72	4.3	Germany	Germany , Mülheim an der Ruhr
+122	Kun-Hee Lee & family	63	4.3	South Korea	South Korea , Seoul
+122	Gordon Moore	76	4.3	United States	United States , CA , Woodside
+122	Henry Ross Perot & family	74	4.3	United States	United States , TX , Dallas
+122	David Sainsbury & family	64	4.3	United Kingdom	United Kingdom , London
+122	Masayoshi Son	47	4.3	Japan	Japan , Tokyo
+122	William Wrigley Jr	41	4.3	United States	United States , IL , Lake Forest
+132	John Abele	68	4.2	United States	United States , MA , Boston
+132	Cheng Yu-tung	79	4.2	Hong Kong	Hong Kong , Hong Kong
+132	George Kaiser	62	4.2	United States	United States , OK , Tulsa
+132	Andronico Luksic & family	78	4.2	Chile	Chile , Antofagasta
+136	Jeffrey Bezos	41	4.1	United States	United States , WA , Seattle
+136	Lorenzo Mendoza & family	39	4.1	Venezuela	Venezuela , Caracas
+138	Charles Koch	68	4	United States	United States , KS , Wichita
+138	David Koch	63	4	United States	United States , KS , Wichita
+138	Ananda Krishnan	66	4	Malaysia	Malaysia , Kuala Lumpur
+138	Kwek Leng Beng & family	64	4	Singapore	Singapore
+138	James Sorenson	83	4	United States	United States , UT , Salt Lake City
+143	Abdul Aziz Al Ghurair & family	51	3.9	United Arab Emirates	United Arab Emirates , Dubai
+144	Lester Crown & family	79	3.8	United States	United States , IL , Wilmette
+144	John Menard Jr	65	3.8	United States	United States , WI , Eau Claire
+144	Thomas Schmidheiny	59	3.8	Switzerland	Switzerland , Balgach
+144	Andreas Strüngmann	55	3.8	Germany	Germany , Tegernsee
+144	Thomas Strüngmann	55	3.8	Germany	Germany , Tegernsee
+149	Kumar Birla	37	3.7	India	India , Mumbai
+149	Yoshiaki Tsutsumi	70	3.7	Japan	Japan , Tokyo
+151	Jeronimo Arango	79	3.6	Mexico	Mexico
+151	Bernard Ecclestone & family	74	3.6	United Kingdom	United Kingdom , London
+151	Stanley Ho	83	3.6	Hong Kong	Hong Kong , Hong Kong
+151	Frank Lowy & family	74	3.6	Australia	Australia , Sydney
+151	Victor Rashnikov	56	3.6	Russia	Russia , Magnitogorsk
+156	Jorgen Clausen & family	56	3.5	Denmark	Denmark , Nordborg
+156	Willi & Isolde Liebherr & family	--	3.5	Switzerland	Switzerland , Bulle
+156	Peter Nicholas	63	3.5	United States	United States , MA , Boston
+156	Julio Mario Santo Domingo	81	3.5	Colombia	Colombia , Bogota
+160	David & Frederick Barclay	--	3.4	United Kingdom	United Kingdom , Island of Brecquou
+160	Otto Beisheim	81	3.4	Germany	Switzerland , Zoug
+160	John Fredriksen	60	3.4	Norway	Norway , Oslo
+160	Preston Tisch	78	3.4	United States	United States , NY , New York
+164	Robert Bass	57	3.3	United States	United States , TX , Fort Worth
+164	Paul Desmarais	78	3.3	Canada	Canada , Montreal
+164	Charles Johnson	72	3.3	United States	United States , CA , San Mateo
+164	Sunil Mittal	47	3.3	India	India , Delhi
+164	Robert Rowling	51	3.3	United States	United States , TX , Dallas
+164	Rainer & Michael Schmidt-Ruthenbeck	--	3.3	Germany	Germany , Duisburg
+170	Saleh Bin Abdul Aziz Al Rajhi	93	3.2	Saudi Arabia	Saudi Arabia , Jeddah
+170	Richard Branson	54	3.2	United Kingdom	United Kingdom , London
+170	William Cook	73	3.2	United States	United States , IN , Bloomington
+170	Aloysio de Andrade Faria	84	3.2	Brazil	Brazil , Sao Paulo
+170	Rolf Gerling	50	3.2	Germany	Switzerland , Zurich
+170	James Goodnight	62	3.2	United States	United States , NC , Cary
+170	Terry Gou	54	3.2	Taiwan	Taiwan , Taipei
+170	Maurice Greenberg	79	3.2	United States	United States , NY , New York
+170	Klaus-Michael Kühne	67	3.2	Germany	Switzerland , Schindellegi
+170	Leonard Lauder	72	3.2	United States	United States , NY , New York
+170	Gérard Louis-Dreyfus & family	72	3.2	France	United States , NY , New York
+170	Pallonji Mistry	75	3.2	India	India , Mumbai
+170	Akira Mori	67	3.2	Japan	Japan , Tokyo
+170	Madeleine Schickedanz	61	3.2	Germany	Switzerland , Grisous
+170	Charles Schwab	67	3.2	United States	United States , CA , Atherton
+170	Jack Taylor	82	3.2	United States	United States , MO , St Louis
+170	Klaus Tschira	64	3.2	Germany	Germany , Heidelberg
+170	Tadashi Yanai	56	3.2	Japan	Japan , Yamaguchi
+188	David Filo	38	3.1	United States	United States , CA , Mountain View
+188	Heidi Horten	64	3.1	Austria	Austria , Vienna
+188	Sami & Yuli Ofer	--	3.1	Israel	Israel , Tel Aviv
+188	Nina Wang	--	3.1	Hong Kong	Hong Kong , Hong Kong
+188	YC Wang	88	3.1	Taiwan	Taiwan , Taipei
+188	Leslie Wexner	69	3.1	United States	United States , OH , Columbus
+194	Richard DeVos	79	3	United States	United States , MI , Ada
+194	Henry Fok	81	3	Hong Kong	Hong Kong , Hong Kong
+194	Steven Jobs	50	3	United States	United States , CA , Palo Alto
+194	Ann Walton Kroenke	55	3	United States	United States , MO , Columbia
+194	George Lucas	60	3	United States	United States , CA , Marin County
+194	Sergio Mantegazza	77	3	Switzerland	Switzerland , Lugano
+194	Miuccia Prada & family	55	3	Italy	Italy , Rome
+194	Anton Schlecker	60	3	Germany	Germany , Ehingen
+194	Charoen Sirivadhanabhakdi	60	3	Thailand	Thailand , Bangkok
+203	Anacleto Angelini	91	2.9	Chile	Chile , Santiago
+203	Masatoshi Ito	80	2.9	Japan	Japan , Tokyo
+203	Barbara Piasecka Johnson	68	2.9	United States	Monaco , Monte Carlo
+203	Richard Schulze	64	2.9	United States	United States , MN , Edina
+203	Stefan Schörghuber	43	2.9	Germany	Germany , Munich
+203	Tsai Wan Tsai & family	75	2.9	Taiwan	Taiwan , Taipei
+203	Karl Wlaschek	87	2.9	Austria	Austria , Vienna
+210	Khalid Bin Mahfouz & family	58	2.8	Saudi Arabia	Saudi Arabia , Jeddah
+210	Charles Bronfman	73	2.8	Canada	Canada , Montreal
+210	William Davidson	82	2.8	United States	United States , MI , Bloomfield Hills
+210	Jesus de Polanco	75	2.8	Spain	Spain , Madrid
+210	Rachman Halim & family	57	2.8	Indonesia	Indonesia , Jawa Timur
+210	Henry Hillman	86	2.8	United States	United States , PA , Pittsburgh
+210	Ralph Lauren	65	2.8	United States	United States , NY , New York
+210	Stephan Schmidheiny	57	2.8	Switzerland	Switzerland , Zurich
+210	Eric Schmidt	50	2.8	United States	United States , CA , Atherton
+219	Alberto Bailleres	72	2.7	Mexico	Mexico , Mexico City
+219	Edgar Bronfman Sr	76	2.7	United States	United States , NY , New York
+219	Charles Cadogan & family	68	2.7	United Kingdom	United Kingdom , London
+219	Otto Happel	57	2.7	Germany	Switzerland , Luzerne
+219	Bradley Hughes	71	2.7	United States	United States , CA , Bel Air
+219	Ronald Lauder	61	2.7	United States	United States , NY , New York
+219	Eliodoro Matte & family	59	2.7	Chile	Chile , Santiago
+219	Luis Carlos Sarmiento	72	2.7	Colombia	Colombia , Bogota
+219	Steven Spielberg	58	2.7	United States	United States , CA , Pacific Palisades
+228	Hubert Burda	65	2.6	Germany	Germany , Munich
+228	Michael Hilti & family	58	2.6	Liechtenstein	Liechtenstein , Schaan
+228	Martha Ingram & family	69	2.6	United States	United States , TN , Nashville
+228	Boris Ivanishvili	49	2.6	Russia	France , Paris
+228	Rupert Johnson Jr	63	2.6	United States	United States , CA , San Mateo
+228	Saleh Kamel	63	2.6	Saudi Arabia	Saudi Arabia , Makkah Al-Minkarramah
+228	Jorge Paulo Lemann	65	2.6	Brazil	Brazil , Rio de Janeiro
+228	Lev Leviev	49	2.6	Israel	Israel , B'nei Brak
+228	Hugo Mann & family	91	2.6	Germany	Germany , Karlsruhe
+228	Ng Teng Fong	76	2.6	Singapore	Singapore , Singapore
+228	Ricardo Salinas Pliego & family	49	2.6	Mexico	Mexico , Mexico City
+228	Yasumitsu Shigeta	40	2.6	Japan	Japan , Tokyo
+228	Takemitsu Takizaki	59	2.6	Japan	Japan , Osaka
+228	Donald Trump	59	2.6	United States	United States , NY , New York
+228	Jerry Yang	36	2.6	United States	United States , CA , Los Altos
+243	Mohammed Al Amoudi	59	2.5	Saudi Arabia	Saudi Arabia , Jeddah
+243	Gianluigi & Rafaela Aponte	--	2.5	Switzerland	Switzerland , Geneva
+243	John Dorrance III	61	2.5	Ireland	Ireland , Dublin
+243	Antonio Ermirio de Moraes & family	76	2.5	Brazil	Brazil , Sao Paulo
+243	Jeffrey Koo Jr	--	2.5	Taiwan	Taiwan
+243	Esther Koplowitz	54	2.5	Spain	Spain , Barcelona
+243	Kjeld Kirk Kristiansen	57	2.5	Denmark	Denmark , Billund
+243	Edward Lampert	42	2.5	United States	United States , CT , Greenwich
+243	Nancy Walton Laurie	53	2.5	United States	United States , MO , Columbia
+243	Michael Lee-Chin	54	2.5	Canada	Canada , Burlington
+243	David Rockefeller Sr	89	2.5	United States	United States , NY , New York
+243	Bernard (Barry) Sherman	63	2.5	Canada	Canada , Toronto
+243	James Simons	67	2.5	United States	United States , NY , East Setauket
+243	Leonard Stern	67	2.5	United States	United States , NY , New York
+243	Michael Ying	55	2.5	Hong Kong	Hong Kong , Hong Kong
+258	Rinat Akhmetov	38	2.4	Ukraine	Ukraine , Donetsk
+258	Riley Bechtel	53	2.4	United States	United States , CA , San Francisco
+258	Stephen Bechtel Jr	79	2.4	United States	United States , CA , San Francisco
+258	Leonard Blavatnik	47	2.4	United States	United States , NY , New York
+258	Martin Bouygues & family	53	2.4	France	France , Paris
+258	Michael Herz	59	2.4	Germany	Germany , Hamburg
+258	Lee Seng Wee & family	80	2.4	Singapore	Singapore , Singapore
+258	Lim Goh Tong	87	2.4	Malaysia	Malaysia , Kuala Lumpur
+258	Bernard Marcus	75	2.4	United States	United States , GA , Atlanta
+258	A Jerrold Perenchio	74	2.4	United States	United States , CA , Bel Air
+258	Edward Rogers	71	2.4	Canada	Canada , Toronto
+258	Teh Hong Piow	74	2.4	Malaysia	Malaysia , Kuala Lumpur
+258	Steven Udvar-Hazy	59	2.4	United States	United States , CA , Beverly Hills
+258	Vladimir Yevtushenkov	56	2.4	Russia	Russia , Moscow
+272	Alexander Abramov	46	2.3	Russia	Russia , Moscow
+272	Vladimir Bogdanov	53	2.3	Russia	Russia , Surgut
+272	Ronald Burkle	52	2.3	United States	United States , CA , Los Angeles
+272	Clive Calder	58	2.3	United Kingdom	Cayman Islands
+272	Jean-Louis Dumas & family	66	2.3	France	France , Paris
+272	Melinda Esterhazy	84	2.3	Austria	Switzerland , Zurich
+272	Tetsuro Funai	78	2.3	Japan	Japan , Osaka
+272	Frits Goldschmeding	71	2.3	Netherlands	Netherlands , Amsterdam
+272	Stein Erik Hagen	48	2.3	Norway	Norway , Oslo
+272	Ray Hunt	62	2.3	United States	United States , TX , Dallas
+272	Shiv Nadar	59	2.3	India	India , New Delhi
+272	Carl Pohlad	89	2.3	United States	United States , MN , Minneapolis
+272	Quek Leng Chan & family	64	2.3	Malaysia	Malaysia , Kuala Lumpur
+272	Johann Rupert & family	54	2.3	South Africa	South Africa , Stellenbosch
+272	Haim Saban	60	2.3	United States	United States , CA , Beverly Hills
+272	John Simplot & family	96	2.3	United States	United States , ID , Boise
+272	Clemmie Spangler Jr	72	2.3	United States	United States , NC , Charlotte
+272	Friede Springer	62	2.3	Germany	Germany , Berlin
+272	Wee Cho Yaw	76	2.3	Singapore	Singapore
+272	Tadahiro Yoshida	58	2.3	Japan	Japan , Fujisawa
+292	Vincent Bollore	52	2.2	France	France , Paris
+292	Charles Butt	66	2.2	United States	United States , TX , San Antonio
+292	John Calamos	65	2.2	United States	United States , IL , Naperville
+292	Leona Mindy Rosenthal Helmsley	85	2.2	United States	United States , NY , New York
+292	Wolfgang Herz	54	2.2	Germany	Germany , Hamburg
+292	Amos Hostetter Jr	68	2.2	United States	United States , MA , Boston
+292	Ryoichi Jinnai & family	78	2.2	Japan	Japan , Hokkaido
+292	Peter Kellogg	63	2.2	United States	United States , NJ , Short Hills
+292	Mikhail Khodorkovsky	41	2.2	Russia	Russia , Moscow
+292	Emanuele (Lino) Saputo & family	68	2.2	Canada	Canada , Quebec
+292	Stef Wertheimer & family	79	2.2	Israel	Israel , Tefen
+292	Chaleo Yoovidhya	73	2.2	Thailand	Thailand , Bangkok
+292	Lorenzo Zambrano & family	61	2.2	Mexico	Mexico , Monterrey
+292	Samuel Zell	63	2.2	United States	United States , IL , Chicago
+306	Heinz Bauer	65	2.1	Germany	Germany , Hamburg
+306	Francesco Gaetano Caltagirone & family	62	2.1	Italy	Italy
+306	Gordon Getty	72	2.1	United States	United States , CA , San Francisco
+306	Nicolas Hayek	76	2.1	Switzerland	Switzerland , Biel
+306	German Khan	43	2.1	Russia	Russia , Moscow
+306	Herbert Kohler & family	66	2.1	United States	United States , WI , Kohler
+306	Craig McCaw	55	2.1	United States	United States , WA , Seattle
+306	Richard Rainwater	60	2.1	United States	United States , TX , Fort Worth
+306	Harold Simmons	73	2.1	United States	United States , TX , Dallas
+306	Frederick Smith	60	2.1	United States	United States , TN , Memphis
+306	Jon Stryker	46	2.1	United States	United States , MI , Kalamazoo
+306	Ronda Stryker	50	2.1	United States	United States , MI , Kalamazoo
+306	Nikolai Tsvetkov	44	2.1	Russia	Russia , Moscow
+306	Patrick Wang & family	54	2.1	Hong Kong	Hong Kong , Hong Kong
+306	Stephen Wynn	64	2.1	United States	United States , NV , Las Vegas
+321	Herbert Allen Jr	65	2	United States	United States , NY , New York
+321	Isak Andic	50	2	Spain	Spain , Barcelona
+321	Leonore Annenberg	87	2	United States	United States , PA , Wynnewood
+321	Roland Arnall	66	2	United States	United States , CA , Holmby Hills
+321	Matthew Bucksbaum & family	79	2	United States	United States , IL , Chicago
+321	Chen Din Hwa	82	2	Hong Kong	Hong Kong , Hong Kong
+321	Steven Cohen	49	2	United States	United States , CT , Greenwich
+321	John de Mol	50	2	Netherlands	Netherlands , Blaricum
+321	Ennio Doris & family	64	2	Italy	Italy , Tombolo
+321	Leonid Fedun	48	2	Russia	Russia , Moscow
+321	Philippe Foriel-Destezet	69	2	France	United Kingdom , London
+321	Louis Gonda	56	2	United States	United States , CA , Beverly Hills
+321	R Budi Hartono	64	2	Indonesia	Indonesia , Kudus
+321	Roberto Hernandez	63	2	Mexico	Mexico , Mexico City
+321	Günter Herz	64	2	Germany	Germany , Hamburg
+321	Jon Huntsman	67	2	United States	United States , UT , Salt Lake City
+321	Richard Kinder	61	2	United States	United States , TX , Houston
+321	Bruce Kovner	59	2	United States	United States , NY , New York
+321	Fredrik Lundberg	53	2	Sweden	Sweden , Stockholm
+321	John Malone	64	2	United States	United States , CO , Parker
+321	Dietrich Mateschitz	60	2	Austria	Austria , Fuschl am See
+321	Patrick McGovern	67	2	United States	United States , NH , Hollis
+321	Rosalia Mera	61	2	Spain	Spain , La Coruna
+321	Richard Pratt	70	2	Australia	Australia , Melbourne
+321	Mitchell Rales	48	2	United States	United States , DC , Washington
+321	Steven Rales	52	2	United States	United States , DC , Washington
+321	Robert Rich Sr	91	2	United States	United States , FL , Palm Beach
+321	Hermann Schnabel	83	2	Germany	Germany , Hamburg
+321	Bruno Schroder & family	72	2	United Kingdom	United Kingdom , London
+321	Evgeny (Eugene) Shvidler	40	2	United States	Russia , Moscow
+321	Robert E (Ted) Turner	66	2	United States	United States , FL , Lamont
+321	Eugen Viehof	88	2	Germany	Germany , Moenchengladbach
+321	Albert von Thurn und Taxis	21	2	Germany	Germany , Regensburg
+321	Peter Woo & family	59	2	Hong Kong	Hong Kong , Hong Kong
+355	Lee Bass	48	1.9	United States	United States , TX , Fort Worth
+355	Emilio Botin	70	1.9	Spain	Spain , Santander
+355	Charles Dolan	78	1.9	United States	United States , NY , Oyster Bay
+355	Adi Godrej & family	62	1.9	India	India , Mumbai
+355	William Hearst III	55	1.9	United States	United States , CA , San Francisco
+355	Daniela Herz	51	1.9	Germany	Germany , Hamburg
+355	H Huizenga	67	1.9	United States	United States , FL , Fort Lauderdale
+355	Melvin Simon	78	1.9	United States	United States , IN , Indianapolis
+355	Ernest Stempel	88	1.9	United States	Bermuda , Hamilton
+355	Henry Sy & family	80	1.9	Philippines	Philippines , Manila
+355	Glen Taylor	63	1.9	United States	United States , MN , Mankato
+366	S Daniel Abraham	80	1.8	United States	United States , FL , Palm Beach
+366	Maria Asuncion Aramburuzabala & family	41	1.8	Mexico	Mexico , Mexico City
+366	Franklin Booth Jr	82	1.8	United States	United States , CA , Los Angeles
+366	Phoebe Hearst Cooke	78	1.8	United States	United States , CA , San Francisco
+366	Jean Coutu	77	1.8	Canada	Canada , Quebec
+366	Albert Frere	79	1.8	Belgium	Belgium , Charleroi
+366	Austin Hearst	52	1.8	United States	United States , NY , New York
+366	David Hearst Jr	59	1.8	United States	United States , CA , Los Angeles
+366	George Hearst Jr	78	1.8	United States	United States , CA , Los Angeles
+366	Ming Hsieh	49	1.8	United States	United States , CA , San Francisco
+366	Jess Jackson	75	1.8	United States	United States , CA , Healdsburg
+366	Carl Lindner Jr & family	85	1.8	United States	United States , OH , Cincinnati
+366	Clayton Mathile	64	1.8	United States	United States , OH , Dayton
+366	Wallace McCain	75	1.8	Canada	Canada , Toronto
+366	Fayez Sarofim	76	1.8	United States	United States , TX , Houston
+366	Patrick Soon-Shiong	53	1.8	United States	United States , CA , Los Angeles
+366	Sylvia Ströher	50	1.8	Germany	Germany , Darmstadt
+366	Wilma Tisch	79	1.8	United States	United States , NY , New York
+366	Alisher Usmanov	51	1.8	Russia	Russia
+366	Dennis Washington	70	1.8	United States	United States , MT , Missoula
+366	Hiroshi Yamauchi	77	1.8	Japan	Japan , Kyoto
+387	Dhanin Chearavanont & family	65	1.7	Thailand	Thailand , Bangkok
+387	Belmiro de Azevedo	67	1.7	Portugal	Portugal , Oporto
+387	Stanley Druckenmiller	52	1.7	United States	United States , NY , New York
+387	John J Fisher	43	1.7	United States	United States , CA , San Francisco
+387	Robert Fisher	51	1.7	United States	United States , CA , San Francisco
+387	Tom Gores	40	1.7	United States	United States , CA , Beverly Hills
+387	Joachim Herz	62	1.7	Germany	Germany
+387	E Kroenke	57	1.7	United States	United States , MO , Columbia
+387	Peter Lewis	70	1.7	United States	United States , FL , Coconut Grove
+387	Mary Alice Dorrance Malone	55	1.7	United States	United States , PA , Coatesville
+387	Richard Marriott	66	1.7	United States	United States , MD , Potomac
+387	Charles Munger	80	1.7	United States	United States , CA , Los Angeles
+387	David Murdock	81	1.7	United States	United States , CA , Los Angeles
+387	Henry Nicholas III	45	1.7	United States	United States , CA , Laguna Hills
+387	Kazuo Okada	62	1.7	Japan	Japan , Tokyo
+387	Roger Penske	68	1.7	United States	United States , MI , Birmingham
+387	Gregorio Perez Companc & family	70	1.7	Argentina	Argentina , Buenos Aires
+387	Stefano Pessina	63	1.7	Italy	Monaco , Monte Carlo
+387	Didier Primat	60	1.7	France	France , Paris
+387	Thomas Pritzker	54	1.7	United States	United States , IL , Chicago
+387	Shin Kyuk-Ho & family	82	1.7	South Korea	South Korea , Seoul
+387	John Sperling	84	1.7	United States	United States , AZ , Phoenix
+387	Peter Sperling	45	1.7	United States	United States , AZ , Phoenix
+387	Pat Stryker	48	1.7	United States	United States , CO , Fort Collins
+387	Lucio Tan	70	1.7	Philippines	Philippines , Manila
+387	John Whittaker	63	1.7	United Kingdom	United Kingdom , Isle of Man
+413	Julio Bozano	69	1.6	Brazil	Brazil , Rio de Janeiro
+413	Heinz-Horst Deichmann	78	1.6	Germany	Germany , Essen
+413	Bennett Dorrance	56	1.6	United States	United States , AZ , Paradise Valley
+413	Sidney Frank	85	1.6	United States	United States , NY , New Rochelle
+413	Donald Gordon	74	1.6	South Africa	United Kingdom , London
+413	Donald Hall	76	1.6	United States	United States , KS , Mission Hills
+413	Alfredo Harp Helu	61	1.6	Mexico	Mexico , Mexico City
+413	Hans-Werner Hector	65	1.6	Germany	Germany , Weinheim
+413	Irwin Jacobs	71	1.6	United States	United States , CA , La Jolla
+413	Manuel Jove	63	1.6	Spain	Spain , La Coruna
+413	Daryl Katz	43	1.6	Canada	Canada , Edmonton
+413	Michael Krasny	51	1.6	United States	United States , IL , Highland Park
+413	Alexei Kuzmichov	42	1.6	Russia	Russia
+413	Alexander Lebedev	45	1.6	Russia	Russia
+413	Joseph Lewis	68	1.6	United Kingdom	Bahamas , Lyford Cay
+413	Iskander Makhmudov	42	1.6	Russia	Russia
+413	John Marriott Jr	73	1.6	United States	United States , MD , Potomac
+413	E Marshall	66	1.6	United States	United States , TX , Dallas
+413	Penny Pritzker	45	1.6	United States	United States , IL , Chicago
+413	Larry Rong Zhijian	63	1.6	China	China , Shanghai
+413	Henry Samueli	50	1.6	United States	United States , CA , Newport Beach
+413	Ollen Smith	78	1.6	United States	United States , NC , Charlotte
+413	Arthur Williams Jr	62	1.6	United States	United States , FL , Palm Beach
+413	Mortimer Zuckerman	67	1.6	United States	United States , NY , New York
+437	Sid Bass	62	1.5	United States	United States , TX , Fort Worth
+437	Peter Buck	74	1.5	United States	United States , CT , Danbury
+437	James Cargill	80	1.5	United States	United States , MN , Minneapolis
+437	Margaret Cargill	85	1.5	United States	United States , CA , La Jolla
+437	Chung Mong-Koo	67	1.5	South Korea	South Korea
+437	Fred DeLuca	57	1.5	United States	United States , FL , Fort Lauderdale
+437	Ray Dolby	71	1.5	United States	United States , CA , San Francisco
+437	Gustaf Douglas	67	1.5	Sweden	Sweden , Stockholm
+437	Archie Aldis (Red) Emmerson	75	1.5	United States	United States , CA , Redding
+437	Richard Farmer	70	1.5	United States	United States , OH , Cincinnati
+437	Gerald Ford	60	1.5	United States	United States , TX , Dallas
+437	Soichiro Fukutake & family	59	1.5	Japan	Japan , Okayama
+437	Charles Gates Jr	83	1.5	United States	United States , CO , Denver
+437	Leslie Gonda	84	1.5	United States	United States , CA , Beverly Hills
+437	Naresh Goyal	55	1.5	India	United Kingdom , London
+437	Jonathan Harmsworth	37	1.5	United Kingdom	United Kingdom , London
+437	Vladimir Iorich	46	1.5	Russia	Russia , Moscow
+437	H Fisk Johnson	46	1.5	United States	United States , WI , Racine
+437	Imogene Powers Johnson	75	1.5	United States	United States , WI , Racine
+437	Helen Johnson-Leipold	48	1.5	United States	United States , WI , Racine
+437	Winnie Johnson-Marquart	45	1.5	United States	United States , VA , Virginia Beach
+437	S Curtis Johnson	49	1.5	United States	United States , WI , Racine
+437	Henry Kravis	61	1.5	United States	United States , NY , New York
+437	Robert McNair	67	1.5	United States	United States , TX , Houston
+437	George Mitchell	85	1.5	United States	United States , TX , Houston
+437	Jorgen Philip-Sorensen	66	1.5	Sweden	United Kingdom , Broadway
+437	Anthony Pritzker	44	1.5	United States	United States , CA , Los Angeles
+437	Daniel Pritzker	46	1.5	United States	United States , CA , Marin County
+437	James Pritzker	53	1.5	United States	United States , IL , Chicago
+437	Jay Robert (JB) Pritzker	40	1.5	United States	United States , IL , Evanston
+437	Jean (Gigi) Pritzker	43	1.5	United States	United States , IL , Chicago
+437	John Pritzker	52	1.5	United States	United States , CA , San Francisco
+437	Karen Pritzker	47	1.5	United States	United States , CT , New Haven
+437	Linda Pritzker	51	1.5	United States	United States , MT , St Ignatius
+437	William Pulte	72	1.5	United States	United States , MI , Detroit
+437	Ernest Rady	67	1.5	United States	United States , CA , San Diego
+437	J Ricketts & family	63	1.5	United States	United States , NE , Omaha
+437	George Roberts	60	1.5	United States	United States , CA , Los Angeles
+437	John Sall	55	1.5	United States	United States , NC , Cary
+437	Dilip Shanghvi	49	1.5	India	India , Mumbai
+437	John Sobrato	65	1.5	United States	United States , CA , Atherton
+437	Jackson Stephens & family	81	1.5	United States	United States , AR , Little Rock
+437	Albert Ueltschi	87	1.5	United States	United States , TX , Irving
+437	Sanford Weill	72	1.5	United States	United States , NY , New York
+437	Margaret Whitman	48	1.5	United States	United States , CA , Palo Alto
+437	Wong Kwong Yu	35	1.5	China	China , Beijing
+437	Daniel Ziff	33	1.5	United States	United States , NY , New York
+437	Dirk Ziff	40	1.5	United States	United States , NY , New York
+437	Robert Ziff	38	1.5	United States	United States , NY , New York
+437	Jaime Zobel de Ayala & family	70	1.5	Philippines	Philippines , Manila
+437	Igor Zyuzin	44	1.5	Russia	Russia , Moscow
+488	Anil Agarwal	51	1.4	India	United Kingdom , London
+488	Frank Batten Sr	78	1.4	United States	United States , VA , Virginia Beach
+488	Nancy Lerner Beck	44	1.4	United States	United States , OH , Cleveland
+488	Bjorgolfur Thor Bjorgolfsson	38	1.4	Iceland	United Kingdom , London
+488	Arthur Blank	62	1.4	United States	United States , GA , Atlanta
+488	Edward Debartolo Jr	58	1.4	United States	United States , FL , Tampa
+488	Barbara Carlson Gage & family	63	1.4	United States	United States , MN , Minneapolis
+488	Marguerite Harbert	81	1.4	United States	United States , AL , Birmingham
+488	Alicia Koplowitz	52	1.4	Spain	Spain , Madrid
+488	Norma Lerner	69	1.4	United States	United States , OH , Cleveland
+488	Randolph Lerner	42	1.4	United States	United States , OH , Cleveland
+488	George Lindemann & family	69	1.4	United States	United States , FL , Palm Beach
+488	Alfred Mann	79	1.4	United States	United States , CA , Los Angeles
+488	James Moran	86	1.4	United States	United States , FL , Deerfield Beach
+488	Marilyn Carlson Nelson & family	66	1.4	United States	United States , MN , Minneapolis
+488	Kenshin Oshima	57	1.4	Japan	Japan , Tokyo
+488	Paul Raymond	80	1.4	United Kingdom	United Kingdom , London
+488	Alexander Shnaider	36	1.4	Canada	Canada , Toronto
+488	Theodore Waitt	42	1.4	United States	United States , CA , San Diego
+507	Elena Baturina	42	1.3	Russia	Russia , Moscow
+507	Pierre Bellon & family	75	1.3	France	France , Paris
+507	William Boyd	73	1.3	United States	United States , NV , Las Vegas
+507	Chang Yung Fa	78	1.3	Taiwan	Taiwan , Taipei
+507	Mark Cuban	47	1.3	United States	United States , TX , Dallas
+507	Barry Diller	63	1.3	United States	United States , NY , New York
+507	Abilio dos Santos Diniz & family	68	1.3	Brazil	Brazil , Sao Paulo
+507	David Duffield	64	1.3	United States	United States , NV , Incline Village
+507	Gabriel Escarrer	70	1.3	Spain	Spain , Palma de Majorca
+507	Donald Fisher	76	1.3	United States	United States , CA , San Francisco
+507	Doris Fisher	73	1.3	United States	United States , CA , San Francisco
+507	James France	60	1.3	United States	United States , FL , Daytona Beach
+507	William France Jr	72	1.3	United States	United States , FL , Daytona Beach
+507	John Gandel & family	70	1.3	Australia	Australia , Melbourne
+507	Christopher Goldsbury	62	1.3	United States	United States , TX , San Antonio
+507	Alec Gores	52	1.3	United States	United States , CA , Beverly Hills
+507	John Hargreaves & family	61	1.3	United Kingdom	United Kingdom , Lancashire County
+507	Robert Holding	78	1.3	United States	United States , UT , Salt Lake City
+507	Joseph Jamail Jr	79	1.3	United States	United States , TX , Houston
+507	James Jannard	55	1.3	United States	United States , WA , San Juan Islands
+507	Stephen Jarislowsky	79	1.3	Canada	Canada , Montreal
+507	Min Kao	56	1.3	United States	United States , KS , Mission Hills
+507	Barry Lam	55	1.3	Taiwan	Taiwan
+507	Vincent Lo	--	1.3	Hong Kong	Hong Kong , Hong Kong
+507	Robert McLane Jr	68	1.3	United States	United States , TX , Temple
+507	John Morgridge	71	1.3	United States	United States , CA , Portola Valley
+507	Hideo Morita & family	53	1.3	Japan	Japan , Tokyo
+507	Robert Naify	83	1.3	United States	United States , CA , San Francisco
+507	Liselott Persson	--	1.3	Sweden	Sweden , Stockholm
+507	Victor Pinchuk	44	1.3	Ukraine	Ukraine , Dniepropetrovsk
+507	Hans Riegel	82	1.3	Germany	Germany , Bonn
+507	Paul Riegel	78	1.3	Germany	Germany , Bonn
+507	Phillip Ruffin	69	1.3	United States	United States , KS , Wichita
+507	Eduard Shifrin	44	1.3	United Kingdom	United Kingdom , London
+507	Thomas Siebel	52	1.3	United States	United States , CA , San Mateo
+507	Harry Triguboff	72	1.3	Australia	Australia , Sydney
+507	Peter Unger	60	1.3	Germany	Germany , Weiden
+507	Joop van den Ende	63	1.3	Netherlands	Netherlands
+507	Dean White	81	1.3	United States	United States , IN , Crown Point
+507	Arne Wilhelmsen & family	74	1.3	Norway	Norway , Oslo
+507	Oprah Winfrey	51	1.3	United States	United States , IL , Chicago
+548	Mohamed Al-Bahar & family	--	1.2	Kuwait	Kuwait
+548	Khalaf Al Habtoor	--	1.2	United Arab Emirates	United Arab Emirates , Dubai
+548	George Argyros	68	1.2	United States	United States , CA , Newport Beach
+548	Edward Bass	60	1.2	United States	United States , TX , Fort Worth
+548	Carl Berg	67	1.2	United States	United States , CA , Atherton
+548	William Connor II	55	1.2	United States	Hong Kong , Hong Kong
+548	David Copley	53	1.2	United States	United States , CA , La Jolla
+548	Lloyd Dorfman	52	1.2	United Kingdom	United Kingdom , London
+548	Bulent Eczacibasi	55	1.2	Turkey	Turkey , Istanbul
+548	William Fisher	47	1.2	United States	United States , CA , San Francisco
+548	Thomas Flatley	72	1.2	United States	United States , MA , Milton
+548	Victor Fung	60	1.2	United States	Hong Kong , Hong Kong
+548	William Fung	57	1.2	Hong Kong	Hong Kong , Hong Kong
+548	Alan Gerry	75	1.2	United States	United States , NY , Liberty
+548	David Green	64	1.2	United States	United States , OK , Oklahoma City
+548	Saad Hariri	33	1.2	Saudi Arabia	Saudi Arabia , Riyadh
+548	Stanley Stub Hubbard	71	1.2	United States	United States , MN , St Mary's Point
+548	Thomas Hunter	43	1.2	United Kingdom	Scotland , Troon
+548	Om Jindal	74	1.2	India	India , Delhi
+548	Guy Laliberte	45	1.2	Canada	Canada , Montreal
+548	Kenneth Langone	69	1.2	United States	United States , NY , Sands Point
+548	Thomas Lee	60	1.2	United States	United States , NY , New York
+548	Kenichi Mabuchi & family	82	1.2	Japan	Japan , Matsudo
+548	Maggie Magerko	39	1.2	United States	United States , PA , Eightyfour
+548	Billy Joe (Red) McCombs	77	1.2	United States	United States , TX , San Antonio
+548	Andrei Melnichenko	33	1.2	Russia	Russia , Moscow
+548	Sergei Popov	33	1.2	Russia	Russia , Moscow
+548	Sean Quinn	58	1.2	Ireland	Ireland , Fermanagh
+548	Winthrop Rockefeller	56	1.2	United States	United States , AR , Morrilton
+548	Isaac Saba Raffoul & family	81	1.2	Mexico	Mexico , Mexico City
+548	Richard Scaife	72	1.2	United States	United States , PA , Pittsburgh
+548	Walter Scott Jr	73	1.2	United States	United States , NE , Omaha
+548	Marcel Telles	55	1.2	Brazil	Brazil , Sao Paulo
+548	Olav Thon	81	1.2	Norway	Norway , Oslo
+548	Martin Viessmann	51	1.2	Germany	Germany , Allendorf
+548	Elizabeth Wiskemann	--	1.2	United States	United States , CA , San Rafael
+584	Anneliese Brost	84	1.1	Germany	Germany , Essen
+584	John Brown	70	1.1	United States	United States , MI , Kalamazoo
+584	Robert Day	60	1.1	United States	United States , CA , Los Angeles
+584	Roy Disney	75	1.1	United States	United States , CA , Los Angeles
+584	Richard Egan	69	1.1	United States	United States , MA , Hopkinton
+584	Robert Friedland	54	1.1	United States	Singapore , Singapore
+584	Thomas Frist Jr & family	66	1.1	United States	United States , TN , Nashville
+584	Malcolm Glazer	77	1.1	United States	United States , FL , Palm Beach
+584	Blase Golisano	63	1.1	United States	United States , NY , Rochester
+584	David Gottesman	78	1.1	United States	United States , NY , Rye
+584	Pincus Green	69	1.1	United States	Switzerland , Meggan
+584	Albert Gubay	79	1.1	United Kingdom	United Kingdom , Isle of Man
+584	Han Chang-Woo	74	1.1	Japan	Japan , Kyoto
+584	Marvin Herb	68	1.1	United States	United States , IL , Chicago
+584	George Joseph	83	1.1	United States	United States , CA , Los Angeles
+584	William Kellogg	61	1.1	United States	United States , WI , Oconomowoc
+584	Richard Li	38	1.1	Hong Kong	Hong Kong , Hong Kong
+584	L Lowry Mays	69	1.1	United States	United States , TX , San Antonio
+584	Kenneth Morrison	73	1.1	United Kingdom	United Kingdom , Bradford
+584	Anthony O'Reilly	68	1.1	Ireland	Ireland , Dublin
+584	Bernard Osher	77	1.1	United States	United States , CA , San Francisco
+584	Nelson Peltz	62	1.1	United States	United States , NY , Bedford
+584	Michael Price	52	1.1	United States	United States , NJ , Far Hills
+584	Nicholas Pritzker II	61	1.1	United States	United States , IL , Chicago
+584	Marc Rich	70	1.1	United States	Switzerland , Meggan
+584	Jesse Robinson	81	1.1	United States	United States , GA , Atlanta
+584	Edward Roski Jr	66	1.1	United States	United States , CA , Los Angeles
+584	Erol Sabanci	67	1.1	Turkey	Turkey , Istanbul
+584	Sevket Sabanci	69	1.1	Turkey	Turkey , Istanbul
+584	Herbert Sandler	73	1.1	United States	United States , CA , San Francisco
+584	Marion Sandler	74	1.1	United States	United States , CA , San Francisco
+584	Herbert Siegel	77	1.1	United States	United States , NY , New York
+584	Alexander Spanos	81	1.1	United States	United States , CA , Stockton
+584	Joyce Raley Teel	74	1.1	United States	United States , CA , Sacramento
+584	Kenny Troutt	57	1.1	United States	United States , TX , Dallas
+584	Charlotte Colket Weber	62	1.1	United States	United States , FL , Ocala
+620	John Anderson	87	1	United States	United States , CA , Bel Air
+620	Edmund Ansin	69	1	United States	United States , FL , Miami Beach
+620	John Arrillaga	67	1	United States	United States , CA , Palo Alto
+620	Nadhmi Auchi	--	1	United Kingdom	United Kingdom , London
+620	Emilio Azcarraga Jean	37	1	Mexico	Mexico , Mexico City
+620	Thomas Bailey	68	1	United States	United States , CO , Aspen
+620	Perry Bass	90	1	United States	United States , TX , Fort Worth
+620	Neil Bluhm	67	1	United States	United States , IL , Chicago
+620	Amar Bose	76	1	United States	United States , MA , Framingham
+620	Thomas Bruch	54	1	Germany	Germany , St Wendel
+620	John Caudwell	52	1	United Kingdom	United Kingdom , Stoke-on-Trent
+620	Harvey Chaplin & family	76	1	United States	United States , FL , Miami
+620	Patokh Chodiev	51	1	Kazakhstan	Kazakhstan , Almaty
+620	Gary Comer	77	1	United States	United States , IL , Chicago
+620	Scott Cook	52	1	United States	United States , CA , Woodside
+620	Aydin Dogan	--	1	Turkey	Turkey , Istanbul
+620	John Edson	72	1	United States	United States , WA , Seattle
+620	Paul Fireman	61	1	United States	United States , MA , Newton
+620	J Flowers	47	1	United States	United States , NY , New York
+620	William Ford Sr	80	1	United States	United States , MI , Grosse Pointe Shores
+620	William Gross	60	1	United States	United States , CA , Newport Beach
+620	Dorrance Hamilton	76	1	United States	United States , PA , Wayne
+620	Ingeburg Herz	--	1	Germany	Germany , Hamburg
+620	William Barron Hilton	77	1	United States	United States , CA , Los Angeles
+620	Dietmar Hopp	64	1	Germany	Germany , Waldorf
+620	Alijan Ibragimov	51	1	Kazakhstan	Kazakhstan , Almaty
+620	Jeremy Jacobs Sr	65	1	United States	United States , NY , East Aurora
+620	Jerral Jones	62	1	United States	United States , TX , Dallas
+620	Paul Jones II	51	1	United States	United States , CT , Greenwich
+620	Morris Kahn	75	1	Israel	Israel
+620	Jeffrey Katzenberg	54	1	United States	United States , CA , Beverly Hills
+620	Nasser Khalili	59	1	United Kingdom	United Kingdom , London
+620	James Kim & family	69	1	United States	United States , PA , Bryn Mawr
+620	Jerome Kohlberg Jr	79	1	United States	United States , NY , Mt Kisco
+620	Jan Kulczyk	55	1	Poland	Poland , Poznan
+620	Leon Levine & family	67	1	United States	United States , NC , Charlotte
+620	Gary Magness	51	1	United States	United States , CO , Cherry Hills
+620	Richard Manoogian	68	1	United States	United States , MI , Grosse Pointe Farms
+620	Steno Marcegaglia & family	74	1	Italy	Italy , Mantova
+620	Anne Windfohr Marion	65	1	United States	United States , TX , Fort Worth
+620	Alexander Mashkevich	50	1	Kazakhstan	Kazakhstan , Almaty
+620	Terence (Terry) Matthews	61	1	United Kingdom	Canada , Ottawa
+620	Alain Merieux & family	67	1	France	France , Lyon
+620	Arnon Milchan	60	1	Israel	Israel , Tel Aviv
+620	Michael Milken	58	1	United States	United States , CA , Los Angeles
+620	William Morean	49	1	United States	United States , FL , St Petersburg
+620	Axel Oberwelland	38	1	Germany	Germany , Berlin
+620	Klaus Oberwelland	66	1	Germany	Germany , Berlin
+620	Husnu Ozyegin	60	1	Turkey	Turkey , Izmir
+620	Richard Peery	64	1	United States	United States , CA , Palo Alto
+620	Stewart Rahr	59	1	United States	United States , NY , New York
+620	Arthur Rock	78	1	United States	United States , CA , San Francisco
+620	Wilbur Ross Jr	67	1	United States	United States , NY , New York
+620	Joanne (JK) Rowling	39	1	United Kingdom	Scotland , Edinburgh
+620	Lily Safra	67	1	Monaco	Monaco
+620	Monika Schoeller	66	1	Germany	Germany , Stuttgart
+620	Wen Long Shi & family	77	1	Taiwan	Taiwan , Tainan
+620	Carlos Sicupira	57	1	Brazil	Brazil , Sao Paulo
+620	Charles Simonyi	57	1	United States	United States , WA , Medina
+620	Zygmunt Solorz-Zak	48	1	Poland	Poland , Warsaw
+620	Martha Stewart	63	1	United States	United States , CT , Westport
+620	Kerry Stokes	63	1	Australia	Australia , Perth
+620	Serhiy Taruta	50	1	Ukraine	Ukraine , Donetsk
+620	A Alfred Taubman	80	1	United States	United States , MI , Bloomfield Hills
+620	Tiong Hiew King	69	1	Malaysia	Malaysia , Sibu
+620	Hope Hill Van Beuren	71	1	United States	United States , RI , Middletown
+620	Andreas von Bechtolsheim	49	1	United States	United States , CA , Palo Alto
+620	Dieter von Holtzbrinck	63	1	Germany	Germany , Stuttgart
+620	Stefan von Holtzbrinck	41	1	Germany	Germany , Stuttgart
+620	Todd Wagner	44	1	United States	United States , TX , Dallas
+620	Samuel Wyly	69	1	United States	United States , TX , Dallas
+620	Ahmet Zorlu	60	1	Turkey	Turkey , Istanbul

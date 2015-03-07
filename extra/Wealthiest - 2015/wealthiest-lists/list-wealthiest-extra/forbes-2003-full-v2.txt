@@ -1,0 +1,954 @@
+# http://www.marketwatch.com/story/forbes-500-richest-people-the-full-list
+# Published: Feb 28, 2003 9:30 a.m. ET
+
+1. Gates, William III, Washington, 47, $40.7, Microsoft MSFT, -2.02%
+
+2. Buffett, Warren, Nebraska, 72, $30.5, investments
+
+3. Albrecht, Karl and Theo, Germany, unknown, $25.6, retail
+
+4. Allen, Paul, Washington, 50, $20.1, Microsoft
+
+5. Alsaud, Prince Alwaleed Bin Talal, Saudi Arabia, 46, $17.7, investments
+
+6. Ellison, Lawrence, California, 58, $16.6, Oracle ORCL, -2.85%
+
+7. Walton, Alice, Texas, 54, $16.5, Wal-Mart WMT, -1.18%
+
+7. Walton, Helen, Arkansas, 83, $16.5, Wal-Mart
+
+7. Walton, Jim, Arkansas, 55, $16.5, Wal-Mart
+
+7. Walton, John, Colorado, 57, $16.5, Wal-Mart
+
+7. Walton, S. Robson, Arkansas, 59, $16.5, Wal-Mart
+
+12. Bettencourt, Liliane, France, 80, $14.5, L'Oreal
+
+13. Thomson, Kenneth and family, Canada, 79, $14, publishing
+
+14. Kamprad, Ingvar, Sweden, 76, $13, Ikea
+
+15. Rausing, Birgit and family, Sweden, unknown, $12.9, packaging
+
+16. Ballmer, Steven, Washington, 46, $11.1, Microsoft
+
+17. Kluge, John, Virginia, 88, $10.5, Metromedia
+
+18. Anthony, Barbara Cox, Hawaii, 79, $10.3, media
+
+18. Chambers, Anne Cox, Georgia, 83, $10.3, media
+
+18. Ortega, Amancio, Spain, 67, $10.3, apparel
+
+21. Mars, Forrest Jr., Virginia, 71, $10, candy
+
+21. Mars, Jacqueline, New Jersey, 64, $10, candy
+
+21. Mars, John, Virginia, 66, $10, candy
+
+24. Dell, Michael, Texas, 38, $9.8, Dell DELL
+
+25. Johnson, Abigail, Massachusetts, 41, $8.2, mutual funds
+
+26. Khodorkovsky, Mikhail, Russia, 39, $8, oil
+
+26. Redstone, Sumner, Massachusetts, 79, $8, Viacom VIA
+
+28. Li Ka-shing, Hong Kong, 74, $7.8, diversified
+
+29. Newhouse, Donald, New Jersey, 73, $7.7, media
+
+29. Newhouse, Samuel Jr., New York, 75, $7.7, media
+
+29. Rausing, Hans, Sweden, 76, $7.7, packaging
+
+32. Pritzker, Robert, Illinois, 76, $7.6, hotels
+
+32. Pritzker, Thomas, Illinois, 52, $7.6, hotels
+
+34. Grosvenor, Gerald Cavendish, Britain, 51, $7.5, real estate
+
+35. Slim Helu, Carlos, Mexico, 63, $7.4, telecom
+
+36. Johnson, Samuel, Wisconsin, 74, $7.3, floor wax
+
+37. Saji, Nobutada and family, Japan, 57, $7.1, beverages
+
+38. Soros, George, New York, 72, $7, hedge funds
+
+39. Heirs of Suliman Olayan, Saudi Arabia, unknown, $6.9, investments
+
+40. Arnault, Bernard, France, 54, $6.7, LVMH
+
+40. Persson, Stefan, Sweden, 55, $6.7, retail
+
+42. Kwok, Walter and Thomas and Raymond, Hong Kong, unknown, $6.6, real estate
+
+43. Weston, Galen and family, Canada, 62, $6.2, retail
+
+44. Warner, H. Ty, Illinois, 59, $6, toys
+
+45. Berlusconi, Silvio, Italy, 66, $5.9, media
+
+45. Ergen, Charles, Colorado, 50, $5.9, satellite TV DISH, +0.47%
+
+45. Premji, Azim, India, 57, $5.9, software
+
+48. Icahn, Carl, New York, 67, $5.8, investments
+
+49. Abramovich, Roman, Russia, 36, $5.7, oil
+
+49. Engelhorn, Curt, Germany, 76, $5.7, drugs
+
+49. Flick, Friedrich Jr., Germany, 76, $5.7, investments
+
+52. Del Vecchio, Leonardo, Italy, 67, $5.6, eyewear
+
+52. von Finck, August, Germany, 72, $5.6, investments
+
+54. Murdoch, Rupert, New York, 72, $5.5, News Corp. NWS, -1.53%
+
+54. Oetker, Rudolf August and family, Germany, 86, $5.5, food
+
+54. Otto, Michael and family, Germany, 59, $5.5, retail
+
+57. Klatten, Susanne, Germany, 41, $5.3, BMW
+
+58. Al-Kharafi, Nasser and family, Kuwait, 59, $5.1, construction
+
+59. Landolt, Pierre and family, Switzerland, 55, $5, Novartis NVS, -1.32%
+
+59. Omidyar, Pierre, California, 35, $5, eBay EBAY, +1.73%
+
+59. Takei, Yasuo and family, Japan, 73, $5, credit
+
+62. Anschutz, Philip, Colorado, 63, $4.9, Qwest Q, -0.84%
+
+63. Bloomberg, Michael, New York, 60, $4.8, media
+
+64. Bertarelli, Ernesto, Switzerland, 37, $4.7, biotech
+
+65. Benetton, Luciano and family, Italy, 67, $4.6, Benetton
+
+65. Davis, Marvin, California, 77, $4.6, investments
+
+67. Wertheimer, Alain and Gerard, France, unknown, $4.5, Chanel
+
+68. Fridman, Mikhail, Russia, 38, $4.3, oil
+
+68. Mendoza, Lorenzo and family, Venezuela, 37, $4.3, beverages
+
+68. Quandt, Stefan, Germany, 37, $4.3, BMW (519000)
+
+71. Knight, Philip, Oregon, 65, $4.2, Nike NKE, -1.48%
+
+72. Itoyama, Eitaro, Japan, 60, $4.1, golf courses
+
+72. Iwasaki, Fukuzo, Japan, 78, $4.1, real estate
+
+72. Johnson, Edward III, Massachusetts, 72, $4.1, mutual funds
+
+72. Kipp, Karl-Heinz, Germany, 79, $4.1, real estate
+
+72. Mohn, Reinhard and family, Germany, 81, $4.1, media
+
+72. Mori, Akira, Japan, 66, $4.1, real estate
+
+78. Bren, Donald, California, 70, $4, real estate
+
+78. Cisneros, Gustavo and family, Venezuela, 57, $4, media
+
+78. Koch, Charles, Kansas, 67, $4, oil
+
+78. Koch, David, New York, 62, $4, oil
+
+82. Broad, Eli, California, 69, $3.9, real estate
+
+83. Al-Hariri, Rafik and family, Lebanon, 59, $3.8, construction
+
+83. Geffen, David, California, 60, $3.8, music
+
+83. Haub, Erivan and family, Germany, 70, $3.8, retail
+
+83. Schaeffler, Maria-Elisabeth and Georg, Germany, unknown, $3.8, ball bearings
+
+83. von Holtzbrinck, Dieter and family, Germany, unknown, $3.8, publishing
+
+88. de Carvalho, Charlene, Netherlands, 48, $3.7, Heineken
+
+88. Lee Shau Kee, Hong Kong, 75, $3.7, real estate
+
+88. Perot, Henry Ross, Texas, 72, $3.7, investments EDS, -0.64%
+
+88. Tsai Wan Lin and family, Taiwan, 78, $3.7, insurance
+
+92. Johnson, Antonia, Sweden, 59, $3.6, diversified
+
+92. Safra, Joseph and Moise, Brazil, unknown, $3.6, banking
+
+94. Ferrero, Michele, Italy, 76, $3.5, chocolates
+
+94. Irving, James and Arthur and John, Canada, unknown, $3.5, oil
+
+94. Wrigley, William Jr., Illinois, 39, $3.5, chewing gum WWY, +0.00%
+
+97. Arango, Jeronimo, Mexico, 77, $3.4, retail
+
+97. Kerkorian, Kirk, California, 85, $3.4, investments
+
+97. Kuok, Robert, Malaysia, 80, $3.4, agriculture
+
+97. Quandt, Johanna, Germany, 75, $3.4, BMW
+
+101. Kadoorie, Michael and family, Hong Kong, 62, $3.3, diversified
+
+101. Latsis, Spiro and family, Greece, 56, $3.3, banking
+
+101. Merckle, Adolf, Germany, 68, $3.3, drugs
+
+104. Arison, Micky, Florida, 53, $3.2, cruise ships
+
+104. Bechtel, Riley, California, 50, $3.2, construction
+
+104. Bechtel, Stephen Jr., California, 77, $3.2, construction
+
+104. Cook, William, Indiana, 71, $3.2, medical devices
+
+104. Dassault, Serge and family, France, 78, $3.2, aviation
+
+104. Ecclestone, Bernard and family, Britain, 72, $3.2, Formula One
+
+104. Halley, Paul-Louis and family, France, 68, $3.2, retail
+
+104. Oppenheimer, Nicky and family, South Africa, 57, $3.2, De Beers
+
+112. Goodnight, James, North Carolina, 60, $3.1, SAS Institute
+
+113. Gerling, Rolf, Germany, 48, $3, insurance
+
+113. Jameel, Mohammed and family, Saudi Arabia, unknown, $3, auto sales
+
+113. Lucas, George, California, 58, $3, movies
+
+113. Sainsbury, David and family, Britain, 62, $3, supermarkets
+
+113. Taylor, Jack, Missouri, 80, $3, car rental
+
+118. Algosaibi, Abdulaziz Bin Hamad and family, Saudi Arabia, 69, $2.9, finance
+
+118. Bosch, Robert Jr. and family, Germany, 75, $2.9, manufacturing
+
+118. Burda, Hubert, Germany, 63, $2.9, publishing
+
+118. Hillman, Henry, Pennsylvania, 84, $2.9, investments
+
+118. Plattner, Hasso, Germany, 59, $2.9, SAP SAP, -2.19%
+
+123. Ambani, Mukesh and Anil, India, unknown, $2.8, diversified
+
+123. Bin Mahfouz, Khalid and family, Saudi Arabia, 56, $2.8, banking
+
+123. Crown, Lester and family, Illinois, 77, $2.8, investments
+
+123. Lee Kun-hee and family, South Korea, 61, $2.8, Samsung
+
+123. Pinault, Francois, France, 66, $2.8, retail
+
+123. Sabanci, Sakip and family, Turkey, 70, $2.8, diversified
+
+123. Skoll, Jeffrey, Canada, 38, $2.8, eBay
+
+123. Wang, Nina, Hong Kong, unknown, $2.8, real estate
+
+132. Bauer, Heinz, Germany, 63, $2.7, publishing
+
+132. Faria, Aloysio de Andrade, Brazil, 82, $2.7, banking
+
+132. Haefner, Walter, Switzerland, 92, $2.7, software
+
+132. Kinoshita, Kyosuke and family, Japan, 62, $2.7, credit
+
+132. Kroenke, Ann Walton, Missouri, 53, $2.7, Wal-Mart
+
+137. Abele, John, Massachusetts, 65, $2.6, medical devices
+
+137. Kaiser, George, Oklahoma, 60, $2.6, oil and gas
+
+137. Khoo Teck Puat, Singapore, 86, $2.6, banking
+
+137. Lauder, Leonard, New York, 69, $2.6, cosmetics
+
+137. LeFrak, Samuel and family, New York, 85, $2.6, real estate
+
+137. Mantegazza, Sergio, Switzerland, 75, $2.6, travel
+
+137. Moore, Gordon Earle, California, 74, $2.6, Intel INTC, -1.68%
+
+137. Schwab, Charles, California, 65, $2.6, Schwab SCH, +0.00%
+
+137. Wang, Patrick, Hong Kong, 52, $2.6, micromotors
+
+137. Wurth, Reinhold, Germany, 67, $2.6, manufacturing
+
+147. Bass, Robert, Texas, 55, $2.5, investments
+
+147. Bezos, Jeffrey, Washington, 39, $2.5, Amazon.com AMZN, -1.84%
+
+147. Huntsman, Jon, Utah, 65, $2.5, chemicals
+
+147. McCaw, Craig O., Washington, 53, $2.5, telecom
+
+147. Menard, John Jr., Wisconsin, 63, $2.5, retail
+
+147. Packer, Kerry, Australia, 65, $2.5, media
+
+147. Perelman, Ronald, New York, 60, $2.5, investments
+
+147. Rockefeller, David Sr., New York, 87, $2.5, inheritance
+
+147. Schmidheiny, Stephan, Switzerland, 55, $2.5, investments
+
+147. Tsutsumi, Yoshiaki, Japan, 68, $2.5, real estate
+
+147. Vekselberg, Viktor, Russia, 45, $2.5, oil
+
+158. Arison, Shari, Israel, 45, $2.4, cruise ships
+
+158. Birla, Kumar, India, 35, $2.4, commodities
+
+158. Ito, Masatoshi, Japan, 78, $2.4, retail
+
+158. Schorghuber, Stefan, Germany, 41, $2.4, real estate
+
+162. Bronfman, Edgar Sr., New York, 74, $2.3, liquor
+
+162. Calder, Clive, Britain, 56, $2.3, record label
+
+162. Dorrance, John III, Ireland, 59, $2.3, soup
+
+162. Funai, Tetsuro, Japan, 76, $2.3, VCRs
+
+162. Greenberg, Maurice, New York, 77, $2.3, AIG AIG, +0.59%
+
+162. Hunt, Ray, Texas, 60, $2.3, oil and gas
+
+162. Johnson, Barbara Piasecka, Monaco, 66, $2.3, inheritance
+
+162. Kamel, Saleh, Saudi Arabia, 61, $2.3, diversified
+
+162. Kristiansen, Kjeld Kirk, Denmark, 55, $2.3, Lego
+
+162. Laurie, Nancy Walton, Missouri, 51, $2.3, inheritance
+
+162. Mann, Hugo and family, Germany, 89, $2.3, retail
+
+162. Perenchio, A. Jerrold, California, 72, $2.3, television
+
+162. Rowling, Robert, Texas, 49, $2.3, oil and gas
+
+162. Schlecker, Anton, Germany, 58, $2.3, retail
+
+162. Tisch, Preston, New York, 76, $2.3, Loews LTR, -2.92%
+
+177. Bronfman, Charles, Canada, 71, $2.2, Vivendi V, -1.44%
+
+177. Buffett, Susan Thompson, California, 70, $2.2, marriage
+
+177. Decaux, Jean-Claude and family, France, 65, $2.2, advertising
+
+177. Fukuda, Yoshitaka and family, Japan, 55, $2.2, credit
+
+177. Lauder, Ronald, New York, 59, $2.2, cosmetics
+
+177. Maramotti, Achille, Italy, 76, $2.2, apparel
+
+177. Mittal, Lakshmi, India, 52, $2.2, steel
+
+177. Nicholas, Peter, Massachusetts, 62, $2.2, medical devices
+
+177. Pattison, Jim, Canada, 74, $2.2, diversified
+
+177. Sherman, Bernard, Canada, 61, $2.2, drugs
+
+177. Shin Kyuk-ho, South Korea, 80, $2.2, candy
+
+177. Simplot, John and family, Idaho, 94, $2.2, potatoes
+
+177. Sorenson, James, Utah, 81, $2.2, medical devices
+
+177. Spielberg, Steven, California, 56, $2.2, movies
+
+177. Stern, Leonard, New York, 64, $2.2, real estate
+
+192. Al Rajhi, Sulaiman Bin Abdul, Saudi Arabia, 83, $2.1, banking
+
+192. Cadogan, Gerald, Britain, 65, $2.1, real estate
+
+192. del Pino, Rafael and family, Spain, 82, $2.1, construction
+
+192. Getty, Gordon, California, 66, $2.1, inheritance
+
+192. Ingram, Martha and family, Tennessee, 67, $2.1, inheritance
+
+192. Louis-Dreyfus, Gerard and family, France, 70, $2.1, commodities
+
+192. Wexner, Leslie Herbert, Ohio, 65, $2.1, the Limited LTD, +1.64%
+
+199. Al Ghurair, Abdul Aziz, United Arab Emirates, 49, $2, banking
+
+199. Hostetter, Amos Jr., Massachusetts, 66, $2, cable TV
+
+199. Koc, Rahmi and family, Turkey, 72, $2, diversified
+
+199. McGovern, Patrick, Massachusetts, 65, $2, publishing
+
+199. Mistry, Pallonji , India, 73, $2, construction
+
+199. Moller, Maersk Mc-Kinney, Denmark, 89, $2, shipping
+
+199. Pohlad, Carl, Minnesota, 87, $2, banking
+
+199. Tisch, Laurence, New York, 80, $2, Loews
+
+199. Turner, Ted, Georgia, 64, $2, cable TV AOL, +1.23%
+
+199. Zambrano, Lorenzo and family, Mexico, 58, $2, cement
+
+209. Hall, Donald, Kansas, 74, $1.9, Hallmark
+
+209. Happel, Otto, Germany, 55, $1.9, engineering
+
+209. Helmsley, Leona, New York, 83, $1.9, inheritance
+
+209. Lauren, Ralph, New York, 64, $1.9, fashion
+
+209. Lim Goh Tong, Malaysia, 85, $1.9, gaming
+
+209. Rainwater, Richard, Texas, 58, $1.9, investments
+
+209. Schmidheiny, Thomas, Switzerland, 57, $1.9, cement
+
+209. Spangler, Clemmie Jr., North Carolina, 70, $1.9, investments
+
+209. Tan, Lucio, Philippines, 68, $1.9, tobacco
+
+209. Taylor, Glen, Minnesota, 61, $1.9, printing
+
+209. Trump, Donald, New York, 57, $1.9, real estate
+
+209. Tschira, Klaus, Germany, 62, $1.9, SAP
+
+209. Wang, Y.C., Taiwan, 86, $1.9, chemicals
+
+222. Abraham, S. Daniel, Florida, 79, $1.8, Slim-Fast
+
+222. Allen, Herbert Jr., New York, 63, $1.8, finance
+
+222. Busujima, Kunio and family, Japan, 63, $1.8, gaming
+
+222. Butt, Charles, Texas, 64, $1.8, supermarkets
+
+222. Davidson, William, Michigan, 80, $1.8, glass
+
+222. Garza Laguera, Eugenio and family, Mexico, 79, $1.8, beverages
+
+222. Jackson, Jess, California, 73, $1.8, wine
+
+222. Lowy, Frank and family, Australia, 72, $1.8, malls
+
+222. McCain, Wallace, Canada, 73, $1.8, food
+
+222. Potanin, Vladimir, Russia, 42, $1.8, metals
+
+222. Rich, Robert Sr., Florida, 89, $1.8, food
+
+222. Sahenk, Ferit and family, Turkey, 39, $1.8, banking
+
+222. Tsai Wan Tsai and family, Taiwan, unknown, $1.8, banking
+
+222. Zell, Samuel, Illinois, 61, $1.8, real estate EOP
+
+233. Herz, Gunter, Germany, 62, $1.7, coffee 
+
+236. Armani, Giorgio, Italy, 68, $1.7, fashion
+
+236. Bailleres, Alberto, Mexico, 70, $1.7, mining
+
+236. Branson, Richard, Britain, 52, $1.7, Virgin
+
+236. Cheng Yu-tung, Hong Kong, 77, $1.7, real estate
+
+236. Desmarais, Paul and family, Canada, 76, $1.7, finance
+
+236. DeVos, Richard, Michigan, 77, $1.7, Amway
+
+236. Gaylord, Edward, Oklahoma, 83, $1.7, media
+
+236. Huizenga, H. Wayne, Florida, 65, $1.7, entrepreneur
+
+236. Jobs, Steven, California, 48, $1.7, computers AAPL, +0.60%
+
+236. Kellogg, Peter R., New Jersey, 60, $1.7, finance
+
+236. Kwek Leng Beng and family, Singapore, 62, $1.7, hotels
+
+236. March, Juan and Carlos, Spain, unknown, $1.7, banking
+
+236. Mathile, Clayton Lee, Ohio, 62, $1.7, pet food
+
+236. Mera, Rosalia, Spain, 59, $1.7, apparel
+
+236. Morrison, Kenneth and family, Britain, 71, $1.7, supermarkets
+
+236. Ng Teng Fong and family, Singapore, 74, $1.7, real estate
+
+236. Saban, Haim, California, 58, $1.7, television
+
+236. Takizaki, Takemitsu, Japan, 57, $1.7, sensors
+
+236. Washington, Dennis, Montana, 68, $1.7, investments
+
+256. Fisher, Donald, California, 74, $1.6, Gap GPS, -1.59%
+
+256. Fisher, Doris, California, 72, $1.6, Gap
+
+256. Gores, Alec, California, 50, $1.6, leveraged buyouts
+
+256. Gou, Terry, Taiwan, unknown, $1.6, technology
+
+256. Hayek, Nicolas, Switzerland, 74, $1.6, Swatch
+
+256. Hernandez, Roberto, Mexico, 60, $1.6, banking
+
+256. Herz, Daniela, Germany, 49, $1.6, coffee
+
+256. Hughes, Bradley, California, 69, $1.6, storage
+
+256. Krishnan, Ananda, Malaysia, 64, $1.6, telecom
+
+256. Lee Seng Wee and family, Singapore, 78, $1.6, banking
+
+256. Liebherr, Willi and Isolde, Switzerland, unknown, $1.6, construction
+
+256. Luksic, Andronico and family, Chile, 76, $1.6, mining
+
+256. Marshall, E. Pierce, Texas, 64, $1.6, inheritance
+
+256. Ofer, Sammy and Yuli, Israel, unknown, $1.6, shipping
+
+256. Perez Companc, Gregorio and family, Argentina, 68, $1.6, oil and gas
+
+256. Prokhorov, Mikhail, Russia, 37, $1.6, metals
+
+256. Riegel, Hans, Germany, 80, $1.6, candy
+
+256. Riegel, Paul, Germany, 76, $1.6, candy
+
+256. Sarofim, Fayez, Texas, 74, $1.6, finance
+
+256. Schickedanz, Madeleine, Germany, 59, $1.6, retail
+
+256. Udvar-Hazy, Steven, California, 57, $1.6, leasing
+
+256. Viehof, Eugen and family, Germany, 86, $1.6, retail
+
+278. Agnelli, Umberto and family, Italy, 68, $1.5, Fiat
+
+278. Al Amoudi, Mohammad, Saudi Arabia, 57, $1.5, oil
+
+278. Burkle, Ronald, California, 50, $1.5, supermarkets
+
+278. Deripaska, Oleg, Russia, 34, $1.5, aluminum
+
+278. Druckenmiller, Stanley, New York, 49, $1.5, money management
+
+278. Dumas, Jean-Louis and family, France, 64, $1.5, Hermes
+
+278. Frist, Thomas Jr., Tennessee, 64, $1.5, health care HCA, +0.29%
+
+278. Gores, Tom, California, 38, $1.5, leveraged buyouts
+
+278. Harp Helu, Alfredo, Mexico, 59, $1.5, banking
+
+278. Herz, Michael, Germany, 57, $1.5, coffee
+
+278. Herz, Wolfgang, Germany, 52, $1.5, coffee
+
+278. Jinnai, Ryoichi and family, Japan, 76, $1.5, credit
+
+278. Johnson, Charles, California, 70, $1.5, finance
+
+278. Katz, Daryl , Canada, 41, $1.5, pharmacies
+
+278. Kohler, Herbert and family, Wisconsin, 64, $1.5, manufacturing
+
+278. Malone, John, Colorado, 62, $1.5, cable TV L, -0.27%
+
+278. McCain, Harrison, Canada, 75, $1.5, french fries
+
+278. Morita, Hideo and family, Japan, 51, $1.5, Sony SNE, -1.76%
+
+278. Quek Leng Chan and family, Malaysia, 62, $1.5, banking
+
+278. Rockefeller, Laurance Spelman, New York, 92, $1.5, inheritance
+
+278. Sall, John, North Carolina, 54, $1.5, SAS Institute
+
+278. Stephens, Jackson, Arkansas, 79, $1.5, banking
+
+278. Van Andel, Jay, Michigan, 78, $1.5, Amway
+
+278. von Thurn und Taxis, Albert, Germany, 19, $1.5, diversified
+
+278. Yevtushenkov, Vladimir, Russia, 54, $1.5, telecom
+
+303. Adelson, Sheldon, Nevada, 69, $1.4, hotels
+
+303. Angelini, Anacleto, Chile, 89, $1.4, energy
+
+303. Blocher, Christoph, Switzerland, 62, $1.4, plastics
+
+303. Champalimaud, Antonio, Portugal, 84, $1.4, finance
+
+303. Farmer, Richard, Ohio, 68, $1.4, Cintas
+
+303. Green, Philip, Britain, 51, $1.4, retail
+
+303. Halim, Rachman and family, Indonesia, 55, $1.4, tobacco
+
+303. Ho, Stanley, Hong Kong, 81, $1.4, gaming
+
+303. Koo Chen-fu and family, Taiwan, 86, $1.4, banking
+
+303. Kovner, Bruce, New York, 57, $1.4, hedge funds
+
+303. Krasny, Michael, Illinois, 49, $1.4, retail CDWC
+
+303. Kroenke, E. Stanley, Missouri, 55, $1.4, real estate
+
+303. Lee-Chin, Michael, Canada, 52, $1.4, mutual funds
+
+303. Mabuchi, Kenichi and family, Japan, 70, $1.4, micromotors
+
+303. Malone, Mary Alice Dorrance, Pennsylvania, 53, $1.4, inheritance
+
+303. Marcus, Bernard, Georgia, 73, $1.4, Home Depot HD, -0.97%
+
+303. Matte, Eliodoro and family, Chile, 57, $1.4, paper
+
+303. Melnyk, Eugene, Canada, 43, $1.4, drugs
+
+303. Mitchell, George Phydias, Texas, 83, $1.4, oil and gas
+
+303. Moran, James, Florida, 84, $1.4, auto sales
+
+303. Murdock, David, California, 79, $1.4, investments
+
+303. Prada, Miuccia and family, Italy, 53, $1.4, Prada
+
+303. Schulze, Richard, Minnesota, 62, $1.4, Best Buy BBY, +0.60%
+
+303. Swire, Adrian and family, Britain, 72, $1.4, diversified
+
+303. van Vlissingen, John A. Fentener, Netherlands, 64, $1.4, travel
+
+303. Yamauchi, Hiroshi, Japan, 75, $1.4, Nintendo
+
+329. Alekperov, Vagit, Russia, 52, $1.3, oil
+
+329. Booth, Franklin Jr., California, 80, $1.3, investments
+
+329. Bouygues, Martin and family, France, 51, $1.3, telecom
+
+329. Chearavanont, Dhanin and family, Thailand, 63, $1.3, agriculture
+
+329. Chen Din Hwa, Hong Kong, 80, $1.3, real estate
+
+329. Coutu, Jean, Canada, 75, $1.3, pharmacies
+
+329. Cuban, Mark, Texas, 44, $1.3, technology
+
+329. Duffield, David, Nevada, 62, $1.3, PeopleSoft PSFT, -42.86%
+
+329. Gonda, Louis , California, 54, $1.3, leasing
+
+329. Koplowitz, Alicia, Spain, 50, $1.3, investments
+
+329. Kravis, Henry, New York, 59, $1.3, leveraged buyouts
+
+329. McNair, Robert, Texas, 64, $1.3, energy
+
+329. Peralta, Carlos and family, Mexico, 51, $1.3, telecom
+
+329. Rales, Mitchell, District of Columbia, 46, $1.3, manufacturing
+
+329. Rales, Steven, District of Columbia, 50, $1.3, manufacturing
+
+329. Roberts, George, California, 58, $1.3, leveraged buyouts
+
+329. Stempel, Ernest E., Bermuda, 86, $1.3, AIG
+
+329. Uzan, Kemal and family, Turkey, 68, $1.3, telecom
+
+329. Wee Cho Yaw, Singapore, 74, $1.3, banking
+
+348. Aramburuzabala, Maria Asuncion and family, Mexico, 39, $1.2, beer
+
+348. Bass, Lee, Texas, 46, $1.2, investments
+
+348. Bozano, Julio, Brazil, 67, $1.2, banking
+
+348. Brachmann, Gerd, Germany, unknown, $1.2, services
+
+348. Doris, Ennio, Italy, 62, $1.2, insurance
+
+348. Dorrance, Bennett, Arizona, 56, $1.2, inheritance
+
+348. Egan, Richard, Massachusetts, 67, $1.2, EMC EMC, -0.93%
+
+348. Field, Frederick, California, 50, $1.2, media
+
+348. Flatley, Thomas, Massachusetts, 70, $1.2, real estate
+
+348. Foriel-Destezet, Philippe, France, 67, $1.2, temp agency
+
+348. Gage, Barbara Carlson and family, Minnesota, 61, $1.2, inheritance
+
+348. Golisano, Tom, New York, 61, $1.2, Paychex
+
+348. Herz, Joachim, Germany, 60, $1.2, coffee
+
+348. Jamail, Joseph Jr., Texas, 77, $1.2, lawsuits
+
+348. Johnson, Robert, District of Columbia, 56, $1.2, cable TV
+
+348. Johnson, Rupert Jr., California, 62, $1.2, finance
+
+348. Kinder, Richard, Texas, 58, $1.2, pipelines
+
+348. Kroc, Joan, California, 74, $1.2, inheritance MCD, -1.73%
+
+348. Lindemann, George and family, Florida, 66, $1.2, investments
+
+348. Mays, L. Lowry, Texas, 67, $1.2, radio
+
+348. Mordashov, Alexei, Russia, 37, $1.2, steel
+
+348. Munger, Charles , California, 78, $1.2, investments
+
+348. Naify, Robert, California, 81, $1.2, theaters
+
+348. Nelson, Marilyn Carlson and family, Minnesota, 64, $1.2, inheritance
+
+348. Rockefeller, Winthrop, Arkansas, 54, $1.2, inheritance
+
+348. Saputo, E. Lino and family, Canada, 66, $1.2, dairy
+
+348. Schroder, Bruno and family, Britain, 70, $1.2, banking
+
+348. Siebel, Thomas, California, 50, $1.2, software SEBL
+
+348. Sobrato, John, California, 63, $1.2, real estate
+
+348. Sperling, John, Arizona, 82, $1.2, Apollo Group
+
+348. Sperling, Peter, Arizona, 43, $1.2, Apollo Group
+
+348. Stryker, Jon, Michigan, 44, $1.2, inheritance
+
+348. Stryker, Ronda, Michigan, 48, $1.2, inheritance
+
+348. Sy, Henry and family, Philippines, 78, $1.2, malls
+
+348. Williams, Arthur Jr., Florida, 60, $1.2, insurance
+
+348. Ziff, Daniel, New York, 31, $1.2, inheritance
+
+348. Ziff, Dirk, New York, 38, $1.2, inheritance
+
+348. Ziff, Robert, New York, 35, $1.2, inheritance
+
+386. Arrillaga, John, California, 65, $1.1, real estate
+
+386. Batten, Frank Sr., Virginia, 76, $1.1, media
+
+386. Beisheim, Otto, Germany, 79, $1.1, retail
+
+386. Botin, Emilio and family, Spain, 68, $1.1, banking
+
+386. Brost, Anneliese, Germany, 82, $1.1, newspapers
+
+386. Deichmann, Heinz-Horst, Germany, 76, $1.1, shoe retail
+
+386. Godrej, Adi, India, 60, $1.1, diversified
+
+386. Goldsbury, Christopher, Texas, 60, $1.1, salsa
+
+386. Green, Pincus, Switzerland, 67, $1.1, commodities
+
+386. Hargreaves, John and family, Britain, 59, $1.1, retail
+
+386. Harmsworth, Jonathan, Britain, 35, $1.1, publishing
+
+386. Hector, Hans-Werner, Germany, 63, $1.1, SAP
+
+386. Hilti, Michael and family, Liechtenstein, 56, $1.1, power tools
+
+386. Holding, Robert, Utah, 76, $1.1, gas stations
+
+386. Jannard, James, Washington, 53, $1.1, Oakley
+
+386. Kellogg, William, Wisconsin, 59, $1.1, Kohl's KSS, -0.35%
+
+386. Koplowitz, Esther, Spain, 52, $1.1, construction
+
+386. Kuhne, Klaus-Michael, Germany, 65, $1.1, shipping
+
+386. Lewis, Joseph, Britain, 66, $1.1, finance
+
+386. Lewis, Peter, Ohio, 68, $1.1, insurance
+
+386. McCaw, John Jr., Washington, 52, $1.1, telecom
+
+386. McCombs, Billy Joe "Red", Texas, 75, $1.1, cars and radio
+
+386. Morgridge, John, California, 69, $1.1, Cisco CSCO, -1.40%
+
+386. Nevzlin, Leonid, Russia, 43, $1.1, oil
+
+386. Nicholas, Henry III, California, 43, $1.1, Broadcom BRCM, -0.90%
+
+386. Peery, Richard Taylor, California, 62, $1.1, real estate
+
+386. Pratt, Richard, Australia, 68, $1.1, packaging
+
+386. Rich, Marc, Switzerland, 68, $1.1, commodities
+
+386. Saba Raffoul, Isaac and family, Mexico, 79, $1.1, diversified
+
+386. Samueli, Henry, California, 48, $1.1, Broadcom
+
+386. Schvidler, Evgeny, Russia, 38, $1.1, oil
+
+386. Smith, Frederick, Tennessee, 58, $1.1, FedEx FDX, -0.84%
+
+386. Son, Masayoshi, Japan, 45, $1.1, Softbank
+
+386. Springer, Friede, Germany, 60, $1.1, publishing
+
+386. Stryker, Patricia, Colorado, 46, $1.1, inheritance
+
+386. van den Ende, Joop, Netherlands, 61, $1.1, TV
+
+386. Waitt, Theodore, California, 40, $1.1, Gateway GTW
+
+386. Weill, Sanford, New York, 70, $1.1, Citigroup C, -0.89%
+
+386. Yoovidhya, Chaleo, Thailand, unknown, $1.1, Red Bull
+
+386. Zachry, Henry Jr., Texas, 68, $1.1, construction
+
+386. Zuckerman, Mortimer, New York, 65, $1.1, real estate
+
+427. Al Rajhi, Saleh bin Abdul Aziz, Saudi Arabia, 91, $1, banking
+
+427. Bellon, Pierre and family, France, 73, $1, food services
+
+427. Berg, Carl, California, 65, $1, real estate
+
+427. Bogdanov, Vladimir, Russia, 51, $1, oil
+
+427. Brudno, Mikhail, Russia, 43, $1, oil
+
+427. Ciner, Turgay, Turkey, 47, $1, mining
+
+427. Clausen, Jorgen and family, Denmark, 54, $1, refrigeration
+
+427. Comer, Gary Campbell, Illinois, 75, $1, Lands' End
+
+427. Cook, Scott, California, 50, $1, Intuit INTU, -0.71%
+
+427. de Mol, John, Netherlands, 47, $1, TV
+
+427. Dubov, Vladimir, Russia, 45, $1, oil
+
+427. Emmerson, Archie Aldis, California, 73, $1, timber
+
+427. Fok, Henry, Hong Kong, 79, $1, gaming
+
+427. France, James C., Florida, 58, $1, auto racing
+
+427. France, William Jr., Florida, 70, $1, auto racing
+
+427. Frere, Albert, Belgium, 77, $1, investments
+
+427. Fujita, Den and family, Japan, 77, $1, McDonald's
+
+427. Gnutti, Emilio, Italy, 56, $1, finance
+
+427. Gonda, Leslie, California, 83, $1, leasing
+
+427. Hagen, Stein Erik, Norway, 46, $1, supermarkets
+
+427. Hearst, William III, California, 53, $1, inheritance
+
+427. Herb, Marvin, Illinois, 66, $1, bottling
+
+427. Kahn, Morris, Israel, 73, $1, Amdocs
+
+427. Kohlberg, Jerome Jr., New York, 77, $1, leveraged buyouts
+
+427. Lebedev, Platon, Russia, 46, $1, oil
+
+427. Li, Richard, Hong Kong, 36, $1, telecom
+
+427. Marcegaglia, Steno and family, Italy, 72, $1, steel
+
+427. Marriott, Richard, Maryland, 64, $1, hotels MAR, -1.44%
+
+427. Mateschitz, Dietrich, Austria, 58, $1, Red Bull
+
+427. Matthews, Terence, Britain, 59, $1, technology
+
+427. McCormack, Mark, Florida, 72, $1, sports
+
+427. McLane, Robert Jr., Texas, 66, $1, Wal-Mart
+
+427. Milliken, Roger, South Carolina, 87, $1, textiles
+
+427. Nadar, Shiv, India, 57, $1, technology
+
+427. Okada, Kazuo, Japan, 60, $1, gaming
+
+427. O'Reilly, Anthony, Ireland, 66, $1, publishing
+
+427. Primat, Didier, France, 58, $1, oil
+
+427. Rupert, Johann and family, South Africa, 52, $1, luxury goods
+
+427. Safra, Lily, Brazil, unknown, $1, inheritance
+
+427. Salinas Pliego, Ricardo and family, Mexico, 47, $1, retail
+
+427. Sarmiento, Luis Carlos, Colombia, 70, $1, banking
+
+427. Scaife, Richard Mellon, Pennsylvania, 70, $1, inheritance
+
+427. Scott, Walter Jr., Nebraska, 71, $1, telecom
+
+427. Shakhnovsky, Vasily, Russia, 45, $1, oil
+
+427. Simmons, Harold Clark, Texas, 71, $1, investments
+
+427. Simonyi, Charles, Washington, 55, $1, Microsoft
+
+427. Troutt, Kenny, Texas, 55, $1, telecom
+
+427. Ueltschi, Albert Lee, Texas, 85, $1, flight schools
+
+427. White, Dean, Indiana, 79, $1, billboards
+
+427. Winfrey, Oprah, Illinois, 49, $1, television
+
+427. Wyly, Samuel, Texas, 68, $1, investments 

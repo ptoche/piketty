@@ -40,7 +40,7 @@ lecnum      : "02"
 - Decompose total growth as 'population growth plus a remainder.'
 - The 'remainder' includes knowledge acquired through education, training, learning-by-doing, social interactions, technological innovations, improved organization, both disembodied (blueprints, patents, incentives) and embodied (better machines, more machines). 
 - The decomposition could be used for exact predictions if population growth and 'the rest' were independent. In some cases 'birth' and 'death' decisions are independent of the rest: the one-child policy implemented in China in 1980 was a political decision that went against the private choices of many; perhaps so are the deaths caused by wars or epidemics.
-- But the 2 components often interact: knowledge brought about improvements in hygiene and medicine, which raised population growth; a reduction in the number of children raises resources available for nutrition and education. 
+- The 2 components may interact: knowledge about hygiene and medicine raised population growth; a reduction in the number of children raises resources available for nutrition and education. 
 
 ---
 
@@ -93,6 +93,16 @@ lecnum      : "02"
 
 ---
 
+#### Global Population Trends Over the Transition
+
+<figure class = "centered">  
+<img src = "../../images/Lee_2003_Figure_1.png" alt = "Global Population Trends Over the Transition: Estimates, Guesstimates and Forecasts, 1700–2100">
+<figcaption class = 'figcaption'>Global Population Trends Over the Transition: Estimates, Guesstimates and Forecasts, 1700–2100. Source: Ronald Lee, "The Demographic Transition: Three Centuries of Fundamental Change", <i>Journal of Economic Perspectives</i>, Fall 2003.
+</figcaption> 
+</figure> 
+
+---
+
 ### The Demographic Transition
 
 - We are emerging from this period of demographic acceleration. 
@@ -131,7 +141,6 @@ lecnum      : "02"
 - In a growing economy, new skills and jobs appear with every generation. 
 
 ---
-
 
 ### Economic Growth & Purchasing Power
 
@@ -266,7 +275,7 @@ lecnum      : "02"
 
 - The 'conservative revolution' of Margaret Thatcher in the UK and Ronald Reagan in the US promised to 'roll back the welfare state.'
 - Government generosity was perceived as a cause of the relative decline of the United Kingdom and the United States. Economist Milton Friedman was perceived as a proponent of that view.
-- Milton Friedman: 'I am favor of cutting taxes under any circumstances and for any excuse, for any reason, whenever it's possible.'
+- Milton Friedman: 'I am in favor of cutting taxes under any circumstances and for any excuse, for any reason, whenever it's possible.'
 - Margaret Thatcher: 'There is no such thing as society'.
 - Conservatives see privatization, tax cuts, benefit cuts, as a reason for the growth revival of the 1990s. Others see it as a social disaster. 
 - But the consensus among economists is that policies have had little or no impact on American or European economic growth. 

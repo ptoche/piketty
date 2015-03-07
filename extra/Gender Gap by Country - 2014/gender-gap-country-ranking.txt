@@ -1,0 +1,145 @@
+# The 2014 Gender Gap Report
+# http://reports.weforum.org/global-gender-gap-report-2014/rankings/
+
+1	Iceland	0.8594
+2	Finland	0.8453
+3	Norway	0.8374
+4	Sweden	0.8165
+5	Denmark	0.8025
+6	Nicaragua	0.7894
+7	Rwanda*	0.7854
+8	Ireland	0.7850
+9	Philippines	0.7814
+10	Belgium	0.7809
+11	Switzerland	0.7798
+12	Germany	0.7780
+13	New Zealand	0.7772
+14	Netherlands	0.7730
+15	Latvia	0.7691
+16	France	0.7588
+17	Burundi	0.7565
+18	South Africa	0.7527
+19	Canada	0.7464
+20	United States	0.7463
+21	Ecuador	0.7455
+22	Bulgaria	0.7444
+23	Slovenia	0.7443
+24	Australia	0.7409
+25	Moldova	0.7405
+26	United Kingdom	0.7383
+27	Mozambique	0.7370
+28	Luxembourg	0.7333
+29	Spain	0.7325
+30	Cuba	0.7317
+31	Argentina	0.7317
+32	Belarus*	0.7300
+33	Barbados	0.7289
+34	Malawi	0.7281
+35	Bahamas	0.7269
+36	Austria	0.7266
+37	Kenya	0.7258
+38	Lesotho	0.7255
+39	Portugal	0.7243
+40	Namibia	0.7219
+41	Madagascar	0.7214
+42	Mongolia	0.7212
+43	Kazakhstan	0.7210
+44	Lithuania	0.7208
+45	Peru	0.7198
+46	Panama	0.7195
+47	Tanzania	0.7182
+48	Costa Rica	0.7165
+49	Trinidad and Tobago	0.7154
+50	Cape Verde	0.7133
+51	Botswana	0.7129
+52	Jamaica	0.7128
+53	Colombia	0.7122
+54	Serbia	0.7086
+55	Croatia	0.7075
+56	Ukraine	0.7056
+57	Poland	0.7051
+58	Bolivia	0.7049
+59	Singapore	0.7046
+60	Lao PDR	0.7044
+61	Thailand	0.7027
+62	Estonia	0.7017
+63	Zimbabwe*	0.7013
+64	Guyana	0.7010
+65	Israel	0.7005
+66	Chile	0.6975
+67	Kyrgyz Republic	0.6974
+68	Bangladesh	0.6973
+69	Italy	0.6973
+70	Macedonia, FYR	0.6943
+71	Brazil	0.6941
+72	Romania	0.6936
+73	Honduras	0.6935
+74	Montenegro*	0.6934
+75	Russian Federation	0.6927
+76	Vietnam	0.6915
+77	Senegal	0.6912
+78	Dominican Republic	0.6906
+79	Sri Lanka	0.6903
+80	Mexico	0.6900
+81	Paraguay	0.6890
+82	Uruguay	0.6871
+83	Albania	0.6869
+84	El Salvador	0.6863
+85	Georgia	0.6855
+86	Venezuela	0.6851
+87	China	0.6830
+88	Uganda	0.6821
+89	Guatemala	0.6821
+90	Slovak Republic	0.6806
+91	Greece	0.6784
+92	Swaziland*	0.6772
+93	Hungary	0.6759
+94	Azerbaijan	0.6753
+95	Cyprus	0.6741
+96	Czech Republic	0.6737
+97	Indonesia	0.6725
+98	Brunei Darussalam	0.6719
+99	Malta	0.6707
+100	Belize	0.6701
+101	Ghana	0.6661
+102	Tajikistan	0.6654
+103	Armenia	0.6622
+104	Japan	0.6584
+105	Maldives	0.6557
+106	Mauritius	0.6541
+107	Malaysia	0.6520
+108	Cambodia	0.6520
+109	Suriname	0.6504
+110	Burkina Faso	0.6500
+111	Liberia*	0.6461
+112	Nepal	0.6458
+113	Kuwait	0.6457
+114	India	0.6455
+115	United Arab Emirates	0.6436
+116	Qatar	0.6403
+117	Korea, Rep.	0.6403
+118	Nigeria	0.6391
+119	Zambia	0.6364
+120	Bhutan	0.6364
+121	Angola	0.6311
+122	Fiji	0.6286
+123	Tunisia*	0.6272
+124	Bahrain	0.6261
+125	Turkey	0.6183
+126	Algeria	0.6182
+127	Ethiopia	0.6144
+128	Oman	0.6091
+129	Egypt	0.6064
+130	Saudi Arabia	0.6059
+131	Mauritania	0.6029
+132	Guinea*	0.6005
+133	Morocco	0.5988
+134	Jordan	0.5968
+135	Lebanon	0.5923
+136	Côte d’Ivoire	0.5874
+137	Iran, Islamic Rep.	0.5811
+138	Mali	0.5779
+139	Syria	0.5775
+140	Chad	0.5764
+141	Pakistan	0.5522
+142	Yemen	0.5145

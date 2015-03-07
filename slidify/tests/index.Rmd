@@ -19,3 +19,5 @@ Quizzes and Short Questions will be listed here as they become available.
 
 <a href="Chapter 02/index.html">Chapter 2: General</a>
 
+<a href="Chapter 02/inflation.html">Chapter 2: Inflation</a>
+

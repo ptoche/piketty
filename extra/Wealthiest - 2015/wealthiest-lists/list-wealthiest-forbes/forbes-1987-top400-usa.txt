@@ -1,0 +1,803 @@
+# http://articles.latimes.com/1987-10-13/business/fi-13869_1_real-estate
+# Forbes magazine 1987 list of the 400 richest Americans 
+
+1, Walton, Sam Moore, $8,500, Bentonville, Ark., Wal-Mart Stores, 69, R
+
+2, Kluge, John Werner, 3,000, Charlottesville, Va., Metromedia, 73, M
+
+3, Perot, Henry Ross, 2,900, Dallas, electronic data management, 57, T
+
+4, Packard, David, 2,870, Los Altos Hills, Calif., Hewlett-Packard, 75, T
+
+5, Newhouse, Samuel Irving Jr., 2,350, New York, publishing, 59, M
+
+6, Newhouse, Donald Edward, 2,350, New York, publishing, 58, M
+
+7, Crown, Lester, 2,100, Chicago, Inheritance, industrialist, 62, MF
+
+8, Murdoch, Keith Rupert, 2,100, New York, publishing, 56, M
+
+9, Buffett, Warren Edward, 2,100, Omaha, Stock market, 57, F
+
+10, Wexner, Leslie Herbert, 2,100, Columbus, Ohio, the Limited Inc., 50, R
+
+11, Pritzker, Robert Alan, 1,900, Chicago, financier, 61, F
+
+12, Pritzker, Jay Arthur, 1,900, Chicago, financier, 65, F
+
+13, Bronfman, Edgar Miles, 1,800, New York, Seagram Co., 58, MF
+
+14, Chambers, Anne Cox, 1,800, Atlanta, inheritance (Cox Enterprises), 67, M
+
+15, Anthony, Barbara Cox, 1,800, Honolulu, inheritance (Cox Enterprises), 64, M
+
+16, Arison, Ted, 1,800, Miami Beach, cruise ships, banking, 63, S
+
+17, Taubman, Adolph Alfred, 1,500, Bloomfield Hills, Mich., real estate, art, 62, RE
+
+18, Hillman, Henry Lea, 1,500, Pittsburgh, industrialist, 68, F
+
+19, Davis, Marvin Harold, 1,450, Denver, oil, entertainment, real estate, 62, OG
+
+20, Hewlett, William Redington, 1,450, Portola Valley, Calif., Hewlett-Packard, 74, T
+
+21, Helmsley, Harry Brakmann, 1,400, New York, real estate, 78, RE
+
+22, Anschutz, Philip Frederick, 1,350, Denver, oil, investments, 47, OG
+
+23, Busch, August Anheuser Jr., 1,300, St. Louis, Anheuser-Busch, 88, MF
+
+24, Dorrance, John Thompson Jr., 1,300, Gladwyne, Pa., inheritance (Campbell Soup), 68, MF
+
+25, Petrie, Milton Jack, 1,300, New York, Petrie Stores, 85, R
+
+26, Kauffman, Ewing Marion, 1,300, Mission Hills, Kan., Marion Laboratories, 71, MF
+
+27, Hunt, Ray Lee, 1,300, Dallas, inheritance, oil, real estate, 44, OG
+
+28, DeBartolo, Edward John, 1,250, Youngstown, Ohio, shopping centers, 69, RE
+
+29, Gates, William Henry III, 1,250, Seattle, Microsoft, 31, T
+
+30, Bren, Donald Leroy, 1,250, Newport Beach, real estate, 55, RE
+
+31, LeFrak, Samuel Jayson, 1,200, New York, real estate, 69, RE
+
+32, Bass, Robert Muse, 1,200, Fort Worth, oil, investments, 39, F
+
+33, Gaylord, Edward Lewis, 1,150, Oklahoma City, broadcasting, publishing, 68, M
+
+34, Mars, Forrest Edward Sr., 1,150, Las Vegas, candy, 83, MF
+
+35, Mars, Forrest Edward Jr., 1,150, McLean, Va., candy, 56, MF
+
+36, Mars, John Franklyn, 1,150, Arlington, Va., candy, 53, MF
+
+37, Vogel, Jacqueline Mars, 1,150, Bedminster, N.J., candy, 48, MF
+
+38, Simmons, Harold Clark, 1,150, Dallas, investments, 56, F
+
+39, Goldman, Sol, 1,100, New York, real estate, 70, RE
+
+40, Hill, Margaret Hunt, 1,100, Dallas, inheritance (oil), 72, OG
+
+41, Bass, Sid Richardson, 1,100, Fort Worth, oil, investments, 44, F
+
+42, Bass, Lee Marshall, 1,100, Fort Worth, oil, investments, 31, F
+
+43, Tisch, Preston Robert, 1,000, New York, Loews Corp., 61, F
+
+44, Tisch, Laurence Allan, 1,000, New York, Loews Corp., 64, F
+
+45, Rockefeller, David, 1,000, New York, inheritance, banking, real estate, 72, F
+
+46, Stern, Leonard Norman, 1,000, New York, pet supplies, real estate, 49, MF
+
+47, Lindner, Carl Henry II, 1,000, Cincinnati, insurance, banking, 68, F
+
+48, Milliken, Roger, 1,000, Spartanburg, S.C., textiles, 71, MF
+
+49, Kroc, Joan Beverly, 1,000, La Jolla, inheritance (McDonalds), 59, R
+
+50, Ziff, William Bernard Jr., 975, Manalapan, Fla., publishing, 57, M
+
+51, Kerkorian, Kirk, 950, Los Angeles, investments, 70, F
+
+52, Rockefeller, Laurance Spelman, 900, New York, inheritance, investments, 77, F
+
+53, Ford, William Clay, 900, Grosse Pointe Shores, Mich., inheritance (Ford Motor Co.), 62, MF
+
+54, Ford, Josephine Clay, 475, Grosse Pointe Farms, Mich., inheritance (Ford Motor Co.), 64,MF
+
+55, Hunt, Caroline Rose, 900, Dallas, inheritance, oil, real estate, 64, OG
+
+56, Cooke, Jack Kent, 900, Middleburg, Va., real estate, investments, 74, RE
+
+57, Cook, Jane Bancroft, 900, Cohasset, Mass., inheritance (Dow Jones), 75, M
+
+58, Duke, Doris, 875, Somerville, N.J., inheritance, 74, MF
+
+59, Graham, Katharine, 850, Washington, D.C., Washington Post Co., 70, M
+
+60, Mellon, Paul, 850, Upperville, Va., inheritance, 80, F
+
+61, Koch, David Hamilton, 850, New York, inheritance, oil services, 47, OG
+
+62, Koch, Charles de Ganahl, 850, Wichita, Kan., inheritance, oil services, 51, OG
+
+63, Trump, Donald John, 850, New York, real estate, 41, RE
+
+64, Rollins, Orville Wayne, 815, Atlanta, entrepreneur, 75, M
+
+65, Hobby, Oveta Culp, 800, Houston, media, 82, M
+
+66, Murdock, David Howard, 800, Bel Air, real estate, investments, 64, F
+
+67, Weinberg, Harry, 800, Honolulu, real estate, securities, 79, RE
+
+68, Rich, Marc, 750, Zug, Switzerland, commodities trader, 53, F
+
+69, Green, Pincus, 750, Zug, Switzerland, commodities trader, 53, F
+
+70, Crow, Fred Trammell, 750, Dallas, real estate, 73, RE
+
+71, Rockefeller, Winthrop Paul, 750, Winrock Farm, Ark., inheritance, 39, OG
+
+72, Simon, Norton Winfred, 750, Los Angeles, industrialist, art, 80, F
+
+73, Magness, Bob John, 740, Englewood, Colo., cable TV, 63, M
+
+74, Wang, An, 725, Lincoln, Mass., Wang Laboratories, 67, T
+
+75, Bass, Edward Perry, 725, Fort Worth, Oil, investments, 42, F
+
+76, Fribourg, Michel, 700, New York, grain trader, 74, F
+
+77, Rudin, Lewis, 700, New York, real estate, 60, RE
+
+78, Rudin, Jack, 700, New York, real estate, 63, RE
+
+79, Reynolds, Donald Worthington, 700, Las Vegas, publishing, 81, M
+
+80, Steinberg, Saul Phillip, 660, New York, financier, 48, F
+
+81, Milliken, Minot King, 650, New York, textiles, 71, MF
+
+82, Milliken, Gerrish Hill, 650, Greenwich, Conn., textiles, 70, MF
+
+83, Harbert, John Murdoch III, 650, Birmingham, Ala., construction, 65, EC
+
+84, Annenberg, Walter Hubert, 650, Wynnewood, Pa., publishing, 79, M
+
+85, Pulliam, Eugene Smith, 650, Indianapolis, newspapers, 73, M
+
+86, Carlson, Curtis Leroy, 640, Minneapolis, entrepreneur, 73, R
+
+87, Allen, Paul Gardner, 640, Bellevue, Wash., Microsoft, 34, T
+
+88, Hess, Leon, 625, New York, Amerada Hess Corp., 73, OG
+
+89, Weis, Robert Freeman, 510, Sunbury, Pa., Weis Markets Inc., 68, R
+
+90, Weis, Sigfried, 620, Lewisburg, Pa., Weis Markets Inc., 71, R
+
+91, Singleton, Henry Earl, 615, Los Angeles, Teledyne, 70, T
+
+92, Milken, Michael Robert, 600, Encino, Financier, 41, F
+
+93, Johnson, Samuel Curtis, 600, Racine, Wis., Johnson Wax, 59, MF
+
+94, Dedman, Robert Henry, 600, Dallas, Country clubs, 61, RE
+
+95, Galvin, Robert William, 600, Barrington Hills, Ill., Motorola, 65, MF
+
+96, Caruth, William Walter Jr., 600, Dallas, real estate, 75, RE
+
+97, Bright, Harvey Roberts "Bum", 600, Dallas, oil, real estate, banks, 67, OG
+
+98, Johnson, Edward Crosby III, 600, Boston, investment management, 57, F
+
+99, Speer, Roy Merrill, 600, Clearwater, Fla., Home Shopping Network, 55, M
+
+100, Paxson, Lowell W., 385, Clearwater, Fla., Home Shopping Network, 52, M
+
+101, Allbritton, Joe Lewis, 575, Houston, media, banking, 62, M
+
+102, Fisher, Donald George, 575, San Francisco, the Gap, 59, MF
+
+103, Disney, Roy Edward, 550, Los Angeles, Walt Disney Productions, 57, M
+
+104, Pohlad, Carl Ray, 550, Minneapolis, MEI Corp, banks, 72, F
+
+105, Dolan, Charles Francis, 550, Oyster Bay, N.Y., cable television, 61, M
+
+106, Copley, Helen Kinney, 550, La Jolla, publishing, 64, M
+
+107, Scaife, Richard Mellon, 550, Shadyside, Pa., inheritance, publishing, 55, F
+
+108, Hall, Donald Joyce, 550, Mission Hills, Kan., Hallmark Cards, 59, MF
+
+109, Marshall, Barbara Hall, 275, Kansas City, Mo., inheritance (Hallmark Cards), 64, MF
+
+110, Reid, Elizabeth Ann, 275, Denton, Tex., inheritance (Hallmark Cards), 66, MF
+
+111, Koch, William Ingraham, 550, Boston, inheritance (oil services), 47, OG
+
+112, Koch, Frederick Robinson, 375, New York, inheritance (oil services), 53, OG
+
+113, Dyson, Charles Henry, 550, New York, conglomerator, 78, F
+
+114, Park, Roy Hampton, 550, Ithaca, N.Y., Park Communications, 77, M
+
+115, Moore, Jerry J., 550, Houston, Shopping centers, 59, RE
+
+116, Redstone, Sumner Murray, 535, Newton Centre, Mass., movie theaters, investments, 64, M
+
+117, Manoogian, Richard Alexander, 530, Grosse Pointe Farms, Mich., Masco, 51, MF
+
+118, Manoogian, Alex, 250, Grosse Pointe Farms, Mich., Masco, 86, MF
+
+119, Thorne, Oakleigh Blakeman, 530, Millbrook, N.Y., Commerce Clearing House, 55, M
+
+120, Icahn, Carl Celian, 525, Westchester County, N.Y., financier, 51, F
+
+121, Stephens, Wilton Robert, 500, Little Rock, Ark., investment banking, oil, gas, 79, F
+
+122, Stephens, Jackson Thomas, 500, Little Rock, Ark., investment banking, oil, gas, 65, F
+
+123, Hearst, William Randolph Jr., 500, New York, inheritance, media, 79, M
+
+124, Hearst, Randolph Apperson, 500, Hillsborough, Calif., inheritance, media, 71, M
+
+125, Hearst, Hope Chandler, 500, Beverly Hills, inheritance, media, 66, M
+
+126, Hearst, George Randolph Jr., 250, Los Angeles, inheritance, media, 60, M
+
+127, Cooke, Phoebe Hearst, 250, Woodside, Calif., inheritance, media, 60, M
+
+128, Collier, Miles Carnes, 500, Naples, Fla., inheritance, investments, 40, RE
+
+129, Ludwig, Daniel Keith, 500, New York, shipping, real estate, 90, S
+
+130, Paulucci, Luigino Francesco, 500, Duluth, Minn., food processing, real estate, 69, R
+
+131, Lupton, John Thomas, 500, Chattanooga, Tenn., Coca-Cola bottler, 61, MF
+
+132, Davenport, Elizabeth Lupton, 300, Lookout Mountain, Tenn., Coca-Cola bottler, 54, MF
+
+133, Simon, Melvin, 500, Indianapolis, shopping centers, 60, RE
+
+134, Simon, Herbert, 250, Indianapolis, shopping centers, 52, RE
+
+135, Blaustein, Morton K., 500, Baltimore, inheritance (oil), 60, OG
+
+136, Rosenberg, Ruth Blaustein, 250, Baltimore, inheritance (oil), 88, OG
+
+137, Thalheimer, Louis, 250, Baltimore, inheritance (oil), 43, OG
+
+138, Perdue, Franklin Parsons, 500, Salisbury, Md., chickens, 67, AG
+
+139, Smith, Richard Alan, 500, Chestnut Hill, Mass., General Cinema Corp., 63, M
+
+140, Ward, Louis Larrick, 500, Kansas City, Mo., Russell Stover Candies Inc., 67, MF
+
+141, Moody, Robert Lee, 500, Galveston, Tex., American National Insurance, 52, F
+
+142, Spanos, Alexander Gus, 500, Stockton, real estate, 64.
+
+143, Naify, Robert Allen, 500, San Francisco, movie theatres, cable TV, 65, M
+
+144, Naify, Marshall, 500, San Francisco, movie theatres, cable TV, 67, M
+
+145, Haas, Fritz Otto, 500, Ambler, Pa., Rohm & Haas, 71, MF
+
+146, Haas, John Charles, 500, Villanova, Pa., Rohm & Haas, 68, MF
+
+147, Forbes, Malcolm Stevenson, wealth not listed, Far Hills, N.J., publishing, real estate, art, 68, M
+
+148, Belfer, Arthur Bejer, 490, New York, oil, real estate, 80, OG
+
+149, Olsen, Kenneth Harry, 490, Lincoln, Mass., Digital Equipment Corp., 61, T
+
+150, Kelly, William Russell, 490, Troy, Mich., Kelly Services, 82, S
+
+151, Sorenson, James LeVoy, 480, Salt Lake City, medical devices, 66, T
+
+152, Skaggs, Leonard Samuel Jr., 480, Salt Lake City, American Stores, 64, R
+
+153, Mitchell, George Phydias, 470, Houston, oil, real estate, 68, OG
+
+154, Markkula, Armas Clifford Jr., 470, Woodside, Calif., Apple Computer, 45, T
+
+155, Moore, Gordon Earle, 465, Santa Clara County, Calif., Intel Corp, 58, T
+
+156, Turner, Robert Edward (Ted) III, 465, Roswell, Ga., Turner Broadcasting System, 48, M
+
+157, Paley, William S., 450, New York, CBS Inc., 86, M
+
+158, Kalikow, Peter Stephen, 450, New York, real estate, 44, RE
+
+159, Tauber, Laszlo Nandor, 450, Potomac, Md., real estate, 72, RE
+
+160, Dixon, Fitz Eugene Jr., 450, Lafayette Hill, Pa., inheritance, 64, F
+
+161, Solow, Sheldon Henry, 450, New York, real estate, 51, RE
+
+162, Rich, Robert Sr., 450, Point Abino, Ontario, food products, 74, MF
+
+163, Edson, John Orin, 450, Seattle, manufacturing, 54, MF
+
+164, Cox, William Coburn Jr., 450, London, England, inheritance (Dow Jones), 56, M
+
+165, MacElree, Jane Cox, 450, Newtown Square, Pa., inheritance (Dow Jones), 58, M
+
+166, Johnson, Barbara Piasecka, 450, Princeton, N.J., inheritance, 50, MF
+
+167, Sulzberger, Iphigene Ochs, 440, New York, New York Times, 95, M
+
+168, Sulzberger, Arthur Ochs, 440, New York, New York Times, 61, M
+
+169, Fireman, Paul, 435, Newton, Mass., Reebok, 43, MF
+
+170, Lauder, Ronald Steven, 433, New York, cosmetics, 43, MF
+
+171, Lauder, Leonard Alan, 433, New York, cosmetics, 54, MF
+
+172, Lauder, Estee, 433, New York, cosmetics, 79, MF
+
+173, Field, Marshall V, 425, Lake Forest, Ill., inheritance, real estate, media, 46, R
+
+174, Field, Frederick Woodruff, 400, Beverly Hills, inheritance (media), 35, R
+
+175, Gallo, Julio, 425, Modesto, wine, 77, MF
+
+176, Gallo, Ernest, 425, Modesto, wine, 78, MF
+
+177, Hubbard, Stanley Stub, 425, St. Mary's Point, Minn., broadcasting, 54, M
+
+178, Berrie, Russell, 420, Englewood, N.J., teddy bears, 54, MF
+
+179, Louis, John Jeffry Jr., 410, Winnetka, Ill., inheritance (Johnson Wax), 62, MF
+
+180, Gruss, Joseph S., 400, New York, oil, investments, 84, F
+
+181, May, Cordelia Scaife, 400, Ligonier, Pa., inheritance, 59, F
+
+182, Bluhm, Neil Gary, 400, Winnetka, Ill., real estate, 49, RE
+
+183, Malkin, Judd David, 400, Winnetka, Ill., real estate, 49, RE
+
+184, Jacobs, Jeremy Maurice, 400, East Aurora, N.Y., sports concessions, 48, R
+
+185, Perenchio, Andrew Jerrold, 400, Bel Air, television, 56, M
+
+186, Pennington, Claude B., 400, Baton Rouge, La., oil, gas, 86, OG
+
+187, Simon, William Edward, 400, New Vernon, N.J., leveraged buyouts, 59, F
+
+188, Fisher, Zachary, 400, New York, real estate, 77, RE
+
+189, Fisher, Lawrence, 400, New York, real estate, 78, RE
+
+190, Dittmer, Thomas Henry, 400, Lake Forest, Ill., commodities, 45, F
+
+191, Kaskel, Howard, 400, New York, real estate, 50, RE
+
+192, Rinker, Marshall Edison (Doc), 400, Palm Beach, Fla., cement, 82, MF
+
+193, Tyson, Donald John, 400, Springdale, Ark., Tyson Foods, 57, AG
+
+194, Tyson, Barbara, 325, Fayetteville, Ark., Tyson Foods, 38, AG
+
+195, Batten, Frank, 400, Virginia Beach, Va., publishing, broadcasting, 60, M
+
+196, Howard, Robert Staples, 400, Rancho Santa Fe, Calif., publishing, 62, M
+
+197, Cohn, Seymour, 400, New York, real estate, 76, RE
+
+198, Resnick, Burt Paul, 400, Rye, N.Y., real estate, 50, RE
+
+199, Davis, Shelby Cullom, 400, Tarrytown, N.Y., investment banking, 78, F
+
+200, Walton, James Lawrence, 400, Bentonville, Ark., Wal-Mart Stores, 65, R
+
+201, Bechtel, Stephen Davison Sr., 400, Oakland, engineering, construction, 87, E-C
+
+202, Bechtel, Stephen Davison Jr., 400, San Francisco, engineering, contruction, 62, E-C
+
+203, Bernhard, Arnold, 390, Westport, Conn., Value Line Inc., 85, M
+
+204, Brown, Harold, 385, Boston, real estate, 62, RE
+
+205, Heinz, Henry John III, 380, Fox Chapel, Pa., H. J. Heinz Co., 48, MF
+
+206, Goodson, Mark, 375, New York, game shows, 72, M
+
+207, Tramiel, Jack, 375, Zephyr Cove, Nev., Atari, 59, T
+
+208, Silverstein, Larry Abraham, 375, New York, real estate, 56, RE
+
+209, Meyer, August Christopher, 375, Champaign, Ill., broadcasting, 86, M
+
+210, Wagner, Cyril Jr., 375, Midland, Tex., Oil, investments, 53, OG
+
+211, Brown, Jack E., 375, Midland, Tex., oil, investments, 62, OG
+
+212, Engelhard, Jane B., 365, Far Hills, N.J., inheritance, 69, MF
+
+213, Albertson, Joseph Albert, 365, Boise, Ida., Albertson's Inc., 81, R
+
+214, Berry, John William Sr., 365, Dayton, Ohio, Yellow Pages, 65, M
+
+215, Wexner, Bella, 365, Columbus, the Limited Inc., 73, R
+
+216, Marriott, Richard Edwin, 350, Washington, D.C., inheritance (Marriott), 48, S
+
+217, Marriott, John Willard Jr., 350, Washington, D.C., inheritance (Marriott), 55, S
+
+218, Marriott, Alice Sheets, 350, Washington, D.C., inheritance (Marriott), 80, S
+
+219, Duchossois, Richard Louis, 350, Barrington, Ill., manufacturing, media, 66, MF
+
+220, Shorenstein, Walter Herbert, 350, San Francisco, real estate, 72, RE
+
+221, Getty, Gordon Peter, 350, San Francisco, inheritance (oil), 53, OG
+
+222, Lauren, Ralph, 350, New York, Apparel, 48, MF
+
+223, Wien, Lawrence Arthur, 350, New York, real estate, law, 82, RE
+
+224, Whitney, Betsey Cushing Roosevelt, 350, Manhasset, N.Y., inheritance, 79, F
+
+225, Huffington, Roy Michael, 350, Houston, oil, 69, OG
+
+226, Connell, Grover, 350, Westfield, N.J., Food, real estate, 69, AG
+
+227, Morris, William Shivers III, 350, Augusta, Ga., newspapers, 53, M
+
+228, Galbreath, Daniel Mauck, 350, Columbus, Ohio, real estate, 59, RE
+
+229, Stahl, Stanley Irving, 350, New York, real estate, 63, RE
+
+230, Parker, Jack, 350, New York, real estate, 72, RE
+
+231, Frankino, Samuel Joseph, 350, Palm Beach, Fla., Agency Rent-A-Car, 63, S
+
+232, Lurie, Robert Alfred, 350, San Francisco, inheritance, real estate, 58, RE
+
+233, Comer, Gary Campbell, 350, Chicago, Lands' End, 59, RE
+
+234, Guccione, Robert Charles, 350, New York, publishing, 55, M
+
+235, Zuckerman, Mortimer Benjamin, 350, New York, real estate, publishing, 50, RE
+
+236, Snyder, Richard Wesley, 350, Dallas, General Cinema, 49, M
+
+237, Kohlberg, Jerome Jr., 345, Mt. Kisco, N.Y., leveraged buyouts, 62, F
+
+238, Kravis, Henry R., 345, New York, leveraged buyouts, 43, F
+
+239, Roberts, George R., 345, San Francisco, leveraged buyouts, 44, F
+
+240, Evans, Thomas Mellon, 340, New York, investments, 77, F
+
+241, Jacobs, Richard E., 345, Lakewood, Ohio, shopping centers, 62, RE
+
+242, Jacobs, David H., 345, Bay Village, Ohio, shopping centers, 66, RE
+
+243, Wrigley, William, 345, Lake Geneva, Wis., Wrigley's, 54, MF
+
+244, Knight, Philip Hampson, 345, Hillsboro, Ore., Nike Inc., 49, MF
+
+245, Fickling, William Arthur Jr., 340, Macon, Ga., Charter Medical Corp., 55, S
+
+246, Cargill, James R., 330, Minneapolis, Inheritance (Cargill Inc.), 64, AG
+
+247, Cargill, Margaret, 330, La Jolla, inheritance (Cargill Inc.), 67, AG
+
+248, Knight, James Landon, 335, Bal Harbour, Fla., Knight-Ridder Newspapers, 78, M
+
+249, Krehbiel, John Hammond Sr., 335, Downers Grove, Ill., Molex Inc., 81, MF
+
+250, Zell, Samuel, 330, Chicago, real estate, investments, 45, RE
+
+251, Lurie, Robert Harris, 330, Chicago, investments, real estate, 45, RE
+
+252, Nichols, Miller, 325, Prairie Village, Kan., real estate, 76, RE
+
+253, Price, Sol, 325, La Jolla, Price Co., 71, R
+
+254, Binger, Virginia McKnight, 325, Wayzata, Minn., inheritance (3M), 71, MF
+
+255, Borg, Malcolm Austin, 325, Englewood, N.J., publishing, broadcasting, 49, M
+
+256, Petersen, Robert Einar, 325, Beverly Hills, Publishing, 60, M
+
+257, Bennett, William Gordon, 325, Las Vegas, Nev., Circus Circus Enterprises, 62, S
+
+258, Pennington, William Norman, 325, Reno, Nev., Circus Circus Enterprises, 63, S
+
+259, Wasserman, Lewis Robert, 325, Beverly Hills, MCA Inc., 74, M
+
+260, Taper, Sydney Mark, 320, Beverly Hills, First Charter Financial Corp., 85, F
+
+261, McGovern, Patrick Joseph, 320, Nashua, N.H., publishing, 50, M
+
+262, Fleischer, Ernest Melvin, 320, Kansas City, Mo., Franklin Savings Assn., 54, F
+
+263, Nielsen, Arthur Charles Jr., 315, Winnetka, Ill., A. C. Nielsen Co., 68, M
+
+264, Alexander, Norman E., 315, Scarsdale, N.Y., Sun Chemical, 73, MF
+
+265, McCaw, Keith W., 315, Seattle, McCaw Communications, 34, M
+
+266, McCaw, John Elroy Jr., 315, Seattle, McCaw Communications, 36, M
+
+267, McCaw, Craig O., 315, Seattle, McCaw Communications, 38, M
+
+268, McCaw, Bruce R., 315, Seattle, McCaw Communications, 41, M
+
+269, Gottwald, Floyd Dewey Jr., 310, Richmond, Va., Ethyl Corp., 65, MF
+
+270, Gottwald, Bruce Cobb, 310, Richmond, Va., Ethyl Corp., 54, MF
+
+271, Alkek, Albert B., 310, Victoria, Tex., oil, 76, OG
+
+272, Clapp, Norton, 300, Seattle, inheritance (Weyerhaeuser), real estate, 81, RE
+
+273, Allen, Herbert Anthony, 300, New York, stock market, real estate, 46, F
+
+274, Allen, Herbert, 300, New York, stock market, real estate, 79, F
+
+275, Allen, Charles Jr., 300, New York, stock market, real estate, 84, F
+
+276, Sarofim, Fayez Shalaby, 300, Houston, money mangement, 58, F
+
+277, Koll, Donald Michael, 300, Newport Beach, Real estate, 54, RE
+
+278, Durst, Seymour B., 300, New York, real estate, 74, RE
+
+279, Durst, Royal H., 300, Westchester County, N.Y., real estate, 68, RE
+
+280, Durst, David M., 300, Chappaqua, N.Y., real estate, 62, RE
+
+281, du Pont, Alexis Felix Jr., 300, Wilmington, Del., inheritance (Du Pont Co.), 81, MF
+
+282, Mills, Alice Francis du Pont, 300, Middleburg, Va., inheritance (Du Pont Co.), 74, MF
+
+283, du Pont, Helena Allaire Crozer, 300, Chesapeake City, Md., Inheritance (Du Pont Co.), 74, MF
+
+284, Griffin, Mervyn Edward, 300, Beverly Hills, television, 62, M
+
+285, Milstein, Seymour, 300, New York, real estate, 67, RE
+
+286, Milstein, Paul, 300, New York, real estate, 65, RE
+
+287, Mendik, Bernard H., 300, New York, real estate, 58, RE
+
+288, Moncrief, William Alvin Jr., 300, Fort Worth, oil, 67, OG
+
+289, von Platen, Ruth Chandler, 300, San Marino, Times Mirror Co, 89, M
+
+290, Monaghan, Thomas Stephen, 300, Ann Arbor, Mich., pizza, 50, R
+
+291, Hoiles, Harry Howard, 300, Santa Ana, newspapers, 71, M
+
+292, Hardie, Mary Jane Hoiles, 300, Marysville, Calif., newspapers, 65, M
+
+293, Perelman, Ronald Owen, 300, New York, leveraged buyouts, 44, F
+
+294, Crain, Gertrude Ramsay, 300, Lake Forest, Ill., publishing, 76, M
+
+295, Chase, David Theodore, 300, West Hartford, Conn., real estate, media, 59, RE
+
+296, du Pont, Pierre Samuel III, 300, Rockland, Del., inheritance (Du Pont Co.), 76, MF
+
+297, Pearson, Edith du Pont, 300, Montchanin, Del., inheritance (Du Pont Co.), 74, MF
+
+298, du Pont, Willis Harrington, 300, Palm Beach, Fla., inheritance (Du Pont Co.), 51, MF
+
+299, Greenberg, Maurice Raymond, 300, New York, American International Group, 62, F
+
+300, Pogue, Alfred Mack, 300, Dallas, real estate, 53, RE
+
+301, Keck, Howard Brighton, 300, Los Angeles, Superior Oil Co., 74, OG
+
+302, Spiegel, Abraham, 300, Beverly Hills, Columbia Savings & Loan, 81, F
+
+303, Evans, James Emmett, 300, Dade City, Fla., citrus grower, 87, AG
+
+304, Ueltschi, Albert Lee, 300, Greenwich, Conn., Flight Safety International, 70, S
+
+305, Smith, Marian Uldine Day, 300, Atlanta, inheritance (Days Inns), 53, RE
+
+306, Marx, Leonard Maximilian, 300, Scarsdale, N.Y., real estate, 83, RE
+
+307, Soros, George, 290, New York, money manager, 56, F
+
+308, Cox, John Lee, 300, Midland, Tex., Oil, 62, OG
+
+309, Anderson, Robertson Orville, 295, Roswell, N.M., oil, land, 70, OG
+
+310, Pontikes, Kenneth Nicholas, 295, Barrington, Ill., computer equipment, 47, T
+
+311, Smith, Frederick Wallace, 295, Memphis, Tenn., Federal Express Corp., 43, S
+
+312, Mugar, David Graves, 285, Boston, inheritance (broadcasting), 48, M
+
+313, Ansin, Edmund Newton, 280, North Miami, Fla., broadcasting, 51, M
+
+314, Gates, Charles Cassius, 280, Denver, Gates Corp., 66, MF
+
+315, Sharp, Peter Jay, 275, New York, real estate, 57, RE
+
+316, Robinson, Jesse Mack, 275, Atlanta, Ga., banking, 64, F
+
+317, O'Neill, Richard Jerome, 275, San Juan Capistrano, Calif., inheritance (real estate), 64, RE
+
+318, Avery, Alice O'Neill, 275, West Los Angeles, inheritance (real estate), 70, RE
+
+319, Smart, Richard Palmer Kaleioku, 275, Honolulu, inheritance, ranching, 74, RE
+
+320, Davidson, William Morse, 270, Bloomfield Hills, Mich., Guardian Industries Corp., 65, MF
+
+321, Cotsen, Lloyd Edward, 265, Los Angeles, Neutrogena Corp., 58, MF
+
+322, Hamilton, Dorrance Hill, 290, Strafford, Pa., Campbell Soup Co., 59.
+
+323, van Beuren, Hope Hill, 285, Middletown, R.I., Campbell Soup Co., 53.
+
+324, Colket, Tristram C. Jr., 240, Paoli, Pa., Campbell Soup Co., 49.
+
+325, Weber, Charlotte Colket, 240, Ocala, Fla., Campbell Soup Co., 44.
+
+326, Carpenter, Robert Ruliph Jr., 260, Montchanin, Del., inheritance (Du Pont Co.), 72, MF.
+
+327, Draper, Irene Carpenter, 260, Montchanin, Del., inheritance (Du Pont Co.), 76, MF
+
+328, Ottaway, James Haller Sr., 255, Campbell Hall, N.Y., newspapers, 76, M
+
+329, Glazer, Guilford, 250, Beverly Hills, real estate, 66, RE
+
+330, Arrillaga, John, 250, Palo Alto, real estate, 49, RE
+
+331, Peery, Richard Taylor, 250, Palo Alto, Real estate, 48, RE
+
+332, Morgan, Frank Sherman, 250, Kansas City, Mo., real estate, banks, 60, F
+
+333 Dreiseszun, Sherman W., 250, Kansas City, Mo., shopping centers, banks, 63, F
+
+334, Fisher, Max Martin, 250, Detroit, oil, 79, OG
+
+335, Culverhouse, Hugh Franklin, 250, Tampa, Fla., real estate, banking, 68, RE
+
+336, Smith, Vivian Leatherberry, 250, Houston, inheritance (oil, real estate), 79, RE
+
+337, Jacobs, Irwin Lawrence, 250, Minneapolis, arbitrage, investments, 46, F
+
+338, Lawrence, M. Larry, 250, San Diego, real estate, 61, RE
+
+339, Milstein, Monroe Gary, 250, Burlington, N.J., Burlington Coat Factory, 60, MF
+
+340, Kalmanovitz, Lydia, 250, Tiburon, Calif., beer, real estate, 83, MF
+
+341, Searle, William Louis, 250, Lake Forest, Ill., inheritance (G. D. Searle), 59, MF
+
+342, Searle, Daniel Crow, 250, Winnetka, Ill., inheritance (G. D. Searle), 61, MF
+
+343, Dixon, Suzanne Searle, 250, Lake Forest, Ill., inheritance (G. D. Searle), 56, MF
+
+344, Berry, Jack Monteith Sr., 250, Winter Haven, Fla., citrus grower, 70, AG
+
+345, Griffin, Ben Hill Jr., 250, Avon Park, Fla., citrus Grower, 76, AG
+
+346, Ellis, Alpheus Lee, 250, Tarpon Springs, Fla., banking, real estate, 81, F
+
+347, Bainum, Stewart Sr., 250, Silver Spring, Md., manor care, real estate, 68, S
+
+348, Galesi, Francesco, 250, New York, real estate, 56, RE
+
+349, Davidowitz, Joseph Morton, 250, Lawrence, N.Y., stock Market, 58, F
+
+350, Pamplin, Robert Boisseau, 250, Portland, Ore., textiles, 75, MF
+
+351, Terra, Daniel James, 245, Chicago, Lawter International, 76, MF
+
+352, Littlefield, Edmund Wattis, 245, Burlingame, Calif., Utah International, 73, MF
+
+353, Ellison, Lawrence J., 245, Belmont, Calif., Oracle Corp., 43, T
+
+354, du Pont, Irenee Jr., 240, Montchanin, Del., inheritance (Du Pont Co.), 67, MF
+
+355, May, Irene Sophie du Pont, 240, Wilmington, Del., inheritance (Du Pont Co.), 86, MF
+
+356, Greenewalt, Margaretta Lammot du Pont, 240, Greenville, Del., inheritance (Du Pont Co.), 85, MF
+
+357, Darden, Constance Simons du Pont, 240, Norfolk, Va., inheritance (Du Pont Co.), 83, MF
+
+358, Rust, Eleanor Francis du Pont, 240, Thomasville, Ga., inheritance (Du Pont Co.), 80, MF
+
+359, Silliman, Mariana du Pont, 240, Montchanin, Del., inheritance (Du Pont Co.), 76, MF
+
+360, Bredin, Octavia Mary du Pont, 240, Greenville, Del., inheritance (Du Pont Co.), 74, MF
+
+361, Flint, Lucile Evelina du Pont, 240, Greenville, Del., inheritance (Du Pont Co.), 72, MF
+
+362, Mandel, Morton Leon, 240, Shaker Heights, Ohio, Premier Industrial Corp, 66, MF
+
+363, Mandel, Joseph C., 240, Shaker Heights, Ohio, Premier Industrial Corp, 73, MF
+
+364, Mandel, Jack N., 240, Shaker Heights, Ohio, Premier Industrial Corp, 75, MF
+
+365, Hunt, Johnnie Bryan, 240, Springdale, Ark., trucking, 60, S
+
+366, Green, Dorothy, 240, Beverly Hills, inheritance (oil), 71, RE
+
+367, Paulson, Allen Eugene, 240, Savannah, Ga., Gulfstream Aerospace Corp., 65.
+
+368, Syms, Sy, 240, Lyndhurst, N.J., Syms Corp., 61, R
+
+369, LeBow, Bennett Stephen, 235, Essex, N.J., financier, 49, F
+
+370, Andreas, Dwayne Orville, 230, Bal Harbour, Fla., soybeans, 69, AG
+
+371, Root, Chapman Shaw, 230, Ormond Beach, Fla., Coca-Cola bottler, broadcasting, 62, MF
+
+372, Ryan, Patrick George, 230, Chicago, insurance, 50, F
+
+373, Furst, Austin Owen Jr., 230, New Canaan, Conn., Vestron, 44, T
+
+374, Rainwater, Richard Edward, 225, Fort Worth, investments, 43, F
+
+375, Lusk, John David, 225, Newport Beach, real estate, 79, RE
+
+376, Mellon, Timothy, 225, Manchester, N.H., inheritance, 45, F
+
+377, Conover, Catherine Mellon, 225, Washington, D.C., inheritance, 51, F
+
+378, Danner, Raymond L., 225, Nashville, Tenn., Shoney's, 62, S
+
+379, Cantor, Bernard Gerald, 225, Beverly Hills, financier, 70, F.
+
+380, Carr, Oliver Taylor Jr., 225, Washington, D.C., real estate, 62, RE
+
+381, Weinberg, John Livingston, 225, New York, Goldman, Sachs & Co, 62, F
+
+382, Lyon, William, 225, Newport Beach, real estate, 64, RE
+
+383, Hammons, John Quentin, 225, Springfield, Mo., real estate, 64, RE
+
+384, Hostetter, Amos Barr Jr., 225, Boston, cable TV, 50, M
+
+385, Litwin, Leonard, 225, New York, real estate, 70, RE
+
+386, MacMillan, W. Duncan, 225, Wayzata, Minn., inheritance (Cargill Inc.), 57, AG
+
+387, MacMillan, John Hugh III, 225, Fort Lauderdale, Fla., inheritance, 59, AG
+
+388, Pictet, Marion MacMillan, 225, Geneva, inheritance (Cargill Inc.), 54, AG
+
+389, MacMillan, Whitney, 225, Minneapolis, inheritance (Cargill Inc.), 58, AG
+
+390, MacMillan, Cargill Jr., 225, Minneapolis, inheritance (Cargill Inc.), 60, AG
+
+391, Keinath, Pauline MacMillan, 225, Unknown, inheritance (Cargill Inc.), 52, AG
+
+392, Klink, Bettina, 225, Los Angeles, inheritance (Dow Jones), 46, M
+
+393, Bancroft, Hugh III, 225, Newport Beach, inheritance (Dow Jones), 38, M
+
+394, Bancroft, Christopher, 225, Denton, Tex., inheritance (Dow Jones), 36, M
+
+395, Kavadas, Kathryn Bancroft, 225, Wabun, Mass., inheritance (Dow Jones), 35, M
+
+396, Haft, Robert Michael, 225, Washington, D.C., retailing, finance, 34, F
+
+397, Haft, Herbert Herman, 225, Washington, D.C., retailing, finance, 67, F
+
+398, Scharbauer, Clarence Jr., 225, Midland, Tex., inheritance (oil, land), 62, OG
+
+399, Spielberg, Steven Allen, 225, Beverly Hills, movies, 39, M
+
+400, Rock, Arthur J., 225, San Francisco, venture capital, 61, F
+

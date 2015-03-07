@@ -1,0 +1,104 @@
+# http://www.thisismoney.co.uk/money/news/article-1670101/Forbes-Rich-List-2009-Top-100.html
+
+1 	William Gates III 	United States 	53 	40 	United States
+2 	Warren Buffett 	United States 	78 	37 	United States
+3 	Carlos Slim Helu & family 	Mexico 	69 	35 	Mexico
+4 	Lawrence Ellison 	United States 	64 	22.5 	United States
+5 	Ingvar Kamprad & family 	Sweden 	83 	22 	Switzerland
+6 	Karl Albrecht 	Germany 	89 	21.5 	Germany
+7 	Mukesh Ambani 	India 	51 	19.5 	India
+8 	Lakshmi Mittal 	India 	58 	19.3 	United Kingdom
+9 	Theo Albrecht 	Germany 	87 	18.8 	Germany
+10 	Amancio Ortega 	Spain 	73 	18.3 	Spain
+11 	Jim Walton 	United States 	61 	17.8 	United States
+12 	Alice Walton 	United States 	59 	17.6 	United States
+12 	Christy Walton & family 	United States 	54 	17.6 	United States
+12 	S Robson Walton 	United States 	65 	17.6 	United States
+15 	Bernard Arnault 	France 	60 	16.5 	France
+16 	Li Ka-shing 	Hong Kong 	80 	16.2 	Hong Kong
+17 	Michael Bloomberg 	United States 	67 	16 	United States
+18 	Stefan Persson 	Sweden 	61 	14.5 	Sweden
+19 	Charles Koch 	United States 	73 	14 	United States
+19 	David Koch 	United States 	68 	14 	United States
+21 	Liliane Bettencourt 	France 	86 	13.4 	France
+22 	Prince Alwaleed Bin Talal Alsaud 	Saudi Arabia 	54 	13.3 	Saudi Arabia
+23 	Michael Otto & family 	Germany 	65 	13.2 	Germany
+24 	David Thomson & family 	Canada 	51 	13 	Canada
+25 	Michael Dell 	United States 	44 	12.3 	United States
+26 	Donald Bren 	United States 	76 	12 	United States
+26 	Sergey Brin 	United States 	35 	12 	United States
+26 	Larry Page 	United States 	36 	12 	United States
+29 	Steven Ballmer 	United States 	53 	11 	United States
+29 	Gerald Cavendish Grosvenor & family 	United Kingdom 	57 	11 	United Kingdom
+29 	George Soros 	United States 	78 	11 	United States
+32 	Paul Allen 	United States 	56 	10.5 	United States
+32 	Kwok family 	Hong Kong 	NA 	10.5 	Hong Kong
+34 	Anil Ambani 	India 	49 	10.1 	India
+35 	Abigail Johnson 	United States 	47 	10 	United States
+35 	Susanne Klatten 	Germany 	46 	10 	Germany
+35 	Ronald Perelman 	United States 	66 	10 	United States
+35 	Hans Rausing 	Sweden 	83 	10 	United Kingdom
+39 	Birgit Rausing & family 	Sweden 	85 	9.9 	Switzerland
+40 	Michele Ferrero & family 	Italy 	82 	9.5 	Monaco
+40 	Mikhail Prokhorov 	Russia 	43 	9.5 	Russia
+40 	Jack Taylor & family 	United States 	86 	9.5 	United States
+43 	Mohammed Al Amoudi 	Saudi Arabia 	63 	9 	Saudi Arabia
+43 	Anne Cox Chambers 	United States 	89 	9 	United States
+43 	Carl Icahn 	United States 	73 	9 	United States
+43 	George Kaiser 	United States 	66 	9 	United States
+43 	Lee Shau Kee 	Hong Kong 	81 	9 	Hong Kong
+43 	Forrest Mars Jr 	United States 	77 	9 	United States
+43 	Jacqueline Mars 	United States 	69 	9 	United States
+43 	John Mars 	United States 	72 	9 	United States
+51 	Roman Abramovich 	Russia 	42 	8.5 	Russia
+52 	Ernesto Bertarelli 	Switzerland 	43 	8.2 	Switzerland
+52 	Philip Knight 	United States 	71 	8.2 	United States
+54 	Nasser Al-Kharafi & family 	Kuwait 	65 	8.1 	Kuwait
+55 	James Simons 	United States 	71 	8 	United States
+55 	Alain & Gerard Wertheimer 	France 	NA 	8 	NA
+57 	Abdul Aziz Al Ghurair & family 	United Arab Emirates 	55 	7.8 	United Arab Emirates
+57 	Vagit Alekperov 	Russia 	58 	7.8 	Russia
+59 	Sunil Mittal & family 	India 	51 	7.7 	India
+60 	Francois Pinault & family 	France 	72 	7.6 	France
+61 	Eike Batista 	Brazil 	52 	7.5 	Brazil
+62 	Mohamed Bin Issa Al Jaber 	Saudi Arabia 	50 	7 	Saudi Arabia
+62 	Maan Al-Sanea 	Saudi Arabia 	54 	7 	Saudi Arabia
+62 	Edward Johnson III 	United States 	78 	7 	United States
+62 	Ananda Krishnan 	Malaysia 	70 	7 	Malaysia
+62 	Robert Kuok 	Malaysia 	85 	7 	Hong Kong
+62 	Joseph Safra 	Brazil 	70 	7 	Brazil
+68 	Jeffrey Bezos 	United States 	45 	6.8 	United States
+69 	August von Finck 	Germany 	79 	6.7 	Switzerland
+70 	Silvio Berlusconi & family 	Italy 	72 	6.5 	Italy
+71 	Leonardo Del Vecchio 	Italy 	73 	6.3 	Italy
+71 	Curt Engelhorn 	Germany 	82 	6.3 	Switzerland
+71 	Mikhail Fridman 	Russia 	44 	6.3 	Russia
+74 	Sulaiman Al Rajhi 	Saudi Arabia 	89 	6.2 	Saudi Arabia
+75 	James Goodnight 	United States 	66 	6.1 	United States
+76 	Iris Fontbona & family 	Chile 	NA 	6 	Chile
+76 	Petr Kellner 	Czech Republic 	44 	6 	Czech Republic
+76 	John Kluge 	United States 	94 	6 	United States
+76 	John Paulson 	United States 	53 	6 	United States
+76 	Tadashi Yanai & family 	Japan 	60 	6 	Japan
+81 	Dan Duncan 	United States 	76 	5.9 	United States
+81 	Eliodoro Matte & family 	Chile 	63 	5.9 	Chile
+83 	Alberto Bailleres & family 	Mexico 	76 	5.7 	Mexico
+83 	Azim Premji 	India 	63 	5.7 	India
+83 	Hansjorg Wyss 	Switzerland 	74 	5.7 	United States
+86 	Shashi & Ravi Ruia 	India 	65 	5.6 	India
+87 	Steven Cohen 	United States 	53 	5.5 	United States
+87 	Ng Teng Fong & family 	Singapore 	80 	5.5 	Singapore
+87 	Patrick Soon-Shiong 	United States 	57 	5.5 	United States
+90 	Serge Dassault & family 	France 	83 	5.4 	France
+90 	Erivan Haub & family 	Germany 	76 	5.4 	Germany
+92 	Jorge Paulo Lemann 	Brazil 	69 	5.3 	Brazil
+93 	Eli Broad 	United States 	75 	5.2 	United States
+93 	Kunio Busujima & family 	Japan 	83 	5.2 	Japan
+93 	Karl-Heinz Kipp 	Germany 	85 	5.2 	Switzerland
+93 	Vladimir Lisin 	Russia 	52 	5.2 	Russia
+93 	Reinhold Wurth 	Germany 	73 	5.2 	Germany
+98 	Philip Anschutz 	United States 	69 	5 	United States
+98 	Kirk Kerkorian 	United States 	91 	5 	United States
+98 	Nicky Oppenheimer & family 	South Africa 	63 	5 	South Africa
+
+

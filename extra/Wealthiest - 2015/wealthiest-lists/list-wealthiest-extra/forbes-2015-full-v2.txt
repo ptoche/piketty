@@ -1,0 +1,1831 @@
+# http://www.forbes.com/billionaires/list/#version:static
+# Retrieved on 1 March 2015
+
+
+	Rank 	Name 	Net Worth 	Age 	Source 	Country of Citizenship
+#1 	Bill Gates 	$79.2 B 	59 	Microsoft 	United States
+#2 	Carlos Slim Helu 	$77.1 B 	75 	telecom 	Mexico
+#3 	Warren Buffett 	$72.7 B 	84 	Berkshire Hathaway 	United States
+#4 	Amancio Ortega 	$64.5 B 	78 	Zara 	Spain
+#5 	Larry Ellison 	$54.3 B 	70 	Oracle 	United States
+#6 	Charles Koch 	$42.9 B 	79 	diversified 	United States
+#6 	David Koch 	$42.9 B 	74 	diversified 	United States
+#8 	Christy Walton 	$41.7 B 	60 	Wal-Mart 	United States
+#9 	Jim Walton 	$40.6 B 	67 	Wal-Mart 	United States
+#10 	Liliane Bettencourt 	$40.1 B 	92 	L'Oreal 	France
+#11 	Alice Walton 	$39.4 B 	65 	Wal-Mart 	United States
+#12 	S. Robson Walton 	$39.1 B 	71 	Wal-Mart 	United States
+#13 	Bernard Arnault 	$37.2 B 	66 	LVMH 	France
+#14 	Michael Bloomberg 	$35.5 B 	73 	Bloomberg LP 	United States
+#15 	Jeff Bezos 	$34.8 B 	51 	Amazon.com 	United States
+#16 	Mark Zuckerberg 	$33.4 B 	30 	Facebook 	United States
+#17 	Li Ka-shing 	$33.3 B 	86 	diversified 	Hong Kong
+#18 	Sheldon Adelson 	$31.4 B 	81 	casinos 	United States
+#19 	Larry Page 	$29.7 B 	41 	Google 	United States
+#20 	Sergey Brin 	$29.2 B 	41 	Google 	United States
+#21 	Georg Schaeffler 	$26.9 B 	50 	ball bearings 	Germany
+#22 	Forrest Mars, Jr. 	$26.6 B 	83 	candy 	United States
+#22 	Jacqueline Mars 	$26.6 B 	75 	candy 	United States
+#22 	John Mars 	$26.6 B 	78 	candy 	United States
+#25 	David Thomson 	$25.5 B 	57 	media 	Canada
+#26 	Jorge Paulo Lemann 	$25 B 	75 	beer 	Brazil
+#27 	Lee Shau Kee 	$24.8 B 	87 	real estate 	Hong Kong
+#28 	Stefan Persson 	$24.5 B 	67 	H&M 	Sweden
+#29 	George Soros 	$24.2 B 	84 	hedge funds 	United States
+#29 	Wang Jianlin 	$24.2 B 	60 	real estate 	China
+#31 	Carl Icahn 	$23.5 B 	79 	investments 	United States
+#32 	Maria Franca Fissolo 	$23.4 B 	97 	Nutella, chocolates 	Italy
+#33 	Jack Ma 	$22.7 B 	50 	e-commerce 	China
+#34 	Prince Alwaleed Bin Talal Alsaud 	$22.6 B 	59 	investments 	Saudi Arabia
+#35 	Steve Ballmer 	$21.5 B 	58 	Microsoft 	United States
+#35 	Phil Knight 	$21.5 B 	77 	Nike 	United States
+#37 	Beate Heister & Karl Albrecht Jr. 	$21.3 B 	- 	supermarkets 	Germany
+#38 	Li Hejun 	$21.1 B 	47 	solar power equipment 	China
+#39 	Mukesh Ambani 	$21 B 	57 	petrochemicals, oil & gas 	India
+#40 	Leonardo Del Vecchio 	$20.4 B 	79 	eyeglasses 	Italy
+#41 	Len Blavatnik 	$20.2 B 	57 	diversified 	United States
+#41 	Tadashi Yanai 	$20.2 B 	66 	retail 	Japan
+#43 	Charles Ergen 	$20.1 B 	62 	Dish Network 	United States
+#44 	Dilip Shanghvi 	$20 B 	59 	pharmaceuticals 	India
+#45 	Laurene Powell Jobs 	$19.5 B 	51 	Apple, Disney 	United States
+#46 	Dieter Schwarz 	$19.4 B 	75 	retail 	Germany
+#47 	Michael Dell 	$19.2 B 	50 	Dell 	United States
+#48 	Azim Premji 	$19.1 B 	69 	software 	India
+#49 	Theo Albrecht, Jr. 	$19 B 	64 	Aldi, Trader Joe's 	Germany
+#50 	Michael Otto 	$18.1 B 	71 	retail, real estate 	Germany
+#51 	Paul Allen 	$17.5 B 	62 	Microsoft, investments 	United States
+#52 	Joseph Safra 	$17.3 B 	76 	banking 	Brazil
+#53 	Anne Cox Chambers 	$17 B 	95 	media 	United States
+#54 	Susanne Klatten 	$16.8 B 	52 	BMW, pharmaceuticals 	Germany
+#55 	Pallonji Mistry 	$16.3 B 	85 	construction 	Ireland
+#56 	Ma Huateng 	$16.1 B 	43 	internet media 	China
+#57 	Patrick Drahi 	$16 B 	51 	Telecom 	France
+#58 	Thomas & Raymond Kwok 	$15.9 B 	- 	real estate 	Hong Kong
+#59 	Stefan Quandt 	$15.6 B 	48 	BMW 	Germany
+#60 	Ray Dalio 	$15.4 B 	65 	hedge funds 	United States
+#60 	Vladimir Potanin 	$15.4 B 	54 	metals 	Russia
+#62 	Serge Dassault 	$15.3 B 	89 	aviation 	France
+#62 	Robin Li 	$15.3 B 	46 	internet search 	China
+#64 	Donald Bren 	$15.2 B 	82 	real estate 	United States
+#65 	Francois Pinault 	$14.9 B 	78 	retail 	France
+#66 	Shiv Nadar 	$14.8 B 	69 	information technology 	India
+#67 	Aliko Dangote 	$14.7 B 	57 	cement, sugar, flour 	Nigeria
+#68 	Mikhail Fridman 	$14.6 B 	50 	oil, banking, telecom 	Russia
+#69 	Hinduja Brothers 	$14.5 B 	- 	diversified 	United Kingdom
+#69 	Ronald Perelman 	$14.5 B 	72 	leveraged buyouts 	United States
+#71 	Cheng Yu-tung 	$14.4 B 	89 	diversified 	Hong Kong
+#71 	Alisher Usmanov 	$14.4 B 	61 	steel & mining, telecom, investments 	Russia
+#73 	Henry Sy 	$14.2 B 	90 	diversified 	Philippines
+#73 	Viktor Vekselberg 	$14.2 B 	57 	metals, energy 	Russia
+#75 	Masayoshi Son 	$14.1 B 	57 	internet, telecom 	Japan
+#76 	James Simons 	$14 B 	76 	hedge funds 	United States
+#77 	German Larrea Mota Velasco 	$13.9 B 	61 	mining 	Mexico
+#77 	Rupert Murdoch 	$13.9 B 	83 	media 	United States
+#77 	Johanna Quandt 	$13.9 B 	88 	BMW 	Germany
+#80 	David & Simon Reuben 	$13.7 B 	72 	investments, real estate 	United Kingdom
+#81 	Dhanin Chearavanont 	$13.6 B 	75 	food 	Thailand
+#82 	Iris Fontbona 	$13.5 B 	72 	mining 	Chile
+#82 	Lui Che Woo 	$13.5 B 	85 	casinos 	Hong Kong
+#82 	Lakshmi Mittal 	$13.5 B 	64 	steel 	India
+#85 	Abigail Johnson 	$13.4 B 	53 	money management 	United States
+#85 	Luis Carlos Sarmiento 	$13.4 B 	82 	banking 	Colombia
+#87 	Lei Jun 	$13.2 B 	45 	smartphones 	China
+#87 	Charoen Sirivadhanabhakdi 	$13.2 B 	70 	beverages 	Thailand
+#89 	Alexey Mordashov 	$13 B 	49 	steel, investments 	Russia
+#89 	Marcel Herrmann Telles 	$13 B 	65 	beer 	Brazil
+#91 	Gerald Cavendish Grosvenor 	$12.6 B 	63 	real estate 	United Kingdom
+#92 	Hans Rausing 	$12.5 B 	88 	packaging 	Sweden
+#92 	Jack Taylor 	$12.5 B 	92 	Enterprise Rent-A-Car 	United States
+#94 	Charles Butt 	$12.3 B 	77 	supermarkets 	United States
+#94 	Gina Rinehart 	$12.3 B 	61 	mining 	Australia
+#96 	Vagit Alekperov 	$12.2 B 	64 	Lukoil 	Russia
+#96 	Harold Hamm 	$12.2 B 	69 	oil & gas 	United States
+#96 	Patrick Soon-Shiong 	$12.2 B 	63 	pharmaceuticals 	United States
+#99 	Stefano Pessina 	$12.1 B 	73 	drugstores 	Italy
+#100 	Richard Kinder 	$12 B 	70 	pipelines 	United States
+#100 	Elon Musk 	$12 B 	43 	Tesla Motors 	United States
+#100 	Stephen Schwarzman 	$12 B 	68 	investments 	United States
+#103 	Klaus-Michael Kuehne 	$11.9 B 	77 	shipping 	Germany
+#104 	Philip Anschutz 	$11.8 B 	75 	investments 	United States
+#105 	Andrew Beal 	$11.7 B 	62 	banks, real estate 	United States
+#105 	Leonid Mikhelson 	$11.7 B 	59 	gas, chemicals 	Russia
+#107 	Charlene de Carvalho-Heineken 	$11.6 B 	60 	Heineken 	Netherlands
+#107 	Vladimir Lisin 	$11.6 B 	58 	steel, transport 	Russia
+#109 	Steve Cohen 	$11.4 B 	59 	hedge funds 	United States
+#110 	Robert Kuok 	$11.3 B 	91 	diversified 	Malaysia
+#110 	Lee Kun-Hee 	$11.3 B 	73 	electronics/insurance 	South Korea
+#110 	Carlos Alberto Sicupira 	$11.3 B 	67 	beer 	Brazil
+#113 	John Paulson 	$11.2 B 	59 	hedge funds 	United States
+#114 	Joseph Lau 	$10.9 B 	63 	real estate 	Hong Kong
+#114 	Thomas Peterffy 	$10.9 B 	70 	discount brokerage 	United States
+#116 	Mohammed Al Amoudi 	$10.8 B 	68 	oil, diversified 	Saudi Arabia
+#116 	Dietrich Mateschitz 	$10.8 B 	70 	Red Bull 	Austria
+#118 	Hank & Doug Meijer 	$10.7 B 	- 	supermarkets 	United States
+#118 	Gennady Timchenko 	$10.7 B 	62 	oil & gas 	Russia
+#120 	John Fredriksen 	$10.5 B 	70 	shipping 	Cyprus
+#121 	Alberto Bailleres Gonzalez 	$10.4 B 	83 	mining 	Mexico
+#121 	Massimiliana Landini Aleotti 	$10.4 B 	72 	pharmaceuticals 	Italy
+#121 	David Tepper 	$10.4 B 	57 	hedge funds 	United States
+#124 	Zong Qinghou 	$10.3 B 	69 	beverages 	China
+#125 	Pierre Castel 	$9.9 B 	88 	wine 	France
+#125 	He Xiangjian 	$9.9 B 	72 	home appliances 	China
+#125 	Mikhail Prokhorov 	$9.9 B 	49 	investments 	Russia
+#125 	Wang Wenyin 	$9.9 B 	47 	mining, copper products 	China
+#129 	Ananda Krishnan 	$9.7 B 	76 	telecom 	Malaysia
+#129 	Kjeld Kirk Kristiansen 	$9.7 B 	67 	Lego 	Denmark
+#131 	Robert & Philip Ng 	$9.6 B 	- 	real estate 	Singapore
+#131 	Galen Weston 	$9.6 B 	74 	retail 	Canada
+#133 	German Khan 	$9.5 B 	53 	banking, telecom, retail 	Russia
+#133 	Alain Wertheimer 	$9.5 B 	66 	Chanel 	France
+#133 	Gerard Wertheimer 	$9.5 B 	64 	Chanel 	France
+#136 	Xavier Niel 	$9.3 B 	47 	internet, telecom 	France
+#137 	Roman Abramovich 	$9.1 B 	48 	steel, investments 	Russia
+#137 	Leonard Lauder 	$9.1 B 	81 	Estee Lauder 	United States
+#137 	Andrey Melnichenko 	$9.1 B 	42 	coal, fertilizers 	Russia
+#137 	Hasso Plattner 	$9.1 B 	71 	software 	Germany
+#137 	Eric Schmidt 	$9.1 B 	59 	Google 	United States
+#142 	Kumar Birla 	$9 B 	47 	commodities 	India
+#142 	R. Budi Hartono 	$9 B 	74 	banking, tobacco 	Indonesia
+#142 	George Kaiser 	$9 B 	72 	oil & gas, banking 	United States
+#142 	John Menard, Jr. 	$9 B 	75 	retail 	United States
+#142 	Samuel Newhouse, Jr. 	$9 B 	87 	media 	United States
+#147 	Tsai Eng-Meng 	$8.9 B 	58 	food, beverages 	Taiwan
+#147 	Wei Jianjun 	$8.9 B 	51 	automobiles 	China
+#149 	Ernesto Bertarelli 	$8.8 B 	49 	biotech, investments 	Switzerland
+#149 	Carrie Perrodo 	$8.8 B 	64 	Inherited 	France
+#151 	Michael Hartono 	$8.7 B 	75 	tobacco, banking 	Indonesia
+#151 	Hiroshi Mikitani 	$8.7 B 	50 	online retailing 	Japan
+#153 	Pan Sutong 	$8.6 B 	52 	real estate 	Hong Kong
+#153 	Klaus Tschira 	$8.6 B 	74 	software 	Germany
+#153 	Peter Woo 	$8.6 B 	69 	real estate 	Hong Kong
+#156 	Jim Kennedy 	$8.5 B 	67 	media 	United States
+#156 	Eyal Ofer 	$8.5 B 	64 	real estate, shipping 	Israel
+#156 	Blair Parry-Okeden 	$8.5 B 	64 	media 	United States
+#156 	Dmitry Rybolovlev 	$8.5 B 	48 	fertilizer 	Russia
+#160 	Petr Kellner 	$8.4 B 	50 	banking, insurance 	Czech Republic
+#160 	Margarita Louis-Dreyfus 	$8.4 B 	51 	commodities 	Switzerland
+#162 	Sergei Galitsky 	$8.3 B 	47 	retail 	Russia
+#162 	John Malone 	$8.3 B 	73 	cable television 	United States
+#162 	Donald Newhouse 	$8.3 B 	85 	media 	United States
+#165 	Joao Roberto Marinho 	$8.2 B 	61 	media 	Brazil
+#165 	Jose Roberto Marinho 	$8.2 B 	59 	media 	Brazil
+#165 	Roberto Irineu Marinho 	$8.2 B 	67 	media 	Brazil
+#168 	Pierre Omidyar 	$8 B 	47 	Ebay 	United States
+#168 	Ricardo Salinas Pliego 	$8 B 	59 	retail, media 	Mexico
+#170 	Gianluigi & Rafaela Aponte 	$7.9 B 	- 	shipping 	Switzerland
+#170 	Dustin Moskovitz 	$7.9 B 	30 	Facebook 	United States
+#172 	August von Finck 	$7.7 B 	84 	investments 	Germany
+#172 	Leslie Wexner 	$7.7 B 	77 	retail 	United States
+#174 	Giorgio Armani 	$7.6 B 	80 	fashion 	Italy
+#174 	Thomas Frist, Jr. 	$7.6 B 	76 	health care 	United States
+#174 	Takemitsu Takizaki 	$7.6 B 	69 	sensors 	Japan
+#177 	James Goodnight 	$7.5 B 	72 	software 	United States
+#177 	Jim Pattison 	$7.5 B 	86 	diversified 	Canada
+#179 	Silvio Berlusconi 	$7.4 B 	78 	media 	Italy
+#179 	David Duffield 	$7.4 B 	74 	business software 	United States
+#179 	Edward Johnson, III. 	$7.4 B 	84 	money management 	United States
+#179 	Liu Qiangdong 	$7.4 B 	40 	e-commerce 	China
+#179 	Johann Rupert 	$7.4 B 	64 	luxury goods 	South Africa
+#184 	Alexei Kuzmichev 	$7.3 B 	52 	banking, telecom, retail 	Russia
+#185 	Eli Broad 	$7.2 B 	81 	investments 	United States
+#185 	Charles Cadogan 	$7.2 B 	77 	real estate 	United Kingdom
+#185 	Dietmar Hopp 	$7.2 B 	74 	software 	Germany
+#185 	Uday Kotak 	$7.2 B 	55 	banking 	India
+#185 	Jay Y. Lee 	$7.2 B 	46 	electronics/tourism 	South Korea
+#185 	Suh Kyung-Bae 	$7.2 B 	52 	cosmetics 	South Korea
+#191 	Micky Arison 	$7.1 B 	65 	Carnival Cruises 	United States
+#191 	Emmanuel Besnier 	$7.1 B 	44 	cheese 	France
+#193 	Walter Kwok 	$7 B 	64 	real estate 	Hong Kong
+#193 	Ralph Lauren 	$7 B 	75 	Ralph Lauren 	United States
+#195 	David Geffen 	$6.9 B 	72 	entertainment 	United States
+#195 	Graeme Hart 	$6.9 B 	59 	investments 	New Zealand
+#195 	Gordon Moore 	$6.9 B 	86 	Intel 	United States
+#195 	Wang Jing 	$6.9 B 	42 	telecom services 	China
+#199 	Goh Cheng Liang 	$6.8 B 	- 	paints 	Singapore
+#199 	Denis O'Brien 	$6.8 B 	56 	telecom 	Ireland
+#201 	Rinat Akhmetov 	$6.7 B 	48 	steel, coal 	Ukraine
+#201 	Vincent Bollore 	$6.7 B 	62 	investments 	France
+#201 	Jean-Claude Decaux 	$6.7 B 	77 	advertising 	France
+#201 	Eva Gonda de Rivera 	$6.7 B 	- 	beverages 	Mexico
+#201 	Nicky Oppenheimer 	$6.7 B 	69 	diamonds 	South Africa
+#201 	Maria-Elisabeth Schaeffler 	$6.7 B 	73 	ball bearings 	Germany
+#201 	Reinhold Wuerth 	$6.7 B 	79 	fasteners 	Germany
+#208 	Gautam Adani 	$6.6 B 	52 	commodities, infrastructure 	India
+#208 	William Ding 	$6.6 B 	43 	online games 	China
+#208 	Johann Graf 	$6.6 B 	68 	gambling 	Austria
+#208 	Charles Johnson 	$6.6 B 	82 	money management 	United States
+#208 	Jan Koum 	$6.6 B 	39 	WhatsApp 	United States
+#208 	Liu Yongxing 	$6.6 B 	66 	agribusiness 	China
+#208 	Sunil Mittal 	$6.6 B 	57 	telecom 	India
+#208 	Cyrus Poonawalla 	$6.6 B 	73 	vaccines 	India
+#216 	Carl Cook 	$6.5 B 	52 	medical devices 	United States
+#216 	Ken Griffin 	$6.5 B 	46 	hedge funds 	United States
+#216 	James Irving 	$6.5 B 	86 	diversified 	Canada
+#216 	Stephen Ross 	$6.5 B 	74 	real estate 	United States
+#220 	Abdulla bin Ahmad Al Ghurair 	$6.4 B 	- 	diversified 	United Arab Emirates
+#220 	Richard LeFrak 	$6.4 B 	69 	real estate 	United States
+#220 	Melker Schorling 	$6.4 B 	67 	investments 	Sweden
+#220 	Charles Schwab 	$6.4 B 	77 	discount brokerage 	United States
+#220 	Heinz Hermann Thiele 	$6.4 B 	73 	brakes 	Germany
+#225 	Stanley Kroenke 	$6.3 B 	67 	sports, real estate 	United States
+#225 	Sandra Ortega Mera 	$6.3 B 	46 	Zara 	Spain
+#225 	Sumner Redstone 	$6.3 B 	91 	Media 	United States
+#225 	Nassef Sawiris 	$6.3 B 	54 	construction 	Egypt
+#225 	Christoffel Wiese 	$6.3 B 	73 	retailing 	South Africa
+#230 	Majid Al Futtaim 	$6.2 B 	- 	real estate, retail 	United Arab Emirates
+#230 	Dannine Avara 	$6.2 B 	51 	pipelines 	United States
+#230 	Oleg Deripaska 	$6.2 B 	47 	aluminum, utilities 	Russia
+#230 	Scott Duncan 	$6.2 B 	32 	pipelines 	United States
+#230 	Curt Engelhorn 	$6.2 B 	88 	pharmaceuticals 	Germany
+#230 	Milane Frantz 	$6.2 B 	45 	pipelines 	United States
+#230 	Hui Ka Yan 	$6.2 B 	56 	real estate 	China
+#230 	Rupert Johnson, Jr. 	$6.2 B 	73 	money management 	United States
+#230 	Michael Kadoorie 	$6.2 B 	73 	diversified 	Hong Kong
+#230 	Kelcy Warren 	$6.2 B 	59 	pipelines 	United States
+#240 	Chan Laiwa 	$6.1 B 	74 	real estate 	China
+#240 	Terry Gou 	$6.1 B 	64 	electronics 	Taiwan
+#240 	Willi & Isolde Liebherr 	$6.1 B 	- 	construction 	Switzerland
+#240 	Ira Rennert 	$6.1 B 	80 	investments 	United States
+#240 	Randa Williams 	$6.1 B 	53 	pipelines 	United States
+#240 	Hansjoerg Wyss 	$6.1 B 	80 	medical devices 	Switzerland
+#246 	David Green 	$6 B 	73 	retail 	United States
+#246 	Augusto & Giorgio Perfetti 	$6 B 	- 	candy 	Italy
+#248 	Jin Sook & Do Won Chang 	$5.9 B 	60 	fashion retail 	United States
+#248 	Bruce Halle 	$5.9 B 	84 	tires 	United States
+#248 	Lu Zhiqiang 	$5.9 B 	62 	diversified 	China
+#248 	Bruno Schroder 	$5.9 B 	82 	banking 	United Kingdom
+#248 	Joseph Tsai 	$5.9 B 	51 	e-commerce 	Canada
+#248 	Dennis Washington 	$5.9 B 	80 	construction, mining 	United States
+#254 	John Gokongwei, Jr. 	$5.8 B 	87 	diversified 	Philippines
+#254 	Desh Bandhu Gupta 	$5.8 B 	77 	pharmaceuticals 	India
+#254 	Pauline MacMillan Keinath 	$5.8 B 	81 	Cargill 	United States
+#254 	Loretta Robinson 	$5.8 B 	75 	cable tv 	Canada
+#254 	Zhang Zhidong 	$5.8 B 	43 	internet media 	China
+#259 	Chung Mong-Koo 	$5.7 B 	76 	motor vehicles 	South Korea
+#259 	Richard DeVos 	$5.7 B 	89 	Amway 	United States
+#259 	Guo Guangchang 	$5.7 B 	48 	diversified 	China
+#259 	Lin Yu-lin 	$5.7 B 	79 	real estate 	Taiwan
+#259 	Andrei Skoch 	$5.7 B 	49 	steel 	Russia
+#259 	Juan-Miguel Villar Mir 	$5.7 B 	83 	construction 	Spain
+#265 	Maria Asuncion Aramburuzabala 	$5.6 B 	51 	beer, investments 	Mexico
+#265 	Ray Lee Hunt 	$5.6 B 	72 	oil, real estate 	United States
+#265 	Ann Walton Kroenke 	$5.6 B 	66 	Wal-Mart 	United States
+#265 	Quek Leng Chan 	$5.6 B 	73 	banking, real estate 	Malaysia
+#265 	Keiichiro Takahara 	$5.6 B 	83 	diapers 	Japan
+#265 	Stef Wertheimer 	$5.6 B 	88 	tools 	Israel
+#271 	Arthur Irving 	$5.5 B 	85 	oil 	Canada
+#271 	Herbert Kohler, Jr. 	$5.5 B 	76 	plumbing fixtures 	United States
+#271 	Anders Holch Povlsen 	$5.5 B 	42 	retail 	Denmark
+#271 	Jorn Rausing 	$5.5 B 	55 	inherited 	Sweden
+#271 	Thomas Schmidheiny 	$5.5 B 	69 	cement 	Switzerland
+#271 	Cho Yaw Wee 	$5.5 B 	86 	banking 	Singapore
+#277 	Hui Wing Mau 	$5.4 B 	64 	real estate 	Hong Kong
+#277 	Joe Lewis 	$5.4 B 	78 	investments 	United Kingdom
+#277 	Juan Roig 	$5.4 B 	65 	supermarkets 	Spain
+#277 	Robert Rowling 	$5.4 B 	61 	investments 	United States
+#277 	Teh Hong Piow 	$5.4 B 	84 	banking 	Malaysia
+#277 	Harry Triguboff 	$5.4 B 	82 	property 	Australia
+#283 	Leon Black 	$5.3 B 	63 	private equity 	United States
+#283 	Carlos and Alejandro Bulgheroni 	$5.3 B 	- 	oil and gas 	Argentina
+#283 	Garrett Camp 	$5.3 B 	36 	car service 	Canada
+#283 	Leonid Fedun 	$5.3 B 	58 	Lukoil 	Russia
+#283 	Savitri Jindal 	$5.3 B 	64 	steel 	India
+#283 	Antonia Johnson 	$5.3 B 	71 	diversified 	Sweden
+#283 	Travis Kalanick 	$5.3 B 	38 	car service 	United States
+#283 	Leonard Stern 	$5.3 B 	76 	real estate 	United States
+#291 	David & Frederick Barclay 	$5.2 B 	81 	media, retail 	United Kingdom
+#291 	Vivien Chen 	$5.2 B 	56 	real estate 	Hong Kong
+#291 	Bidzina Ivanishvili 	$5.2 B 	59 	investments 	Georgia
+#291 	Micky Jagtiani 	$5.2 B 	63 	retail 	India
+#291 	Henry Kravis 	$5.2 B 	71 	private equity 	United States
+#291 	James Packer 	$5.2 B 	47 	casinos 	Australia
+#291 	Enrique Razon, Jr. 	$5.2 B 	55 	ports 	Philippines
+#291 	Odd Reitan 	$5.2 B 	63 	retail, real estate 	Norway
+#291 	George Roberts 	$5.2 B 	71 	private equity 	United States
+#291 	Paolo & Gianfelice Mario Rocca 	$5.2 B 	- 	pipe manufacturing 	Italy
+#301 	Pyotr Aven 	$5.1 B 	59 	banking, telecom 	Russia
+#301 	Ivan Glasenberg 	$5.1 B 	58 	mining 	Switzerland
+#301 	Philip & Cristina Green 	$5.1 B 	62 	retail 	United Kingdom
+#301 	Lu Guanqiu 	$5.1 B 	70 	diversified 	China
+#301 	Arnon Milchan 	$5.1 B 	70 	movie making 	Israel
+#301 	Dan Olsson 	$5.1 B 	68 	diversified 	Sweden
+#301 	Finn Rausing 	$5.1 B 	60 	inherited 	Sweden
+#301 	Kirsten Rausing 	$5.1 B 	62 	packaging 	Sweden
+#309 	Laurence Graff 	$5 B 	76 	diamond jewelry 	United Kingdom
+#309 	Pansy Ho 	$5 B 	52 	casinos 	Hong Kong
+#309 	Bertil Hult 	$5 B 	74 	education 	Sweden
+#309 	Karl-Heinz Kipp 	$5 B 	91 	retail 	Germany
+#309 	Bruce Kovner 	$5 B 	70 	hedge funds 	United States
+#309 	George Lucas 	$5 B 	70 	Star Wars 	United States
+#309 	David Sun 	$5 B 	63 	computer hardware 	United States
+#309 	John Tu 	$5 B 	74 	computer hardware 	United States
+#309 	Yang Huiyan 	$5 B 	33 	real estate 	China
+#318 	Michael Ashley 	$4.9 B 	50 	sports retailing 	United Kingdom
+#318 	James Dyson 	$4.9 B 	67 	vacuums 	United Kingdom
+#318 	Albert Frere 	$4.9 B 	89 	investments 	Belgium
+#318 	Jeffery Hildebrand 	$4.9 B 	56 	oil 	United States
+#318 	Kwee brothers 	$4.9 B 	70 	real estate 	Singapore
+#318 	Liang Wengen 	$4.9 B 	58 	construction equipment 	China
+#318 	Frank Lowy 	$4.9 B 	84 	shopping malls 	Australia
+#318 	Frederik Paulsen 	$4.9 B 	64 	health care 	Sweden
+#318 	Sam Zell 	$4.9 B 	73 	real estate, private equity 	United States
+#318 	Daniel Ziff 	$4.9 B 	43 	investments 	United States
+#318 	Dirk Ziff 	$4.9 B 	50 	investments 	United States
+#318 	Robert Ziff 	$4.9 B 	48 	investments 	United States
+#330 	Isak Andic 	$4.8 B 	61 	clothing retail 	Spain
+#330 	Richard Branson 	$4.8 B 	64 	Virgin 	United Kingdom
+#330 	Adi Godrej 	$4.8 B 	72 	consumer goods 	India
+#330 	Jamshyd Godrej 	$4.8 B 	66 	consumer goods 	India
+#330 	Michael & Marian Ilitch 	$4.8 B 	85 	pizza 	United States
+#330 	Ted Lerner 	$4.8 B 	89 	real estate 	United States
+#330 	Idan Ofer 	$4.8 B 	59 	drilling, shipping 	Israel
+#330 	Emanuele (Lino) Saputo 	$4.8 B 	78 	cheese 	Canada
+#330 	Eduardo Saverin 	$4.8 B 	32 	Facebook 	Brazil
+#330 	Andrew Tan 	$4.8 B 	62 	diversified 	Philippines
+#330 	Zhou Jianping 	$4.8 B 	54 	apparel 	China
+#341 	Phillip Frost 	$4.7 B 	78 	pharmaceuticals 	United States
+#341 	Daniel Gilbert 	$4.7 B 	53 	Quicken Loans 	United States
+#341 	Gong Hongjia 	$4.7 B 	50 	investments 	Hong Kong
+#341 	Stein Erik Hagen 	$4.7 B 	58 	retail 	Norway
+#341 	Reid Hoffman 	$4.7 B 	47 	LinkedIn 	United States
+#341 	Nancy Walton Laurie 	$4.7 B 	63 	Wal-Mart 	United States
+#341 	Liu Yonghao 	$4.7 B 	63 	agribusiness 	China
+#341 	Sri Prakash Lohia 	$4.7 B 	62 	polyester 	Indonesia
+#341 	Whitney MacMillan 	$4.7 B 	86 	Cargill 	United States
+#341 	John A. Sobrato 	$4.7 B 	75 	real estate 	United States
+#341 	Tong Jinquan 	$4.7 B 	60 	real estate 	China
+#352 	Dona Bertarelli 	$4.6 B 	47 	biotech 	Switzerland
+#352 	Heinrich Deichmann 	$4.6 B 	52 	Footwear 	Germany
+#352 	Paul Tudor Jones, II. 	$4.6 B 	60 	hedge funds 	United States
+#352 	Randal Kirk 	$4.6 B 	61 	pharmaceuticals 	United States
+#352 	Lee Shin Cheng 	$4.6 B 	76 	palm oil, real estate 	Malaysia
+#352 	Ludwig Merckle 	$4.6 B 	50 	pharmaceuticals 	Germany
+#352 	Sergei Popov 	$4.6 B 	43 	banking 	Russia
+#352 	Mark Shoen 	$4.6 B 	63 	U-Haul 	United States
+#360 	Alexander Abramov 	$4.5 B 	56 	steel, mining 	Russia
+#360 	Pierre Bellon 	$4.5 B 	85 	food services 	France
+#360 	Kunio Busujima 	$4.5 B 	89 	gaming 	Japan
+#360 	Michael Herz 	$4.5 B 	71 	coffee 	Germany
+#360 	Wolfgang Herz 	$4.5 B 	64 	coffee 	Germany
+#360 	Elizabeth Holmes 	$4.5 B 	31 	blood testing 	United States
+#360 	Shahid Khan 	$4.5 B 	64 	auto parts 	United States
+#360 	Richard Li 	$4.5 B 	48 	telecoms 	Hong Kong
+#360 	Shashi & Ravi Ruia 	$4.5 B 	- 	diversified 	India
+#369 	Americo Amorim 	$4.4 B 	80 	energy, investments 	Portugal
+#369 	Shari Arison 	$4.4 B 	57 	Carnival Cruises 	Israel
+#369 	Abilio dos Santos Diniz 	$4.4 B 	78 	retail 	Brazil
+#369 	Guenther Fielmann 	$4.4 B 	75 	optometry 	Germany
+#369 	Filaret Galchev 	$4.4 B 	51 	construction materials 	Russia
+#369 	Ian & Richard Livingstone 	$4.4 B 	- 	real estate 	United Kingdom
+#369 	Horst Paulmann 	$4.4 B 	80 	retail 	Chile
+#369 	Alejandro Santo Domingo 	$4.4 B 	38 	beer 	United States
+#369 	Andres Santo Domingo 	$4.4 B 	36 	beer 	United States
+#369 	Lucio Tan 	$4.4 B 	80 	diversified 	Philippines
+#369 	George Ty 	$4.4 B 	82 	banking 	Philippines
+#369 	Murat Ulker 	$4.4 B 	55 	food manufacturing 	Turkey
+#381 	Jeronimo Arango 	$4.3 B 	89 	retail 	Mexico
+#381 	Anthony Bamford 	$4.3 B 	69 	construction equipment 	United Kingdom
+#381 	Charles Dolan 	$4.3 B 	88 	cable television 	United States
+#381 	Tamara Gustavson 	$4.3 B 	53 	self storage 	United States
+#381 	Zarakh Iliev 	$4.3 B 	48 	real estate 	Russia
+#381 	Robert Kraft 	$4.3 B 	73 	New England Patriots 	United States
+#381 	Luo Jye 	$4.3 B 	89 	tires 	Taiwan
+#381 	God Nisanov 	$4.3 B 	42 	real estate 	Russia
+#381 	Karen Pritzker 	$4.3 B 	57 	hotels, investments 	United States
+#381 	Trevor Rees-Jones 	$4.3 B 	63 	oil & gas 	United States
+#381 	Chairul Tanjung 	$4.3 B 	52 	diversified 	Indonesia
+#381 	Lottie Tham 	$4.3 B 	65 	H&M 	Sweden
+#393 	Mike Adenuga 	$4.2 B 	61 	telcom, oil 	Nigeria
+#393 	Subhash Chandra 	$4.2 B 	64 	media 	India
+#393 	Gustaf Douglas 	$4.2 B 	77 	security 	Sweden
+#393 	Han Chang-Woo 	$4.2 B 	84 	pachinko parlors 	Japan
+#393 	Jerry Jones 	$4.2 B 	72 	Dallas Cowboys 	United States
+#393 	Kirk Kerkorian 	$4.2 B 	97 	casinos, investments 	United States
+#393 	Lin Rong San 	$4.2 B 	75 	real estate 	Taiwan
+#393 	Stewart and Lynda Resnick 	$4.2 B 	- 	agriculture, water 	United States
+#393 	Wang Wei 	$4.2 B 	44 	package delivery service 	China
+#393 	Karl Wlaschek 	$4.2 B 	97 	retail 	Austria
+#393 	Aloys Wobben 	$4.2 B 	63 	wind turbines 	Germany
+#393 	Zhang Jindong 	$4.2 B 	51 	appliance retailer 	China
+#405 	Prince Sultan bin Mohammed bin Saud Al Kabeer 	$4.1 B 	61 	dairy farms 	Saudi Arabia
+#405 	Benu Gopal Bangur 	$4.1 B 	83 	cement 	India
+#405 	Patrizio Bertelli 	$4.1 B 	69 	luxury goods 	Italy
+#405 	David Consunji 	$4.1 B 	93 	construction 	Philippines
+#405 	Frits Goldschmeding 	$4.1 B 	81 	temp agency 	Netherlands
+#405 	Martha Ingram 	$4.1 B 	79 	book distribution, transportation 	United States
+#405 	Barry Lam 	$4.1 B 	65 	computers 	Taiwan
+#405 	John Morris 	$4.1 B 	66 	sporting goods retail 	United States
+#405 	Miuccia Prada 	$4.1 B 	65 	Prada 	Italy
+#405 	Mark Scheinberg 	$4.1 B 	41 	online gambling 	Canada
+#405 	David Shaw 	$4.1 B 	63 	hedge funds 	United States
+#405 	Donald Trump 	$4.1 B 	68 	television, real estate 	United States
+#405 	Zhang Shiping 	$4.1 B 	68 	aluminum products 	China
+#418 	Anil Ambani 	$4 B 	55 	diversified 	India
+#418 	Samvel Karapetyan 	$4 B 	49 	development 	Russia
+#418 	Jan Kulczyk 	$4 B 	65 	telecom, oil, beer 	Poland
+#418 	Tom & Judy Love 	$4 B 	77 	retail & gas stations 	United States
+#418 	Mohamed Mansour 	$4 B 	67 	diversified 	Egypt
+#418 	Mitchell Rales 	$4 B 	58 	manufacturing, investments 	United States
+#418 	Wolfgang Reimann 	$4 B 	62 	consumer goods 	Germany
+#418 	Matthias Reimann-Andersen 	$4 B 	49 	consumer goods 	Germany
+#418 	Stefan Reimann-Andersen 	$4 B 	51 	consumer goods 	Germany
+#418 	Renate Reimann-Haas 	$4 B 	63 	consumer goods 	Germany
+#418 	J. Christopher Reyes 	$4 B 	61 	food distribution 	United States
+#418 	Jude Reyes 	$4 B 	59 	food distribution 	United States
+#418 	Edward Roski, Jr. 	$4 B 	76 	real estate 	United States
+#418 	Reinhold Schmieding 	$4 B 	60 	medical devices 	United States
+#418 	Jerry Speyer 	$4 B 	74 	real estate 	United States
+#418 	Friede Springer 	$4 B 	72 	publishing 	Germany
+#418 	Sun Guangxin 	$4 B 	52 	diversified 	China
+#435 	Riley Bechtel 	$3.9 B 	62 	engineering, construction 	United States
+#435 	Stephen Bechtel, Jr. 	$3.9 B 	89 	engineering, construction 	United States
+#435 	Ralph Dommermuth 	$3.9 B 	51 	internet service provider 	Germany
+#435 	Bernard Ecclestone 	$3.9 B 	84 	Formula One 	United Kingdom
+#435 	Nathan Kirsh 	$3.9 B 	83 	retail, real estate 	Swaziland
+#435 	Vikram Lal 	$3.9 B 	73 	motorcycles 	India
+#435 	Lars Larsen 	$3.9 B 	66 	retail 	Denmark
+#435 	Ronald Lauder 	$3.9 B 	71 	Estee Lauder 	United States
+#435 	George Lindemann 	$3.9 B 	78 	investments 	United States
+#435 	Niels Peter Louis-Hansen 	$3.9 B 	67 	medical devices 	Denmark
+#435 	Pankaj Patel 	$3.9 B 	61 	pharmaceuticals 	India
+#435 	Bernard (Barry) Sherman 	$3.9 B 	73 	pharmaceuticals 	Canada
+#435 	Shi Yuzhu 	$3.9 B 	52 	online games, investments 	China
+#435 	Jeffrey Skoll 	$3.9 B 	50 	Ebay 	United States
+#435 	Frederick Smith 	$3.9 B 	70 	FedEx 	United States
+#435 	Andreas von Bechtolsheim 	$3.9 B 	59 	Google 	Germany
+#435 	Wang Chuanfu 	$3.9 B 	49 	batteries, autos 	China
+#452 	Chung Eui-Sun 	$3.8 B 	44 	logistics 	South Korea
+#452 	Israel Englander 	$3.8 B 	66 	hedge funds 	United States
+#452 	Dmitry Kamenshchik 	$3.8 B 	46 	airport 	Russia
+#452 	Bernard Marcus 	$3.8 B 	85 	Home Depot 	United States
+#452 	Brijmohan Lall Munjal 	$3.8 B 	91 	motorcycles 	India
+#452 	Daniel Och 	$3.8 B 	54 	hedge funds 	United States
+#452 	Terrence Pegula 	$3.8 B 	64 	natural gas 	United States
+#452 	Isaac Perlmutter 	$3.8 B 	72 	Marvel comics 	United States
+#452 	Krit Ratanarak 	$3.8 B 	68 	media, real estate 	Thailand
+#452 	Samuel Yin 	$3.8 B 	64 	diversified 	Taiwan
+#462 	Vanich Chaiyawan 	$3.7 B 	83 	insurance, beverages 	Thailand
+#462 	Francis Choi 	$3.7 B 	68 	real estate 	Hong Kong
+#462 	Leon G. Cooperman 	$3.7 B 	71 	hedge funds 	United States
+#462 	Antonio Del Valle Ruiz 	$3.7 B 	76 	chemicals 	Mexico
+#462 	Francisco Ivens de Sa Dias Branco 	$3.7 B 	80 	food production 	Brazil
+#462 	Traudl Engelhorn 	$3.7 B 	- 	pharmaceuticals/medical equipment 	Germany
+#462 	Ursula Engelhorn 	$3.7 B 	- 	pharmaceuticals/medical equipment 	Germany
+#462 	Huang Wei 	$3.7 B 	55 	real estate 	China
+#462 	James Jannard 	$3.7 B 	65 	sunglasses 	United States
+#462 	Fredrik Lundberg 	$3.7 B 	63 	real estate, investments 	Sweden
+#462 	Gwendolyn Sontheim Meyer 	$3.7 B 	53 	Cargill 	United States
+#462 	Akira Mori 	$3.7 B 	78 	real estate 	Japan
+#462 	Theo Mueller 	$3.7 B 	75 	dairy 	Germany
+#462 	H. Ross Perot, Sr. 	$3.7 B 	84 	computer services, real estate 	United States
+#462 	Steven Rales 	$3.7 B 	63 	manufacturing 	United States
+#462 	John Sall 	$3.7 B 	66 	software 	United States
+#462 	Lynn Schusterman 	$3.7 B 	76 	oil & gas, investments 	United States
+#462 	Ronda Stryker 	$3.7 B 	60 	medical equipment 	United States
+#462 	Steven Udvar-Hazy 	$3.7 B 	69 	aircraft leasing 	United States
+#481 	Martin & Olivier Bouygues 	$3.6 B 	- 	construction, media 	France
+#481 	Gustavo Cisneros 	$3.6 B 	69 	media 	Venezuela
+#481 	Jim Davis 	$3.6 B 	71 	New Balance 	United States
+#481 	Archie Aldis Emmerson 	$3.6 B 	85 	timberland, lumber mills 	United States
+#481 	John Gandel 	$3.6 B 	80 	shopping malls 	Australia
+#481 	Diane Hendricks 	$3.6 B 	68 	roofing 	United States
+#481 	Antti Herlin 	$3.6 B 	58 	elevators, escalators 	Finland
+#481 	Jeremy Jacobs, Sr. 	$3.6 B 	75 	sports concessions 	United States
+#481 	Elizabeth Mohn 	$3.6 B 	74 	media 	Germany
+#481 	Igor Olenicoff 	$3.6 B 	72 	real estate 	United States
+#481 	Anthony Pratt 	$3.6 B 	54 	manufacturing 	Australia
+#481 	Qiu Guanghe 	$3.6 B 	63 	apparel retail 	China
+#481 	Walter Scott, Jr. 	$3.6 B 	83 	utilities, telecom 	United States
+#481 	Sheldon Solow 	$3.6 B 	86 	real estate 	United States
+#481 	Steven Spielberg 	$3.6 B 	68 	Movies 	United States
+#481 	Yitzhak Tshuva 	$3.6 B 	66 	real estate 	Israel
+#497 	Mohammed Al Issa 	$3.5 B 	90 	investments 	Saudi Arabia
+#497 	Rahel Blocher 	$3.5 B 	39 	chemicals 	Switzerland
+#497 	Chey Tae-Won 	$3.5 B 	54 	computer services/telecoms 	South Korea
+#497 	Edward DeBartolo, Jr. 	$3.5 B 	68 	shopping centers 	United States
+#497 	Andrei Guriev 	$3.5 B 	54 	fertilizers 	Russia
+#497 	Ingvar Kamprad 	$3.5 B 	88 	Ikea 	Sweden
+#497 	Iskander Makhmudov 	$3.5 B 	51 	mining, metals, machinery 	Russia
+#497 	Alain Merieux 	$3.5 B 	77 	pharmaceuticals 	France
+#497 	Pan Zhengmin 	$3.5 B 	45 	electronics 	China
+#497 	Michael Platt 	$3.5 B 	46 	hedge Fund 	United Kingdom
+#497 	Viktor Rashnikov 	$3.5 B 	66 	steel 	Russia
+#497 	Haim Saban 	$3.5 B 	70 	TV network, investments 	United States
+#497 	Beny Steinmetz 	$3.5 B 	58 	mining, diamonds, real estate 	Israel
+#497 	Martin Viessmann 	$3.5 B 	61 	heating equipment 	Germany
+#497 	Zhang Changhong 	$3.5 B 	57 	finance information service 	China
+#512 	Brian Acton 	$3.4 B 	43 	WhatsApp 	United States
+#512 	Saif Al Ghurair 	$3.4 B 	- 	diversified 	United Arab Emirates
+#512 	Marc Benioff 	$3.4 B 	50 	business software 	United States
+#512 	John Doerr 	$3.4 B 	63 	venture capital 	United States
+#512 	Walter Faria 	$3.4 B 	59 	beer 	Brazil
+#512 	David Filo 	$3.4 B 	48 	Yahoo 	United States
+#512 	Christa Gelpke 	$3.4 B 	- 	pharmaceuticals 	Germany
+#512 	Masatoshi Ito 	$3.4 B 	90 	retail 	Japan
+#512 	Erich Kellerhals 	$3.4 B 	76 	electronics retailer 	Germany
+#512 	Suleiman Kerimov 	$3.4 B 	48 	investments 	Russia
+#512 	Mangal Prabhat Lodha 	$3.4 B 	59 	real estate 	India
+#512 	Magdalena Martullo-Blocher 	$3.4 B 	46 	chemicals 	Switzerland
+#512 	Clayton Mathile 	$3.4 B 	74 	pet food 	United States
+#512 	Anthony Pritzker 	$3.4 B 	54 	hotels, investments 	United States
+#512 	Jay Robert (J.B.) Pritzker 	$3.4 B 	50 	hotels, investments 	United States
+#512 	Julian Robertson, Jr. 	$3.4 B 	83 	hedge funds 	United States
+#512 	Kushal Pal Singh 	$3.4 B 	83 	real estate 	India
+#512 	Chee Chen Tung 	$3.4 B 	73 	shipping 	Hong Kong
+#512 	Wu Yajun 	$3.4 B 	51 	real estate 	China
+#512 	Steve Wynn 	$3.4 B 	73 	casinos, hotels 	United States
+#512 	Zhang Xin 	$3.4 B 	49 	real estate 	China
+#533 	Heinz-Georg Baus 	$3.4 B 	81 	home improvement stores 	Germany
+#534 	Austen Cargill, II. 	$3.3 B 	64 	Cargill 	United States
+#534 	James Cargill, II. 	$3.3 B 	65 	Cargill 	United States
+#534 	Isabel dos Santos 	$3.3 B 	41 	investments 	Angola
+#534 	Juan Carlos Escotet 	$3.3 B 	55 	banking 	Venezuela
+#534 	Dan Friedkin 	$3.3 B 	50 	Toyota dealerships 	United States
+#534 	Jiang Bin 	$3.3 B 	48 	acoustic components 	China
+#534 	Daryl Katz 	$3.3 B 	53 	pharmacies 	Canada
+#534 	Peter Kellogg 	$3.3 B 	72 	investments 	United States
+#534 	Li Zhongchu 	$3.3 B 	51 	software 	China
+#534 	Marianne Liebmann 	$3.3 B 	61 	Cargill 	United States
+#534 	Najib Mikati 	$3.3 B 	59 	telecom 	Lebanon
+#534 	Taha Mikati 	$3.3 B 	70 	telecom 	Lebanon
+#534 	Masahiro Miki 	$3.3 B 	59 	retail 	Japan
+#534 	Shigenobu Nagamori 	$3.3 B 	70 	motors 	Japan
+#534 	Axel Oberwelland 	$3.3 B 	48 	candy 	Germany
+#534 	Pang Kang 	$3.3 B 	59 	soy sauce maker 	China
+#534 	Michael Pieper 	$3.3 B 	69 	kitchen appliances 	Switzerland
+#534 	Leandro Rizzuto 	$3.3 B 	76 	consumer products 	United States
+#534 	Teddy Sagi 	$3.3 B 	43 	gambling software 	Israel
+#534 	Stephan Schmidheiny 	$3.3 B 	67 	investments 	Switzerland
+#534 	Harry Stine 	$3.3 B 	73 	agriculture 	United States
+#534 	Andreas Struengmann 	$3.3 B 	65 	pharmaceuticals 	Germany
+#534 	Thomas Struengmann 	$3.3 B 	65 	pharmaceuticals 	Germany
+#557 	Abdulla Al Futtaim 	$3.2 B 	- 	auto dealers, investments 	United Arab Emirates
+#557 	Bubba Cathy 	$3.2 B 	60 	Chick-Fil-A 	United States
+#557 	Dan Cathy 	$3.2 B 	62 	Chick-Fil-A 	United States
+#557 	Jason Chang 	$3.2 B 	70 	electronics 	Singapore
+#557 	Dagmar Dolby 	$3.2 B 	73 	Dolby Laboratories 	United States
+#557 	Doris Fisher 	$3.2 B 	83 	Gap 	United States
+#557 	Tom Gores 	$3.2 B 	50 	private equity 	United States
+#557 	Jia Yueting 	$3.2 B 	42 	online video 	China
+#557 	Mary Alice Dorrance Malone 	$3.2 B 	65 	Campbell Soup 	United States
+#557 	Yuri Milner 	$3.2 B 	53 	Facebook 	Russia
+#557 	Kerr Neilson 	$3.2 B 	65 	investment 	Australia
+#557 	Thomas Pritzker 	$3.2 B 	64 	hotels, investments 	United States
+#557 	Robert Rich, Jr. 	$3.2 B 	74 	frozen foods 	United States
+#557 	Renzo Rosso 	$3.2 B 	59 	Diesel jeans 	Italy
+#557 	Zygmunt Solorz-Zak 	$3.2 B 	58 	TV broadcasting 	Poland
+#557 	Jeff Sutton 	$3.2 B 	55 	real estate 	United States
+#557 	Joan Tisch 	$3.2 B 	89 	diversified 	United States
+#557 	Roger Wang 	$3.2 B 	66 	retail 	United States
+#557 	Wang Wenxue 	$3.2 B 	47 	real estate 	China
+#557 	Zhu Xingliang 	$3.2 B 	55 	construction 	China
+#577 	Emilio Azcarraga Jean 	$3.1 B 	47 	media 	Mexico
+#577 	John Catsimatidis 	$3.1 B 	66 	oil, real estate, supermarkets 	United States
+#577 	Jean Pierre Cayard 	$3.1 B 	72 	Spirits 	France
+#577 	Ray Davis 	$3.1 B 	73 	pipelines 	United States
+#577 	Stanley Druckenmiller 	$3.1 B 	61 	hedge funds 	United States
+#577 	Jaime Gilinski Bacal 	$3.1 B 	57 	banking 	Colombia
+#577 	Erivan Haub 	$3.1 B 	82 	retail 	Germany
+#577 	Amos Hostetter, Jr. 	$3.1 B 	78 	cable television 	United States
+#577 	Huang Rulun 	$3.1 B 	63 	real estate 	China
+#577 	Johan Johannson 	$3.1 B 	48 	grocery wholesaling 	Norway
+#577 	H. Fisk Johnson 	$3.1 B 	56 	cleaning products 	United States
+#577 	Imogene Powers Johnson 	$3.1 B 	85 	cleaning products 	United States
+#577 	S. Curtis Johnson 	$3.1 B 	59 	cleaning products 	United States
+#577 	Helen Johnson-Leipold 	$3.1 B 	58 	cleaning products 	United States
+#577 	Winnie Johnson-Marquart 	$3.1 B 	55 	cleaning products 	United States
+#577 	John Kapoor 	$3.1 B 	71 	healthcare 	United States
+#577 	David Murdock 	$3.1 B 	91 	Dole, real estate 	United States
+#577 	Jorge Perez 	$3.1 B 	65 	condos 	United States
+#577 	Kevin Plank 	$3.1 B 	42 	Under Armour 	United States
+#577 	Issad Rebrab 	$3.1 B 	71 	food 	Algeria
+#577 	Naguib Sawiris 	$3.1 B 	60 	telecom 	Egypt
+#577 	Alexander Svetakov 	$3.1 B 	47 	banking, real estate 	Russia
+#577 	Tang Yiu 	$3.1 B 	81 	retail 	Hong Kong
+#577 	Alfred Taubman 	$3.1 B 	91 	real estate 	United States
+#577 	Yu Yong 	$3.1 B 	54 	mining investments 	China
+#577 	Eddie & Sol Zakay 	$3.1 B 	64 	real estate 	United Kingdom
+#603 	Neil Bluhm 	$3 B 	77 	real estate 	United States
+#603 	Richard Chandler 	$3 B 	56 	investments 	New Zealand
+#603 	Andrew & Peggy Cherng 	$3 B 	- 	restaurants 	United States
+#603 	Mark Cuban 	$3 B 	56 	online media 	United States
+#603 	Aloysio de Andrade Faria 	$3 B 	94 	banking 	Brazil
+#603 	Jeff Greene 	$3 B 	60 	real estate, investments 	United States
+#603 	Indu Jain 	$3 B 	78 	media 	India
+#603 	Min Kao 	$3 B 	66 	navigation equipment 	United States
+#603 	Igor Kesaev 	$3 B 	48 	tobacco distribution, retail 	Russia
+#603 	William Koch 	$3 B 	74 	oil, investments 	United States
+#603 	James Leprino 	$3 B 	77 	cheese 	United States
+#603 	Sudhir & Samir Mehta 	$3 B 	- 	diversified 	India
+#603 	Karl-Johan Persson 	$3 B 	39 	H&M 	Sweden
+#603 	Tom Persson 	$3 B 	30 	H&M 	Sweden
+#603 	David Rockefeller, Sr. 	$3 B 	99 	oil, banking 	United States
+#603 	Wilbur Ross, Jr. 	$3 B 	77 	investments 	United States
+#603 	Stephen Rubin 	$3 B 	77 	sports apparel 	United Kingdom
+#603 	Shaul Shani 	$3 B 	60 	technology 	Israel
+#603 	Charlotte Soderstrom 	$3 B 	38 	H&M 	Sweden
+#603 	Daniel Tsai 	$3 B 	58 	finance 	Taiwan
+#603 	Richard Tsai 	$3 B 	57 	finance 	Taiwan
+#603 	Hans Peter Wild 	$3 B 	73 	Wild Flavors GmbH 	Germany
+#603 	Oprah Winfrey 	$3 B 	61 	Television 	United States
+#603 	Ye Chenghai 	$3 B 	71 	pharmaceuticals 	Hong Kong
+#603 	Yeoh Tiong Lay 	$3 B 	85 	construction, real estate 	Malaysia
+#628 	Syed Mokhtar AlBukhary 	$2.9 B 	63 	diversified 	Malaysia
+#628 	Carlo Benetton 	$2.9 B 	71 	clothing, investments 	Italy
+#628 	Gilberto Benetton 	$2.9 B 	73 	clothing, investments 	Italy
+#628 	Giuliana Benetton 	$2.9 B 	77 	clothing, investments 	Italy
+#628 	Luciano Benetton 	$2.9 B 	79 	clothing, investments 	Italy
+#628 	David Cheriton 	$2.9 B 	63 	Google 	Canada
+#628 	William Conway, Jr. 	$2.9 B 	65 	private equity 	United States
+#628 	Daniel D'Aniello 	$2.9 B 	68 	private equity 	United States
+#628 	Jack Dangermond 	$2.9 B 	69 	mapping software 	United States
+#628 	Giuseppe De'Longhi 	$2.9 B 	75 	coffee makers 	Italy
+#628 	Andre Esteves 	$2.9 B 	46 	banking 	Brazil
+#628 	John Fisher 	$2.9 B 	53 	Gap 	United States
+#628 	Rosa Anna Magno Garavoglia 	$2.9 B 	- 	spirits 	Italy
+#628 	Guenter Herz & Family 	$2.9 B 	74 	coffee 	Germany
+#628 	Daniela Herz 	$2.9 B 	61 	coffee 	Germany
+#628 	Kim Beom-su 	$2.9 B 	48 	mobile chat service 	South Korea
+#628 	Edward Lampert 	$2.9 B 	52 	Sears 	United States
+#628 	Samuel Tak Lee 	$2.9 B 	75 	real estate 	Hong Kong
+#628 	Edwin Leong 	$2.9 B 	63 	real estate 	Hong Kong
+#628 	Youssef Mansour 	$2.9 B 	69 	diversified 	Egypt
+#628 	Sergio Mantegazza 	$2.9 B 	87 	travel 	Switzerland
+#628 	Kalanithi Maran 	$2.9 B 	49 	media 	India
+#628 	Siegfried Meister 	$2.9 B 	76 	appliances 	Germany
+#628 	Dirk Rossmann 	$2.9 B 	68 	drugstore chain 	Germany
+#628 	David Rubenstein 	$2.9 B 	65 	private equity 	United States
+#628 	Michael & Rainer Schmidt-Ruthenbeck 	$2.9 B 	- 	retail 	Germany
+#628 	Richard Schulze 	$2.9 B 	74 	Best Buy 	United States
+#628 	Shin Chang-Jae 	$2.9 B 	61 	insurance 	South Korea
+#628 	Herbert Simon 	$2.9 B 	80 	real estate 	United States
+#628 	Warren Stephens 	$2.9 B 	58 	investment banking 	United States
+#628 	Donald Sterling 	$2.9 B 	79 	real estate 	United States
+#628 	Wang Wenjing 	$2.9 B 	50 	enterprise software 	China
+#628 	John Whittaker 	$2.9 B 	72 	real estate 	United Kingdom
+#628 	Evan Williams 	$2.9 B 	42 	Twitter 	United States
+#628 	Xue Xiangdong 	$2.9 B 	56 	software 	China
+#663 	Yvonne Bauer 	$2.8 B 	37 	media 	Germany
+#663 	Chen Fashu 	$2.8 B 	54 	mining, hypermarkets 	China
+#663 	John Paul DeJoria 	$2.8 B 	71 	hair products, tequila 	United States
+#663 	Judy Faulkner 	$2.8 B 	71 	health IT 	United States
+#663 	Ken Fisher 	$2.8 B 	64 	money management 	United States
+#663 	Lindsay Fox 	$2.8 B 	77 	transport 	Australia
+#663 	Andreas Halvorsen 	$2.8 B 	53 	hedge funds 	Norway
+#663 	Peter Hargreaves 	$2.8 B 	68 	financial services 	United Kingdom
+#663 	Jimmy Haslam 	$2.8 B 	61 	retail 	United States
+#663 	Hortensia Herrero 	$2.8 B 	64 	supermarkets 	Spain
+#663 	Huang Shih Tsai 	$2.8 B 	63 	real estate 	Hong Kong
+#663 	Hui Lin Chit 	$2.8 B 	61 	hygiene products 	China
+#663 	Saleh Kamel 	$2.8 B 	73 	diversified 	Saudi Arabia
+#663 	Law Kar Po 	$2.8 B 	67 	real estate 	Hong Kong
+#663 	Ma Jianrong 	$2.8 B 	51 	textiles, apparel 	China
+#663 	Wolfgang Marguerre 	$2.8 B 	74 	pharmaceuticals 	Germany
+#663 	Bernardo Matte 	$2.8 B 	59 	paper 	Chile
+#663 	Eliodoro Matte 	$2.8 B 	69 	paper 	Chile
+#663 	Patricia Matte 	$2.8 B 	71 	paper 	Chile
+#663 	Martin Naughton 	$2.8 B 	75 	heating equipment 	Ireland
+#663 	Prasert Prasarttong-Osoth 	$2.8 B 	81 	hospitals 	Thailand
+#663 	Qi Shi 	$2.8 B 	45 	internet portal 	China
+#663 	Richard Rainwater 	$2.8 B 	70 	real estate, energy, insurance 	United States
+#663 	Vivek Chaand Sehgal 	$2.8 B 	58 	auto parts 	Australia
+#663 	Sze Man Bok 	$2.8 B 	65 	hygiene products 	China
+#663 	Vladimir Yevtushenkov 	$2.8 B 	66 	telecom 	Russia
+#663 	Michael Ying 	$2.8 B 	65 	retail 	Hong Kong
+#690 	Robert Bass 	$2.7 B 	67 	oil, investments 	United States
+#690 	Stephen Bisciotti 	$2.7 B 	54 	outsourcing, football 	United States
+#690 	George Bishop 	$2.7 B 	78 	oil & gas 	United States
+#690 	Bernard Broermann 	$2.7 B 	71 	healthcare 	Germany
+#690 	Eva Maria Bucher-Haefner 	$2.7 B 	58 	Computer Associates 	Switzerland
+#690 	Hubert Burda 	$2.7 B 	75 	publishing 	Germany
+#690 	Jack Dorsey 	$2.7 B 	38 	Twitter 	United States
+#690 	Charles Dunstone 	$2.7 B 	51 	mobile phones 	United Kingdom
+#690 	Philippe Foriel-Destezet 	$2.7 B 	79 	employment agency 	France
+#690 	Martin Haefner 	$2.7 B 	61 	technology, investments 	Switzerland
+#690 	Otto Happel 	$2.7 B 	67 	engineering 	Germany
+#690 	Joshua Harris 	$2.7 B 	50 	private equity 	United States
+#690 	Heidi Horten 	$2.7 B 	74 	retail 	Austria
+#690 	Hanni Toosbuy Kasprzak 	$2.7 B 	57 	shoes 	Denmark
+#690 	Liu Zhongtian 	$2.7 B 	51 	aluminum products 	China
+#690 	Friedhelm Loh 	$2.7 B 	68 	manufacturing 	Germany
+#690 	Ronald McAulay 	$2.7 B 	78 	diversified 	Hong Kong
+#690 	Lorenzo Mendoza 	$2.7 B 	49 	beverages 	Venezuela
+#690 	Husnu Ozyegin 	$2.7 B 	70 	finance, diversified 	Turkey
+#690 	A. Jerrold Perenchio 	$2.7 B 	84 	television, Univision 	United States
+#690 	Michael Rubin 	$2.7 B 	42 	online retailing 	United States
+#690 	Tony Tan Caktiong 	$2.7 B 	62 	fast food 	Philippines
+#690 	Wang Yusuo 	$2.7 B 	50 	natural gas distribution 	China
+#690 	Christoph Zeller 	$2.7 B 	- 	dental implants 	Germany
+#714 	John Arnold 	$2.6 B 	40 	hedge funds 	United States
+#714 	Semahat Sevim Arsel 	$2.6 B 	86 	diversified 	Turkey
+#714 	Carl Bennet 	$2.6 B 	63 	investments 	Sweden
+#714 	David Bonderman 	$2.6 B 	72 	private equity 	United States
+#714 	Ron Burkle 	$2.6 B 	62 	supermarkets, investments 	United States
+#714 	John Caudwell 	$2.6 B 	62 	mobile phones 	United Kingdom
+#714 	Bharat Desai 	$2.6 B 	62 	Outsourcing 	United States
+#714 	John Dorrance, III. 	$2.6 B 	71 	Campbell Soup 	Ireland
+#714 	H. Wayne Huizenga 	$2.6 B 	77 	investments 	United States
+#714 	Baba Kalyani 	$2.6 B 	66 	engineering 	India
+#714 	Leng Beng Kwek 	$2.6 B 	74 	real estate 	Singapore
+#714 	Kenneth Langone 	$2.6 B 	79 	investments 	United States
+#714 	Michel Leclercq 	$2.6 B 	75 	sporting goods 	France
+#714 	Michael Moritz 	$2.6 B 	60 	venture capital 	United States
+#714 	Rajan Raheja 	$2.6 B 	60 	diversified 	India
+#714 	Mochtar Riady 	$2.6 B 	85 	diversified 	Indonesia
+#714 	Patrick Ryan 	$2.6 B 	77 	insurance 	United States
+#714 	Bernard Saul, II. 	$2.6 B 	82 	banking, real estate 	United States
+#714 	Vichai Srivaddhanaprabha 	$2.6 B 	57 	duty-free 	Thailand
+#714 	Michael Stoschek 	$2.6 B 	67 	autoparts 	Germany
+#714 	Bulat Utemuratov 	$2.6 B 	57 	mining, banking, hotels 	Kazakhstan
+#714 	William Wrigley, Jr. 	$2.6 B 	51 	chewing gum 	United States
+#714 	Mortimer Zuckerman 	$2.6 B 	77 	real estate, media 	United States
+#737 	William Ackman 	$2.5 B 	48 	hedge funds 	United States
+#737 	Andrej Babis 	$2.5 B 	60 	agriculture 	Czech Republic
+#737 	Rahul Bajaj 	$2.5 B 	76 	motorcycles 	India
+#737 	Marie Besnier Beauvalot 	$2.5 B 	34 	cheese 	France
+#737 	Jean-Michel Besnier 	$2.5 B 	47 	cheese 	France
+#737 	Arthur Blank 	$2.5 B 	72 	Home Depot 	United States
+#737 	Alain Bouchard 	$2.5 B 	66 	retail 	Canada
+#737 	Karen Johnson Boyd 	$2.5 B 	90 	cleaning products 	United States
+#737 	Peter Buck 	$2.5 B 	84 	Subway sandwich shops 	United States
+#737 	Clive Calder 	$2.5 B 	68 	record label 	United Kingdom
+#737 	Silas Chou 	$2.5 B 	68 	apparel 	Hong Kong
+#737 	Denise Coates 	$2.5 B 	47 	online gambling 	United Kingdom
+#737 	Jose Luis Cutrale 	$2.5 B 	68 	orange juice 	Brazil
+#737 	Fred DeLuca 	$2.5 B 	67 	Subway sandwich shops 	United States
+#737 	Tilman Fertitta 	$2.5 B 	57 	restaurants, casinos 	United States
+#737 	Alexandre Grendene Bartelle 	$2.5 B 	65 	shoes 	Brazil
+#737 	Henry Hillman 	$2.5 B 	96 	investments 	United States
+#737 	B. Wayne Hughes 	$2.5 B 	81 	self storage 	United States
+#737 	Mustafa Rahmi Koc 	$2.5 B 	84 	diversified 	Turkey
+#737 	Daniel Loeb 	$2.5 B 	53 	hedge funds 	United States
+#737 	Lu Xiangyang 	$2.5 B 	52 	automobiles, batteries 	China
+#737 	Alexander Mamut 	$2.5 B 	55 	investments 	Russia
+#737 	Thomas Meyer 	$2.5 B 	- 	apparel retailer 	Switzerland
+#737 	Michael Milken 	$2.5 B 	68 	investments 	United States
+#737 	Robert Miller 	$2.5 B 	69 	electronics components 	Canada
+#737 	Ermirio Pereira de Moraes 	$2.5 B 	82 	diversified 	Brazil
+#737 	Maria Helena Moraes Scripilliti 	$2.5 B 	84 	diversified 	Brazil
+#737 	Yoshiko Mori 	$2.5 B 	74 	real estate 	Japan
+#737 	Alexander Nesis 	$2.5 B 	52 	metals, banking, fertilizers 	Russia
+#737 	Philip Niarchos 	$2.5 B 	61 	art collection 	Greece
+#737 	Stefan Olsson 	$2.5 B 	66 	diversified 	Sweden
+#737 	Sean Parker 	$2.5 B 	35 	Facebook 	United States
+#737 	Mary & Douglas Perkins 	$2.5 B 	- 	retail 	United Kingdom
+#737 	Sebastian Pinera 	$2.5 B 	65 	investments 	Chile
+#737 	Jean (Gigi) Pritzker 	$2.5 B 	53 	hotels, investments 	United States
+#737 	Penny Pritzker 	$2.5 B 	55 	hotels, investments 	United States
+#737 	Marc Rowan 	$2.5 B 	53 	private equity 	United States
+#737 	Ferit Faik Sahenk 	$2.5 B 	50 	banking, media 	Turkey
+#737 	Alvaro Saieh Bendeck 	$2.5 B 	65 	banking 	Chile
+#737 	Carlos Sanchez 	$2.5 B 	53 	generic drugs 	Brazil
+#737 	Howard Schultz 	$2.5 B 	61 	Starbucks 	United States
+#737 	Romesh T. Wadhwani 	$2.5 B 	67 	software 	United States
+#737 	Dean White 	$2.5 B 	91 	billboards, hotels 	United States
+#737 	M.A. Yusuff Ali 	$2.5 B 	59 	retail 	India
+#781 	Guenther Lehmann 	$2.5 B 	- 	drug stores 	Germany
+#782 	Chang Yun Chung 	$2.4 B 	96 	shipping 	Singapore
+#782 	Jean Coutu 	$2.4 B 	87 	pharmacies 	Canada
+#782 	Ashwin Dani 	$2.4 B 	72 	paints 	India
+#782 	Edson de Godoy Bueno 	$2.4 B 	71 	hospitals, health care 	Brazil
+#782 	James Dinan 	$2.4 B 	55 	hedge funds 	United States
+#782 	Tom Golisano 	$2.4 B 	73 	payroll services 	United States
+#782 	Mikhail Gutseriev 	$2.4 B 	56 	oil, real estate 	Russia
+#782 	Carlos Hank Rhon 	$2.4 B 	67 	banking 	Mexico
+#782 	Timothy Headington 	$2.4 B 	64 	oil & gas, investments 	United States
+#782 	Ingeburg Herz 	$2.4 B 	93 	coffee 	Germany
+#782 	Spiro Latsis 	$2.4 B 	68 	banking, shipping 	Greece
+#782 	Patrick Lee 	$2.4 B 	73 	paper 	Hong Kong
+#782 	Li Shufu 	$2.4 B 	51 	automobiles 	China
+#782 	Robert McNair 	$2.4 B 	78 	energy, sports 	United States
+#782 	Erwin Franz Mueller 	$2.4 B 	82 	drug stores 	Germany
+#782 	Rishad Naoroji 	$2.4 B 	63 	consumer goods 	India
+#782 	Ravi Pillai 	$2.4 B 	61 	construction 	India
+#782 	Alexander Ponomarenko 	$2.4 B 	50 	port 	Russia
+#782 	Henry Samueli 	$2.4 B 	60 	semiconductors 	United States
+#782 	Alexandra Schorghuber 	$2.4 B 	56 	real estate 	Germany
+#782 	Alexander Skorobogatko 	$2.4 B 	47 	port 	Russia
+#782 	Maria Luisa Solari Falabella 	$2.4 B 	74 	retail 	Chile
+#782 	Lawrence Stroll 	$2.4 B 	55 	retail 	Canada
+#782 	Sarik Tara 	$2.4 B 	84 	construction 	Turkey
+#782 	Glen Taylor 	$2.4 B 	73 	printing 	United States
+#782 	Ty Warner 	$2.4 B 	70 	real estate, plush toys 	United States
+#782 	Arne Wilhelmsen 	$2.4 B 	84 	cruise ships 	Norway
+#782 	Nicholas Woodman 	$2.4 B 	39 	video cameras 	United States
+#810 	John Arrillaga 	$2.3 B 	77 	real estate 	United States
+#810 	Koos Bekker 	$2.3 B 	62 	media, investments 	South Africa
+#810 	Othman Benjelloun 	$2.3 B 	82 	banking, insurance 	Morocco
+#810 	Charles Bronfman 	$2.3 B 	83 	liquor 	Canada
+#810 	Chen Jinxia 	$2.3 B 	46 	investments 	China
+#810 	Lucio and Susan Co 	$2.3 B 	60 	Retailing 	Philippines
+#810 	Kuldip Singh & Gurbachan Singh Dhingra 	$2.3 B 	- 	paints 	India
+#810 	Barry Diller 	$2.3 B 	73 	online media 	United States
+#810 	Bennett Dorrance 	$2.3 B 	69 	Campbell Soup 	United States
+#810 	Robert Duggan 	$2.3 B 	70 	pharmaceuticals 	United States
+#810 	Fong Yun Wah 	$2.3 B 	90 	real estate 	Hong Kong
+#810 	Bernd Freier 	$2.3 B 	58 	retail 	Germany
+#810 	Bill Gross 	$2.3 B 	70 	investments 	United States
+#810 	Don Hankey 	$2.3 B 	71 	auto loans 	United States
+#810 	Bahaa Hariri 	$2.3 B 	48 	real estate, investments, logistics 	Lebanon
+#810 	Johnelle Hunt 	$2.3 B 	83 	trucking 	United States
+#810 	Huo Qinghua 	$2.3 B 	53 	coal 	China
+#810 	Vyacheslav Kantor 	$2.3 B 	61 	fertilizer, real estate 	Russia
+#810 	Ke Xiping 	$2.3 B 	54 	investments 	China
+#810 	Alicia Koplowitz 	$2.3 B 	60 	construction, investments 	Spain
+#810 	Miguel Krigsner 	$2.3 B 	65 	cosmetics 	Brazil
+#810 	Raj Kumar & Kishin RK 	$2.3 B 	60 	real estate 	Singapore
+#810 	Khoon Hong Kuok 	$2.3 B 	65 	palm oil 	Singapore
+#810 	Stephen Mandel, Jr. 	$2.3 B 	58 	hedge funds 	United States
+#810 	Yasseen Mansour 	$2.3 B 	53 	diversified 	Egypt
+#810 	Maja Oeri 	$2.3 B 	60 	Roche Holding 	Switzerland
+#810 	Richard Peery 	$2.3 B 	76 	real estate 	United States
+#810 	P.V. Ramprasad Reddy 	$2.3 B 	56 	pharmaceuticals 	India
+#810 	Gary Rollins 	$2.3 B 	70 	pest control 	United States
+#810 	Randall Rollins 	$2.3 B 	83 	pest control 	United States
+#810 	Thomas Siebel 	$2.3 B 	62 	business software 	United States
+#810 	Malvinder & Shivinder Singh 	$2.3 B 	- 	healthcare 	India
+#810 	Peter Sondakh 	$2.3 B 	63 	investments 	Indonesia
+#810 	Song Zuowen 	$2.3 B 	67 	aluminum, diversified 	China
+#810 	Clemmie Spangler, Jr. 	$2.3 B 	82 	investments 	United States
+#810 	Tsai Hong-tu 	$2.3 B 	62 	finance 	Taiwan
+#810 	Wang Changtian 	$2.3 B 	49 	TV, movie production 	China
+#847 	Bernardo Caprotti 	$2.2 B 	89 	grocery stores 	Italy
+#847 	Tatiana Casiraghi 	$2.2 B 	31 	beer 	United States
+#847 	Michel Chalhoub 	$2.2 B 	83 	retail 	France
+#847 	Chu Lam Yiu 	$2.2 B 	45 	flavorings 	Hong Kong
+#847 	James Coulter 	$2.2 B 	55 	private equity 	United States
+#847 	Edgar de Picciotto 	$2.2 B 	85 	private banking 	Switzerland
+#847 	Rafael Del Pino y Calvo-Sotelo 	$2.2 B 	56 	construction 	Spain
+#847 	John Farber 	$2.2 B 	89 	chemicals 	United States
+#847 	Andrew Forrest 	$2.2 B 	53 	mining 	Australia
+#847 	Fu Liquan 	$2.2 B 	47 	surveillance equipment 	China
+#847 	Victor Fung 	$2.2 B 	69 	trading company 	United States
+#847 	William Fung 	$2.2 B 	66 	sourcing 	Hong Kong
+#847 	Mitchell Goldhar 	$2.2 B 	53 	real estate 	Canada
+#847 	Hoang Kieu 	$2.2 B 	70 	pharmaceuticals 	United States
+#847 	Alijan Ibragimov 	$2.2 B 	61 	mining, metals 	Kazakhstan
+#847 	Erman Ilicak 	$2.2 B 	47 	construction 	Turkey
+#847 	Michael Jaharis 	$2.2 B 	86 	pharmaceuticals 	United States
+#847 	Suna Kirac 	$2.2 B 	73 	diversified 	Turkey
+#847 	Manuel Lao Hernandez 	$2.2 B 	70 	gambling 	Spain
+#847 	Louis Le Duff 	$2.2 B 	68 	bakeries 	France
+#847 	Lee Boo-Jin 	$2.2 B 	44 	computer services/tourism 	South Korea
+#847 	Lee Jay-Hyun 	$2.2 B 	54 	food products/entertainment 	South Korea
+#847 	Douglas Leone 	$2.2 B 	57 	venture capital 	United States
+#847 	Herbert Louis 	$2.2 B 	86 	cleaning products 	United States
+#847 	Josephine Louis 	$2.2 B 	84 	cleaning products 	United States
+#847 	Alexander Machkevich 	$2.2 B 	61 	mining, metals 	Israel
+#847 	Joe Mansueto 	$2.2 B 	58 	investment research 	United States
+#847 	Drayton McLane, Jr. 	$2.2 B 	78 	Wal-Mart, logistics 	United States
+#847 	Hans Melchers 	$2.2 B 	76 	chemicals, investments 	Netherlands
+#847 	C. Dean Metropoulos 	$2.2 B 	68 	investments 	United States
+#847 	Patrice Motsepe 	$2.2 B 	53 	mining 	South Africa
+#847 	Daniel Pritzker 	$2.2 B 	56 	hotels, investments 	United States
+#847 	John Pritzker 	$2.2 B 	62 	hotels, investments 	United States
+#847 	Chandru Raheja 	$2.2 B 	74 	real estate 	India
+#847 	Helena Revoredo 	$2.2 B 	68 	insurance 	Spain
+#847 	Larry Robbins 	$2.2 B 	45 	hedge funds 	United States
+#847 	Filiz Sahenk 	$2.2 B 	48 	bank, media 	Turkey
+#847 	Julio Mario Santo Domingo, III. 	$2.2 B 	29 	beer 	United States
+#847 	Fayez Sarofim 	$2.2 B 	86 	money management 	United States
+#847 	Gil Shwed 	$2.2 B 	47 	software 	Israel
+#847 	Peter Spuhler 	$2.2 B 	55 	manufacturing 	Switzerland
+#847 	Pat Stryker 	$2.2 B 	58 	medical equipment 	United States
+#847 	Peter Thiel 	$2.2 B 	47 	Facebook 	United States
+#847 	Clemens Toennies 	$2.2 B 	58 	meat processing 	Germany
+#847 	Ted Turner 	$2.2 B 	76 	cable television 	United States
+#847 	Chip Wilson 	$2.2 B 	58 	Lululemon 	Canada
+#847 	Anita Zucker 	$2.2 B 	63 	chemicals 	United States
+#894 	S. Daniel Abraham 	$2.1 B 	90 	Slim-Fast 	United States
+#894 	Sulaiman Al Rajhi 	$2.1 B 	87 	banking 	Saudi Arabia
+#894 	Ron Baron 	$2.1 B 	71 	money management 	United States
+#894 	Jim Breyer 	$2.1 B 	53 	venture capital 	United States
+#894 	John Brown 	$2.1 B 	80 	medical equipment 	United States
+#894 	Cai Kui 	$2.1 B 	52 	real estate 	China
+#894 	Jose and Francisco Jose Calderon Rojas 	$2.1 B 	60 	beverages 	Mexico
+#894 	Francesco Gaetano Caltagirone 	$2.1 B 	71 	cement, diversified 	Italy
+#894 	Chase Coleman, III. 	$2.1 B 	39 	hedge fund 	United States
+#894 	Ennio Doris 	$2.1 B 	74 	financial services 	Italy
+#894 	Feng Hailiang 	$2.1 B 	54 	copper processing, real estate 	China
+#894 	Gerald Ford 	$2.1 B 	70 	banking 	United States
+#894 	James France 	$2.1 B 	70 	Nascar, racing 	United States
+#894 	Jean Claude Gandur 	$2.1 B 	66 	oil trading, exploration 	Switzerland
+#894 	Gordon Getty 	$2.1 B 	81 	Getty Oil 	United States
+#894 	Sam Goi 	$2.1 B 	66 	frozen foods 	Singapore
+#894 	Alec Gores 	$2.1 B 	61 	private equity 	United States
+#894 	Noam Gottesman 	$2.1 B 	53 	hedge funds 	United States
+#894 	Esther Grether 	$2.1 B 	79 	art collection, Swatch 	Switzerland
+#894 	Susan Hirt Hagen 	$2.1 B 	79 	insurance 	United States
+#894 	Rakesh Jhunjhunwala 	$2.1 B 	54 	investments 	India
+#894 	Bruce Karsh 	$2.1 B 	59 	private equity 	United States
+#894 	Brad Kelley 	$2.1 B 	58 	tobacco 	United States
+#894 	Habil Khorakiwala 	$2.1 B 	72 	pharmaceuticals 	India
+#894 	Timur Kulibaev 	$2.1 B 	48 	banking 	Kazakhstan
+#894 	Dinara Kulibaeva 	$2.1 B 	47 	banking 	Kazakhstan
+#894 	Marc Ladreit de Lacharriere 	$2.1 B 	74 	finance 	France
+#894 	Christos Lazari 	$2.1 B 	68 	real estate 	United Kingdom
+#894 	Lee Seo-Hyun 	$2.1 B 	41 	computer services/tourism 	South Korea
+#894 	Rodney Lewis 	$2.1 B 	61 	natural gas 	United States
+#894 	Li Liufa 	$2.1 B 	57 	steel, diversified 	China
+#894 	Liang Xinjun 	$2.1 B 	47 	diversified 	China
+#894 	Igor Makarov 	$2.1 B 	52 	gas 	Russia
+#894 	Howard Marks 	$2.1 B 	68 	private equity 	United States
+#894 	Daniel Mate 	$2.1 B 	51 	mining, commodities 	Spain
+#894 	Aristotelis Mistakidis 	$2.1 B 	53 	mining, commodities 	Greece
+#894 	Fernando Roberto Moreira Salles 	$2.1 B 	68 	banking, minerals 	Brazil
+#894 	Joao Moreira Salles 	$2.1 B 	53 	banking, minerals 	Brazil
+#894 	Walther Moreira Salles Junior 	$2.1 B 	58 	banking, minerals 	Brazil
+#894 	Pedro Moreira Salles 	$2.1 B 	55 	banking, minerals 	Brazil
+#894 	Farhad Moshiri 	$2.1 B 	59 	diversified 	United Kingdom
+#894 	N.R. Narayana Murthy 	$2.1 B 	68 	software services 	India
+#894 	Jonathan Nelson 	$2.1 B 	58 	private equity 	United States
+#894 	Julio Ponce 	$2.1 B 	69 	fertilizer 	Chile
+#894 	Carlos Rodriguez-Pastor 	$2.1 B 	55 	finance 	Peru
+#894 	Stephen Saad 	$2.1 B 	50 	pharmaceuticals 	South Africa
+#894 	Shen Guojun 	$2.1 B 	52 	retail 	China
+#894 	Helmut Sohmen 	$2.1 B 	75 	shipping 	Austria
+#894 	Sun Piaoyang 	$2.1 B 	56 	pharmaceuticals 	China
+#894 	Tsai Cheng-da 	$2.1 B 	- 	finance 	Taiwan
+#894 	T.Y. Tsai 	$2.1 B 	- 	finance 	Taiwan
+#894 	Wim Van Der Leegte 	$2.1 B 	67 	manufacturing 	Netherlands
+#894 	Wei Ing-Chou 	$2.1 B 	62 	food, beverages 	Taiwan
+#894 	Russ Weiner 	$2.1 B 	45 	energy drinks 	United States
+#894 	Xiao Wenge 	$2.1 B 	48 	entertainment 	China
+#949 	Mohamed Al Fayed 	$2 B 	86 	retail, investments 	Egypt
+#949 	Folorunsho Alakija 	$2 B 	64 	oil 	Nigeria
+#949 	Vasily Anisimov 	$2 B 	63 	metals, real estate 	Russia
+#949 	Carlos Ardila Lulle 	$2 B 	84 	soft drinks, diversified 	Colombia
+#949 	George Argyros 	$2 B 	78 	real estate, investments 	United States
+#949 	Edward Bass 	$2 B 	70 	oil, investments 	United States
+#949 	Lee Bass 	$2 B 	58 	oil, investments 	United States
+#949 	Vladimir Bogdanov 	$2 B 	63 	oil 	Russia
+#949 	Rossana Camargo de Arruda Botelho 	$2 B 	65 	construction 	Brazil
+#949 	Pierre Chen 	$2 B 	57 	art, electronics 	Taiwan
+#949 	Patokh Chodiev 	$2 B 	62 	mining, metals 	Belgium
+#949 	Belmiro de Azevedo 	$2 B 	76 	retail 	Portugal
+#949 	Glenn Dubin 	$2 B 	57 	hedge funds 	United States
+#949 	Robert Fisher 	$2 B 	61 	Gap 	United States
+#949 	William Fisher 	$2 B 	57 	Gap 	United States
+#949 	Fiona Geminder 	$2 B 	50 	packaging 	Australia
+#949 	David Hains 	$2 B 	84 	finance 	Australia
+#949 	Lawrence Ho 	$2 B 	38 	casinos 	Hong Kong
+#949 	Stanley Hubbard 	$2 B 	81 	DirecTV 	United States
+#949 	Manuel Jove 	$2 B 	73 	real estate 	Spain
+#949 	Bachtiar Karim 	$2 B 	58 	manufacturing 	Indonesia
+#949 	Andrei Kozitsyn 	$2 B 	54 	metals 	Russia
+#949 	Kwon Hyuk-Bin 	$2 B 	42 	online games 	South Korea
+#949 	Lee Joong-Keun 	$2 B 	74 	construction 	South Korea
+#949 	Thomas Lee 	$2 B 	70 	leveraged buyouts 	United States
+#949 	Peter Lim 	$2 B 	61 	investments 	Singapore
+#949 	Hans Georg Naeder 	$2 B 	53 	prosthetics 	Germany
+#949 	Renata de Camargo Nascimento 	$2 B 	64 	construction 	Brazil
+#949 	Or Wai Sheun 	$2 B 	63 	real estate 	Hong Kong
+#949 	Florentino Perez 	$2 B 	67 	construction 	Spain
+#949 	Ajay Piramal 	$2 B 	59 	pharmaceuticals 	India
+#949 	Regina de Camargo Pires Oliveira Dias 	$2 B 	61 	construction 	Brazil
+#949 	Forrest Preston 	$2 B 	81 	health care 	United States
+#949 	Nicolas Puech 	$2 B 	72 	Hermes 	France
+#949 	Chanchai Ruayrungruang 	$2 B 	61 	real estate 	China
+#949 	Phillip Ruffin 	$2 B 	79 	casinos, real estate 	United States
+#949 	Shao Genhuo 	$2 B 	49 	agribusiness 	China
+#949 	Michal Solowow 	$2 B 	52 	investments 	Poland
+#949 	Jon Stryker 	$2 B 	56 	medical equipment 	United States
+#949 	Torbjorn Tornqvist 	$2 B 	61 	oil trading 	Sweden
+#949 	Tse Ping 	$2 B 	63 	pharmaceuticals 	China
+#949 	Sunny Varkey 	$2 B 	57 	education 	India
+#949 	Sandro Veronesi 	$2 B 	55 	fashion retailer 	Italy
+#949 	Georg von Opel 	$2 B 	48 	real estate/investments 	Germany
+#949 	Ronald Wanek 	$2 B 	73 	furniture 	United States
+#949 	Wei Yin-Chun 	$2 B 	58 	food, beverages 	Taiwan
+#949 	Wei Yin-Heng 	$2 B 	56 	food, beverages 	Taiwan
+#949 	Wei Ying-Chiao 	$2 B 	60 	food, beverages 	Taiwan
+#949 	Meg Whitman 	$2 B 	58 	Ebay 	United States
+#949 	Elaine Wynn 	$2 B 	71 	casinos, hotels 	United States
+#949 	Jerry Yang 	$2 B 	46 	Yahoo 	United States
+#1000 	Lam Kong 	$2 B 	50 	pharmaceuticals 	China
+#1000 	Liang Yunchao 	$2 B 	46 	nutrition supplements 	China
+#1000 	Liu Baolin 	$2 B 	61 	pharmacies, drug distribution 	China
+#1000 	Stewart Rahr 	$2 B 	69 	drug distribution 	United States
+#1000 	Yasumitsu Shigeta 	$2 B 	50 	mobile telecom 	Japan
+#1000 	Sun Xishuang 	$2 B 	61 	real estate 	China
+#1006 	Juan Abello 	$1.9 B 	73 	investments 	Spain
+#1006 	Aras Agalarov 	$1.9 B 	59 	real estate 	Russia
+#1006 	Tom Benson 	$1.9 B 	87 	New Orleans Saints 	United States
+#1006 	Nathan Blecharczyk 	$1.9 B 	31 	Airbnb 	United States
+#1006 	Jurgen Blickle 	$1.9 B 	68 	auto parts 	Germany
+#1006 	Norman Braman 	$1.9 B 	82 	art, car dealerships 	United States
+#1006 	Gary Burrell 	$1.9 B 	77 	navigation equipment 	United States
+#1006 	Brian Chesky 	$1.9 B 	33 	Airbnb 	United States
+#1006 	Christopher Cline 	$1.9 B 	57 	coal 	United States
+#1006 	Scott Cook 	$1.9 B 	62 	software 	United States
+#1006 	Mark Coombs 	$1.9 B 	54 	finance 	United Kingdom
+#1006 	David Einhorn 	$1.9 B 	46 	hedge funds 	United States
+#1006 	Eduardo Eurnekian 	$1.9 B 	82 	airports, investments 	Argentina
+#1006 	Carlo Fidani 	$1.9 B 	60 	real estate 	Canada
+#1006 	Bernard Fraisse 	$1.9 B 	58 	pharmaceuticals 	France
+#1006 	Joe Gebbia 	$1.9 B 	33 	Airbnb 	United States
+#1006 	Jonathan Gray 	$1.9 B 	45 	investments 	United States
+#1006 	Joseph Grendys 	$1.9 B 	53 	Meat Processing 	United States
+#1006 	Bill Haslam 	$1.9 B 	56 	truck stops 	United States
+#1006 	Michael Hintze 	$1.9 B 	61 	investment 	Australia
+#1006 	Hamilton James 	$1.9 B 	63 	investments 	United States
+#1006 	King Pak Fu 	$1.9 B 	45 	real estate 	Hong Kong
+#1006 	Friedrich Knapp 	$1.9 B 	63 	retail 	Germany
+#1006 	Guy Laliberte 	$1.9 B 	55 	Cirque du Soleil 	Canada
+#1006 	Marc Lasry 	$1.9 B 	54 	hedge funds 	United States
+#1006 	Manuel Moroun 	$1.9 B 	87 	transportation 	United States
+#1006 	Vadim Moshkovich 	$1.9 B 	47 	agriculture, land 	Russia
+#1006 	Madeleine Olsson Ericksson 	$1.9 B 	70 	diversified 	Sweden
+#1006 	Neal Patterson 	$1.9 B 	65 	health IT 	United States
+#1006 	Nelson Peltz 	$1.9 B 	72 	investments 	United States
+#1006 	Theodore Rachmat 	$1.9 B 	71 	diversified 	Indonesia
+#1006 	Clayton Riddell 	$1.9 B 	77 	oil & gas 	Canada
+#1006 	Kjell Inge Rokke 	$1.9 B 	56 	shipping, seafood 	Norway
+#1006 	Daniel Roullier 	$1.9 B 	78 	animal feed 	France
+#1006 	Kavitark Ram Shriram 	$1.9 B 	58 	venture capital, Google 	United States
+#1006 	Paul Singer 	$1.9 B 	70 	hedge funds 	United States
+#1006 	Heloise Waislitz 	$1.9 B 	52 	packaging 	Australia
+#1006 	Mark Walter 	$1.9 B 	54 	finance 	United States
+#1044 	Che Fengsheng 	$1.9 B 	52 	pharmaceuticals 	China
+#1044 	Murali Divi 	$1.9 B 	63 	pharmaceuticals 	India
+#1044 	Senapathy Gopalakrishnan 	$1.9 B 	59 	software services 	India
+#1044 	Lin Tianfu 	$1.9 B 	52 	retail 	Hong Kong
+#1044 	Mario Moretti Polegato 	$1.9 B 	62 	shoes 	Italy
+#1044 	David Nahmad 	$1.9 B 	67 	art 	Monaco
+#1044 	Tor Peterson 	$1.9 B 	50 	commodities 	United States
+#1044 	Ruan Shuilong 	$1.9 B 	79 	chemicals 	China
+#1044 	Wu Guangming 	$1.9 B 	53 	medical equipment 	China
+#1044 	Amy Wyss 	$1.9 B 	44 	medical devices 	United States
+#1054 	Bill Adderley 	$1.8 B 	67 	home furnishings 	United Kingdom
+#1054 	Anil Agarwal 	$1.8 B 	61 	mining, metals 	India
+#1054 	Abdullah Al Rajhi 	$1.8 B 	- 	banking 	Saudi Arabia
+#1054 	Chang Yung Fa 	$1.8 B 	87 	transportation 	Taiwan
+#1054 	Ciputra 	$1.8 B 	83 	real estate 	Indonesia
+#1054 	Robert Coyiuto, Jr. 	$1.8 B 	62 	power 	Philippines
+#1054 	John de Mol 	$1.8 B 	59 	TV 	Netherlands
+#1054 	N. Murray Edwards 	$1.8 B 	55 	oil & gas 	Canada
+#1054 	Richard Elman 	$1.8 B 	75 	commodities 	United Kingdom
+#1054 	Fang Wei 	$1.8 B 	41 	steel 	China
+#1054 	Kenneth Feld 	$1.8 B 	66 	circus, live entertainment 	United States
+#1054 	Alexander Frolov 	$1.8 B 	50 	mining, steel 	Russia
+#1054 	Anne Gittinger 	$1.8 B 	79 	Nordstrom department stores 	United States
+#1054 	David Gottesman 	$1.8 B 	88 	investments 	United States
+#1054 	Yusuf Hamied 	$1.8 B 	78 	pharmaceuticals 	India
+#1054 	Lutz Mario Helmig 	$1.8 B 	68 	medical facilities 	Germany
+#1054 	Roberto Hernandez Ramirez 	$1.8 B 	72 	banking 	Mexico
+#1054 	Kim Jung-Ju 	$1.8 B 	47 	online games 	South Korea
+#1054 	Vladimir Kim 	$1.8 B 	54 	mining 	Kazakhstan
+#1054 	Stephen Lansdown 	$1.8 B 	62 	financial services 	Guernsey
+#1054 	Li Shuirong 	$1.8 B 	58 	petrochemicals 	China
+#1054 	Lin Xiucheng 	$1.8 B 	59 	electronics 	China
+#1054 	Jeffrey Lorberbaum 	$1.8 B 	60 	flooring 	United States
+#1054 	Brandt Louie 	$1.8 B 	71 	drug store chain 	Canada
+#1054 	Catherine Lozick 	$1.8 B 	70 	Manufacturing 	United States
+#1054 	Craig McCaw 	$1.8 B 	65 	telecom 	United States
+#1054 	Billy Joe (Red) McCombs 	$1.8 B 	87 	real estate, oil, cars 	United States
+#1054 	Nirav Modi 	$1.8 B 	44 	diamond jewelry 	India
+#1054 	Jorge Moll Filho 	$1.8 B 	70 	hospitals 	Brazil
+#1054 	Marius Nacht 	$1.8 B 	49 	software 	Israel
+#1054 	Bruce Nordstrom 	$1.8 B 	81 	department stores 	United States
+#1054 	Bob Parsons 	$1.8 B 	64 	web hosting 	United States
+#1054 	Robert Pera 	$1.8 B 	36 	technology 	United States
+#1054 	Peter Peterson 	$1.8 B 	88 	investments 	United States
+#1054 	Alberto Prada 	$1.8 B 	- 	Prada 	Italy
+#1054 	Marina Prada 	$1.8 B 	- 	Prada 	Italy
+#1054 	Jennifer Pritzker 	$1.8 B 	63 	hotels, investments 	United States
+#1054 	Linda Pritzker 	$1.8 B 	61 	hotels, investments 	United States
+#1054 	James Ratcliffe 	$1.8 B 	62 	chemicals 	United Kingdom
+#1054 	Luigi Rovati 	$1.8 B 	86 	pharmaceuticals 	Italy
+#1054 	Onsi Sawiris 	$1.8 B 	85 	construction, telecom 	Egypt
+#1054 	Thomas Secunda 	$1.8 B 	60 	Bloomberg LP 	United States
+#1054 	Shen Ya 	$1.8 B 	44 	online apparel retail 	China
+#1054 	Alexandre Soares dos Santos 	$1.8 B 	80 	retail 	Portugal
+#1054 	Sylvia Stroher 	$1.8 B 	59 	cosmetics 	Germany
+#1054 	Sukanto Tanoto 	$1.8 B 	65 	diversified 	Indonesia
+#1054 	Peter Unger 	$1.8 B 	70 	auto repair 	Germany
+#1054 	Radovan Vitek 	$1.8 B 	43 	real estate 	Czech Republic
+#1054 	David Walentas 	$1.8 B 	76 	real estate 	United States
+#1054 	Wang Qingtao 	$1.8 B 	53 	steel smelting 	China
+#1054 	Zhang Li 	$1.8 B 	62 	real estate 	China
+#1105 	Ali Ibrahim Agaoglu 	$1.8 B 	61 	construction 	Turkey
+#1105 	Cai Dongqing 	$1.8 B 	45 	animation 	China
+#1105 	Cao Longxiang 	$1.8 B 	57 	pharmaceuticals 	China
+#1105 	Diego Della Valle 	$1.8 B 	61 	shoes 	Italy
+#1105 	Dermot Desmond 	$1.8 B 	64 	finance 	Ireland
+#1105 	James Irsay 	$1.8 B 	55 	Indianapolis Colts 	United States
+#1105 	Li Sze Lim 	$1.8 B 	58 	real estate 	Hong Kong
+#1105 	Nandan Nilekani 	$1.8 B 	59 	software services 	India
+#1105 	H. Ross Perot, Jr. 	$1.8 B 	56 	computer services, real estate 	United States
+#1105 	Yuri Shefler 	$1.8 B 	47 	alcohol 	Russia
+#1105 	Tahir 	$1.8 B 	62 	diversified 	Indonesia
+#1105 	Takao Yasuda 	$1.8 B 	65 	retail 	Japan
+#1105 	Richard Yuengling, Jr. 	$1.8 B 	71 	beer 	United States
+#1118 	Aziz Akhannouch 	$1.7 B 	54 	petroleum, diversified 	Morocco
+#1118 	Louis Bacon 	$1.7 B 	56 	hedge funds 	United States
+#1118 	Mikhail Balakin 	$1.7 B 	53 	construction 	Russia
+#1118 	Sid Bass 	$1.7 B 	72 	oil, investments 	United States
+#1118 	Aldo Bensadoun 	$1.7 B 	76 	shoes 	Canada
+#1118 	Rainer Blickle 	$1.7 B 	- 	auto parts 	Germany
+#1118 	Jaime Botin 	$1.7 B 	78 	banking 	Spain
+#1118 	Nikolai Buinov 	$1.7 B 	47 	oil & gas 	Russia
+#1118 	Chen Bang 	$1.7 B 	49 	hospitals 	China
+#1118 	Dulce Pugliese de Godoy Bueno 	$1.7 B 	67 	hospitals, health care 	Brazil
+#1118 	Ana Lucia de Mattos Barretto Villela 	$1.7 B 	41 	banking 	Brazil
+#1118 	Richard Desmond 	$1.7 B 	63 	publishing 	United Kingdom
+#1118 	Alfredo Egydio Arruda Villela Filho 	$1.7 B 	45 	banking 	Brazil
+#1118 	Mario Gabelli 	$1.7 B 	72 	money management 	United States
+#1118 	Stelios Haji-Ioannou 	$1.7 B 	48 	EasyJet 	Cyprus
+#1118 	Christoph Henkel 	$1.7 B 	- 	consumer goods 	Germany
+#1118 	Huang Hongyun 	$1.7 B 	48 	real estate 	China
+#1118 	W. Herbert Hunt 	$1.7 B 	86 	oil 	United States
+#1118 	Irwin Jacobs 	$1.7 B 	81 	semiconductors 	United States
+#1118 	Ravi Jaipuria 	$1.7 B 	60 	soft drinks 	India
+#1118 	Joe Jamail, Jr. 	$1.7 B 	89 	lawsuits 	United States
+#1118 	Jiang Rensheng 	$1.7 B 	61 	vaccine production 	China
+#1118 	Jiang Wei 	$1.7 B 	53 	pharmaceuticals 	China
+#1118 	Jiang Zhaobai 	$1.7 B 	51 	real estate 	China
+#1118 	Jim Justice, II. 	$1.7 B 	63 	coal 	United States
+#1118 	Anton Kathrein, Jr. 	$1.7 B 	30 	antennas 	Germany
+#1118 	Vinod Khosla 	$1.7 B 	60 	venture capital 	United States
+#1118 	Karel Komarek 	$1.7 B 	45 	oil and gas 	Czech Republic
+#1118 	Angela Leong 	$1.7 B 	53 	casinos 	Hong Kong
+#1118 	Lin Li 	$1.7 B 	51 	investments 	China
+#1118 	Vincent Lo 	$1.7 B 	66 	real estate 	Hong Kong
+#1118 	Tom Morris 	$1.7 B 	60 	Retail 	United Kingdom
+#1118 	Henry Nicholas, III. 	$1.7 B 	55 	semiconductors 	United States
+#1118 	Ahsen Ozokur 	$1.7 B 	64 	food manufacturing 	Turkey
+#1118 	Ranjan Pai 	$1.7 B 	42 	education 	India
+#1118 	Lirio Parisotto 	$1.7 B 	61 	investments 	Brazil
+#1118 	Murdaya Poo 	$1.7 B 	74 	diversified 	Indonesia
+#1118 	Alexander Samwer 	$1.7 B 	40 	Rocket Internet 	Germany
+#1118 	Marc Samwer 	$1.7 B 	44 	tech startups 	Germany
+#1118 	Oliver Samwer 	$1.7 B 	41 	tech startups 	Germany
+#1118 	Karl Scheufele, III. 	$1.7 B 	76 	jewelry 	Switzerland
+#1118 	Dieter Schnabel 	$1.7 B 	69 	chemicals 	Germany
+#1118 	Gerald Schwartz 	$1.7 B 	73 	finance 	Canada
+#1118 	B.R. Shetty 	$1.7 B 	73 	healthcare 	India
+#1118 	Thaksin Shinawatra 	$1.7 B 	65 	investments 	Thailand
+#1118 	Martua Sitorus 	$1.7 B 	55 	palm oil 	Indonesia
+#1118 	Dan Snyder 	$1.7 B 	50 	Washington Redskins 	United States
+#1118 	Mark Stevens 	$1.7 B 	55 	venture capital 	United States
+#1118 	Torsten Toeller 	$1.7 B 	48 	pet food 	Germany
+#1118 	Robert Toennies 	$1.7 B 	- 	meat processing 	Germany
+#1118 	Thongma Vijitpongpun 	$1.7 B 	56 	real estate 	Thailand
+#1118 	Vincent Viola 	$1.7 B 	59 	electronic trading 	United States
+#1118 	Pham Nhat Vuong 	$1.7 B 	46 	real estate 	Vietnam
+#1118 	Ian Wood 	$1.7 B 	72 	energy services 	United Kingdom
+#1118 	Jon Yarbrough 	$1.7 B 	57 	video games 	United States
+#1173 	Elisabeth Badinter 	$1.7 B 	71 	advertising 	France
+#1173 	Domenico Dolce 	$1.7 B 	56 	Dolce & Gabbana 	Italy
+#1173 	Stefano Gabbana 	$1.7 B 	52 	Dolce & Gabbana 	Italy
+#1173 	Hans-Werner Hector 	$1.7 B 	75 	SAP 	Germany
+#1173 	Huang Zhenda 	$1.7 B 	67 	construction 	China
+#1173 	Keeree Kanjanapas 	$1.7 B 	65 	transportation 	Thailand
+#1173 	Koo Bon-Moo 	$1.7 B 	70 	electronics/chemicals/household products 	South Korea
+#1173 	Eric Lefkofsky 	$1.7 B 	45 	Groupon 	United States
+#1173 	Oon Kuin Lim 	$1.7 B 	71 	oil trading 	Singapore
+#1173 	Akio Nitori 	$1.7 B 	71 	retail 	Japan
+#1173 	Sudthida Ratanarak 	$1.7 B 	- 	media, real estate 	Thailand
+#1173 	J. Joe Ricketts 	$1.7 B 	73 	TD Ameritrade 	United States
+#1173 	Shen Wenrong 	$1.7 B 	69 	steel production 	China
+#1173 	Tsai Ming-Kai 	$1.7 B 	64 	semiconductors 	Taiwan
+#1173 	Tseng Shin-Yi 	$1.7 B 	87 	petrochemicals 	Taiwan
+#1173 	Zhou Chengjian 	$1.7 B 	49 	apparel retail 	China
+#1173 	Zhou Yahui 	$1.7 B 	38 	online games 	China
+#1190 	Leslie Alexander 	$1.6 B 	71 	Houston Rockets 	United States
+#1190 	Igor Altushkin 	$1.6 B 	44 	metals 	Russia
+#1190 	Naruatsu Baba 	$1.6 B 	37 	smartphone game maker 	Japan
+#1190 	Alex Beard 	$1.6 B 	47 	mining, commodities 	United Kingdom
+#1190 	David Booth 	$1.6 B 	69 	mutual funds 	United States
+#1190 	Julio Bozano 	$1.6 B 	79 	banking 	Brazil
+#1190 	Eduardo Carmignac 	$1.6 B 	67 	asset management 	France
+#1190 	Sarah Chaney 	$1.6 B 	61 	Cargill 	United States
+#1190 	Alexandra Daitch 	$1.6 B 	52 	Cargill 	United States
+#1190 	Venugopal Dhoot 	$1.6 B 	63 	electronics 	India
+#1190 	Gabriel Escarrer 	$1.6 B 	80 	hotels 	Spain
+#1190 	Fu Meicheng 	$1.6 B 	57 	TV shows, movies 	China
+#1190 	Dan Gertler 	$1.6 B 	41 	mining 	Israel
+#1190 	John Henry 	$1.6 B 	65 	sports 	United States
+#1190 	Alan Howard 	$1.6 B 	51 	hedge funds 	United Kingdom
+#1190 	Stephen Jarislowsky 	$1.6 B 	89 	money management 	Canada
+#1190 	Danil Khachaturov 	$1.6 B 	43 	insurance, banking, real estate 	Russia
+#1190 	Wolfgang Leitner 	$1.6 B 	61 	engineering 	Austria
+#1190 	Liao Long-Shing 	$1.6 B 	- 	petrochemicals 	Taiwan
+#1190 	Suhon Lin 	$1.6 B 	87 	petrochemicals 	Taiwan
+#1190 	Robert Miller 	$1.6 B 	81 	retail 	United Kingdom
+#1190 	Boris Mints 	$1.6 B 	56 	real estate 	Russia
+#1190 	Phillip Ragon 	$1.6 B 	65 	health IT 	United States
+#1190 	Thomas Steyer 	$1.6 B 	57 	hedge funds 	United States
+#1190 	Lucy Stitzer 	$1.6 B 	55 	Cargill 	United States
+#1190 	Katherine Tanner 	$1.6 B 	59 	Cargill 	United States
+#1190 	Wichai Thongtang 	$1.6 B 	68 	investments 	Thailand
+#1190 	Tian Ming 	$1.6 B 	61 	measuring instruments 	China
+#1190 	Joop van den Ende 	$1.6 B 	73 	TV 	Netherlands
+#1190 	Manuel Villar 	$1.6 B 	65 	Real estate 	Philippines
+#1190 	Jitendra Virwani 	$1.6 B 	49 	real estate 	India
+#1190 	Allan Wong 	$1.6 B 	65 	electronics 	Hong Kong
+#1190 	Simon Xie 	$1.6 B 	45 	online payment service 	China
+#1190 	Gavril Yushvaev 	$1.6 B 	57 	precious metals, real estate 	Russia
+#1190 	Zan Shengda 	$1.6 B 	51 	diversified 	China
+#1190 	Zhang Hongwei 	$1.6 B 	60 	oil, banking 	China
+#1226 	Roberto Angelini Rossi 	$1.6 B 	66 	forestry, mining 	Chile
+#1226 	Ana Maria Brescia Cafferata 	$1.6 B 	90 	mining, banking 	Peru
+#1226 	Rosa Brescia Cafferata 	$1.6 B 	88 	mining, fisheries 	Peru
+#1226 	Vivek Chand Burman 	$1.6 B 	77 	consumer goods 	India
+#1226 	Bruce Cheng 	$1.6 B 	79 	electronics 	Taiwan
+#1226 	Pollyanna Chu 	$1.6 B 	57 	financial services 	Hong Kong
+#1226 	James Clark 	$1.6 B 	70 	Netscape, investments 	United States
+#1226 	Du Jiangtao 	$1.6 B 	45 	chemicals 	China
+#1226 	Reinold Geiger 	$1.6 B 	67 	beauty products 	Austria
+#1226 	Goh Peng Ooi 	$1.6 B 	60 	software 	Malaysia
+#1226 	Allan Gray 	$1.6 B 	77 	investing 	South Africa
+#1226 	Richard Hayne 	$1.6 B 	67 	Urban Outfitters 	United States
+#1226 	Huang Li 	$1.6 B 	51 	infrared imaging systems 	China
+#1226 	Huang Qisen 	$1.6 B 	50 	real estate 	China
+#1226 	Lee Hwa-Kyung 	$1.6 B 	59 	snack foods 	South Korea
+#1226 	Lin Jianhua 	$1.6 B 	52 	solar 	China
+#1226 	Liu Xuejing 	$1.6 B 	64 	copper, poultry 	China
+#1226 	Gary Michelson 	$1.6 B 	66 	medical patents 	United States
+#1226 	Gregorio Perez Companc 	$1.6 B 	79 	oil and gas 	Argentina
+#1226 	Shin Dong-Bin 	$1.6 B 	60 	retailing 	South Korea
+#1226 	Sit Kwong Lam 	$1.6 B 	47 	oil, transportation 	Hong Kong
+#1226 	Ronald Southern 	$1.6 B 	84 	structures, utilities 	Canada
+#1226 	Petter Stordalen 	$1.6 B 	52 	hotels 	Norway
+#1226 	Wu Yiling 	$1.6 B 	65 	pharmaceuticals 	China
+#1250 	Lina Maria Aguiar 	$1.5 B 	77 	banking inheritance 	Brazil
+#1250 	Sergio Lins Andrade 	$1.5 B 	67 	construction 	Brazil
+#1250 	Michael Ashcroft 	$1.5 B 	69 	security 	United Kingdom
+#1250 	Nicolas Berggruen 	$1.5 B 	53 	investments 	United States
+#1250 	Alberto Bombassei 	$1.5 B 	74 	automotive brakes 	Italy
+#1250 	Josef Boquoi 	$1.5 B 	81 	frozen foods 	Germany
+#1250 	Timothy Boyle 	$1.5 B 	65 	Columbia Sportswear 	United States
+#1250 	Cho Tak Wong 	$1.5 B 	68 	auto parts 	Hong Kong
+#1250 	Kommer Damen 	$1.5 B 	70 	shipbuilding 	Netherlands
+#1250 	Benjamin de Rothschild 	$1.5 B 	51 	banking 	Switzerland
+#1250 	Darwin Deason 	$1.5 B 	74 	Xerox 	United States
+#1250 	Maria Del Pino y Calvo-Sotelo 	$1.5 B 	58 	construction 	Spain
+#1250 	Fritz Draexlmaier 	$1.5 B 	- 	auto parts 	Germany
+#1250 	Alexander Dzhaparidze 	$1.5 B 	59 	oil services 	Russia
+#1250 	Frank Fertitta, III. 	$1.5 B 	53 	casinos, Ultimate Fighting Championship 	United States
+#1250 	Lorenzo Fertitta 	$1.5 B 	46 	casinos, Ultimate Fighting Championship 	United States
+#1250 	Martha Ford 	$1.5 B 	89 	Ford Motor 	United States
+#1250 	Paul Foster 	$1.5 B 	57 	oil refining 	United States
+#1250 	Walter Frey 	$1.5 B 	71 	Emil Frey Group 	Switzerland
+#1250 	Jayme Garfinkel 	$1.5 B 	69 	insurance 	Brazil
+#1250 	Geng Jianming 	$1.5 B 	52 	real estate 	China
+#1250 	Rolf Gerling 	$1.5 B 	60 	insurance 	Germany
+#1250 	Peter Gilgan 	$1.5 B 	64 	homebuilding 	Canada
+#1250 	Christopher Goldsbury 	$1.5 B 	72 	salsa 	United States
+#1250 	David Harding 	$1.5 B 	53 	finance 	United Kingdom
+#1250 	Saad Hariri 	$1.5 B 	44 	construction, investments 	Lebanon
+#1250 	Jonathan Harmsworth 	$1.5 B 	47 	publishing 	United Kingdom
+#1250 	Devendra Jain 	$1.5 B 	86 	chemicals 	India
+#1250 	George Joseph 	$1.5 B 	93 	insurance 	United States
+#1250 	Seth Klarman 	$1.5 B 	57 	investments 	United States
+#1250 	Schulenberg Klaus-Peter 	$1.5 B 	- 	ticketing service 	Germany
+#1250 	Li Li 	$1.5 B 	51 	pharmaceuticals 	China
+#1250 	Scott Lin 	$1.5 B 	- 	optical components 	Taiwan
+#1250 	Gary Magness 	$1.5 B 	61 	cable, investments 	United States
+#1250 	Alfred Mann 	$1.5 B 	89 	medical devices 	United States
+#1250 	Marie-Jeanne Meyer 	$1.5 B 	73 	commodities 	France
+#1250 	Lachhman Das Mittal 	$1.5 B 	84 	tractors 	India
+#1250 	Arturo Moreno 	$1.5 B 	68 	billboards 	United States
+#1250 	Mofatraj Munot 	$1.5 B 	70 	real estate 	India
+#1250 	Bobby Murphy 	$1.5 B 	26 	Snapchat 	United States
+#1250 	Ezra Nahmad 	$1.5 B 	69 	art 	Monaco
+#1250 	Nan Cunhui 	$1.5 B 	51 	electrical power equipment 	China
+#1250 	Jay Paul 	$1.5 B 	67 	real estate 	United States
+#1250 	Stanley Perron 	$1.5 B 	92 	property, retail 	Australia
+#1250 	Victor Pinchuk 	$1.5 B 	54 	steel pipes, diversified 	Ukraine
+#1250 	Purnomo Prawiro 	$1.5 B 	68 	taxis 	Indonesia
+#1250 	Nicholas Pritzker, II. 	$1.5 B 	71 	hotels, investments 	United States
+#1250 	Antony Ressler 	$1.5 B 	53 	finance 	United States
+#1250 	Monique Roosmale Nepveu 	$1.5 B 	75 	commodities 	France
+#1250 	Rodney Sacks 	$1.5 B 	65 	energy drinks 	United States
+#1250 	Ralph Sonnenberg 	$1.5 B 	80 	blinds 	Netherlands
+#1250 	Evan Spiegel 	$1.5 B 	24 	Snapchat 	United States
+#1250 	Edward Stack 	$1.5 B 	60 	Dick's Sporting Goods 	United States
+#1250 	Sun Hongbin 	$1.5 B 	52 	real estate 	United States
+#1250 	Sun Shoukuan 	$1.5 B 	65 	chemicals 	China
+#1250 	Henry Swieca 	$1.5 B 	57 	hedge funds 	United States
+#1250 	Katsumi Tada 	$1.5 B 	69 	real estate 	Japan
+#1250 	Jim Thompson 	$1.5 B 	75 	logistics 	United States
+#1250 	Todd Wagner 	$1.5 B 	54 	online media 	United States
+#1250 	Wang Junmin 	$1.5 B 	46 	pharmaceuticals 	China
+#1250 	Xiong Xuqiang 	$1.5 B 	58 	real estate 	Hong Kong
+#1250 	Zhu Gongshan 	$1.5 B 	57 	solar panel materials 	China
+#1312 	Anu Aga 	$1.5 B 	72 	engineering 	India
+#1312 	Cao Kejian 	$1.5 B 	52 	air compressors 	China
+#1312 	Chao Teng-Hsiung 	$1.5 B 	71 	real estate 	Taiwan
+#1312 	Chen Yung-Tai 	$1.5 B 	79 	real estate 	Taiwan
+#1312 	Bulent Eczacibasi 	$1.5 B 	65 	pharmaceuticals, diversified 	Turkey
+#1312 	Max Michel Suberville 	$1.5 B 	82 	beverages 	Mexico
+#1312 	Robert Mouawad 	$1.5 B 	70 	fine jewelry 	Lebanon
+#1312 	Qiu Jianping 	$1.5 B 	53 	hand tools 	China
+#1312 	Wilma Tisch 	$1.5 B 	87 	diversified 	United States
+#1312 	Kenny Troutt 	$1.5 B 	67 	telecommunications 	United States
+#1312 	Wei Shaojun 	$1.5 B 	52 	real estate 	China
+#1312 	Wong Kwong Yu 	$1.5 B 	45 	retail 	China
+#1324 	Radhe Shyam Agarwal 	$1.4 B 	70 	consumer goods 	India
+#1324 	Farkhad Akhmedov 	$1.4 B 	59 	natural gas 	Russia
+#1324 	Abdul Majeed Alhokair 	$1.4 B 	45 	retailing, real estate 	Saudi Arabia
+#1324 	Fawaz Alhokair 	$1.4 B 	49 	retail, shopping malls 	Saudi Arabia
+#1324 	Salman Alhokair 	$1.4 B 	48 	retailing, shopping malls 	Saudi Arabia
+#1324 	Herbert Allen, Jr. 	$1.4 B 	75 	investment banking 	United States
+#1324 	Edmund Ansin 	$1.4 B 	78 	television 	United States
+#1324 	Carol Jenkins Barnett 	$1.4 B 	58 	Publix supermarkets 	United States
+#1324 	Thomas Bruch 	$1.4 B 	64 	food retailing 	Germany
+#1324 	Anand Burman 	$1.4 B 	62 	consumer goods 	India
+#1324 	Ahmet Calik 	$1.4 B 	57 	energy, media, banking 	Turkey
+#1324 	Benedicta Chamberlain 	$1.4 B 	71 	alcohol 	United Kingdom
+#1324 	Chen Jianhua 	$1.4 B 	44 	chemicals 	China
+#1324 	Alfred James Clark 	$1.4 B 	87 	construction 	United States
+#1324 	Alberto Cortina 	$1.4 B 	69 	investments 	Spain
+#1324 	Claude Dauphin 	$1.4 B 	64 	commodities 	France
+#1324 	Faruk Eczacibasi 	$1.4 B 	60 	pharmaceuticals, diversified 	Turkey
+#1324 	Clement Fayat 	$1.4 B 	83 	construction 	France
+#1324 	J. Christopher Flowers 	$1.4 B 	57 	investments 	United States
+#1324 	Alan Gerry 	$1.4 B 	85 	cable television 	United States
+#1324 	Radhe Shyam Goenka 	$1.4 B 	69 	consumer goods 	India
+#1324 	Sanjiv Goenka 	$1.4 B 	54 	diversified 	India
+#1324 	Ryan Graves 	$1.4 B 	31 	car service 	United States
+#1324 	Alfredo Harp Helu 	$1.4 B 	70 	banking 	Mexico
+#1324 	William Heinecke 	$1.4 B 	66 	hotels 	Thailand
+#1324 	Hong Ra-Hee 	$1.4 B 	69 	Samsung 	South Korea
+#1324 	Stewart Horejsi 	$1.4 B 	77 	Berkshire Hathaway 	United States
+#1324 	Kenji Kasahara 	$1.4 B 	39 	social networking website 	Japan
+#1324 	Pyotr Kondrashev 	$1.4 B 	65 	fertilizers 	Russia
+#1324 	Thomas Lau 	$1.4 B 	61 	Real Estate 	Hong Kong
+#1324 	Jane Lauder 	$1.4 B 	42 	cosmetics 	United States
+#1324 	Aerin Lauder Zinterhofer 	$1.4 B 	45 	cosmetics 	United States
+#1324 	Lee Man Tat 	$1.4 B 	86 	food 	Hong Kong
+#1324 	Lee Myung-Hee 	$1.4 B 	71 	retailing 	South Korea
+#1324 	Lei Jufang 	$1.4 B 	62 	pharmaceuticals 	China
+#1324 	Liu Changqing 	$1.4 B 	62 	manufacturing 	China
+#1324 	Kenneth Lo 	$1.4 B 	76 	Textiles 	United Kingdom
+#1324 	Anatoly Lomakin 	$1.4 B 	62 	fertilizers 	Russia
+#1324 	Ana Maria Marcondes Penido Sant'Anna 	$1.4 B 	59 	toll roads 	Brazil
+#1324 	Rubens Ometto Silveira Mello 	$1.4 B 	65 	sugar, ethanol 	Brazil
+#1324 	Surang Prempree 	$1.4 B 	72 	media 	Thailand
+#1324 	Michael Price 	$1.4 B 	62 	investments 	United States
+#1324 	Nevaldo Rocha 	$1.4 B 	85 	retail 	Brazil
+#1324 	Arkady Rotenberg 	$1.4 B 	63 	construction, pipes, banking 	Russia
+#1324 	Jeff Rothschild 	$1.4 B 	60 	Facebook 	United States
+#1324 	Antonio Luiz Seabra 	$1.4 B 	72 	cosmetics 	Brazil
+#1324 	Charles Simonyi 	$1.4 B 	67 	Microsoft 	United States
+#1324 	Thomas Straumann 	$1.4 B 	51 	dental implants 	Switzerland
+#1324 	Frank Stronach 	$1.4 B 	82 	auto parts 	Canada
+#1324 	Hary Tanoesoedibjo 	$1.4 B 	49 	media 	Indonesia
+#1324 	Wang Xing 	$1.4 B 	- 	e-commerce 	China
+#1324 	Charlotte Colket Weber 	$1.4 B 	72 	Campbell Soup 	United States
+#1324 	Wen Yibo 	$1.4 B 	49 	wastewater treatment 	China
+#1324 	Xiu Laigui 	$1.4 B 	60 	pharmaceuticals 	China
+#1324 	Yang Kai 	$1.4 B 	58 	dairy products 	China
+#1324 	Yang Zhimao 	$1.4 B 	52 	utilities, real estate 	China
+#1324 	Ye Cheng 	$1.4 B 	53 	diversified 	China
+#1324 	William Young 	$1.4 B 	74 	Plastics 	United States
+#1324 	Charles Zegar 	$1.4 B 	67 	Bloomberg LP 	United States
+#1324 	Zhang Guiping 	$1.4 B 	63 	real estate 	China
+#1324 	Zhang Zhirong 	$1.4 B 	46 	shipbuilding 	Hong Kong
+#1324 	Ahmet Nazif Zorlu 	$1.4 B 	70 	diversified 	Turkey
+#1386 	Somphote Ahunai 	$1.4 B 	47 	energy 	Thailand
+#1386 	Paolo Bulgari 	$1.4 B 	77 	luxury goods 	Italy
+#1386 	Steve Case 	$1.4 B 	56 	AOL 	United States
+#1386 	Kiat Chiaravanont 	$1.4 B 	- 	food 	Thailand
+#1386 	Ding Shizhong 	$1.4 B 	44 	sports apparel 	China
+#1386 	Asok Kumar Hiranandani 	$1.4 B 	60 	real estate 	Singapore
+#1386 	Douglas Hsu 	$1.4 B 	72 	diversified 	Taiwan
+#1386 	Kei Hoi Pang 	$1.4 B 	49 	real estate 	China
+#1386 	Li Yihai 	$1.4 B 	52 	pharmaceuticals 	China
+#1386 	Lin Bin 	$1.4 B 	47 	smartphones 	China
+#1386 	Pier Luigi Loro Piana 	$1.4 B 	63 	fashion 	Italy
+#1386 	Ma Xingtian 	$1.4 B 	45 	pharmaceuticals 	China
+#1386 	Harsh Mariwala 	$1.4 B 	63 	consumer goods 	India
+#1386 	Brian Roberts 	$1.4 B 	55 	Comcast 	United States
+#1386 	Hilton Schlosberg 	$1.4 B 	62 	Monster energy drinks 	United Kingdom
+#1386 	Shao Zhongyi 	$1.4 B 	46 	soybean trading 	China
+#1386 	Shin Dong-Joo 	$1.4 B 	61 	retailing 	South Korea
+#1386 	Sun Shangchuan & wife 	$1.4 B 	51 	electronics components 	China
+#1386 	Sun Weijie 	$1.4 B 	51 	oilfield equipment 	China
+#1386 	Joyce Raley Teel 	$1.4 B 	84 	supermarkets 	United States
+#1386 	Tiong Hiew King 	$1.4 B 	79 	timber/media 	Malaysia
+#1386 	Mustafa Latif Topbas 	$1.4 B 	70 	food manufacturing, retail 	Turkey
+#1386 	Hamdi Ulukaya 	$1.4 B 	43 	Chobani yogurt 	Turkey
+#1386 	Wei Qi 	$1.4 B 	60 	chemicals 	China
+#1386 	Wen Jianping 	$1.4 B 	53 	sewage treatment 	China
+#1386 	Dan Wilks 	$1.4 B 	58 	natural gas 	United States
+#1386 	Farris Wilks 	$1.4 B 	63 	natural gas 	United States
+#1386 	Xu Jingren 	$1.4 B 	70 	pharmaceuticals 	China
+#1386 	Zhu Yicai 	$1.4 B 	50 	meat products, retailing 	China
+#1415 	Alberto Alcocer 	$1.3 B 	72 	investments 	Spain
+#1415 	Patricia Angelini Rossi 	$1.3 B 	60 	forestry, mining 	Chile
+#1415 	Mori Arkin 	$1.3 B 	62 	pharmaceuticals 	Israel
+#1415 	Mehmet Aydinlar 	$1.3 B 	58 	hospitals 	Turkey
+#1415 	Eduardo Belmont Anderson 	$1.3 B 	69 	cosmetics 	Peru
+#1415 	Aneel Bhusri 	$1.3 B 	49 	business software 	United States
+#1415 	Thor Bjorgolfsson 	$1.3 B 	47 	investments 	Iceland
+#1415 	Miriam Blocher 	$1.3 B 	40 	chemicals 	Switzerland
+#1415 	Oleg Boyko 	$1.3 B 	50 	entertaiment, retail, real estate 	Russia
+#1415 	Nicola Bulgari 	$1.3 B 	74 	luxury goods 	Italy
+#1415 	Miloud Chaabi 	$1.3 B 	86 	diversified 	Morocco
+#1415 	Binod Chaudhary 	$1.3 B 	59 	diversified 	Nepal
+#1415 	Chen Jinsong 	$1.3 B 	51 	real estate 	Hong Kong
+#1415 	Jacques D'Amours 	$1.3 B 	58 	retail 	Canada
+#1415 	Maria Ines de Lafuente Lacroze 	$1.3 B 	70 	cement firm 	Argentina
+#1415 	Andrea Della Valle 	$1.3 B 	49 	shoes 	Italy
+#1415 	Sanford Diller 	$1.3 B 	87 	real estate 	United States
+#1415 	Ding Shijia 	$1.3 B 	51 	sportswear 	China
+#1415 	Bergit Douglas 	$1.3 B 	68 	consumer goods 	Germany
+#1415 	John Edson 	$1.3 B 	82 	leisure craft 	United States
+#1415 	Stephen Feinberg 	$1.3 B 	54 	private equity 	United States
+#1415 	Sameer Gehlaut 	$1.3 B 	41 	finance 	India
+#1415 	Harsh Goenka 	$1.3 B 	57 	diversified 	India
+#1415 	Gu Wei 	$1.3 B 	50 	consumer electronics 	China
+#1415 	Mubariz Gurbanoglu 	$1.3 B 	46 	shipping 	Turkey
+#1415 	Polys Haji-Ioannou 	$1.3 B 	56 	EasyJet 	Cyprus
+#1415 	Donald Hall 	$1.3 B 	86 	Hallmark 	United States
+#1415 	Achmad Hamami 	$1.3 B 	84 	heavy equipment 	Indonesia
+#1415 	Gerry Harvey 	$1.3 B 	75 	retail 	Australia
+#1415 	Hu Kaijun 	$1.3 B 	53 	pharmaceuticals 	China
+#1415 	Huang Wen Tsai 	$1.3 B 	61 	real estate 	China
+#1415 	B. Wayne Hughes, Jr. 	$1.3 B 	54 	storage facilities 	United States
+#1415 	Billy Kan 	$1.3 B 	63 	energy 	Hong Kong
+#1415 	Sidney Kimmel 	$1.3 B 	87 	retail 	United States
+#1415 	Michael Klein 	$1.3 B 	64 	retail 	Brazil
+#1415 	Jim Koch 	$1.3 B 	65 	beer 	United States
+#1415 	Ihor Kolomoyskyy 	$1.3 B 	52 	banking, investments 	Ukraine
+#1415 	Koo Bon-Neung 	$1.3 B 	65 	electronics 	South Korea
+#1415 	Andrei Kosogov 	$1.3 B 	53 	oil, telecom, banking 	Russia
+#1415 	Michael Krasny 	$1.3 B 	61 	retail 	United States
+#1415 	James Leininger 	$1.3 B 	69 	medical products 	United States
+#1415 	Liang Guangwei 	$1.3 B 	51 	batteries, mini motors 	China
+#1415 	William Macaulay 	$1.3 B 	69 	energy investments 	United States
+#1415 	Yusaku Maezawa 	$1.3 B 	39 	online retail 	Japan
+#1415 	Coucke Marc 	$1.3 B 	50 	pharmaceuticals 	Belgium
+#1415 	Dmitry Mazepin 	$1.3 B 	46 	chemicals 	Russia
+#1415 	Miao Shouliang 	$1.3 B 	60 	real estate, diversified 	China
+#1415 	Massimo Moratti 	$1.3 B 	69 	oil 	Italy
+#1415 	Charles Munger 	$1.3 B 	91 	Berkshire Hathaway 	United States
+#1415 	Gabe Newell 	$1.3 B 	52 	videogames 	United States
+#1415 	Ni Zhaoxing 	$1.3 B 	59 	real estate 	China
+#1415 	Alfred Oetker 	$1.3 B 	48 	consumer goods 	Germany
+#1415 	August Oetker 	$1.3 B 	70 	consumer goods 	Germany
+#1415 	Carl Ferdinand Oetker 	$1.3 B 	42 	consumer goods 	Germany
+#1415 	Christian Oetker 	$1.3 B 	66 	consumer goods 	Germany
+#1415 	Julia Oetker 	$1.3 B 	36 	consumer goods 	Germany
+#1415 	Richard Oetker 	$1.3 B 	64 	consumer goods 	Germany
+#1415 	Park Hyeon-Joo 	$1.3 B 	56 	asset management 	South Korea
+#1415 	Roger Penske 	$1.3 B 	78 	cars 	United States
+#1415 	Jose Isaac Peres & wife 	$1.3 B 	74 	shopping malls 	Brazil
+#1415 	Markus Persson 	$1.3 B 	35 	Minecraft 	Sweden
+#1415 	Erika Pohl-Stroher 	$1.3 B 	96 	hair products 	Germany
+#1415 	Que Wenbin 	$1.3 B 	51 	pharmaceuticals 	China
+#1415 	Jerry Reinsdorf 	$1.3 B 	79 	sports teams 	United States
+#1415 	Lily Safra 	$1.3 B 	77 	banking 	Monaco
+#1415 	Thomas Sandell 	$1.3 B 	54 	hedge funds 	Sweden
+#1415 	Eddy Kusnadi Sariaatmadja 	$1.3 B 	61 	media, tech 	Thailand
+#1415 	Leonard Schleifer 	$1.3 B 	62 	pharmaceuticals 	United States
+#1415 	Rosely Schweizer 	$1.3 B 	74 	consumer goods 	Germany
+#1415 	Shuai Fangwen 	$1.3 B 	48 	pharmaceuticals 	China
+#1415 	Evgeny (Eugene) Shvidler 	$1.3 B 	50 	oil & gas, investments 	United States
+#1415 	Jasminder Singh 	$1.3 B 	64 	Hotels 	United Kingdom
+#1415 	Peter Sperling 	$1.3 B 	55 	education 	United States
+#1415 	Michael Steinhardt 	$1.3 B 	74 	finance 	United States
+#1415 	Alain Taravella 	$1.3 B 	67 	real estate 	France
+#1415 	Surin Upatkoon 	$1.3 B 	65 	telecoms/lotteries/insurance 	Thailand
+#1415 	Wang Laichun 	$1.3 B 	47 	electronics components 	China
+#1415 	Wang Laisheng 	$1.3 B 	50 	electronics components 	China
+#1415 	Gjert Wilhelmsen 	$1.3 B 	89 	cruise ships 	Norway
+#1415 	Wong Luen Hei 	$1.3 B 	53 	home building materials 	China
+#1415 	Horst Wortmann 	$1.3 B 	73 	footwear 	Germany
+#1415 	Albert Yeung 	$1.3 B 	71 	real estate, retail 	Hong Kong
+#1415 	Zhou Guohui 	$1.3 B 	50 	logistics 	China
+#1415 	Zhou Hongyi 	$1.3 B 	44 	security software 	China
+#1415 	Zhu Chongyun 	$1.3 B 	- 	apparel retailer 	China
+#1500 	Fawzi Al-Kharafi 	$1.3 B 	- 	diversified 	Kuwait
+#1500 	Jassim Al-Kharafi 	$1.3 B 	- 	diversfied 	Kuwait
+#1500 	Mohannad Al-Kharafi 	$1.3 B 	- 	diversified 	Kuwait
+#1500 	Alexei Ananyev 	$1.3 B 	50 	banking, IT, real estate 	Russia
+#1500 	Dmitry Ananyev 	$1.3 B 	46 	banking, IT, real estate 	Russia
+#1500 	Henadiy Boholyubov 	$1.3 B 	53 	banking, investments 	Ukraine
+#1500 	Richard Chang 	$1.3 B 	68 	real estate, electronics 	Taiwan
+#1500 	Chong Ngen Choo 	$1.3 B 	61 	hotels 	Singapore
+#1500 	Turgay Ciner 	$1.3 B 	59 	diversified 	Turkey
+#1500 	Leszek Czarnecki 	$1.3 B 	53 	finance 	Poland
+#1500 	Mohammed Dewji 	$1.3 B 	39 	diversified 	Tanzania
+#1500 	K. Dinesh 	$1.3 B 	60 	software services 	India
+#1500 	Gao Dekang 	$1.3 B 	63 	apparel 	China
+#1500 	Daniel Hirschfeld 	$1.3 B 	73 	apparel retailer 	United States
+#1500 	Hong Xiaobo 	$1.3 B 	43 	e-commerce 	China
+#1500 	Wee Meng Koh 	$1.3 B 	51 	real estate, hotels 	Singapore
+#1500 	Lin Ming-Hsiung 	$1.3 B 	65 	retail 	Taiwan
+#1500 	Gian Marco Moratti 	$1.3 B 	78 	oil 	Italy
+#1500 	Vikas Oberoi 	$1.3 B 	44 	real estate 	India
+#1500 	Kazuo Okada 	$1.3 B 	72 	casinos 	Japan
+#1500 	Horst Julius Pudwill 	$1.3 B 	70 	manufacturing 	Germany
+#1500 	Deniz Sahenk 	$1.3 B 	69 	bank, media 	Turkey
+#1500 	Alexander Spanos 	$1.3 B 	91 	real estate 	United States
+#1500 	Danny Tan Chee Sing 	$1.3 B 	59 	real estate 	Malaysia
+#1500 	Nikolai Tsvetkov 	$1.3 B 	54 	banking 	Russia
+#1500 	John Tyson 	$1.3 B 	61 	food processing 	United States
+#1500 	Rufino Vigil Gonzalez 	$1.3 B 	66 	steel 	Mexico
+#1500 	Wan Lianbu 	$1.3 B 	49 	fertilizers 	China
+#1500 	Wang Xicheng 	$1.3 B 	66 	tires 	China
+#1500 	Gordon Wu 	$1.3 B 	80 	real estate 	Hong Kong
+#1500 	Xiao Fen 	$1.3 B 	52 	consumer electronics 	China
+#1500 	Yang Yuanqing 	$1.3 B 	50 	computers 	China
+#1500 	Yi Zheng 	$1.3 B 	44 	software 	China
+#1533 	Lia Maria Aguiar 	$1.2 B 	77 	banking inheritance 	Brazil
+#1533 	Len Ainsworth 	$1.2 B 	91 	betting machines 	Australia
+#1533 	Mohammed Al Barwani 	$1.2 B 	63 	oil 	Oman
+#1533 	Maurice Alter 	$1.2 B 	89 	real estate 	Australia
+#1533 	Joao Alves de Queiroz Filho 	$1.2 B 	62 	consumer goods 	Brazil
+#1533 	An Kang 	$1.2 B 	66 	pharmaceuticals 	China
+#1533 	Ayman Asfari 	$1.2 B 	56 	oil services 	United Kingdom
+#1533 	Alan Auerbach 	$1.2 B 	45 	biotechnology 	United States
+#1533 	William F. Austin 	$1.2 B 	73 	hearing aids 	United States
+#1533 	Mehmet Rustu Basaran 	$1.2 B 	68 	bank, gas 	Turkey
+#1533 	Anne Beaufour 	$1.2 B 	51 	pharmaceuticals 	France
+#1533 	Henri Beaufour 	$1.2 B 	49 	pharmaceuticals 	France
+#1533 	Albert Berner 	$1.2 B 	79 	fasteners 	Germany
+#1533 	O. Francis Biondi 	$1.2 B 	50 	hedge fund 	United States
+#1533 	Chang Pyung-Soon 	$1.2 B 	64 	educational products & services 	South Korea
+#1533 	Chen Tianqiao 	$1.2 B 	42 	online games 	China
+#1533 	Tony Chen 	$1.2 B 	46 	optical components 	Taiwan
+#1533 	Richard Chilton Jr 	$1.2 B 	56 	hedge funds 	United States
+#1533 	Hasmukh Chudgar 	$1.2 B 	81 	pharmaceuticals 	India
+#1533 	John Coates 	$1.2 B 	45 	online gambling 	United Kingdom
+#1533 	Luigi Cremonini 	$1.2 B 	75 	meat processing 	Italy
+#1533 	Mark Dixon 	$1.2 B 	56 	office real estate 	United Kingdom
+#1533 	Gary Fegel 	$1.2 B 	41 	commodities trading 	Switzerland
+#1533 	Gleb Fetisov 	$1.2 B 	48 	telecom, finance 	Russia
+#1533 	Valentin Gapontsev 	$1.2 B 	76 	lasers 	Russia
+#1533 	Serge Godin 	$1.2 B 	65 	Information Technology 	Canada
+#1533 	Vladimir Gruzdev 	$1.2 B 	48 	investments 	Russia
+#1533 	Mehmet Nazif Gunal 	$1.2 B 	67 	tourism, construction 	Turkey
+#1533 	Vinod Gupta 	$1.2 B 	69 	electrical equipment 	India
+#1533 	Clelia Haji-Ioannou 	$1.2 B 	47 	EasyJet 	Cyprus
+#1533 	Ilkka Herlin 	$1.2 B 	56 	elevators, escalators 	Finland
+#1533 	Brian Higgins 	$1.2 B 	50 	Hedge fund 	United States
+#1533 	J. Tomilson Hill 	$1.2 B 	66 	investments 	United States
+#1533 	Drew Houston 	$1.2 B 	31 	Dropbox 	United States
+#1533 	Jiang Ning 	$1.2 B 	41 	telecom 	China
+#1533 	Ronald Joyce 	$1.2 B 	84 	restaurants 	Canada
+#1533 	Alexander Karp 	$1.2 B 	47 	software firm 	United States
+#1533 	Sergei Katsiev 	$1.2 B 	57 	retail, wholesale 	Russia
+#1533 	Lev Kvetnoi 	$1.2 B 	49 	cement, airport 	Russia
+#1533 	Lev Leviev 	$1.2 B 	59 	diamonds 	Israel
+#1533 	Li Tan 	$1.2 B 	50 	pharmaceuticals 	China
+#1533 	Liu Yiqian 	$1.2 B 	51 	investments 	China
+#1533 	Jose Llado Fernandez-Urrutia 	$1.2 B 	80 	construction 	Spain
+#1533 	Aloke Lohia 	$1.2 B 	56 	petrochemicals 	India
+#1533 	Ma Hong 	$1.2 B 	47 	apparel retailer 	China
+#1533 	Rudolf Maag 	$1.2 B 	69 	medical devices 	Switzerland
+#1533 	Maggie Magerko 	$1.2 B 	49 	building materials 	United States
+#1533 	Anand Mahindra 	$1.2 B 	59 	automobiles 	India
+#1533 	Jean-Charles Naouri 	$1.2 B 	65 	supermarkets, sporting goods 	France
+#1533 	Pierre Papillaud 	$1.2 B 	79 	water 	France
+#1533 	David Penaloza Alanis 	$1.2 B 	41 	toll roads 	Mexico
+#1533 	Qin Yinglin 	$1.2 B 	49 	poultry 	China
+#1533 	Vito Rodriguez Rodriguez 	$1.2 B 	76 	processed milk 	Peru
+#1533 	Fernando Roig 	$1.2 B 	67 	supermarkets 	Spain
+#1533 	Alexander Rovt 	$1.2 B 	62 	fertilizer, real estate 	United States
+#1533 	Alan Rydge 	$1.2 B 	62 	entertainment 	Australia
+#1533 	Jacques Saade 	$1.2 B 	78 	shipping 	France
+#1533 	Seo Jung-Jin 	$1.2 B 	57 	biotechnology 	South Korea
+#1533 	Ron Sim 	$1.2 B 	56 	retail 	Singapore
+#1533 	Edwin Soeryadjaya 	$1.2 B 	66 	coal, investments 	Indonesia
+#1533 	Robert Stiller 	$1.2 B 	71 	coffee 	United States
+#1533 	Sun Deliang 	$1.2 B 	42 	software 	China
+#1533 	Vincent Tan 	$1.2 B 	63 	diversified 	Malaysia
+#1533 	Tang Hsiang-chien 	$1.2 B 	92 	textiles/electronics 	Hong Kong
+#1533 	Mehmet Sinan Tara 	$1.2 B 	56 	construction 	Turkey
+#1533 	Wang Jinshu 	$1.2 B 	58 	chemicals 	China
+#1533 	Wang Wei 	$1.2 B 	43 	computer hardware 	China
+#1533 	Wang Zhenghua 	$1.2 B 	70 	budget airline 	China
+#1533 	Wong Man Li 	$1.2 B 	50 	furniture 	Hong Kong
+#1533 	Jacky Xu 	$1.2 B 	- 	apparel 	St. Kitts and Nevis
+#1533 	Luis Enrique Yarur Rey 	$1.2 B 	64 	banking 	Chile
+#1533 	Zheng Yuewen 	$1.2 B 	53 	investments 	China
+#1605 	Shishir Bajaj 	$1.2 B 	67 	consumer goods 	India
+#1605 	Charles Brandes 	$1.2 B 	72 	money management 	United States
+#1605 	Jean Burelle 	$1.2 B 	76 	automotive systems 	France
+#1605 	Laurent Burelle 	$1.2 B 	65 	automotive systems 	France
+#1605 	Cho Yang-Rai 	$1.2 B 	77 	tire manufacturing 	South Korea
+#1605 	Chung Mong-Joon 	$1.2 B 	63 	shipbuilding/industrial machines 	South Korea
+#1605 	Chung Yong-Jin 	$1.2 B 	46 	retailing 	South Korea
+#1605 	Jack Cowin 	$1.2 B 	72 	fast food 	Australia
+#1605 	Robert Ell 	$1.2 B 	70 	property 	Australia
+#1605 	Abhay Firodia 	$1.2 B 	70 	automobiles 	India
+#1605 	Niklas Herlin 	$1.2 B 	51 	elevators, escalators 	Finland
+#1605 	Huang Chulong 	$1.2 B 	- 	real estate 	China
+#1605 	Clifford Illig 	$1.2 B 	64 	health care 	United States
+#1605 	Mehmet Emin Karamehmet 	$1.2 B 	70 	telecom, diversified 	Turkey
+#1605 	Kim Taek-Jin 	$1.2 B 	47 	online games 	South Korea
+#1605 	Li Yongjun 	$1.2 B 	48 	food 	China
+#1605 	Liu Dianbo 	$1.2 B 	50 	pharmaceuticals 	China
+#1605 	Liu Shaoxi 	$1.2 B 	51 	real estate 	China
+#1605 	Itamar Locks 	$1.2 B 	60 	agribusiness 	Brazil
+#1605 	Blairo Maggi 	$1.2 B 	58 	agribusiness 	Brazil
+#1605 	Lucia Maggi 	$1.2 B 	83 	agribusiness 	Brazil
+#1605 	Gilles Martin 	$1.2 B 	51 	laboratory services 	France
+#1605 	Ioan Niculae 	$1.2 B 	60 	agriculture 	Romania
+#1605 	G.V. Prasad 	$1.2 B 	54 	pharmaceuticals 	India
+#1605 	Satish Reddy 	$1.2 B 	47 	pharmaceuticals 	India
+#1605 	Remo Ruffini 	$1.2 B 	53 	winter jackets 	Italy
+#1605 	Airat Shaimiev 	$1.2 B 	52 	refinery, chemicals 	Russia
+#1605 	S.D. Shibulal 	$1.2 B 	60 	software services 	India
+#1605 	V.G. Siddhartha 	$1.2 B 	55 	retail 	India
+#1605 	Kerry Stokes 	$1.2 B 	74 	media, mining 	Australia
+#1605 	Yan Zhi 	$1.2 B 	42 	real estate 	China
+#1605 	Zhou Mingjie 	$1.2 B 	57 	lighting installations 	China
+#1605 	Zhu Jiman 	$1.2 B 	50 	pharmaceuticals 	China
+#1638 	Roman Avdeev 	$1.1 B 	47 	banking, development 	Russia
+#1638 	Thomas Bailey 	$1.1 B 	78 	finance 	United States
+#1638 	William Berkley 	$1.1 B 	68 	insurance 	United States
+#1638 	Maurizio Billi 	$1.1 B 	- 	Generic drugs 	Brazil
+#1638 	Alexei Bogachev 	$1.1 B 	44 	retail, banking 	Russia
+#1638 	Horst Brandstaetter 	$1.1 B 	81 	toys 	Germany
+#1638 	Mike Cannon-Brookes 	$1.1 B 	35 	business software 	Australia
+#1638 	Chey Ki-Won 	$1.1 B 	50 	computer services 	South Korea
+#1638 	Chu Mang Yee 	$1.1 B 	55 	real estate 	China
+#1638 	Hubert d'Ornano 	$1.1 B 	88 	cosmetics 	France
+#1638 	Jim Davis 	$1.1 B 	54 	staffing & recruiting firm 	United States
+#1638 	Jeanine Dick 	$1.1 B 	78 	animal pharmaceuticals 	France
+#1638 	Beda Diethelm 	$1.1 B 	74 	hearing aids 	Switzerland
+#1638 	Husain Djojonegoro 	$1.1 B 	65 	consumer goods 	Indonesia
+#1638 	Shlomo Eliahu 	$1.1 B 	79 	insurance 	Israel
+#1638 	Henry Engelhardt 	$1.1 B 	57 	insurance 	United States
+#1638 	Fan Zhaoxia 	$1.1 B 	47 	photovoltaic equipment 	China
+#1638 	Scott Farquhar 	$1.1 B 	35 	software 	Australia
+#1638 	Soichiro Fukutake 	$1.1 B 	69 	education 	Japan
+#1638 	Barbara Carlson Gage 	$1.1 B 	72 	hotels, travel 	United States
+#1638 	Don Gao 	$1.1 B 	50 	power tools 	China
+#1638 	Konstantin Grigorishin 	$1.1 B 	49 	power engineering 	Russia
+#1638 	Jeffrey Gundlach 	$1.1 B 	56 	investments 	United States
+#1638 	Suat Gunsel 	$1.1 B 	62 	real estate, education 	Cyprus
+#1638 	Guo Wengui 	$1.1 B 	- 	real estate 	China
+#1638 	Yuri Gushchin 	$1.1 B 	70 	candy, real estate 	Russia
+#1638 	Dorrance Hamilton 	$1.1 B 	86 	Campbell Soup 	United States
+#1638 	Ayman Hariri 	$1.1 B 	36 	construction, investments 	Lebanon
+#1638 	Fahd Hariri 	$1.1 B 	34 	construction, investments 	Lebanon
+#1638 	Ilona Herlin 	$1.1 B 	50 	elevators, escalators 	Finland
+#1638 	Niranjan Hiranandani 	$1.1 B 	64 	real estate 	India
+#1638 	Surendra Hiranandani 	$1.1 B 	60 	real estate 	India
+#1638 	Jon Huntsman 	$1.1 B 	77 	chemicals 	United States
+#1638 	Mohammed Ibrahim 	$1.1 B 	68 	communications 	United Kingdom
+#1638 	Hal Jackman 	$1.1 B 	82 	insurance, investments 	Canada
+#1638 	Raghuvinder Kataria 	$1.1 B 	65 	diversified 	United Kingdom
+#1638 	Yuriy Kosiuk 	$1.1 B 	46 	agriculture 	Ukraine
+#1638 	Lee Ho-Jin 	$1.1 B 	52 	petrochemicals / finance / media / electronics 	South Korea
+#1638 	Liang Zhaoxian 	$1.1 B 	50 	appliances 	China
+#1638 	Liu Ming Hui 	$1.1 B 	52 	natural gas distribution 	China
+#1638 	Lou Zhongfu 	$1.1 B 	61 	real estate 	China
+#1638 	Jeffrey Lurie 	$1.1 B 	63 	Philadelphia Eagles 	United States
+#1638 	Alexander Lutsenko 	$1.1 B 	52 	agribusiness 	Russia
+#1638 	Edir Macedo 	$1.1 B 	70 	broadcasting 	Brazil
+#1638 	Ziyad Manasir 	$1.1 B 	49 	construction 	Russia
+#1638 	Kishore Mariwala 	$1.1 B 	80 	consumer goods 	India
+#1638 	Nikolai Maximov 	$1.1 B 	57 	investments 	Russia
+#1638 	Jacques Merceron-Vicat 	$1.1 B 	76 	cement 	France
+#1638 	Azad Moopen 	$1.1 B 	61 	healthcare 	India
+#1638 	John Morgridge 	$1.1 B 	81 	computer hardware 	United States
+#1638 	Marilyn Carlson Nelson 	$1.1 B 	75 	hotels, travel 	United States
+#1638 	Carolus Nolet, Sr. 	$1.1 B 	74 	Ketel One vodka 	Netherlands
+#1638 	Ou Zonghong 	$1.1 B 	45 	real estate 	China
+#1638 	Marli Pissollo 	$1.1 B 	60 	agribusiness 	Brazil
+#1638 	Andrei Rappoport 	$1.1 B 	51 	investments 	Russia
+#1638 	Alberto Roemmers 	$1.1 B 	88 	pharmaceuticals 	Argentina
+#1638 	Sudhir Ruparelia 	$1.1 B 	59 	real estate 	Uganda
+#1638 	David Sainsbury 	$1.1 B 	74 	retail 	United Kingdom
+#1638 	Radik Shaimiev 	$1.1 B 	50 	refinery, chemical 	Russia
+#1638 	E. Joe Shoen 	$1.1 B 	66 	U-Haul 	United States
+#1638 	Sanjay Singal 	$1.1 B 	55 	steel 	India
+#1638 	Bruno Steinhoff 	$1.1 B 	77 	furniture 	Germany
+#1638 	Rustem Sulteev 	$1.1 B 	61 	refinery, chemicals 	Russia
+#1638 	Sun Qinghuan 	$1.1 B 	41 	lighting 	China
+#1638 	Djoko Susanto 	$1.1 B 	65 	retail 	Indonesia
+#1638 	Yoshikazu Tanaka 	$1.1 B 	38 	online social network 	Japan
+#1638 	Roustam Tariko 	$1.1 B 	52 	banking 	Russia
+#1638 	Tu Jianhua 	$1.1 B 	51 	motorcycles, real estate 	China
+#1638 	Kenneth Tuchman 	$1.1 B 	55 	outsourcing 	United States
+#1638 	Lang Walker 	$1.1 B 	69 	property 	Australia
+#1638 	Wang Yongping 	$1.1 B 	44 	telecom services 	China
+#1638 	Yang Keng 	$1.1 B 	54 	real estate 	China
+#1638 	Zhong Sheng Jian 	$1.1 B 	57 	real estate 	Singapore
+#1711 	Lau Cho Kun 	$1.1 B 	79 	palm oil/real estate 	Malaysia
+#1712 	Bassam Alghanim 	$1.1 B 	63 	diversified 	Kuwait
+#1712 	Kutayba Alghanim 	$1.1 B 	69 	diversified 	Kuwait
+#1712 	Achal Bakeri 	$1.1 B 	55 	air coolers 	India
+#1712 	Amit Burman 	$1.1 B 	45 	consumer goods 	India
+#1712 	Cheng Xue 	$1.1 B 	45 	soy sauce maker 	China
+#1712 	Chu Jinfu 	$1.1 B 	57 	electrical power equipment 	China
+#1712 	Thian Poh Chua 	$1.1 B 	66 	real estate 	Singapore
+#1712 	Brunello Cucinelli 	$1.1 B 	61 	cashmere sweaters 	Italy
+#1712 	Dai Deming 	$1.1 B 	- 	auto distribution 	China
+#1712 	Gustavo Denegri 	$1.1 B 	79 	medical tests 	Italy
+#1712 	T.S. Kalyanaraman 	$1.1 B 	67 	jewelry 	India
+#1712 	Mustafa Vehbi Koc 	$1.1 B 	54 	diversified 	Turkey
+#1712 	Liu Zhenguo 	$1.1 B 	50 	sewage treatment 	China
+#1712 	Dariusz Milek 	$1.1 B 	47 	real estate, retail 	Poland
+#1712 	Jorge Rodriguez Rodriguez 	$1.1 B 	69 	processed milk 	Peru
+#1712 	Sevket Sabanci 	$1.1 B 	78 	diversified 	Turkey
+#1712 	K. Rai Sahi 	$1.1 B 	68 	real estate 	Canada
+#1712 	Yoshiyuki Sankai 	$1.1 B 	56 	robotics 	Japan
+#1712 	Samih Sawiris 	$1.1 B 	58 	real estate, hotels 	Egypt
+#1712 	Albert Shigaboutdinov 	$1.1 B 	60 	refinery, chemicals 	Russia
+#1712 	Pavel Tykac 	$1.1 B 	50 	coal mine 	Czech Republic
+#1712 	Alexander Vik 	$1.1 B 	60 	investments 	Norway
+#1712 	Wang Qinghui 	$1.1 B 	46 	telecom services 	China
+#1712 	Wang Zhongjun 	$1.1 B 	54 	film production 	China
+#1712 	Wu Chung-Yi 	$1.1 B 	56 	auto parts 	Taiwan
+#1712 	Xia Shudong 	$1.1 B 	42 	IT service 	China
+#1712 	Yu Awu 	$1.1 B 	73 	jewelry 	China
+#1712 	Yu Peidi 	$1.1 B 	55 	real estate 	Hong Kong
+#1712 	Zhou Yaoting 	$1.1 B 	72 	conglomerate 	China
+#1741 	Antti Aarnio-Wihuri 	$1 B 	- 	Diversified 	Finland
+#1741 	Mohed Altrad 	$1 B 	66 	scaffolding, cement mixers 	France
+#1741 	Rostam Azizi 	$1 B 	50 	telecom, investments 	Tanzania
+#1741 	Elena Baturina 	$1 B 	51 	construction 	Russia
+#1741 	Sara Blakely 	$1 B 	44 	Spanx 	United States
+#1741 	Tory Burch 	$1 B 	48 	fashion 	United States
+#1741 	Sidharth Burman 	$1 B 	70 	consumer goods 	India
+#1741 	Fred Chang 	$1 B 	58 	online retailing 	United States
+#1741 	Leon Charney 	$1 B 	73 	real estate 	United States
+#1741 	Cheung Yan 	$1 B 	58 	paper 	China
+#1741 	Chin Jong Hwa 	$1 B 	56 	auto parts 	Taiwan
+#1741 	Robert Citrone 	$1 B 	50 	hedge fund 	United States
+#1741 	Cui Lijie 	$1 B 	- 	gambling 	Hong Kong
+#1741 	Chris Dawson 	$1 B 	63 	home goods retail 	United Kingdom
+#1741 	Aydin Dogan 	$1 B 	78 	media 	Turkey
+#1741 	Charles Edelstenne 	$1 B 	77 	Dassault 	France
+#1741 	Maria de Lourdes Egydio Villela 	$1 B 	- 	banking 	Brazil
+#1741 	Paul Fireman 	$1 B 	71 	Reebok 	United States
+#1741 	Ken Grossman 	$1 B 	- 	beer 	United States
+#1741 	Frank Hasenfratz 	$1 B 	80 	auto parts 	Canada
+#1741 	Reed Hastings 	$1 B 	54 	Netflix 	United States
+#1741 	Huang Bingwen 	$1 B 	61 	printing 	Australia
+#1741 	Daisy Igel 	$1 B 	87 	gas, petrochemicals 	Brazil
+#1741 	Ray Irani 	$1 B 	80 	Oil 	United States
+#1741 	Summerfield Johnston, Jr. 	$1 B 	82 	Coca-Cola 	United States
+#1741 	Michael Jordan 	$1 B 	52 	sports team 	United States
+#1741 	Morris Kahn 	$1 B 	85 	software 	Israel
+#1741 	Thomas Kaplan 	$1 B 	52 	investments 	United States
+#1741 	Eugene Kaspersky 	$1 B 	49 	software 	Russia
+#1741 	Ryan Kavanaugh 	$1 B 	40 	movies 	United States
+#1741 	Solomon Lew 	$1 B 	69 	retail 	Australia
+#1741 	Li Fuchao 	$1 B 	57 	auto parts 	China
+#1741 	Liu Ming Chung 	$1 B 	52 	paper manufacturing 	Brazil
+#1741 	Lo Siu Yu 	$1 B 	45 	conglomerate 	Hong Kong
+#1741 	Mario Lopez Estrada 	$1 B 	- 	telecom 	Guatemala
+#1741 	Low Tuck Kwong 	$1 B 	66 	coal 	Indonesia
+#1741 	Lu Yonghua 	$1 B 	51 	electronics 	China
+#1741 	Lv Dalong 	$1 B 	52 	telecom services 	China
+#1741 	Michael Lynch 	$1 B 	50 	software 	United Kingdom
+#1741 	Martha MacMillan Bennett 	$1 B 	63 	Cargill 	United States
+#1741 	Cargill MacMillan, III. 	$1 B 	55 	Cargill 	United States
+#1741 	John MacMillan 	$1 B 	65 	Cargill 	United States
+#1741 	William MacMillan 	$1 B 	60 	Cargill 	United States
+#1741 	John Martin 	$1 B 	63 	pharmaceuticals 	United States
+#1741 	Kiran Mazumdar-Shaw 	$1 B 	61 	biotechnology 	India
+#1741 	David McMurtry 	$1 B 	74 	Manufacturing 	United Kingdom
+#1741 	P.N.C. Menon 	$1 B 	66 	real estate 	Oman
+#1741 	Trond Mohn 	$1 B 	71 	cargo pumps 	Norway
+#1741 	Zelimkhan Mutsoev 	$1 B 	55 	fertilizers, real estate 	Russia
+#1741 	Nerijus Numavicius 	$1 B 	47 	retail, pharmacy 	Lithuania
+#1741 	Hong Leong Oei 	$1 B 	66 	investments 	Singapore
+#1741 	Jonathan Oringer 	$1 B 	40 	stock photos 	United States
+#1741 	Femi Otedola 	$1 B 	52 	gas stations 	Nigeria
+#1741 	J. Michael Pearson 	$1 B 	55 	pharmaceuticals 	Canada
+#1741 	Robert Piccinini 	$1 B 	73 	supermarkets 	United States
+#1741 	Andreas Pohl 	$1 B 	50 	mutual funds 	Germany
+#1741 	Reinfried Pohl, Jr. 	$1 B 	55 	mutual funds 	Germany
+#1741 	Abdulsamad Rabiu 	$1 B 	55 	cement, sugar, flour 	Nigeria
+#1741 	Andrea Reimann-Ciardelli 	$1 B 	58 	consumer goods 	United States
+#1741 	Ren Zhengfei 	$1 B 	71 	telecom equipment 	China
+#1741 	Hugo Ribeiro 	$1 B 	- 	agribusiness 	Brazil
+#1741 	Steven Roth 	$1 B 	73 	real estate 	United States
+#1741 	Subhash Runwal 	$1 B 	71 	real estate 	India
+#1741 	Suzan Sabanci Dincer 	$1 B 	50 	diversified 	Turkey
+#1741 	Serra Sabanci 	$1 B 	39 	diversified 	Turkey
+#1741 	Nobutada Saji 	$1 B 	69 	beverages 	Japan
+#1741 	Sheryl Sandberg 	$1 B 	45 	Facebook 	United States
+#1741 	Monika Schoeller 	$1 B 	76 	publishing 	Germany
+#1741 	Bhadresh Shah 	$1 B 	63 	engineering 	India
+#1741 	Neil Shen 	$1 B 	46 	venture capital investing 	Hong Kong
+#1741 	Leonid Simanovsky 	$1 B 	65 	investments 	Russia
+#1741 	Benny Subianto 	$1 B 	72 	coal, investments 	Indonesia
+#1741 	Harjo Sutanto 	$1 B 	88 	consumer goods 	Indonesia
+#1741 	Ion Tiriac 	$1 B 	75 	banking, insurance 	Romania
+#1741 	Murat Vargi 	$1 B 	67 	telecom 	Turkey
+#1741 	Stefan von Holtzbrinck 	$1 B 	51 	publishing 	Germany
+#1741 	Wang Haipeng 	$1 B 	43 	paper & related products 	China
+#1741 	Wang Jianfeng 	$1 B 	45 	auto parts 	China
+#1741 	Wang Wenliang 	$1 B 	60 	ship maintenance 	China
+#1741 	Wang Yong 	$1 B 	64 	food sweeteners 	China
+#1741 	V. Prem Watsa 	$1 B 	64 	insurance, investments 	Canada
+#1741 	Sanford Weill 	$1 B 	81 	Citigroup 	United States
+#1741 	Thomas Wu 	$1 B 	- 	finance 	Taiwan
+#1741 	Fatma Yazici 	$1 B 	41 	Diversified 	Turkey
+#1741 	You Xiaoping 	$1 B 	57 	chemicals, spandex 	China
+#1741 	Yuan Yafei 	$1 B 	51 	retailing, investments 	China
