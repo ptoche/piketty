@@ -1,5 +1,6 @@
 # http://stats.areppim.com/listes/list_billionairesx06xwor.htm
 # The complete list of world's billionaires 2006
+# Rank	Name	Citizenship	Age	Net Worth(bil US$)	Residence
 
 1	William Gates III	United States	50	50	United States
 2	Warren Buffett	United States	75	42	United States

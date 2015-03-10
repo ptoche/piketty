@@ -26,7 +26,7 @@ source('../../shared/shared.R')
 - All source files for this course are available for download by anyone without restrictions at https://github.com/ptoche/piketty
 - The full course is expected to be completed by April 2015.
 - Chapter 2 reviewed the main stages of income and output growth since the Industrial Revolution.
-- Chapter 3 reviews the metamorphoses of capital in Britain and France since the eighteenth century.  
+- Chapter 3 reviews the metamorphoses of capital in the United Kingdom and France since the eighteenth century.  
 
 ---
 
@@ -35,15 +35,20 @@ source('../../shared/shared.R')
 - Figures 3.1 and 3.2 show the capital structure of the UK and France.
     - `1`. The capital/income ratio $K/Y$ followed an inverted-bell curve ('U-shape'). Stable in the 18th and 19th centuries at about 600% or 700%; very large decline to 200% or 300% in the 20th during the depression and WWII; going back to the pre-WWI level after WWII.
     - `2`. The composition of capital $K$ has transformed over the very long run: agricultural land has been replaced by buildings, business capital, and financial capital invested in firms and government organizations.
-- The depression, the wars, and inflation during 1914-1945 wiped the slate clean and created the illusion of virtuous, merit-based capitalism &mdash; the 'myth of the Kuznets curve' derided by Piketty.
+- The depression, the wars, and inflation during 1914-1945 wiped the slate clean and created the illusion of virtuous, merit-based capitalism &mdash; the 'myth of the Kuznets curve' debunked by Piketty.
 
 ---
 
 ### The Structure of Capital
 
-- **3 categories of capital**: `1` farm land; `2` residential land & housing; `3` other types including land and buildings used for business, infrastructure, machinery, computers, patents. 
+- **3 categories of capital**: 
 
-    - **National capital $=$ farmland $+$ housing $+$ other domestic capital $+$ net foreign capital**  
+`1` farm land; `2` residential land & housing; `3` other types including land and buildings used for business, infrastructure, machinery, computers, patents. 
+
+**National capital &nbsp;&nbsp;$=$&nbsp;&nbsp; farmland $+$ housing $+$ other domestic capital** 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **$+$ net foreign capital**  
+
 - In 1700, the total value of farmland represented 400% to 500% of national income, nearly 2/3 of total national capital and 3/4 of all economic activity and employment. The value of housing was 100% of national income; the 'other' category, the same as housing.
 - In 2010, farmland is less than 10% of national income, less than 2% of capital. Housing is 300% of national income; like the 'other' category.
 
@@ -81,7 +86,7 @@ There are 2 main causes behind this structural transformation:
 ### The Fall of Foreign Capital
 
 - Following 2 world wars, some local wars, 1 depression, high inflation, the British and French empires lost their colonies and foreign wealth.
-- After 1950, their net foreign asset holdings have been close to zero.
+- After 1950, their net foreign asset holdings have remained close to zero.
 - In 2010, net foreign assets are negligible, as they were in 1700. The ratio of total capital to national income is similar in both periods. 
 - The most important long-run structural change is the fall of farmland and the rise of real estate and working capital. 
 
@@ -122,25 +127,27 @@ There are 2 main causes behind this structural transformation:
 
 ### Public Debt in British History
 
-- The UK has a long history of borrowing 'to the hilt.'
-- During 1700–1720, public debt reached 50% of national income. During 1760–1770, 100%. After the Napoleonic wars and after WWII, UK public debt exceeded 200% of GDP.
-- It took a century of budget surpluses to gradually reduce public debt below 30% by 1914 &mdash; successive government did not repudiate it.
-- Public debt lost its significance because national income outgrew it, mostly because of strong economic growth.
+- The United Kingdom has a long history of borrowing 'to the hilt.'
+- During 1700–1720, public debt reached 50% of national income. During 1760–1770, 100%. After the Napoleonic wars and after WWII, it has exceeded 200% of GDP.
+- The large rise in public debt of 1770–1810 was financed largely by a rise in private saving, so that national capital remained stable at around 700% of national income. 
+- The deficits raised demand for private wealth and bid up its return, making government bonds attractive relative to other assets. 
+- The public debt did not 'crowd out' private investment. There was no perceived conflict of interest between the public and private sectors.
 
 --- 
 
 ### Public Debt in British History
 
-- The large rise in public debt of 1770–1810 was financed largely by a rise in private saving, so that national capital remained stable at around 700% of national income. 
-- The deficits raised demand for private wealth bid up its return, making government bonds attractive relative to other assets. 
+- It took a century of budget surpluses to gradually reduce public debt &mdash; to below 30% by 1914 &mdash; successive government did not repudiate it.
 - From 1815 to 1914 &mdash; a century! &mdash; the UK government paid 5% of GDP every year to their (wealthy, willing and happy) creditors, financing this transfer of wealth with 'primary' surpluses (the primary surplus is tax revenue minus non-interest government spending).
+- Public debt lost its significance because national income outgrew it, mostly because of strong economic growth.
 
 ---
 
-### Public Debt in French History
+### Public Default in History
 
-- Following the 1789 Revolution and 'terreur', France defaulted on 2/3 of public debt ('banqueroute des deux tiers'), resorted to high inflation (episode of the 'assignats'), and by 1815 the public debt accumulated by the fallen aristocratic 'Ancien Régime' was below 20%.
+- Following the 1789 Revolution and 'terreur', France defaulted on 2/3 of public debt ('banqueroute des deux tiers'), resorted to high inflation (episode of the 'assignats'), and by 1815 the public debt accumulated by the 'Ancien Régime' had fallen below 20% of national income.
 - Revolutions are often followed by a default on public debt: the confederate states in 1865 (end of the American civil war), the Russian 'Soviets' in 1917 and Chinese 'Maoists' in 1949  (communist revolutions).
+- Another form of default is 'surprise' inflation. Inflation in 1913–1950 averaged 13% a year (prices multiplied by 100) in France &mdash; 3% a year (prices multiplied by 3) in the UK. In 1950-1980 inflation averaged 6% (prices multiplied by 6) in the UK, 10% in the 1970s alone. Inflation shrunk the real value of debt and 'solved' the debt problem.
 
 ---
 
@@ -148,19 +155,18 @@ There are 2 main causes behind this structural transformation:
 
 - Europe, America, Japan are heavily in debt. A government bond is a claim of one segment of the population (those who receive interest) on another (those who pay taxes). Why should debt matter?
 - In the 19th century, Marx observed rising interest rates and saw public debt as a 'lever' of the accumulation of private capital &mdash; a tool of the rich
-- Inflation in 1913–1950 averaged 13% a year (prices multiplied by 100) in France; 3% a year (prices multiplied by 3) in the UK. In 1950-1980 inflation averaged 6% (prices multiplied by 6) in the UK, 10% in the 1970s alone. Inflation shrunk the real value of debt and 'solved' the debt problem.
 - Friedman saw public debt as a 'lever' of public spending and wealth redistribution &mdash; a tool of the poor.
 - Ronald Reagan and G.W.Bush saw public debt as a 'lever' to force (on future administrations) cuts in public spending and 'kill the Leviathan'.
+- The value of the interest paid on public debt and the use of the public funds matter in the perception of debt as a necessary 'good' or 'evil.' 
 
 ---
 
 ### 'Ricardian Equivalence'
 
-- In 1817, David Ricardo suggested that public debt does not always 'crowd out' private capital. 
-- While British public debt was 200% of GDP, private investment was healthy &mdash; the public debt was financed by a rise in private saving.
-- The gigantic public debt had no effect on national wealth.
-- Public debt was no more than a claim of one group of people on another.
-- Writing in 1936, John Maynard Keynes felt that the 'euthanasia of the rentier' would be the simplest way to reduce the burden of public debt.
+- In 1817, David Ricardo suggested that public debt need not always 'crowd out' private capital &mdash; that it is no more than a claim of one group of people on another.
+- While British public debt was 200% of GDP, private investment was healthy &mdash; the public debt was financed by a rise in private saving. The gigantic public debt had no effect on national wealth.
+- In 1936, John Maynard Keynes felt that the 'euthanasia of the rentier' would be the simplest way to reduce the burden of the public debt.
+- 'Ricardian Equivalence' was revived by Robert Barro in the 1970s, to promote the use of 'representative agent' models of rational, forward-looking agents, and the prescription that debt should be issued to smooth taxes over time and would be ineffective as a redistribution tool.
 
 --- 
 
@@ -172,7 +178,7 @@ There are 2 main causes behind this structural transformation:
 - It works only by surprising bond holders, who then learn to distrust government and demand higher nominal interest rates to compensate for inflation and its risk. 
 - Once built into expectations inflation becomes persistent and costly.
 - Eliminating inflation requires banking reforms and a strong recession.
-- The Germans are afraid of inflation. So are the French.
+- The Germans are afraid of inflation, very afraid. So are the French.
 
 ---
 
@@ -181,7 +187,8 @@ There are 2 main causes behind this structural transformation:
 - The history of public assets is less erratic than that of public debt.
 - The value of public assets rose from 50% of national income in the 17th century to 150% in France and 100% in the UK today. 
 - This reflects the expansion of the state, in particular in the areas of health, education, transportation, and communication.
-- Periods of privatization and nationalization have alternated. Reagan and Thatcher initiated a wave of privatization in the 1980s. In the UK: British Petroleum, British Aerospace, British Gas, British Steel, British Telecom, Sealink ferries, Rolls-Royce, British Rail. France, Japan, and of course the former Soviet Union also privatized on a grand scale.
+- Periods of privatization and nationalization have alternated. Reagan and Thatcher initiated a wave of privatization in the 1980s. France, Japan, and of course the former Soviet Union also privatized on a grand scale.
+- Famous British corporations privatized since the 1980s: British Petroleum, British Aerospace, British Gas, British Steel, British Telecom, Sealink ferries, Rolls-Royce, British Rail. 
 
 ---
 
@@ -212,11 +219,11 @@ There are 2 main causes behind this structural transformation:
 
 <!--- 
 
-### Capital in Britain
+### Capital in the United Kingdom
 
 <figure class = "captioned">
-<img src = "../../figures/Figure_3_1.png" alt = "Figure 3.1. Capital in Britain, 1700-2010.">  
-<figcaption class = 'figcaption'>Figure 3.1. National capital is worth about seven years of national income in Britain in 1700 (including four in agricultural land).</figcaption>  
+<img src = "../../figures/Figure_3_1.png" alt = "Figure 3.1. Capital in the United Kingdom, 1700-2010.">  
+<figcaption class = 'figcaption'>Figure 3.1. National capital is worth about seven years of national income in the United Kingdom in 1700 (including four in agricultural land).</figcaption>  
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -225,7 +232,7 @@ There are 2 main causes behind this structural transformation:
 
 ---
 
-### Capital in Britain
+### Capital in the United Kingdom
 
 ```{r 'Figure_3_1_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
@@ -247,8 +254,8 @@ n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5'))  # To do: automat
 n$addParams(height = 450, width = 900)
 n$save('figures/Figure_3_1.html', standalone = TRUE)
 ``` 
-<iframe src = 'figures/Figure_3_1.html' alt = "Figure 3.1. Capital in Britain, 1700-2010.">
-</iframe><icaption class = 'icaption'>Figure 3.1. National capital is worth about seven years of national income in Britain in 1700 (including four in agricultural land).</icaption> 
+<iframe src = 'figures/Figure_3_1.html' alt = "Figure 3.1. Capital in the United Kingdom, 1700-2010.">
+</iframe><icaption class = 'icaption'>Figure 3.1. National capital is worth about seven years of national income in the United Kingdom in 1700 (including four in agricultural land).</icaption> 
 <footer class = 'footnote'>  
 Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
@@ -298,10 +305,10 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 
 <!---
 
-### Public wealth in Britain
+### Public wealth in the United Kingdom
 
 <figure class = "captioned">
-<img src = "../../figures/Figure_3_3.png" alt = "Figure 3.3. Public wealth in Britain, 1700-2010.">  
+<img src = "../../figures/Figure_3_3.png" alt = "Figure 3.3. Public wealth in the United Kingdom, 1700-2010.">  
 <figcaption class = 'figcaption'>Figure 3.3. Public debt surpassed two years of national income in 1950 (versus one year for public assets).</figcaption>  
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
@@ -311,7 +318,7 @@ Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnat
 
 ---
 
-### Public wealth in Britain
+### Public wealth in the United Kingdom
 
 ```{r 'Figure_3_3_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
@@ -341,7 +348,7 @@ n$setTemplate(afterScript = '<style>
 </style>')
 n$save('figures/Figure_3_3.html', standalone = TRUE)
 ```
-<iframe src = 'figures/Figure_3_3.html' alt = "Figure 3.3. Public wealth in Britain, 1700-2010.">
+<iframe src = 'figures/Figure_3_3.html' alt = "Figure 3.3. Public wealth in the United Kingdom, 1700-2010.">
 </iframe><icaption class = 'icaption'>Figure 3.3. Public debt surpassed two years of national income in 1950 (versus one year for public assets).</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
@@ -398,11 +405,11 @@ n$save('figures/Figure_3_4.html', standalone = TRUE)
 
 <!---
 
-### Private and public capital in Britain
+### Private and public capital in the United Kingdom
 
 <figure class = "captioned">
-<img src = "../../figures/Figure_3_5.png" alt = "Figure 3.5. Private and public capital in Britain, 1700-2010.">  
-<figcaption class = 'figcaption'>Figure 3.5. In 1810, private capital is worth eight years of national income in Britain (versus seven years for national capital).</figcaption>  
+<img src = "../../figures/Figure_3_5.png" alt = "Figure 3.5. Private and public capital in the United Kingdom, 1700-2010.">  
+<figcaption class = 'figcaption'>Figure 3.5. In 1810, private capital is worth eight years of national income in the United Kingdom (versus seven years for national capital).</figcaption>  
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -411,7 +418,7 @@ n$save('figures/Figure_3_4.html', standalone = TRUE)
 
 ---
 
-### Private and public capital in Britain
+### Private and public capital in the United Kingdom
 
 ```{r 'Figure_3_5_rCharts',  message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, cache = FALSE}  
 require(rCharts)
@@ -441,8 +448,8 @@ n$setTemplate(afterScript = '<style>
 </style>')
 n$save('figures/Figure_3_5.html', standalone = TRUE)
 ```
-<iframe src = 'figures/Figure_3_5.html' alt = "Figure 3.5. Private and public capital in Britain, 1700-2010.">
-</iframe><icaption class = 'icaption'>Figure 3.5. In 1810, private capital is worth eight years of national income in Britain (versus seven years for national capital).</icaption>
+<iframe src = 'figures/Figure_3_5.html' alt = "Figure 3.5. Private and public capital in the United Kingdom, 1700-2010.">
+</iframe><icaption class = 'icaption'>Figure 3.5. In 1810, private capital is worth eight years of national income in the United Kingdom (versus seven years for national capital).</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
