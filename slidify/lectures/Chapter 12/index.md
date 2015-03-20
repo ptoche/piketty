@@ -1,12 +1,11 @@
 ---
-title       : Chapter 12, Global Inequality of Wealth in the Twenty-First Century
+title       : Chapter 12 -- Global Inequality of Wealth in the Twenty-First Century
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
-framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
-github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "12"
 --- 
@@ -27,6 +26,18 @@ lecnum      : "12"
 - Chapter 11 analyzed the relative roles of inheritance and saving in capital formation in the long term.
 
 - Chapter 12 studies the dynamics of wealth inequality at the global level.
+
+---
+
+<figure class = "centered">  
+<img src = "../../tables/Table_12_1.png" alt = "The growth rate of top global wealth, 1987-2013" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
+---
+
+<figure class = "centered">  
+<img src = "../../tables/Table_12_2.png" alt = "The return on the capital endowments of US universities, 1980-2010" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
 
 ---
 

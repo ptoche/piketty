@@ -344,7 +344,8 @@ The bottom 50% still own only 5% in 2010, just as in 1910. But the middle 40% ow
 | Neymar da Silva       | 150,000 | 
 | Luis Suárez           | 200,000 | 
 | Lionel Messi          | 256,000 | 
-- The table shows weekly wages for 15 players of Barcelona FC for 2014-2015. Chart the Lorenz curve and compute the Gini coefficient.
+Table: Weekly wages for 15 players of Barcelona FC for 2014-2015.<br>
+**Exercise**: Chart the Lorenz curve and compute the Gini coefficient.
 
 <footer class = 'footnote'>Source: [France Football Magazine](http://www.francefootball.fr/).
 </footer> 

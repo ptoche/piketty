@@ -359,7 +359,8 @@ tbl <- "
 "
 cat(tbl)  # output the table
 ```
-- The table shows weekly wages for 15 players of Barcelona FC for 2014-2015. Chart the Lorenz curve and compute the Gini coefficient.
+Table: Weekly wages for 15 players of Barcelona FC for 2014-2015.<br>
+**Exercise**: Chart the Lorenz curve and compute the Gini coefficient.
 
 <footer class = 'footnote'>Source: [France Football Magazine](http://www.francefootball.fr/).
 </footer> 

@@ -13,11 +13,11 @@ Quizzes and Short Questions will be listed here as they become available.
 
 <br>
 
-<a href="Chapter 01/index.html">Chapter 1: General</a>
+<a href="Chapter 01/general.html">Chapter 1: General</a>
 
 <a href="Chapter 01/population.html">Chapter 1: Population</a>
 
-<a href="Chapter 02/index.html">Chapter 2: General</a>
+<a href="Chapter 02/general.html">Chapter 2: General</a>
 
 <a href="Chapter 02/inflation.html">Chapter 2: Inflation</a>
 

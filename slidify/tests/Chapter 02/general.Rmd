@@ -1,5 +1,5 @@
 ---
-title       : Chapter 2 -- Quiz
+title       : Chapter 2 -- Quiz -- General
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
 framework   : io2012  # minimal, io2012, html5slides, shower, dzslides, ...
@@ -8,7 +8,6 @@ highlighter : highlight.js  # highlight.js, prettify, highlight
 hitheme     : tomorrow
 widgets     : [mathjax, quiz, bootstrap]   # [mathjax, quiz, bootstrap]
 url         : {lib: "../../libraries", assets: "../../assets"}
-editlink    : "tests/01"
 
 --- &radio
 
@@ -293,87 +292,22 @@ See Table 2.4.
 See Chapter 2 and Table 2.4.
 
 
---- &radio .shrink10
+--- &radio .shrink20
 
 ### Question 10
 
-1. 
-_1700-1800 and 1800-1900 were periods of low inflation, while 1913-1950 and 1970-1990 of relatively high inflation (sometimes very high)._ 
-2. 
-1700-1800 and 1800-1900 were periods of relatively high inflation (sometimes very high), while 1913-1950 and 1970-1990 of low inflation. 
-3. 
-1700-1800 and 1913-1950 were periods of low inflation, while 1800-1900 and 1970-1990 of relatively high inflation (sometimes very high). 
-4. 
-1970-1990 and 1990-2010 were periods of low inflation, while 1700-1900 and 1913-1950 of relatively high inflation (sometimes very high). 
-5. 
-1700-1900 and 1913-1950 were periods of low inflation, while 1970-1990 and 1990-2010 of relatively high inflation (sometimes very high). 
+In the United States, the United Kingdom, Germany, France, the following periods were characterized by:
+
+1. 1700-1900: high inflation &mdash; 1914-1929: high inflation &mdash; 1970-1980: high inflation.
+2. 1700-1900: high inflation &mdash; 1914-1929: high inflation &mdash; 1970-1980: low inflation.
+3. 1700-1900: high inflation &mdash; 1914-1929: low inflation &mdash; 1970-1980: high inflation.
+4. 1700-1900: low inflation &mdash; 1914-1929: low inflation &mdash; 1970-1980: low inflation.
+5. 1700-1900: low inflation &mdash; 1914-1929: high inflation &mdash; 1970-1980: low inflation.
+6. _1700-1900: low inflation &mdash; 1914-1929: high inflation &mdash; 1970-1980: high inflation._
 
 *** .hint
-See Figure 2.6.
+'Low inflation' refers to annual inflation rates ranging from -1% to +2%. High inflation refers to annual inflation rates in excess of 4%. 'A period' refers to most years within the given dates (at least half of the time) and for most countries (at least 3 of 5 countries).
 
 *** .explanation
-See Chapter 2 and Figure 2.6.
-
-
---- &radio
-### Question 11
-
-Explain the 'law of cumulated growth.' Illustrate with numerical examples.
-
-*** .hint
-Carefully distinguish the 'time effect' and the 'compounding effect.'
-
-*** .explanation
-A simple explanation of compounding goes like this. Suppose \\$100 grows at an annual rate of 10%. At the end of the year, the sum has grown by \\$10 to \\$110:
-$$
-100 + 10 = 110
-$$
-where $ \$10 = 0.01 \times \$100 $
-
-After another year, the sum has grown by \\$11 to \\$121:
-$$
-110 + 11 = 121
-$$
-where $ \$11 = 0.01 \times \$110 $
-
-In the second year, the sum grows by \\$11 instead of \\$10, that is an extra dollar. That extra dollar arises because the 'gain' is reinvested. That is 'compounding.'
-
-If you ignored compounding, you would predict a growth of \\$20 only. That prediction is equivalent to:
-$$
-2 \times 0.01 \times 100 = 20
-$$
-
-More generally, ignoring compounding over a period $T$:
-$$
-T \times 0.01 \times 100 = T
-$$
-The 'time effect' measures the impact of the passing of time on growth. It is a simple linear effect in that it is proportional to $T$.  
-
-The 'compounding effect' measures the remaining part of the total growth. Table 1.1 gives various numerical examples. By comparing the 'compounding effect' for different values of the growth rate, it becomes apparent that compounding is increasing in the growth rate (it increases more than proportionally as the growth rate is increased). 
-
-Thus, there are 2 ways in which small growth rates lead to large effects: the passing of time and compounding. The compounding effect is larger the larger the growth rate is, and it is larger the longer the time horizon is.
-
-
---- &radio
-### Question 12
-
-What is the 'demographic transition'? Illustrate with examples based on real-world data.
-
-*** .hint
-See Chapter 2.
-
-*** .explanation
-See Chapter 2.
-
-
---- &radio
-### Question 13
-
-The annual growth rate of real income per person in Western Europe, Canada, and the United States over the period 1700-1950 was below 2%. Yet that is a time of industrial revolutions, of unprecedented population growth, of electricity, of trains, of cars, of planes. The annual growth rate of real income per person in the United Kingdom, Germany, and France over the period 1950-1970 was above 4% (more than twice as large). Yet that is the end of the British empire, of the French empire, a time of military defeats and loss of international influence. Explain this 'paradox.'
-
-*** .hint
-See Chapter 2.
-
-*** .explanation
-The economies of Western Europe had been greatly disturbed by the war. Entire industries disappeared to give way to the war industry. Bombing destroyed factories, bridges, and much of the infrastructure, especially in Germany and France. The high growth rates of 1950-1970 are a consequence of the reconstruction boom (capital accumulation together with a reorganization of labor and education) and, with a delay, the baby boom (population growth). Unlike in the 19th century, technological progress did not play the main part.
+The period 1700-1914 was a period in which most currencies were pegged to gold or other precious metals at a fixed rate, resulting in moderate price fluctuations (caused mostly by gold discoveries and shortages). The period 1914-1929 was a period of post-war reconstruction, with government finances damaged by the first world war (especially Germany who was being forced to pay for the cost of the war), and goods and stock prices soaring. France and Germany experienced hyperinflation in the early 1920s. The period 1970-1980 was a period of two oil price shocks and lax monetary policy (in an attempt my governments to reduce unemployment).
 

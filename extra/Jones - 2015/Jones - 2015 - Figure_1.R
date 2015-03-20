@@ -66,10 +66,3 @@ ggsave(last_plot(), file = "figures/Figure_Income_Per_Capita_Shares_Top01_Bottom
 1950-1980
 df["Year" == 1950, ]$
 1980-2007
-
-
-library(RColorBrewer)
-n$chart(color = colorRampPalette(brewer.pal(4, "Set1"))(4))
-equivalent to:
-n$chart(color = c('#E41A1C', '#7E6E85', '#E1C62F', '#999999'))
-n

@@ -8,7 +8,6 @@ highlighter : highlight.js  # highlight.js, prettify, highlight
 hitheme     : tomorrow
 widgets     : [mathjax, quiz, bootstrap]   # [mathjax, quiz, bootstrap]
 url         : {lib: "../../libraries", assets: "../../assets"}
-editlink    : "tests/01"
 
 --- &radio
 ### Question 1

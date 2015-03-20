@@ -3,7 +3,7 @@
 
 1	Gates, William III	18.5	United States
 2	Buffet, Warren	15	United States
-3	Paul Sacher,Oeri and Hoffman, Family	13.1	Switzerland
+3	Paul Sacher, Oeri and Hoffman, Family	13.1	Switzerland
 4	Lee Shau Kee	12.7	Hong Kong
 5	Tsai Wan-lin, Family	12.2	Taiwan
 6	Kwok, Brothers	11.2	Hong Kong
@@ -18,10 +18,10 @@
 15	Kluge, John Werner	7.2	United States
 16	Tan Yu	7	Philippines
 17	Wonowidjojo, Family	6.7	Indonesia
-18	Slim Hel7, Carlos	6.1	Mexico
+18	Slim Helu, Carlos	6.1	Mexico
 19	Ellison, Lawrence	6	United States
 20	Chung Ju-yung, Family	5.9	Korea
-21	Mulliez, GTrard	5.7	France
+21	Mulliez, Gerard	5.7	France
 22	Kuok, Robert	5.7	Malaysia
 23	Kwek Leng Beng, Family	5.7	Singapore
 24	Cheng Yu-tung, Family	5.5	Hong Kong
@@ -195,7 +195,7 @@
 192	Sutanto, Djuhar	2	Indonesia
 193	Arison, Ted	2	Israel
 194	Benetton, Luciano	2	Italy
-195	Azc_rraga Milmo, Emilio	2	Mexico
+195	Azcarraga Milmo, Emilio	2	Mexico
 196	Gokongwei Jr., John	2	Philippines
 197	Sy, Henry	2	Philippines
 198	Villar, Manuel	2	Philippines
@@ -406,8 +406,8 @@
 403	Kamel, Saleh Abdullah	1	Saudi Arabia
 404	Al-Sulaiman, Abdul Aziz	1	Saudi Arabia
 405	Koplowitz, Alicia and Esther	1	Spain
-406	AndrT, Family	1	Switzerland
-407	AndrT, Family	1	Switzerland
+406	Andre, Family	1	Switzerland
+407	Andre, Family	1	Switzerland
 408	Asavabhokhin, Boonsong	1	Thailand
 409	Sall, John	1	United States
 410	Jannard, Jim	1	United States
