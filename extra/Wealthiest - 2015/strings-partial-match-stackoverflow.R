@@ -30,8 +30,8 @@
 ## I do realize that more code would be expected of a good question, and I apologize for not being able to provide much. While I am reasonably familiar with R, I am not with string matching. If someone points me to some place to get started, I can then try to rephrase my question with some example code.
 
 
-### ANSWER 1
 
+### ANSWER 1
 
 ## Full answer based on adist and clustering.
 ## 
@@ -67,9 +67,9 @@ cluster_labels <- sapply(unique(cluster), function(i) raw_names[min(which(cluste
 ## "Carlos Slim Helu & family" "Carlos Slim Helu & family"
 
 
+
+
 ### ANSWER 2
-
-
 
 ## Here is a simple attempt. just using a built in function and not creating any matrix, but it seems to work on this simple example.
 
@@ -128,9 +128,10 @@ cbind(names, sapply(nn, function(x)
 # [10,] "Carlos Slim"              "Carlos" "Slim" NA        NA   
 
 
+
+
+
 ### ANSWER 3
-
-
 
 ## The stringdist package might help to get the matrix - it's also described in the June 2014 R journal.
 
@@ -142,4 +143,6 @@ stringdistmatrix(names, names)
 ##  [3,]   13   17    0    3   13   12   20   14   17    16
 ##  [4,]   12   15    3    0   14   15   20   13   16    13
 ##  ...
+
+
 

@@ -1,34 +1,35 @@
 ---
-title       : Chapter 11, Merit and Inheritance in the Long Run
+title       : Chapter 11 -- Merit and Inheritance in the Long Run
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
-framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
-github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "11"
---- 
+--- {class: cover-slide}
 
 
-
-### UNDER CONSTRUCTION
-
-- These slides are under construction.
-- Some of the figures are completed.
-- Some of the figures require further work to fix bugs.
-- Please check back later.
 
 ---
 
 ### Introduction  
 
+- This set of slides surveys selected topics from *Capital in the Twenty-First Century*, a book written by economist Thomas Piketty, published in English in 2014 to great acclaim.
+- All source files for this course are available for download by anyone without restrictions at https://github.com/ptoche/piketty
+- The full course is expected to be completed by April 2015.
 - Chapter 10 reviewed the historical evolution of wealth inequality and the factors behind the historic compression of inequality.
-
 - Chapter 11 analyzes the relative roles of inheritance and saving in capital formation in the long term.
 
 ---
+
+<figure class = "centered">  
+<img src = "../../tables/Table_11_1.png" alt = "The age-wealth profile in France, 1872-2010: Average wealth of each group (% of average wealth of 50 to 59 year-olds)" style="max-width: 1000px!important; max-height: 600px!important; margin: 0em; padding: 0em;">
+</figure> 
+
+
+<!---
 
 ### The annual inheritance flow as a fraction of national income
 <figure class = "captioned">  
@@ -37,6 +38,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -48,7 +51,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----  
+<!---  
 
 ### The mortality rate in France
 
@@ -58,6 +61,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -69,7 +74,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Average age of decedents and inheritors
 
@@ -79,6 +84,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -90,7 +97,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Inheritance flow versus mortality rate
 
@@ -100,6 +107,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -111,7 +120,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Average wealth at death and average wealth of the living
 
@@ -121,6 +130,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -132,7 +143,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Observed and simulated inheritance flow
 
@@ -142,6 +153,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -153,7 +166,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The share of inherited wealth in total wealth
 
@@ -164,6 +177,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -176,7 +191,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Annual inheritance flow and household disposable income
 
@@ -186,6 +201,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -197,7 +214,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The share of inheritance in the total resources
 
@@ -207,6 +224,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -218,7 +237,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The dilemma of Rastignac
 
@@ -228,6 +247,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -239,7 +260,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Inheritance in units of lifetime labor income
 
@@ -249,6 +270,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -260,7 +283,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### The inheritance flow in Europe
 
@@ -271,6 +294,8 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
+-->
+
 ---
 
 ### The inheritance flow in Europe
@@ -280,3 +305,4 @@ lecnum      : "11"
 </iframe><icaption class = 'icaption'>Figure 11.12. The inheritance flow follows a U-shape in curve in France as well as in the United Kingdom and Germany. It is possible that gifts are underestimated in the United Kingdom at the end of the period.</icaption> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
+

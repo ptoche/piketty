@@ -164,30 +164,51 @@ df$Wealth <- as.numeric(df$Wealth)
 df$Age <- as.numeric(df$Age)# forces e.g. 55/57 to NA, to be improved
 
 # Create a clean string of names
-Names <- subset(df, Year == 1996)$Name  # surname, name format
+df1996 <- subset(df, Year == 1996)
+Names <- df1996$Name  # surname, name format
+
+# Split Name on comma for Surname / Forename
+library(stringr)  # package-dependent
+df1996$Surname <- str_match(Names, "^(.*?),\\s*(.*)")[, -1][, 1]
+df1996$Forename <- str_match(Names, "^(.*?),\\s*(.*)")[, -1][, 2]
+
+# Fix Surname / Forename where there is no comma to split on
+df1996[which(is.na(df1996$Surname)), ]$Surname <- sub("^(\\w+)\\s?(.*)$", "\\1", Names[which(is.na(df1996$Surname))])
+df1996[which(is.na(df1996$Forename)), ]$Forename <- sub("^(\\w+)\\s?(.*)$", "\\2", Names[which(is.na(df1996$Forename))])
+
+# Trim white spaces, if any
+df1996$Forename <- trim(df1996$Forename)
 
 
-# name groups 'first' and 'last'
-name.rex <- "(?<first>[[:upper:]][[:lower:]]+) (?<last>[[:upper:]][[:lower:]]+)"
-(parsed <- regexpr(name.rex, Names, perl = TRUE))
-gregexpr(name.rex, Names, perl = TRUE)[[2]]
-parse.one <- function(res, result) {
-  m <- do.call(rbind, lapply(seq_along(res), function(i) {
-    if(result[i] == -1) return(NULL)
-    st <- attr(result, "capture.start")[i, ]
-    substring(res[i], st, st + attr(result, "capture.length")[i, ] - 1)
-  }))
-  colnames(m) <- attr(result, "capture.names")
-  m
+N <- sort(table(unlist(strsplit(df1996$Surname, ' '))))
+
+# Repeated Surnames --> Children inherited wealth?
+Surnames <- df1996$Surname
+N <- sort(table(unlist(Surnames)))
+N5 <- names(N[N == 5])
+N4 <- names(N[N == 4])
+N3 <- names(N[N == 3])
+N2 <- names(N[N == 2])
+
+# Vectorize gsub
+gsub2 <- function(pattern, replacement, x, ...) {
+    for(i in 1:length(pattern))
+    x <- gsub(pattern[i], replacement[i], x, ...)
+    x
 }
-parse.one(Names, parsed)
+
+# Fix names in full database, using the cleaned-up 1996 names
+N <- sort(table(unlist(strsplit(Names, ' '))))  # Get Names
+# remove non-Names
+gsub2(pattern = c("family", "sir", "Jr", "Jr."), 
+     replacement = c(""), N, ignore.case = TRUE)
 
 
-
-Names <- gsub('[[:punct:]]', ' ', Names)  # remove punctuation
-N <- sort(table(unlist(strsplit(Names, ' '))))
+names <- gsub('[[:punct:]]', '', df$Name)
+N <- sort(table(unlist(strsplit(names, ' '))))
 N <- names(N[N >= 4])
 
-d <- cbind(Names, sapply(N, function(x) 
+cbind(names, sapply(N, function(x) 
   ifelse(agrepl(x, names, max.distance = 1), x, NA)))
+
 

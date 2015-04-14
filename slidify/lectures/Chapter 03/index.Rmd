@@ -49,7 +49,7 @@ source('../../shared/shared.R')
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **$+$ net foreign capital**  
 
-- In 1700, the total value of farmland represented 400% to 500% of national income, nearly 2/3 of total national capital and 3/4 of all economic activity and employment. The value of housing was 100% of national income; the 'other' category, the same as housing.
+- In 1700, the total value of farmland represented 400% to 500% of national income, nearly 2/3 of total national capital and 3/4 of all economic activity and employment. The value of housing was 100% of national income; the 'other' category was also 100% of national income.
 - In 2010, farmland is less than 10% of national income, less than 2% of capital. Housing is 300% of national income; like the 'other' category.
 
 ---
