@@ -40,6 +40,14 @@ source('../../shared/shared.R')
 
 ---
 
+### German Unification, Division, reUnification
+
+- Germany arose from a confederation of independent states (kingdoms, principalities, duchies) in 1871. German borders changed after WWII. 
+- In 1945 the nazi regime is defeated by a coalition of armies &mdash; American, British, Canadian and other allies troops pushing from the West &mdash; The Soviet army pushing from the East. Europe was soon divided between a 'soviet' Eastern Block and a Western 'capitalist' block &mdash; Germany divided between East and West &mdash; Berlin divided between East and West, with a wall erected through the city. 
+- In 1989, soviet 'satellite' states were allowed to open up to capitalism, the Berlin wall fell, and in 1990 Germany was reunited. 
+
+---
+
 ### National Capital in Germany
 
 - Figure 4.1 shows national capital by components. Historical data for Germany only goes back to 1870. 
@@ -151,6 +159,24 @@ source('../../shared/shared.R')
 - Price effects (low real estate and stock prices) account for 1/4 to 1/3 of the fall between 1913 and 1950, while Volume effects (low national savings rate, loss of foreign assets, destructions) account for 2/3 to 3/4.
 - Real estate prices were low, owing to rent control policies dating to decades of high inflation.
 - Price effects (high real estate and stock prices) explain a large part of the rise since the 1970s. 
+
+---
+
+### The reUnification Shock
+
+- re-unification brought together an advanced economy with a backward economy plagued by price controls, bureaucracy, and a technologically obsolete capital stock.
+- The exchange rate between East and West currencies was set at 1-to-1 instead of the market value of 1-to-4.3. The east remained uncompetitive and did not attract investments like Hungary, the Czech republics, and other former soviet states.
+- Germany entered a long period of relative stagnation.
+- Between 1990 and 2010, Germany was the 'sick man of Europe.'
+
+---
+
+### The Euro & House Prices
+
+- In 2000, Germany, France, Italy, and other European countries adopted a common currency, the euro. 
+- Periphery countries such as Greece, Spain, Portugal, or Ireland enjoyed an investment boom. 
+- While periphery countries, France and the United Kingdom enjoyed a real estate boom, German house and stock market prices stagnated. 
+- These price effects explain why German private wealth appears to be 50% below French or British wealth &mdash; the 'physical' quantity of wealth is probably comparable.
 
 ---
 
@@ -776,6 +802,9 @@ load("../../data/df_4_10.Rda")
 # To do: dynamic range selection
 # round data for rChart tooltip display
 df_4_10$value <- round(df_4_10$value, 3)
+# reorder variables for stacking
+df_4_10$variable <- factor(df_4_10$variable, levels = c("Agricultural land", "Housing", "Other domestic capital", "Slaves", "Net foreign capital"), ordered = TRUE)  # re-order the factors
+df_4_10 <- df_4_10[order(df_4_10$variable), ]  # re-order the variables
 n <- nPlot(data = df_4_10, value ~ Year, group = 'variable', color = 'variable', shape = 'variable', type = 'stackedAreaChart') 
 n$chart(xDomain = c(1770, 2010), clipEdge = TRUE)
 n$chart(yDomain = c(0, 8))  # use yDomain instead of forceY
@@ -786,8 +815,7 @@ n$xAxis(axisLabel = NULL)
 n$chart(style = 'stack')
 n$chart(showControls = FALSE)
 n$chart(useInteractiveGuideline = TRUE)
-n$chart(color = c('#E41A1C', '#377EB8', '#4DAF4A', '#984EA3')) # classroom
-# n$chart(color = c('#EFF3FF', '#BDD7E7', '#6BAED6', '#2171B5')) # computer
+n$chart(color = c('#E41A1C', '#377EB8', '#4DAF4A', '#FF7F00', '#984EA3'))
 n$addParams(height = 450, width = 900)
 n$save('figures/Figure_4_10.html', standalone = TRUE)
 ``` 
@@ -818,10 +846,13 @@ require(rCharts)
 load("../../data/df_4_11.Rda") 
 # round data for rChart tooltip display
 df_4_11$value <- round(df_4_11$value, 3)
+# reorder variables for stacking
+df_4_11$variable <- factor(df_4_11$variable, levels = c("Agricultural land", "Housing", "Other domestic capital", "Slaves", "Net foreign capital"), ordered = TRUE)  # re-order the factors
+df_4_11 <- df_4_11[order(df_4_11$variable), ]  # re-order the variables
 n <- nPlot(data = df_4_11, value ~ Country, group = 'variable', type = 'multiBarChart') 
 n$yAxis(axisLabel = 'Value of capital (% national income)')
 n$chart(margin = list(left = 80))
-n$chart(color = colorPalette)
+n$chart(color = c('#E41A1C', '#377EB8', '#4DAF4A', '#FF7F00', '#984EA3'))
 n$addParams(height = 450, width = 900)
 n$save('figures/Figure_4_11.html', standalone = TRUE)
 ``` 

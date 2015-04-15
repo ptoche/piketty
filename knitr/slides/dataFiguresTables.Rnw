@@ -333,7 +333,7 @@ save(TS4.3, file = "data/TS4.3.Rda")
 # Spreadsheet TS4.4
 TS4.4 <- read.xlsx("../Piketty2014FiguresTables/Chapter4TablesFigures.xlsx", 
   sheetName = "TS4.4", rowIndex = 9:12, colIndex = 1:7, header = FALSE)
-names(TS4.4) <- c("Country", "National wealth", "Agricultural land", "Slaves", "Housing", "Other domestic capital", "Net foreign assets")
+names(TS4.4) <- c("Country", "National wealth", "Agricultural land", "Slaves", "Housing", "Other domestic capital", "Net foreign capital")
 TS4.4 <- melt(TS4.4, id.vars = "Country")
 save(TS4.4, file = "data/TS4.4.Rda")
 
@@ -359,24 +359,28 @@ save(TS4.5, file = "data/TS4.5.Rda")
 # Figure 4.1 / TS4.1 / Germany / Capital
 load("data/TS4.1.Rda")
 df_4_1 <- TS4.1[which(TS4.1$variable %in% c("Agricultural land", "Housing", "Other domestic capital", "Net foreign capital")), ]
+df_4_1$variable <- factor(df_4_1$variable)
 row.names(df_4_1) <- NULL
 save(df_4_1, file = "data/df_4_1.Rda")
 
 # Figure 4.2 / TS4.1 / Germany / Public capital
 load("data/TS4.1.Rda")
 df_4_2 <- TS4.1[which(TS4.1$variable %in% c("Public assets", "Public debt")), ]
+df_4_2$variable <- factor(df_4_2$variable)
 row.names(df_4_2) <- NULL
 save(df_4_2, file = "data/df_4_2.Rda")
 
 # Figure 4.3 / TS4.1 / Germany / Private and public capital
 load("data/TS4.1.Rda")
 df_4_3 <- TS4.1[which(TS4.1$variable %in% c("National capital (private + public)", "Private capital", "Public capital")), ]
+df_4_3$variable <- factor(df_4_3$variable)
 row.names(df_4_3) <- NULL
 save(df_4_3, file = "data/df_4_3.Rda")
 
 # Figure 4.4 / TS4.5 / Germany France United Kingdom / Private and public capital
 load("data/TS4.5.Rda")
 df_4_4 <- subset(TS4.5, variable %in% c("Germany", "France", "United Kingdom") & Category %in% c("Private capital", "Public capital"))
+df_4_4$variable <- factor(df_4_4$variable)
 row.names(df_4_4) <- NULL
 save(df_4_4, file = "data/df_4_4.Rda")
 
@@ -384,43 +388,50 @@ save(df_4_4, file = "data/df_4_4.Rda")
   # Remark: y-axis label of Figure 4.5 on page 147 is incorrect
 load("data/TS4.5.Rda")
 df_4_5 <- subset(TS4.5, variable %in% c("Germany", "France", "United Kingdom") & Category %in% c("National capital"))
+df_4_5$variable <- factor(df_4_5$variable)
 row.names(df_4_5) <- NULL
 save(df_4_5, file = "data/df_4_5.Rda")
 
 # Figure 4.6 / TS4.2 / United States / National capital
 load("data/TS4.2.Rda")
 df_4_6 <- TS4.2[which(TS4.2$variable %in% c("Agricultural land", "Housing", "Other domestic capital", "Net foreign capital")), ]
+df_4_6$variable <- factor(df_4_6$variable)
 row.names(df_4_6) <- NULL
 save(df_4_6, file = "data/df_4_6.Rda")
 
 # Figure 4.7 / TS4.2 / United States / Public wealth
 load("data/TS4.2.Rda")
 df_4_7 <- TS4.2[which(TS4.2$variable %in% c("Public assets", "Public debt")), ]
+df_4_7$variable <- factor(df_4_7$variable)
 row.names(df_4_7) <- NULL
 save(df_4_7, file = "data/df_4_7.Rda")
 
 # Figure 4.8 / TS4.2 / United States / Private and public wealth
 load("data/TS4.2.Rda")
 df_4_8 <- TS4.2[which(TS4.2$variable %in% c("National capital (private + public)", "Private capital", "Public capital")), ]
+df_4_8$variable <- factor(df_4_8$variable)
 row.names(df_4_8) <- NULL
 save(df_4_8, file = "data/df_4_8.Rda")
 
 # Figure 4.9 / TS4.3 / Canada / National capital
 load("data/TS4.3.Rda")
 df_4_9 <- TS4.3[which(TS4.3$variable %in% c("Agricultural land", "Housing", "Other domestic capital", "Net foreign capital")), ]
+df_4_9$variable <- factor(df_4_9$variable)
 row.names(df_4_9) <- NULL
 save(df_4_9, file = "data/df_4_9.Rda")
 
 # Figure 4.10 / TS4.2 / United States / National capital + slaves
 load("data/TS4.2.Rda")
 df_4_10 <- TS4.2[which(TS4.2$variable %in% c("Agricultural land", "Housing", "Other domestic capital", "Net foreign capital", "Slaves")), ]
+df_4_10$variable <- factor(df_4_10$variable)
 row.names(df_4_10) <- NULL
 save(df_4_10, file = "data/df_4_10.Rda")
 
 # Figure 4.11 / TS4.4 / United Kingdom France United States South & North / National capital
 load("data/TS4.4.Rda")
-df_4_11 <- TS4.4[which(TS4.4$variable %in% c("Agricultural land", "Slaves", "Housing", "Other domestic capital")), ]
+df_4_11 <- TS4.4[which(TS4.4$variable %in% c("Agricultural land", "Housing", "Other domestic capital", "Net foreign capital", "Slaves")), ]
 df_4_11$Country = factor(df_4_11$Country, levels = c("United Kingdom", "France", "United States (South)", "United States (North)"))
+df_4_11$variable <- factor(df_4_11$variable)
 row.names(df_4_11) <- NULL
 save(df_4_11, file = "data/df_4_11.Rda")
 

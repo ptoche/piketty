@@ -1028,7 +1028,7 @@ ggplot(data = df_4_10, aes(x = Year, y = value, group = variable, fill = variabl
 \centering
 <<'Figure_4_11', out.width='1\\linewidth'>>=
 load("data/df_4_11.Rda")  # load data from /data subdirectory
-ggplot(data = df_4_11, aes(x = Country, y = value, group = variable, fill = variable)) + geom_bar(stat = "identity", width = .8) + scale_fill_brewer(palette = fillPalette)  + ylab("Value of capital (% national income)") + xlab(NULL) + scale_y_continuous(labels = percent, breaks = seq(0, 7, by = 1)) + theme(legend.position = c(.86,.8), legend.title = element_blank()) + guides(fill = guide_legend(ncol = 1, reverse = TRUE))
+ggplot(data = df_4_11, aes(x = Country, y = value, group = variable, fill = variable)) + geom_bar(stat = "identity", position = "identity", width = .8) + scale_fill_brewer(palette = fillPalette)  + ylab("Value of capital (% national income)") + xlab(NULL) + scale_y_continuous(labels = percent, breaks = seq(0, 7, by = 1)) + theme(legend.position = c(.86,.8), legend.title = element_blank()) + guides(fill = guide_legend(ncol = 1, reverse = FALSE))
 @
 \caption{The combined value of agricultural land and slaves in the Southern United States surpassed four years of national income around 1770--1810.}
 \end{minipage}

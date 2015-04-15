@@ -34,6 +34,14 @@ lecnum      : "04"
 
 ---
 
+### German Unification, Division, reUnification
+
+- Germany arose from a confederation of independent states (kingdoms, principalities, duchies) in 1871. German borders changed after WWII. 
+- In 1945 the nazi regime is defeated by a coalition of armies &mdash; American, British, Canadian and other allies troops pushing from the West &mdash; The Soviet army pushing from the East. Europe was soon divided between a 'soviet' Eastern Block and a Western 'capitalist' block &mdash; Germany divided between East and West &mdash; Berlin divided between East and West, with a wall erected through the city. 
+- In 1989, soviet 'satellite' states were allowed to open up to capitalism, the Berlin wall fell, and in 1990 Germany was reunited. 
+
+---
+
 ### National Capital in Germany
 
 - Figure 4.1 shows national capital by components. Historical data for Germany only goes back to 1870. 
@@ -145,6 +153,24 @@ lecnum      : "04"
 - Price effects (low real estate and stock prices) account for 1/4 to 1/3 of the fall between 1913 and 1950, while Volume effects (low national savings rate, loss of foreign assets, destructions) account for 2/3 to 3/4.
 - Real estate prices were low, owing to rent control policies dating to decades of high inflation.
 - Price effects (high real estate and stock prices) explain a large part of the rise since the 1970s. 
+
+---
+
+### The reUnification Shock
+
+- re-unification brought together an advanced economy with a backward economy plagued by price controls, bureaucracy, and a technologically obsolete capital stock.
+- The exchange rate between East and West currencies was set at 1-to-1 instead of the market value of 1-to-4.3. The east remained uncompetitive and did not attract investments like Hungary, the Czech republics, and other former soviet states.
+- Germany entered a long period of relative stagnation.
+- Between 1990 and 2010, Germany was the 'sick man of Europe.'
+
+---
+
+### The Euro & House Prices
+
+- In 2000, Germany, France, Italy, and other European countries adopted a common currency, the euro. 
+- Periphery countries such as Greece, Spain, Portugal, or Ireland enjoyed an investment boom. 
+- While periphery countries, France and the United Kingdom enjoyed a real estate boom, German house and stock market prices stagnated. 
+- These price effects explain why German private wealth appears to be 50% below French or British wealth &mdash; the 'physical' quantity of wealth is probably comparable.
 
 ---
 
