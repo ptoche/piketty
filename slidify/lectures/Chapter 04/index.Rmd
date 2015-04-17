@@ -51,7 +51,7 @@ source('../../shared/shared.R')
 
 ### National Capital in Germany
 
-- Figure 4.1 shows national capital by components. Historical data for Germany only goes back to 1870. 
+- Figure 4.1 shows national capital by components. Historical data for Germany only goes back to 1870. See also Figure 3.1 for the UK, Figure 3.2 for France, Figure 4.6 for the US, Figure 4.9 for Canada.
 - The overall evolution is similar to the United Kingdom and France: `1`. residential and commercial real estate, industrial and financial capital have replaced farmland; `2`. the capital/income ratio has recovered from the shocks of 1914–1945.
 - In 1914, net foreign assets were 50% of national income in Germany, 100% in France, nearly 200% in the UK. Germany had no colonial empire. 
 - In 2010, net foreign asset position are 50% of national income, most of which accumulated since 2000. The UK and France are close to zero. 
@@ -60,7 +60,7 @@ source('../../shared/shared.R')
 
 ### Public Debt in Germany
 
-- Figure 4.2 shows public debt and public assets in Germany.
+- Figure 4.2 shows public debt and public assets in Germany. See also Figure 3.3 for the UK, Figure 3.4 for France, and Figure 4.7 for the US.
 - Public debt reached 100% of GDP in 1918–1920 and 150% in 1943–1944.
 - Inflation averaged 17 percent between 1930 and 1950 (prices were multiplied by 300), greatly reducing the real value of the public debt. 
 - The hyperinflation of the 1920s damaged the economy and destabilized society. Germany today is the most inflation-averse country.
@@ -80,19 +80,20 @@ source('../../shared/shared.R')
 ### Public Assets in Germany
 
 - During 1950–1980, the state took large positions in the banking and industrial sectors. The state owned about 30% of national capital. 
-- During 1980-2000, the trend was reversed. Today substantial holdings remain. 
+- During 1980-2000, the trend was reversed. 
+- None the less, substantial holdings remain today. 
 - The state of Lower Saxony owns more than 15% of Volkswagen.
-- Net public wealth is zero in 2010. Similar case as France.
+- Net public wealth is zero in 2010. Similar case as the UK and France.
 
 ---
 
 ### Private Capital in Germany
 
-- Figure 4.3 shows private and public capital.
-- Private capital was exceptionally low in 1950 but exceeds 400% of national income today. This is noticeably lower than the UK, France, and even Italy and Spain.
+- Figure 4.3 shows private and public capital. Public capital is obtained as the difference between public assets and public debt (shown in Figure 4.2).
+- Private capital was exceptionally low in 1950 but exceeds 400% of national income today. This is lower than the UK, France, and even Italy and Spain.
 - German saving being high, there is an apparent paradox, explained by:
 - `1`. low real estate prices compared to other European countries; `2`. low stock market valuation of German firms. 
-- Lower prices can be explained by `1`. German unification in 1990; `2`. greater reliance on bank finance instead of the stock market; `3`. stagnation after 2000 while the UK, France and the periphery euro-zone countries (Spain, Ireland, Greece) were booming.
+- Lower prices can be explained by `i`. German unification in 1990; `ii`. greater reliance on bank finance instead of the stock market; `iii`. stagnation after 2000 while the UK, France and the periphery euro-zone countries (Greece, Ireland, Portugal, Spain) were booming.
 
 ---
 
@@ -176,8 +177,8 @@ source('../../shared/shared.R')
 ### The Euro & House Prices
 
 - In 2000, Germany, France, Italy, and other European countries adopted a common currency, the euro. 
-- Periphery countries such as Greece, Spain, Portugal, or Ireland enjoyed an investment boom and a real estate boom. 
-- While everyone &mdash; the euro periphery, France, the U.K., the U.S. &mdash; enjoyed a real estate boom, German house and stock market prices stagnated. 
+- Periphery countries such as Greece, Ireland, Portugal, Spain enjoyed an investment boom and a real estate boom. 
+- While everyone &mdash; the euro periphery, France, the UK, the US &mdash; enjoyed a real estate boom, German house and stock market prices stagnated. 
 - These price effects explain why German private wealth appears to be 50% below French or British wealth in 2010 &mdash; the 'physical' quantity of wealth is probably comparable.
 
 ---

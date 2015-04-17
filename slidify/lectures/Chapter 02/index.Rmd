@@ -79,7 +79,7 @@ source('../../shared/shared.R')
 - The 'Law of Cumulative Growth' says that economic growth at small annual rates over long periods of time can result in large changes.
 - Different choices of time frame lead to contradictory perceptions. After 1 year, 1% growth is imperceptible. Each year is virtually identical to the previous one. But over 1 generation (30 years), 1% growth results in an increase of output of one-third!
 - An annual growth of 2.3% per year leads to a doubling in every generation!
-- Piketty's central thesis is that a small gap between the return on capital and the rate of growth can have large effects on inequality in the long run. 
+- Piketty's central thesis is that a small gap between the return on wealth and the rate of growth can have large effects on inequality in the long run. 
 
 ---
 

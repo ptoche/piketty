@@ -32,7 +32,7 @@ source('../../shared/shared.R')
 
 ### The Transformation of Capital
 
-- Figures 3.1 and 3.2 show the capital structure of the UK and France.
+- Figures 3.1 and 3.2 show the structure of capital for the UK and France.
     - `1`. The capital/income ratio $K/Y$ followed an inverted-bell curve ('U-shape'). Stable in the 18th and 19th centuries at about 600% or 700%; very large decline to 200% or 300% in the 20th during the depression and WWII; going back to the pre-WWI level after WWII.
     - `2`. The composition of capital $K$ has transformed over the very long run: agricultural land has been replaced by buildings, business capital, and financial capital invested in firms and government organizations.
 - The depression, the wars, and inflation during 1914-1945 wiped the slate clean and created the illusion of virtuous, merit-based capitalism &mdash; the 'myth of the Kuznets curve' debunked by Piketty.
