@@ -23,14 +23,14 @@
   </head>
   <body >
     
-    <div id = 'chart3685b679988' class = 'rChart nvd3'></div>    
+    <div id = 'chart3e248d76999' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchart3685b679988()
+      drawchart3e248d76999()
     });
-    function drawchart3685b679988(){  
+    function drawchart3e248d76999(){  
       var opts = {
- "dom": "chart3685b679988",
+ "dom": "chart3e248d76999",
 "width":    900,
 "height":    450,
 "x": "Year",
@@ -39,7 +39,7 @@
 "color": "variable",
 "shape": "variable",
 "type": "lineChart",
-"id": "chart3685b679988" 
+"id": "chart3e248d76999" 
 },
         data = [
  {
@@ -268,7 +268,7 @@
         
         chart.yAxis
   .axisLabel("Share of top decile or of top percentile in total wealth")
-  .tickFormat( function(y) {return Math.round(y*100*100)/100 + '%'} )
+  .tickFormat( function(d) {return Math.round(d*100*100)/100 + '%'} )
       
        d3.select("#" + opts.id)
         .append('svg')

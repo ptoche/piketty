@@ -24,53 +24,213 @@ lecnum      : "10"
 
 ---
 
-#### **The World Wealthiest Individuals**
+### Inequality of Wealth Ownership
 
-
-| Rank | Name | Wealth (Billion)  | Age | Company | Country |
-|------|:----:|------------------:|----:|--------:|--------:|
-| 1  | Bill Gates          | $79.2 | 59 | Microsoft          | United States  |
-| 2	 | Carlos Slim Helu    | $77.1 | 75 | telecom            | Mexico         | 
-| 3	 | Warren Buffett      | $72.7 | 84 | Berkshire Hathaway | United States  |
-| 4  | Amancio Ortega      | $64.5 | 78 | Zara               | Spain          |
-| 5	 | Larry Ellison       | $54.3 | 70 | Oracle             | United States  |
-| 6  | Charles Koch        | $42.9 | 79 | diversified        | United States  |
-| 6	 | David Koch          | $42.9 | 74 | diversified        | United States  |
-| 8  | Christy Walton      | $41.7 | 60 | Wal-Mart           | United States  |
-| 9	 | Jim Walton          | $40.6 | 67 | Wal-Mart           | United States  |
-| 10 | Liliane Bettencourt | $40.1 | 92 | L'Oreal            | France         |
-| 11 | Alice Walton	       | $39.4 | 65 | Wal-Mart           | United States  |
-| 12 | S. Robson Walton    | $39.1 | 71 | Wal-Mart           | United States  |
-| 13 | Bernard Arnault     | $37.2 | 65 | LVMH               | France         |
-| 14 | Michael Bloomberg   | $35.5 | 73 | Bloomberg LP       | United States  |
-| 15 | Jeff Bezos          | $34.8 | 51 | Amazon.com         | United States  |
-<footer class = 'footnote'>[The 2015 Forbes Billionaires List](http://www.forbes.com/billionaires/list/) by ``Forbes Magazine``
-</footer> 
+- This chapter analyzes the historical evolution of wealth inequality. 
+- Recall that the fall in total income inequality in 1910-1950, observed in the United States, France, and elsewhere, was due to a fall in wealth inequality, while labor income inequality remained unchanged.
+- The concentration of capital ownership is on the rise again and the prospect of a worldwide growth slowdown makes it especially worrisome.
+- Why was wealth concentration so extreme, and rising, before World War I? 
+- Why is wealth concentration still below its historical high in Europe today?
 
 ---
 
-#### **The World Wealthiest Individuals (continued)**
+### Wealth Concentration
 
+- We have fairly complete historical estimates for the United States, United Kingdom, France, and Sweden. The lessons are consistent.
+- The distribution of wealth &mdash; and therefore of capital income &mdash; is always much more concentrated than the distribution of labor income.
+- The bottom half own very little wealth &mdash; less than 5% everywhere. 
+- The top decile own most of the wealth &mdash; between 60% and 90%.
+- The middle class own between 5% and 35% of all wealth.
+- The 'patrimonial middle class' are the 40% in the middle.
 
-| Rank | Name | Wealth (Billion)  | Age | Company | Country |
-|------|:----:|------------------:|----:|--------:|--------:|
-| 16 | Mark Zuckerberg     | $33.4 | 30 | Facebook           | United States  |
-| 17 | Li Ka-shing         | $33.3 | 86 | diversified        | Hong Kong      |
-| 18 | Sheldon Adelson     | $31.4 | 81 | casinos            | United States  |
-| 19 | Larry Page          | $29.7 | 41 | Google             | United States  |
-| 20 | Sergey Brin         | $29.2 | 41 | Google             | United States  |
-| 21 | Georg Schaeffler    | $26.9 | 50 | ball bearings      | Germany        |
-| 22 | Forrest Mars, Jr.   | $26.6 | 83 | candy              | United States  |
-| 22 | Jacqueline Mars     | $26.6 | 75 | candy              | United States  |
-| 22 | John Mars           | $26.6 | 78 | candy              | United States  |
-| 25 | David Thomson       | $25.5 | 57 | media              | Canada         |
-| 26 | Jorge Paulo Lemann  | $25.0 | 75 | beer               | Brazil         |
-| 27 | Lee Shau Kee        | $24.8 | 87 | real estate        | Hong Kong      |
-| 28 | Stefan Persson      | $24.5 | 67 | H&M                | Sweden         |
-| 29 | George Soros        | $24.2 | 84 | hedge funds        | United States  |
-| 29 | Wang Jianlin        | $24.2 | 60 | real estate        | China          |
-<footer class = 'footnote'>[The 2015 Forbes Billionaires List](http://www.forbes.com/billionaires/list/) by ``Forbes Magazine``
-</footer> 
+---
+
+### History of Private Wealth: France
+
+- France is the only country with homogeneous historical sources going back to the 1790s. With the French Revolution, a wealth registry and a tax on estates/bequests and gifts was created in 1791, covering all types and sizes of property and assets. From 1791 to 1901, the estate and gift tax was strictly proportional, set between 1% and 2%. 
+- In addition, Piketty, Postel-Vinay and Rosenthal have collected thousands of individual declarations and constructed large samples for each decade from 1800–1810 to 2000–2010. 
+- In the United Kingdom, comparable detailed series go back to 1919 only. 
+- In the United States, the federal tax on estates and gifts was created in 1916, but covered only a small minority of the population. 
+- The large shock of WWI cannot be analyzed in these countries.
+
+---
+
+### Wealth Concentration in France
+
+- Figure 10.1 shows the wealth distribution from 1810 to 2010.
+- There is no trend toward reduced inequality until the shocks of 1914-1945.
+- The top decile owned about 80% of total wealth in 1800, 90% in 1900.
+- Large increases in 1880-1910 were interrupted by WWI.
+- Figure 10.2 compares France with Paris, the largest and wealthiest city.
+- The concentration of wealth was greater in Paris. Paris had 1/20th of the population in 1900, 1/4 of the wealth. 
+- The top wealth centile owned nearly 50% in 1800, 60% by 1900.
+
+---
+
+### Wealth Concentration in France
+
+- In the 18th and 19th centuries, inequality of capital ownership remained relatively stable at an extremely high level. 
+- The top wealth decile consistently owned 80% to 90% and the top centile 50% to 60%. 
+- On the eve of the French Revolution in 1789, the top wealth decile may have exceeded 90%. The French Revolution had no long-term effect on the capital/income ratio. 
+- The probate data reveals that the percentage of aristocratic names in the top centile of the Parisian wealth hierarchy rose from 15% in 1800 to 30% in 1850, before falling after 1850, to less than 10% in 1900.
+
+---
+
+### Wealth Concentration in Europe
+
+- The extreme concentration of wealth in the 18th and 19th centuries and until the eve of World War I was a European phenomenon.
+- The fall in the top wealth decile in 1914–1945 benefited the middle 40% of the population &mdash; the share of the poorest half remained below 5%.
+- At all times, half of the population died without any wealth to bequeath.
+- Industrial capital, financial wealth, real estate quickly replaced farmland.
+
+---
+
+### Wealth Concentration in Europe
+
+- Figures 10.3 shows wealth concentration in the United Kingdom.
+- The top wealth decile exceeded 90% in 1914.
+- The top wealth centile rose from 55% in 1810 to 70% in 1914.
+- The French Republic and the British monarchy reached comparable levels of wealth concentration. The political regime mattered none.
+- Figure 10.4 shows wealth concentration in Sweden.
+- Sweden was not an egalitarian country in the 19th century &mdash; its history is similar to the UK and France until WWII. 
+
+---
+
+### The Patrimonial Middle Class
+
+- Wealth concentration has not returned to the extreme levels of 1914 after the shocks of 1914–1945. 
+- Throughout Europe (UK, France, Sweden), a similar pattern: The top wealth decile fell from 90% in 1914 to 60% percent in 1945. The top wealth centile fell from 60% in 1914 to 20% in 1945. And today the top decile has risen to 'only' 60% to 70%.
+- Wealth owned by the 'patrimonial middle class' has risen and reaches about 1/3 of total wealth today.
+- In Europe, the losses of the top wealth decile benefited the 'patrimonial middle class,' with no gain for the poorest half of the population.
+
+---
+
+### Wealth Concentration in the United States
+
+- Figure 10.5 shows wealth concentration in the United States.
+- The United States have probate statistics going back to 1910. 
+- Wealth concentration in 1800 was similar to Sweden in 1980.
+- Population consisted mostly of immigrants with little or no wealth. 
+- Wealth became increasingly concentrated in the 19th century. 
+- In 1910, the top wealth decile owned 80%, the top centile 45%, not as high as Europe then.
+
+---
+
+### Wealth Concentration in the United States
+
+- The 'Gilded Age' of capitalism, in late 19th century, saw massive wealth accumulation by a few industrialists and financiers &mdash; John D. Rockefeller, Andrew Carnegie, J.P. Morgan. 
+- The perception of the US as an egalitarian society started to change!
+- In 1910–1920, the US pioneered a very progressive estate tax on large fortunes and a progressive income tax on very high incomes. 
+- The top wealth decile fell from 80% to 70% &mdash; in Europe it fell from 90% to 60%.
+- These attempts to restore the 'egalitarian spirit' of America waned gradually and disappeared during 1980–2000.
+- In 2010, the top wealth decile exceeded 70%, the top centile about 35%.
+
+---
+
+### A Mechanism of Wealth Divergence: r > g
+
+- Piketty's main claim is that wealth divergence arises from an excess of the return on wealth over the economy's growth rate.
+- Piketty claims that $r>g$ implies wealth concentration.
+- If the 'Piketty inequality' holds, wealth accumulated in the past is recapitalized more quickly than the rate at which total income grows.
+- This situation is typical of the 18th and 19th century.
+
+---
+
+### A Mechanism of Wealth Divergence: r > g
+
+- Consider a low-growth economy: $g = 1\%$. 
+- Suppose the rate of return on wealth is greater: $r = 5\%$. 
+- If $g = 1\%$ and $r = 5\%$, saving only 1/5 of capital income guarantees that wealth inherited from the previous generation grows at the same rate as the economy. 
+- Saving more guarantees that wealth rises faster than the economy.
+- Inequality of wealth will tend to increase. 
+- Large inequalities in labor income (media superstars) are irrelevant.
+
+---
+
+### The 'Piketty Inequality' in France
+
+- Consider France between 1820 to 1914.
+- Figure 10.7 shows that the rate of return on capital was significantly higher than the growth rate, with $r \simeq 5\%$ and $g \simeq 1\%$. 
+- Figure 10.8 shows that capital income accounted for 40% percent of national income, and it was enough for 'capitalists' to save 1/4 of capital income for the national saving rate to reach about 10%. 
+- Chapter 11 shows that most wealth was inherited during this period.
+
+---
+
+### The 'Piketty Inequality' Around the World
+
+- The 'Piketty Inequality' $r>g$ is a historical fact &mdash; not a logical necessity.
+- From the dawn of history to the industrial revolution annual growth rates never exceeded 0.1% or 0.2% for long. But the annual rate of return on wealth was always considerably greater. 
+- The return on land in most traditional agrarian societies was 4% or 5%. 
+- Even accounting for labor input in wealth management, the return on wealth exceeds 2% and probably 3% in all societies at all times.
+- The rate of return on wealth is always 10 to 20 times greater than the economy's rate of growth. 
+- If the 'Piketty Inequality' did not hold, capitalists might not be so willing to make the risky investments and loans that contribute to economic growth.
+
+---
+
+### The 'Piketty Inequality' Around the World
+
+- Figure 10.9 shows the world rate of return on wealth and the world growth rate of output since antiquity. These pre-tax returns do not include capital gains and losses, which were large in the 20th century.
+- Before WWI, capital taxes were very low. After WWI, tax rates on top incomes, profits, and wealth rose significantly. After WWII, taxes on capital came down everywhere.
+- Figure 10.10 shows estimates that include capital losses due to destruction of property in the period 1914–1945, assumes an average tax rate on capital of 30% for 1913–2012, 10% for 2012–2050, and 0% for 2050–2100.
+- In the 20th century, the net return on capital was less than the growth rate, for the first time in history, owing to both fiscal and non-fiscal shocks.
+- In all likelihood, the $r-g$ gap will widen again in the 21st century as economic growth slows &mdash; especially demographic growth. 
+
+---
+
+### Returns on Wealth as the Price of Impatience
+
+- The 'time preference theory' suggests that high returns on wealth reflect the market's high impatience.
+- The perfect-markets infinite-horizon forward-looking representative agent 'neoclassical' growth model &mdash; the most extreme form of the impatience theory &mdash; is refuted by historical evidence.
+- `1`. The model predicts the rate of return will not deviate much from the rate of impatience &mdash; changes in the post-tax net return trigger an immediate and strong response in saving behavior, and bring it back in line with impatience. But evidence suggests that if the interest-rate elasticity of saving is positive, it is not large, and certainly not infinite.
+- `2`. The neoclassical model implies that the gap between the rate of return on wealth and the growth rate, $r-g$, is increasing in the growth rate $g$. This prediction too is contradicted by historical evidence.
+
+---
+
+### Extreme Logic of the Impatience Theory
+
+- In the neoclassical model, perfect capital markets (perfect information, no moral hazard) imply that the rate of return on liquid wealth is bid to the highest investment available, and at that rate potential investors can borrow as much as profitable. 
+- The 'Piketty Inequality' $r>g$ holds necessarily. If $r$ were less than $g$, agents would expect their &mdash; and their descendants' &mdash; future income to grow faster than the loan rate, inducing them to borrow without limit.
+- As capital markets become more efficient, the 'neoclassical' logic behind $r > g$ is even more compelling.
+- In addition to time preference, precautionary savings, life-cycle effects, conspicuous wealth, and other factors matter.
+
+---
+
+### Equilibrium Distribution of Wealth
+
+- If the fortunes of wealthy individuals grow more rapidly than average income, the capital/ income ratio will rise indefinitely and lead to a fall in the rate of return on capital. 
+- The 'law of diminishing returns' can take decades to operate, especially in an open economy in which wealthy individuals can accumulate foreign assets &mdash; as in Britain and France in the 19th century.
+- Shocks can also counter this tendency: death and inheritance, bad investments, a financial crisis can disperse wealth.
+
+---
+
+### Illusions of the French Revolution
+
+- Many traditional aristocratic societies were based on the principle of pri- mogeniture: the eldest son inherited most of the family property so as to preserve the family's wealth and maintain its power. The freedom to bequeath still prevails in the United States and United Kingdom, though in practice most estates are equally divided among siblings. 
+- The French revolution introduced equipartition of estates between siblings. This was not enough to ensure an egalitarian distribution of wealth.
+- The concentration of wealth increased steadily in France throughout the 19th century and peaked at a higher level similar to aristocratic Britain.
+- If the rate of return on capital durably exceeds the growth rate, wealth becomes more concentrated and the dispersion of inheritance is not enough to make a big difference. 
+
+---
+
+### Wealth Distribution and Pareto
+
+- Analyzing how rapidly the number of taxpayers decreases at higher quantiles of income, Pareto discovered a 'Power law' &mdash; a family of functions that mimicks the upper tail of income distributions. 
+- The 'Pareto coefficient' measures the degree of inequality. It varies enormously across times and places. 
+- In models where income is subject to multiplicative shocks, the long-run equilibrium distribution is typically a *Pareto distribution*. 
+-  The 'Pareto coefficient' is a steeply increasing function of $r-g$.
+- With a rate of return of 5% and growth of 1%, the top wealth decile will own about 90% and the top wealth centile about 50%.
+- If the difference $r-g$ surpasses a certain threshold, there is no equilibrium distribution and inequality increases without limit.
+
+---
+
+### Why Has Wealth Inequality Not Risen More?
+
+- `1`. Capital accumulation is a long-term process extending over several generations. The great concentration of wealth observed on the eve of WWI was the result of many decades of accumulation and transmission.
+- `2`. The capital income share has fallen. 
+- `3`. The rate of return on capital income has fallen.
+- `4`. The economic growth rate was high until the 1980s.
+- `5`. After 1945, taxes on dividends, interest, profits, and rents, were introduced. An average tax rate of 30% reduces a pre-tax return of 5% to a post-tax return of 3.5%. These policies have played a large role.
+- The future is difficult to foresee: taxes, interest rates, growth rates, especially demographics, and the pattern of inheritance will all play a part.
 
 ---
 
@@ -126,11 +286,11 @@ lecnum      : "10"
 
 <!---
 
-### Wealth inequality in Sweden
+### Wealth inequality in the United Kingdom
 
 <figure class = "captioned">  
-<img src = "../../figures/Figure_10_3.png" alt = "Figure 10.3. Wealth inequality in Sweden, 1810-2010.">  
-<figcaption class = 'figcaption'>Figure 10.3. The top 10 percent holds 80-90 percent of total wealth in 1810-1910 and 55-60 percent today.</figcaption>  
+<img src = "../../figures/Figure_10_3.png" alt = "Figure 10.3. Wealth inequality in the United Kingdom, 1810-2010.">  
+<figcaption class = 'figcaption'>Figure 10.3. The top decile owns 80-90 percent of total wealth in 1810-1910 and 70 percent today.</figcaption>  
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -139,21 +299,21 @@ lecnum      : "10"
 
 ---
 
-### Wealth inequality in Sweden
+### Wealth inequality in the United Kingdom
 
 
-<iframe src = 'figures/Figure_10_3.html' alt = "Figure 10.3. Wealth inequality in Sweden, 1810-2010.">
-</iframe><icaption class = 'icaption'>Figure 10.3. The top 10 percent holds 80-90 percent of total wealth in 1810-1910 and 55-60 percent today.</icaption>
+<iframe src = 'figures/Figure_10_3.html' alt = "Figure 10.3. Wealth inequality in the United Kingdom, 1810-2010.">
+</iframe><icaption class = 'icaption'>Figure 10.3. The top decile owns 80-90 percent of total wealth in 1810-1910 and 70 percent today.</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
 <!---
 
-### The composition of top incomes in France in 2005
+### Wealth inequality in Sweden
 
 <figure class = "captioned">  
-<img src = "../../figures/Figure_10_4.png" alt = "Figure 10.4. The composition of top incomes in France in 2005.">  
-<figcaption class = 'figcaption'>Figure 10.4. Capital income becomes dominant at the level of the top 0.1 percent in France in 2005, as opposed to the top 0.5 percent in 1932.</figcaption>  
+<img src = "../../figures/Figure_10_4.png" alt = "Figure 10.4. Wealth inequality in Sweden, 1810-2010.">  
+<figcaption class = 'figcaption'>Figure 10.4. The top 10 percent holds 80-90 percent of total wealth in 1810-1910 and 55-60 percent today.</figcaption>  
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
@@ -162,13 +322,14 @@ lecnum      : "10"
 
 ---
 
-### The composition of top incomes in France in 2005
+### Wealth inequality in Sweden
 
 
-<iframe src = 'figures/Figure_10_4.html' alt = "Figure 10.4. The composition of top incomes in France in 2005.">
-</iframe><icaption class = 'icaption'>Figure 10.4. Capital income becomes dominant at the level of the top 0.1 percent in France in 2005, as opposed to the top 0.5 percent in 1932.</icaption>
+<iframe src = 'figures/Figure_10_4.html' alt = "Figure 10.3. Wealth inequality in Sweden, 1810-2010.">
+</iframe><icaption class = 'icaption'>Figure 10.4. The top 10 percent holds 80-90 percent of total wealth in 1810-1910 and 55-60 percent today.</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
+
 
 <!---
 
