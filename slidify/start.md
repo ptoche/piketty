@@ -1,21 +1,8 @@
 ---
-navbar:
-  title: Slidify
-  items: 
-    - {item: Home, href: index, icon: home}
-    - {item: "Start", href: start, class: active, icon: signin}
-    - {item: Author, href: about, icon: pencil}
-    - {item: Style, href: style, icon: hand-right, class: dropdown, 
-        dropdown: true, menu: [
-         {item: io2012, href: 'samples/intro'},
-         {item: deck.js, href: 'samples/deck.js'},
-         {item: shower, href: 'samples/shower'},
-         {item: landslide, href: 'samples/landslide'}
-        ]
-      }
-    - {item: Customize, href: customize, icon: gift}
-    - {item: Extend, href: extend, icon: cogs}
-    - {item: Publish, href: publish,  icon: github}
+title       : Get Started with Slidify
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+url         : {lib: "../../libraries", assets: "../../assets"}
 
 ---
 
@@ -92,6 +79,7 @@ Login with your github account and [create a new repository](https://help.github
 # replace USER and REPO with your username and reponame
 publish(user = "USER", repo = "REPO", host = 'github')
 ```
+
 
 --
 

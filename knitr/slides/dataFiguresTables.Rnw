@@ -1895,6 +1895,14 @@ names(df_12_3) <- c("Year", "Share of the top 1/20 million highest wealth holder
 df_12_3 <- melt(df_12_3, id.vars = "Year")
 save(df_12_3, file = "data/df_12_3.Rda")
 
+# Figure 12.3 / for use with rCharts
+load("data/TS12.3.Rda")
+df_12_3_rc <- TS12.3[, c("Year", "Share of the top 1/20 million highest wealth holders in gobal private wealth", "Share of top 1/100 million highest wealth holders in gobal private wealth")]
+names(df_12_3_rc) <- c("Year", "Wealth share of the top 1/20 million fractile", "Wealth share of the top 1/100 million fractile")
+df_12_3_rc <- melt(df_12_3_rc, id.vars = "Year")
+save(df_12_3_rc, file = "data/df_12_3_rc.Rda")
+
+
 # Figure 12.4 / TS12.4
 load("data/TS12.4a.Rda")
 df_12_4 <- TS12.4a[, c("Year", "World")]

@@ -40,6 +40,7 @@ ext_widgets : {rCharts: [libraries/nvd3, libraries/morris, libraries/highcharts]
 12. [Chapter 11 : Merit and Inheritance in the Long Run](lectures/Chapter 11/index.html)
 13. [Chapter 12 : Global Inequality of Wealth in the Twenty-First Century](lectures/Chapter 12/index.html)
 14. [Chapter 13 : A Social State for the Twenty-First Century](lectures/Chapter 13/index.html)
+15. [Chapter 14 : Rethinking the Progressive Income Tax](lectures/Chapter 14/index.html)
 
 <br>
 
@@ -89,7 +90,7 @@ images      -> other images used to illustrate the slides
 lectures    -> folder containing lectures
   Chapter 01
   Chapter 02
-  Chapter 03
+  Chapter 03, etc.
 libraries   -> frameworks, highlighters and widgets
 shared      -> custom setup across all lectures, e.g. knitr chunks
 index.Rmd   -> Rmd source for home page

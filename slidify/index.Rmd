@@ -56,7 +56,7 @@ titles <- c(
   "Rethinking the Progressive Income Tax", 
   "A Global Tax on Capital",
   "The Question of the Public Debt")
-titles <- titles[1:14]
+titles <- titles[1:15]  # select available chapters
 links <- paste0(seq_along(lectures), ". ", 
   "[", basename(lectures), " : ", titles, "]", "(", lectures, "/index.html)"
 )
@@ -111,7 +111,7 @@ images      -> other images used to illustrate the slides
 lectures    -> folder containing lectures
   Chapter 01
   Chapter 02
-  Chapter 03
+  Chapter 03, etc.
 libraries   -> frameworks, highlighters and widgets
 shared      -> custom setup across all lectures, e.g. knitr chunks
 index.Rmd   -> Rmd source for home page
