@@ -30,10 +30,10 @@ source('../../shared/shared.R')
 
 ---
 
-### Inequelity &mdash; A Bird's Eye View
+### Inequality &mdash; A Bird's Eye View
 
 - The two world wars and public policies were central to the reduction of inequalities in the 20th century &mdash; there was nothing natural  about it.
-- Inequality in incoe and wealth rose sharply after the 1970s, with large differences across countries.
+- Inequality in income and wealth rose sharply after the 1970s, with large differences across countries.
 - **Does modern growth reward merit or birth rights?**
 - Income inequality can be decomposed into 3 terms:
 
@@ -309,7 +309,7 @@ The bottom 50% still own only 5% in 2010, just as in 1910. But the middle 40% ow
 - Table 7.3 summarizes inequality in national income (income from all sources, including labor and capital).
 - National income inequality lies between labor and wealth inequality.
 - It is closer to labor income inequality. This is consistent with the fact that labor income accounts for 2/3 to 3/4 of national income. 
-- The top 10% received about 25% of national income in egalitarian societies (Scandinavia 1970-1990) and as much as 50% in more inegalitarian societies (Britain and France in 1700 and 1900, the United States in 2010).
+- The top 10% received about 25% of national income in egalitarian societies (Scandinavia 1970-1990) and as much as 50% in more inegalitarian societies (the United Kingdom and France in 1700 and 1900, the United States in 2010).
 
 ---
 

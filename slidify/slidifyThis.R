@@ -30,16 +30,6 @@ library(slidify)
 setwd("~/piketty/slidify/lectures/Chapter 11") 
 slidify('index.Rmd')
 
-# Make Exercises slides index with slidify()
-library(slidify)
-setwd("~/piketty/slidify/exercises") 
-slidify('index.Rmd')
-
-# Make Tests slides index with slidify()
-library(slidify)
-setwd("~/piketty/slidify/tests/Chapter 02") 
-slidify('inflation.Rmd')
-
 # Make test slides with slidify()
 library(slidify)
 setwd("~/piketty/slidify/tests/Chapter 02") 

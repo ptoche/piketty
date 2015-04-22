@@ -127,7 +127,7 @@ source('../../shared/shared.R')
 - The 'Gilded Age' of capitalism, in late 19th century, saw massive wealth accumulation by a few industrialists and financiers &mdash; John D. Rockefeller, Andrew Carnegie, J.P. Morgan. 
 - The perception of the US as an egalitarian society started to change!
 - In 1910–1920, the US pioneered a very progressive estate tax on large fortunes and a progressive income tax on very high incomes. 
-- The top wealth decile fell from 80% to 70% &mdash; in Europe it fell from 90% to 60%.
+- The top wealth decile fell from 80% to 70% &mdash; in Europe, from 90% to 60%.
 - These attempts to restore the 'egalitarian spirit' of America waned gradually and disappeared during 1980–2000.
 - In 2010, the top wealth decile exceeded 70%, the top centile about 35%.
 
@@ -176,7 +176,7 @@ source('../../shared/shared.R')
 ### The 'Piketty Inequality' Around the World
 
 - Figure 10.9 shows the world rate of return on wealth and the world growth rate of output since antiquity. These pre-tax returns do not include capital gains and losses, which were large in the 20th century.
-- Before WWI, capital taxes were very low. After WWI, tax rates on top incomes, profits, and wealth rose significantly. After WWII, taxes on capital came down everywhere.
+- Before WWI, wealth taxes were very low. After WWI, taxes on top incomes, wealth, and profit rose sharply. After WWII, they were cut everywhere.
 - Figure 10.10 shows estimates that include capital losses due to destruction of property in the period 1914–1945, assumes an average tax rate on capital of 30% for 1913–2012, 10% for 2012–2050, and 0% for 2050–2100.
 - In the 20th century, the net return on capital was less than the growth rate, for the first time in history, owing to both fiscal and non-fiscal shocks.
 - In all likelihood, the $r-g$ gap will widen again in the 21st century as economic growth slows &mdash; especially demographic growth. 
@@ -204,7 +204,7 @@ source('../../shared/shared.R')
 ### Equilibrium Distribution of Wealth
 
 - If the fortunes of wealthy individuals grow more rapidly than average income, the capital/ income ratio will rise indefinitely and lead to a fall in the rate of return on capital. 
-- The 'law of diminishing returns' can take decades to operate, especially in an open economy in which wealthy individuals can accumulate foreign assets &mdash; as in Britain and France in the 19th century.
+- The 'law of diminishing returns' can take decades to operate, especially in an open economy in which wealthy individuals can accumulate foreign assets &mdash; as in the United Kingdom and France in the 19th century.
 - Shocks can also counter this tendency: death and inheritance, bad investments, a financial crisis can disperse wealth.
 
 ---
@@ -212,8 +212,7 @@ source('../../shared/shared.R')
 ### Illusions of the French Revolution
 
 - Many traditional aristocratic societies were based on the principle of pri- mogeniture: the eldest son inherited most of the family property so as to preserve the family's wealth and maintain its power. The freedom to bequeath still prevails in the United States and United Kingdom, though in practice most estates are equally divided among siblings. 
-- The French revolution introduced equipartition of estates between siblings. This was not enough to ensure an egalitarian distribution of wealth.
-- The concentration of wealth increased steadily in France throughout the 19th century and peaked at a higher level similar to aristocratic Britain.
+- The French revolution introduced equipartition of estates between siblings.  Yet, the concentration of wealth increased steadily throughout the 19th century and peaked at level similar to the British parliamentary monarchy.
 - If the rate of return on capital durably exceeds the growth rate, wealth becomes more concentrated and the dispersion of inheritance is not enough to make a big difference. 
 
 ---
@@ -236,7 +235,15 @@ source('../../shared/shared.R')
 - `3`. The rate of return on capital income has fallen.
 - `4`. The economic growth rate was high until the 1980s.
 - `5`. After 1945, taxes on dividends, interest, profits, and rents, were introduced. An average tax rate of 30% reduces a pre-tax return of 5% to a post-tax return of 3.5%. These policies have played a large role.
-- The future is difficult to foresee: taxes, interest rates, growth rates, especially demographics, and the pattern of inheritance will all play a part.
+- `6`.  In the face of wars, depression, inflation, many rentiers maintained expenses inconsistent with lower wealth and incomes.
+
+---
+
+### Why Has Wealth Inequality Not Risen More?
+
+- Table 10.1 shows that in 1900 Parisian portfolios were diversified: 1/3 in real estate (2/3 in Paris and 1/3 in the provinces) and 2/3 in financial assets (both French and foreign stocks, public and private bonds). The rentier of 1900 did not belong to the 'landed class.' 
+- In 1900, the wealthiest $1$ percent of Parisians had capital income 80-100 times the average wage. In 1940, capital income had fallen to 20 times the average wage. 'Eating the capital' was crucial to the fall in wealth concentration of 1914-1945.
+- The future of wealth concentration is difficult to foresee: taxes, interest rates, growth rates, especially demographics, and the pattern of inheritance will all play a part.
 
 ---
 

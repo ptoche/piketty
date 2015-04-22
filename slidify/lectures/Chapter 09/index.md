@@ -160,7 +160,7 @@ lecnum      : "09"
 
 - `2`. The explosion of very high labor incomes has occurred in some advanced countries but not in others, suggesting that country-specific differences are crucial and that universal causes such as technological change can be ruled out.
 - This is a major objection against the marginal productivity theory. 
-- The rise of the supermanager is largely an Anglo-Saxon phenomenon. After 1980, the income share of the top centile has risen significantly in the United States, Great Britain, Canada, and Australia.  The explosion of top labor incomes explains at least 2/3 of the rise in top incomes, and has occurred in both the financial and nonfinancial sectors.
+- The rise of the supermanager is largely an Anglo-Saxon phenomenon. After 1980, the income share of the top centile started rising sharply in the United States, United Kingdom, Canada, and Australia. The explosion of top labor incomes explains at least 2/3 of the rise in top incomes, and has occurred in both the financial and nonfinancial sectors.
 - Cross-country differences would not be so large if the rise of the supermanager were a purely technological phenomenon.
 
 ---
@@ -204,7 +204,7 @@ lecnum      : "09"
 - In all the wealthy countries since the 1980s, the top 0.1% have experienced large increases in purchasing power, while the purchasing power of the average person has largely stagnated.
 - The transfer of income to the top 1 percent has been limited to 2 or 3 points of national income in continental Europe and Japan compared with 10 to 15 points in the United States &mdash; 5 to 7 times more.
 - In a country of 50 million adults (the United Kingdom, France, Italy today), the top 0.1% includes 50,000 people; the top 0.01% includes 5,000 people. These are select groups.
-- The divergence is striking because technological change has been the same more or less everywhere: in particular, the revolution in information technology has affected Japan, Germany, France, Sweden, and Denmark as much as the United States, Britain, and Canada. 
+- The divergence is striking because technological change has been the same more or less everywhere: in particular, the revolution in information technology has affected Japan, Germany, France, Sweden, and Denmark as much as the United States, United Kingdom, and Canada. 
 
 ---
 
@@ -253,7 +253,7 @@ lecnum      : "09"
 ### Data in Emerging Economies
 
 - Historical sources are rare in poorer countries.
-- Britain introduced a progressive income tax at home in 1909 and later in some of its colonies: South Africa in 1913, India (including Pakistan and Bangladesh) in 1922. 
+- The United Kindom introduced a progressive income tax at home in 1909 and later in some of its colonies: South Africa in 1913, India (including Pakistan and Bangladesh) in 1922. 
 - The Netherlands introduced an income tax in Indonesia in 1920. 
 - The income tax in less developed countries generally applies to only a small minority of the population. 
 - India stopped publishing detailed income tax data in the early 2000s.

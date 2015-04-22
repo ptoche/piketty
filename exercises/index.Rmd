@@ -9,21 +9,51 @@ url         : {lib: "../libraries", assets: "../assets"}
 
 #### Exercises to Accompany Thomas Piketty's *Capital in the 21st Century* (Harvard University Press, 2014)
 
-Documents needed for practice exercises will be listed here as they become available.
+Documents needed for practice exercises will be listed here as they become available. 
 
 <br>
 
 #### Chapter 2 
 
-Law Of Cumulated Growth &mdash; Reproduce Table 2-2:
+The 'Law Of Cumulated Growth' &mdash; Reproduce Table 2-2:
 
-<a href="Growth/Table 2-2 - Law Of Cumulated Growth.xls">Spreadsheet</a>
+<a href="Growth/Table 2-2 - Law Of Cumulated Growth.xls">Hints [xls]</a>
 
 #### Chapter 7 
 
 Graph a Lorenz curve and compute a Gini coefficient:
 
-<a href="Inequality/Lorenz-Gini.pdf">Instructions</a>
+<a href="Distribution/Lorenz-Gini/Lorenz-Gini.pdf">Instructions [pdf]</a>
 
-<a href="Inequality/Lorenz-Gini.xls">Spreadsheet</a>
+<a href="Distribution/Lorenz-Gini/Lorenz-Gini.xls">Hints [xls]</a>
+
+<a href="Distribution/Lorenz-Gini/Lorenz-Gini.R">Code [R]</a>
+
+
+#### Chapter 9
+
+Analyze the distribution of top incomes among professional athletes using publicly reported salaries and earnings.
+
+<a href="Distribution/DistributionOfSalaries/Instructions.pdf">Instructions [pdf]</a>
+
+<a href="Distribution/DistributionOfSalaries/DistributionOfSalaries.xls">Hints [xls]</a>
+
+<a href="Distribution/DistributionOfSalaries/DistributionOfSalaries.R">Code [R]</a>
+
+<a href="Distribution/DistributionOfSalaries/">More</a>
+
+
+#### Chapter 11
+
+Analyze the distribution of wealth using the Forbes magazine billionaires lists.
+
+<a href="Distribution/DistributionOfWealth/Instructions.pdf">Instructions [pdf]</a>
+
+<a href="Distribution/DistributionOfWealth/forbes-1996.xls">Forbes 1996 Dataset [xls]</a>
+
+<a href="Distribution/DistributionOfWealth/forbes-2014.xls">Forbes 2014 Dataset [xls]</a>
+
+<a href="Distribution/DistributionOfWealth/cpi.xls">United States / Dollar Consumer Price Index [xls]</a>
+
+<a href="Distribution/DistributionOfWealth/DistributionOfWealth.xls">Hints [xls]</a>
 

@@ -48,7 +48,7 @@ gives a correspondence between the capital/income ratio and the division of inco
 
 ### Capital Income Share and Capital/Income Ratio
 
-- The capital income share $\alpha$ was about 35–40 percent in both Britain and France in the late 18th and throughout the 19th century.  
+- The capital income share $\alpha$ was about 35–40 percent in both the United Kingdom and France in the late 18th and throughout the 19th century.  
 - In the middle of the 20th century $\alpha$ fell to 20–25 percent, then rose again to 25–30 percent in the late 20th and early 21st.  
 - This corresponds to an average rate of return on capital $r$ of about 5–6 percent in the 18th and 19th centuries,  7–8 percent in the mid-20th century, 4–5 percent in the late 20th and early 21st.  
 
@@ -129,7 +129,7 @@ $$
     - The fall in $r$ more than compensates for the rise in $\beta$. 
 - if $r$ falls less than proportionately when $\beta$ rises, then $\alpha$ rises as $\beta$ falls.
     - The fall in $r$ moderates the rise in $\beta$. 
-- Based on historical evolutions observed in Britain and France, the second case seems more relevant over the long run.
+- Based on historical evolutions observed in the United Kingdom and France, the second case seems more relevant over the long run.
 
 ---
 
@@ -175,9 +175,9 @@ $$
 
 <!---
 
-### The capital-labor split in Britain
+### The capital-labor split in the United Kingdom
 <figure class = "captioned">  
-<img src = "../../figures/Figure_6_1.png", alt = "Figure 6.1. The capital-labor split in Britain, 1770-2010">  
+<img src = "../../figures/Figure_6_1.png", alt = "Figure 6.1. The capital-labor split in the United Kingdom, 1770-2010">  
 <figcaption class = 'figcaption'>Figure 6.1. During the nineteenth century, capital income (rent, profits, dividends, interest...) absorbed about 40 percent of national income versus 60 percent for labor income (including both wage and non-wage income).</figcaption>  
 </figure>  
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
@@ -187,10 +187,10 @@ $$
 
 ---
 
-### The capital-labor split in Britain
+### The capital-labor split in the United Kingdom
 
 
-<iframe src = "figures/Figure_6_1.html" alt = "Figure 6.1. The capital-labor split in Britain, 1770-2010">
+<iframe src = "figures/Figure_6_1.html" alt = "Figure 6.1. The capital-labor split in the United Kingdom, 1770-2010">
 </iframe><icaption class = 'icaption'>Figure 6.1. During the nineteenth century, capital income (rent, profits, dividends, interest...) absorbed about 40 percent of national income versus 60 percent for labor income (including both wage and non-wage income).</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
@@ -221,10 +221,10 @@ $$
 
 <!---
 
-### The pure rate of return on capital in Britain
+### The pure rate of return on capital in the United Kingdom
 
 <figure class = "captioned">  
-<img src = "../../figures/Figure_6_3.png", alt = "Figure 6.3. The pure rate of return on capital in Britain, 1770-2010">  
+<img src = "../../figures/Figure_6_3.png", alt = "Figure 6.3. The pure rate of return on capital in the United Kingdom, 1770-2010">  
 <figcaption class = 'figcaption'>Figure 6.3. The pure rate of return to capital is roughly stable around 4-5 percent in the long run.</figcaption>  
 </figure>  
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
@@ -234,10 +234,10 @@ $$
 
 ---
 
-### The pure rate of return on capital in Britain
+### The pure rate of return on capital in the United Kingdom
 
 
-<iframe src = 'figures/Figure_6_3.html', alt = "Figure 6.3. The pure rate of return on capital in Britain, 1770-2010">
+<iframe src = 'figures/Figure_6_3.html', alt = "Figure 6.3. The pure rate of return on capital in the United Kingdom, 1770-2010">
 </iframe><icaption class = 'icaption'>Figure 6.3. The pure rate of return to capital is roughly stable around 4-5 percent in the long run.</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
