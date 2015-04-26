@@ -1,4 +1,4 @@
-setwd("~/piketty/exercises/Distribution/")
+setwd("~/piketty/exercises/Distribution/DistributionOfSalaries/")
 library("xlsx")
 
 # Barcelona

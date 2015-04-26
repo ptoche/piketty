@@ -825,6 +825,10 @@ n$yAxis(axisLabel = 'Share of top decile in total income')
 n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = NULL)
+n$xAxis(tickValues = "#! function (x) {    
+    tickvalues = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010];
+    return tickvalues;
+} !#")
 n$chart(useInteractiveGuideline = TRUE)
 n$chart(color = colorPalette)
 n$addParams(height = 450, width = 900)
@@ -870,6 +874,10 @@ n$yAxis(axisLabel = 'Share of top decile in total income')
 n$chart(margin = list(left = 80)) 
 n$yAxis(tickFormat = "#! function(d) {return Math.round(d*100*100)/100 + '%'} !#")
 n$xAxis(axisLabel = NULL)
+n$xAxis(tickValues = "#! function (x) {    
+    tickvalues = [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010];
+    return tickvalues;
+} !#")
 n$chart(useInteractiveGuideline = TRUE)
 n$chart(color = colorPalette)
 n$addParams(height = 450, width = 900)

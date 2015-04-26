@@ -1678,53 +1678,53 @@ names(TS11.3) <- c("Year", "Inheritance flow in the UK (% national income) (fisc
 TS11.3$Category <- "Inheritance flows"
 save(TS11.3, file = "data/TS11.3.Rda")
 
+
 # Figure 11.1 / TS11.1a / inheritance flow / France
 load("data/TS11.1a.Rda")
 df_11_1 <- TS11.1a[, c("Year", "Annual inheritance flow (% of national income) (economic flows)", "Annual inheritance flow (% national income) (fiscal flows)")]
 names(df_11_1) <- c("Year", "Economic flow \n(computed from national wealth estimates, \nmortality table, and age-wealth profiles)\n", "Fiscal flow \n(computed from bequest and gift tax data, \nincluding tax-exempt assets\n")
-df_11_1 <- na.omit(df_11_1)
 df_11_1 <- melt(df_11_1, id.vars = "Year")
+df_11_1 <- na.omit(df_11_1)
 save(df_11_1, file = "data/df_11_1.Rda")
 
 # Figure 11.2 / TS11.1a / mortality rate / France
 load("data/TS11.1a.Rda")
 df_11_2 <- TS11.1a[, c("Year", "Adult mortality rate (adults aged 20 and over)")]
 names(df_11_2) <- c("Year", "Adult mortality rate \n(adults aged 20 and over)")
-df_11_2 <- na.omit(df_11_2)
 df_11_2 <- melt(df_11_2, id.vars = "Year")
+df_11_2 <- na.omit(df_11_2)
 save(df_11_2, file = "data/df_11_2.Rda")
 
 # Figure 11.3 / TS11.1a / age of descendants + inheritors / France
 load("data/TS11.1a.Rda")
 df_11_3 <- TS11.1a[, c("Year", "Average age of decedents (adults aged 20 and over)", "Average age of inheritors (direct line)")]
-df_11_3 <- na.omit(df_11_3)
 df_11_3 <- melt(df_11_3, id.vars = "Year")
+df_11_3 <- na.omit(df_11_3)
 save(df_11_3, file = "data/df_11_3.Rda")
 
 # Figure 11.4 / TS11.1a / inheritance flow + mortality / France
 load("data/TS11.1a.Rda")
 df_11_4 <- TS11.1a[, c("Year", "Annual inheritance flow (% aggregate private wealth) (economic flows)", "Adult mortality rate (adults aged 20 and over)")]
 names(df_11_4) <- c("Year", "Annual inheritance flow \n(% aggregate private wealth): \nannual rate of wealth transmission\n", "Adult mortality rate \n(adults aged 20 and over)\n")
-df_11_4 <- na.omit(df_11_4)
 df_11_4 <- melt(df_11_4, id.vars = "Year")
+df_11_4 <- na.omit(df_11_4)
 save(df_11_4, file = "data/df_11_4.Rda")
 
 # Figure 11.5 / TS11.1a / wealth at death + wealth of living / France
 load("data/TS11.1a.Rda")
 df_11_5 <- TS11.1a[, c("Year", "Ratio of average wealth at death to average wealth of the decedents and the living, (not including bequest gifts made before death)", "Ratio of average wealth at death to average wealth of the decedents and the living, (including bequest gifts made before death)")]
 names(df_11_5) <- c("Year", "Ratio of average wealth at death \nto average wealth of the decedents and the living, \n(not including bequest gifts made before death)\n", "Ratio of average wealth at death \nto average wealth of the decedents and the living, \n(including bequest gifts made before death)\n")
-df_11_5 <- na.omit(df_11_5)
 df_11_5 <- melt(df_11_5, id.vars = "Year")
+df_11_5 <- na.omit(df_11_5)
 save(df_11_5, file = "data/df_11_5.Rda")
 
 # Figure 11.5 / for use with rCharts
 load("data/TS11.1a.Rda")
 df_11_5_rc <- TS11.1a[, c("Year", "Ratio of average wealth at death to average wealth of the decedents and the living, (not including bequest gifts made before death)", "Ratio of average wealth at death to average wealth of the decedents and the living, (including bequest gifts made before death)")]
 names(df_11_5_rc) <- c("Year", "Not including bequest gifts made before death", "Including bequest gifts made before death")
-df_11_5_rc <- na.omit(df_11_5_rc)
 df_11_5_rc <- melt(df_11_5_rc, id.vars = "Year")
+df_11_5_rc <- na.omit(df_11_5_rc)
 save(df_11_5_rc, file = "data/df_11_5_rc.Rda")
-
 
 # Figure 11.6 / TS11.1a / inheritance flows + simulated / France
 load("data/TS11.1a.Rda")
@@ -1764,48 +1764,48 @@ save(df_11_7_rc, file = "data/df_11_7_rc.Rda")
 load("data/TS11.1a.Rda")
 df_11_8 <- TS11.1a[, c("Year", "Annual inheritance flow (% disposable income) (economic flows)", "Annual inheritance flow (% disposable income) (fiscal flows)")]
 names(df_11_8) <- c("Year", "Economic flows \n(annual inheritance flow % of disposable income, \ncomputed from national wealth estimates, \nmortality tables, and age-wealth profiles)\n", "Fiscal flows: \n(annual inheritance flow % of disposable income, \ncomputed from bequest and gift tax data, \nincluding tax-exempt assets)\n")
-df_11_8 <- na.omit(df_11_8)
 df_11_8 <- melt(df_11_8, id.vars = "Year")
+df_11_8 <- na.omit(df_11_8)
 save(df_11_8, file = "data/df_11_8.Rda")
 
 # Figure 11.8 / for use with rCharts
 load("data/TS11.1a.Rda")
 df_11_8_rc <- TS11.1a[, c("Year", "Annual inheritance flow (% disposable income) (economic flows)", "Annual inheritance flow (% disposable income) (fiscal flows)")]
 names(df_11_8_rc) <- c("Year", "Economic flows: computed from national wealth estimates, mortality tables, and age-wealth profiles", "Fiscal flows: computed from bequest and gift tax data, including tax-exempt assets")
-df_11_8_rc <- na.omit(df_11_8_rc)
 df_11_8_rc <- melt(df_11_8_rc, id.vars = "Year")
+df_11_8_rc <- na.omit(df_11_8_rc)
 save(df_11_8_rc, file = "data/df_11_8_rc.Rda")
 
 # Figure 11.9 / TS11.1b / inheritance share / France
 load("data/TS11.1b.Rda")
 df_11_9 <- TS11.1b[, c("Year", "Inheritance share (% total lifetime resources) (scenario 1)")]
 names(df_11_9) <- c("Year", "Inheritance share (% total lifetime resources)")
-df_11_9 <- na.omit(df_11_9)
 df_11_9 <- melt(df_11_9, id.vars = "Year")
+df_11_9 <- na.omit(df_11_9)
 save(df_11_9, file = "data/df_11_9.Rda")
 
 # Figure 11.10 / TS11.b / living standards w + w/o inheritance / France
 load("data/TS11.1b.Rda")
 df_11_10 <- TS11.1b[, c("Year", "Living standard attained by top 1% inheritors (% of bottom 50% labor earners lifetime resources) (scenario 1)", "Living standard attained by top 1% labor earners (% of bottom 50% labor earners lifetime resources) (scenario 1)")]
 names(df_11_10) <- c("Year", "Living standard attained by top 1% inheritors", "Living standard attained by top 1% labor earners \n(multiples of living standard attained by the bottom 50% \nof labor earners, and as a function of year of birth)")
-df_11_10 <- na.omit(df_11_10)
 df_11_10 <- melt(df_11_10, id.vars = "Year")
+df_11_10 <- na.omit(df_11_10)
 save(df_11_10, file = "data/df_11_10.Rda")
 
 # Figure 11.10 / for use with rCharts
 load("data/TS11.1b.Rda")
 df_11_10_rc <- TS11.1b[, c("Year", "Living standard attained by top 1% inheritors (% of bottom 50% labor earners lifetime resources) (scenario 1)", "Living standard attained by top 1% labor earners (% of bottom 50% labor earners lifetime resources) (scenario 1)")]
 names(df_11_10_rc) <- c("Year", "Living standard attained by top 1% inheritors", "Multiples of living standard attained by the bottom 50% of labor earners, and as a function of year of birth")
-df_11_10_rc <- na.omit(df_11_10_rc)
 df_11_10_rc <- melt(df_11_10_rc, id.vars = "Year")
+df_11_10_rc <- na.omit(df_11_10_rc)
 save(df_11_10_rc, file = "data/df_11_10_rc.Rda")
 
 # Figure 11.11 / TS11.1b / big inheritance / France
 load("data/TS11.1b.Rda")
 df_11_11 <- TS11.1b[, c("Year", "Fraction of each cohort receiving more inheritance than the bottom 50% labor resources (scenario 1)")]
 names(df_11_11) <- c("Year", "Fraction of each cohort receiving more inheritance \nthan the bottom 50% labor earners \n(as a function of year of birth)")
-df_11_11 <- na.omit(df_11_11)
 df_11_11 <- melt(df_11_11, id.vars = "Year")
+df_11_11 <- na.omit(df_11_11)
 save(df_11_11, file = "data/df_11_11.Rda")
 
 # Figure 11.12 / TS11.1a + TS11.3 / inheritance flow / Europe
@@ -1815,8 +1815,8 @@ df_11_12 <- TS11.3[, c("Year", "Inheritance flow in the UK (% national income) (
 load("data/TS11.1a.Rda")
 df_11_12 <- merge(df_11_12, TS11.1a[, c("Year", "Annual inheritance flow (% of national income) (economic flows)")])
 names(df_11_12) <- c("Year", "United Kingdom", "Germany", "France")
-df_11_12 <- na.omit(df_11_12)
 df_11_12 <- melt(df_11_12, id.vars = "Year")
+df_11_12 <- na.omit(df_11_12)
 save(df_11_12, file = "data/df_11_12.Rda")
 
 

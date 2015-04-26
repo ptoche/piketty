@@ -135,7 +135,7 @@ lecnum      : "07"
 
 ### Inequality and Distribution
 
-- Tables 7.1–7.3 shows the pre-tax distributions in various countries at various times, for labor income, capital ownership, and total income.
+- Tables 7.1 to 7.3 show the pre-tax distributions in various countries at various times, for labor income, capital ownership, and total income.
 - In egalitarian societies &mdash; Scandinavian countries in 1970-1990: 
 
     `1`. the top 10% labor income earners earn 20% of total labor income; 

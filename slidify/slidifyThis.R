@@ -27,7 +27,7 @@ slidify('figures.Rmd')
 
 # Make individual chapter slides with slidify()
 library(slidify)
-setwd("~/piketty/slidify/lectures/Chapter 11") 
+setwd("~/piketty/slidify/lectures/Chapter 12") 
 slidify('index.Rmd')
 
 # Make test slides with slidify()

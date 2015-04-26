@@ -23,14 +23,14 @@
   </head>
   <body >
     
-    <div id = 'chart36867918c96' class = 'rChart nvd3'></div>    
+    <div id = 'chart4526a73665b' class = 'rChart nvd3'></div>    
     <script type='text/javascript'>
  $(document).ready(function(){
-      drawchart36867918c96()
+      drawchart4526a73665b()
     });
-    function drawchart36867918c96(){  
+    function drawchart4526a73665b(){  
       var opts = {
- "dom": "chart36867918c96",
+ "dom": "chart4526a73665b",
 "width":    900,
 "height":    450,
 "x": "Year",
@@ -39,13 +39,38 @@
 "color": "variable",
 "shape": "variable",
 "type": "lineChart",
-"id": "chart36867918c96" 
+"id": "chart4526a73665b" 
 },
         data = [
  {
+ "Year":           1900,
+"variable": "United Kingdom",
+"value":          0.206 
+},
+{
  "Year":           1910,
 "variable": "United Kingdom",
 "value":          0.193 
+},
+{
+ "Year":           1920,
+"variable": "United Kingdom",
+"value":          0.139 
+},
+{
+ "Year":           1930,
+"variable": "United Kingdom",
+"value":          0.157 
+},
+{
+ "Year":           1940,
+"variable": "United Kingdom",
+"value":          0.113 
+},
+{
+ "Year":           1950,
+"variable": "United Kingdom",
+"value":          0.079 
 },
 {
  "Year":           1960,
@@ -113,9 +138,34 @@
 "value":          0.107 
 },
 {
+ "Year":           1900,
+"variable": "France",
+"value":          0.241 
+},
+{
  "Year":           1910,
 "variable": "France",
 "value":          0.227 
+},
+{
+ "Year":           1920,
+"variable": "France",
+"value":          0.098 
+},
+{
+ "Year":           1930,
+"variable": "France",
+"value":           0.11 
+},
+{
+ "Year":           1940,
+"variable": "France",
+"value":          0.098 
+},
+{
+ "Year":           1950,
+"variable": "France",
+"value":          0.043 
 },
 {
  "Year":           1960,
@@ -182,6 +232,7 @@
   .margin({
  "left":     80 
 })
+  .forceX([   1900,   2020 ])
   .useInteractiveGuideline(true)
   .color([ "#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999" ])
           
