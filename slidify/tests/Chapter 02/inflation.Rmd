@@ -152,45 +152,45 @@ The inflation rate is defined as the rate of growth of the CPI.
 The CPI rises from 100 to 105, so the inflation rate is 5%. The balance rises from \\$100 to \\$105, so the nominal interest rate is 5%. The real interest rate is (approximately) equal to the nominal interest rate minus the inflation rate, $0.05 - 0.05 = 0$.
 
 
---- &radio .shrink30
+--- &radio
 
 ### Question 8
 
-The market expects prices to fall at an annual rate of 1%. Unexpectedly prices fall by 2%. 
+The market expects prices to fall at an annual rate of 1%. Unexpectedly prices fall by 2%. This redistributes real income...
   
-1. _This redistributes real income from borrowers to lenders by about 1% of loans outstanding._
-2. This redistributes real income from lenders to borrowers by about 1% of loans outstanding.
-3. This redistributes real income from borrowers to lenders by about 2% of loans outstanding.
-4. This redistributes real income from lenders to borrowers by about 2% of loans outstanding.
-5. This redistributes real income from borrowers to lenders by about 3% of loans outstanding.
-6. This redistributes real income from lenders to borrowers by about 3% of loans outstanding.
+1. _from borrowers to lenders by about 1% of loans outstanding._
+2. from lenders to borrowers by about 1% of loans outstanding.
+3. from borrowers to lenders by about 2% of loans outstanding.
+4. from lenders to borrowers by about 2% of loans outstanding.
+5. from borrowers to lenders by about 3% of loans outstanding.
+6. from lenders to borrowers by about 3% of loans outstanding.
 
 
---- &radio .shrink30
+--- &radio
 
 ### Question 9
 
-The market expects an annual rate of inflation of 2%. Inflation unexpectedly reaches 5%. 
+The market expects an annual rate of inflation of 2%. Inflation unexpectedly reaches 5%. This redistributes real income...
   
-1. This redistributes real income from borrowers to lenders by about 2% of loans outstanding.
-2. This redistributes real income from lenders to borrowers by about 2% of loans outstanding.
-3. This redistributes real income from borrowers to lenders by about 5% of loans outstanding.
-4. This redistributes real income from lenders to borrowers by about 5% of loans outstanding.
-5. This redistributes real income from borrowers to lenders by about 3% of loans outstanding.
-6. _This redistributes real income from lenders to borrowers by about 3% of loans outstanding._
+1. from borrowers to lenders by about 2% of loans outstanding.
+2. from lenders to borrowers by about 2% of loans outstanding.
+3. from borrowers to lenders by about 5% of loans outstanding.
+4. from lenders to borrowers by about 5% of loans outstanding.
+5. from borrowers to lenders by about 3% of loans outstanding.
+6. _from lenders to borrowers by about 3% of loans outstanding._
 
---- &radio .shrink30
+--- &radio .shrink20
 
 ### Question 10
 
-A 'lender' deposits \\$100 for one year into an interest-bearing account paying an annual interest rate of 10%. A 'borrower' takes a one-year loan for \\$100 at the same bank at an annual interest cost of 11%. All interest payments are made at the end of the year, with no intermediate monthly payments. Both lender and borrower had expected an annual inflation rate of 8%, but instead the recorded inflation rate is 10%. 
+A 'lender' deposits \\$100 for one year into an interest-bearing account paying an annual interest rate of 10%. A 'borrower' takes a one-year loan for \\$100 at the same bank at an annual interest cost of 11%. All interest payments are made at the end of the year, with no intermediate monthly payments. Both lender and borrower had expected an annual inflation rate of 8%, but instead the recorded inflation rate is 10%. The excess inflation operates a real redistribution...
 
-1. The excess inflation operates a real redistribution from borrower to lender of about \\$0.2. 
-2.  The excess inflation operates a real redistribution from lender to borrower of about \\$0.2.
-3. The excess inflation operates a real redistribution from borrower to lender of about \\$2.
-4.  The excess inflation operates a real redistribution from lender to borrower of about \\$2.
-5. The excess inflation operates a real redistribution from borrower to lender of about \\$2.2.
-6.  The excess inflation operates a real redistribution from lender to borrower of about \\$2.2.
+1. from borrower to lender of about \\$0.2
+2. from lender to borrower of about \\$0.2
+3. from borrower to lender of about \\$2
+4. from lender to borrower of about \\$2
+5. from borrower to lender of about \\$2.2
+6.  _from lender to borrower of about \\$2.2_
 
 *** .hint
 This redistribution does not count the redistribution operated by the expected capital appreciation of the lender's deposit and expected cost of the loan for the borrower, as these are part of standard loan terms and are in accordance with the agreement entered by both parties.
