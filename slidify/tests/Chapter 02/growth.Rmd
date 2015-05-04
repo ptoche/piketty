@@ -85,15 +85,15 @@ _2.7_
 5.7
 
 *** .hint
-An annual growth rate of $g$ compounded $T$ times results in a total ('non-annual') **growth rate** of
-$G = (1 + g)^{T} - 1$. 
+An annual growth rate of $g$ compounded $T$ times results in a total ('non-annual') **increase by a factor** of
+$1 + G = (1 + g)^{T}$. 
 
 *** .explanation
 An annual growth rate of $0.01$ compounded $100$ times results in a total increase:
 $$
 1 + G = (1 + 0.01)^{100} \simeq 2.7
 $$
-
+or, equivalently, a total growth rate of $170\%$
 
 --- &radio
 
@@ -121,7 +121,7 @@ $G = (1 + g)^{T} - 1$.
 *** .explanation
 An annual growth rate of $0.10$ compounded $10$ times results in total growth:
 $$
-G = (1 + 0.1)^{10} - 1 \simeq 1.6\%
+G = (1 + 0.1)^{10} - 1 \simeq 1.6 = 160\%
 $$
 
 
@@ -153,14 +153,14 @@ An annual growth rate of $0.01$ compounded $100$ times gives:
 $$
 1 + G = (1 + 0.01)^{100} \simeq 2.7
 $$
-or $G \simeq 1.7\%$
+or $G \simeq 170\%$
 
 **Case (b).** 
 An annual growth rate of $0.10$ compounded $10$ times gives:
 $$
 1 + G = (1 + 0.1)^{10} \simeq 2.6
 $$
-or $G \simeq 1.6\%$
+or $G \simeq 160\%$
 
 The compounding effect is a little larger in case (a).
 

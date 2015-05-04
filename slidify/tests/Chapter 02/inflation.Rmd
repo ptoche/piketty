@@ -193,7 +193,7 @@ A 'lender' deposits \\$100 for one year into an interest-bearing account paying 
 6.  _from lender to borrower of about \\$2.2_
 
 *** .hint
-This redistribution does not count the redistribution operated by the expected capital appreciation of the lender's deposit and expected cost of the loan for the borrower, as these are part of standard loan terms and are in accordance with the agreement entered by both parties.
+Do not include the redistribution operated by the expected capital appreciation of the lender's deposit and expected cost of the loan for the borrower, as these are part of standard loan terms and are in accordance with the agreement entered by both parties.
 
 *** .explanation
 At the end of the year, the lender receives a nominal payment of \\$110, while the borrower makes a nominal payment of \\$111 (the difference is the bank's profit). The market's inflation forecast error is +2% (= 0.02), the excess of recorded inflation over expected inflation &mdash; thus, unexpected inflation reduces the real value of the lender's end-of-year balance by 2%, and reduces the real value of the borrower's end-of-year repayment by 2%. The  lender suffers an unexpected real loss of 0.02 $\times$ \\$110 = \\$2.2 (less than capital appreciation, so the lender's capital does not shrink in real terms). The borrower experiences an unexpected real gain of 0.02 $\times$ \\$111 = \\$2.22 (less than the cost of the loan, so the borrower does not get money for free).

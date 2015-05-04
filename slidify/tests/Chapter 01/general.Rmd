@@ -203,10 +203,10 @@ The total GDP of Africa accounts for about
 _5% of world GDP_
 
 *** .hint
-African output makes up a much smaller world share than African population. 1 billion people but only 5% of world output!
+African output makes up a much smaller world share than African population.
 
 *** .explanation
-See Table 1.1
+African output makes up a much smaller world share than African population. 1 billion people but only 5% of world output!. See Table 1.1.
 
 
 --- &radio
