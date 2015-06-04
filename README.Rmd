@@ -6,7 +6,10 @@ Capital in the 21st Century: Figures, Tables & Slides
 ---------
   
 [click here to go to my github repository](https://github.com/ptoche/piketty/)  
-  
+
+[click here to go to my github pages](http://ptoche.github.io/)  
+
+
 ---------
 
 Software License: [GPL-3](http://www.gnu.org/licenses/gpl.html)  
@@ -23,8 +26,10 @@ This repository contains 3 directories named `1`. **knitr**, `2`. **slidify**, a
     
   2. The  **slidify** directory contains *slidify/rCharts/NVD3/HTML* source code to produce all book figures in **.html** format, and a set of html slides for each chapter. The sources have extension **.Rmd** and are located inside the **lectures** sub-directory for each chapter. The figures are available as standalone html files inside each chapter's **figures** sub-directory. In addition, there is a general index at the root, and a few additional resources such as quizzes and exercises.
 
-  3. The **exercises** directory contains various sources to practice on certain technical aspects of the book, e.g. computing cumulated growth, charting Lorenz curves.
+  3. The **exercises** directory contains various sources to practice on certain technical aspects of the book, e.g. computing cumulated growth, charting Lorenz curves. 
 
 ------
+
 Patrick Toche, 31 December 2014.
-Updated 22 February 2015.
+Chapters 1-11 completed as of May 2015. 
+

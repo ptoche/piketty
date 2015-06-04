@@ -111,10 +111,11 @@ source('../../shared/shared.R')
 
 ### The Role of Institutions
 
-- Education and technology are central to inequality in the long run. 
-- In all human societies, education has an intrinsic value: the ability to acquire knowledge and culture. A characteristic feature of modern growth is the considerable share of both output and employment devoted to education, culture, and medicine.
-- But the marginal productivity theory cannot explain the worldwide diversity of wage distributions.
-- The compression of WWI and WWII was the result of negotiations over wage scales in both the public and private sectors. In the US, the *National War Labor Board* was created to oversee negotiations.  In France, changes in the minimum wage explain the evolution of wage inequalities during 3 subperiods: 1950–1968, 1968–1983, 1983–2012.
+- Advanced economies devote a considerable share of output and employment to education and health care.
+- Education and technology are central to inequality in the long run. But the marginal productivity theory cannot explain the worldwide diversity of wage distributions.
+- The compression of wages in the 20th century was the result of negotiations over wage scales in both the public and private sectors. 
+- In the US, the *National War Labor Board* was created to oversee negotiations over wages.  
+- In France, changes in the minimum wage explain changes in wage inequalities at the bottom of the distribution during 3 subperiods: 1950–1968, 1968–1983, 1983–2012.
 
 ---
 
@@ -147,25 +148,20 @@ source('../../shared/shared.R')
 
 - The surest way to raise wages and reduce inequalities, in the long run, is to invest in education and skills. 
 - The minimum wage and other wage controls can play an important role at the bottom of the distribution in countries where employers' bargaining powers are unrestrained, but could hurt employment in countries where workers are already protected. 
-- The theory of marginal productivity and the race between education and technology fails to explain the explosion of very high labor incomes observed since the 1980s in the United States and United Kingdom. 
+- The theory of marginal productivity and the race between education and technology cannot explain the explosion of very high labor incomes observed since the 1980s in e.g. the United States and United Kingdom. 
 
 ---
 
 ### Explosion of Inequality in the United States
 
-
-
-- Marginal productivity theory points to skill-biased technological change. 
-- `1`. The rise in wage inequality in the United States is due mainly to increased pay at the very top end of the distribution: the top 1% and especially the top 0.1% percent &mdash; labor incomes between \\$100,000 and \\$200,000 a year have risen only slightly faster than the average, whereas incomes greater than \\$500,000 a year have grown much faster &mdash; and incomes above \\$1 million a year faster still. 
-- The sharp discontinuity at the very top is not consistent with the marginal productivity theory &mdash; there is no corresponding discontinuity in observed skill levels between the 9% and the 1% or between the 1% and the 0.1%, even taking a broad view of 'skill' (education, IQ, experience). 
-- No skill-biased technological changes is 'visible' that would be consistent with the gaps documented by Goldin and Katz. 
+- `1`. The rise in wage inequality in the United States is due mainly to increased pay at the very top end of the distribution: the top 1% and especially the top 0.1% &mdash; labor incomes between \\$100,000 and \\$200,000 a year have risen only slightly faster than the average, whereas incomes greater than \\$500,000 a year have grown much faster &mdash; and incomes above \\$1 million a year faster still. 
+- Marginal productivity theory points to skill-biased technological change. However, the sharp discontinuity at the very top is not consistent with observed skills &mdash; there is no corresponding discontinuity in observed skill levels between the 9% and the 1% or between the 1% and the 0.1%, even taking a broad view of 'skill' (education, IQ, experience). 
 
 ---
 
 ### The Rise of the Supermanager
 
 - `2`. The explosion of very high labor incomes has occurred in some advanced countries but not in others, suggesting that country-specific differences are crucial and that universal causes such as technological change can be ruled out.
-- This is a major objection against the marginal productivity theory. 
 - The rise of the supermanager is largely an Anglo-Saxon phenomenon. After 1980, the income share of the top centile started rising sharply in the United States, United Kingdom, Canada, and Australia. The explosion of top labor incomes explains at least 2/3 of the rise in top incomes, and has occurred in both the financial and nonfinancial sectors.
 - Cross-country differences would not be so large if the rise of the supermanager were a purely technological phenomenon.
 
@@ -174,16 +170,10 @@ source('../../shared/shared.R')
 ### CEO Compensation
 
 - The largest increases in compensation have been concentrated at the very top  of the wage distribution (top 1% and top 0.1%), affecting some countries more than others. 
-- The theory of marginal productivity and of the race between technology and education is not borne out by evidence. Technological change cannot explain the very steep changes observed at the top end of the skill distribution. It cannot explain why countries at a similar level of development have experienced different changes. 
-- The vast majority of top earners are senior managers of large firms. Their salaries are set by the executives themselves! Compensations usually depend on country-specific norms.
-
----
-
-### CEO Compensation
-
-- Since the 1980s and 1990s, corporations have become more tolerant of generous pay packages. Social norms are evolving in a similar direction in all countries, but continental Europe and Japan are still lagging behind Anglo-Saxon countries.
 - Data about individual firms cannot explain observed variations in terms of firm performance, as measured by sales growth, profit, and so on. 
-- Bertrand and Mullainhatan explain CEO compensation as 'pay for luck': when sales and profits rise for reasons external to the firm, executive compensation rises most rapidly!
+- Compensation depends on country-specific norms. Since the 1980s social norms have become more tolerant of generous pay packages.
+- Bertrand and Mullainathan (*QJE*, 2001) explain CEO compensation as 'pay for luck': when sales and profits rise for reasons external to the firm, executive compensation rises most rapidly.
+- Senior managers of large firms is on several boards and, as part of a network, set their own compensation! 
 
 ---
 
@@ -192,7 +182,7 @@ source('../../shared/shared.R')
 - Figure 9.2 shows that in the 1970s, the income share of the top centile was similar across countries &mdash; between 6% and 8%. (Canada was then slightly higher than the US!) In 2010, the top centile's share is 20% in the United States, 15% in the United Kingdom and Canada, 10% in Australia. 
 - The income share of the top centile has risen much less in continental Europe and Japan than in the Anglo-Saxon world. 
 - The top centile share has risen by 2 or 3 points of national income over the past 30 years, in both northern and southern Europe. 
-- In Japan, France, Italy and Spain, the top centile share rose from 7% in 1980 to 10% in 2010. In Sweden, it rose from 4% to 7%. In Germany, from 9% to 11%. In Denmark and other Nordic countries, the top centile rose from 5% to 7%. 
+- In Japan, France, Italy and Spain, the top centile share rose from 7% in 1980 to 10% in 2010. In Sweden, it rose from 4% to 7%. In Germany, from 9% to 11%. In Denmark and other Nordic countries, from 5% to 7%. 
 
 ---
 
@@ -207,8 +197,7 @@ source('../../shared/shared.R')
 
 ### The Rise of Top Incomes
 
-- In all the wealthy countries since the 1980s, the top 0.1% have experienced large increases in purchasing power, while the purchasing power of the average person has largely stagnated.
-- The transfer of income to the top 1 percent has been limited to 2 or 3 points of national income in continental Europe and Japan compared with 10 to 15 points in the United States &mdash; 5 to 7 times more.
+- The transfer of income to the top 1 percent has been limited to 2 or 3 points of national income in continental Europe and Japan compared with 10 to 15 points in the United States &mdash; 5 to 7 times more. Meanwhile the purchasing power of the average person has largely stagnated.
 - In a country of 50 million adults (the United Kingdom, France, Italy today), the top 0.1% includes 50,000 people; the top 0.01% includes 5,000 people. These are select groups.
 - The divergence is striking because technological change has been the same more or less everywhere: in particular, the revolution in information technology has affected Japan, Germany, France, Sweden, and Denmark as much as the United States, United Kingdom, and Canada. 
 
@@ -217,7 +206,7 @@ source('../../shared/shared.R')
 ### Europe and the New World
 
 - The United States was not always more inegalitarian than Europe.
-- The United States was less inegalitarian than Europe in 1900–1910, slightly more inegalitarian in 1950–1960, and much more inegalitarian in 2000–2010.
+- The US was less inegalitarian than Europe in 1900–1910, slightly more inegalitarian in 1950–1960, and much more inegalitarian in 2000–2010.
 - In 1900, the national income share of the top centile was below 20% in the United States, Canada, Australia, New Zealand, and above 20% in Japan and all European countries, including Sweden and Denmark. 
 - In 1900, top incomes consisted almost entirely of capital income. Why was capital so concentrated in Europe in 1900?
 - Low population growth rate in Europe resulted in greater accumulation and concentration of capital.
@@ -228,7 +217,7 @@ source('../../shared/shared.R')
 
 - The interwar period was chaotic almost everywhere. 
 - While the United Kingdom and France started to rebuild after 1918, Germany was forced to make war payments to the allies.
-- In *The Economic Consequences of the Peace* (1919), John Maynard Keynes argued that war debts should be forgiven, a vast credit program launched throughout Europe, and that this would benefit everyone. The book was a best seller. The Versailles Conference imposed a "Carthaginian peace" on Germany &mdash; *Carthago delenda est* &mdash *Germania delenda est*.
+- In *The Economic Consequences of the Peace* (1919), John Maynard Keynes argued that war debts should be forgiven, a vast credit program launched throughout Europe, and that this would benefit everyone. The book was a best seller. The Versailles Conference imposed a "Carthaginian peace" on Germany &mdash; *Carthago delenda est* &mdash; *Germania delenda est*.
 - Germany experienced hyperinflation in the 1920s. The depression came, the Nazis followed. The top centile's share of national income rose rapidly between 1933 and 1938 &mdash; out of phase with other countries, reflecting the return to industrial profit, boosted by  re-armament (Aufrüstung), and the return of income hierarchies. 
 
 ---

@@ -11,6 +11,7 @@ url         : {lib: "../../libraries", assets: "../../assets"}
 
 
 --- &radio .shrink30
+
 ### Question 1
 
 1. 
@@ -32,7 +33,7 @@ On the eve of the American civil war (1761-1765), there were 1 million slaves, f
 
 
 *** .explanation
-
+See Figures 4.10 and 4.11. See the end of Chapter 4, particularly pages 158-163.
 
 
 

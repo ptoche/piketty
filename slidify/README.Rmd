@@ -22,7 +22,7 @@ Based on Professor Piketty's [technical appendices](http://piketty.pse.ens.fr/en
 
 This repository contains *slidify/rCharts/NVD3/HTML* source code to produce all book figures in **.html** format, and a set of html slides for each chapter. The sources have extension **.Rmd** and are located inside the **lectures** sub-directory for each chapter. The figures are available as standalone html files inside each chapter's **figures** sub-directory. In addition, there is a general index at the root, and a few additional resources such as quizzes.
 
-
 ------
+
 Patrick Toche, 31 December 2014.
-Updated 22 February 2015.
+Chapters 1-11 completed as of May 2015. 

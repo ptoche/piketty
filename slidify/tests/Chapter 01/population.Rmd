@@ -233,7 +233,7 @@ _Russia, Germany, France, United Kingdom, Italy, Spain_
 The countries are also ranked by their population.
 
 *** .explanation
-The most populated countries of Europe are Germany 80M, France 66M, United Kingdom 64M, Italy 60M, Spain 47M. Romania 20M, Netherlands 17M, Belgium 11M, Portugal 10M, Sweden 10M, Austria 9M, Norway 5M are not among the most populated countries in Europe, so that leaves the last suggestion as the correct answer. 
+The most populated countries of Europe are Russia 150M, Germany 80M, France 66M, United Kingdom 64M, Italy 60M, Spain 47M. Romania 20M, Netherlands 17M, Belgium 11M, Portugal 10M, Sweden 10M, Austria 9M, Norway 5M are not among the most populated countries in Europe, so that leaves the last suggestion as the correct answer. 
 
 
 

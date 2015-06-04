@@ -9,6 +9,9 @@ hitheme     : tomorrow
 widgets     : [mathjax, quiz, bootstrap]   # [mathjax, quiz, bootstrap]
 url         : {lib: "../../libraries", assets: "../../assets"}
 
+
+
+
 --- &radio
 
 ### Question 1
@@ -38,6 +41,9 @@ See Table 2.1.
 Based on United Nations estimates (Department of Economic and Social Affairs):
 World population in 1500 was about 500 million; in 1600 about 550 million; in 1700 about 600 million; in 1800 about 1 billion; in 1900 about 1.5 billion; in 1925 about 2 billion; in 1950 about 2.5 billion; in 1960 about 3 billion; in 1975 about 4 billion; in 1990 about 5 billion; in 2000 about 6 billion; in 2010 about 7 billion; by 2025 probably about 8 billion; by 2040 probably about 9 billion; by 2060 about 10 billion; some time after 2100 about 11 billion.
 
+
+
+
 --- &radio
 
 ### Question 2
@@ -65,35 +71,40 @@ The third industrial revolutions spurred larger growth rates than the first and 
 *** .explanation
 See Table 2.1.
 
+
+
+
 --- &radio
 
 ### Question 3
 
-An annual growth rate of 1% compounded over 100 years results in a total increase by a factor of
+An annual growth rate of 1% compounded over 100 years results in a total growth rate of
 
 1. 
-0.7
+1.71%
 2. 
-1.7
+2.71%
 3. 
-_2.7_
+17.1%
 4. 
-3.7
+27.1%
 5. 
-4.7
+_171%_
 6. 
-5.7
+271%
 
 *** .hint
-An annual growth rate of $g$ compounded $T$ times results in a total ('non-annual') **increase by a factor** of
-$1 + G = (1 + g)^{T}$. 
+An annual growth rate of $g$ compounded $T$ times results in a total ('non-annual') **growth rate** of
+$G = (1 + g)^{T} - 1$. 
 
 *** .explanation
-An annual growth rate of $0.01$ compounded $100$ times results in a total increase:
+An annual growth rate of $0.01$ compounded $100$ times results in total growth:
 $$
-1 + G = (1 + 0.01)^{100} \simeq 2.7
+G = (1 + 0.01)^{100} - 1 \simeq 1.7048 \simeq 171\%
 $$
-or, equivalently, a total growth rate of $170\%$
+
+
+
 
 --- &radio
 
@@ -102,17 +113,17 @@ or, equivalently, a total growth rate of $170\%$
 An annual growth rate of 10% compounded over 10 years results in a total growth rate of
 
 1. 
-0.6
+1.6%
 2. 
-_1.6_
+2.6%
 3. 
-2.6
+16%
 4. 
-3.6
+26%
 5. 
-4.6
+_160%_
 6. 
-5.6
+260%
 
 *** .hint
 An annual growth rate of $g$ compounded $T$ times results in a total ('non-annual') **growth rate** of
@@ -121,8 +132,10 @@ $G = (1 + g)^{T} - 1$.
 *** .explanation
 An annual growth rate of $0.10$ compounded $10$ times results in total growth:
 $$
-G = (1 + 0.1)^{10} - 1 \simeq 1.6 = 160\%
+G = (1 + 0.1)^{10} - 1 \simeq 1.5937 = 160\%
 $$
+
+
 
 
 --- &radio
@@ -163,6 +176,8 @@ $$
 or $G \simeq 160\%$
 
 The compounding effect is a little larger in case (a).
+
+
 
 
 --- &radio
@@ -210,6 +225,7 @@ It is now clear that the starting value is also irrelevant.
 
 
 
+
 --- &radio
 
 ### Question 7
@@ -239,6 +255,8 @@ $$
 $$
 
 
+
+
 --- &radio 
 
 ### Question 8
@@ -265,6 +283,8 @@ See Chapter 2.
 See Chapter 2 and Table 2.3.
 
 
+
+
 --- &radio 
 
 ### Question 9
@@ -281,6 +301,8 @@ The nominal growth rate is 3% and the inflation rate 3%.
 *** .explanation
 The real growth rate is (approximately) equal to the nominal growth rate minus the inflation rate, $0.03 - 0.03 = 0%$.
  
+
+
 
 --- &radio 
 
@@ -299,7 +321,10 @@ The real growth rate is 3% and the inflation rate 3%.
 The nominal growth rate is (approximately) equal to the real growth rate plus the inflation rate, $0.03 + 0.03 = 0.06 = 6%$.
 
 
+
+
 --- &radio
+
 ### Question 11
 
 Explain the 'law of cumulated growth.' Illustrate with numerical examples.
@@ -338,7 +363,10 @@ The 'compounding effect' measures the remaining part of the total growth. Table 
 Thus, there are 2 ways in which small growth rates lead to large effects: the passing of time and compounding. The compounding effect is larger the larger the growth rate is, and it is larger the longer the time horizon is.
 
 
+
+
 --- &radio
+
 ### Question 12
 
 What is the 'demographic transition'? Illustrate with examples based on real-world data.
@@ -350,7 +378,10 @@ See Chapter 2.
 See Chapter 2.
 
 
+
+
 --- &radio
+
 ### Question 13
 
 The annual growth rate of real income per person in Western Europe, Canada, and the United States over the period 1700-1950 was below 2%. Yet that is a time of industrial revolutions, of unprecedented population growth, of electricity, of trains, of cars, of planes. The annual growth rate of real income per person in the United Kingdom, Germany, and France over the period 1950-1970 was above 4% (more than twice as large). Yet that is the end of the British empire, of the French empire, a time of military defeats and loss of international influence. Explain this 'paradox.'
