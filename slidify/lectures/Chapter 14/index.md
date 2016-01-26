@@ -1,57 +1,28 @@
 ---
-title       : Chapter 13, A Social State for the Twenty-First Century; Chapter 14, Rethinking the Progressive Income Tax
+title       : Chapter 14 -- Rethinking the Progressive Income Tax
 subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
 author      : Patrick Toche
-framework   : io2012  # {minimal, io2012, html5slides, shower, dzslides, ...}
-mode        : selfcontained  # {selfcontained, standalone, draft}
-widgets     : mathjax   # {mathjax, quiz, bootstrap}
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
 ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
-github      : {user: patricktoche, repo: piketty}
 url         : {lib: "../../libraries", assets: "../../assets"}
-lecnum      : "11"
---- 
+lecnum      : "14"
+--- {class: cover-slide}
 
 
-
-### UNDER CONSTRUCTION
-
-- These slides are under construction.
-- Some of the figures are completed.
-- Some of the figures require further work to fix bugs.
-- Please check back later.
 
 ---
 
 ### Introduction  
 
-- Chapter 12 studied the dynamics of wealth inequality at the global level.
-
-- Chapter 13 considers political institutions that might regulate today's global patrimonial capitalism fairly and efficiently.
-
+- This set of slides surveys selected topics from *Capital in the Twenty-First Century*, a book written by economist Thomas Piketty, published in English in 2014 to great acclaim.
+- All source files for this course are available for download by anyone without restrictions at https://github.com/ptoche/piketty
+- The full course is expected to be completed by April 2015.
+- Chapter 13 considered political institutions that might regulate today's global patrimonial capitalism fairly and efficiently.
 - Chapter 14 examines more closely the structure of taxes and other government revenues.
 
----
-
-### Tax revenues in rich countries
-
-<figure class = "captioned">  
-<img src = "../../figures/Figure_13_1.png" alt = "Figure 13.1. Tax revenues in rich countries, 1870-2010.">  
-<figcaption class = 'figcaption'>Figure 13.1. Total tax revenues were less than 10 percent of national income in rich countries until 1900-1910; they represent between 30 percent and 55 percent of national income in 2000-2010.</figcaption>  
-</figure> 
-<footer class = 'footnote'>Chart created with ``ggplot2`` (author: Hadley Wickham)
-</footer>  
-
----
-
-### Tax revenues in rich countries
-
-
-<iframe src = 'figures/Figure_13_1.html' alt = "Figure 13.1. Tax revenues in rich countries, 1870-2010.">
-</iframe><icaption class = 'icaption'>Figure 13.1. Total tax revenues were less than 10 percent of national income in rich countries until 1900-1910; they represent between 30 percent and 55 percent of national income in 2000-2010.</icaption>
-<footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
-</footer>  
-
----
+<!---
 
 ### Top income tax rates
 
@@ -61,6 +32,8 @@ lecnum      : "11"
 </figure> 
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
+
+-->
 
 ---
 
@@ -72,7 +45,7 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
 
----
+<!---
 
 ### Top inheritance tax rates
 
@@ -83,6 +56,8 @@ lecnum      : "11"
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``ggplot2`` (author: Hadley Wickham)
 </footer>  
 
+-->
+
 ---
 
 ### Top inheritance tax rates
@@ -92,4 +67,5 @@ lecnum      : "11"
 </iframe><icaption class = 'icaption'>Figure 14.2. The top marginal tax rate of the inheritance tax (applying to the highest inheritances) in the U.S. dropped from 70% in 1980 to 35% in 2013.</icaption>
 <footer class = 'footnote'>Concept and data: Thomas Piketty. Chart created with ``rCharts`` (author: Ramnath Vaidyanathan)  
 </footer>  
+
 

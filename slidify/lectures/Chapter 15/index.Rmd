@@ -1,0 +1,36 @@
+---
+title       : Chapter 15 -- A Global Tax on Capital
+subtitle    : Thomas Piketty, Capital in the 21st Century (Harvard University Press 2014)
+author      : Patrick Toche
+framework   : io2012  # minimal, io2012, html5slides, shower, dzslides
+mode        : selfcontained  # selfcontained, standalone, draft
+widgets     : mathjax   # [mathjax, quiz, bootstrap]
+ext_widgets : {rCharts: [libraries/nvd3]}  # libraries/morris, libraries/highcharts, libraries/rickshaw, libraries/dimple
+url         : {lib: "../../libraries", assets: "../../assets"}
+lecnum      : "15"
+--- {class: cover-slide}
+
+```{r 'preamble', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, comment = NA, cache = FALSE}
+require(knitr)
+library(png)   # to display external png and control dimensions
+library(grid)  # to display external png and control dimensions
+opts_chunk$set(echo = FALSE, cache = FALSE)
+source('../../shared/shared.R')
+```
+
+---
+
+### Introduction  
+
+- This set of slides surveys selected topics from *Capital in the Twenty-First Century*, a book written by economist Thomas Piketty, published in English in 2014 to great acclaim.
+- All source files for this course are available for download by anyone without restrictions at https://github.com/ptoche/piketty
+- The full course is expected to be completed by April 2015.
+- Chapter 14 examined the structure of taxes and other government revenues.
+- Chapter 15 considers a global tax on capital.
+
+---
+
+
+TEXT HERE
+
+---
