@@ -14,27 +14,22 @@ if(.Platform$OS.type == "windows"){
 }
 
 ### Make main course page with slidify()
-library(slidify)
 slidify('index.Rmd')
 
 ### Make supplementary pages with slidify()
-library(slidify)
 slidify('start.Rmd')
 
 ### Make all figures with slidify()
-library(slidify)
 slidify('figures.Rmd')
 
 ### Make individual chapter slides with slidify()
 ## BUG! May 2015! fixed in January 2016
 ## https://github.com/ramnathv/slidify/issues/407
 ## devtools::install_github("ramnathv/slidify")
-library(slidify)
 setwd("~/piketty/slidify/lectures/Chapter 13") 
 slidify('index.Rmd')
 
 ### Make test slides with slidify()
-library(slidify)
 setwd("~/piketty/slidify/tests/Chapter 02") 
 slidify('index.Rmd')
 

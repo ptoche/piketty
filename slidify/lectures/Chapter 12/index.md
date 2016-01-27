@@ -279,8 +279,8 @@ lecnum      : "12"
 ### Will Sovereign Wealth Funds Own the World?
 
 
-| Rank | Name | Assets (Billion) | Country | Origin |
-|------|:----:|-----------------:|--------:|-------:|
+| Rank | Name | Assets | Country | Origin |
+|------|:----:|-------:|--------:|-------:|
 | 1    | Government Pension Fund         | 825 | Norway | Oil |
 | 2    | Abu Dhabi Investment Authority  | 773 | Abu Dhabi, UAE | Oil |
 | 3    | China Investment Corporation    | 747 | China | Non-Commodity |
