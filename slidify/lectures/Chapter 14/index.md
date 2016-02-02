@@ -20,7 +20,7 @@ lecnum      : "14"
 - All source files for this course are available for download by anyone without restrictions at https://github.com/ptoche/piketty
 - The full course is expected to be completed by April 2015.
 - Chapter 13 considered political institutions that might regulate today's global patrimonial capitalism fairly and efficiently.
-- Chapter 14 examines more closely the structure of taxes and other government revenues.
+- Chapter 14 examines more closely the structure of taxation.
 
 ---
 

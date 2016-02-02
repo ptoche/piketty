@@ -89,11 +89,11 @@ source('../../shared/shared.R')
 ### Related Income Concepts
 
 - In common parlance, 'income', 'product', 'output', 'revenue', 'expenditure' are often used interchangeably. In national accounting, not so.
-- **From GDP to NDP:**
-- To obtain NDP from GDP, subtract capital depreciation. 
-- National Income (NI) is short for Net National Product (NNP).
-- **From GDP to NNP:**
-- To obtain NI (=NNP) from GDP, apply both adjustments: add net income from abroad and subtract depreciation.
+- **From GDP to NI:**
+  - GDP minus capital depreciation = NDP
+  - NDP plus net income from abroad = NNP
+  - NNP minus statistical discrepancy = NNI
+- National Income (NI) is short for Net National Income.
 
 ---
 
@@ -102,7 +102,7 @@ source('../../shared/shared.R')
 - When economists refer to a country's 'output', 'income', or 'production', they usually refer to real GDP (GDP adjusted for inflation). 
 - When they refer to 'average income' they usually refer to GDP per capita (= per head = per person).
 - When they compare countries, economists either convert at current market exchange rates or at Purchasing Power Parity rates (PPP).
-- When Piketty refers to 'national income', he refers to *Real Net National Product* and compares countries on a *PPP* basis.
+- When Piketty refers to 'national income', he refers to *Real Net National Income* and compares countries on a *PPP* basis.
 - When he refers to economic growth, he refers to the growth rate of real net national product. Because depreciation and inflation are deducted, this growth rate is smaller than that usually reported in the media.
 - This has confused some early, hasty readers of the book.
 
@@ -195,8 +195,8 @@ $$
 ### The Capital/Income Ratio
 
 - The capital stock consists of two roughly equal shares: residential capital and professional capital used by firms and government. 
-- In Germany, France, the UK, Italy, US, and Japan, national income was roughly 30,000–35,000 euros per capita in 2010, while total private wealth (net of debt) was typically on the order of 150,000–200,000 euros per capita, or 5 to 6 times annual national income.
-- Residents of wealthy countries owned approximately 90,000 euros in the form of housing and another 90,000 in stocks, bonds, savings, and other financial assets.
+- In Germany, France, the UK, Italy, US, and Japan, national income was roughly €30,000–€35,000 per capita in 2010, while total private wealth (net of debt) was typically on the order of €150,000–€200,000 per capita, or 5 to 6 times annual national income.
+- Residents of wealthy countries owned approximately €90,000 in the form of housing and another €90,000 in stocks, bonds, savings, and other financial assets.
 - These average figures hide enormous disparities. Income disparities are caused by inequalities in the labor market and inequalities in wealth holdings. Much of the population has very little wealth.
 
 ---
@@ -217,25 +217,30 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 ### The First Fundamental Law of Capitalism 
 
 - In 2010 in wealthy countries capital income was about 30% of national income. With a capital/income ratio of about 600%, the rate of return on capital must have been around 5%.
-- Per capita national income is 30,000 euros per year, with 21,000 euros per year income from labor (70%) and 9,000 euros income from capital (30%). 
-- Each citizen owns an average of 180,000 euros of capital, and the 9,000 euros of income from capital thus corresponds to an average annual return on capital of 5%.
+- Per capita national income is €30,000 per year, with €21,000 per year income from labor (70%) and 9,000 euros income from capital (30%). 
+- Each citizen owns an average of €180,000 of capital &mdash; the €9,000 of income from capital thus corresponds to an average annual return on capital of 5%.
 - One way to think of the 'first law' is as a definition of the capital income share $\alpha$ for given values of $r$ and $\beta$.
 
 ---
 
 ### The Rate of Return on Capital
 
-- The rate of return on capital measures the yield on capital over the course of a year regardless of its legal form (profits, rents, dividends, interest, royalties, capital gains), expressed as a percentage of the value of capital invested. It is therefore a broader notion than the 'rate of profit', and broader still than the 'rate of interest'.
+- The rate of return on capital measures the annual yield on all forms of capital (profits, rents, dividends, interest, royalties, capital gains), expressed as a percentage of the value of capital invested &mdash; a broader measure than the 'rate of profit' or the 'rate of interest'.
 - The rate of return can vary widely with the type of investment.
-- The average long-run rate of return on stocks is 7–8%; ot land in rural societies, about 4–5%; on real estate and bonds, about 3–4%; on public debt, it varies from country to country, with governments of wealthy countries usually paying low rates.  
+  - Stocks: 7–8%
+  - Rural Land: 4–5%
+  - Real Estate and Bonds: 3–4%
+  - Public Debt: varies 
+- The rate of retun or public debt varies from country to country &mdash; governments of wealthy countries usually pay low rates.
 
 ---
 
 ### The Global Distribution of Production
 
-- From 1900 to 1980, 70–80% of the global production of goods and services was concentrated in Europe and America. By 2010, the European–American share had declined to roughly 50%, approximately the same level as in 1860. 
-- It will probably continue to fall, perhaps to 20–30% in a few decades, a level consistent with the current population share.
-- The lead that Europe and America achieved during the Industrial Revolution allowed them to claim a share of global output 2 to 3 times greater than the world population share.
+- With the Industrial Revolution, Europe and America increased their share of global output 2 to 3 times above their world population share.
+- Between 1900 to 1980, 70–80% of the global production of goods and services was concentrated in Europe and America.
+- This share has declined to about 50% in 2010, similar to the 1860 share.
+- A level of 20–30% would be consistent with the current population share.
 - Many countries are now closing the gap.
 
 ---
@@ -251,10 +256,10 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 - Table 1.1 shows the distribution of global output in 2012.
 - Global inequality is best analyzed in terms of regional blocs. 
 - The population of the planet is about 7 billion. 
-- Global output is greater than 70 trillion euros
+- Global output is greater than 70 trillion euros.
 - Global output per capita is thus almost exactly 10,000 euros. 
-- Average per capita monthly income is 760 euros (subtract 10% for capital depreciation and divide by 12).
-- If global income were equally divided, each person would receive about 760 euros per month.
+- Average per capita monthly income is €760 (subtract 10% for capital depreciation and divide by 12).
+- If global income were equally divided, each person would receive about €760 per month.
 
 ---
 
@@ -280,8 +285,9 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 ### Inequality in the World: Europe
 
-- The population of Europe is 740 million. The most populated countries are Russia 150M and Germany 80M (1/4 of Russians live in Asia).
-- About 540 million live in the European Union where per capita output is over 27,000 euros per year. 
+- The population of Europe is 740 million. The most populated countries are Russia 150M and Germany 80M. 
+- 3/4 of Russians live in Europe, where 1/4 of the land lies.
+- About 540 million live in the European Union where per capita output is over €27,000 per year. 
 - The remaining 200 million people live in Russia and Ukraine, where per capita output is about €15,000 per year.
 - Three-quarters of citizens of the EU live in the five most populous countries, Germany 80M, France 66M, United Kingdom 64M, Italy 60M, and Spain 47M, with an average per capita output of €30,000 per year.
 - The remaining 130 million live in what used to be Eastern Europe, with an average per capita output around €16,000 per year.
@@ -293,16 +299,16 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 - The total Asian population is about 4 billion.
 - The largest are China 1.4B, India 1.3B, Indonesia 255M, Pakistan 190M, Bangladesh 160M, Russia 150M, Japan 130M, Philippines 100M, Vietnam 90M, Turkey 80M, Thailand 65M, Burma 50M, South Korea 50M. 
 - Japan's annual per capita output is equal to that of the wealthiest countries, but its population is too small to have much influence on the continental average, which is a little below the world average.
-- China's annual per capita GDP is 8,000 euros &mdash; below the world average. 
+- China's annual per capita GDP is €8,000 &mdash; below the world average. 
 - The Indian sub-continent is poorer still, but India is growing fast.
-- Parts of Russia are situated in Europe (3/4 of population, 1/4 of land). 
+- 1/4 of Russians live in Asia, where 3/4 of the land lies.
 
 ---
 
 ### Inequality in the World: America
 
 - The Americas can be divided into distinct regions that are even more unequal than the European center and periphery. 
-- The total population of the Americas is about 1 billion, with about 40% in the north, 40% in the south and the rest in central America. In the north, the United States has a population of 320 million, Mexico 120M, Canada 35M.  In the south, Brazil has 205M, Colombia 50M, Argentina 45M, Peru 30M, Venezuela 30M.
+- The total population of the Americas is about 1 billion &mdash; 40% in the north, 40% in the south, the rest in central America. In the north, the US has a population of 320M, Mexico 120M, Canada 35M.  In the south, Brazil has 205M, Colombia 50M, Argentina 45M, Peru 30M, Venezuela 30M.
 - The US-Canada bloc has 350 million people with a per capita output of €40,000 (North America also includes Mexico).
 - Latin America (including Mexico and central America) has 600 million people with a per capita output of €10,000 (the world average).
 
@@ -311,8 +317,8 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 ### Inequality in the World: Africa
 
 - The total population of Africa is about 1.1 billion.
-- Total annual output is 1.8 trillion euros, less than the French GDP!
-- Sub-Saharan Africa has a population of 900 million with a per capita output of only 2,000 euros per year. 
+- Total annual output is 1.8 trillion euros, less than French GDP!
+- Sub-Saharan Africa has a population of 900 million with a per capita output of only €2,000 per year. 
 - Population in North Africa is 210 million.
 - Nigeria has 185 million, Ethiopia 90M, Egypt nearly 90M, the Congo 70M, South Africa 55M, Tanzania 50M, Kenya 45M, Algeria 40M.
 
@@ -320,7 +326,7 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 ### Inequality in the World: Middle East
 
-- The Middle East is a region of Asia. The total population of the Middle East is about 410 million and total output about 1.4 billion euros.
+- The Middle East is a region of Asia. The total population of the Middle East is about 410 million and total output about €1.4B.
 - The population of Iran is 80M, Turkey 80M, Irak 35M, Saudi Arabia 30M.
 - The largest economy is Turkey at 1 trillion euros, then Iran €800B, Saudi Arabia €500B, Egypt €400B, Israel €200B. 
 - The per capita output of oil-rich countries ranges from €3,000 in Iraq to €90,000 in Quatar. Iran €10,000, Saudi Arabia €18,000, Israel €27,000.
@@ -332,9 +338,9 @@ where $\alpha$ is the share of income from capital in national income and $r$ th
 
 - The biggest economies in the world are the United States, China, Japan, Germany, France, United Kingdom, Brazil, Italy, Russia, India, Canada, Australia, Spain...
 - Of these, China and India have per capita output below the world average. Russia about the same as Portugal. Brazil about the same as Mexico or Iran. Germany, Australia, Canada, Japan, France, United Kingdom, Italy, Spain are in the same ball park.
-- Per capita income is 150–250 euros per month in sub-Saharan Africa, India, Pakistan, Vietnam, Phillipines, Nigeria.
-- Per capita income is about 2,500–3,000 euros per month in Western Europe, North America, and Japan, that is 20 times higher! 
-- The global average is around 600–800 euros per month.
+- Per capita income is €150–€250 per month in sub-Saharan Africa, India, Pakistan, Vietnam, Phillipines, Nigeria.
+- Per capita income is about €2,500–€3,000 per month in Western Europe, North America, and Japan, that is 20 times higher! 
+- The global average is around €600–€800 per month.
 
 ---
 
