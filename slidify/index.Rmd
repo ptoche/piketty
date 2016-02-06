@@ -20,21 +20,33 @@ opts_chunk$set(echo = FALSE, cache = FALSE)
 source('shared/shared.R')
 ```
 
-#### [http://ptoche.github.io/](http://ptoche.github.io/)
-### Notes on Thomas Piketty's Capital
-#### by Patrick Toche
+<p style="border:3px; padding: 1em;">
 
-- This page contains material related to Thomas Piketty, Capital in the 21st Century (Harvard University Press, 2014), in particular slides, data, tables and figures. 
-- This project was started in January 2015 and is expected to be updated on a weekly basis until May 2015.
-- The project is open source. 
-- The html slides may be viewed here: **[http://ptoche.github.io/](http://ptoche.github.io/)**
-- The whole project may be downloaded from: **[https://github.com/ptoche/piketty](https://github.com/ptoche/piketty)**
-- The project contains html5 slides with text and figures (directory named 'slidify') and basic pdf slides with figures only (directory named 'knitr'). Figures are available in pdf, png, and html format. 
-- A related project is available here [https://github.com/jtleek/capitalIn21stCenturyinR](https://github.com/jtleek/capitalIn21stCenturyinR).
+## Notes on Thomas Piketty's Capital
+
+<br>
+
+### by Patrick Toche, 2015
+
+<br>
 
 ---
 
-### Chapters
+This page contains material related to <b>Thomas Piketty</b>, <u>Capital in the 21st Century</u> (Harvard University Press, 2014). 
+
+The html slides may be viewed here: **[http://ptoche.github.io/](http://ptoche.github.io/)**
+
+The whole project may be downloaded from: **[https://github.com/ptoche/piketty](https://github.com/ptoche/piketty)**
+
+The project contains html5 slides with text and figures (directory named 'slidify') and basic pdf slides with figures only (directory named 'knitr'). Figures are available in pdf, png, and html format. 
+
+The project is <i>Open Source</i>. 
+
+This project was started in January 2015 and completed in May 2015. 
+
+---
+
+### Content
 
 ```{r echo = FALSE, results = 'asis', cache = TRUE}
 lectures <- dir('lectures', full = TRUE)
@@ -56,28 +68,23 @@ titles <- c(
   "Rethinking the Progressive Income Tax", 
   "A Global Tax on Capital",
   "The Question of the Public Debt")
-titles <- titles[1:15]  # select available chapters
-links <- paste0(seq_along(lectures), ". ", 
-  "[", basename(lectures), " : ", titles, "]", "(", lectures, "/index.html)"
+titles <- titles[1:17]  # select available chapters
+links <- paste0("<br>", 
+  "[", basename(lectures), ":", "&nbsp;&nbsp;&nbsp;", titles, "]", "(", lectures, "/index.html)"
 )
 writeLines(links)
 ```
 
-<br>
-
 ---
 
-### Problems
+### Test Your Knowledge
 
 1. <a href="exercises/index.html">Exercises</a>  
 2. <a href="tests/index.html">Quizzes</a>
 
-
-<br><br>
-
 ---
 
-### Reproduce
+### Reproduce the Slides
 
 This website is based on the slidify framework (author: Ramnath Vaidyanathan). The source files are hosted on github and you may download the whole project as a zip file or fork it to a github repository in your account. To compile this website from source, configure the `site.yml` and run `slidify('index.Rmd')`. 
 
@@ -91,15 +98,12 @@ In addition, I often use the following packages: `ggplot2`, `scales`, `reshape2`
 
     install.packages("ggplot2")
 
-Write a short slide deck and publish it to [Github](http://www.github.com) with a few clicks using [RStudio](http://www.rstudio.com), with a single line of code.
-
-<p><a class="btn" href="start.html">Learn More &raquo;</a></p>
-
-<br>
+Write a short slide deck and publish it to [Github](http://www.github.com) with a few clicks using [RStudio](http://www.rstudio.com), with a single line of code?
+<a class="btn" href="start.html">Learn More &raquo;</a>
 
 ---
 
-### Layout
+### Layout of the Repository
 
 The `lectures` folder holds the lecture slides, one subfolder per lecture. The site's architecture looks like this:
 
@@ -114,8 +118,17 @@ lectures    -> folder containing lectures
   Chapter 03, etc.
 libraries   -> frameworks, highlighters and widgets
 shared      -> custom setup across all lectures, e.g. knitr chunks
+tables      -> png tables copied from the book
+tests       -> short questions to test students of the book
 index.Rmd   -> Rmd source for home page
 site.yml    -> Site related configuration
 slidify.R   -> Several useful commands to compile the files
 ```
 
+---
+
+Occasional updates have been made since May 2015.
+
+A related project is available here [https://github.com/jtleek/capitalIn21stCenturyinR](https://github.com/jtleek/capitalIn21stCenturyinR).
+
+</p>

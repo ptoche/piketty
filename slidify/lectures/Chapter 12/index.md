@@ -345,8 +345,15 @@ lecnum      : "12"
 - Official statistics suggest the net asset position of rich countries is negative relative to the rest of the world: about -4% of global GDP in 2010.
 - Poor countries also have a negative position. Only Japan and Germany are in substantial surplus, a consequence of large, persistent trade surpluses. 
 - Official statistics suggest the world as a whole is in deficit. More money leaves countries than enters them, a logical impossibility!
-- In fact, a large fraction of global financial assets is hidden away in tax havens. Gabriel Zucman estimates nearly 10 percent of global GDP.
+- In fact, a large fraction of global financial assets is hidden away in tax havens. **Gabriel Zucman** estimates nearly 10 percent of global GDP.
 - The net asset position of the rich countries is in fact positive. Rich countries (by income) are by and large rich (by wealth)!
+
+---
+
+<figure class = "captioned">  
+<img src = "../../images/Zucman - The Hidden Wealth of Nations.jpg" alt = "Gabriel Zucman, The Hidden Wealth of Nations, 2015.">  
+<figcaption class = 'figcaption'><b>Gabriel Zucman</b>, <i>The Hidden Wealth of Nations: The Scourge of Tax Havens</i>, Harvard University Press, 2015</figcaption>  
+</figure> 
 
 
 <!---

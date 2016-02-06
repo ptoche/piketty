@@ -2,6 +2,7 @@
 ## library("devtools")
 ## install_github(c("ramnathv/slidify", "ramnathv/slidifyLibraries"), ref = "dev")
 
+
 ### Load packages:
 library("slidify")
 library("slidifyLibraries")

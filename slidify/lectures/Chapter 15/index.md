@@ -10,13 +10,7 @@ url         : {lib: "../../libraries", assets: "../../assets"}
 lecnum      : "15"
 --- {class: cover-slide}
 
-```{r 'preamble', message = FALSE, warning = FALSE, error = FALSE, echo = FALSE, tidy = FALSE, comment = NA, cache = FALSE}
-require(knitr)
-library(png)   # to display external png and control dimensions
-library(grid)  # to display external png and control dimensions
-opts_chunk$set(echo = FALSE, cache = FALSE)
-source('../../shared/shared.R')
-```
+
 
 ---
 
