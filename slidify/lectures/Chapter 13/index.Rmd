@@ -186,19 +186,19 @@ source('../../shared/shared.R')
 
 ### The Future of Retirement
 
-- In pay-as-you-go (PAYG) pension systems, contributions are deducted from the wages of active workers and paid out as benefits to retirees. 
+- In pay-as-you-go (PAYGO) pension systems, contributions are deducted from the wages of active workers and paid out as benefits to retirees. 
 - In capitalized pension plans, contributions are invested and the returns used to finance benefit payments. 
-- Most public pension systems are PAYG. 
-- In PAYG, the rate of return is by definition equal to the growth rate of the economy: contributions rise at the same rate as average wages.
+- Most public pension systems are PAYGO. 
+- In PAYGO, the rate of return is by definition equal to the growth rate of the economy: contributions rise at the same rate as average wages.
 
 ---
 
 ### The Future of Retirement
 
-- When PAYG systems were introduced in the 1950s, growth rates were high &mdash; both demographic growth and productivity growth were high. 
+- When PAYGO systems were introduced in the 1950s, growth rates were high &mdash; both demographic growth and productivity growth were high. 
 - Today, the rate of wage growth is lower, but it is also more predictable, while the return on capital is very volatile.
-- A transition from a capitalized system to PAYG would be problematic. 
-- A difficulty of PAYG is that different rules apply to different professions. Governments need to establish a unified retirement scheme based on individual accounts with equal rights for everyone. 
+- A transition from a capitalized system to PAYGO would be problematic. 
+- A difficulty of PAYGO is that different rules apply to different professions. Governments need to establish a unified retirement scheme based on individual accounts with equal rights for everyone. 
 - What kind of fiscal and social state will emerge in the developing world?
 - China is developing a social state similar to Europe and America, financed by a broad-based income tax.
 - India has maintained low levels of taxes and a small social state.

@@ -27,7 +27,7 @@ slidify('figures.Rmd')
 ## BUG! May 2015! fixed in January 2016
 ## https://github.com/ramnathv/slidify/issues/407
 ## devtools::install_github("ramnathv/slidify")
-setwd("~/piketty/slidify/lectures/Chapter 15") 
+setwd("~/piketty/slidify/lectures/Chapter 16") 
 slidify('index.Rmd')
 
 ### Make test slides with slidify()
