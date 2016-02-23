@@ -31,7 +31,7 @@ lecnum      : "02"
 - It is useful to decompose economic growth: 
 - **total growth $=$ population growth $+$ per capita output growth**
 - While population growth has declined dramatically, it is still an important engine of growth for the world as a whole. 
-- In 2013–2014, world economic growth is about 3.5%, thanks to catch-up growth in emerging countries and world population growth of about 1%. World output per capita grew at about 2%.
+- In 2010-2015, world economic growth has averaged about 3%, with world population growth accounting for about 1% &mdash; world output per capita growth has averaged about 2%.
 
 ---
 
@@ -73,7 +73,7 @@ lecnum      : "02"
 - The 'Law of Cumulative Growth' says that economic growth at small annual rates over long periods of time can result in large changes.
 - Different choices of time frame lead to contradictory perceptions. After 1 year, 1% growth is imperceptible. Each year is virtually identical to the previous one. But over 1 generation (30 years), 1% growth results in an increase of output of one-third!
 - An annual growth of 2.3% per year leads to a doubling in every generation!
-- Piketty's central thesis is that a small gap between the return on capital and the rate of growth can have large effects on inequality in the long run. 
+- Piketty's central thesis is that a small gap between the return on wealth and the rate of growth can have large effects on inequality in the long run. 
 
 ---
 

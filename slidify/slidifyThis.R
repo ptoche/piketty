@@ -34,7 +34,8 @@ slidify('index.Rmd')
 setwd("~/piketty/slidify/tests/Chapter 02") 
 slidify('index.Rmd')
 
-
+setwd("/Volumes/Docs/StudyPlace/StudyPlace - Selection/Current/2015B_LBA215/TESTS/Tests2016/Test1")
+slidify("2016_02_23.Rmd")
 
 ### mode selfcontained
 # Default is standalone in which case all images are embedded in the html, and js/css assets are served from an online repository. Setting it to selfcontained links everything from your slide folder, so you should be able to copy your slide folder to another computer and present even when offline.

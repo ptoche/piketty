@@ -37,7 +37,7 @@ source('../../shared/shared.R')
 - It is useful to decompose economic growth: 
 - **total growth $=$ population growth $+$ per capita output growth**
 - While population growth has declined dramatically, it is still an important engine of growth for the world as a whole. 
-- In 2013–2014, world economic growth is about 3.5%, thanks to catch-up growth in emerging countries and world population growth of about 1%. World output per capita grew at about 2%.
+- In 2010-2015, world economic growth has averaged about 3%, with world population growth accounting for about 1% &mdash; world output per capita growth has averaged about 2%.
 
 ---
 

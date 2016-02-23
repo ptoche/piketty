@@ -16,12 +16,13 @@ url         : {lib: "../../libraries", assets: "../../assets"}
 
 In the United States, the United Kingdom, Germany, France, the following periods were characterized by:
 
-1. 1700-1900: low inflation &mdash; 1914-1929: high inflation &mdash; 2007-2014: high inflation.
-2. 1700-1900: low inflation &mdash; 1914-1929: high inflation &mdash; 2007-2014: low inflation.
-3. 1700-1900: high inflation &mdash; 1914-1929: high inflation &mdash; 2007-2014: low inflation.
-4. 1700-1900: high inflation &mdash; 1914-1929: low inflation &mdash; 2007-2014: high inflation.
-5. 1700-1900: low inflation &mdash; 1914-1929: low inflation &mdash; 2007-2014: high inflation.
-6. _1700-1900: low inflation &mdash; 1914-1929: high inflation &mdash; 2007-2014: low inflation._
+1. _1700-1900: low inflation &mdash; 1914-1929: high inflation &mdash; 2007-2014: low inflation._
+2. 1700-1900: low inflation &mdash; 1914-1929: low inflation &mdash; 2007-2014: high inflation.
+3. 1700-1900: low inflation &mdash; 1914-1929: high inflation &mdash; 2007-2014: high inflation.
+4. 1700-1900: high inflation &mdash; 1914-1929: high inflation &mdash; 2007-2014: low inflation.
+5. 1700-1900: high inflation &mdash; 1914-1929: low inflation &mdash; 2007-2014: high inflation.
+6. 1700-1900: high inflation &mdash; 1914-1929: low inflation &mdash; 2007-2014: low inflation.
+
 
 *** .hint
 'Low inflation' refers to annual inflation rates ranging from -1% to +2%. High inflation refers to annual inflation rates in excess of 4%. 'A period' refers to most years within the given dates (at least half of the time) and for most countries (at least 3 of 5 countries).
