@@ -43,7 +43,7 @@ less than -1,000% of national income
 2. 
 about -500% of national income
 3. 
-between -100% and +100% of national income
+_between -100% and +100% of national income_
 4. 
 about +500% of national income
 5. 

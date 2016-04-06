@@ -100,7 +100,7 @@ ggplot(data = df1, aes(x = reorder(Name, -value), y = value)) +
     breaks = seq(0, max(df1$value), by = 2000000)) +
   theme(panel.grid.major.x = element_blank(), 
         panel.grid.minor.x = element_blank()) +
-  ggtitle("Real Madrid Player Wages, 2014-2015 (million pounds sterling, £M)") + 
+  ggtitle("Real Madrid Player Annual Wages, Season 2014-2015 (million pounds sterling, £M)") + 
   theme(plot.title = element_text(hjust = 0)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1),
         plot.margin = unit(c(1, 1, 1.5, 0.8), "lines"))  # c(top, right, bottom, left)
@@ -123,7 +123,7 @@ ggplot(data = df1, aes(x = reorder(Name, value), y = value)) +
     breaks = seq(0, max(df1$value), by = 2000000)) +
   theme(panel.grid.major.x = element_blank(), 
         panel.grid.minor.x = element_blank()) +
-  ggtitle("Real Madrid Player Wages, 2014-2015 (million pounds sterling, £M)") + 
+  ggtitle("Real Madrid Player Annual Wages, Season 2014-2015 (million pounds sterling, £M)") + 
   theme(plot.title = element_text(hjust = 0)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1),
         plot.margin = unit(c(1, 1, 1.5, 0.8), "lines"))  # c(top, right, bottom, left)
@@ -146,7 +146,7 @@ ggplot(data = df1, aes(x = reorder(Name, -value), y = value)) +
     breaks = seq(0, max(df1$value), by = 2000000)) +
   theme(panel.grid.major.y = element_blank(), 
         panel.grid.minor.y = element_blank()) +
-  ggtitle("Real Madrid Player Wages, 2014-2015 (million pounds sterling, £M)") + 
+  ggtitle("Real Madrid Player Annual Wages, Season 2014-2015 (million pounds sterling, £M)") + 
   theme(plot.title = element_text(hjust = 0)) +
   coord_flip()
 
@@ -168,7 +168,7 @@ ggplot(data = df1, aes(x = reorder(Name, value), y = value)) +
     breaks = seq(0, max(df1$value), by = 2000000)) +
   theme(panel.grid.major.y = element_blank(), 
         panel.grid.minor.y = element_blank()) +
-  ggtitle("Real Madrid Player Wages, 2014-2015 (million pounds sterling, £M)") + 
+  ggtitle("Real Madrid Player Annual Wages, Season 2014-2015 (million pounds sterling, £M)") + 
   theme(plot.title = element_text(hjust = 0)) +
   coord_flip()
 
@@ -190,7 +190,7 @@ ggplot(data = df1, aes(x = reorder(Name, value), y = value, fill = Name)) +
     breaks = seq(0, max(df1$value), by = 2000000)) +
   theme(panel.grid.major.y = element_blank(), 
         panel.grid.minor.y = element_blank()) +
-  ggtitle("Real Madrid Player Wages, 2014-2015 (million pounds sterling, £M)") + 
+  ggtitle("Real Madrid Player Annual Wages, Season 2014-2015 (million pounds sterling, £M)") + 
   theme(plot.title = element_text(hjust = 0)) +
   coord_flip() +
   annotate(geom = "text", x = 8, y = 0.4*max(df$value),
@@ -218,7 +218,7 @@ ggplot(data = df1, aes(x = reorder(Name, value), y = value)) +
                        breaks = seq(0, max(df1$value), by = 2000000)) +
     theme(panel.grid.major.y = element_blank(), 
           panel.grid.minor.y = element_blank()) +
-    ggtitle("Real Madrid Player Wages, 2014-2015 (million pounds sterling, £M)") + 
+    ggtitle("Real Madrid Player Annual Wages, Season 2014-2015 (million pounds sterling, £M)") + 
     theme(plot.title = element_text(hjust = 0)) +
     coord_flip() +
     annotate(geom = "text", x = 8, y = 0.4*max(df$value),
@@ -246,7 +246,7 @@ ggplot(data = df1, aes(x = reorder(Name, value), y = value)) +
     breaks = seq(0, max(df1$value), by = 2000000)) +
   theme(panel.grid.major.y = element_blank(), 
         panel.grid.minor.y = element_blank()) +
-  ggtitle("Real Madrid Player Wages, 2014-2015 (million pounds sterling, £M)") + 
+  ggtitle("Real Madrid Player Annual Wages, Season 2014-2015 (million pounds sterling, £M)") + 
   theme(plot.title = element_text(hjust = 0)) +
   coord_flip() +
     annotate(geom = "text", x = 8, y = 0.4*max(df$value),
@@ -275,7 +275,7 @@ ggplot(data = df1, aes(x = reorder(Name, value), y = value, fill = value)) +
                        breaks = seq(0, max(df1$value), by = 2000000)) +
     theme(panel.grid.major.y = element_blank(), 
           panel.grid.minor.y = element_blank()) +
-    ggtitle("Real Madrid Player Wages, 2014-2015 (million pounds sterling, £M)") + 
+    ggtitle("Real Madrid Player Annual Wages, Season 2014-2015 (million pounds sterling, £M)") + 
     theme(plot.title = element_text(hjust = 0)) +
     coord_flip() +
     annotate(geom = "text", x = 8, y = 0.4*max(df$value),
@@ -299,7 +299,7 @@ ggplot(data = df1, aes(x = reorder(Name, value), y = value, fill = value)) +
     breaks = seq(0, max(df1$value), by = 2000000)) +
   theme(panel.grid.major.y = element_blank(), 
         panel.grid.minor.y = element_blank()) +
-  ggtitle("Real Madrid Player Wages, 2014-2015 (million pounds sterling, £M)") + 
+  ggtitle("Real Madrid Player Annual Wages, Season 2014-2015 (million pounds sterling, £M)") + 
   theme(plot.title = element_text(hjust = 0)) +
   coord_flip() +
   theme(legend.position = 'none')  # workaround to bug

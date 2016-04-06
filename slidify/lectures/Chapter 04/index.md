@@ -168,6 +168,16 @@ lecnum      : "04"
 
 ---
 
+### The reUnification Shock
+
+<figure class = "centered">  
+<img src = "../../images/Trabant601_Mercedes300.png" alt = "East German Trabant 601 and West German Mercedes Benz 300, circa 1990">
+<figcaption class = 'figcaption'>East German Trabant and West German Mercedes Benz, circa 1990.
+</figcaption>  
+</figure> 
+
+---
+
 ### The Euro & House Prices
 
 - In 2000, Germany, France, Italy, and other European countries adopted a common currency, the euro. 
