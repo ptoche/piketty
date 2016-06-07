@@ -97,6 +97,15 @@ source('../../shared/shared.R')
 
 ---
 
+### Reducing Public Debt with Inflation
+
+- Inflation is a risky 'solution'.
+- `1`. If an inflationary spiral develops, it is difficult to stop. In France, the inflation rate exceeded 50\% a year for each year between 1945 and 1949. Millions of small savers were wiped out, causing poverty among the elderly. The German hyperinflation of 1923 destroyed the economy, traumatised the people and paved the way for nazism.
+- `2`. The 'inflation levy' is a one-off solution. Inflation reduces the real value of debt by 'surprising' bondholders, but ceases to have any effect once it becomes embedded in expectations, as new bond issues must offer ever higher interest rates to attract buyers.
+- If the choice is between a little more inflation and a little more austerity, inflation is preferable, but too much inflation can wreak havoc.
+
+---
+
 ### Reducing Public Debt with Primary Surpluses
 
 - It could take several decades for the Eurozone countries to emerge from the debt crisis. Consider a scenario.
@@ -105,4 +114,21 @@ source('../../shared/shared.R')
 - Just as it takes decades to accumulate capital, it takes decades to reduce debt.
 
 ---
+
+### Reducing Public Debt with Primary Surpluses
+
+- Between 1815 and 1914, the United Kingdom serviced interest and repaid most of the public debt accumulated during the Napoleonic wars, which had reached over 200\% of GDP, generating primary surpluses of 2-3 points of GDP, at a time when inflation stayed close to zero &mdash; the country spent more on debt interest than on education.
+- For a government to pay its debt is to honour a promise. However, it may not be in the country's interest if the budget austerity causes decades of low growth. 
+
+---
+
+### Central Banks
+
+<figure class = "captioned">  
+<img src = "../../images/central-bank-sweden.jpg" alt = "The Sveriges Riksbank">  
+<figcaption class = 'figcaption'>The Sveriges Riksbank, Sweden's central bank, was founded in 1668. It is the world's oldest central bank. The bank's motto is "Hinc robur et securitas" (Herefore strength and safety) <u>Source:</u> Riksbanken.</figcaption> 
+</figure> 
+
+---
+
 
