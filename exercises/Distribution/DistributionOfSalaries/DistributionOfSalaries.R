@@ -313,12 +313,12 @@ Million <- function(x) {
 }
 
 ggplot(data = df1, aes(x = reorder(Name, value), y = value)) + 
-    geom_bar(stat = "identity", color = "grey50", fill = "grey50", width = 0.3) + 
+    geom_bar(stat = "identity", color = "grey50", fill = "grey50", width = 0.4) + 
     theme_bw() + 
     xlab(NULL) + 
     ylab('Annual income (Salary + Endorsements, Million Pound Sterling)') +
     scale_y_continuous(labels = Million, 
-                       breaks = seq(0, max(df1$value), by = 5000000)) +
+                       breaks = seq(0, 1.2*max(df1$value), by = 5000000)) +
     theme(panel.grid.major.y = element_blank(), 
           panel.grid.minor.y = element_blank()) +
     ggtitle("Real Madrid Player Annual Wages, Season 2014-2015") + 

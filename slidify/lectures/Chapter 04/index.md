@@ -178,6 +178,26 @@ lecnum      : "04"
 
 ---
 
+### The reUnification Shock
+
+<figure class = "centered">  
+<img src = "../../images/Germany_East_West_Disposable_Income_2011.png" alt = "Disposable Income in East and West Germany, 2011">
+<figcaption class = 'figcaption'>Disposable Income in East and West Germany, 2011. Source: Washington Post, 2014/10/31. 
+</figcaption>  
+</figure> 
+
+---
+
+### The reUnification Shock
+
+<figure class = "centered">  
+<img src = "../../images/Germany_East_West_Unemployment_2013.png" alt = "Unemployment Rate in East and West Germany, 2013">
+<figcaption class = 'figcaption'>Unemployment Rate in East and West Germany, 2013. Source: Washington Post, 2014/10/31. 
+</figcaption>  
+</figure> 
+
+---
+
 ### The Euro & House Prices
 
 - In 2000, Germany, France, Italy, and other European countries adopted a common currency, the euro. 
