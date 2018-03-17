@@ -41,21 +41,31 @@ Analyze the distribution of top incomes among professional athletes using public
 
 <a href="Distribution/DistributionOfSalaries/DistributionOfSalaries.R">Code [R]</a>
 
-**Examples of charts produced by the R code:**
+**Examples of charts produced by the R code (worst example on the left, best example on the right):**
 
-<a href="Distribution/DistributionOfSalaries/bar-chart-horizontal-sorted-ascending-labels-Madrid.pdf">Chart 1 [pdf]</a>
+<a href="Distribution/DistributionOfSalaries/01-linechart-with-multiple-problems.pdf">Chart 1 [pdf]</a> 
+; 
+<a href="Distribution/DistributionOfSalaries/02-barchart-vertical-unsorted-unformatted.pdf">Chart 2 [pdf]</a> 
+; 
+<a href="Distribution/DistributionOfSalaries/03-barchart-vertical-descending.pdf">Chart 3 [pdf]</a> 
+; 
+<a href="Distribution/DistributionOfSalaries/04-barchart-vertical-ascending.pdf">Chart 4 [pdf]</a> ; 
+<a href="Distribution/DistributionOfSalaries/05-barchart-horizontal-descending.pdf">Chart 5 [pdf]</a> 
 ;
-<a href="Distribution/DistributionOfSalaries/bar-chart-horizontal-sorted-ascending-Madrid.pdf">Chart 2 [pdf]</a>
-;
-<a href="Distribution/DistributionOfSalaries/bar-chart-horizontal-sorted-descending-Madrid.pdf">Chart 3 [pdf]</a>
-;
-<a href="Distribution/DistributionOfSalaries/bar-chart-horizontal-unsorted-Madrid.pdf">Chart 4 [pdf]</a>
-;
-<a href="Distribution/DistributionOfSalaries/bar-chart-vertical-sorted-ascending-Madrid.pdf">Chart 5 [pdf]</a>
-;
-<a href="Distribution/DistributionOfSalaries/bar-chart-vertical-sorted-descending-Madrid.pdf">Chart 6 [pdf]</a>
-;
-<a href="Distribution/DistributionOfSalaries/bar-chart-vertical-unsorted-Madrid.pdf">Chart 7 [pdf]</a>
+<a href="Distribution/DistributionOfSalaries/06-barchart-horizontal-ascending.pdf">Chart 6 [pdf]</a> 
+; 
+<a href="Distribution/DistributionOfSalaries/07-barchart-horizontal-ascending-colors.pdf">Chart 7 [pdf]</a> 
+; 
+<a href="Distribution/DistributionOfSalaries/08-barchart-horizontal-ascending-set1.pdf">Chart 8 [pdf]</a> 
+; 
+<a href="Distribution/DistributionOfSalaries/09-barchart-horizontal-ascending-blues.pdf">Chart 9 [pdf]</a>
+; 
+<a href="Distribution/DistributionOfSalaries/10-barchart-horizontal-ascending-gradient-blues.pdf">Chart 10 [pdf]</a>
+; 
+<a href="Distribution/DistributionOfSalaries/11-barchart-horizontal-ascending-gradient-reds.pdf">Chart 11 [pdf]</a> 
+; 
+<a href="Distribution/DistributionOfSalaries/12-barchart-Real-Madrid.pdf">Chart 12 [pdf]</a>
+
 
 #### Chapter 11
 

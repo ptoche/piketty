@@ -90,7 +90,7 @@ $$
 
 - The U-shaped $B/Y$ curve results from the 3 U-shaped curves associated with the 3 forces of $\beta$, $m$, $\mu$. 
 - `1`. $\mu$: In a society where the primary purpose of wealth is to finance retirement and elderly individuals consume the wealth accumulated during their working lives &mdash; the 'life-cycle theory' of Franco Modigliani &mdash; then $\mu$ would be very small. Individuals derive no utility in dying with positive wealth and would even aim for $\mu < 0$ if allowed to.
-- `2`. $m$: Typical mortality rates fell from 2% of the adult population in the 1850 to 1% in 2010.
+- `2`. $m$: Typical mortality rates fell from 2% of the adult population in 1850 to 1% in 2010.
 - `3`. $\beta$: The level of 'human wealth' has risen over time, but the importance of non-human wealth has risen in proportion, and inherited wealth has retained its importance.
 
 ---

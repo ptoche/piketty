@@ -70,7 +70,7 @@ source('../../shared/shared.R')
 
 ### Education
 
-- The supply of skills depends on the education.
+- The supply of skills depends on the level of education.
 - So does the demand for skills, since only educated managers will be able to design and/or adopt the leading edge technologies.
 - Education depends on public policy, family finance, education costs.
 - Technology depends on innovation, implementation, investment. 
@@ -121,7 +121,7 @@ source('../../shared/shared.R')
 
 ### Minimum Wage Policies
 
-- Figure 9.1 show the minimum wage in the United States and France. The minimum wage has an impact at the bottom of the distribution, where inequalities have closely followed the evolution of the minimum wage, but much less influence at the top, where other forces are at work.
+- Figure 9.1 shows the minimum wage in the United States and France. The minimum wage has an impact at the bottom of the distribution, where inequalities have closely followed the evolution of the minimum wage, but much less influence at the top, where other forces are at work.
 - The United States raised the minimum wage through the 1950s and 1960s but froze it in the 1970s. The minimum wage reached its maximum purchasing power in 1969 (\\$1.60 an hour &mdash; or \\$10.10 in 2013 dollars), when the unemployment rate was below 4%. France froze the minimum wage in the 1950s and 1960s, but raised it through the 1970s.
 - From 1980 to 1990, under Reagan and George H. Bush, the purchasing power of the federal minimum wage fell dramatically. It rose under Bill Clinton, fell under George W. Bush, rose under Obama. In 2013 it was \\$7.25 an hour &mdash; one third below the French minimum wage.
 
@@ -173,7 +173,7 @@ source('../../shared/shared.R')
 - Data about individual firms cannot explain observed variations in terms of firm performance, as measured by sales growth, profit, and so on. 
 - Compensation depends on country-specific norms. Since the 1980s social norms have become more tolerant of generous pay packages.
 - Bertrand and Mullainathan (*QJE*, 2001) explain CEO compensation as 'pay for luck': when sales and profits rise for reasons external to the firm, executive compensation rises most rapidly.
-- Senior managers of large firms is on several boards and, as part of a network, set their own compensation! 
+- Senior managers of large firms are on several boards and, as part of a network, set their own compensation! 
 
 ---
 
