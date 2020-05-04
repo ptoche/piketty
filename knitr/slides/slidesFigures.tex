@@ -11,6 +11,7 @@
 %%% By selecting relevant frames, this document replicates a December 2014 presentation at Sao Paulo by Thomas Piketty.
 %%% The 'SaoPaulo' directory contains pdf of original powerpoint for reference.
 %%% based on https://github.com/jtleek/capitalIn21stCenturyinR
+%%% minor updates to keep up with ggplot2 updated syntax: August 2018
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -68,6 +69,7 @@
 \newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
 \newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
 \newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
 
 \usepackage{framed}
 \makeatletter
@@ -103,8 +105,7 @@
 %%%%%%%%%% Set Document Information %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{Capital in the 21st Century}
 \author[Thomas Piketty]{Thomas Piketty\inst{1}\inst{2}}
-\institute{$^1$Paris School of Economics \\
-  Sao Paulo, 26 November 2014 \bigskip\bigskip \\
+\institute{$^1$Paris School of Economics \bigskip\bigskip \\
   $^2$translated to beamer via knitr by Patrick Toche \\
   \href{mailto:contact@patricktoche.com}{contact@patricktoche.com} \\
   Based on collaborative effort led by Jeff Leek \\
@@ -176,7 +177,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_0_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_0_1} 
 
 }
 
@@ -199,7 +200,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_0_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_0_2} 
 
 }
 
@@ -222,7 +223,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_1_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_1_1} 
 
 }
 
@@ -245,7 +246,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_1_1b} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_1_1b} 
 
 }
 
@@ -268,7 +269,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_1_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_1_2} 
 
 }
 
@@ -291,7 +292,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_1_2b} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_1_2b} 
 
 }
 
@@ -314,7 +315,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_1_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_1_3} 
 
 }
 
@@ -337,7 +338,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_1_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_1_4} 
 
 }
 
@@ -360,7 +361,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_1_5} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_1_5} 
 
 }
 
@@ -383,7 +384,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_S1_4a} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_S1_4a} 
 
 }
 
@@ -406,7 +407,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_S1_4b} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_S1_4b} 
 
 }
 
@@ -429,7 +430,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_S1_5a} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_S1_5a} 
 
 }
 
@@ -452,7 +453,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_S1_5b} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_S1_5b} 
 
 }
 
@@ -475,7 +476,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_S1_5c} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_S1_5c} 
 
 }
 
@@ -498,7 +499,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_2_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_2_1} 
 
 }
 
@@ -521,7 +522,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_2_1b} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_2_1b} 
 
 }
 
@@ -537,14 +538,14 @@
 
 %%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[label=Figure_2_2S]
-\frametitle{Figure 2.2S. The growth rate of population from Antiquity to 2100}
+\frametitle{Figure 2.2S. Growth rate of population from Antiquity to 2100}
 \begin{figure}[t]
 \begin{minipage}[b]{\textwidth}
 \centering
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_2_2S} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_2_2S} 
 
 }
 
@@ -567,7 +568,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_2_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_2_2} 
 
 }
 
@@ -590,7 +591,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_2_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_2_3} 
 
 }
 
@@ -613,7 +614,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_2_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_2_4} 
 
 }
 
@@ -636,7 +637,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_2_5} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_2_5} 
 
 }
 
@@ -659,7 +660,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_2_6} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_2_6} 
 
 }
 
@@ -682,7 +683,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_3_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_3_1} 
 
 }
 
@@ -705,7 +706,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_3_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_3_2} 
 
 }
 
@@ -728,7 +729,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_3_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_3_3} 
 
 }
 
@@ -751,7 +752,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_3_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_3_4} 
 
 }
 
@@ -774,7 +775,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_3_5} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_3_5} 
 
 }
 
@@ -797,7 +798,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_3_6} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_3_6} 
 
 }
 
@@ -820,7 +821,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_1} 
 
 }
 
@@ -843,7 +844,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_2} 
 
 }
 
@@ -866,7 +867,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_3} 
 
 }
 
@@ -889,7 +890,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_4} 
 
 }
 
@@ -912,7 +913,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_5} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_5} 
 
 }
 
@@ -935,7 +936,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_6} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_6} 
 
 }
 
@@ -958,7 +959,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_7} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_7} 
 
 }
 
@@ -981,7 +982,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_8} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_8} 
 
 }
 
@@ -1004,7 +1005,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_9} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_9} 
 
 }
 
@@ -1027,7 +1028,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_10} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_10} 
 
 }
 
@@ -1050,7 +1051,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_4_11} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_4_11} 
 
 }
 
@@ -1073,7 +1074,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_1} 
 
 }
 
@@ -1096,7 +1097,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_2} 
 
 }
 
@@ -1119,7 +1120,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_3} 
 
 }
 
@@ -1142,7 +1143,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_3S} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_3S} 
 
 }
 
@@ -1165,7 +1166,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_4} 
 
 }
 
@@ -1188,7 +1189,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_4S} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_4S} 
 
 }
 
@@ -1211,7 +1212,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_5X} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_5X} 
 
 }
 
@@ -1234,7 +1235,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_5XS} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_5XS} 
 
 }
 
@@ -1255,14 +1256,10 @@
 \begin{minipage}[b]{\textwidth}
 \centering
 \begin{knitrout}\footnotesize
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
-
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_5} 
-
-}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 
 
-
+{\ttfamily\noindent\bfseries\color{errorcolor}{Error in theme(legend.position = c(0.22, 0.85), legend.title = element\_blank(), : formal argument "{}legend.title"{} matched by multiple actual arguments}}\end{kframe}
 \end{knitrout}
 \caption{In Italy, private capital rose from 240\% to 680\% in national income between 1970 and 2010, while public capital dropped from 20\% to -70\%.}
 \end{minipage}
@@ -1280,7 +1277,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_6} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_6} 
 
 }
 
@@ -1303,7 +1300,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_7} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_7} 
 
 }
 
@@ -1326,7 +1323,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_7S} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_7S} 
 
 }
 
@@ -1349,7 +1346,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_5_8} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_5_8} 
 
 }
 
@@ -1372,7 +1369,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=\maxwidth]{figures/bw/Figure_S5_6} 
+{\centering \includegraphics[width=\maxwidth]{figures/color/Figure_S5_6} 
 
 }
 
@@ -1395,7 +1392,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=\maxwidth]{figures/bw/Figure_S5_7} 
+{\centering \includegraphics[width=\maxwidth]{figures/color/Figure_S5_7} 
 
 }
 
@@ -1418,7 +1415,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=\maxwidth]{figures/bw/Figure_S5_8} 
+{\centering \includegraphics[width=\maxwidth]{figures/color/Figure_S5_8} 
 
 }
 
@@ -1441,7 +1438,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=\maxwidth]{figures/bw/Figure_S5_9} 
+{\centering \includegraphics[width=\maxwidth]{figures/color/Figure_S5_9} 
 
 }
 
@@ -1464,7 +1461,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=\maxwidth]{figures/bw/Figure_S5_10} 
+{\centering \includegraphics[width=\maxwidth]{figures/color/Figure_S5_10} 
 
 }
 
@@ -1487,7 +1484,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=\maxwidth]{figures/bw/Figure_S5_11} 
+{\centering \includegraphics[width=\maxwidth]{figures/color/Figure_S5_11} 
 
 }
 
@@ -1510,7 +1507,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_6_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_6_1} 
 
 }
 
@@ -1533,7 +1530,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_6_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_6_2} 
 
 }
 
@@ -1556,7 +1553,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_6_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_6_3} 
 
 }
 
@@ -1579,7 +1576,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_6_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_6_4} 
 
 }
 
@@ -1602,7 +1599,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_6_5} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_6_5} 
 
 }
 
@@ -1625,7 +1622,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_6_6} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_6_6} 
 
 }
 
@@ -1648,7 +1645,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_6_7} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_6_7} 
 
 }
 
@@ -1671,7 +1668,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_6_8} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_6_8} 
 
 }
 
@@ -1694,7 +1691,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_6_8S} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_6_8S} 
 
 }
 
@@ -1717,7 +1714,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_7_1X} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_7_1X} 
 
 }
 
@@ -1740,7 +1737,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_8_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_1} 
 
 }
 
@@ -1763,7 +1760,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_8_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_2} 
 
 }
 
@@ -1786,7 +1783,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_8_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_3} 
 
 }
 
@@ -1809,7 +1806,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_8_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_4} 
 
 }
 
@@ -1832,7 +1829,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_8_5} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_5} 
 
 }
 
@@ -1856,7 +1853,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_8_6} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_6} 
 
 }
 
@@ -1879,7 +1876,30 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_8_7} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_7} 
+
+}
+
+
+
+\end{knitrout}
+\caption{The rise of income inequality since the 1970s is largely due to the rise of wage inequality.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_8_7S,fragile]
+\frametitle{Figure 8.7S. High incomes and high wages in the United States, 1910--2010}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering
+\begin{knitrout}\footnotesize
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_7S} 
 
 }
 
@@ -1902,7 +1922,30 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_8_8} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_8} 
+
+}
+
+
+
+\end{knitrout}
+\caption{The rise in the top 1 percent highest incomes since the 1970s is largely due to the rise in the top 1 percent highest wages.}
+\end{minipage}
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Frame Here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=Figure_8_8S,fragile]
+\frametitle{Figure 8.8S. The transformation of the top 1 percent in the United States, 1910--2010}
+\begin{figure}[t]
+\begin{minipage}[b]{\textwidth}
+\centering 
+\begin{knitrout}\footnotesize
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_8S} 
 
 }
 
@@ -1925,7 +1968,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_8_9} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_9} 
 
 }
 
@@ -1948,7 +1991,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_8_10} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_8_10} 
 
 }
 
@@ -1972,7 +2015,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_1} 
 
 }
 
@@ -1995,7 +2038,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=\maxwidth]{figures/bw/Figure_S9_1} 
+{\centering \includegraphics[width=\maxwidth]{figures/color/Figure_S9_1} 
 
 }
 
@@ -2018,7 +2061,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=\maxwidth]{figures/bw/Figure_S9_2} 
+{\centering \includegraphics[width=\maxwidth]{figures/color/Figure_S9_2} 
 
 }
 
@@ -2041,7 +2084,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_2} 
 
 }
 
@@ -2064,7 +2107,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_3} 
 
 }
 
@@ -2087,7 +2130,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_4} 
 
 }
 
@@ -2110,7 +2153,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_5} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_5} 
 
 }
 
@@ -2133,7 +2176,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_5X} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_5X} 
 
 }
 
@@ -2156,7 +2199,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_6} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_6} 
 
 }
 
@@ -2179,7 +2222,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_6X} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_6X} 
 
 }
 
@@ -2202,7 +2245,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_7} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_7} 
 
 }
 
@@ -2225,7 +2268,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_7X} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_7X} 
 
 }
 
@@ -2248,7 +2291,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_8} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_8} 
 
 }
 
@@ -2271,7 +2314,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_9_9} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_9_9} 
 
 }
 
@@ -2294,7 +2337,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_1} 
 
 }
 
@@ -2317,7 +2360,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_1S} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_1S} 
 
 }
 
@@ -2340,7 +2383,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_2} 
 
 }
 
@@ -2363,7 +2406,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_3} 
 
 }
 
@@ -2386,7 +2429,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_3S} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_3S} 
 
 }
 
@@ -2409,7 +2452,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_4} 
 
 }
 
@@ -2432,7 +2475,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_4S} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_4S} 
 
 }
 
@@ -2455,7 +2498,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_5} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_5} 
 
 }
 
@@ -2478,7 +2521,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_5S} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_5S} 
 
 }
 
@@ -2501,7 +2544,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_6} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_6} 
 
 }
 
@@ -2524,7 +2567,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_6S} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_6S} 
 
 }
 
@@ -2547,7 +2590,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_7} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_7} 
 
 }
 
@@ -2570,7 +2613,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_8} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_8} 
 
 }
 
@@ -2593,7 +2636,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_9} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_9} 
 
 }
 
@@ -2616,7 +2659,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_10} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_10} 
 
 }
 
@@ -2639,7 +2682,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_10_11} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_10_11} 
 
 }
 
@@ -2662,7 +2705,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_1} 
 
 }
 
@@ -2685,7 +2728,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_2} 
 
 }
 
@@ -2708,7 +2751,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_3} 
 
 }
 
@@ -2731,7 +2774,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_4} 
 
 }
 
@@ -2754,7 +2797,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_5} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_5} 
 
 }
 
@@ -2777,7 +2820,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_6} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_6} 
 
 }
 
@@ -2800,7 +2843,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_7} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_7} 
 
 }
 
@@ -2823,7 +2866,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_8} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_8} 
 
 }
 
@@ -2846,7 +2889,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_9} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_9} 
 
 }
 
@@ -2869,7 +2912,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_10} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_10} 
 
 }
 
@@ -2892,7 +2935,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_11} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_11} 
 
 }
 
@@ -2915,7 +2958,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_11_12} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_11_12} 
 
 }
 
@@ -2939,7 +2982,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_12_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_12_1} 
 
 }
 
@@ -2963,7 +3006,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_12_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_12_2} 
 
 }
 
@@ -2986,7 +3029,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_12_3} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_12_3} 
 
 }
 
@@ -3009,7 +3052,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_12_4} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_12_4} 
 
 }
 
@@ -3032,7 +3075,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_12_5} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_12_5} 
 
 }
 
@@ -3055,7 +3098,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_12_6} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_12_6} 
 
 }
 
@@ -3078,7 +3121,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_13_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_13_1} 
 
 }
 
@@ -3101,7 +3144,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_14_1} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_14_1} 
 
 }
 
@@ -3124,7 +3167,7 @@
 \begin{knitrout}\footnotesize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=1\linewidth]{figures/bw/Figure_14_2} 
+{\centering \includegraphics[width=1\linewidth]{figures/color/Figure_14_2} 
 
 }
 
